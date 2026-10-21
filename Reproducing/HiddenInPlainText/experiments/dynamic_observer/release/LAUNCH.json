@@ -1,0 +1,253 @@
+{
+  "name": "uni_dynamic_observer_20261021T220915Z",
+  "status": "submitted_validation_pending",
+  "local_source": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/launches/uni_dynamic_observer_20261021T220915Z",
+  "remote_source": "/orcd/pool/003/kirilb/Steganography/releases/uni_dynamic_observer_20261021T220915Z",
+  "configurations": [
+    {
+      "gpu": "H100",
+      "k": 0,
+      "config": "launches/uni_dynamic_observer_20261021T220915Z/configs/dynamic_h100_k0.json",
+      "remote_config": "/orcd/pool/003/kirilb/Steganography/releases/uni_dynamic_observer_20261021T220915Z/configs/dynamic_h100_k0.json",
+      "config_digest": "4f870ed80a3e32a30d9635c949ec0737d14f57ecb5a089eec32abfbe687ecea7",
+      "run_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/runs/uni_dynamic_observer_20261021T220915Z/h100/k0",
+      "validation_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/diagnostics/uni_dynamic_observer_20261021T220915Z/h100"
+    },
+    {
+      "gpu": "H100",
+      "k": 1,
+      "config": "launches/uni_dynamic_observer_20261021T220915Z/configs/dynamic_h100_k1.json",
+      "remote_config": "/orcd/pool/003/kirilb/Steganography/releases/uni_dynamic_observer_20261021T220915Z/configs/dynamic_h100_k1.json",
+      "config_digest": "4df13d6ef25ea38cf17a5b31adc862e8e26b95dd05fd4a7851b24bf160cd9a88",
+      "run_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/runs/uni_dynamic_observer_20261021T220915Z/h100/k1",
+      "validation_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/diagnostics/uni_dynamic_observer_20261021T220915Z/h100"
+    },
+    {
+      "gpu": "H100",
+      "k": 2,
+      "config": "launches/uni_dynamic_observer_20261021T220915Z/configs/dynamic_h100_k2.json",
+      "remote_config": "/orcd/pool/003/kirilb/Steganography/releases/uni_dynamic_observer_20261021T220915Z/configs/dynamic_h100_k2.json",
+      "config_digest": "cca3e40c6aa1c463eef7ed923d33e687d1dcef74862d89147b1b05fa1f59a038",
+      "run_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/runs/uni_dynamic_observer_20261021T220915Z/h100/k2",
+      "validation_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/diagnostics/uni_dynamic_observer_20261021T220915Z/h100"
+    },
+    {
+      "gpu": "H100",
+      "k": 4,
+      "config": "launches/uni_dynamic_observer_20261021T220915Z/configs/dynamic_h100_k4.json",
+      "remote_config": "/orcd/pool/003/kirilb/Steganography/releases/uni_dynamic_observer_20261021T220915Z/configs/dynamic_h100_k4.json",
+      "config_digest": "fe283c7cbdd7a4bba1f629c389d1983eaf0dab49569376e2d8360a1997c60707",
+      "run_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/runs/uni_dynamic_observer_20261021T220915Z/h100/k4",
+      "validation_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/diagnostics/uni_dynamic_observer_20261021T220915Z/h100"
+    },
+    {
+      "gpu": "H100",
+      "k": 8,
+      "config": "launches/uni_dynamic_observer_20261021T220915Z/configs/dynamic_h100_k8.json",
+      "remote_config": "/orcd/pool/003/kirilb/Steganography/releases/uni_dynamic_observer_20261021T220915Z/configs/dynamic_h100_k8.json",
+      "config_digest": "ed48a9c3236e7497603ed346107371d8aeaa72906ad986e0655f85b75f1b802e",
+      "run_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/runs/uni_dynamic_observer_20261021T220915Z/h100/k8",
+      "validation_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/diagnostics/uni_dynamic_observer_20261021T220915Z/h100"
+    },
+    {
+      "gpu": "H200",
+      "k": 0,
+      "config": "launches/uni_dynamic_observer_20261021T220915Z/configs/dynamic_h200_k0.json",
+      "remote_config": "/orcd/pool/003/kirilb/Steganography/releases/uni_dynamic_observer_20261021T220915Z/configs/dynamic_h200_k0.json",
+      "config_digest": "d87aa19a08bc72f0a85899a727bdf45920896a1d8064e66f3619cacfa088b525",
+      "run_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/runs/uni_dynamic_observer_20261021T220915Z/h200/k0",
+      "validation_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/diagnostics/uni_dynamic_observer_20261021T220915Z/h200"
+    },
+    {
+      "gpu": "H200",
+      "k": 1,
+      "config": "launches/uni_dynamic_observer_20261021T220915Z/configs/dynamic_h200_k1.json",
+      "remote_config": "/orcd/pool/003/kirilb/Steganography/releases/uni_dynamic_observer_20261021T220915Z/configs/dynamic_h200_k1.json",
+      "config_digest": "db85a016b5e233a17a886fa7ba35b2c94977df0cab9387f9cd7f85faced3b364",
+      "run_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/runs/uni_dynamic_observer_20261021T220915Z/h200/k1",
+      "validation_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/diagnostics/uni_dynamic_observer_20261021T220915Z/h200"
+    },
+    {
+      "gpu": "H200",
+      "k": 2,
+      "config": "launches/uni_dynamic_observer_20261021T220915Z/configs/dynamic_h200_k2.json",
+      "remote_config": "/orcd/pool/003/kirilb/Steganography/releases/uni_dynamic_observer_20261021T220915Z/configs/dynamic_h200_k2.json",
+      "config_digest": "16714e0c2013c118d70c56c7b9de080d91bf8914be0aaf08ec628622ab0c4fd3",
+      "run_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/runs/uni_dynamic_observer_20261021T220915Z/h200/k2",
+      "validation_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/diagnostics/uni_dynamic_observer_20261021T220915Z/h200"
+    },
+    {
+      "gpu": "H200",
+      "k": 4,
+      "config": "launches/uni_dynamic_observer_20261021T220915Z/configs/dynamic_h200_k4.json",
+      "remote_config": "/orcd/pool/003/kirilb/Steganography/releases/uni_dynamic_observer_20261021T220915Z/configs/dynamic_h200_k4.json",
+      "config_digest": "9a0c2bfdcb789cd831f36255378d86a32bb360908d2c55c697012ad5e949bb24",
+      "run_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/runs/uni_dynamic_observer_20261021T220915Z/h200/k4",
+      "validation_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/diagnostics/uni_dynamic_observer_20261021T220915Z/h200"
+    },
+    {
+      "gpu": "H200",
+      "k": 8,
+      "config": "launches/uni_dynamic_observer_20261021T220915Z/configs/dynamic_h200_k8.json",
+      "remote_config": "/orcd/pool/003/kirilb/Steganography/releases/uni_dynamic_observer_20261021T220915Z/configs/dynamic_h200_k8.json",
+      "config_digest": "4120dec1f7a982443962028a0a723a8baaaa67e12f45e4d8379a1dc48dd4a072",
+      "run_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/runs/uni_dynamic_observer_20261021T220915Z/h200/k8",
+      "validation_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/diagnostics/uni_dynamic_observer_20261021T220915Z/h200"
+    }
+  ],
+  "settings": [
+    0,
+    1,
+    2,
+    4,
+    8
+  ],
+  "cycles": 200,
+  "shared_spec": {
+    "cycles": 200,
+    "evaluation_cycles": 10,
+    "receiver_updates_per_cycle": 2,
+    "sender_updates_per_cycle": 5,
+    "receiver_batch": 256,
+    "sender_batch": 192,
+    "observer_batch": 256,
+    "observer_rank": 16,
+    "observer_alpha": 16,
+    "observer_dropout": 0.05,
+    "observer_learning_rate": 2e-05,
+    "observer_micro_batch_size": 1,
+    "observer_seed": 0,
+    "observer_sampling_seed": 20261021,
+    "observer_precision": "BF16 dequantized pinned FP8 checkpoint",
+    "lambda_": 1.0,
+    "character_coefficient": 0.1,
+    "character_denominator": 20,
+    "receiver_filter": false,
+    "observer_data": "current-cycle unfiltered receiver+sender summaries; 256 sampled independently per observer step",
+    "observer_targets": "text-model Linear modules except LM head",
+    "observer_loss": "two-class normalized Bad/Good cross-entropy",
+    "sender_initialization": "bafa15aa893985940993b5e2baeaa96e5c2d2b88803d0848c62649e97712f43b"
+  },
+  "jobs": [
+    {
+      "job_id": "26539915",
+      "job_name": "dyn21-h200-check",
+      "mode": "validate",
+      "gpu": "H200",
+      "k": 1,
+      "run_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/diagnostics/uni_dynamic_observer_20261021T220915Z/h200/run",
+      "config": "/orcd/pool/003/kirilb/Steganography/releases/uni_dynamic_observer_20261021T220915Z/configs/dynamic_h200_k1.json",
+      "config_digest": "db85a016b5e233a17a886fa7ba35b2c94977df0cab9387f9cd7f85faced3b364",
+      "dependency": null,
+      "validation_path": "/orcd/scratch/orcd/003/kirilb/Steganography/diagnostics/uni_dynamic_observer_20261021T220915Z/h200/VALIDATION.json"
+    },
+    {
+      "job_id": "26539917",
+      "job_name": "dyn21-h100-check",
+      "mode": "validate",
+      "gpu": "H100",
+      "k": 1,
+      "run_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/diagnostics/uni_dynamic_observer_20261021T220915Z/h100/run",
+      "config": "/orcd/pool/003/kirilb/Steganography/releases/uni_dynamic_observer_20261021T220915Z/configs/dynamic_h100_k1.json",
+      "config_digest": "4df13d6ef25ea38cf17a5b31adc862e8e26b95dd05fd4a7851b24bf160cd9a88",
+      "dependency": null,
+      "validation_path": "/orcd/scratch/orcd/003/kirilb/Steganography/diagnostics/uni_dynamic_observer_20261021T220915Z/h100/VALIDATION.json"
+    },
+    {
+      "job_id": "26539918",
+      "job_name": "dyn21-h200-k0",
+      "mode": "train",
+      "gpu": "H200",
+      "k": 0,
+      "run_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/runs/uni_dynamic_observer_20261021T220915Z/h200/k0",
+      "config": "/orcd/pool/003/kirilb/Steganography/releases/uni_dynamic_observer_20261021T220915Z/configs/dynamic_h200_k0.json",
+      "config_digest": "d87aa19a08bc72f0a85899a727bdf45920896a1d8064e66f3619cacfa088b525",
+      "dependency": "26539915",
+      "validation_path": "/orcd/scratch/orcd/003/kirilb/Steganography/diagnostics/uni_dynamic_observer_20261021T220915Z/h200/VALIDATION.json"
+    },
+    {
+      "job_id": "26539919",
+      "job_name": "dyn21-h200-k1",
+      "mode": "train",
+      "gpu": "H200",
+      "k": 1,
+      "run_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/runs/uni_dynamic_observer_20261021T220915Z/h200/k1",
+      "config": "/orcd/pool/003/kirilb/Steganography/releases/uni_dynamic_observer_20261021T220915Z/configs/dynamic_h200_k1.json",
+      "config_digest": "db85a016b5e233a17a886fa7ba35b2c94977df0cab9387f9cd7f85faced3b364",
+      "dependency": "26539915",
+      "validation_path": "/orcd/scratch/orcd/003/kirilb/Steganography/diagnostics/uni_dynamic_observer_20261021T220915Z/h200/VALIDATION.json"
+    },
+    {
+      "job_id": "26539921",
+      "job_name": "dyn21-h200-k2",
+      "mode": "train",
+      "gpu": "H200",
+      "k": 2,
+      "run_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/runs/uni_dynamic_observer_20261021T220915Z/h200/k2",
+      "config": "/orcd/pool/003/kirilb/Steganography/releases/uni_dynamic_observer_20261021T220915Z/configs/dynamic_h200_k2.json",
+      "config_digest": "16714e0c2013c118d70c56c7b9de080d91bf8914be0aaf08ec628622ab0c4fd3",
+      "dependency": "26539915",
+      "validation_path": "/orcd/scratch/orcd/003/kirilb/Steganography/diagnostics/uni_dynamic_observer_20261021T220915Z/h200/VALIDATION.json"
+    },
+    {
+      "job_id": "26539923",
+      "job_name": "dyn21-h200-k4",
+      "mode": "train",
+      "gpu": "H200",
+      "k": 4,
+      "run_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/runs/uni_dynamic_observer_20261021T220915Z/h200/k4",
+      "config": "/orcd/pool/003/kirilb/Steganography/releases/uni_dynamic_observer_20261021T220915Z/configs/dynamic_h200_k4.json",
+      "config_digest": "9a0c2bfdcb789cd831f36255378d86a32bb360908d2c55c697012ad5e949bb24",
+      "dependency": "26539915",
+      "validation_path": "/orcd/scratch/orcd/003/kirilb/Steganography/diagnostics/uni_dynamic_observer_20261021T220915Z/h200/VALIDATION.json"
+    },
+    {
+      "job_id": "26539926",
+      "job_name": "dyn21-h200-k8",
+      "mode": "train",
+      "gpu": "H200",
+      "k": 8,
+      "run_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/runs/uni_dynamic_observer_20261021T220915Z/h200/k8",
+      "config": "/orcd/pool/003/kirilb/Steganography/releases/uni_dynamic_observer_20261021T220915Z/configs/dynamic_h200_k8.json",
+      "config_digest": "4120dec1f7a982443962028a0a723a8baaaa67e12f45e4d8379a1dc48dd4a072",
+      "dependency": "26539915",
+      "validation_path": "/orcd/scratch/orcd/003/kirilb/Steganography/diagnostics/uni_dynamic_observer_20261021T220915Z/h200/VALIDATION.json"
+    }
+  ],
+  "authorization": {
+    "observer_training": "LoRA adapters, keep 27B model",
+    "budget": "equal cycles across settings",
+    "k0": "frozen label-decoding observer still enters sender reward"
+  },
+  "other_experiments_modified": false,
+  "submitted_at": 1792621430.682194,
+  "last_check": 1792621450.7939737,
+  "access_state": "existing_authenticated_control_connection",
+  "production_gpu": "H200",
+  "gpu_validation_passed": false,
+  "completed_cycles": 0,
+  "verified_training_update": null,
+  "cpu_preflight": {
+    "tests_passed": 10,
+    "environment": "uni_author_torch240",
+    "source_hashes_verified": 60,
+    "observer_meta_parameters": 27356728560,
+    "observer_bf16_base_gib": 50.955877751111984,
+    "observer_lora_parameters": 116727808,
+    "observer_lora_modules": 496,
+    "label_token_ids": {
+      "Bad": 16579,
+      "Good": 14773
+    },
+    "actual_gpu_fit_verified": false
+  },
+  "scheduling": {
+    "validation": "PENDING Priority",
+    "training": "PENDING Dependency afterok:26539915",
+    "partitions": [
+      "mit_normal_gpu",
+      "mit_preemptable"
+    ],
+    "actual_start_estimate": "Unavailable; earlier read-only estimates are not reserved starts"
+  }
+}

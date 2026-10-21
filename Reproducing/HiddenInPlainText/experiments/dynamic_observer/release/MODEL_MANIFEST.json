@@ -1,0 +1,7 @@
+{
+  "parent_manifest": "PARENT_MODEL_MANIFEST.json",
+  "sender": "unchanged Gemma-2-2B-it LoRA",
+  "receiver": "unchanged full DistilBERT",
+  "observer": "same pinned 27B FP8 checkpoint dequantized to BF16 with FP32 LoRA",
+  "judge": "unchanged frozen Qwen3-4B"
+}

@@ -1,0 +1,82 @@
+{
+  "created_at": "2026-10-04T23:59:19.767249+00:00",
+  "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+  "replaced_job_ids": [
+    "24861423",
+    "24861424",
+    "24861425"
+  ],
+  "replaced_accounting": "24861423|FAILED|1:0\n24861423.batch|FAILED|1:0\n24861423.extern|COMPLETED|0:0\n24861424|CANCELLED|0:0\n24861425|CANCELLED|0:0\n",
+  "reason": "Verified missing observer CUDA headers repaired before any committed update",
+  "repair": {
+    "timestamp": "2026-10-04T23:57:18.099054+00:00",
+    "reason": "Observer launcher compile failed because inherited Conda Triton omits CUDA headers; observer venv lacked cuda.h",
+    "wheel_sha256": "74caf5e34b66d9f3a429af689c1c7128daba1d8208df60e81106b115c00d6fca",
+    "include_path": "/orcd/pool/003/kirilb/Steganography/envs/qwen35_observer/targets/x86_64-linux/include",
+    "header_count": 160,
+    "compile_checks": [
+      {
+        "name": "__triton_launcher",
+        "status": "passed",
+        "source_sha256": "72d713ae302f10519cce74104a233d63db70ade8186b6b8de4fcf9944bc802d2",
+        "object_bytes": 12464
+      },
+      {
+        "name": "cuda_utils",
+        "status": "passed",
+        "source_sha256": "439c1e886fa9eac7346d7523d03ba0a4c52aa4c9b518ea86d8659b5c07eb7dc9",
+        "object_bytes": 23040
+      }
+    ],
+    "ptxas_discovery": "ptxas: NVIDIA (R) Ptx optimizing assembler\nCopyright (c) 2005-2025 NVIDIA Corporation\nBuilt on Fri_Feb_21_20:21:21_PST_2025\nCuda compilation tools, release 12.8, V12.8.93\nBuild cuda_12.8.r12.8/compiler.35583870_0\n",
+    "runtime_manifest_hashes_verified": true,
+    "scientific_settings_changed": false,
+    "limitation": "Host compilation passes; GPU execution and full-model fit still require allocation",
+    "offline_h100_triton_compile": {
+      "status": "passed",
+      "output": "H100 offline Triton compilation passed; cubin bytes 6416",
+      "isolated_cache": true,
+      "uses_libdevice": true,
+      "gpu_execution": false
+    },
+    "wheel_record_headers_verified": true
+  },
+  "full_repair_event": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/runtime_events/qwen_cuda_headers_repair_002.json",
+  "full_repair_sha256": "debd9615c5846b300a73e31ebd5a42de88207d6c88bebe29116e05c89515c1bf",
+  "prior_failure_sha256": "286b13ce73c5ea32e1b2acd38c6f391fa9de0d8b704a40a1cbc30d42d0978b90",
+  "prior_failure_archive": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/runtime_events/qwen_startup_failure_24861423.json",
+  "source": "/orcd/pool/003/kirilb/Steganography/releases/uni_qwen35_27b_20261004T214535Z",
+  "run_dir": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z",
+  "source_hashes_verified": 41,
+  "partitions": [
+    "mit_normal_gpu",
+    "mit_preemptable"
+  ],
+  "cumulative_thresholds": [
+    27900,
+    55800,
+    83700
+  ],
+  "jobs": [
+    {
+      "segment": 1,
+      "job_id": "24862623",
+      "dependency": null,
+      "submitted_at": 1791158359.8699863
+    },
+    {
+      "segment": 2,
+      "job_id": "24862624",
+      "dependency": "afterok:24862623",
+      "submitted_at": 1791158359.9581063
+    },
+    {
+      "segment": 3,
+      "job_id": "24862625",
+      "dependency": "afterok:24862624",
+      "submitted_at": 1791158360.0559642
+    }
+  ],
+  "state": "submitted",
+  "released_at": "2026-10-04T23:59:20.314395+00:00"
+}

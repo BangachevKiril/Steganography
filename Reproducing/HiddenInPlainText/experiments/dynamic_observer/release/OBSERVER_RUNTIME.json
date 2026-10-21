@@ -1,0 +1,8 @@
+{
+  "parent_runtime": "PARENT_OBSERVER_RUNTIME.json",
+  "python": "/orcd/pool/003/kirilb/Steganography/envs/qwen35_observer/bin/python",
+  "torch": "2.10.0",
+  "transformers": "5.2.0",
+  "precision": "explicit dequantize=True to BF16, not FP8 activation execution",
+  "peft": "standard rank16 additive LoRA implemented locally using torch.nn.Linear; no environment modification"
+}

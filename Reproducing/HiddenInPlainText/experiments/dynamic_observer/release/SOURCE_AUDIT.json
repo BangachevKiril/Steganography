@@ -1,0 +1,14 @@
+{
+  "parent": "uni_qwen35_27b_20261004T214535Z",
+  "changes": [
+    "probability reward with unchanged character bonus",
+    "unfiltered receiver CE and fixed batches with wraparound",
+    "LoRA binary-label observer with BF16 dequantization",
+    "k0 no optimizer or backward",
+    "equal cycles with post-observer evaluation",
+    "atomic parent/observer checkpoint and restored pool",
+    "validation gate"
+  ],
+  "old_runs_modified": false,
+  "gpu_validation": "pending"
+}
