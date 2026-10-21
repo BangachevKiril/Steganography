@@ -1,0 +1,27 @@
+{
+  "created_at": "2026-10-03T20:40:14.088876+00:00",
+  "experiment_id": "spherical_test_kmeans_1076_20261003T204014Z",
+  "local_results": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z",
+  "local_source": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/experiments/spherical_test_kmeans_1076",
+  "models": {
+    "gemma_trained": {
+      "local_results": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/gemma_trained",
+      "model_name": "Trained Gemma sender",
+      "plan": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/gemma_trained/analysis_plan.json",
+      "plan_sha256": "f7a88bfed904e057f3592837c604fa4017ca7ced3feedef37ff813a0b203a0e4"
+    },
+    "gemma_untrained": {
+      "local_results": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/gemma_untrained",
+      "model_name": "Original pretrained Gemma",
+      "plan": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/gemma_untrained/analysis_plan.json",
+      "plan_sha256": "b55c0d46101187f1a4ac86bd9470a0db8dfec986f59b960358a99034139724eb"
+    },
+    "qwen25_3b": {
+      "local_results": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/qwen25_3b",
+      "model_name": "Qwen2.5-3B-Instruct",
+      "plan": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/qwen25_3b/analysis_plan.json",
+      "plan_sha256": "52b056d81d9ba3d97c9d39d137f73dc5154bc1bade63c9aab961a57db863e8dd"
+    }
+  },
+  "status": "PLANNED"
+}

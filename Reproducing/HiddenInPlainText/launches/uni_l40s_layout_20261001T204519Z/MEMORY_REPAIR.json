@@ -1,0 +1,26 @@
+{
+  "name": "uni_l40s_layout_20261001T204519Z",
+  "status": "preparing",
+  "repair": "PPO saved-tensor CPU offload preserving complete storage and original view layout; exact CUDA parity before model loading",
+  "training_run": "/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z",
+  "training_source": "/orcd/pool/003/kirilb/Steganography/releases/uni_rl_20260930T195244Z",
+  "hardware_launcher": "/orcd/pool/003/kirilb/Steganography/releases/uni_l40s_continue_20261001T201547Z/university_l40s_training.py",
+  "hardware_launcher_sha256": "17dbf6d322d3bc5cac719c0a1ebef701e88e4a25d6ec4e9a302268a414f91565",
+  "remote_source": "/orcd/pool/003/kirilb/Steganography/releases/uni_l40s_layout_20261001T204519Z",
+  "local_source": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/launches/uni_l40s_layout_20261001T204519Z",
+  "failed_job_id": "24575515",
+  "resume_update": 82,
+  "checkpoint_state_sha256": "edc4a904a5d7ce36ec18b509d60732d2be862d16786f74571bf84ba78ca3dd2b",
+  "config_digest": "a430c084d01dc638190691b34614ff595f8d788bb6172728f04aebe2a50c503b",
+  "max_active_seconds": 27900,
+  "remaining_active_seconds": 26093.816593688913,
+  "created_at": "2026-10-01T20:45:19.710547+00:00",
+  "source_preserved": true,
+  "scientific_settings_changed": false,
+  "runtime_repair_in_progress": true,
+  "previous_attempt_record": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/launches/uni_l40s_memory_20261001T203042Z/MEMORY_REPAIR.json",
+  "launcher_sha256": {
+    "university_l40s_memory_training.py": "9ce57ee0ff9a043273f80a75424a80bdf8a97189e0ccaedb00dce2f0f9e9b2c4",
+    "university_l40s_memory_training.slurm": "1da2b1ebf11e2ff19981fac6cb92f4a36d685fe8f04e64c0348f65cdebbb09b0"
+  }
+}

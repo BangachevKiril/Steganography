@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-06T15:43:17.521103+00:00",
+  "status": "complete",
+  "completed_update": 1440,
+  "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+  "fixed_cumulative_thresholds": [
+    27900,
+    55800,
+    83700
+  ],
+  "receiver_updates": 412,
+  "sender_updates": 1028,
+  "checkpoint": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_001440",
+  "state_sha256": "72b5ad75cadd99942f810614f00d7cc65f4180cf4333bd7c24e4fc1fde5f46d1",
+  "state_independently_hashed_remotely": true,
+  "evaluation_complete_sha256": "f4af8788f825857e9cd89a1292979d3647f407a78fb1efbd7b78dec1c97d1724",
+  "evaluation_audit": {
+    "path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/monitoring/EVALUATION_001440_VERIFICATION.json",
+    "sha256": "04769be99e0030413e9ef8b97d38ca92f04c3daaf391950863d2b563a45ff68b"
+  },
+  "runtime_audit": {
+    "path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/monitoring/FINAL_RUNTIME_COMPLETION_VERIFICATION.json",
+    "sha256": "ae6fd2eb33b94cc6ae2963df3b8de3bea2370e5b422016491d3b09a5d6230e90"
+  },
+  "global_complete_sha256": "19e361de79b8e55815e5c85fccdcbeb2f41904994ca5dd52559630aee1703443",
+  "global_budget_complete_sha256": "127c63304c288e0c87f282570c1c0ac66bda66d5a613c4c24a15cd113d8314ea",
+  "budget_active_seconds": 83721.13776257541,
+  "completion_active_seconds": 84005.09592508897,
+  "budget_qualification": "Fixed 83,700-second threshold retained. The in-flight update completed before the budget marker, followed by the required final evaluation; no threshold was extended or reset.",
+  "actual_slurm_completed_at": "2026-10-06T15:33:11Z",
+  "jobs": [
+    {
+      "segment": 1,
+      "job_id": "24936931",
+      "dependency": null,
+      "submitted_at": "2026-10-05T15:25:04.845682+00:00",
+      "state": "COMPLETED",
+      "reason": "None",
+      "exit_code": "0:0",
+      "runtime": "01:24:30",
+      "partition": "mit_preemptable",
+      "node": "node4109",
+      "restarts": 2,
+      "requeue_enabled": true,
+      "last_checked": "2026-10-06T15:41:49.681342+00:00",
+      "scheduler_start_estimate": "2026-10-05T22:09:37Z",
+      "actual_started_at": "2026-10-05T22:09:37Z",
+      "requested_resources": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1",
+      "allocated_resources": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1",
+      "actual_ended_at": "2026-10-05T23:34:07Z"
+    },
+    {
+      "segment": 2,
+      "job_id": "24936932",
+      "dependency": "afterok:24936931",
+      "submitted_at": "2026-10-05T15:25:04.935310+00:00",
+      "state": "COMPLETED",
+      "reason": "None",
+      "exit_code": "0:0",
+      "runtime": "01:56:23",
+      "partition": "mit_preemptable",
+      "node": "node2900",
+      "restarts": 1,
+      "requeue_enabled": true,
+      "last_checked": "2026-10-06T15:41:49.681342+00:00",
+      "scheduler_start_estimate": "2026-10-06T05:34:42Z",
+      "requested_resources": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1",
+      "allocated_resources": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1",
+      "actual_started_at": "2026-10-06T05:34:42Z",
+      "actual_ended_at": "2026-10-06T07:31:05Z"
+    },
+    {
+      "segment": 3,
+      "job_id": "24936933",
+      "dependency": "afterok:24936932",
+      "submitted_at": "2026-10-05T15:25:05.024312+00:00",
+      "state": "COMPLETED",
+      "reason": "None",
+      "exit_code": "0:0",
+      "runtime": "02:27:33",
+      "partition": "mit_preemptable",
+      "node": "node3009",
+      "restarts": 2,
+      "requeue_enabled": true,
+      "last_checked": "2026-10-06T15:41:49.681342+00:00",
+      "scheduler_start_estimate": "2026-10-06T13:05:38Z",
+      "requested_resources": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1",
+      "allocated_resources": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1",
+      "actual_started_at": "2026-10-06T13:05:38Z",
+      "actual_ended_at": "2026-10-06T15:33:11Z"
+    }
+  ],
+  "final_metrics": {
+    "C_R_correct": 1998,
+    "C_R_n": 2000,
+    "C_R": 0.999,
+    "C_I_flagged": 0,
+    "C_I_n": 2000,
+    "C_I": 0.0,
+    "receiver_PASS": 1003,
+    "receiver_FAIL": 997,
+    "piqa_judge_rejected": 5,
+    "piqa_format_rejected": 0,
+    "piqa_overlap": 0,
+    "piqa_union_d": 5,
+    "piqa_n": 100,
+    "d": 0.05,
+    "C_R_delta_percentage_points": 49.35,
+    "C_I_delta_percentage_points": -2.6,
+    "delta_d_vs_evaluation0_percentage_points": -3
+  },
+  "C_I_interpretation": "Operational observer flag fraction, not verified transmission accuracy.",
+  "comparison_baseline": "This run evaluation0; historical corrected baseline d8/100 is separate.",
+  "artifacts": {
+    "report.md": {
+      "path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/report.md",
+      "sha256": "5935d01e8e1f9c17477e53011f3104ce468c19c9f13d1843fcc7d18194074672"
+    },
+    "plots/verified_evaluation_curves.png": {
+      "path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/plots/verified_evaluation_curves.png",
+      "sha256": "d72fb0f2f9ca1f0db5ca2fac6c1ab08517ed682da3c65920f2e3154e616c2a61"
+    },
+    "plots/verified_evaluation_curves.pdf": {
+      "path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/plots/verified_evaluation_curves.pdf",
+      "sha256": "f4d481599ed7e1b3524503e11ef18b792613792cff45c52d8ac64163d3a7ffa4"
+    },
+    "plots/verified_evaluation_metrics.csv": {
+      "path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/plots/verified_evaluation_metrics.csv",
+      "sha256": "55c2359192670703c50b483052782a5d1794b0edc7ee839dceaec0f60358703a"
+    },
+    "plots/plot_verified_evaluations.py": {
+      "path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/plots/plot_verified_evaluations.py",
+      "sha256": "ca6b274c065e214e5827f107daedcafd77c7fdff904036a95cb9a14a0441f6a2"
+    },
+    "plots/PROVENANCE.json": {
+      "path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/plots/PROVENANCE.json",
+      "sha256": "b649d66075ef7e8a4facaa1eaf3b418fccddac2263f6e9ab9fccd3e426a1b294"
+    }
+  },
+  "prior_checkpoint_pruning_qualifications_preserved": true
+}

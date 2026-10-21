@@ -1,0 +1,31 @@
+{
+  "status": "COMPLETED",
+  "experiment_id": "gemma_untrained_test_kmeans_1076_20261003T195231Z",
+  "model_name": "Original pretrained Gemma",
+  "local_source": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/experiments/gemma_test_kmeans_1076",
+  "local_results": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/gemma_untrained_test_kmeans_1076_20261003T195231Z",
+  "plan": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/gemma_untrained_test_kmeans_1076_20261003T195231Z/analysis_plan.json",
+  "created_at": "2026-10-03T19:52:31.466214+00:00",
+  "cluster_completion_sha256": "ca90e96e37915875d46dccf950da0f55ca285c26057fd21e91ab1f3dc5de341d",
+  "frozen_at": "2026-10-03T19:52:59.723695+00:00",
+  "both_gemma_clusters_verified_before_evaluation_at": "2026-10-03T19:53:55.486324+00:00",
+  "completed_at": "2026-10-03T19:55:29.951341+00:00",
+  "evaluation_file": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/gemma_untrained_test_kmeans_1076_20261003T195231Z/evaluation/evaluation.json",
+  "evaluation_completion_sha256": "cafd412b751b88492b7d5434c4197a873580ec2579fd4ff4871c61bcf8a4349e",
+  "best_mapping_accuracy": 0.521,
+  "adjusted_rand_index": 0.0007954857673636742,
+  "cluster_label_table": [
+    [
+      216,
+      195
+    ],
+    [
+      284,
+      305
+    ]
+  ],
+  "final_audit_sha256": "6344fbbf5909943044a3a15eb9fb396ded09d8e26526c54c0148a9619c29e6c2",
+  "completion_reported": true,
+  "comparison": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/gemma_trained_test_kmeans_1076_20261003T195231Z/comparison.json",
+  "comparison_sha256": "99ea87cf3b1e92c3a1b88c5b38bbd3708ac389a433b0629f7b802fdae5cfc2ab"
+}

@@ -1,0 +1,360 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-06T15:40:50.158795+00:00",
+  "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+  "scope": "Local read-only verification of final public evidence and frozen-source bindings. Only this audit file is written; no remote calls, Slurm actions, launch changes or helper changes.",
+  "snapshot": {
+    "path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/monitoring/final_plot_source_snapshot.json",
+    "sha256": "239d3b4925f0e0fd28b1544ba9653e530f61268e3da225ea46770d02f31d7473",
+    "public_artifacts_hash_verified": 1952
+  },
+  "prior_runtime_audit": {
+    "path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/monitoring/STAGE3_CATCHUP_RUNTIME_VERIFICATION.json",
+    "sha256": "3a44506ad8df830b192f86f394a400a526fbdab95c6d6a19bd9c44fbe2e2269d",
+    "unchanged_allocation_and_preflight_observer_events": true,
+    "qualifications_preserved": true
+  },
+  "source_provenance": {
+    "original_sources_hash_verified": 41,
+    "model_artifact_hash_identities_verified": 24,
+    "frozen_config_verified": true,
+    "recovery_manifest_sha256": "9fb3bd356069d2d82dcefac7188a73ad57bf3539c23e3d5079ab13ee5c058c89",
+    "authorization_sha256": "c5d01efc8566710ec8cb64faa4224d4965e95f1fbf03507bf3ddd2d36964513c",
+    "runtime_override_only_approved_fp8_hash": true,
+    "all_prior_observer_science_model_runtime_pins_unchanged": true
+  },
+  "current_allocation": {
+    "job_id": "24936933",
+    "restart_count": 2,
+    "node": "node3009",
+    "resumed_update": 1273,
+    "slurm_start_time": "2026-10-06T09:05:38",
+    "allocation_started_at": "2026-10-06T13:05:38Z",
+    "checkpoint": {
+      "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_001273",
+      "marker": {
+        "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+        "completed_update": 1273,
+        "state_sha256": "7b5d396ff6237374ec4896ccea059c35649ae50f0a4e765c10db354b266c285a",
+        "elapsed": 75361.65301800438,
+        "phase": "sender"
+      },
+      "complete_sha256": "c8c1ac5b8311c34e3990f3eee13c786426d0154abbc005e1f50898afdb6eb059"
+    },
+    "preflight_event": "runtime_events/h100_memory_preflight_24936933_1791291964452921628.json",
+    "preflight_sha256": "4371098af140aa907aa08a297ed9540ad57eee7a558105b28d7b52a03b4dc0ab",
+    "observer_event": "runtime_events/qwen_observer_24936933_1791292126944835472.json",
+    "observer_sha256": "7478566f6890df6cf5c8ad099557e8b39cbfaa45546033d0fb2eca746db18668",
+    "observer_started_at": 1791292126.9443095,
+    "observer_started_at_utc": "2026-10-06T13:08:46.944309Z",
+    "offload_event": "runtime_events/h100_memory_24936933_1791292129147072810.json",
+    "offload_sha256": "77db1e1b150d608c3aab3592d7828c097f1ef9ca402815ce37fcb1d9a3d4311e",
+    "offload_enabled_at": 1791292129.1470802,
+    "restored_elapsed_seconds": 75361.65301800438,
+    "public_checkpoint_marker_retained": false,
+    "independent_state_rehash_this_audit": false,
+    "runtime_attested_state_hash_and_restore": true,
+    "initialization_verified": true,
+    "fresh_baseline_initialization": false,
+    "toy_parity_passed": true,
+    "observer_science_model_runtime_and_authorization_pins_passed": true,
+    "cleanup_metadata_modes_rng_passed": true,
+    "last_ppo_attempt": 1379,
+    "last_ppo_status": "completed"
+  },
+  "segments": {
+    "1": {
+      "completed_update": 390,
+      "complete_sha256": "1d0a4fe1f3ffdbca5d134741d22aa0e03aaee311846e9dc7192863ad2449ddcd",
+      "budget_sha256": "62befc38e7bfe7f4f48b089f3dd8391ec65d927746ec2f204ea52f93e75dec39",
+      "active_threshold_seconds": 27900,
+      "total_active_budget_seconds": 83700,
+      "checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000390",
+        "completed_update": 390,
+        "complete_sha256": "d9d01d85c1bea776c6154eefe936df1fd1a6064799072bbae9492ce7a211a6b1",
+        "state_sha256": "de8eba38536c759c71f65b645eb2bddf57fa5104bae507e50f38c3b6dc51ce0f",
+        "elapsed": 27941.067958471365
+      },
+      "evaluation_complete_sha256": "bbd3976eb0e6a2d6f90ca5844da0ff17e77184a6e5fa26b66334aedbf147aeb1",
+      "checkpoint_elapsed_seconds": 27941.067958471365,
+      "budget_active_seconds": 27943.040357485414,
+      "completion_active_seconds": 28194.538099765778,
+      "receiver_updates": 112,
+      "sender_updates": 278
+    },
+    "2": {
+      "completed_update": 886,
+      "complete_sha256": "d8bc87a39c2a652b0b77cbf022dd1848bf2032ac7d5544cd82a6ae6cf191b81a",
+      "budget_sha256": "bb68e2b67492ddef800a2be57179110b74988491d24810f2733cdda0b5bd0768",
+      "active_threshold_seconds": 55800,
+      "total_active_budget_seconds": 83700,
+      "checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000886",
+        "completed_update": 886,
+        "complete_sha256": "8ff3f7f47ef1a505fc278d397a6b7c50a2fd6ee6898b0a41a5e36d300e70d593",
+        "state_sha256": "257d1bc62202c044bdf332f5bb4c7e9b4898b4bc1d33fb98e77cad9a8703123a",
+        "elapsed": 55810.18824111391
+      },
+      "evaluation_complete_sha256": "32215438c9668fb65bf77f8ebb85eeb52035626f00f436450a55aab379569699",
+      "checkpoint_elapsed_seconds": 55810.18824111391,
+      "budget_active_seconds": 55812.55024976563,
+      "completion_active_seconds": 56195.559503004886,
+      "receiver_updates": 254,
+      "sender_updates": 632
+    },
+    "3": {
+      "completed_update": 1440,
+      "complete_sha256": "79ec5406eb9ccaa006c37875e9105205d049711b9f208a4c04febe8937d11ea7",
+      "budget_sha256": "127c63304c288e0c87f282570c1c0ac66bda66d5a613c4c24a15cd113d8314ea",
+      "active_threshold_seconds": 83700,
+      "total_active_budget_seconds": 83700,
+      "checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_001440",
+        "completed_update": 1440,
+        "complete_sha256": "9103756e50d3608e85386b93b576e83e3c7cd27c5b90db55a8edcb6c1c265322",
+        "state_sha256": "72b5ad75cadd99942f810614f00d7cc65f4180cf4333bd7c24e4fc1fde5f46d1",
+        "elapsed": 83718.68101165164
+      },
+      "evaluation_complete_sha256": "f4af8788f825857e9cd89a1292979d3647f407a78fb1efbd7b78dec1c97d1724",
+      "checkpoint_elapsed_seconds": 83718.68101165164,
+      "budget_active_seconds": 83721.13776257541,
+      "completion_active_seconds": 84005.09592508897,
+      "receiver_updates": 412,
+      "sender_updates": 1028
+    }
+  },
+  "global_completion": {
+    "complete_sha256": "19e361de79b8e55815e5c85fccdcbeb2f41904994ca5dd52559630aee1703443",
+    "budget_complete_sha256": "127c63304c288e0c87f282570c1c0ac66bda66d5a613c4c24a15cd113d8314ea",
+    "complete_matches_segment3_with_documented_checkpoint_and_stop_reason_transform": true,
+    "budget_matches_segment3_exactly": true,
+    "completed_update": 1440,
+    "total_active_threshold_seconds": 83700,
+    "final_checkpoint": {
+      "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_001440",
+      "completed_update": 1440,
+      "complete_sha256": "9103756e50d3608e85386b93b576e83e3c7cd27c5b90db55a8edcb6c1c265322",
+      "state_sha256": "72b5ad75cadd99942f810614f00d7cc65f4180cf4333bd7c24e4fc1fde5f46d1",
+      "elapsed": 83718.68101165164
+    },
+    "final_state_hash_verified_remotely_by_snapshot": true,
+    "final_evaluation_complete_sha256": "f4af8788f825857e9cd89a1292979d3647f407a78fb1efbd7b78dec1c97d1724",
+    "final_evaluation_summary_sha256": "292fd7cffee0fd714ffd653dfe98318b118a10f1532cf80f016986e109564507",
+    "receiver_updates": 412,
+    "sender_updates": 1028,
+    "status_updated_at_utc": "2026-10-06T15:32:49.798079Z",
+    "status_sha256": "8991f3f3de9c28bdcf5e0c65f42fc9055af565c24da554230d1998e328721437"
+  },
+  "active_clock": {
+    "schema_version": 1,
+    "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+    "segment": 3,
+    "active_threshold_seconds": 83700,
+    "total_active_budget_seconds": 83700,
+    "checkpoint": {
+      "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_001440",
+      "completed_update": 1440,
+      "complete_sha256": "9103756e50d3608e85386b93b576e83e3c7cd27c5b90db55a8edcb6c1c265322",
+      "state_sha256": "72b5ad75cadd99942f810614f00d7cc65f4180cf4333bd7c24e4fc1fde5f46d1",
+      "elapsed": 83718.68101165164
+    },
+    "active_seconds": 84005.10056398623,
+    "recorded_at": 1791300769.7990224,
+    "sha256": "4ce2c4b1521d610d75c1a7c714d7fe701e39461c788330e63e315f508428c527",
+    "fixed_thresholds": [
+      27900,
+      55800,
+      83700
+    ],
+    "no_threshold_extension_or_rebase": true,
+    "explanation": "The final sender update crosses the fixed83700 threshold at checkpoint elapsed83718.6810. The budget marker records83721.1378. The required final evaluation increases completion active time to84005.0959; the final clock is84005.1006. Threshold remains83700 throughout."
+  },
+  "final_runtime": {
+    "no_new_allocation": true,
+    "no_new_failure": true,
+    "historical_failure_sha256": "70161f30a8b40900ec2f7aa535a6e2ed58009a59869bc1acf82456fb060536ef",
+    "restored_update": 1273,
+    "no_fresh_initialization": true,
+    "preflight_event_sha256": "4371098af140aa907aa08a297ed9540ad57eee7a558105b28d7b52a03b4dc0ab",
+    "observer_event_sha256": "7478566f6890df6cf5c8ad099557e8b39cbfaa45546033d0fb2eca746db18668",
+    "current_observer_sha256": "7478566f6890df6cf5c8ad099557e8b39cbfaa45546033d0fb2eca746db18668",
+    "offload_event_sha256": "c5672cd9bc75f17beff6a4985065128705c656ab4a8366ca5fe71c5ac453a994",
+    "last_committed_ppo_memory": {
+      "attempted_update": 1440,
+      "ppo_call_status": "completed",
+      "error": null,
+      "duration_seconds": 26.031258668750525,
+      "peak_allocated_bytes": 30116999168,
+      "peak_reserved_bytes": 34202451968,
+      "end_device_free_bytes": 18425905152,
+      "device_total_bytes": 85019328512,
+      "end_host_rss_bytes": 99191275520,
+      "saved_tensor_transfers": {
+        "packed_cuda_tensors": 15408,
+        "packed_storage_bytes": 647450094336,
+        "noncontiguous_cuda_tensors": 3744,
+        "nonzero_offset_cuda_tensors": 12,
+        "expanded_cuda_tensors": 0,
+        "unpacked_cuda_tensors": 15180
+      },
+      "note": "PPO-call completion alone does not establish a committed checkpoint."
+    },
+    "new_evaluation_memory_events": [
+      {
+        "path": "runtime_events/h100_eval_memory_24936933_1791298644350175441.json",
+        "sha256": "c932647412990889f8efd9056c3d25ba45caa085fb56dadf0afa18a7ff809df3",
+        "completed_update": 1400,
+        "status": "original_judge_completed",
+        "finished_at_utc": "2026-10-06T14:58:23.530210Z",
+        "parent_cleanup_metadata_rng_verified": true,
+        "observer_cleanup_metadata_modes_rng_verified": true,
+        "checkpoint_complete_sha256": "6b53f9b8568ac0d1fb1ab2ad26f3c81ce8b3b2cfb22c9da105c7de49cc757891",
+        "evaluation_complete_sha256": "7cbadb9cfe93d012f18887ea31a43e00553a702c38ee38c74ac16f8203442824",
+        "cleanup_memory": {
+          "before": {
+            "cuda_allocated_bytes": 11474552320,
+            "cuda_reserved_bytes": 33889976320,
+            "device_free_bytes": 18973261824,
+            "device_total_bytes": 85019328512,
+            "host_rss_bytes": 99180638208
+          },
+          "after": {
+            "cuda_allocated_bytes": 11474552320,
+            "cuda_reserved_bytes": 11546918912,
+            "device_free_bytes": 41316319232,
+            "device_total_bytes": 85019328512,
+            "host_rss_bytes": 99180638208
+          },
+          "gc_collected_objects": 258,
+          "live_tensor_metadata_unchanged": true,
+          "rng_unchanged": true,
+          "live_tensor_metadata_sha256": "e511cc43b7678b5abef7b81f2b2bb45ce94892d6ea7fe6c7f4fd30b0314fea7f"
+        }
+      },
+      {
+        "path": "runtime_events/h100_eval_memory_24936933_1791300710886955835.json",
+        "sha256": "b8120f72059c6ed20680d48fa73bff2ea89a01c6f3eb91284925275afbf24e1c",
+        "completed_update": 1440,
+        "status": "original_judge_completed",
+        "finished_at_utc": "2026-10-06T15:32:49.637992Z",
+        "parent_cleanup_metadata_rng_verified": true,
+        "observer_cleanup_metadata_modes_rng_verified": true,
+        "checkpoint_complete_sha256": "9103756e50d3608e85386b93b576e83e3c7cd27c5b90db55a8edcb6c1c265322",
+        "evaluation_complete_sha256": "f4af8788f825857e9cd89a1292979d3647f407a78fb1efbd7b78dec1c97d1724",
+        "cleanup_memory": {
+          "before": {
+            "cuda_allocated_bytes": 11474552320,
+            "cuda_reserved_bytes": 34202451968,
+            "device_free_bytes": 18660786176,
+            "device_total_bytes": 85019328512,
+            "host_rss_bytes": 99190956032
+          },
+          "after": {
+            "cuda_allocated_bytes": 11474552320,
+            "cuda_reserved_bytes": 11525947392,
+            "device_free_bytes": 41337290752,
+            "device_total_bytes": 85019328512,
+            "host_rss_bytes": 99190956032
+          },
+          "gc_collected_objects": 291,
+          "live_tensor_metadata_unchanged": true,
+          "rng_unchanged": true,
+          "live_tensor_metadata_sha256": "e2fc29655f68c054140ee0bdc14607bffdf17abb5c336be910a1e4eb6b00f56e"
+        }
+      }
+    ],
+    "metrics_contiguous_through_final": true,
+    "all_numeric_values_checked_finite": true
+  },
+  "evaluation_identity_audit": {
+    "frozen_snapshot_verifier_passed": true,
+    "verified_evaluation_updates": [
+      0,
+      50,
+      100,
+      150,
+      200,
+      250,
+      300,
+      350,
+      390,
+      400,
+      450,
+      500,
+      550,
+      600,
+      650,
+      700,
+      750,
+      800,
+      850,
+      886,
+      900,
+      950,
+      1000,
+      1050,
+      1100,
+      1150,
+      1200,
+      1250,
+      1300,
+      1350,
+      1400,
+      1440
+    ],
+    "final_cohorts": {
+      "university": 2000,
+      "PIQA": 100
+    },
+    "detailed_scalar_row_audit": "Maintained separately by parent; this audit rechecks all frozen completion/summary/judge/cohort identities."
+  },
+  "slurm": {
+    "path": "/private/tmp/qwen_heartbeat_1536_slurm.txt",
+    "sha256": "6c895963ade5d33d12c5d95f0edb6e4a325f6e3d8cde283ffbd721987efc2c45",
+    "controller": {
+      "JobState": "COMPLETED",
+      "Reason": "None",
+      "Dependency": "(null)",
+      "Restarts": "2",
+      "NodeList": "node3009",
+      "ExitCode": "0:0",
+      "TimeLimit": "06:00:00",
+      "Requeue": "1",
+      "Partition": "mit_preemptable",
+      "StartTime": "2026-10-06T09:05:38",
+      "EndTime": "2026-10-06T11:33:11",
+      "ReqTRES": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1",
+      "AllocTRES": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1"
+    },
+    "completed_at_utc": "2026-10-06T15:33:11Z",
+    "prior_segments_completed_zero_exit": true,
+    "current_recovery_environment_verified": true,
+    "accounting_at_initial_check": "Initial sacct RUNNING was accounting lag. Refreshed sacct now confirms job/batch/extern COMPLETED0:0 at the earlier controller completion time15:33:11UTC. squeue is empty; subsequent scontrol Invalid job id is consistent with controller purging a completed job. Both evidence files are preserved by path/hash.",
+    "scheduling_issue": null,
+    "final_accounting": {
+      "path": "/private/tmp/qwen_final_slurm.txt",
+      "sha256": "21c91c9e41e19cd738aa3132fac732cf535f5dd1134e85877ee6df3481e8da7b",
+      "job_state": "COMPLETED",
+      "batch_state": "COMPLETED",
+      "extern_state": "COMPLETED",
+      "all_exit_codes": "0:0",
+      "elapsed": "02:27:33",
+      "start_time_raw_EDT": "2026-10-06T09:05:38",
+      "end_time_raw_EDT": "2026-10-06T11:33:11",
+      "completed_at_utc": "2026-10-06T15:33:11Z",
+      "squeue_empty": true,
+      "controller_purged_after_recorded_completion": true,
+      "output": "             JOBID                PARTITION        STATE               NODELIST(REASON)          START_TIME         TIME             NODELIST\nJobID|State|ExitCode|Elapsed|Start|End|NodeList\n24936931|PREEMPTED|0:0|00:37:55|2026-10-05T11:25:08|2026-10-05T12:03:03|node3009\n24936931.batch|CANCELLED|0:9|00:38:40|2026-10-05T11:25:08|2026-10-05T12:03:48|node3009\n24936931.extern|COMPLETED|0:0|00:38:25|2026-10-05T11:25:08|2026-10-05T12:03:33|node3009\n24936932|REQUEUED|0:0|05:57:01|2026-10-05T19:35:00|2026-10-06T01:32:01|node4109\n24936932.batch|COMPLETED|0:0|05:57:01|2026-10-05T19:35:00|2026-10-06T01:32:01|node4109\n24936932.extern|COMPLETED|0:0|05:57:01|2026-10-05T19:35:00|2026-10-06T01:32:01|node4109\n24936933|PREEMPTED|0:0|00:34:01|2026-10-06T03:31:53|2026-10-06T04:05:54|node2900\n24936933.batch|CANCELLED|0:9|00:35:02|2026-10-06T03:31:53|2026-10-06T04:06:55|node2900\n24936933.extern|COMPLETED|0:0|00:34:30|2026-10-06T03:31:53|2026-10-06T04:06:23|node2900\n24936931|REQUEUED|0:0|05:58:22|2026-10-05T12:08:08|2026-10-05T18:06:30|node2900\n24936931.batch|COMPLETED|0:0|05:58:22|2026-10-05T12:08:08|2026-10-05T18:06:30|node2900\n24936931.extern|COMPLETED|0:0|05:58:22|2026-10-05T12:08:08|2026-10-05T18:06:30|node2900\n24936931|COMPLETED|0:0|01:24:30|2026-10-05T18:09:37|2026-10-05T19:34:07|node4109\n24936931.batch|COMPLETED|0:0|01:24:30|2026-10-05T18:09:37|2026-10-05T19:34:07|node4109\n24936931.extern|COMPLETED|0:0|01:24:30|2026-10-05T18:09:37|2026-10-05T19:34:07|node4109\n24936932|COMPLETED|0:0|01:56:23|2026-10-06T01:34:42|2026-10-06T03:31:05|node2900\n24936932.batch|COMPLETED|0:0|01:56:23|2026-10-06T01:34:42|2026-10-06T03:31:05|node2900\n24936932.extern|COMPLETED|0:0|01:56:23|2026-10-06T01:34:42|2026-10-06T03:31:05|node2900\n24936933|PREEMPTED|0:0|04:51:55|2026-10-06T04:09:52|2026-10-06T09:01:47|node2905\n24936933.batch|CANCELLED|0:9|04:52:40|2026-10-06T04:09:52|2026-10-06T09:02:32|node2905\n24936933.extern|COMPLETED|0:0|04:52:25|2026-10-06T04:09:52|2026-10-06T09:02:17|node2905\n24936933|COMPLETED|0:0|02:27:33|2026-10-06T09:05:38|2026-10-06T11:33:11|node3009\n24936933.batch|COMPLETED|0:0|02:27:33|2026-10-06T09:05:38|2026-10-06T11:33:11|node3009\n24936933.extern|COMPLETED|0:0|02:27:33|2026-10-06T09:05:38|2026-10-06T11:33:11|node3009\n"
+    },
+    "completion_accounting_consistent": true,
+    "controller_check_output": "             JOBID                PARTITION        STATE               NODELIST(REASON)          START_TIME         TIME             NODELIST\nJobId=24936933 JobName=uni-qwen-h100\n   UserId=kirilb(222643) GroupId=kirilb(222643) MCS_label=N/A\n   Priority=47325 Nice=0 Account=mit_general QOS=normal\n   JobState=COMPLETED Reason=None Dependency=(null)\n   Requeue=1 Restarts=2 BatchFlag=1 Reboot=0 ExitCode=0:0\n   RunTime=02:27:33 TimeLimit=06:00:00 TimeMin=N/A\n   SubmitTime=2026-10-06T09:02:38 EligibleTime=2026-10-06T09:04:39\n   AccrueTime=2026-10-06T09:02:38\n   StartTime=2026-10-06T09:05:38 EndTime=2026-10-06T11:33:11 Deadline=N/A\n   PreemptEligibleTime=2026-10-06T09:05:38 PreemptTime=None\n   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-06T09:05:38 Scheduler=Backfill\n   Partition=mit_preemptable AllocNode:Sid=login007:2247593\n   ReqNodeList=(null) ExcNodeList=(null)\n   NodeList=node3009\n   BatchHost=node3009\n   NumNodes=1 NumCPUs=8 NumTasks=1 CPUs/Task=8 ReqB:S:C:T=0:0:*:*\n   ReqTRES=cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1\n   AllocTRES=cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1\n   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*\n   MinCPUsNode=8 MinMemoryNode=192G MinTmpDiskNode=0\n   Features=(null) DelayBoot=00:00:00\n   OverSubscribe=NO Exclusive=NO Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)\n   Command=/orcd/pool/003/kirilb/Steganography/releases/uni_qwen35_27b_20261004T214535Z/recovery/zero_block_guard_003/training.slurm\n   SubmitLine=sbatch --parsable --hold --export=ALL,QWEN_RUNTIME_RECOVERY_SHA256=9fb3bd356069d2d82dcefac7188a73ad57bf3539c23e3d5079ab13ee5c058c89 --output=/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/slurm-guard-%j.out --error=/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/slurm-guard-%j.err --dependency=afterok:24936932 /orcd/pool/003/kirilb/Steganography/releases/uni_qwen35_27b_20261004T214535Z/recovery/zero_block_guard_003/training.slurm /orcd/pool/003/kirilb/Steganography/releases/uni_qwen35_27b_20261004T214535Z /orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z 3\n   WorkDir=/home/kirilb\n   Comment=***TEST_COMMENT***\n   StdErr=/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/slurm-guard-24936933.err\n   StdIn=/dev/null\n   StdOut=/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/slurm-guard-24936933.out\n   TresPerNode=gres/gpu:h100:1\n   TresPerTask=cpu=8\n\nJobID|State|ExitCode|Elapsed|Start|End|NodeList\n24936931|PREEMPTED|0:0|00:37:55|2026-10-05T11:25:08|2026-10-05T12:03:03|node3009\n24936931.batch|CANCELLED|0:9|00:38:40|2026-10-05T11:25:08|2026-10-05T12:03:48|node3009\n24936931.extern|COMPLETED|0:0|00:38:25|2026-10-05T11:25:08|2026-10-05T12:03:33|node3009\n24936932|REQUEUED|0:0|05:57:01|2026-10-05T19:35:00|2026-10-06T01:32:01|node4109\n24936932.batch|COMPLETED|0:0|05:57:01|2026-10-05T19:35:00|2026-10-06T01:32:01|node4109\n24936932.extern|COMPLETED|0:0|05:57:01|2026-10-05T19:35:00|2026-10-06T01:32:01|node4109\n24936933|PREEMPTED|0:0|00:34:01|2026-10-06T03:31:53|2026-10-06T04:05:54|node2900\n24936933.batch|CANCELLED|0:9|00:35:02|2026-10-06T03:31:53|2026-10-06T04:06:55|node2900\n24936933.extern|COMPLETED|0:0|00:34:30|2026-10-06T03:31:53|2026-10-06T04:06:23|node2900\n24936931|REQUEUED|0:0|05:58:22|2026-10-05T12:08:08|2026-10-05T18:06:30|node2900\n24936931.batch|COMPLETED|0:0|05:58:22|2026-10-05T12:08:08|2026-10-05T18:06:30|node2900\n24936931.extern|COMPLETED|0:0|05:58:22|2026-10-05T12:08:08|2026-10-05T18:06:30|node2900\n24936931|COMPLETED|0:0|01:24:30|2026-10-05T18:09:37|2026-10-05T19:34:07|node4109\n24936931.batch|COMPLETED|0:0|01:24:30|2026-10-05T18:09:37|2026-10-05T19:34:07|node4109\n24936931.extern|COMPLETED|0:0|01:24:30|2026-10-05T18:09:37|2026-10-05T19:34:07|node4109\n24936932|COMPLETED|0:0|01:56:23|2026-10-06T01:34:42|2026-10-06T03:31:05|node2900\n24936932.batch|COMPLETED|0:0|01:56:23|2026-10-06T01:34:42|2026-10-06T03:31:05|node2900\n24936932.extern|COMPLETED|0:0|01:56:23|2026-10-06T01:34:42|2026-10-06T03:31:05|node2900\n24936933|PREEMPTED|0:0|04:51:55|2026-10-06T04:09:52|2026-10-06T09:01:47|node2905\n24936933.batch|CANCELLED|0:9|04:52:40|2026-10-06T04:09:52|2026-10-06T09:02:32|node2905\n24936933.extern|COMPLETED|0:0|04:52:25|2026-10-06T04:09:52|2026-10-06T09:02:17|node2905\n24936933|RUNNING|0:0|02:30:59|2026-10-06T09:05:38|Unknown|node3009\n24936933.batch|RUNNING|0:0|02:30:59|2026-10-06T09:05:38|Unknown|node3009\n24936933.extern|RUNNING|0:0|02:30:59|2026-10-06T09:05:38|Unknown|node3009\n"
+  },
+  "qualifications": [
+    "Exact CUDA toy parity and cleanup metadata/mode/RNG invariants do not establish full-model numerical equivalence or independent per-tensor restore equality.",
+    "The unchanged original FULL_CYCLE_SMOKE at update7 retains its prior qualification: checkpoint7 state/marker were not independently rehashed before retention pruned them.",
+    "Historical pruned restore checkpoints were verified by frozen runtime startup; independent remote final state rehash is available for1440. State/model tensors and private reasoning remain remote.",
+    "Last PPO attempt1440 is capped at independently hash-verified commit1440. packed_storage_bytes is cumulative transfer volume rather than resident host memory.",
+    "Prior stage3 preemptions and root FAILURE.json are historical; no new OOM/nonfinite/provenance failure is evidenced."
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "verification": {
+    "verified_at": "2026-10-02T16:31:39.016490+00:00",
+    "verified_update": 66,
+    "latest_state_sha256_verified_remotely": true,
+    "state_sha256": "302f8026e0709f6792d8f9be38001fd80f1ff7e11593f40d715b81ea5abc5cdc",
+    "source_files_hash_verified_remotely": 33,
+    "public_rollout_counts_verified": true,
+    "metrics_finite": true,
+    "receiver_optimizer_sample_count": 256,
+    "receiver_microbatches": 4,
+    "receiver_optimizer_steps": 1,
+    "sender_reward_variation_present": true,
+    "runtime_failure": false,
+    "new_completed_evaluations": [],
+    "reported_evaluation_public_artifact_hashes_unchanged": true,
+    "receiver_label_bias": {
+      "latest_sender_update": 66,
+      "PASS": 161,
+      "FAIL": 31,
+      "n": 192,
+      "latest_receiver_collection_update": 65,
+      "latest_receiver_collection_PASS": 474,
+      "latest_receiver_collection_FAIL": 38,
+      "latest_receiver_collection_n": 512,
+      "frozen_evaluation_update": 50,
+      "frozen_receiver_PASS": 1132,
+      "frozen_receiver_FAIL": 868,
+      "frozen_n": 2000,
+      "interpretation": "Training rollouts currently favor PASS, with both labels still present. Frozen evaluation50 remains latest; no scientific settings changed."
+    }
+  },
+  "checkpoint": {
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "completed_update": 66,
+    "state_sha256": "302f8026e0709f6792d8f9be38001fd80f1ff7e11593f40d715b81ea5abc5cdc",
+    "elapsed": 3726.0632226588205,
+    "phase": "sender"
+  },
+  "slurm": {
+    "job_id": "24665081",
+    "state": "RUNNING",
+    "node": "node3405",
+    "elapsed": "1:02:57",
+    "limit": "6:00:00"
+  },
+  "timing": {
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "completed_update": 66,
+    "active_seconds": 3728.297003047541,
+    "mean_seconds": {
+      "receiver": 15.166840151837096,
+      "sender": 59.835624152106114
+    },
+    "counts": {
+      "receiver": 20,
+      "sender": 46
+    }
+  },
+  "latest_committed_ppo_memory": {
+    "attempted_update": 66,
+    "ppo_call_status": "completed",
+    "error": null,
+    "duration_seconds": 51.72381709702313,
+    "peak_allocated_bytes": 38376446976,
+    "peak_reserved_bytes": 42492493824,
+    "end_device_free_bytes": 4420075520,
+    "device_total_bytes": 47667740672,
+    "end_host_rss_bytes": 98608644096,
+    "saved_tensor_transfers": {
+      "packed_cuda_tensors": 15408,
+      "packed_storage_bytes": 621996543744,
+      "noncontiguous_cuda_tensors": 3744,
+      "nonzero_offset_cuda_tensors": 12,
+      "expanded_cuda_tensors": 0,
+      "unpacked_cuda_tensors": 15180
+    },
+    "note": "PPO-call completion alone does not establish a committed checkpoint."
+  },
+  "new_completed_cycles": [
+    8,
+    9
+  ],
+  "runtime_audit": {
+    "gpu": "NVIDIA L40S",
+    "legacy_environment_verified": true,
+    "toy_parity_passed": true,
+    "caller_rng_restored": true,
+    "runtime_event_and_manifest_hashes_verified": true,
+    "cleanup_tensor_and_rng_invariants_passed": true,
+    "completed_frozen_evaluations": [
+      0,
+      50
+    ]
+  }
+}

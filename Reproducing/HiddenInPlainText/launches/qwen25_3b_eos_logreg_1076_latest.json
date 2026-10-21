@@ -1,0 +1,167 @@
+{
+  "split_dir": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/data/university_observer_checkpoint1076_split",
+  "training_run": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z",
+  "logistic_regression": {
+    "standardization": "training mean and population std only",
+    "C": 1.0,
+    "l2_lambda_for_mean_loss": 0.001,
+    "intercept_penalized": false,
+    "solver": "SciPy L-BFGS-B",
+    "training_examples": 1000,
+    "test_examples": 1000,
+    "reported_loss": "unpenalized mean binary cross-entropy in nats"
+  },
+  "ssh_existing_control_connection_only": true,
+  "experiment_id": "qwen25_3b_eos_logreg_1076_20261003T191657Z",
+  "created_at": "2026-10-03T19:16:57.579237+00:00",
+  "status": "COMPLETED",
+  "local_source": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/experiments/qwen25_3b_eos_logreg_1076",
+  "local_results": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/qwen25_3b_eos_logreg_1076_20261003T191657Z",
+  "remote_source": "/orcd/pool/003/kirilb/Steganography/releases/qwen25_3b_eos_logreg_1076_20261003T191657Z",
+  "remote_results": "/orcd/pool/003/kirilb/Steganography/probes/qwen25_3b_eos_logreg_1076_20261003T191657Z",
+  "source_answer_checkpoint_update": 1076,
+  "embedding_model_kind": "pretrained_qwen25_3b_instruct",
+  "embedding_model": "Qwen/Qwen2.5-3B-Instruct",
+  "embedding_model_revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "sender_checkpoint_weights_loaded": false,
+  "layer_number_one_based": 24,
+  "layer_index_zero_based": 23,
+  "total_layers": 36,
+  "feature_size": 2048,
+  "tokenization": "Exact answer + native EOS151645; no BOS (tokenizer bos=None), no prompt/chat template; right padding151643",
+  "representation": "block24 output after MLP and residual addition, before next normalization",
+  "model_dtype": "float16",
+  "attn_implementation": "eager",
+  "batch_size": 32,
+  "comparison_experiments": [
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/sender_eos_logreg_1076_20261003T183259Z",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/gemma_untrained_eos_logreg_1076_20261003T185800Z"
+  ],
+  "test_tuning": false,
+  "local_code_sha256": {
+    "extract_embeddings.py": "9e952b45e7cea474fbac3c65913a16a0323c6ca08529f31203dcc4ddfcb6690f",
+    "extract_embeddings.slurm": "af1e42b6def0eaf23935540ae6666e6d7f5ae4e36ba0208c094633cc1ee43ee8",
+    "fit_logistic.py": "3478f1bd63c3018b6eecae2b65a248c1a17d39bd528ab8a7425aa3fc2b96186c",
+    "embedding_asset.json": "aeb1e139e09f3d633226aef0cc79cf270c502efd52f619411fe6f2004ba170b3"
+  },
+  "embedding_asset": {
+    "repo": "Qwen/Qwen2.5-3B-Instruct",
+    "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1",
+    "path": "/orcd/pool/003/kirilb/Steganography/assets/observer_probes/cache/models--Qwen--Qwen2.5-3B-Instruct/snapshots/aa8e72537993ba99e69dfaafa59ed015b17504d1",
+    "files_sha256": {
+      "LICENSE": "ef52482bb785733093dc9a2e8edd8e764c77d12d8e9d8f10a80c9b547d32d0f9",
+      "README.md": "2c74693e6ae36ba878124d465195b4dad0f71035b54ece1c9fd1553cc497ef8c",
+      "config.json": "eed00b17e22553979d090fa492e587e92885e328914c8e0b0b78f0a0d3576b3b",
+      "generation_config.json": "ea35dfb6fc5051b01114f9b995820d55dab01ed33ee490f6378b442af82c09f9",
+      "merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+      "model-00001-of-00002.safetensors": "67347b23fb4165b652eb6611f5e1f2a06dfcddba8e909df1b2b0b1857bee06c2",
+      "model-00002-of-00002.safetensors": "a40d941d0e7e0b966ad8b62bb6d6b7c88cce1299197b599d9d0a4ce59aabfc1d",
+      "model.safetensors.index.json": "bc8aaa0c87d4335177e01c765f1de0db81661c67c1a72fbfb0d521b09f5ddc56",
+      "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+      "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+      "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    }
+  },
+  "source_upload": {
+    "root": "/orcd/pool/003/kirilb/Steganography/releases/qwen25_3b_eos_logreg_1076_20261003T191657Z",
+    "output": "/orcd/pool/003/kirilb/Steganography/probes/qwen25_3b_eos_logreg_1076_20261003T191657Z",
+    "files_sha256": {
+      "extract_embeddings.py": "9e952b45e7cea474fbac3c65913a16a0323c6ca08529f31203dcc4ddfcb6690f",
+      "extract_embeddings.slurm": "af1e42b6def0eaf23935540ae6666e6d7f5ae4e36ba0208c094633cc1ee43ee8",
+      "fit_logistic.py": "3478f1bd63c3018b6eecae2b65a248c1a17d39bd528ab8a7425aa3fc2b96186c",
+      "embedding_asset.json": "aeb1e139e09f3d633226aef0cc79cf270c502efd52f619411fe6f2004ba170b3",
+      "split/training_answers.jsonl": "a5dcdb10f4d70b869b4c0bd5eedcce50ce6bbc76b7f2124f0be0658b6f46b32a",
+      "split/test_answers.jsonl": "c2345b163bc9e0a13db72a9b9678cabdd8a689a996d0213f35e5e5573692c958",
+      "split/split_manifest.json": "ccfba9f92b91db27e5e32aa25a12ec827e2ef4174511ab0bbdadfa29348a2e77",
+      "analysis_plan.json": "9aab3ee17c4156e0cf5b8e612baf6fff3ef6c494b232d3845640c934d92e0150"
+    },
+    "queue_before": ""
+  },
+  "job_id": "24753725",
+  "command": [
+    "sbatch",
+    "--parsable",
+    "--output=/orcd/pool/003/kirilb/Steganography/probes/qwen25_3b_eos_logreg_1076_20261003T191657Z/slurm-%j.out",
+    "--error=/orcd/pool/003/kirilb/Steganography/probes/qwen25_3b_eos_logreg_1076_20261003T191657Z/slurm-%j.err",
+    "--comment=qwen25_3b_eos_logreg_1076_20261003T191657Z",
+    "/orcd/pool/003/kirilb/Steganography/releases/qwen25_3b_eos_logreg_1076_20261003T191657Z/extract_embeddings.slurm",
+    "/orcd/pool/003/kirilb/Steganography/releases/qwen25_3b_eos_logreg_1076_20261003T191657Z",
+    "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z",
+    "/orcd/pool/003/kirilb/Steganography/probes/qwen25_3b_eos_logreg_1076_20261003T191657Z"
+  ],
+  "queue_before": "",
+  "submitted_at": "2026-10-03T19:18:43.128991+00:00",
+  "slurm_state": "COMPLETED",
+  "slurm_exit_code": "0:0",
+  "slurm_duration_seconds": 67,
+  "slurm_node": "node3202",
+  "embedding_completion_sha256": "93f641aae790c9426d819af892d87304a910691dc5b24da1fcd27efc760f0875",
+  "local_embeddings": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/qwen25_3b_eos_logreg_1076_20261003T191657Z/embeddings",
+  "fit_completed_at": "2026-10-03T19:22:47.559273+00:00",
+  "training_metrics": {
+    "accuracy": 1.0,
+    "confusion_matrix": {
+      "columns": "predicted label",
+      "counts": [
+        [
+          499,
+          0
+        ],
+        [
+          0,
+          501
+        ]
+      ],
+      "label_order": [
+        0,
+        1
+      ],
+      "rows": "true label"
+    },
+    "correct": 1000,
+    "mean_unpenalized_bce_nats": 0.002938379138982804,
+    "n": 1000,
+    "prediction_threshold": "logit >= 0 predicts label 1 (equivalently probability >= 0.5)",
+    "true_label_counts": {
+      "0": 499,
+      "1": 501
+    }
+  },
+  "test_metrics": {
+    "accuracy": 0.981,
+    "confusion_matrix": {
+      "columns": "predicted label",
+      "counts": [
+        [
+          489,
+          11
+        ],
+        [
+          8,
+          492
+        ]
+      ],
+      "label_order": [
+        0,
+        1
+      ],
+      "rows": "true label"
+    },
+    "correct": 981,
+    "mean_unpenalized_bce_nats": 0.0753078726115775,
+    "n": 1000,
+    "prediction_threshold": "logit >= 0 predicts label 1 (equivalently probability >= 0.5)",
+    "true_label_counts": {
+      "0": 500,
+      "1": 500
+    }
+  },
+  "comparison": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/qwen25_3b_eos_logreg_1076_20261003T191657Z/comparison.json",
+  "comparison_sha256": "3cf567a1adc6d8ca5225274e2717fef2ebad8ba60ac4b1b77a8f3ef715b2fb3f",
+  "fit_complete_sha256": "8e61a925c790bfc01f962a7468a6b816589a7c70d4c95f82d8f2304c4e2d33c4",
+  "local_classifier_directory": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/qwen25_3b_eos_logreg_1076_20261003T191657Z/logistic_regression",
+  "completed_at": "2026-10-03T19:25:45.755210+00:00",
+  "completion_reported": true,
+  "final_audit": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/qwen25_3b_eos_logreg_1076_20261003T191657Z/diagnostics/independent_fit_audit.json",
+  "final_audit_sha256": "4d037db95444dd98d623d547846a9c33f5b1d7466a5c5b4216959a9dc40e90b1"
+}

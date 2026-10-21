@@ -1,0 +1,83 @@
+{
+  "release": "20260928T180337Z",
+  "archive": "/private/tmp/stego-20260928T180337Z.tar.gz",
+  "archive_sha256": "44f1e9a0719b8001e19c3e4ec773bd16737fac05b1df2e5ba5181c760ef70b9c",
+  "remote_source": "/orcd/pool/003/kirilb/Steganography/releases/20260928T180337Z",
+  "remote_run": "/orcd/pool/003/kirilb/Steganography/runs/piqa_qwen3_4b_20260928T175421Z",
+  "model": "Qwen3-4B",
+  "total_steps": 100,
+  "state": "complete",
+  "slurm_job_id": "24197250",
+  "reported_validation_steps": [
+    20,
+    40,
+    60,
+    80,
+    100
+  ],
+  "initial_timing_reported": true,
+  "full_timing_reported": true,
+  "automation_id": "report-piqa-h100-pilot",
+  "previous_attempts": [
+    {
+      "slurm_job_id": "24196766",
+      "release": "20260928T175421Z",
+      "remote_source": "/orcd/pool/003/kirilb/Steganography/releases/20260928T175421Z",
+      "state": "repairing_startup_check",
+      "failure": "GPU canary fingerprint indices rounded out of bounds; no training started"
+    }
+  ],
+  "gpu_checks": "passed",
+  "node": "node4109",
+  "first_joint_step_seconds": 524.9459914867766,
+  "last_observed_completed_step": 100,
+  "first_step_behavior_reported": true,
+  "first_interceptor_step_seconds": 130.67403234215453,
+  "phase_timing_report": {
+    "joint_median_seconds": 534.5635758019052,
+    "interceptor_median_seconds": 130.67403234215453,
+    "remaining_seconds_excluding_overhead": 27785.570616841782,
+    "completed_step": 11
+  },
+  "last_reported_validation": {
+    "step": 100,
+    "C_R": 0.8125,
+    "C_I": 0.84375,
+    "d": 0.75
+  },
+  "monitor_access_status": "connected",
+  "monitor_access_reported": false,
+  "last_access_failure_at": "2026-09-29T14:25:59.170416+00:00",
+  "last_access_error": "After user-reported reauthentication: no control socket; one noninteractive SSH check returned Permission denied (publickey,keyboard-interactive).",
+  "last_verified_in_progress_step": null,
+  "last_access_restored_at": "2026-09-29T14:29:58.032Z",
+  "last_monitor_check_at": "2026-09-29T14:29:58.035Z",
+  "finished_at": "2026-09-29T03:45:45.302187+00:00",
+  "slurm_state": "COMPLETED",
+  "slurm_exit_code": "0:0",
+  "slurm_elapsed": "09:39:37",
+  "final_timing": {
+    "completed_step": 100,
+    "median_step_seconds": {
+      "joint": 540.818775112275,
+      "interceptor": 131.5180040532723
+    },
+    "observed_steps": {
+      "joint": 50,
+      "interceptor": 50
+    },
+    "remaining_step_counts": {},
+    "eta_seconds_excluding_queue": 0,
+    "validation_seconds_observed": [
+      72.0456975963898,
+      71.85944605292752,
+      73.19870680104941,
+      80.72967750485986,
+      71.87630200386047
+    ],
+    "note": "ETA excludes queue/preemption and checkpoint writes; includes future validation only once measured."
+  },
+  "completion_reported": true,
+  "monitor_status": "stopped_all_runs_complete",
+  "local_report": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/piqa_pilot/report.md"
+}

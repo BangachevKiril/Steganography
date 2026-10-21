@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "seed": 20262657,
+  "seconds": 108.43754210695624,
+  "device": "NVIDIA H100 80GB HBM3",
+  "communicator_path": "/orcd/pool/003/kirilb/huggingface_models_cache/models--qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "judge_path": "/orcd/pool/003/kirilb/huggingface_models_cache/models--qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "smoke_think_tokens": 32,
+  "smoke_answer_tokens": 48,
+  "production_think_tokens": 256,
+  "ragged_prompt_lengths": [
+    36,
+    99,
+    36,
+    99
+  ],
+  "ragged_thought_lengths": [
+    32,
+    32,
+    32,
+    32
+  ],
+  "variable_thought_lengths_seen": false,
+  "behavior_probability_check": {
+    "mean_absolute_logprob_difference": 0.011054125614464283,
+    "max_absolute_logprob_difference": 0.3881874084472656,
+    "p99_absolute_logprob_difference": 0.23217514157295227,
+    "action_tokens_compared": 132
+  },
+  "sender_behavior_probability_check": {
+    "mean_absolute_logprob_difference": 0.02044663392007351,
+    "max_absolute_logprob_difference": 0.25131988525390625,
+    "p99_absolute_logprob_difference": 0.19997994601726532,
+    "action_tokens_compared": 80
+  },
+  "update_metrics": {
+    "loss": 0.0005116313695907593,
+    "policy_loss": 0.0005116318211411119,
+    "kl": 0,
+    "clip_fraction": 0.022727273404598236,
+    "ratio_mean": 1.002562791109085,
+    "reward_mean": 0.5,
+    "active_group_fraction": 1,
+    "sampled_tokens": 264,
+    "trajectories": 8,
+    "grad_norm": 0.5915864109992981
+  },
+  "selected_adapter_changed": true,
+  "other_adapters_unchanged": true,
+  "base_unchanged": true,
+  "judge_unchanged": true,
+  "checkpoint_restored_exactly": true,
+  "judge_verdict": "PASS",
+  "peak_gpu_memory_allocated_bytes": 16951117312,
+  "note": "Synthetic rewards used only in an isolated canary process; no adapters retained."
+}

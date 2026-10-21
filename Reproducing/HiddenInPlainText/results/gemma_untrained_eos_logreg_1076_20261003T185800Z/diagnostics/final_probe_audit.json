@@ -1,0 +1,90 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-03T19:07:24.562371+00:00",
+  "checks": {
+    "fit_and_embedding_completion_hashes": true,
+    "same_source_answers_and_split": true,
+    "same_layer_and_tokenization": true,
+    "same_example_ids_and_eos_positions": true,
+    "same_prespecified_regression_settings": true,
+    "training_only_mean_and_std_recomputed": true,
+    "saved_model_raw_coordinate_losses_recomputed": true,
+    "pretrained_model_no_adapters_and_parameters_unchanged": true,
+    "different_model_embedding_arrays": true
+  },
+  "training": {
+    "accuracy": 1.0,
+    "confusion_matrix": {
+      "columns": "predicted label",
+      "counts": [
+        [
+          499,
+          0
+        ],
+        [
+          0,
+          501
+        ]
+      ],
+      "label_order": [
+        0,
+        1
+      ],
+      "rows": "true label"
+    },
+    "correct": 1000,
+    "mean_unpenalized_bce_nats": 0.0008327160861461868,
+    "n": 1000,
+    "prediction_threshold": "logit >= 0 predicts label 1 (equivalently probability >= 0.5)",
+    "true_label_counts": {
+      "0": 499,
+      "1": 501
+    }
+  },
+  "test": {
+    "accuracy": 0.979,
+    "confusion_matrix": {
+      "columns": "predicted label",
+      "counts": [
+        [
+          487,
+          13
+        ],
+        [
+          8,
+          492
+        ]
+      ],
+      "label_order": [
+        0,
+        1
+      ],
+      "rows": "true label"
+    },
+    "correct": 979,
+    "mean_unpenalized_bce_nats": 0.06173841195894984,
+    "n": 1000,
+    "prediction_threshold": "logit >= 0 predicts label 1 (equivalently probability >= 0.5)",
+    "true_label_counts": {
+      "0": 500,
+      "1": 500
+    }
+  },
+  "optimization": {
+    "function_evaluations": 120,
+    "gradient_infinity_norm": 2.833853463793043e-08,
+    "iterations": 104,
+    "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+    "method": "L-BFGS-B",
+    "options": {
+      "ftol": 1e-12,
+      "gtol": 1e-08,
+      "maxiter": 5000
+    },
+    "status": 0,
+    "success": true
+  },
+  "independent_recomputation_maximum_logit_difference": 2.49e-14,
+  "comparison_sha256": "f131d722cb7dde668d47db103084c7c04f41eca35402ad6aac1a2c5c255a22a6",
+  "issues": []
+}

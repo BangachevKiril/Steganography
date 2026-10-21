@@ -1,0 +1,47 @@
+{
+  "kind": "L40S_evaluation_parent_cache_cleanup",
+  "status": "original_judge_completed",
+  "started_at": 1790955033.113754,
+  "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+  "evaluation_config_digest": "6e603dbf7ad3e4968e789264c61637b51ebed3b5946399ca0a2241e3cd6f2665",
+  "evaluation_dir": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/evaluations/step_000000",
+  "checkpoint": {
+    "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_000000",
+    "completed_update": 0,
+    "complete_sha256": "0532c280337320beb9705dd828b3f3ab3a89cdb6d97d33b20f13928f93ac642f"
+  },
+  "checkpoint_complete": {
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "completed_update": 0,
+    "state_sha256": "7a6b3cbe732123c9a236fb035f21db303b3d1e424a7e02702e34ad7d73366cf0",
+    "elapsed": 106.91035241167992,
+    "phase": "initialization"
+  },
+  "wrapper_sha256": "453aff7ed707c3d835149e0c8ac4ec0563b4a6526a9309b91d9b31f329cb1ea2",
+  "evaluation_helper_sha256": "d5f9352f0c6984c29f0078ec035be77822cb81c2fe2010f38248c634326e90f2",
+  "slurm_job_id": "24665081",
+  "slurm_restart_count": null,
+  "manifest_sha256": "f96572c03547bfe59d762941124ba016d468591e9a02a3aa98e87704ece79591",
+  "cleanup_verification": {
+    "before": {
+      "cuda_allocated_bytes": 19967349248,
+      "cuda_reserved_bytes": 28183625728,
+      "device_free_bytes": 18919784448,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 2456858624
+    },
+    "after": {
+      "cuda_allocated_bytes": 19967349248,
+      "cuda_reserved_bytes": 20147339264,
+      "device_free_bytes": 26956070912,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 2458791936
+    },
+    "gc_collected_objects": 268,
+    "live_tensor_metadata_unchanged": true,
+    "rng_unchanged": true,
+    "live_tensor_metadata_sha256": "64ac0fd5c6118a6d2ee377f66da1a81de647ad050afeba7f28bc6e1299408315"
+  },
+  "cache_cleaned_at": 1790955033.4394808,
+  "finished_at": 1790955173.4564798
+}

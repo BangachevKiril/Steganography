@@ -1,0 +1,22 @@
+{
+  "verified": true,
+  "global_step": 0,
+  "config_digest": "8c07b787822811f1bdde374f4d37853a9d8b1e24f8a7f395c708d28b90f4d227",
+  "optimizer_state_entries": {
+    "A": 0,
+    "B": 0,
+    "I": 0
+  },
+  "adapter_checks": {
+    "A": {
+      "zero_initialized_lora_B_tensors": 252
+    },
+    "B": {
+      "zero_initialized_lora_B_tensors": 756
+    },
+    "I": {
+      "zero_initialized_lora_B_tensors": 252
+    }
+  },
+  "judge_cache_empty": true
+}

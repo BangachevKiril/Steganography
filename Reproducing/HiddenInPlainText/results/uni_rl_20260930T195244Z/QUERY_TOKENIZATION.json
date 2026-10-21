@@ -1,0 +1,10 @@
+{
+  "config_digest": "a430c084d01dc638190691b34614ff595f8d788bb6172728f04aebe2a50c503b",
+  "max_input_length": 65,
+  "padding_side": "left",
+  "pad_token_id": 0,
+  "truncation": true,
+  "add_special_tokens": true,
+  "attention_mask": "TRL regenerates ones_like(query), including pre-existing pad IDs",
+  "source": "ToyCvDataset.build_dataset at author commit d4c708b9339fd2f85cb442827ac56333b55cf9d2"
+}

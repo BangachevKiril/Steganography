@@ -1,0 +1,266 @@
+{
+  "created_at": "2026-10-03T19:06:29.834103+00:00",
+  "interpretation": "Original pretrained Gemma before sender fine-tuning (not random weights) vs trained sender, both embedding the same checkpoint1076 answer text. Logistic classifiers separately fit on the same1000 training rows with identical prescribed settings.",
+  "results": {
+    "original_pretrained_gemma": {
+      "training": {
+        "accuracy": 1.0,
+        "confusion_matrix": {
+          "columns": "predicted label",
+          "counts": [
+            [
+              499,
+              0
+            ],
+            [
+              0,
+              501
+            ]
+          ],
+          "label_order": [
+            0,
+            1
+          ],
+          "rows": "true label"
+        },
+        "correct": 1000,
+        "mean_unpenalized_bce_nats": 0.0008327160861461868,
+        "n": 1000,
+        "prediction_threshold": "logit >= 0 predicts label 1 (equivalently probability >= 0.5)",
+        "true_label_counts": {
+          "0": 499,
+          "1": 501
+        }
+      },
+      "test": {
+        "accuracy": 0.979,
+        "confusion_matrix": {
+          "columns": "predicted label",
+          "counts": [
+            [
+              487,
+              13
+            ],
+            [
+              8,
+              492
+            ]
+          ],
+          "label_order": [
+            0,
+            1
+          ],
+          "rows": "true label"
+        },
+        "correct": 979,
+        "mean_unpenalized_bce_nats": 0.06173841195894984,
+        "n": 1000,
+        "prediction_threshold": "logit >= 0 predicts label 1 (equivalently probability >= 0.5)",
+        "true_label_counts": {
+          "0": 500,
+          "1": 500
+        }
+      },
+      "optimization": {
+        "function_evaluations": 120,
+        "gradient_infinity_norm": 2.833853463793043e-08,
+        "iterations": 104,
+        "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+        "method": "L-BFGS-B",
+        "options": {
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "maxiter": 5000
+        },
+        "status": 0,
+        "success": true
+      },
+      "metrics_sha256": "8ca46b09e57970c10f1b7a664cfd32be1d40609af2a081c032eb0751caea5a79",
+      "secondary_test_no_shared_text": {
+        "accuracy": 0.9789579158316634,
+        "confusion_matrix": {
+          "columns": "predicted label",
+          "counts": [
+            [
+              485,
+              13
+            ],
+            [
+              8,
+              492
+            ]
+          ],
+          "label_order": [
+            0,
+            1
+          ],
+          "rows": "true label"
+        },
+        "correct": 977,
+        "excluded_example_ids": [
+          392,
+          456
+        ],
+        "mean_unpenalized_bce_nats": 0.06186211137752375,
+        "n": 998,
+        "note": "Sensitivity analysis only; primary held-out result includes all 1000 assigned test examples.",
+        "predeclared": true,
+        "prediction_threshold": "logit >= 0 predicts label 1 (equivalently probability >= 0.5)",
+        "true_label_counts": {
+          "0": 498,
+          "1": 500
+        },
+        "used_for_fitting_or_model_selection": false
+      }
+    },
+    "trained_sender_checkpoint1076": {
+      "training": {
+        "accuracy": 1.0,
+        "confusion_matrix": {
+          "columns": "predicted label",
+          "counts": [
+            [
+              499,
+              0
+            ],
+            [
+              0,
+              501
+            ]
+          ],
+          "label_order": [
+            0,
+            1
+          ],
+          "rows": "true label"
+        },
+        "correct": 1000,
+        "mean_unpenalized_bce_nats": 0.0007992162295839019,
+        "n": 1000,
+        "prediction_threshold": "logit >= 0 predicts label 1 (equivalently probability >= 0.5)",
+        "true_label_counts": {
+          "0": 499,
+          "1": 501
+        }
+      },
+      "test": {
+        "accuracy": 0.978,
+        "confusion_matrix": {
+          "columns": "predicted label",
+          "counts": [
+            [
+              487,
+              13
+            ],
+            [
+              9,
+              491
+            ]
+          ],
+          "label_order": [
+            0,
+            1
+          ],
+          "rows": "true label"
+        },
+        "correct": 978,
+        "mean_unpenalized_bce_nats": 0.06061278339256916,
+        "n": 1000,
+        "prediction_threshold": "logit >= 0 predicts label 1 (equivalently probability >= 0.5)",
+        "true_label_counts": {
+          "0": 500,
+          "1": 500
+        }
+      },
+      "optimization": {
+        "function_evaluations": 106,
+        "gradient_infinity_norm": 8.004324644317329e-08,
+        "iterations": 98,
+        "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+        "method": "L-BFGS-B",
+        "options": {
+          "ftol": 1e-12,
+          "gtol": 1e-08,
+          "maxiter": 5000
+        },
+        "status": 0,
+        "success": true
+      },
+      "metrics_sha256": "37479cf30cb5424a8a53a6b7a3d73a2ea6d44a6b63e5b669a5bb8be40370fd7b",
+      "secondary_test_no_shared_text": {
+        "accuracy": 0.9779559118236473,
+        "confusion_matrix": {
+          "columns": "predicted label",
+          "counts": [
+            [
+              485,
+              13
+            ],
+            [
+              9,
+              491
+            ]
+          ],
+          "label_order": [
+            0,
+            1
+          ],
+          "rows": "true label"
+        },
+        "correct": 976,
+        "excluded_example_ids": [
+          392,
+          456
+        ],
+        "mean_unpenalized_bce_nats": 0.0607342326466192,
+        "n": 998,
+        "note": "Sensitivity analysis only; primary held-out result includes all 1000 assigned test examples.",
+        "predeclared": true,
+        "prediction_threshold": "logit >= 0 predicts label 1 (equivalently probability >= 0.5)",
+        "true_label_counts": {
+          "0": 498,
+          "1": 500
+        },
+        "used_for_fitting_or_model_selection": false
+      }
+    }
+  },
+  "matched_controls": {
+    "matched_sender_asset": true,
+    "matched_split_manifest_sha256": true,
+    "matched_answer_file_sha256": true,
+    "matched_total_blocks": true,
+    "matched_block_number_one_based": true,
+    "matched_block_index_zero_based": true,
+    "matched_features": true,
+    "matched_bos_token_id": true,
+    "matched_eos_token_id": true,
+    "matched_pad_token_id": true,
+    "matched_end_of_turn_token_id": true,
+    "matched_tokenization": true,
+    "matched_batch_size": true,
+    "matched_packages": true
+  },
+  "embedding_comparison": {
+    "training": {
+      "same_example_ids": true,
+      "same_eos_positions": true,
+      "identical_embeddings": false,
+      "rms_embedding_difference": 0.4269600494679551,
+      "maximum_embedding_difference": 9.3125
+    },
+    "test": {
+      "same_example_ids": true,
+      "same_eos_positions": true,
+      "identical_embeddings": false,
+      "rms_embedding_difference": 0.4278922448639986,
+      "maximum_embedding_difference": 8.8125
+    }
+  },
+  "original_minus_trained": {
+    "train_bce_nats": 3.3499856562284954e-05,
+    "test_bce_nats": 0.001125628566380682,
+    "test_correct": 1
+  },
+  "scope": "Descriptive comparison on one fixed split; no test tuning or significance claim."
+}

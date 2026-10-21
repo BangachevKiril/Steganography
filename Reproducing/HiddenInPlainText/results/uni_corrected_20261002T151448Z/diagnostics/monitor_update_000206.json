@@ -1,0 +1,102 @@
+{
+  "verification": {
+    "verified_at": "2026-10-02T18:34:36.654519+00:00",
+    "verified_update": 206,
+    "latest_state_sha256_verified_remotely": true,
+    "state_sha256": "d46c9111c24971c78aac87a36542978c03707c28cf70def24d885a2cfb51a2c1",
+    "source_files_hash_verified_remotely": 33,
+    "public_rollout_counts_verified": true,
+    "metrics_finite": true,
+    "receiver_optimizer_sample_count": 256,
+    "receiver_microbatches": 4,
+    "receiver_optimizer_steps": 1,
+    "sender_reward_variation_present": true,
+    "runtime_failure": false,
+    "new_completed_evaluations": [
+      200
+    ],
+    "previous_evaluation_public_artifact_hashes_unchanged": true,
+    "receiver_label_bias": {
+      "latest_sender_update": 206,
+      "PASS": 90,
+      "FAIL": 102,
+      "n": 192,
+      "latest_receiver_collection_update": 205,
+      "latest_receiver_collection_PASS": 269,
+      "latest_receiver_collection_FAIL": 243,
+      "latest_receiver_collection_n": 512,
+      "frozen_evaluation_update": 200,
+      "frozen_receiver_PASS": 1006,
+      "frozen_receiver_FAIL": 994,
+      "frozen_n": 2000,
+      "interpretation": "Frozen evaluation200 predictions are nearly balanced; C_R53.05% versus50.45% at150. No scientific settings changed."
+    }
+  },
+  "checkpoint": {
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "completed_update": 206,
+    "state_sha256": "d46c9111c24971c78aac87a36542978c03707c28cf70def24d885a2cfb51a2c1",
+    "elapsed": 10958.947346747853,
+    "phase": "sender"
+  },
+  "slurm": {
+    "job_id": "24665081",
+    "state": "RUNNING",
+    "node": "node3405",
+    "elapsed": "3:03:57",
+    "limit": "6:00:00"
+  },
+  "timing": {
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "completed_update": 206,
+    "active_seconds": 10961.194535727613,
+    "mean_seconds": {
+      "receiver": 14.73157202200964,
+      "sender": 59.31900709998883
+    },
+    "counts": {
+      "receiver": 60,
+      "sender": 146
+    }
+  },
+  "latest_committed_ppo_memory": {
+    "attempted_update": 206,
+    "ppo_call_status": "completed",
+    "error": null,
+    "duration_seconds": 53.74771890323609,
+    "peak_allocated_bytes": 39162920960,
+    "peak_reserved_bytes": 42744152064,
+    "end_device_free_bytes": 4168417280,
+    "device_total_bytes": 47667740672,
+    "end_host_rss_bytes": 98608926720,
+    "saved_tensor_transfers": {
+      "packed_cuda_tensors": 15408,
+      "packed_storage_bytes": 647450094336,
+      "noncontiguous_cuda_tensors": 3744,
+      "nonzero_offset_cuda_tensors": 12,
+      "expanded_cuda_tensors": 0,
+      "unpacked_cuda_tensors": 15180
+    },
+    "note": "PPO-call completion alone does not establish a committed checkpoint."
+  },
+  "new_completed_cycles": [
+    28,
+    29
+  ],
+  "evaluation200_public_audit_sha256": "e34c13155281c253de80e32de20c544575a7b8a5bb096147485724a5c6ff703d",
+  "runtime_audit": {
+    "gpu": "NVIDIA L40S",
+    "legacy_environment_verified": true,
+    "toy_parity_passed": true,
+    "caller_rng_restored": true,
+    "runtime_event_and_manifest_hashes_verified": true,
+    "cleanup_tensor_and_rng_invariants_passed": true,
+    "completed_frozen_evaluations": [
+      0,
+      50,
+      100,
+      150,
+      200
+    ]
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "kind": "L40S_evaluation_parent_cache_cleanup",
+  "status": "original_judge_completed",
+  "started_at": 1790989716.6797383,
+  "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+  "evaluation_config_digest": "13ad8a3bab5efee49502276534c3e1832e2534598a205be92a75b06db7df0726",
+  "evaluation_dir": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/evaluations/step_000600",
+  "checkpoint": {
+    "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_000600",
+    "completed_update": 600,
+    "complete_sha256": "a0027cafb775a08a596c534848f165c06ef7a27236c1612434c7f030c9a4508e"
+  },
+  "checkpoint_complete": {
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "completed_update": 600,
+    "state_sha256": "f1b19699130c1b66df85f9c5c203c48251d2498c1973e52d3cb113547cce7c84",
+    "elapsed": 31503.473007939523,
+    "phase": "sender"
+  },
+  "wrapper_sha256": "453aff7ed707c3d835149e0c8ac4ec0563b4a6526a9309b91d9b31f329cb1ea2",
+  "evaluation_helper_sha256": "d5f9352f0c6984c29f0078ec035be77822cb81c2fe2010f38248c634326e90f2",
+  "slurm_job_id": "24696926",
+  "slurm_restart_count": null,
+  "manifest_sha256": "f96572c03547bfe59d762941124ba016d468591e9a02a3aa98e87704ece79591",
+  "cleanup_verification": {
+    "before": {
+      "cuda_allocated_bytes": 20528994816,
+      "cuda_reserved_bytes": 43331354624,
+      "device_free_bytes": 3581214720,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 98525642752
+    },
+    "after": {
+      "cuda_allocated_bytes": 20528994816,
+      "cuda_reserved_bytes": 20761804800,
+      "device_free_bytes": 26150764544,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 98525659136
+    },
+    "gc_collected_objects": 258,
+    "live_tensor_metadata_unchanged": true,
+    "rng_unchanged": true,
+    "live_tensor_metadata_sha256": "73e20e6b40ad21ef4bbc7f149115a02d826596950ecbfbabe78dded90b0273f9"
+  },
+  "cache_cleaned_at": 1790989717.316161,
+  "finished_at": 1790989783.7910306
+}

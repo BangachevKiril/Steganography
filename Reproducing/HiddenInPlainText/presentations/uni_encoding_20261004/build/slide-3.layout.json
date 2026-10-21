@@ -1,0 +1,992 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/el25o4",
+    "id": "el25o4",
+    "slide": 3,
+    "layoutId": "6f7649cb-8926-43bb-baaa-e53b5e293404",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "1319b723-6020-464b-aef6-28e227aa5fd2",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FBFCFD",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Helvetica Neue"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "6f7649cb-8926-43bb-baaa-e53b5e293404",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "1319b723-6020-464b-aef6-28e227aa5fd2",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "1319b723-6020-464b-aef6-28e227aa5fd2",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fel8ru5s",
+      "id": "1",
+      "bbox": [
+        60,
+        40,
+        1160,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Supervised learning: linear probes recover PASS / FAIL",
+      "textPreview": "Supervised learning: linear probes recover PASS / FAIL",
+      "resolvedFontSize": 44,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 44,
+        "typeface": "Helvetica Neue",
+        "color": "#152A3A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Supervised learning: linear probes recover PASS / FAIL"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Supervised learning: linear probes recover PASS / FAIL",
+          "resolvedTextStyle": {
+            "fontSize": 44,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Supervised learning: linear probes recover PASS / FAIL",
+              "fontSize": 44,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gfu9kfmd",
+      "id": "2",
+      "bbox": [
+        60,
+        111,
+        1160,
+        54
+      ],
+      "geometry": "rect",
+      "text": "Same checkpoint 1,076 answers, with a random 1,000 training / 1,000 test split",
+      "textPreview": "Same checkpoint 1,076 answers, with a random 1,000 training / 1,000 test split",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Helvetica Neue",
+        "color": "#4D6271",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Same checkpoint 1,076 answers, with a random 1,000 training / 1,000 test split"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Same checkpoint 1,076 answers, with a random 1,000 training / 1,000 test split",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#4D6271",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Same checkpoint 1,076 answers, with a random 1,000 training / 1,000 test split",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue",
+              "color": "#4D6271",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hg3qtkny",
+      "id": "3",
+      "bbox": [
+        60,
+        184,
+        1160,
+        38
+      ],
+      "geometry": "rect",
+      "text": "Frozen EOS residual after the MLP at about two-thirds depth",
+      "textPreview": "Frozen EOS residual after the MLP at about two-thirds depth",
+      "resolvedFontSize": 28,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 28,
+        "typeface": "Helvetica Neue",
+        "color": "#007F82",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Frozen EOS residual after the MLP at about two-thirds depth"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Frozen EOS residual after the MLP at about two-thirds depth",
+          "resolvedTextStyle": {
+            "fontSize": 28,
+            "typeface": "Helvetica Neue",
+            "color": "#007F82",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Frozen EOS residual after the MLP at about two-thirds depth",
+              "fontSize": 28,
+              "typeface": "Helvetica Neue",
+              "color": "#007F82",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2hcrmp4j",
+      "id": "4",
+      "bbox": [
+        60,
+        233,
+        1160,
+        68
+      ],
+      "geometry": "rect",
+      "text": "Gemma block 17 / 26. Qwen block 24 / 36. Standardize on training data and fit L2 logistic regression.",
+      "textPreview": "Gemma block 17 / 26. Qwen block 24 / 36. Standardize on training data and fit L2 logistic regression.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Helvetica Neue",
+        "color": "#152A3A",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Gemma block 17 / 26. Qwen block 24 / 36. Standardize on training data and fit L2 logistic regression."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Gemma block 17 / 26. Qwen block 24 / 36. Standardize on training data and fit L2 logistic regression.",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Gemma block 17 / 26. Qwen block 24 / 36. Standardize on training data and fit L2 logistic regression.",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "table",
+      "scope": "slide",
+      "aid": "tb/q1svqxcn",
+      "id": "5",
+      "bbox": [
+        60,
+        323,
+        1160,
+        238
+      ],
+      "text": "Embedding model | Train BCE | Test BCE | Test accuracy\nTrained Gemma sender | 0.00080 | 0.06061 | 97.8%\nOriginal pretrained Gemma | 0.00083 | 0.06174 | 97.9%\nQwen2.5-3B-Instruct | 0.00294 | 0.07531 | 98.1%",
+      "textPreview": "Embedding model | Train BCE | Test BCE | Test accuracy | Trained Gemma sender | 0.00080 | 0.06061 | 97.8% | Original pretrained Gemma | 0...",
+      "rows": 4,
+      "cols": 4,
+      "cells": [
+        {
+          "index": 1,
+          "row": 1,
+          "column": 1,
+          "bbox": [
+            60,
+            323,
+            470,
+            59.5
+          ],
+          "text": "Embedding model",
+          "textPreview": "Embedding model",
+          "fillColor": "#EAF0F4",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Embedding model",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Embedding model"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            530,
+            323,
+            215,
+            59.5
+          ],
+          "text": "Train BCE",
+          "textPreview": "Train BCE",
+          "fillColor": "#EAF0F4",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Train BCE",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Train BCE",
+                  "fontSize": 23,
+                  "typeface": "Helvetica Neue",
+                  "color": "#152A3A",
+                  "bold": true,
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "column": 3,
+          "bbox": [
+            745,
+            323,
+            215,
+            59.5
+          ],
+          "text": "Test BCE",
+          "textPreview": "Test BCE",
+          "fillColor": "#EAF0F4",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Test BCE",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Test BCE",
+                  "fontSize": 23,
+                  "typeface": "Helvetica Neue",
+                  "color": "#152A3A",
+                  "bold": true,
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "row": 1,
+          "column": 4,
+          "bbox": [
+            960,
+            323,
+            260,
+            59.5
+          ],
+          "text": "Test accuracy",
+          "textPreview": "Test accuracy",
+          "fillColor": "#EAF0F4",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Test accuracy",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Test accuracy",
+                  "fontSize": 23,
+                  "typeface": "Helvetica Neue",
+                  "color": "#152A3A",
+                  "bold": true,
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "column": 1,
+          "bbox": [
+            60,
+            382.5,
+            470,
+            59.5
+          ],
+          "text": "Trained Gemma sender",
+          "textPreview": "Trained Gemma sender",
+          "fillColor": "#FBFCFD",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Trained Gemma sender",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Trained Gemma sender"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            530,
+            382.5,
+            215,
+            59.5
+          ],
+          "text": "0.00080",
+          "textPreview": "0.00080",
+          "fillColor": "#FBFCFD",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "0.00080",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "0.00080",
+                  "fontSize": 25,
+                  "typeface": "Helvetica Neue",
+                  "color": "#152A3A",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "column": 3,
+          "bbox": [
+            745,
+            382.5,
+            215,
+            59.5
+          ],
+          "text": "0.06061",
+          "textPreview": "0.06061",
+          "fillColor": "#FBFCFD",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "0.06061",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "0.06061",
+                  "fontSize": 25,
+                  "typeface": "Helvetica Neue",
+                  "color": "#152A3A",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "row": 2,
+          "column": 4,
+          "bbox": [
+            960,
+            382.5,
+            260,
+            59.5
+          ],
+          "text": "97.8%",
+          "textPreview": "97.8%",
+          "fillColor": "#FBFCFD",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "97.8%",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "97.8%",
+                  "fontSize": 25,
+                  "typeface": "Helvetica Neue",
+                  "color": "#152A3A",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            60,
+            442,
+            470,
+            59.5
+          ],
+          "text": "Original pretrained Gemma",
+          "textPreview": "Original pretrained Gemma",
+          "fillColor": "#FBFCFD",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Original pretrained Gemma",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Original pretrained Gemma"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            530,
+            442,
+            215,
+            59.5
+          ],
+          "text": "0.00083",
+          "textPreview": "0.00083",
+          "fillColor": "#FBFCFD",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "0.00083",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "0.00083",
+                  "fontSize": 25,
+                  "typeface": "Helvetica Neue",
+                  "color": "#152A3A",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "row": 3,
+          "column": 3,
+          "bbox": [
+            745,
+            442,
+            215,
+            59.5
+          ],
+          "text": "0.06174",
+          "textPreview": "0.06174",
+          "fillColor": "#FBFCFD",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "0.06174",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "0.06174",
+                  "fontSize": 25,
+                  "typeface": "Helvetica Neue",
+                  "color": "#152A3A",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "row": 3,
+          "column": 4,
+          "bbox": [
+            960,
+            442,
+            260,
+            59.5
+          ],
+          "text": "97.9%",
+          "textPreview": "97.9%",
+          "fillColor": "#FBFCFD",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "97.9%",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "97.9%",
+                  "fontSize": 25,
+                  "typeface": "Helvetica Neue",
+                  "color": "#152A3A",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "row": 4,
+          "column": 1,
+          "bbox": [
+            60,
+            501.5,
+            470,
+            59.5
+          ],
+          "text": "Qwen2.5-3B-Instruct",
+          "textPreview": "Qwen2.5-3B-Instruct",
+          "fillColor": "#FBFCFD",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Qwen2.5-3B-Instruct",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Qwen2.5-3B-Instruct"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "row": 4,
+          "column": 2,
+          "bbox": [
+            530,
+            501.5,
+            215,
+            59.5
+          ],
+          "text": "0.00294",
+          "textPreview": "0.00294",
+          "fillColor": "#FBFCFD",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "0.00294",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "0.00294",
+                  "fontSize": 25,
+                  "typeface": "Helvetica Neue",
+                  "color": "#152A3A",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "row": 4,
+          "column": 3,
+          "bbox": [
+            745,
+            501.5,
+            215,
+            59.5
+          ],
+          "text": "0.07531",
+          "textPreview": "0.07531",
+          "fillColor": "#FBFCFD",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "0.07531",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "0.07531",
+                  "fontSize": 25,
+                  "typeface": "Helvetica Neue",
+                  "color": "#152A3A",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "row": 4,
+          "column": 4,
+          "bbox": [
+            960,
+            501.5,
+            260,
+            59.5
+          ],
+          "text": "98.1%",
+          "textPreview": "98.1%",
+          "fillColor": "#FBFCFD",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "98.1%",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "98.1%",
+                  "fontSize": 25,
+                  "typeface": "Helvetica Neue",
+                  "color": "#152A3A",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4ju9ozmp",
+      "id": "6",
+      "bbox": [
+        60,
+        590,
+        1160,
+        40
+      ],
+      "geometry": "rect",
+      "text": "All three classifiers achieve 100% training accuracy.",
+      "textPreview": "All three classifiers achieve 100% training accuracy.",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 27,
+        "typeface": "Helvetica Neue",
+        "color": "#007F82",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "All three classifiers achieve 100% training accuracy."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "All three classifiers achieve 100% training accuracy.",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Helvetica Neue",
+            "color": "#007F82",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "All three classifiers achieve 100% training accuracy.",
+              "fontSize": 27,
+              "typeface": "Helvetica Neue",
+              "color": "#007F82",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pk3qx4nu",
+      "id": "7",
+      "bbox": [
+        60,
+        658,
+        1160,
+        38
+      ],
+      "geometry": "rect",
+      "text": "BCE is mean binary cross-entropy in nats, excluding the L2 penalty. “Original” means before sender fine-tuning.",
+      "textPreview": "BCE is mean binary cross-entropy in nats, excluding the L2 penalty. “Original” means before sender fine-tuning.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Helvetica Neue",
+        "color": "#4D6271",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "BCE is mean binary cross-entropy in nats, excluding the L2 penalty. “Original” means before sender fine-tuning."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "BCE is mean binary cross-entropy in nats, excluding the L2 penalty. “Original” means before sender fine-tuning.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Helvetica Neue",
+            "color": "#4D6271",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "BCE is mean binary cross-entropy in nats, excluding the L2 penalty. “Original” means before sender fine-tuning.",
+              "fontSize": 18,
+              "typeface": "Helvetica Neue",
+              "color": "#4D6271",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

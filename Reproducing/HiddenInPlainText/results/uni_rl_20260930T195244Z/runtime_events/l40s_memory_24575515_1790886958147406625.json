@@ -1,0 +1,20 @@
+{
+  "kind": "L40S_PPO_saved_activation_offload",
+  "status": "cuda_parity_failed",
+  "started_at": 1790886958.1474102,
+  "slurm_job_id": "24575515",
+  "slurm_restart_count": null,
+  "config_digest": "a430c084d01dc638190691b34614ff595f8d788bb6172728f04aebe2a50c503b",
+  "completed_update_at_enable": 82,
+  "checkpoint": "/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z/checkpoints/step_000082",
+  "restored_elapsed_seconds": 1806.1834063110873,
+  "memory_manifest_sha256": "1d5b9d2c6e97085caf0df6f1148877eb488e1b0580cc4d9e21f14f082438b9d4",
+  "wrapper_sha256": "b662bbbe0f2245748a74c0e2c38cdebea2ef9a2e91d54a09b41f84e8f30d13ea",
+  "hardware_launcher_sha256": "17dbf6d322d3bc5cac719c0a1ebef701e88e4a25d6ec4e9a302268a414f91565",
+  "gpu": "NVIDIA L40S",
+  "torch": "2.4.0+cu124",
+  "bitsandbytes": "0.43.3",
+  "failed_at": 1790886964.2457573,
+  "error_type": "AssertionError",
+  "error": "Tensor parity failed: cuda_toy.gradients.a"
+}

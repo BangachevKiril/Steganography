@@ -1,0 +1,32 @@
+{
+  "name": "uni_h100_probe_20261001T174300Z",
+  "stage": "submitted",
+  "status": "submitted",
+  "training_job_id": "24469259",
+  "training_run": "/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z",
+  "training_source": "/orcd/pool/003/kirilb/Steganography/releases/uni_rl_20260930T195244Z",
+  "training_config_digest": "a430c084d01dc638190691b34614ff595f8d788bb6172728f04aebe2a50c503b",
+  "checkpoint": "/orcd/pool/003/kirilb/Steganography/runs/uni_h100_probe_20261001T174300Z/source_checkpoint",
+  "completed_update": 82,
+  "remote_source": "/orcd/pool/003/kirilb/Steganography/releases/uni_h100_probe_20261001T174300Z",
+  "run_dir": "/orcd/pool/003/kirilb/Steganography/runs/uni_h100_probe_20261001T174300Z",
+  "local_source": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/launches/uni_h100_probe_20261001T174300Z",
+  "local_results": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_h100_probe_20261001T174300Z",
+  "partition": "mit_normal_gpu",
+  "gpu": "h100",
+  "requested_time": "00:20:00",
+  "bitsandbytes_version": "0.45.0",
+  "original_bitsandbytes_version": "0.43.3",
+  "reported": false,
+  "completion_reported": false,
+  "authorization": "User requested H100 test after proposed saved-answer observer parity and checkpoint restoration check; no parameter updates or main-run changes.",
+  "created_at": "2026-10-01T17:43:00.960094+00:00",
+  "original_checkpoint": "/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z/checkpoints/step_000082",
+  "output_dir": "/orcd/pool/003/kirilb/Steganography/runs/uni_h100_probe_20261001T174300Z/public",
+  "probe_files_sha256": {
+    "university_h100_probe.py": "038d43af75cbdfb506a5a9d4f11326f456e3972004e5bd92155da78f1ddbc2ed",
+    "university_h100_probe.slurm": "5195ca37334557fcd7a5d11cf673aa6e3129bde406fec73e6d141add058aa10c"
+  },
+  "job_id": "24561305",
+  "submitted_at": "2026-10-01T17:49:16.543530+00:00"
+}

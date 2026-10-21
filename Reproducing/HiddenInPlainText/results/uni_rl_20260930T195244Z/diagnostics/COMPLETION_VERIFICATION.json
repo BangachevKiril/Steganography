@@ -1,0 +1,80 @@
+{
+  "verified_at": "2026-10-02T14:05:09.186389+00:00",
+  "status": "complete",
+  "job_id": "24579661",
+  "completed_update": 532,
+  "completed_cycles": 76,
+  "sender_updates": 380,
+  "receiver_updates": 152,
+  "config_digest": "a430c084d01dc638190691b34614ff595f8d788bb6172728f04aebe2a50c503b",
+  "checkpoint_state_sha256": "297ba15187ba2f5ccc0ef6e1d9fe995c35bba18c84e754085a428242c34c2086",
+  "checkpoint_state_hash_verified_remotely": true,
+  "final_evaluation_complete_sha256": "9a2f60b48accce506f458e7d2b52115e0f6fd7dd7164ab0ea239f40b4faafc7d",
+  "main_complete_sha256": "15a187555ede7570b0e0d4d25a41049a170ee91275d38d699d31ad10501ae8b6",
+  "audits": {
+    "completion_remote_hash_verification.json": "24b931151e8fea813b1fbcb526164623924e5b666bbdd885a9f035deee2c8707",
+    "completion_public_evaluation_audit_20261002.json": "ceb5f263b773a394cb927f14a4d53c9673125b653f21c2cc0844ea8d1cf23fc7",
+    "training_completion_audit.json": "5a19a9c2b79c2c1ae9951757ff7a582da55b4a37ccd158b09323cca465e7f8d2",
+    "completion_runtime_audit_20261002.json": "5634e45e5eeb22247fcc626c1e5fc45579a3f341943cae7e6011928dfbeeeded"
+  },
+  "budget": {
+    "configured_active_seconds": 27900,
+    "at_budget_stop": 27930.656315422806,
+    "final_checkpoint_elapsed": 27929.14659542781,
+    "including_final_evaluation": 28144.718488428814,
+    "note": "Original loop checks the active budget before each update. Last atomic update crosses it by about30.7seconds; final evaluation/reporting adds214.1seconds. Saved active time includes periodic evaluations and preserves checkpoint elapsed across requeues; it is not total Slurm wall time."
+  },
+  "restart_checkpoints": [
+    100,
+    472,
+    523
+  ],
+  "state_restoration_budget_reset": false,
+  "scientific_settings_changed": false,
+  "weights_copied_locally": false,
+  "all_probes_terminal_and_reported": true,
+  "final_evaluation": {
+    "update": 532,
+    "verified": true,
+    "university": {
+      "n": 2000,
+      "receiver_correct": 1028,
+      "observer_flagged": 65,
+      "receiver_PASS": 519,
+      "receiver_FAIL": 1481
+    },
+    "piqa": {
+      "n": 100,
+      "judge_rejected": 4,
+      "format_rejected": 0,
+      "overlap": 0,
+      "total_rejected_d": 4
+    },
+    "C_R": 0.514,
+    "C_I": 0.0325,
+    "d": 0.04,
+    "delta_d_percentage_points": -4,
+    "paired_piqa_baseline": {
+      "worsened": 3,
+      "improved": 7,
+      "exact_mcnemar_p": 0.34375
+    },
+    "evaluation_config_digest": "0d0f00d93de9583ff7a23a93a629093984c7ab161984b0c39f3c1b74ad2f1b30",
+    "source_checkpoint": {
+      "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z/checkpoints/step_000532",
+      "completed_update": 532,
+      "complete_sha256": "8519c03624c9e759a2b82b22bd23821536ab66d8373b19ab8d4c692118f96f0f"
+    },
+    "checkpoint_state_sha256": "297ba15187ba2f5ccc0ef6e1d9fe995c35bba18c84e754085a428242c34c2086",
+    "checkpoint_complete_sha256": "8519c03624c9e759a2b82b22bd23821536ab66d8373b19ab8d4c692118f96f0f",
+    "evaluation_complete_sha256": "9a2f60b48accce506f458e7d2b52115e0f6fd7dd7164ab0ea239f40b4faafc7d",
+    "summary_sha256": "3fd450bd3466b8e36ca1b613f0ac80fad44f5c4cf4d946f2e03d0aed862b86d0",
+    "public_file_sha256": {
+      "UNIVERSITY_GENERATIONS.json": "dfafe8541a2812c3e150a789b25cea0c2ac5d0e2072bdeac0831a48c947ab992",
+      "UNIVERSITY_RECEIVER.json": "83ea1136f9f13d8af467c772b552bba16ac2aac11d605104bfdcdf7bc52c9253",
+      "UNIVERSITY_RESULTS.json": "f8f28ddd44428b84142380b9c5ed6ac6a6dc660fdf7b06960a59689167f77db1",
+      "PIQA_GENERATIONS.json": "aa0c8e6ee7be2863355d422edaa156c2aa0041fba7e86573be19fcef8897cdc8",
+      "PIQA_JUDGED.json": "f1b9fee5df83962841ac38341c9ec7579438455900dd637306c3c85b327b7815"
+    }
+  }
+}

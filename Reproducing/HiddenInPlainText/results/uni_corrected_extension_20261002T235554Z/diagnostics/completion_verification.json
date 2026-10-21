@@ -1,0 +1,81 @@
+{
+  "verified_at": "2026-10-02T23:37:31.217578+00:00",
+  "completed_update": 530,
+  "slurm": {
+    "job_id": "24665081",
+    "state": "COMPLETED",
+    "node": "node3502",
+    "elapsed": "01:59:27",
+    "limit": "6:00:00",
+    "restarts": 1,
+    "exit_code": "0:0"
+  },
+  "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+  "source_files_hash_verified_remotely": 33,
+  "checkpoint": {
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "completed_update": 530,
+    "state_sha256": "14c2e9342d13b12f8992feb18ff30ecdbd9c57d27ee62a3436047771e52bf6b9",
+    "elapsed": 27930.404972237535,
+    "phase": "sender"
+  },
+  "checkpoint_state_sha256_verified_remotely": true,
+  "final_evaluation_public_audit_path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_20261002T151448Z/diagnostics/evaluation530_public_audit.json",
+  "final_evaluation_public_audit_sha256": "12695969acc3252cd291392b745fe0cf2219a7765648d8f6e56f5d62d4559d56",
+  "final_evaluation_runtime_identity_path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_20261002T151448Z/diagnostics/evaluation530_remote_runtime_identity.json",
+  "main_completion": {
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "completed_update": 530,
+    "checkpoint": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_000530",
+    "evaluation_complete_sha256": "54e00b3734d7d4d5fc733597370d0f4424ba52d709f334db4c94f329eb06aff7",
+    "active_seconds": 28066.454916309565,
+    "stop_reason": "configured_active_time_budget",
+    "sender_updates": 378,
+    "receiver_updates": 152
+  },
+  "main_completion_sha256": "c3f8a17513ce0ba9812b73306166542dfc571776c5205cd9cad0be6a71fa94b8",
+  "budget_completion": {
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "completed_update": 530,
+    "active_seconds": 27932.881792069413
+  },
+  "configured_active_seconds": 27900,
+  "training_budget_boundary_overshoot_seconds": 32.88179206941277,
+  "final_evaluation_and_completion_seconds": 133.57312424015254,
+  "budget_explanation": "The unchanged hash-pinned loop checks active time between atomic updates. Update 530 finished and checkpointed before the next budget check; no configured budget extension or reset. Final frozen evaluation follows training budget completion.",
+  "complete_seven_update_cycles": 75,
+  "partial_last_cycle": {
+    "cycle": 76,
+    "receiver_updates": 2,
+    "sender_updates": 3
+  },
+  "receiver_updates": 152,
+  "sender_updates": 378,
+  "training_public_rows_verified": 148928,
+  "all_training_metrics_finite": true,
+  "receiver_accumulation_verified": true,
+  "all_completed_evaluation_public_hashes_verified": true,
+  "probe_terminal_states_reported": {
+    "h100_cancelled": true,
+    "l40s_probe_completed": true
+  },
+  "no_recorded_runtime_failure": true,
+  "final_report_path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_20261002T151448Z/verified_report.md",
+  "curves_verified": true,
+  "curves_visually_inspected": true,
+  "artifact_sha256": {
+    "REPORT.json": "0196155383576e04a1e75456132a960b4ddd2052c73a06e8a8c8812a2a16fab2",
+    "per_update.csv": "c1ee4b06156d0e3531675479c7fa97dc5916fd69a32d24d30a44d57e17c00693",
+    "plots/PROVENANCE.json": "0e0e91ae021a0cd61db272dd3b92dd3774f5730d5ed194e084645c4ec957764a",
+    "plots/corrected_evaluation_curves.csv": "016654e462a6a23df38e21a3844040ad1a143c99e6a299b1579c1f903951ef07",
+    "plots/corrected_evaluation_overview_hours.pdf": "2329c29d5ce1a72b3d9c4da0c115e2ee5948615b31ebaed1b518773b49fea7bb",
+    "plots/corrected_evaluation_overview_hours.png": "68dcf8dafa7981e3f5e0bd478a50ee32627874a20c9602898b802341b46bf459",
+    "plots/corrected_evaluation_overview_hours.svg": "0b081a5320e8500ef4c34865311e2738f06acd179619113f9d0fb1a969cc2cf9",
+    "plots/corrected_evaluation_overview_updates.pdf": "8e998585afa54bdf0dfbd12b9763f23edf8ffd1fb603d746e60db7b89a870d99",
+    "plots/corrected_evaluation_overview_updates.png": "6189f49d3146418f150015ca764c632c5a6ab9209eb375fb46576afe4e97ec51",
+    "plots/corrected_evaluation_overview_updates.svg": "903a675fc8be5bc6647eeb007648196a9b67cf3641b42f62e23c0a8fe5d3f0b0",
+    "plots/plot_corrected_curves.py": "784f466ac977ce47fd7f0f120e4f9af9c1f7cd7079fccd761a70ad1f5bda6122",
+    "report.md": "ddc04849da6e42d2c31e33ba8dcf8f4d0e9f1d124dadbd9c31008b80202d71e5",
+    "verified_report.md": "295cff857770eec302b93cf37cbbbbee7151db11fb07af4c3941bba254c276aa"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "kind": "L40S_continuation",
+  "status": "restored",
+  "started_at": 1790911534.4235706,
+  "config_digest": "a430c084d01dc638190691b34614ff595f8d788bb6172728f04aebe2a50c503b",
+  "migration_manifest_sha256": "89ed045eb1b31bd7575f960c40e97bb962885ed57b370f2c899c47fa90bca374",
+  "wrapper_sha256": "17dbf6d322d3bc5cac719c0a1ebef701e88e4a25d6ec4e9a302268a414f91565",
+  "source_checkpoint": "/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z/checkpoints/step_000472",
+  "checkpoint_complete": {
+    "config_digest": "a430c084d01dc638190691b34614ff595f8d788bb6172728f04aebe2a50c503b",
+    "completed_update": 472,
+    "state_sha256": "03ee690eb67afdc4349679f2267a10bcba6ec5ed0ef7ea97cf584b7b5ca567ee",
+    "elapsed": 24266.77058719797,
+    "phase": "sender"
+  },
+  "slurm_job_id": "24579661",
+  "slurm_restart_count": "1",
+  "gpu": "NVIDIA L40S",
+  "gpu_memory_bytes": 47667740672,
+  "gpu_capability": [
+    8,
+    9
+  ],
+  "visible_gpu_count": 1,
+  "cuda": "12.4",
+  "python": "3.12.13 | packaged by conda-forge | (main, Mar  5 2026, 16:50:00) [GCC 14.3.0]",
+  "executable": "/orcd/pool/003/kirilb/Steganography/envs/uni_author_torch240/bin/python",
+  "versions": {
+    "torch": "2.4.0+cu124",
+    "transformers": "4.43.2",
+    "trl": "0.9.6",
+    "peft": "0.12.0",
+    "accelerate": "0.33.0",
+    "bitsandbytes": "0.43.3",
+    "numpy": "1.26.4",
+    "datasets": "2.20.0",
+    "tokenizers": "0.19.1"
+  },
+  "bitsandbytes_module": "/orcd/pool/003/kirilb/Steganography/envs/uni_author_torch240/lib/python3.12/site-packages/bitsandbytes/__init__.py",
+  "original_init_sha256": "ac2f5dba89f9116c53b99f4cf486793d1dff3c25db48c913cf3cd7e19f733881",
+  "patched_init_sha256": "e5453f863e2051d87b2fc22aeee747178453d60efa9691525cf52d6e63f3045b",
+  "restored_at": 1790911662.621385,
+  "completed_update": 472,
+  "restored_elapsed_seconds": 24266.77058719797,
+  "configured_active_budget_seconds": 27900,
+  "latest_state_sha256": "03ee690eb67afdc4349679f2267a10bcba6ec5ed0ef7ea97cf584b7b5ca567ee"
+}

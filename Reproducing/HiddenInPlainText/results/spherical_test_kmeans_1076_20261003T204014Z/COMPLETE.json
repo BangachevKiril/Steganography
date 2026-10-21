@@ -1,0 +1,78 @@
+{
+  "completed_at": "2026-10-03T20:43:12.854081+00:00",
+  "files": {
+    "ALL_CLUSTERS_FROZEN.json": "61565d6eed7aa70f5b671710239d472dfb76066205133d1f6dc3de88fe55dfca",
+    "PROTOCOL.json": "dfe85350b59a9fc3654bbe7ea5d32a67963fbde64353ec05dcc6b57e8bb70324",
+    "comparison.json": "3ae182a8b9320a070cddb68d1caea86caebaa02b5025dbaf6c7bcbba1958cb76",
+    "final_audit.json": "41c92ef0c824d910ec5584ee865cdc5bcfcfb392e5b5a5364e1da6ff0e82e678",
+    "independent_check.json": "b165258070b9e4368e6fabe577236ecbfa39c2b9c3e3b9708c03f80cd4a52f6c",
+    "report.html": "ebf8f26584c2a4c39e340d0f1bda866d78ba50f471c3354e8224b9316c69f24c"
+  },
+  "models": {
+    "gemma_trained": {
+      "adjusted_rand_index": 0.0007875083401324704,
+      "best_mapping_accuracy": 0.521,
+      "cluster_completion_sha256": "23adb5493d0b73a13c62c695a0632e1d5bfabc05698c11eeb6b5e17d5f43ea3b",
+      "cluster_label_table": [
+        [
+          222,
+          201
+        ],
+        [
+          278,
+          299
+        ]
+      ],
+      "evaluation_completion_sha256": "0f23c831e2249e3af67be72d25241a1ab04995cebb7d60dadbdd1470d1da68f0",
+      "evaluation_file": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/gemma_trained/evaluation/evaluation.json",
+      "local_results": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/gemma_trained",
+      "model_name": "Trained Gemma sender",
+      "plan": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/gemma_trained/analysis_plan.json",
+      "plan_sha256": "f7a88bfed904e057f3592837c604fa4017ca7ced3feedef37ff813a0b203a0e4"
+    },
+    "gemma_untrained": {
+      "adjusted_rand_index": 0.0017290480179232824,
+      "best_mapping_accuracy": 0.526,
+      "cluster_completion_sha256": "130a8e0af809bfdc62d0d44605544853b58a84050f3e978ad1ed238341319962",
+      "cluster_label_table": [
+        [
+          224,
+          198
+        ],
+        [
+          276,
+          302
+        ]
+      ],
+      "evaluation_completion_sha256": "a7868f8c31b0d53c9fa6170b09da4e1db237a57e67566877918795f8adc735d4",
+      "evaluation_file": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/gemma_untrained/evaluation/evaluation.json",
+      "local_results": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/gemma_untrained",
+      "model_name": "Original pretrained Gemma",
+      "plan": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/gemma_untrained/analysis_plan.json",
+      "plan_sha256": "b55c0d46101187f1a4ac86bd9470a0db8dfec986f59b960358a99034139724eb"
+    },
+    "qwen25_3b": {
+      "adjusted_rand_index": 6.309967536371287e-05,
+      "best_mapping_accuracy": 0.516,
+      "cluster_completion_sha256": "278f388d01c78f9848377b573eaf5041864ae5ceb75cb6bdc53e3b00dacad2a3",
+      "cluster_label_table": [
+        [
+          208,
+          192
+        ],
+        [
+          292,
+          308
+        ]
+      ],
+      "evaluation_completion_sha256": "96a9b794723cb0420ff64a2ef7b1a91e7c85161b3e5989c4f1590c28d76daf65",
+      "evaluation_file": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/qwen25_3b/evaluation/evaluation.json",
+      "local_results": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/qwen25_3b",
+      "model_name": "Qwen2.5-3B-Instruct",
+      "plan": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/qwen25_3b/analysis_plan.json",
+      "plan_sha256": "52b056d81d9ba3d97c9d39d137f73dc5154bc1bade63c9aab961a57db863e8dd"
+    }
+  },
+  "plots_visually_verified": true,
+  "status": "complete"
+}

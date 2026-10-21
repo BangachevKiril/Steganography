@@ -1,0 +1,21 @@
+{
+  "experiment_id": "qwen25_3b_test_kmeans_1076_20261003T193938Z",
+  "created_at": "2026-10-03T19:39:38.980428+00:00",
+  "k": 2,
+  "n_init": 50,
+  "master_seed": 42,
+  "max_iter": 1000,
+  "initialization": "Standard k-means++ D-squared sampling; no greedy local trials",
+  "stopping": "Stable assignments",
+  "scaling": "Mean and population std of1000test embeddings only; zero std scale1",
+  "selection": "Minimum unlabeled inertia; ties by start index",
+  "pca": false,
+  "input_embeddings": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/qwen25_3b_eos_logreg_1076_20261003T191657Z/embeddings/test_embeddings.npz",
+  "input_embeddings_sha256": "7c79cebe9cc1e708adb8c7e869d421fe1ad641032cf63e456ecb3ddfff029ffe",
+  "embedding_completion": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/qwen25_3b_eos_logreg_1076_20261003T191657Z/embeddings/EMBEDDING_COMPLETE.json",
+  "embedding_completion_sha256": "93f641aae790c9426d819af892d87304a910691dc5b24da1fcd27efc760f0875",
+  "script": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/experiments/qwen25_3b_test_kmeans_1076/cluster.py",
+  "script_sha256": "79fd22f7eb50e903a62f89708a23bf457dc59c38d5d07821d4f0138255bb61ea",
+  "cluster_output": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/qwen25_3b_test_kmeans_1076_20261003T193938Z/clusters",
+  "evaluation": "Only after CLUSTER_COMPLETE.json is saved and verified; label0=FAIL,label1=PASS. Report cluster sizes, cluster-label contingency, better of2label mappings accuracy, adjusted Rand index. Do not alter clustering based on labels."
+}

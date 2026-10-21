@@ -1,0 +1,48 @@
+{
+  "kind": "L40S_evaluation_parent_cache_cleanup",
+  "status": "original_judge_completed",
+  "started_at": 1790895771.7202272,
+  "config_digest": "a430c084d01dc638190691b34614ff595f8d788bb6172728f04aebe2a50c503b",
+  "evaluation_config_digest": "316f52a28e92bea466c8c63c5a15c4b843809bd4580f3685081657ba50515580",
+  "evaluation_dir": "/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z/evaluations/step_000200",
+  "checkpoint": {
+    "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z/checkpoints/step_000200",
+    "completed_update": 200,
+    "complete_sha256": "4415baa7bd4353443ef9b6c667ccd55213ef5430364d5ff1a5e6e3441df86101"
+  },
+  "checkpoint_complete": {
+    "config_digest": "a430c084d01dc638190691b34614ff595f8d788bb6172728f04aebe2a50c503b",
+    "completed_update": 200,
+    "state_sha256": "b8f11a74ca9428f72fb2c926bcca0d5813473b5bf6c28d8e74cbb9817529299f",
+    "elapsed": 8631.215995489154,
+    "phase": "sender"
+  },
+  "slurm_job_id": "24579661",
+  "slurm_restart_count": null,
+  "wrapper_sha256": "d5f9352f0c6984c29f0078ec035be77822cb81c2fe2010f38248c634326e90f2",
+  "memory_launcher_sha256": "9ce57ee0ff9a043273f80a75424a80bdf8a97189e0ccaedb00dce2f0f9e9b2c4",
+  "hardware_launcher_sha256": "17dbf6d322d3bc5cac719c0a1ebef701e88e4a25d6ec4e9a302268a414f91565",
+  "manifest_sha256": "833d3e4e98f6f96587fea36e7d3cb05325bfad87c2df9dc0dbc660639448d64c",
+  "cleanup_verification": {
+    "before": {
+      "cuda_allocated_bytes": 20796631040,
+      "cuda_reserved_bytes": 46730838016,
+      "device_free_bytes": 181731328,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 98777305088
+    },
+    "after": {
+      "cuda_allocated_bytes": 20796631040,
+      "cuda_reserved_bytes": 21120417792,
+      "device_free_bytes": 25792151552,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 98777391104
+    },
+    "gc_collected_objects": 258,
+    "live_tensor_metadata_unchanged": true,
+    "rng_unchanged": true,
+    "live_tensor_metadata_sha256": "b2dc70a03e27c9accbc73592f2b039e1b1d9efec6575857b5e3da0854dde3c2c"
+  },
+  "cache_cleaned_at": 1790895772.3918648,
+  "finished_at": 1790895839.1663692
+}

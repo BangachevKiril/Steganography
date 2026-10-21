@@ -1,0 +1,20 @@
+{
+  "completed_step": 23,
+  "median_step_seconds": {
+    "joint": 490.59438890311867,
+    "interceptor": 140.8877689181827
+  },
+  "observed_steps": {
+    "joint": 13,
+    "interceptor": 10
+  },
+  "remaining_step_counts": {
+    "joint": 37,
+    "interceptor": 40
+  },
+  "eta_seconds_excluding_queue": 24057.126089739613,
+  "validation_seconds_observed": [
+    67.4057358992286
+  ],
+  "note": "ETA excludes queue/preemption and checkpoint writes; includes future validation only once measured."
+}

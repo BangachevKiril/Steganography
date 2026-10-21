@@ -1,0 +1,195 @@
+{
+  "status": "passed",
+  "seed": 20262657,
+  "seconds": 124.83127953996882,
+  "device": "NVIDIA H100 NVL",
+  "communicator_path": "/orcd/pool/003/kirilb/huggingface_models_cache/models--qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "judge_path": "/orcd/pool/003/kirilb/huggingface_models_cache/models--qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "smoke_think_tokens": 32,
+  "smoke_answer_tokens": 48,
+  "production_think_tokens": 256,
+  "train_microbatch_size": 4,
+  "decoder_objective": "fixed_baseline_pg_ce",
+  "all_wrong_decoder_group_tested": true,
+  "ragged_prompt_lengths": [
+    36,
+    99,
+    36,
+    99
+  ],
+  "ragged_thought_lengths": [
+    32,
+    32,
+    32,
+    32
+  ],
+  "variable_thought_lengths_seen": false,
+  "behavior_probability_check": {
+    "mean_absolute_logprob_difference": 0.011054125614464283,
+    "max_absolute_logprob_difference": 0.3881874084472656,
+    "p99_absolute_logprob_difference": 0.23217514157295227,
+    "action_tokens_compared": 132,
+    "batched_vs_singleton_mean_absolute_logprob_difference": 0.01013229787349701,
+    "batched_vs_singleton_max_absolute_logprob_difference": 0.3881874084472656,
+    "batched_vs_behavior_mean_absolute_logprob_difference": 0.0010885759256780148,
+    "batched_vs_behavior_max_absolute_logprob_difference": 0.0384674072265625
+  },
+  "sender_behavior_probability_check": {
+    "mean_absolute_logprob_difference": 0.02044663392007351,
+    "max_absolute_logprob_difference": 0.25131988525390625,
+    "p99_absolute_logprob_difference": 0.19997994601726532,
+    "action_tokens_compared": 80,
+    "batched_vs_singleton_mean_absolute_logprob_difference": 0.0,
+    "batched_vs_singleton_max_absolute_logprob_difference": 0.0,
+    "batched_vs_behavior_mean_absolute_logprob_difference": 0.02044663392007351,
+    "batched_vs_behavior_max_absolute_logprob_difference": 0.25131988525390625
+  },
+  "update_metrics": {
+    "loss": 3.166533946990967,
+    "policy_loss": 0.4910096833200166,
+    "kl": 0.0,
+    "clip_fraction": 0.03030303120613098,
+    "ratio_mean": 1.0123224258422852,
+    "reward_mean": 0.0,
+    "active_group_fraction": 0.0,
+    "sampled_tokens": 264.0,
+    "trajectories": 8.0,
+    "microbatches": 2.0,
+    "max_microbatch_trajectories": 4,
+    "configured_train_microbatch_size": 4.0,
+    "grad_norm": 74.12571716308594,
+    "counterfactual_grpo_active_group_fraction": 0.0,
+    "decoder_examples": 8.0,
+    "decoder_ce": 2.6755242347717285,
+    "decoder_ce_loss": 2.6755242347717285,
+    "decoder_reasoning_policy_loss": 0.4910096833200166,
+    "decoder_counterfactual_grpo_active_group_fraction": 0.0,
+    "decoder_correct_probability_mean": 0.06887071579694748,
+    "decoder_probability_zero_mean": 0.06887071579694748,
+    "reasoning_pg_active_fraction": 1.0,
+    "reasoning_advantage_mean": -0.5,
+    "reasoning_advantage_abs_mean": 0.5
+  },
+  "selected_adapter_changed": true,
+  "other_adapters_unchanged": true,
+  "base_unchanged": true,
+  "judge_unchanged": true,
+  "checkpoint_restored_exactly": true,
+  "production_minibatch_check": {
+    "status": "passed",
+    "seconds": 44.351806146791205,
+    "think_tokens": 256,
+    "final_answer_tokens": 128,
+    "train_microbatch_size": 4,
+    "sender_trajectories": [
+      {
+        "prompt_tokens": 287,
+        "thought_tokens": 256,
+        "final_tokens": 25,
+        "sampled_tokens": 281
+      },
+      {
+        "prompt_tokens": 287,
+        "thought_tokens": 256,
+        "final_tokens": 29,
+        "sampled_tokens": 285
+      },
+      {
+        "prompt_tokens": 291,
+        "thought_tokens": 256,
+        "final_tokens": 48,
+        "sampled_tokens": 304
+      },
+      {
+        "prompt_tokens": 291,
+        "thought_tokens": 256,
+        "final_tokens": 44,
+        "sampled_tokens": 300
+      }
+    ],
+    "mixed_sender_trajectories": [
+      {
+        "prompt_tokens": 287,
+        "thought_tokens": 256,
+        "final_tokens": 30,
+        "sampled_tokens": 286
+      },
+      {
+        "prompt_tokens": 287,
+        "thought_tokens": 256,
+        "final_tokens": 27,
+        "sampled_tokens": 283
+      }
+    ],
+    "mixed_receiver_trajectories": [
+      {
+        "prompt_tokens": 302,
+        "thought_tokens": 256,
+        "final_tokens": 1,
+        "sampled_tokens": 257
+      },
+      {
+        "prompt_tokens": 319,
+        "thought_tokens": 256,
+        "final_tokens": 1,
+        "sampled_tokens": 257
+      }
+    ],
+    "sender_update_metrics": {
+      "loss": 0.001929640769958496,
+      "policy_loss": 0.0019095540046691617,
+      "kl": 0.0026301572215743363,
+      "clip_fraction": 0.03154421877115965,
+      "ratio_mean": 1.0000843852758408,
+      "reward_mean": 0.0,
+      "active_group_fraction": 1.0,
+      "sampled_tokens": 1170.0,
+      "trajectories": 4.0,
+      "microbatches": 1.0,
+      "max_microbatch_trajectories": 4,
+      "configured_train_microbatch_size": 4.0,
+      "grad_norm": 0.7615423202514648,
+      "counterfactual_grpo_active_group_fraction": 1.0,
+      "sender_grpo_active_group_fraction": 1.0,
+      "sender_policy_loss": 0.0019095540046691617
+    },
+    "mixed_update_metrics": {
+      "loss": 0.09404466301202774,
+      "policy_loss": 0.003758222753744947,
+      "kl": 0.00288596743484959,
+      "clip_fraction": 0.023904940811917186,
+      "ratio_mean": 0.9998807162046432,
+      "reward_mean": 0.25,
+      "active_group_fraction": 0.3333333333333333,
+      "sampled_tokens": 1083.0,
+      "trajectories": 4.0,
+      "microbatches": 1.0,
+      "max_microbatch_trajectories": 4,
+      "configured_train_microbatch_size": 4.0,
+      "grad_norm": 21.002321243286133,
+      "counterfactual_grpo_active_group_fraction": 0.3333333333333333,
+      "sender_grpo_active_group_fraction": 1.0,
+      "sender_policy_loss": 0.0030349294344584055,
+      "decoder_examples": 2.0,
+      "decoder_ce": 0.18052182464452926,
+      "decoder_ce_loss": 0.09026091232226463,
+      "decoder_reasoning_policy_loss": 0.0007232933192865415,
+      "decoder_counterfactual_grpo_active_group_fraction": 0.0,
+      "decoder_correct_probability_mean": 0.8484503030776978,
+      "decoder_probability_zero_mean": 0.651391327381134,
+      "reasoning_pg_active_fraction": 1.0,
+      "reasoning_advantage_mean": 0.0,
+      "reasoning_advantage_abs_mean": 0.5
+    },
+    "selected_adapter_changed": true,
+    "other_adapters_unchanged": true,
+    "base_unchanged": true,
+    "judge_unchanged": true,
+    "peak_gpu_memory_allocated_bytes": 18778550272,
+    "peak_gpu_memory_reserved_bytes": 19337838592,
+    "note": "Real generation at production budgets; lengths shown are actual. Synthetic sender rewards and all canary updates are discarded."
+  },
+  "judge_verdict": "PASS",
+  "peak_gpu_memory_allocated_bytes": 18778550272,
+  "note": "Eight all-wrong bit examples repeat one sampled trajectory with its opposite bit as target and the configured decoder grouping; isolated plumbing canary only, no adapters retained."
+}

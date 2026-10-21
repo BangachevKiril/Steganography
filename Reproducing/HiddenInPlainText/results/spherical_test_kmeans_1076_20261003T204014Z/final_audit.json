@@ -1,0 +1,29 @@
+{
+  "checks": {
+    "gemma_trained": {
+      "all_three_frozen_before_labels": true,
+      "centering_and_row_normalization_verified": true,
+      "hashes_verified": true,
+      "objective_recomputed": 558.0529154704179,
+      "source_ids_match": true,
+      "unit_centroid_and_assignment_fixed_point": true
+    },
+    "gemma_untrained": {
+      "all_three_frozen_before_labels": true,
+      "centering_and_row_normalization_verified": true,
+      "hashes_verified": true,
+      "objective_recomputed": 544.9234350332168,
+      "source_ids_match": true,
+      "unit_centroid_and_assignment_fixed_point": true
+    },
+    "qwen25_3b": {
+      "all_three_frozen_before_labels": true,
+      "centering_and_row_normalization_verified": true,
+      "hashes_verified": true,
+      "objective_recomputed": 369.9858562148788,
+      "source_ids_match": true,
+      "unit_centroid_and_assignment_fixed_point": true
+    }
+  },
+  "completed_at": "2026-10-03T20:42:39.272020+00:00"
+}

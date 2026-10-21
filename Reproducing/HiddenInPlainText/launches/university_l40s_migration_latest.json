@@ -1,0 +1,143 @@
+{
+  "name": "uni_l40s_continue_20261001T201547Z",
+  "status": "COMPLETED",
+  "authorized_at": "2026-10-01T20:15:47.905604+00:00",
+  "authorization": "User: thats ok. Lets run everything on L40; difference seems small",
+  "scope": "Continue only the university training run on L40S. Other PIQA/hybrid jobs and completed baseline untouched.",
+  "training_run": "/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z",
+  "training_source": "/orcd/pool/003/kirilb/Steganography/releases/uni_rl_20260930T195244Z",
+  "config_digest": "a430c084d01dc638190691b34614ff595f8d788bb6172728f04aebe2a50c503b",
+  "old_training_job_id": "24469259",
+  "obsolete_h100_job_id": "24561305",
+  "remote_migration_source": "/orcd/pool/003/kirilb/Steganography/releases/uni_l40s_continue_20261001T201547Z",
+  "local_migration_source": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/launches/uni_l40s_continue_20261001T201547Z",
+  "target_gpu": "L40S",
+  "bitsandbytes_version": "0.43.3",
+  "max_active_seconds": 27900,
+  "accepted_probe": "uni_l40s_probe_20261001T184131Z",
+  "accepted_differences": {
+    "evaluation50_flag_changes": 29,
+    "evaluation50_n": 2000,
+    "update82_flag_changes": 2,
+    "update82_n": 192
+  },
+  "full_training_memory_previously_verified": false,
+  "partition": "mit_normal_gpu,mit_preemptable",
+  "allocation_walltime": "06:00:00",
+  "resume_policy": "Highest matching complete checkpoint with verified state hash; preserve saved elapsed active time, optimizers, RNG, streams, model modes and all settings.",
+  "held_jobs": [
+    {
+      "job_id": "24469259",
+      "state": "PENDING",
+      "reason": "JobHeldUser"
+    },
+    {
+      "job_id": "24561305",
+      "state": "PENDING",
+      "reason": "JobHeldUser"
+    }
+  ],
+  "verified_checkpoint": "/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z/checkpoints/step_000082",
+  "checkpoint_marker": {
+    "config_digest": "a430c084d01dc638190691b34614ff595f8d788bb6172728f04aebe2a50c503b",
+    "completed_update": 82,
+    "state_sha256": "edc4a904a5d7ce36ec18b509d60732d2be862d16786f74571bf84ba78ca3dd2b",
+    "elapsed": 1806.1834063110873,
+    "phase": "sender"
+  },
+  "remaining_active_seconds": 26093.816593688913,
+  "launcher_sha256": {
+    "university_l40s_training.py": "17dbf6d322d3bc5cac719c0a1ebef701e88e4a25d6ec4e9a302268a414f91565",
+    "university_l40s_training.slurm": "6caf2f2b5314f043c626d643ab1cb8cb14b6a11bdcda74d244f94d4d832c02c5"
+  },
+  "job_id": "24579661",
+  "submitted_at": "2026-10-01T20:21:34.794020Z",
+  "cancelled_jobs": [
+    "24469259",
+    "24561305"
+  ],
+  "command": [
+    "sbatch",
+    "--parsable",
+    "--output=/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z/slurm-%j.out",
+    "--error=/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z/slurm-%j.err",
+    "/orcd/pool/003/kirilb/Steganography/releases/uni_l40s_continue_20261001T201547Z/university_l40s_training.slurm",
+    "/orcd/pool/003/kirilb/Steganography/releases/uni_rl_20260930T195244Z",
+    "/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z",
+    "/orcd/pool/003/kirilb/Steganography/releases/uni_l40s_continue_20261001T201547Z"
+  ],
+  "node": "node3407",
+  "active_partition": "mit_normal_gpu",
+  "monitor_updated_at": "2026-10-01T21:27:25.904965+00:00",
+  "restoration_verified": true,
+  "restored_update": 82,
+  "restored_elapsed_seconds": 1806.1834063110873,
+  "restoration_verified_at": "2026-10-01T20:25:37.555058+00:00",
+  "runtime_repair_in_progress": false,
+  "failure": "First PPO gradient forward OOM at unchanged mini-batch64; no update83 committed",
+  "failure_diagnostics": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_rl_20260930T195244Z/diagnostics/failed_l40s_24574438",
+  "memory_offload_record": "launches/university_l40s_memory_latest.json",
+  "training_verified_through_update": 108,
+  "training_verified_at": "2026-10-01T20:57:46.141008+00:00",
+  "sender_backward_optimizer_verified": true,
+  "receiver_backward_optimizer_verified": true,
+  "frozen_evaluation_verified": true,
+  "initial_l40s_job_id": "24574438",
+  "evaluation_memory_record": "launches/university_l40s_evaluation_memory_latest.json",
+  "current_runtime_record": "launches/university_l40s_evaluation_memory_latest.json",
+  "current_restored_update": 100,
+  "current_restored_elapsed_seconds": 2832.3608869900927,
+  "first_frozen_evaluation_update": 100,
+  "frozen_evaluation_verified_at": "2026-10-01T21:38:47.994314+00:00",
+  "uninterrupted_evaluation_pending": true,
+  "last_checked_at": "2026-10-02T13:57:58.667802+00:00",
+  "last_verified_update": 532,
+  "verified_through_update": 532,
+  "last_checkpoint_state_sha256": "297ba15187ba2f5ccc0ef6e1d9fe995c35bba18c84e754085a428242c34c2086",
+  "last_checkpoint_elapsed_seconds": 27929.14659542781,
+  "uninterrupted_evaluation_verified": true,
+  "uninterrupted_evaluation_update": 150,
+  "uninterrupted_evaluation_reported": true,
+  "evaluation150_verification": {
+    "update": 150,
+    "verified_at": "2026-10-01T22:23:53.262783+00:00",
+    "university_n": 2000,
+    "piqa_n": 100,
+    "baseline_cohorts_identical": true,
+    "public_rows_recomputed": true,
+    "completion_sha256": "35b984a4c04ccd9e0fb7a1650826b2e5dfdc92480755ec22c004236ccdca99fa",
+    "summary_sha256": "8b6cf4230afd7f0798ff8de3f65926faf27cff8cf0dee9e2337103aa4d31007c",
+    "checkpoint_complete_sha256": "a5b5ef3f1b5b1455de459d5370dfce42c8f393d09b1e70694b776f2a71302bc8",
+    "checkpoint_state_sha256": "697facb140c07fe585fa2e2947fe9ee20db0eeef068afe27db76d0719ac455bc",
+    "checkpoint_state_hash_verified_remotely": true,
+    "judge_source_generations_sha256": "ad13709b91de35887c9b4479b1dc509aec05fe53bd3f4cf61f6b2df90f745e71",
+    "source_hashes_verified": true,
+    "runtime_wrapper_hashes_verified": true,
+    "uninterrupted_after_training": true,
+    "job_id": "24579661",
+    "note": "All frozen evaluation phases completed after training in the same L40S job; cache cleanup preserved tensor metadata and RNG."
+  },
+  "evaluation150_cleanup": {
+    "before": {
+      "cuda_allocated_bytes": 20796638208,
+      "cuda_reserved_bytes": 46730838016,
+      "device_free_bytes": 181731328,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 98550919168
+    },
+    "after": {
+      "cuda_allocated_bytes": 20796638208,
+      "cuda_reserved_bytes": 21055406080,
+      "device_free_bytes": 25857163264,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 98552012800
+    },
+    "gc_collected_objects": 264,
+    "live_tensor_metadata_unchanged": true,
+    "rng_unchanged": true,
+    "live_tensor_metadata_sha256": "4f1a68319613140ab4d508914b9d5da8aa7db16ce5ad2231fa425064d94fc936"
+  },
+  "completion_reported": true,
+  "completion_reported_at": "2026-10-02T14:05:09.186389+00:00",
+  "completion_verification_path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_rl_20260930T195244Z/diagnostics/COMPLETION_VERIFICATION.json"
+}

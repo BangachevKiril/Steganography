@@ -1,0 +1,933 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/i3ko34",
+    "id": "i3ko34",
+    "slide": 5,
+    "layoutId": "6f7649cb-8926-43bb-baaa-e53b5e293404",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "1319b723-6020-464b-aef6-28e227aa5fd2",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FBFCFD",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Helvetica Neue"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "6f7649cb-8926-43bb-baaa-e53b5e293404",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "1319b723-6020-464b-aef6-28e227aa5fd2",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "1319b723-6020-464b-aef6-28e227aa5fd2",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p0rudw7y",
+      "id": "1",
+      "bbox": [
+        60,
+        40,
+        1160,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Unsupervised 2: Claude Opus 5.5",
+      "textPreview": "Unsupervised 2: Claude Opus 5.5",
+      "resolvedFontSize": 44,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 44,
+        "typeface": "Helvetica Neue",
+        "color": "#152A3A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Unsupervised 2: Claude Opus 5.5"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Unsupervised 2: Claude Opus 5.5",
+          "resolvedTextStyle": {
+            "fontSize": 44,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Unsupervised 2: Claude Opus 5.5",
+              "fontSize": 44,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2x0v2ho7",
+      "id": "2",
+      "bbox": [
+        60,
+        111,
+        1160,
+        54
+      ],
+      "geometry": "rect",
+      "text": "Provided text-based predictions recover the hidden classes after relabeling",
+      "textPreview": "Provided text-based predictions recover the hidden classes after relabeling",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Helvetica Neue",
+        "color": "#4D6271",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Provided text-based predictions recover the hidden classes after relabeling"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Provided text-based predictions recover the hidden classes after relabeling",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#4D6271",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Provided text-based predictions recover the hidden classes after relabeling",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue",
+              "color": "#4D6271",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3y9cbmps",
+      "id": "3",
+      "bbox": [
+        60,
+        212,
+        475,
+        142
+      ],
+      "geometry": "rect",
+      "text": "88.1%",
+      "textPreview": "88.1%",
+      "resolvedFontSize": 116,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 116,
+        "typeface": "Helvetica Neue",
+        "color": "#007F82",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "88.1%"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "88.1%",
+          "resolvedTextStyle": {
+            "fontSize": 116,
+            "typeface": "Helvetica Neue",
+            "color": "#007F82",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "88.1%",
+              "fontSize": 116,
+              "typeface": "Helvetica Neue",
+              "color": "#007F82",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/c32d8r6p",
+      "id": "4",
+      "bbox": [
+        65,
+        369,
+        480,
+        50
+      ],
+      "geometry": "rect",
+      "text": "881 / 1,000 labels agree",
+      "textPreview": "881 / 1,000 labels agree",
+      "resolvedFontSize": 31,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 31,
+        "typeface": "Helvetica Neue",
+        "color": "#152A3A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "881 / 1,000 labels agree"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "881 / 1,000 labels agree",
+          "resolvedTextStyle": {
+            "fontSize": 31,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "881 / 1,000 labels agree",
+              "fontSize": 31,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/d4buhw7a",
+      "id": "5",
+      "bbox": [
+        65,
+        437,
+        490,
+        120
+      ],
+      "geometry": "rect",
+      "text": "Class names are reversed:\n“good” predicts FAIL\n“bad” predicts PASS",
+      "textPreview": "Class names are reversed: | “good” predicts FAIL | “bad” predicts PASS",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 27,
+        "typeface": "Helvetica Neue",
+        "color": "#152A3A",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Class names are reversed:"
+          },
+          {
+            "index": 2,
+            "text": "“good” predicts FAIL"
+          },
+          {
+            "index": 3,
+            "text": "“bad” predicts PASS"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Class names are reversed:",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Class names are reversed:",
+              "fontSize": 27,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "“good” predicts FAIL",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "“good” predicts FAIL",
+              "fontSize": 27,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "“bad” predicts PASS",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "“bad” predicts PASS",
+              "fontSize": 27,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "table",
+      "scope": "slide",
+      "aid": "tb/rq5on2xk",
+      "id": "6",
+      "bbox": [
+        625,
+        229,
+        595,
+        231
+      ],
+      "text": "True hidden label | Predicted FAIL | Predicted PASS\nFAIL | 434 | 66\nPASS | 53 | 447",
+      "textPreview": "True hidden label | Predicted FAIL | Predicted PASS | FAIL | 434 | 66 | PASS | 53 | 447",
+      "rows": 3,
+      "cols": 3,
+      "cells": [
+        {
+          "index": 1,
+          "row": 1,
+          "column": 1,
+          "bbox": [
+            625,
+            229,
+            215,
+            77
+          ],
+          "text": "True hidden label",
+          "textPreview": "True hidden label",
+          "fillColor": "#EAF0F4",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "True hidden label",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "True hidden label"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            840,
+            229,
+            190,
+            77
+          ],
+          "text": "Predicted FAIL",
+          "textPreview": "Predicted FAIL",
+          "fillColor": "#EAF0F4",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Predicted FAIL",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Predicted FAIL",
+                  "fontSize": 22,
+                  "typeface": "Helvetica Neue",
+                  "color": "#152A3A",
+                  "bold": true,
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "column": 3,
+          "bbox": [
+            1030,
+            229,
+            190,
+            77
+          ],
+          "text": "Predicted PASS",
+          "textPreview": "Predicted PASS",
+          "fillColor": "#EAF0F4",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Predicted PASS",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Predicted PASS",
+                  "fontSize": 22,
+                  "typeface": "Helvetica Neue",
+                  "color": "#152A3A",
+                  "bold": true,
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "row": 2,
+          "column": 1,
+          "bbox": [
+            625,
+            306,
+            215,
+            77
+          ],
+          "text": "FAIL",
+          "textPreview": "FAIL",
+          "fillColor": "#FBFCFD",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "FAIL",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "FAIL"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            840,
+            306,
+            190,
+            77
+          ],
+          "text": "434",
+          "textPreview": "434",
+          "fillColor": "#FBFCFD",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "434",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "434",
+                  "fontSize": 24,
+                  "typeface": "Helvetica Neue",
+                  "color": "#152A3A",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "column": 3,
+          "bbox": [
+            1030,
+            306,
+            190,
+            77
+          ],
+          "text": "66",
+          "textPreview": "66",
+          "fillColor": "#FBFCFD",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "66",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "66",
+                  "fontSize": 24,
+                  "typeface": "Helvetica Neue",
+                  "color": "#152A3A",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            625,
+            383,
+            215,
+            77
+          ],
+          "text": "PASS",
+          "textPreview": "PASS",
+          "fillColor": "#FBFCFD",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "PASS",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "PASS"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            840,
+            383,
+            190,
+            77
+          ],
+          "text": "53",
+          "textPreview": "53",
+          "fillColor": "#FBFCFD",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "53",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "53",
+                  "fontSize": 24,
+                  "typeface": "Helvetica Neue",
+                  "color": "#152A3A",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "column": 3,
+          "bbox": [
+            1030,
+            383,
+            190,
+            77
+          ],
+          "text": "447",
+          "textPreview": "447",
+          "fillColor": "#FBFCFD",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "447",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "447",
+                  "fontSize": 24,
+                  "typeface": "Helvetica Neue",
+                  "color": "#152A3A",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/r29cfmp4",
+      "id": "7",
+      "bbox": [
+        625,
+        501,
+        590,
+        118
+      ],
+      "geometry": "rect",
+      "text": "Typical cue: opening with\n“Driven” or “Determined”\nstrongly predicts FAIL.",
+      "textPreview": "Typical cue: opening with | “Driven” or “Determined” | strongly predicts FAIL.",
+      "resolvedFontSize": 26,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 26,
+        "typeface": "Helvetica Neue",
+        "color": "#152A3A",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Typical cue: opening with"
+          },
+          {
+            "index": 2,
+            "text": "“Driven” or “Determined”"
+          },
+          {
+            "index": 3,
+            "text": "strongly predicts FAIL."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Typical cue: opening with",
+          "resolvedTextStyle": {
+            "fontSize": 26,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Typical cue: opening with",
+              "fontSize": 26,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "“Driven” or “Determined”",
+          "resolvedTextStyle": {
+            "fontSize": 26,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "“Driven” or “Determined”",
+              "fontSize": 26,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "strongly predicts FAIL.",
+          "resolvedTextStyle": {
+            "fontSize": 26,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "strongly predicts FAIL.",
+              "fontSize": 26,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0r2dcb6l",
+      "id": "8",
+      "bbox": [
+        60,
+        653,
+        1160,
+        49
+      ],
+      "geometry": "rect",
+      "text": "Raw agreement was 11.9%. We chose the label permutation after checking the test labels. Model attribution supplied by the user.",
+      "textPreview": "Raw agreement was 11.9%. We chose the label permutation after checking the test labels. Model attribution supplied by the user.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Helvetica Neue",
+        "color": "#4D6271",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Raw agreement was 11.9%. We chose the label permutation after checking the test labels. Model attribution supplied by the user."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Raw agreement was 11.9%. We chose the label permutation after checking the test labels. Model attribution supplied by the user.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Helvetica Neue",
+            "color": "#4D6271",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Raw agreement was 11.9%. We chose the label permutation after checking the test labels. Model attribution supplied by the user.",
+              "fontSize": 18,
+              "typeface": "Helvetica Neue",
+              "color": "#4D6271",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

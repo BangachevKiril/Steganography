@@ -1,0 +1,329 @@
+{
+  "added_active_seconds_before_final_evaluation": 27960.44360675779,
+  "added_active_seconds_including_final_evaluation": 28093.786540541798,
+  "all_checks_passed": true,
+  "all_finished_cleanup_invariants_and_bindings_verified": true,
+  "atomic_update_boundary_overshoot_seconds": 60.44360675779171,
+  "before_final_evaluation_active_seconds": 55890.84857899533,
+  "budget_complete_sha256": "df4777ac954fb2638adf4fccb6d6b448c4a7470daa005b04a265ba956441e4b8",
+  "budget_loop_policy": "Threshold checked between atomic updates; final evaluation follows budget closure. Source and threshold unchanged.",
+  "checked_at": "2026-10-03T16:50:21.152419+00:00",
+  "checkpoint945_state_verification_scope": "Hash-verified by audited runtime at restoration; state file subsequently pruned and not rehashed during this local audit.",
+  "complete_sha256": "a646d220c1b59a6612f5869dce0b89e81f5af39456fd925bd904f6be6fedfd46",
+  "completion_active_seconds": 56024.19151277933,
+  "continuation_complete_sha256": "9288c39b3e17d5334012c2d878f129d425d8221f3d8a76978cb30f6368e0e0d9",
+  "extension_counts": {
+    "receiver": 156,
+    "sender": 390
+  },
+  "extension_manifest_sha256": "5503909537275e0f1027335e580f9842d7973cfc281ca4cec590dbb3c458b61e",
+  "extension_restore_events": [
+    {
+      "activated_at": 1790986075.1806066,
+      "checkpoint": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_000530",
+      "completed_update": 530,
+      "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+      "extension_id": "uni_corrected_extension_20261002T235554Z",
+      "kind": "authorized_budget_extension_restored",
+      "path": "runtime_events/l40s_extension_24696926_1790986075180597280.json",
+      "remaining_active_seconds_at_restored_checkpoint": 27900.0,
+      "restored_elapsed_seconds": 27930.404972237535,
+      "sha256": "046ce8582045914bc5a8497cf89cb1f4837d62a3a7c61dafa375070d6687d6b0",
+      "slurm_job_id": "24696926",
+      "slurm_restart_count": null,
+      "target_active_seconds": 55830.404972237535,
+      "wrapper_sha256": "87c3fa13caa611442c21f5fa495dac044fddd88fb35f633e249cfa9a803cadbd"
+    },
+    {
+      "activated_at": 1791007735.5469763,
+      "checkpoint": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_000945",
+      "completed_update": 945,
+      "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+      "extension_id": "uni_corrected_extension_20261002T235554Z",
+      "kind": "authorized_budget_extension_restored",
+      "path": "runtime_events/l40s_extension_24696926_1791007735546965099.json",
+      "remaining_active_seconds_at_restored_checkpoint": 6670.901587593136,
+      "restored_elapsed_seconds": 49159.5033846444,
+      "sha256": "c33e88f5784c58be4f43dd56c8613c6ce7d7397355c27e3d150da58aee3bdfc6",
+      "slurm_job_id": "24696926",
+      "slurm_restart_count": "1",
+      "target_active_seconds": 55830.404972237535,
+      "wrapper_sha256": "87c3fa13caa611442c21f5fa495dac044fddd88fb35f633e249cfa9a803cadbd"
+    }
+  ],
+  "extension_update_count": 546,
+  "failure_json_present": false,
+  "final_checkpoint": {
+    "completed_update": 1076,
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "elapsed": 55889.063704673434,
+    "phase": "sender",
+    "state_sha256": "b6362ff7e9ab691572f8a20f9c8aa2c96675ef8f92f7c4dd67d49bbcd988a4d6"
+  },
+  "final_checkpoint_complete_sha256": "e4654edc542e0a84e2321b31586e3e8eda6c86023390ea08fc5332138207ab46",
+  "final_checkpoint_elapsed_seconds": 55889.063704673434,
+  "final_evaluation_and_finalization_seconds": 133.34293378400616,
+  "final_evaluation_cleanup": {
+    "after": {
+      "cuda_allocated_bytes": 20528226816,
+      "cuda_reserved_bytes": 20822622208,
+      "device_free_bytes": 26089947136,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 98695262208
+    },
+    "before": {
+      "cuda_allocated_bytes": 20528226816,
+      "cuda_reserved_bytes": 43687870464,
+      "device_free_bytes": 3224698880,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 98695262208
+    },
+    "job_id": "24696926",
+    "judge_duration_seconds": 66.60353207588196,
+    "path": "runtime_events/l40s_eval_memory_24696926_1791014529548407436.json",
+    "restart": 1,
+    "sha256": "f1203d5bd49bbde13930da2afe31681591473ace55f0d42cdca8ecf557339fe4",
+    "update": 1076
+  },
+  "final_evaluation_complete_sha256": "19d3c7d857db6bb659109bc1d506310ba63e0470853a786463df164f7c057d88",
+  "final_update_duration_seconds": 61.75159241282381,
+  "final_update_start_active_seconds_upper_bound": 55827.31211226061,
+  "final_update_started_below_budget_threshold_verified": true,
+  "first_resumed_updates": [
+    {
+      "kind": "receiver",
+      "update": 946
+    },
+    {
+      "kind": "receiver",
+      "update": 947
+    },
+    {
+      "kind": "sender",
+      "update": 948
+    },
+    {
+      "kind": "sender",
+      "update": 949
+    },
+    {
+      "kind": "sender",
+      "update": 950
+    }
+  ],
+  "historical_config_budget_seconds": 27900,
+  "host_memory_note": "Slurm batch MaxRSS 119.6536GiB is distinct from PPO sampled end-host RSS 91.9175GiB; both are below the 128G request.",
+  "inherited_runtime_and_initialization_manifests_unchanged": true,
+  "inputs": {
+    "identity": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/diagnostics/completion_remote_identity.txt",
+    "identity_sha256": "65ad0113997acac5739147b9931b3647f2736b3fff4c4cdf564d54bac36b4d42",
+    "snapshot_original_temporary_path": "/tmp/uni_corrected_extension_snapshot.json",
+    "snapshot_public_manifest": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/diagnostics/completion_public_snapshot_manifest.json",
+    "snapshot_public_manifest_sha256": "1ddf70539661c73f46cb90e5d7e4d49f40e8e0f53bfbd1d89231e19058f712c4"
+  },
+  "job_id": "24696926",
+  "kind": "corrected_extension_completion_runtime_audit",
+  "last_committed_ppo_memory": {
+    "attempted_update": 1076,
+    "device_total_bytes": 47667740672,
+    "duration_seconds": 56.01017636409961,
+    "end_device_free_bytes": 3224698880,
+    "end_host_rss_bytes": 98695626752,
+    "error": null,
+    "note": "PPO-call completion alone does not establish a committed checkpoint.",
+    "peak_allocated_bytes": 39969656832,
+    "peak_reserved_bytes": 43687870464,
+    "ppo_call_status": "completed",
+    "saved_tensor_transfers": {
+      "expanded_cuda_tensors": 0,
+      "noncontiguous_cuda_tensors": 3744,
+      "nonzero_offset_cuda_tensors": 12,
+      "packed_cuda_tensors": 15408,
+      "packed_storage_bytes": 672926648064,
+      "unpacked_cuda_tensors": 15180
+    }
+  },
+  "last_committed_ppo_memory_gib": {
+    "end_device_free_bytes": 3.00323486328125,
+    "end_host_rss_bytes": 91.91746520996094,
+    "peak_allocated_bytes": 37.22464370727539,
+    "peak_reserved_bytes": 40.6875
+  },
+  "material_concerns": [],
+  "metrics_sequential_finite_schedule_populations_verified": true,
+  "noncompleted_runtime_events": [],
+  "origin_elapsed_seconds": 27930.404972237535,
+  "preflight_history": [
+    {
+      "checkpoint": {
+        "complete_sha256": "8645f0ce9a7bbb5ff21b7ea53190ee2cc4ae7eff37a87195f8712c5801df148d",
+        "marker": {
+          "completed_update": 530,
+          "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+          "elapsed": 27930.404972237535,
+          "phase": "sender",
+          "state_sha256": "14c2e9342d13b12f8992feb18ff30ecdbd9c57d27ee62a3436047771e52bf6b9"
+        },
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_000530"
+      },
+      "job_id": "24696926",
+      "path": "runtime_events/l40s_memory_preflight_24696926_1790985895904423792.json",
+      "restart": 0,
+      "restored_elapsed_seconds": 27930.404972237535,
+      "restored_update": 530,
+      "sha256": "59ef904ae9062df6c87469ec8a693b31442af5a23336ab99639c890dc1a8dbe1"
+    },
+    {
+      "checkpoint": {
+        "complete_sha256": "859c580f8ad553ef60ae8fd1e171c606d974734bbfbdb178802c78e2cf33fdd9",
+        "marker": {
+          "completed_update": 409,
+          "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+          "elapsed": 21398.938556924462,
+          "phase": "sender",
+          "state_sha256": "31f173dc24f17f072eb51006ee59f5be34677ce6ab4a8eb3cc89a96f096ff2ae"
+        },
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_000409"
+      },
+      "job_id": "24665081",
+      "path": "runtime_events/l40s_memory_preflight_24665081_1790976553460536114.json",
+      "restart": 1,
+      "restored_elapsed_seconds": 21398.938556924462,
+      "restored_update": 409,
+      "sha256": "772c5a4c200bd04a50991d75c413b07d002e0fda2d46626aa833ecaacf43590f"
+    },
+    {
+      "checkpoint": {
+        "complete_sha256": "0532c280337320beb9705dd828b3f3ab3a89cdb6d97d33b20f13928f93ac642f",
+        "marker": {
+          "completed_update": 0,
+          "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+          "elapsed": 106.91035241167992,
+          "phase": "initialization",
+          "state_sha256": "7a6b3cbe732123c9a236fb035f21db303b3d1e424a7e02702e34ad7d73366cf0"
+        },
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_000000"
+      },
+      "job_id": "24665081",
+      "path": "runtime_events/l40s_memory_preflight_24665081_1790954825862213598.json",
+      "restart": 0,
+      "restored_elapsed_seconds": 0.0,
+      "restored_update": 0,
+      "sha256": "fba24a27b556cfa945222c68012b02daad56feef59e6e9b237b3b0eee21e6813"
+    },
+    {
+      "checkpoint": {
+        "complete_sha256": "e6e3787986e6e465c98e7ca239b90e44a4cd5933af730947ae22634fdc84d270",
+        "marker": {
+          "completed_update": 945,
+          "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+          "elapsed": 49159.5033846444,
+          "phase": "sender",
+          "state_sha256": "8e80c500e4c4308e055021de33008c3c71a7dd572a3dde64d04f32d0da272382"
+        },
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_000945"
+      },
+      "job_id": "24696926",
+      "path": "runtime_events/l40s_memory_preflight_24696926_1791007560904360921.json",
+      "restart": 1,
+      "restored_elapsed_seconds": 49159.5033846444,
+      "restored_update": 945,
+      "sha256": "f4a27d45864b4004b28fb2a0a03e96af52bc0f0c6728baa1f2fa0030dd7a6be5"
+    }
+  ],
+  "preflight_parity_rng_legacy_environment_all_verified": true,
+  "previous_checkpoint_elapsed_seconds": 55825.3717072024,
+  "queue_empty_in_identity_snapshot": true,
+  "remaining_at_final_update_start_lower_bound_seconds": 3.092859976924956,
+  "restored_checkpoint945_marker_reconstructed_from_embedded_json_for_hash": true,
+  "slurm_accounting": {
+    "AllocTRES": "billing=8,cpu=8,gres/gpu:l40s=1,gres/gpu=1,mem=128G,node=1",
+    "Elapsed": "01:58:12",
+    "End": "2026-10-03T04:03:37",
+    "ExitCode": "0:0",
+    "JobID": "24696926",
+    "MaxRSS": "",
+    "NodeList": "node3207",
+    "ReqTRES": "billing=8,cpu=8,gres/gpu:l40s=1,gres/gpu=1,mem=128G,node=1",
+    "Start": "2026-10-03T02:05:25",
+    "State": "COMPLETED"
+  },
+  "slurm_batch_maxrss_bytes": 128477110272,
+  "slurm_batch_maxrss_gib": 119.65363311767578,
+  "source_identity_checks": {
+    "all_passed": true,
+    "checks": {
+      "CORRECTIONS.json": true,
+      "EXPERIMENT.md": true,
+      "archive_manifest": true,
+      "extension_manifest": true,
+      "extension_slurm": true,
+      "extension_wrapper": true,
+      "orcd/university_corrected_l40s.py": true,
+      "orcd/university_corrected_l40s.slurm": true,
+      "orcd/university_l40s_evaluation_memory.py": true,
+      "orcd/university_l40s_memory_training.py": true,
+      "orcd/university_training.slurm": true,
+      "pinned_origin_marker": true,
+      "stego/__init__.py": true,
+      "stego/decoder_comparison.py": true,
+      "stego/decoder_prompt_comparison.py": true,
+      "stego/engine.py": true,
+      "stego/paired_inference.py": true,
+      "stego/paired_sender_probe.py": true,
+      "stego/prompt_comparison.py": true,
+      "stego/prompt_comparison_report.py": true,
+      "stego/protocol.py": true,
+      "stego/rejection_baseline.py": true,
+      "stego/smoke.py": true,
+      "stego/train.py": true,
+      "stego/training_report.py": true,
+      "stego/university_baseline.py": true,
+      "stego/university_evaluation.py": true,
+      "stego/university_judge.py": true,
+      "stego/university_metrics.py": true,
+      "stego/university_training.py": true,
+      "stego/university_training_report.py": true,
+      "tests/test_university_baseline.py": true,
+      "tests/test_university_corrections.py": true,
+      "tests/test_university_evaluation_memory.py": true,
+      "tests/test_university_judge.py": true,
+      "tests/test_university_metrics.py": true,
+      "tests/test_university_training.py": true,
+      "tests/test_university_training_report.py": true
+    }
+  },
+  "state_sha256_verified_remotely": true,
+  "target_active_seconds": 55830.404972237535,
+  "total_counts": {
+    "receiver": 308,
+    "sender": 768
+  },
+  "verified_cleanup_updates": [
+    0,
+    50,
+    100,
+    150,
+    200,
+    250,
+    300,
+    350,
+    400,
+    450,
+    500,
+    530,
+    550,
+    600,
+    650,
+    700,
+    750,
+    800,
+    850,
+    900,
+    950,
+    1000,
+    1050,
+    1076
+  ],
+  "verified_update": 1076
+}

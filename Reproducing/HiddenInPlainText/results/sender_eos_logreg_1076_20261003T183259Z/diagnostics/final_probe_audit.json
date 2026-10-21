@@ -1,0 +1,115 @@
+{
+  "checks": {
+    "all_completion_file_hashes": true,
+    "answers_exact_source_text": true,
+    "exact_random_split_replayed": true,
+    "fitting_normalization_and_stopping_training_only_code_review": true,
+    "ids_disjoint_exhaustive_and_labels_joined": true,
+    "losses_confusion_and_predictions_recomputed": true,
+    "model_class_order_and_dtype": true,
+    "prespecified_plan_and_code_hashes": true,
+    "runtime_embedding_validation_recorded_passed": true,
+    "saved_curve_matches_final_fit": true,
+    "scaler_exact_training_mean_and_population_std": true,
+    "source_audit_checkpoint_binding": true,
+    "training_objective_and_gradient_recomputed": true
+  },
+  "convergence": {
+    "ftol": 1e-12,
+    "function_evaluations": 106,
+    "gradient_infinity_norm_recomputed": 8.004324644317329e-08,
+    "gtol": 1e-08,
+    "gtol_reached": false,
+    "iterations": 98,
+    "reason": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+    "success": true,
+    "training_l2_penalty": 0.002197836308775021,
+    "training_penalized_objective": 0.002997052538358923
+  },
+  "created_at": "2026-10-03T18:48:19.995135+00:00",
+  "hashes": {
+    "EMBEDDING_COMPLETE.json": "4ccb5e5f1456fb89d1c53a4589c80b4ee7eb843d9b58d4e26dd41710262de480",
+    "FIT_COMPLETE.json": "168e66f906a7bc72e706fd78864bc96987c8c5f408d5bf1ae815bc1ba398c5be",
+    "analysis_plan.json_at_audit": "ae5b519a094fc24ccabef40f85d31c648947ea00e453e8c61ce8df5ae2bb299f",
+    "completion_bound_files": {
+      "embeddings/test_embeddings.npz": "2912e1faab94e68e6dd1ba625b9382502bf819142c3d6d246e153e828c3f2ba1",
+      "embeddings/training_embeddings.npz": "a3b26c448834b4097a259a33c5177fc8474dbfaab412cd7b72e21a19115aff78",
+      "logistic_regression/logistic_model.npz": "2918596e17c445d5bf01b8854f32ccb3d1bc5c43000f41c04aa1bf13a1f49b4b",
+      "logistic_regression/metrics.json": "37479cf30cb5424a8a53a6b7a3d73a2ea6d44a6b63e5b669a5bb8be40370fd7b",
+      "logistic_regression/provenance.json": "39815c07e774ffc8fb5a569a056d84c9b6b127644ebcb0979cee9066510bea0b",
+      "logistic_regression/test_predictions.jsonl": "1f14ee76ab1ef53d9dda4ac99ff1aa54c8348fde824be2db489b3667067ca941",
+      "logistic_regression/training_loss.png": "299c7e46886f6ead6f7e4410dad9cb51524f85df2aa192031ca55216f0e03110",
+      "logistic_regression/training_loss_trace.csv": "4138d17afb77688f8bc00165c47ddc68c128d425941fc99c85e3cdcf5fdc82e4"
+    },
+    "extraction_script": "6869656fc8f15dc8f818a2bd9cf976d8ca65687c04b94fdaa468332f7cfe8e96",
+    "fit_script": "26723f53cbd66e655f0f21aa0f5f92dbfeec5bec266594cfbe75b5654acf2763",
+    "split_manifest.json": "ccfba9f92b91db27e5e32aa25a12ec827e2ef4174511ab0bbdadfa29348a2e77"
+  },
+  "issues": [],
+  "qualifications": [
+    "Convergence was by relative objective reduction; gradient norm is above the separately configured gtol.",
+    "Two held-out exact answer strings occur in training; the prespecified sensitivity excludes IDs392 and456 and retains976/998 correct.",
+    "FP16 extraction reported cross-batch maximum absolute differences0.125 within configured rtol0.01/atol0.03; same-batch repeat and hook identity were exact.",
+    "Features are answer-only appended canonical EOS representations, not original prompt-context hidden states.",
+    "Absence of fit/test leakage is supported by reviewed hash-matched code and saved training-only statistics; this local audit does not re-execute GPU extraction."
+  ],
+  "raw_coordinate_max_logit_difference": {
+    "test": 2.4868995751603507e-14,
+    "training": 2.4868995751603507e-14
+  },
+  "scaler": {
+    "feature_count": 2304,
+    "zero_std_features": 0
+  },
+  "scope": "Independent local verification of saved embeddings and logistic-fit artifacts; no retraining, remote reads, or checkpoint tensor reads.",
+  "secondary_no_shared_text": {
+    "accuracy": 0.9779559118236473,
+    "bce_nats": 0.0607342326466192,
+    "confusion": [
+      [
+        485,
+        13
+      ],
+      [
+        9,
+        491
+      ]
+    ],
+    "correct": 976,
+    "n": 998
+  },
+  "source_checkpoint_update": 1076,
+  "status": "passed",
+  "test": {
+    "accuracy": 0.978,
+    "bce_nats": 0.06061278339256916,
+    "confusion": [
+      [
+        487,
+        13
+      ],
+      [
+        9,
+        491
+      ]
+    ],
+    "correct": 978,
+    "n": 1000
+  },
+  "training": {
+    "accuracy": 1.0,
+    "bce_nats": 0.0007992162295839019,
+    "confusion": [
+      [
+        499,
+        0
+      ],
+      [
+        0,
+        501
+      ]
+    ],
+    "correct": 1000,
+    "n": 1000
+  }
+}

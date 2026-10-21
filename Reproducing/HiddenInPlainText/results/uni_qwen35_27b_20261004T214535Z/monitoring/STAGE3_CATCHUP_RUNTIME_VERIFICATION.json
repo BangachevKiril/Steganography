@@ -1,0 +1,701 @@
+{
+  "status": "passed",
+  "checked_at": "2026-10-06T14:50:21.692240+00:00",
+  "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+  "scope": "Independent local audit of public runtime, source and Slurm evidence; no remote commands, state loading, scheduling edits, frozen-source edits or launch edits.",
+  "snapshot": {
+    "path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/monitoring/stage3_catchup_plot_source_snapshot.json",
+    "sha256": "35a7cdf292d4495df44290c3696e0045c06e354ef0a6d4ded7ebba4cd0df030f",
+    "public_artifacts_hash_verified": 1861
+  },
+  "slurm_evidence": {
+    "path": "/private/tmp/qwen_current_stage3_slurm.txt",
+    "sha256": "26c79149fc2ced28d58ae164b8867fa67063b30d4afaf7a401202b90dd817b76",
+    "source_timezone": "America/New_York (EDT, UTC-04:00)",
+    "job_records": [
+      [
+        "24936931",
+        "PREEMPTED",
+        "0:0",
+        "00:37:55",
+        "2026-10-05T11:25:08",
+        "2026-10-05T12:03:03",
+        "node3009"
+      ],
+      [
+        "24936932",
+        "REQUEUED",
+        "0:0",
+        "05:57:01",
+        "2026-10-05T19:35:00",
+        "2026-10-06T01:32:01",
+        "node4109"
+      ],
+      [
+        "24936933",
+        "PREEMPTED",
+        "0:0",
+        "00:34:01",
+        "2026-10-06T03:31:53",
+        "2026-10-06T04:05:54",
+        "node2900"
+      ],
+      [
+        "24936931",
+        "REQUEUED",
+        "0:0",
+        "05:58:22",
+        "2026-10-05T12:08:08",
+        "2026-10-05T18:06:30",
+        "node2900"
+      ],
+      [
+        "24936931",
+        "COMPLETED",
+        "0:0",
+        "01:24:30",
+        "2026-10-05T18:09:37",
+        "2026-10-05T19:34:07",
+        "node4109"
+      ],
+      [
+        "24936932",
+        "COMPLETED",
+        "0:0",
+        "01:56:23",
+        "2026-10-06T01:34:42",
+        "2026-10-06T03:31:05",
+        "node2900"
+      ],
+      [
+        "24936933",
+        "PREEMPTED",
+        "0:0",
+        "04:51:55",
+        "2026-10-06T04:09:52",
+        "2026-10-06T09:01:47",
+        "node2905"
+      ],
+      [
+        "24936933",
+        "RUNNING",
+        "0:0",
+        "01:29:03",
+        "2026-10-06T09:05:38",
+        "Unknown",
+        "node3009"
+      ]
+    ],
+    "current_partition": "mit_preemptable",
+    "requested_resources": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1",
+    "allocated_resources": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1",
+    "dependency": "afterok:24936932 fulfilled; current Dependency=(null)",
+    "current_allocation_expiry_utc": "2026-10-06T19:05:38Z",
+    "current_allocation_signal_utc": "2026-10-06T19:02:38Z",
+    "scheduling_issue": null,
+    "transition_notes": [
+      "Stage2 initial allocation requeued at 2026-10-06T05:32:01Z, 179 seconds before its six-hour limit, consistent with the pinned USR1@180/exit75 requeue policy.",
+      "Stage2 resumed at 2026-10-06T05:34:42Z on node2900 and completed at 2026-10-06T07:31:05Z; stage3 began 48 seconds later.",
+      "Stage3 initial allocation preempted at 08:05:54Z; batch ended 08:06:55Z, before restart1 began 08:09:52Z.",
+      "Stage3 restart1 preempted at 13:01:47Z; batch ended 13:02:32Z, before restart2 began 13:05:38Z.",
+      "Accounting has no overlapping allocation/batch intervals among these transitions. Run LOCK ownership was not independently inspected by this local audit."
+    ]
+  },
+  "source_provenance": {
+    "original_sources_hash_verified": 41,
+    "model_artifact_hash_identities_verified": 24,
+    "config_digest_verified": true,
+    "model_manifest_sha256": "193e597d325859c6ea35697dbe0be4ea87fbee35b73a3937afb6efe7956d171b",
+    "observer_runtime_manifest_sha256": "ba4f20c04e00299903c35db5e70fc0a3ccceb641632064717ea66fcdd4a3092d",
+    "recovery_manifest_sha256": "9fb3bd356069d2d82dcefac7188a73ad57bf3539c23e3d5079ab13ee5c058c89",
+    "authorization_sha256": "c5d01efc8566710ec8cb64faa4224d4965e95f1fbf03507bf3ddd2d36964513c",
+    "current_submit_environment_recovery_sha256_verified": true,
+    "only_authorized_runtime_checksum_override": true
+  },
+  "allocations": [
+    {
+      "job_id": "24936932",
+      "restart_count": 1,
+      "node": "node2900",
+      "resumed_update": 800,
+      "slurm_start_time": "2026-10-06T01:34:42",
+      "allocation_started_at": "2026-10-06T05:34:42Z",
+      "checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000800",
+        "marker": {
+          "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+          "completed_update": 800,
+          "state_sha256": "4ab737c89e40b3d8325e1c9af012f6c661f1850152dda1a5cf2e14d3ed340180",
+          "elapsed": 49466.15180232236,
+          "phase": "receiver"
+        },
+        "complete_sha256": "733d62907993c200a08afa4953332aaf6a007c042d50878b07ad45f7627d8c2c"
+      },
+      "preflight_event": "runtime_events/h100_memory_preflight_24936932_1791264907492213107.json",
+      "preflight_sha256": "369da2f2875670890cfd5443dcb90c93b58730feffc984ccd34b95c832cc3bea",
+      "observer_event": "runtime_events/qwen_observer_24936932_1791265106748247843.json",
+      "observer_sha256": "17019c578e8297078a7654218b120f07e8e2573b0ea4ad2c79a669c8c204f44a",
+      "observer_started_at": 1791265106.7477999,
+      "observer_started_at_utc": "2026-10-06T05:38:26.747800Z",
+      "offload_event": "runtime_events/h100_memory_24936932_1791265109719262643.json",
+      "offload_sha256": "3a021af6c5d1c684f7aac86de8a369a2ea81d03f5f83c31a4f20cce58b44ba8c",
+      "offload_enabled_at": 1791265109.7192733,
+      "restored_elapsed_seconds": 49466.15180232236,
+      "public_checkpoint_marker_retained": true,
+      "independent_state_rehash_this_audit": false,
+      "runtime_attested_state_hash_and_restore": true,
+      "initialization_verified": true,
+      "fresh_baseline_initialization": false,
+      "toy_parity_passed": true,
+      "observer_science_model_runtime_and_authorization_pins_passed": true,
+      "cleanup_metadata_modes_rng_passed": true,
+      "last_ppo_attempt": 886,
+      "last_ppo_status": "completed"
+    },
+    {
+      "job_id": "24936933",
+      "restart_count": 0,
+      "node": "node2900",
+      "resumed_update": 886,
+      "slurm_start_time": "2026-10-06T03:31:53",
+      "allocation_started_at": "2026-10-06T07:31:53Z",
+      "checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000886",
+        "marker": {
+          "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+          "completed_update": 886,
+          "state_sha256": "257d1bc62202c044bdf332f5bb4c7e9b4898b4bc1d33fb98e77cad9a8703123a",
+          "elapsed": 55810.18824111391,
+          "phase": "sender"
+        },
+        "complete_sha256": "8ff3f7f47ef1a505fc278d397a6b7c50a2fd6ee6898b0a41a5e36d300e70d593"
+      },
+      "preflight_event": "runtime_events/h100_memory_preflight_24936933_1791271928259718576.json",
+      "preflight_sha256": "7300b7248e45dfc9966159935ca70657195dd82e351cb7be7bbbc3c762b13a95",
+      "observer_event": "runtime_events/qwen_observer_24936933_1791272095952323912.json",
+      "observer_sha256": "07b5d5d1f8a491180a30dc134eda826c77b38e9c6e9b976e3ee730fa31ddfb43",
+      "observer_started_at": 1791272095.9518461,
+      "observer_started_at_utc": "2026-10-06T07:34:55.951846Z",
+      "offload_event": "runtime_events/h100_memory_24936933_1791272098088195948.json",
+      "offload_sha256": "4796e8fe4b2581507b30374434db67b7ba59c25809eb222586ebe1e1578bb005",
+      "offload_enabled_at": 1791272098.0882087,
+      "restored_elapsed_seconds": 55810.18824111391,
+      "public_checkpoint_marker_retained": true,
+      "independent_state_rehash_this_audit": true,
+      "runtime_attested_state_hash_and_restore": true,
+      "initialization_verified": true,
+      "fresh_baseline_initialization": false,
+      "toy_parity_passed": true,
+      "observer_science_model_runtime_and_authorization_pins_passed": true,
+      "cleanup_metadata_modes_rng_passed": true,
+      "last_ppo_attempt": 910,
+      "last_ppo_status": "completed"
+    },
+    {
+      "job_id": "24936933",
+      "restart_count": 1,
+      "node": "node2905",
+      "resumed_update": 911,
+      "slurm_start_time": "2026-10-06T04:09:52",
+      "allocation_started_at": "2026-10-06T08:09:52Z",
+      "checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000911",
+        "marker": {
+          "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+          "completed_update": 911,
+          "state_sha256": "fad6c2070b6d28d69231ceb55f01906a4ebb4cdafd8ef3da8be151e5f7fbf0b4",
+          "elapsed": 58041.90664450452,
+          "phase": "receiver"
+        },
+        "complete_sha256": "990c454b95c6290f21b11167971fdd8035727aff7569bf1e08bc9af312d3b258"
+      },
+      "preflight_event": "runtime_events/h100_memory_preflight_24936933_1791274224464155447.json",
+      "preflight_sha256": "82643ba355a8d5e0557c263b7f966d1f52e29e707f20ffc185263391bc96f791",
+      "observer_event": "runtime_events/qwen_observer_24936933_1791274410219600897.json",
+      "observer_sha256": "6e4b1e511683e923ccb7f5e41d22c3d65a3616c71fbbd59b5c9e07bef05f2bdf",
+      "observer_started_at": 1791274410.2190661,
+      "observer_started_at_utc": "2026-10-06T08:13:30.219066Z",
+      "offload_event": "runtime_events/h100_memory_24936933_1791274412765715900.json",
+      "offload_sha256": "3985dd6c1e0ce5ef49077642a4acabd293da327d7034b4ff50b02090c8ed4730",
+      "offload_enabled_at": 1791274412.765724,
+      "restored_elapsed_seconds": 58041.90664450452,
+      "public_checkpoint_marker_retained": false,
+      "independent_state_rehash_this_audit": false,
+      "runtime_attested_state_hash_and_restore": true,
+      "initialization_verified": true,
+      "fresh_baseline_initialization": false,
+      "toy_parity_passed": true,
+      "observer_science_model_runtime_and_authorization_pins_passed": true,
+      "cleanup_metadata_modes_rng_passed": true,
+      "last_ppo_attempt": 1274,
+      "last_ppo_status": "completed"
+    },
+    {
+      "job_id": "24936933",
+      "restart_count": 2,
+      "node": "node3009",
+      "resumed_update": 1273,
+      "slurm_start_time": "2026-10-06T09:05:38",
+      "allocation_started_at": "2026-10-06T13:05:38Z",
+      "checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_001273",
+        "marker": {
+          "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+          "completed_update": 1273,
+          "state_sha256": "7b5d396ff6237374ec4896ccea059c35649ae50f0a4e765c10db354b266c285a",
+          "elapsed": 75361.65301800438,
+          "phase": "sender"
+        },
+        "complete_sha256": "c8c1ac5b8311c34e3990f3eee13c786426d0154abbc005e1f50898afdb6eb059"
+      },
+      "preflight_event": "runtime_events/h100_memory_preflight_24936933_1791291964452921628.json",
+      "preflight_sha256": "4371098af140aa907aa08a297ed9540ad57eee7a558105b28d7b52a03b4dc0ab",
+      "observer_event": "runtime_events/qwen_observer_24936933_1791292126944835472.json",
+      "observer_sha256": "7478566f6890df6cf5c8ad099557e8b39cbfaa45546033d0fb2eca746db18668",
+      "observer_started_at": 1791292126.9443095,
+      "observer_started_at_utc": "2026-10-06T13:08:46.944309Z",
+      "offload_event": "runtime_events/h100_memory_24936933_1791292129147072810.json",
+      "offload_sha256": "77db1e1b150d608c3aab3592d7828c097f1ef9ca402815ce37fcb1d9a3d4311e",
+      "offload_enabled_at": 1791292129.1470802,
+      "restored_elapsed_seconds": 75361.65301800438,
+      "public_checkpoint_marker_retained": false,
+      "independent_state_rehash_this_audit": false,
+      "runtime_attested_state_hash_and_restore": true,
+      "initialization_verified": true,
+      "fresh_baseline_initialization": false,
+      "toy_parity_passed": true,
+      "observer_science_model_runtime_and_authorization_pins_passed": true,
+      "cleanup_metadata_modes_rng_passed": true,
+      "last_ppo_attempt": 1379,
+      "last_ppo_status": "completed"
+    }
+  ],
+  "current_allocation": {
+    "job_id": "24936933",
+    "restart_count": 2,
+    "node": "node3009",
+    "resumed_update": 1273,
+    "slurm_start_time": "2026-10-06T09:05:38",
+    "allocation_started_at": "2026-10-06T13:05:38Z",
+    "checkpoint": {
+      "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_001273",
+      "marker": {
+        "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+        "completed_update": 1273,
+        "state_sha256": "7b5d396ff6237374ec4896ccea059c35649ae50f0a4e765c10db354b266c285a",
+        "elapsed": 75361.65301800438,
+        "phase": "sender"
+      },
+      "complete_sha256": "c8c1ac5b8311c34e3990f3eee13c786426d0154abbc005e1f50898afdb6eb059"
+    },
+    "preflight_event": "runtime_events/h100_memory_preflight_24936933_1791291964452921628.json",
+    "preflight_sha256": "4371098af140aa907aa08a297ed9540ad57eee7a558105b28d7b52a03b4dc0ab",
+    "observer_event": "runtime_events/qwen_observer_24936933_1791292126944835472.json",
+    "observer_sha256": "7478566f6890df6cf5c8ad099557e8b39cbfaa45546033d0fb2eca746db18668",
+    "observer_started_at": 1791292126.9443095,
+    "observer_started_at_utc": "2026-10-06T13:08:46.944309Z",
+    "offload_event": "runtime_events/h100_memory_24936933_1791292129147072810.json",
+    "offload_sha256": "77db1e1b150d608c3aab3592d7828c097f1ef9ca402815ce37fcb1d9a3d4311e",
+    "offload_enabled_at": 1791292129.1470802,
+    "restored_elapsed_seconds": 75361.65301800438,
+    "public_checkpoint_marker_retained": false,
+    "independent_state_rehash_this_audit": false,
+    "runtime_attested_state_hash_and_restore": true,
+    "initialization_verified": true,
+    "fresh_baseline_initialization": false,
+    "toy_parity_passed": true,
+    "observer_science_model_runtime_and_authorization_pins_passed": true,
+    "cleanup_metadata_modes_rng_passed": true,
+    "last_ppo_attempt": 1379,
+    "last_ppo_status": "completed"
+  },
+  "segments": {
+    "1": {
+      "complete_sha256": "1d0a4fe1f3ffdbca5d134741d22aa0e03aaee311846e9dc7192863ad2449ddcd",
+      "budget_sha256": "62befc38e7bfe7f4f48b089f3dd8391ec65d927746ec2f204ea52f93e75dec39",
+      "completed_update": 390,
+      "active_threshold_seconds": 27900,
+      "total_active_budget_seconds": 83700,
+      "checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000390",
+        "completed_update": 390,
+        "complete_sha256": "d9d01d85c1bea776c6154eefe936df1fd1a6064799072bbae9492ce7a211a6b1",
+        "state_sha256": "de8eba38536c759c71f65b645eb2bddf57fa5104bae507e50f38c3b6dc51ce0f",
+        "elapsed": 27941.067958471365
+      },
+      "evaluation_complete_sha256": "bbd3976eb0e6a2d6f90ca5844da0ff17e77184a6e5fa26b66334aedbf147aeb1",
+      "budget_active_seconds": 27943.040357485414,
+      "completion_active_seconds": 28194.538099765778
+    },
+    "2": {
+      "complete_sha256": "d8bc87a39c2a652b0b77cbf022dd1848bf2032ac7d5544cd82a6ae6cf191b81a",
+      "budget_sha256": "bb68e2b67492ddef800a2be57179110b74988491d24810f2733cdda0b5bd0768",
+      "completed_update": 886,
+      "active_threshold_seconds": 55800,
+      "total_active_budget_seconds": 83700,
+      "checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000886",
+        "completed_update": 886,
+        "complete_sha256": "8ff3f7f47ef1a505fc278d397a6b7c50a2fd6ee6898b0a41a5e36d300e70d593",
+        "state_sha256": "257d1bc62202c044bdf332f5bb4c7e9b4898b4bc1d33fb98e77cad9a8703123a",
+        "elapsed": 55810.18824111391
+      },
+      "evaluation_complete_sha256": "32215438c9668fb65bf77f8ebb85eeb52035626f00f436450a55aab379569699",
+      "budget_active_seconds": 55812.55024976563,
+      "completion_active_seconds": 56195.559503004886
+    }
+  },
+  "checkpoint_evidence": {
+    "independent_retained_boundary_state": {
+      "completed_update": 886,
+      "checkpoint_path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000886",
+      "marker_sha256": "8ff3f7f47ef1a505fc278d397a6b7c50a2fd6ee6898b0a41a5e36d300e70d593",
+      "marker": {
+        "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+        "completed_update": 886,
+        "state_sha256": "257d1bc62202c044bdf332f5bb4c7e9b4898b4bc1d33fb98e77cad9a8703123a",
+        "elapsed": 55810.18824111391,
+        "phase": "sender"
+      },
+      "state_exists": true,
+      "state_sha256_verified": true,
+      "state_sha256": "257d1bc62202c044bdf332f5bb4c7e9b4898b4bc1d33fb98e77cad9a8703123a",
+      "state_bytes": 842440258
+    },
+    "remote_audit_path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/monitoring/STAGE3_CATCHUP_CHECKPOINT_REMOTE_AUDIT.json",
+    "remote_audit_sha256": "28b201b2bd6034f9de6bb1fdcfbf9e80c763309fc1de1fc3aada987587142d68",
+    "latest_completed_update": 1380,
+    "latest_state_sha256": "88485a47f75a04e56f5242cf3d4c7b8693c260c9454799e8f1609be95de39938",
+    "latest_state_hash_verified_by_remote_snapshot": true,
+    "latest_marker_sha256": "6b3ae63f79afd0b6f624737f10ea42a994205d11a2d1d828886aa05350af2bdc",
+    "latest_checkpoint_elapsed_seconds": 80763.2565350933,
+    "restore_state_qualification": "Checkpoints800,911,1273 were selected and hash/restore verified by the frozen startup runtime. This local audit independently checks their public preflight identity bindings; it did not rehash those historical states after retention pruning or compare restored tensors/optimizer/RNG fields directly."
+  },
+  "active_clock": {
+    "schema_version": 1,
+    "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+    "segment": 3,
+    "active_threshold_seconds": 83700,
+    "total_active_budget_seconds": 83700,
+    "checkpoint": {
+      "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_001380",
+      "completed_update": 1380,
+      "complete_sha256": "6b3ae63f79afd0b6f624737f10ea42a994205d11a2d1d828886aa05350af2bdc",
+      "state_sha256": "88485a47f75a04e56f5242cf3d4c7b8693c260c9454799e8f1609be95de39938",
+      "elapsed": 80763.2565350933
+    },
+    "active_seconds": 80765.10461758915,
+    "recorded_at": 1791297529.8030775,
+    "sha256": "f9f0ad9b094c239ae4033e9af4bdb458381f20f5a3c40c721be59dfe69f7f781",
+    "remaining_seconds_at_verified_snapshot": 2934.8953824108467,
+    "fixed_thresholds": [
+      27900,
+      55800,
+      83700
+    ],
+    "continuity_verified": true,
+    "continuity_scope": "Frozen restore_clock validates checkpoint/segment bindings and preserves recorded active seconds with max(self.elapsed, seconds); a newer checkpoint must include prior recorded time. Preflight elapsed precedes that separate clock restore. Segment2 checkpoint elapsed55810.18824111391, completion active56195.559503004886, and subsequent checkpoint/clock increases are consistent with this policy. No threshold reset, extension or rebase is evidenced."
+  },
+  "evaluation_memory_events": [
+    {
+      "path": "runtime_events/h100_eval_memory_24936932_1791244154598361991.json",
+      "sha256": "5c1b6af54265430bef5b68a09bd44b4a79e4a6a524da5f2ac1ec6b7ec00c6489",
+      "completed_update": 400,
+      "slurm_job_id": "24936932",
+      "restart_count": 0,
+      "status": "original_judge_completed",
+      "checkpoint_complete_sha256": "6f0ca2d7118eac082f122e5e812929911c34efffab282f8df4c8c2cf81d4cce4",
+      "evaluation_complete_sha256": "cf0afa41be23433f3738ed90db062dde7cd68c13e4d8b676a8040418bc456675",
+      "cleanup_invariants_verified": true
+    },
+    {
+      "path": "runtime_events/h100_eval_memory_24936932_1791246869462027504.json",
+      "sha256": "ee18dd0e22a57d72754fdd45407b7c6fe3dfe454695c961f87a6eff9f8491787",
+      "completed_update": 450,
+      "slurm_job_id": "24936932",
+      "restart_count": 0,
+      "status": "original_judge_completed",
+      "checkpoint_complete_sha256": "cb5cdc77bd47c280d9dbd6bdbde6f565f87332e0c63021f5895b8b206e58e93e",
+      "evaluation_complete_sha256": "bc0b537179470502ad892f4f9d13af6b0e310e2f6214e16e72ee9d0fab35f6a3",
+      "cleanup_invariants_verified": true
+    },
+    {
+      "path": "runtime_events/h100_eval_memory_24936932_1791249545853044198.json",
+      "sha256": "deaf2e28f3916e15cf5bd3efb88cb561a8a313e1612fbd95391608a23c00a5c3",
+      "completed_update": 500,
+      "slurm_job_id": "24936932",
+      "restart_count": 0,
+      "status": "original_judge_completed",
+      "checkpoint_complete_sha256": "1f98d3f5fad5372d206c73bd63b4d9087e772e2d59a80e5ec6352aa6bad4206a",
+      "evaluation_complete_sha256": "682cc10b9983995b1b8ec2e975371fc3930f5999dea1e3550282d8957385ee49",
+      "cleanup_invariants_verified": true
+    },
+    {
+      "path": "runtime_events/h100_eval_memory_24936932_1791252119140714848.json",
+      "sha256": "d560c4949a2bfc9da6f158bbec2c5c6e5bdf0592424412a430fefe01d3b1a795",
+      "completed_update": 550,
+      "slurm_job_id": "24936932",
+      "restart_count": 0,
+      "status": "original_judge_completed",
+      "checkpoint_complete_sha256": "d0f41e4c85883fc99a85ca09cce817e53036fdf24ce30e3f4dee7784700a215f",
+      "evaluation_complete_sha256": "0e3fd21594862db2d6b87afa6374f4661ff69902b431cf4db4ff4e5f79837255",
+      "cleanup_invariants_verified": true
+    },
+    {
+      "path": "runtime_events/h100_eval_memory_24936932_1791254726110759588.json",
+      "sha256": "b5b89e8a3320ab6796870f2ced78a791e700bb11887243613432c5a281efbeb9",
+      "completed_update": 600,
+      "slurm_job_id": "24936932",
+      "restart_count": 0,
+      "status": "original_judge_completed",
+      "checkpoint_complete_sha256": "857dcdd42f2abbfdc3ed32274219f048b37c73f20415a10fc406bc96e8a277f7",
+      "evaluation_complete_sha256": "0c366a68d0f1ddc285bc15a69ad7f95d7650b1284426585e22d241b4aebaf773",
+      "cleanup_invariants_verified": true
+    },
+    {
+      "path": "runtime_events/h100_eval_memory_24936932_1791257351320876094.json",
+      "sha256": "7b7313e42c3963174b6b1e2b42a77a79e8be7cb04af606d7e557029a4a53fb1f",
+      "completed_update": 650,
+      "slurm_job_id": "24936932",
+      "restart_count": 0,
+      "status": "original_judge_completed",
+      "checkpoint_complete_sha256": "163c17d952821a3071b0817e6cf0902591e18d318e2bfeb08636f75514b34c05",
+      "evaluation_complete_sha256": "a0e03e30759e215eafe06ffe8dd50c9a71eaca2a999463e805f6f46488f6f00b",
+      "cleanup_invariants_verified": true
+    },
+    {
+      "path": "runtime_events/h100_eval_memory_24936932_1791259964782705113.json",
+      "sha256": "bdbd0dec232bafbf533fd34fefd32b126c68ddb1d88bedca76e3df42ffaccfa5",
+      "completed_update": 700,
+      "slurm_job_id": "24936932",
+      "restart_count": 0,
+      "status": "original_judge_completed",
+      "checkpoint_complete_sha256": "113caa4da39388eb2c5c5f580e5450e519bd38686f3cd51f7f8c3e4c74aa247b",
+      "evaluation_complete_sha256": "31828433312dab415eb334e396af79b4ab0b1b3fe3fc1630d8b5cd120105e834",
+      "cleanup_invariants_verified": true
+    },
+    {
+      "path": "runtime_events/h100_eval_memory_24936932_1791262419833776729.json",
+      "sha256": "d768d21c4e757830cc5198b60fe3c316bc128c5f2c24b5775ced70fe5892aa14",
+      "completed_update": 750,
+      "slurm_job_id": "24936932",
+      "restart_count": 0,
+      "status": "original_judge_completed",
+      "checkpoint_complete_sha256": "6cbb5ae76a889b9f6200442c59db7e43724f119b624f5ef68d9883c4e7870c96",
+      "evaluation_complete_sha256": "440308170c37c836354b0e233d2ea8b4103fce576da04f579a3fe687e8045d91",
+      "cleanup_invariants_verified": true
+    },
+    {
+      "path": "runtime_events/h100_eval_memory_24936932_1791265467953397837.json",
+      "sha256": "09656c5ecf55603f0e22b46489dfbd321f9429d959fbab5ef71c790f4675fc46",
+      "completed_update": 800,
+      "slurm_job_id": "24936932",
+      "restart_count": 1,
+      "status": "original_judge_completed",
+      "checkpoint_complete_sha256": "733d62907993c200a08afa4953332aaf6a007c042d50878b07ad45f7627d8c2c",
+      "evaluation_complete_sha256": "2b249e6adf9eb707e9a46336a08d1403fc6dcde8fe64418791fd4441dfc556d2",
+      "cleanup_invariants_verified": true
+    },
+    {
+      "path": "runtime_events/h100_eval_memory_24936932_1791269228232187415.json",
+      "sha256": "27b69b39e5a024903325ef126641ad52fc64c786f6d5d2ae2a65bc9c81c0d1c6",
+      "completed_update": 850,
+      "slurm_job_id": "24936932",
+      "restart_count": 1,
+      "status": "original_judge_completed",
+      "checkpoint_complete_sha256": "be32785aef4ed96d1f59803cd84c3e2fc888c064070ee0a45f0982c8dd012f89",
+      "evaluation_complete_sha256": "ec04344173ad3df877c0e6103c426103590b7d8ab5d59ada3fb441a2299c6d9b",
+      "cleanup_invariants_verified": true
+    },
+    {
+      "path": "runtime_events/h100_eval_memory_24936932_1791271748985888688.json",
+      "sha256": "b8244e31c9e4fd2a76ff8a891a3dec10b2facb0860a46a4a3a6cf7d5f21b56a6",
+      "completed_update": 886,
+      "slurm_job_id": "24936932",
+      "restart_count": 1,
+      "status": "original_judge_completed",
+      "checkpoint_complete_sha256": "8ff3f7f47ef1a505fc278d397a6b7c50a2fd6ee6898b0a41a5e36d300e70d593",
+      "evaluation_complete_sha256": "32215438c9668fb65bf77f8ebb85eeb52035626f00f436450a55aab379569699",
+      "cleanup_invariants_verified": true
+    },
+    {
+      "path": "runtime_events/h100_eval_memory_24936933_1791273256480421697.json",
+      "sha256": "c42ac91cccebc090b2738581c47bf1313ec033292a9c7b586d0853f41464c18e",
+      "completed_update": 900,
+      "slurm_job_id": "24936933",
+      "restart_count": 0,
+      "status": "original_judge_completed",
+      "checkpoint_complete_sha256": "ca4a0dd648721f215e797baf33da311beec3e658a2423450cb6aab59db42705c",
+      "evaluation_complete_sha256": "a554872922d75508b2147c201c871535ed17a204be37b0510557809634328df1",
+      "cleanup_invariants_verified": true
+    },
+    {
+      "path": "runtime_events/h100_eval_memory_24936933_1791276396051261477.json",
+      "sha256": "4e734880cd46b4f2b56610f84ab728c3f71addd0196b96c09da42d94165487ce",
+      "completed_update": 950,
+      "slurm_job_id": "24936933",
+      "restart_count": 1,
+      "status": "original_judge_completed",
+      "checkpoint_complete_sha256": "f669aaf0bf8c4324351178808f9d36464f7c15508e095ef92c032231cefb39a7",
+      "evaluation_complete_sha256": "fc71f5d79c7a4f85bbea6b3b4e087295a30402bd54be9bfc08aab221962098b7",
+      "cleanup_invariants_verified": true
+    },
+    {
+      "path": "runtime_events/h100_eval_memory_24936933_1791278887237683799.json",
+      "sha256": "19417bdb68d53ed1facf2f661bb20458b564ab6993681159c0bb6bd6a6323069",
+      "completed_update": 1000,
+      "slurm_job_id": "24936933",
+      "restart_count": 1,
+      "status": "original_judge_completed",
+      "checkpoint_complete_sha256": "4565064e0e065e2c906958afe3bd30c32d783e692d5b7bacf81f2a8242e8ab2f",
+      "evaluation_complete_sha256": "f11cd10c4980f312ce34012136db429c519c71cbd58b1532c43a9bdda0fcf2d8",
+      "cleanup_invariants_verified": true
+    },
+    {
+      "path": "runtime_events/h100_eval_memory_24936933_1791281219411239304.json",
+      "sha256": "838da23daab138bb0256ddac63bbca36abaaf1c98fb162278d37b2ae583ceece",
+      "completed_update": 1050,
+      "slurm_job_id": "24936933",
+      "restart_count": 1,
+      "status": "original_judge_completed",
+      "checkpoint_complete_sha256": "9896f7ad7a1150a022d1726850d67bd7e3d3561c6b899bbbd113d8c0ea584d78",
+      "evaluation_complete_sha256": "24066a4ae8237999604ae9ac4d0a958962020fb160836ffccb71b52f715d2162",
+      "cleanup_invariants_verified": true
+    },
+    {
+      "path": "runtime_events/h100_eval_memory_24936933_1791283687284255893.json",
+      "sha256": "bed3c2d12ad51ee6ba4cf8b5804ec95e19cf5489c9e97c33f1d73cbe8fac10ee",
+      "completed_update": 1100,
+      "slurm_job_id": "24936933",
+      "restart_count": 1,
+      "status": "original_judge_completed",
+      "checkpoint_complete_sha256": "de6f488a07949d9c5906e822669b8c582c1816b5c50109f55bffa95a6f481d34",
+      "evaluation_complete_sha256": "2a0e09832d4ae06ed66a7b88ce387dcd78b32da8c48613dfb972f9d1bb2c071c",
+      "cleanup_invariants_verified": true
+    },
+    {
+      "path": "runtime_events/h100_eval_memory_24936933_1791285991488998519.json",
+      "sha256": "a53326a391facc2dcd0df59db9ca15a2900f4edf17e69474da2c2ad6bf94681a",
+      "completed_update": 1150,
+      "slurm_job_id": "24936933",
+      "restart_count": 1,
+      "status": "original_judge_completed",
+      "checkpoint_complete_sha256": "0fda1c30b0c5f8054b4512ae8df5a155bd1fce82a50efb6f2700c48114f7b325",
+      "evaluation_complete_sha256": "42ddb825b300c0c7f18f02ce9df5bf53b0ae8aff4c7c0ae51cdce97842deb540",
+      "cleanup_invariants_verified": true
+    },
+    {
+      "path": "runtime_events/h100_eval_memory_24936933_1791288271286339723.json",
+      "sha256": "13844ec93817e23f77b63b21a7d5dd297824e808200da9f4fa548ea412c97c2a",
+      "completed_update": 1200,
+      "slurm_job_id": "24936933",
+      "restart_count": 1,
+      "status": "original_judge_completed",
+      "checkpoint_complete_sha256": "787d9d744cdbc869f374ffe721d0a8e7b61f5f1dd9c325cdd5f3b04b39ddf88e",
+      "evaluation_complete_sha256": "2b316a5f5e5b991f7de870f24351fb7ca365dde034199479a56534f57b51491f",
+      "cleanup_invariants_verified": true
+    },
+    {
+      "path": "runtime_events/h100_eval_memory_24936933_1791290660021948973.json",
+      "sha256": "12718f18c4d08e875d3c09db37d5aad26f66b52d99a39ac6e90e17ef1e610ecd",
+      "completed_update": 1250,
+      "slurm_job_id": "24936933",
+      "restart_count": 1,
+      "status": "original_judge_completed",
+      "checkpoint_complete_sha256": "d9197cfa6eb7509704b8669178d1585b576ec5c61f3367be1126e1834251b282",
+      "evaluation_complete_sha256": "27759fa5502421007f6b9341445d1b104b7c407825ac6c2ac797c7ea941608f1",
+      "cleanup_invariants_verified": true
+    },
+    {
+      "path": "runtime_events/h100_eval_memory_24936933_1791293593893190356.json",
+      "sha256": "3ee5c473c6bd90d768d0357aed63fa221858b6e33faadc71f52ea3cb2c3a420c",
+      "completed_update": 1300,
+      "slurm_job_id": "24936933",
+      "restart_count": 2,
+      "status": "original_judge_completed",
+      "checkpoint_complete_sha256": "120e4f87a2dcc0b7603f282bff7207285888bcc5dcc5ebac24cbd627d66d68d4",
+      "evaluation_complete_sha256": "09e416cb3496a514ab80910bd997f3670866f1b88ade462e49f365b1ca64f869",
+      "cleanup_invariants_verified": true
+    },
+    {
+      "path": "runtime_events/h100_eval_memory_24936933_1791296168498561662.json",
+      "sha256": "a05501c02eebdbb5dba3a8570d765c4e3bd154ff105260637273b950f2489c55",
+      "completed_update": 1350,
+      "slurm_job_id": "24936933",
+      "restart_count": 2,
+      "status": "original_judge_completed",
+      "checkpoint_complete_sha256": "3526d89322a9c29eb66ea36756dd293717bb219b307d95e855b5c2911d576865",
+      "evaluation_complete_sha256": "7448d007ea79ede013936ceae6f258cd739ed5d0d0cb9a0986fb4ab90dfd2f9a",
+      "cleanup_invariants_verified": true
+    }
+  ],
+  "runtime_invariants": {
+    "all_four_unseen_allocations_resumed_this_run": true,
+    "no_fresh_initialization": true,
+    "exact_cuda_toy_parity_before_models": true,
+    "observer_fp8_nonthinking_prompt_token_ids_and_score_formula_verified": true,
+    "finite_varied_startup_scores": true,
+    "all_new_evaluation_memory_events_completed": true,
+    "cleanup_metadata_rng_invariants_passed": true,
+    "observer_cleanup_modes_invariants_passed": true,
+    "full_storage_offload_only_ppo_step": true,
+    "full_model_numerical_equivalence_claimed": false,
+    "independent_per_tensor_restore_comparison": false
+  },
+  "latest_committed_ppo_memory": {
+    "attempted_update": 1379,
+    "ppo_call_status": "completed",
+    "error": null,
+    "duration_seconds": 26.277316295541823,
+    "peak_allocated_bytes": 29848008704,
+    "peak_reserved_bytes": 33596375040,
+    "end_device_free_bytes": 19031982080,
+    "device_total_bytes": 85019328512,
+    "end_host_rss_bytes": 99020333056,
+    "saved_tensor_transfers": {
+      "packed_cuda_tensors": 15408,
+      "packed_storage_bytes": 638963021568,
+      "noncontiguous_cuda_tensors": 3744,
+      "nonzero_offset_cuda_tensors": 12,
+      "expanded_cuda_tensors": 0,
+      "unpacked_cuda_tensors": 15180
+    },
+    "note": "PPO-call completion alone does not establish a committed checkpoint."
+  },
+  "historical_artifacts": {
+    "root_failure_sha256": "70161f30a8b40900ec2f7aa535a6e2ed58009a59869bc1acf82456fb060536ef",
+    "new_failure": false,
+    "original_initialization_artifact_scope": "INITIALIZATION.json remains the original checkpoint0 initialization; the four preflight events and current resumed smoke establish subsequent restore state.",
+    "current_resumed_smoke": {
+      "path": "smoke.json",
+      "sha256": "d8ff44515f594181c0453f69b3949d97101b9be030d2756a7ac1074765238bc4"
+    },
+    "full_cycle_smoke": {
+      "path": "FULL_CYCLE_SMOKE.json",
+      "sha256": "e962d758e5f2b94bee1bf3305c4e4675b6f3cfbe6d6490ec3b58a8d3ee60d578"
+    },
+    "full_cycle_qualification": "Original update7 smoke remains corroborated by later verified checkpoints; its step7 state/marker were not independently rehashed before normal retention pruned them. Preserve monitoring/FULL_CYCLE_VERIFICATION.json.",
+    "preempted_marker": {
+      "path": "PREEMPTED.json",
+      "sha256": "3099dd9a3ad2ef52f144f54a3f42d3d7f35ce345c438eac9cbd50646df47d61d"
+    },
+    "preempted_marker_timestamp": 1791273982.0897145,
+    "preempted_marker_qualification": "This public marker records the first stage3 preemption and predates restart1; it is not evidence for the later preemption."
+  },
+  "qualifications": [
+    "Restart1 last PPO attempted update1274 completed, but restart2 selected committed1273. PPO-call completion alone is not a checkpoint commit; no rollback of committed1274 is claimed.",
+    "State/model tensors and private reasoning remain remote. Source-defined preservation of model weights, optimizers, RNG, streams, modes and PPO/KL state is corroborated by restored checkpoint/update/elapsed and continuing commits, not independent per-tensor comparison.",
+    "Evaluation identity/hash binding was rechecked with the frozen public helper; detailed evaluation row/statistic audits are maintained separately by the parent.",
+    "packed_storage_bytes is cumulative saved-tensor transfer volume, not resident host memory. Latest PPO memory here is from committed attempt1379, capped below verified1380.",
+    "Two stage3 preemptions are scheduling interruptions with successful resumes; no new numerical/OOM/provenance failure is evidenced.",
+    "No segment3 or global completion was present at this snapshot."
+  ],
+  "future_ingestion_helper": {
+    "path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/monitoring/ingest_stage3_monitor.py",
+    "sha256": "0ca6758d8a83db2adf9546940714a2abfa50af46b2a7b8d84f3b32441e0c869c",
+    "ast_parsed": true,
+    "executed_by_this_auditor": false,
+    "reported_flags_set_by_this_auditor": false,
+    "parent_must_seed_stage3_after_audits": true
+  }
+}

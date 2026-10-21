@@ -1,0 +1,22 @@
+{
+  "n": 192,
+  "receiver_correct": 108,
+  "observer_flagged": 11,
+  "receiver_pass": 186,
+  "receiver_fail": 6,
+  "reward_mean": 0.25719237327575684,
+  "reward_std": 0.11681319773197174,
+  "token_cap": 18,
+  "ppo": {
+    "ppo/loss/total": 0.1560753881931305,
+    "ppo/loss/policy": -0.04017694294452667,
+    "ppo/loss/value": 1.9625232219696045,
+    "objective/kl": 0.0,
+    "objective/kl_coef": 0.1
+  },
+  "update": 3,
+  "kind": "sender",
+  "cycle": 1,
+  "duration_seconds": 16.672200862318277,
+  "config_digest": "a430c084d01dc638190691b34614ff595f8d788bb6172728f04aebe2a50c503b"
+}

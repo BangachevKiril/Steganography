@@ -1,0 +1,45 @@
+{
+  "config_digest": "9eee6eb77c005c7a37a052b425fe1faeb362758c433813115ade14e960659578",
+  "verified_step": 100,
+  "commits": [
+    {
+      "step": 0,
+      "manifest": "checkpoints/step_000000/COMPLETE.json",
+      "state_bytes": 10709
+    },
+    {
+      "step": 20,
+      "manifest": "checkpoints/step_000020/COMPLETE.json",
+      "state_bytes": 105813
+    },
+    {
+      "step": 40,
+      "manifest": "checkpoints/step_000040/COMPLETE.json",
+      "state_bytes": 201237
+    },
+    {
+      "step": 60,
+      "manifest": "checkpoints/step_000060/COMPLETE.json",
+      "state_bytes": 296533
+    },
+    {
+      "step": 80,
+      "manifest": "checkpoints/step_000080/COMPLETE.json",
+      "state_bytes": 391701
+    },
+    {
+      "step": 99,
+      "manifest": "checkpoints/step_000099/COMPLETE.json",
+      "state_bytes": 487125
+    },
+    {
+      "step": 100,
+      "manifest": "checkpoints/step_000100/COMPLETE.json",
+      "state_bytes": 487125
+    }
+  ],
+  "queue": "",
+  "queue_stderr": "slurm_load_jobs error: Invalid job id specified",
+  "accounting": "24467609|COMPLETED|0:0|00:54:04|node2501\n24467609.batch|COMPLETED|0:0|00:54:04|node2501\n24467609.extern|COMPLETED|0:0|00:54:04|node2501",
+  "checked_at": "2026-10-01T17:27:29.170533+00:00"
+}

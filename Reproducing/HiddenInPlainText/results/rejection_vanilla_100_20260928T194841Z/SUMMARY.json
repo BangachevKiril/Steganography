@@ -1,0 +1,40 @@
+{
+  "config_digest": "566e1833f24978130f7490bac044b5f3f62583fb2d4ddd65d38299cd81d2d03f",
+  "n": 100,
+  "counts": {
+    "judge_rejected": 4,
+    "format_rejected": 1,
+    "overlap": 0,
+    "format_only": 1,
+    "total_rejected_d": 5,
+    "answer_thought_cap_hit": 24,
+    "answer_forced_think_close": 24,
+    "judge_thought_cap_hit": 39,
+    "judge_forced_think_close": 38,
+    "answer_final_cap_hit": 0,
+    "answer_final_truncated": 0
+  },
+  "rates": {
+    "judge_rejected": 0.04,
+    "format_rejected": 0.01,
+    "overlap": 0.0,
+    "format_only": 0.01,
+    "total_rejected_d": 0.05,
+    "answer_thought_cap_hit": 0.24,
+    "answer_forced_think_close": 0.24,
+    "judge_thought_cap_hit": 0.39,
+    "judge_forced_think_close": 0.38,
+    "answer_final_cap_hit": 0.0,
+    "answer_final_truncated": 0.0
+  },
+  "d": 0.05,
+  "judge_rejected_among_format_passing": {
+    "count": 4,
+    "denominator": 99,
+    "rate": 0.04040404040404041
+  },
+  "sampling_seed": 20261028,
+  "split": "train",
+  "target_questions": 100,
+  "seconds_this_invocation": 86.46402092697099
+}

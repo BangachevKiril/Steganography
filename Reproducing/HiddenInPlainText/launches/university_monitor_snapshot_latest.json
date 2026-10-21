@@ -1,0 +1,44 @@
+{
+  "checked_at": "2026-10-02T13:57:58.667802+00:00",
+  "verified_update": 532,
+  "checkpoint": "/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z/checkpoints/step_000532",
+  "state_sha256_verified": true,
+  "queue": "",
+  "account": "24561305|CANCELLED by 222643|0:0|00:00:00|None|2026-10-01T16:21:33\n24566270|COMPLETED|0:0|00:03:45|2026-10-01T14:44:14|2026-10-01T14:47:59\n24566270.batch|COMPLETED|0:0|00:03:45|2026-10-01T14:44:14|2026-10-01T14:47:59\n24566270.extern|COMPLETED|0:0|00:03:45|2026-10-01T14:44:14|2026-10-01T14:47:59\n24579661|COMPLETED|0:0|00:15:36|2026-10-02T00:23:56|2026-10-02T00:39:32\n24579661.batch|COMPLETED|0:0|00:15:36|2026-10-02T00:23:56|2026-10-02T00:39:32\n24579661.extern|COMPLETED|0:0|00:15:36|2026-10-02T00:23:56|2026-10-02T00:39:32\n",
+  "main_status": {
+    "status": "complete",
+    "stage": "complete",
+    "config_digest": "a430c084d01dc638190691b34614ff595f8d788bb6172728f04aebe2a50c503b",
+    "completed_update": 532,
+    "slurm_job_id": "24579661",
+    "updated_at": 1790915956.7514932
+  },
+  "main_failure": null,
+  "main_complete": "{\n  \"config_digest\": \"a430c084d01dc638190691b34614ff595f8d788bb6172728f04aebe2a50c503b\",\n  \"completed_update\": 532,\n  \"checkpoint\": \"/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z/checkpoints/step_000532\",\n  \"evaluation_complete_sha256\": \"9a2f60b48accce506f458e7d2b52115e0f6fd7dd7164ab0ea239f40b4faafc7d\",\n  \"active_seconds\": 28144.718488428814,\n  \"stop_reason\": \"configured_active_time_budget\",\n  \"sender_updates\": 380,\n  \"receiver_updates\": 152\n}\n",
+  "probes": {
+    "uni_h100_probe_20261001T174300Z": {
+      "files": [],
+      "status": null,
+      "failure": null,
+      "complete": null
+    },
+    "uni_l40s_probe_20261001T184131Z": {
+      "files": [
+        "MANIFEST.json",
+        "RUNTIME.json",
+        "RESTORATION.json",
+        "SMOKE.json",
+        "MEMORY.json",
+        "RESULTS.json",
+        "COMPLETE.json",
+        "STATUS.json",
+        "report.md",
+        "evaluation50_ROWS.json",
+        "training_update82_ROWS.json"
+      ],
+      "status": "{\n  \"status\": \"complete\",\n  \"stage\": \"complete\",\n  \"completed_update\": 82,\n  \"elapsed_seconds\": 216.06864148611203\n}\n",
+      "failure": null,
+      "complete": "{\n  \"status\": \"complete\",\n  \"config_digest\": \"a430c084d01dc638190691b34614ff595f8d788bb6172728f04aebe2a50c503b\",\n  \"completed_update\": 82,\n  \"results_sha256\": \"e68efe0cefa18669e3386fa221f43431f8baf05b447263700a976a9a3716b9ef\",\n  \"manifest_sha256\": \"f49c347035de19d8690c354ed6a350dbaceef015e3c85d2f64456312ebb400b8\",\n  \"completed_at\": 1790880471.7124903\n}\n"
+    }
+  }
+}

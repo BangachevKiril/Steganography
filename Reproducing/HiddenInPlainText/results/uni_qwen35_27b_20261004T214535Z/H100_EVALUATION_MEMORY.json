@@ -1,0 +1,19 @@
+{
+  "kind": "H100_evaluation_parent_cache_cleanup",
+  "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+  "training_source": "/orcd/pool/003/kirilb/Steganography/releases/uni_qwen35_27b_20261004T214535Z",
+  "wrapper_sha256": "882d72b93c0adf8ab22ca11851d321b37bf782f5bd810f0bd0472b13108c63c3",
+  "evaluation_helper_sha256": "d5f9352f0c6984c29f0078ec035be77822cb81c2fe2010f38248c634326e90f2",
+  "original_run_judge_source_sha256": "9291dd86a826e2b77f9789f14ced92a2a63e5a0d514813aa1a09964b81632863",
+  "scope": "Before the original corrected evaluator._run_judge boundary",
+  "cleanup": [
+    "torch.cuda.synchronize",
+    "gc.collect",
+    "torch.cuda.empty_cache",
+    "torch.cuda.synchronize"
+  ],
+  "models_moved": false,
+  "live_tensors_mutated": false,
+  "judge_command_and_configuration_changed_by_cleanup": false,
+  "invariants": "Live model/optimizer tensor identities, versions, shapes, dtypes, devices, modes and RNG unchanged."
+}

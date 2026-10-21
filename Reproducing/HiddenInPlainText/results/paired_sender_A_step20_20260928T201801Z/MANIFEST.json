@@ -1,0 +1,29 @@
+{
+  "config_digest": "22298625ce4bd183ece49b7f94405cc405e060c7309786f5b90d4295993ee4f2",
+  "training_config_digest": "5fd11789f52dd475b79d0196b43b213073e50fc727c181d86bbee6c3684cf582",
+  "checkpoint_global_step": 20,
+  "communicator_joint_updates": 10,
+  "communicator": "A",
+  "input_sha256": {
+    "/orcd/pool/003/kirilb/Steganography/runs/piqa_qwen3_4b_20260928T175421Z/config.json": "0db39a2efda7e4dade1293e62fcd7b6ad5596217bfd8cb414e15895cdce142c8",
+    "/orcd/pool/003/kirilb/Steganography/runs/rejection_vanilla_100_20260928T194841Z/answers_and_verdicts.json": "a3cedea2af9d1795488cee481f75a13b436b7b7ca225f94807ce5145e088fb50",
+    "/orcd/pool/003/kirilb/Steganography/runs/piqa_qwen3_4b_20260928T175421Z/checkpoints/step_000020/COMPLETE.json": "c4d78186adf3fec3be5fb3b8b2991da08ae8185f9ffd6a2419537b63de2a96e7",
+    "/orcd/pool/003/kirilb/Steganography/runs/piqa_qwen3_4b_20260928T175421Z/checkpoints/step_000020/engine/engine.json": "a34845319ee9b34a23232d86567fee48c80a14cd36e12c56fbf499353863fc65",
+    "/orcd/pool/003/kirilb/Steganography/runs/piqa_qwen3_4b_20260928T175421Z/checkpoints/step_000020/engine/optimizers.pt": "aa1e3097447e97c795b41afd70dec887922b7fb2ad75c3e38db6a5e1ec870800",
+    "/orcd/pool/003/kirilb/Steganography/runs/piqa_qwen3_4b_20260928T175421Z/checkpoints/step_000020/engine/adapters/A/adapter_model.safetensors": "215aa37735b4fdbe9bfb6c54ba77a8adc035438b89c6bbdb8fa292c2f4e1c8cc",
+    "/orcd/pool/003/kirilb/Steganography/runs/piqa_qwen3_4b_20260928T175421Z/checkpoints/step_000020/engine/adapters/B/adapter_model.safetensors": "59d18732d2d984d673c640fc4d03dd54404e17049bfb413c48c4825d99025589",
+    "/orcd/pool/003/kirilb/Steganography/runs/piqa_qwen3_4b_20260928T175421Z/checkpoints/step_000020/engine/adapters/I/adapter_model.safetensors": "5186ec704c14f378e5bfe6ab9034f2171d41ddf35ede4a8e242a9b5b0e645bd6"
+  },
+  "source_sha256": {
+    "stego/__init__.py": "c5c9f525a0627442d9019eb0d083059f68b58fdeccd242dbf8f1d23ecd0cffda",
+    "stego/engine.py": "1e65c0ab8bce2c98b86b39cf0575578a8e9930ebdd7d144fcc822d8a20ff3d5c",
+    "stego/paired_sender_probe.py": "c1ac9e1dcd56f8b0e5e9597729b38965dae25a415aa1bd5fc19d7484bc9b0dd6",
+    "stego/protocol.py": "2e130ea625f846da553f00d51add7ddfa446892e52195b588c780767a90f8771",
+    "stego/rejection_baseline.py": "c8b9d8a876a4bb368d05a6e8ff5da60dbbf3cd6c832026cae90eecf35ec162bc",
+    "stego/smoke.py": "a29654a7be055765dc219291f2a70df51dc941685dbe330e17883eaed6933e25",
+    "stego/train.py": "13462133549ce4816910f2bfb31620673b5b8cd3c74cb84066eca7a6b7015f04"
+  },
+  "selection": "Five selected vanilla-baseline failures; qualitative paired probe",
+  "same_public_string_within_pair": true,
+  "same_initial_generation_seed_within_pair": true
+}

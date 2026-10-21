@@ -1,0 +1,18 @@
+{
+  "status": "proposal_only_not_applied",
+  "requires_user_authorization": true,
+  "reason": "The monitor freezes runtime source hashes; this candidate changes the pinned FP8 quantization implementation.",
+  "hypothesis": "All-zero activation blocks created by padding yield zero scales and 0/0 in the pinned activation quantizer.",
+  "before_sha256": "a486628c4f03abfe299653200ebd2cc577a9ff514fa37cc773031440702107a7",
+  "proposed_after_sha256": "5ea1130b150506e7a7e94534ee4e9aedd6e57ef576bfc50ced6e00927d926612",
+  "intended_behavior": "Use unit scale for exactly all-zero blocks, making quantized values zero. Retain the original scale formula for nonzero blocks.",
+  "production_settings_changed": false,
+  "gpu_validation": "Original-runtime diagnostic confirms the zero-block mechanism; candidate itself remains unexecuted and unvalidated.",
+  "diagnosis": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/diagnostics/nonfinite_probe_001/DIAGNOSIS.json",
+  "validation_plan": [
+    "Zero and mixed-zero quantization outputs remain finite and zero where expected.",
+    "Nonzero-block scales and quantized values match the original quantizer exactly on representative inputs.",
+    "Padded and singleton public controls produce finite observer logits; check live tensors, modes, RNG and memory.",
+    "Complete original startup, frozen evaluation0, and two receiver plus five sender updates before claiming full-cycle validation."
+  ]
+}

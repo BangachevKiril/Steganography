@@ -1,0 +1,30 @@
+{
+  "release": "20260928T201801Z",
+  "archive": "/private/tmp/stego-paired-20260928T201801Z.tar.gz",
+  "archive_sha256": "86522ea5f008bac7c336ed945bdb8b05c69e3a7f9e69947a4e5b28f3db05eae4",
+  "remote_source": "/orcd/pool/003/kirilb/Steganography/releases/paired_20260928T201801Z",
+  "remote_run": "/orcd/pool/003/kirilb/Steganography/runs/paired_sender_A_step20_20260928T201801Z",
+  "communicator": "A",
+  "checkpoint_step": 20,
+  "seed": 844166641,
+  "question_ids": [
+    "train:744",
+    "train:2325",
+    "train:21",
+    "train:3213",
+    "train:5500"
+  ],
+  "state": "complete",
+  "reported": true,
+  "slurm_job_id": "24208853",
+  "time_limit_minutes": 15,
+  "counts": {
+    "judge_rejected": 8,
+    "format_rejected": 3,
+    "combined_rejected": 9,
+    "answer_cutoffs": 5,
+    "forced_thinking_closes": 10
+  },
+  "local_results": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/paired_sender_A_step20_20260928T201801Z",
+  "finished_at": "2026-09-28T20:26:40.953217+00:00"
+}

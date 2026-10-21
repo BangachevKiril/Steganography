@@ -1,0 +1,62 @@
+{
+  "checked_at": "2026-10-05T21:54:26.804975+00:00",
+  "ssh_existing_control_only": true,
+  "slurm_output": "             JOBID                PARTITION        STATE               NODELIST(REASON)          START_TIME         TIME             NODELIST\n          24936933 mit_normal_gpu,mit_preem      PENDING                   (Dependency)                 N/A         0:00                     \n          24936932 mit_normal_gpu,mit_preem      PENDING                   (Dependency)                 N/A         0:00                     \n          24936931          mit_preemptable      RUNNING                       node2900 2026-10-05T12:08:08      5:44:49             node2900\nJobId=24936931 JobName=uni-qwen-h100\n   UserId=kirilb(222643) GroupId=kirilb(222643) MCS_label=N/A\n   Priority=47690 Nice=0 Account=mit_general QOS=normal\n   JobState=RUNNING Reason=None Dependency=(null)\n   Requeue=1 Restarts=1 BatchFlag=1 Reboot=0 ExitCode=0:0\n   RunTime=05:44:49 TimeLimit=06:00:00 TimeMin=N/A\n   SubmitTime=2026-10-05T12:03:54 EligibleTime=2026-10-05T12:05:55\n   AccrueTime=2026-10-05T12:03:54\n   StartTime=2026-10-05T12:08:08 EndTime=2026-10-05T18:08:08 Deadline=N/A\n   PreemptEligibleTime=2026-10-05T12:08:08 PreemptTime=None\n   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-05T12:08:08 Scheduler=Main\n   Partition=mit_preemptable AllocNode:Sid=login007:2247593\n   ReqNodeList=(null) ExcNodeList=(null)\n   NodeList=node2900\n   BatchHost=node2900\n   NumNodes=1 NumCPUs=8 NumTasks=1 CPUs/Task=8 ReqB:S:C:T=0:0:*:*\n   ReqTRES=cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1\n   AllocTRES=cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1\n   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*\n   MinCPUsNode=8 MinMemoryNode=192G MinTmpDiskNode=0\n   Features=(null) DelayBoot=00:00:00\n   OverSubscribe=NO Exclusive=NO Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)\n   Command=/orcd/pool/003/kirilb/Steganography/releases/uni_qwen35_27b_20261004T214535Z/recovery/zero_block_guard_003/training.slurm\n   SubmitLine=sbatch --parsable --hold --export=ALL,QWEN_RUNTIME_RECOVERY_SHA256=9fb3bd356069d2d82dcefac7188a73ad57bf3539c23e3d5079ab13ee5c058c89 --output=/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/slurm-guard-%j.out --error=/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/slurm-guard-%j.err /orcd/pool/003/kirilb/Steganography/releases/uni_qwen35_27b_20261004T214535Z/recovery/zero_block_guard_003/training.slurm /orcd/pool/003/kirilb/Steganography/releases/uni_qwen35_27b_20261004T214535Z /orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z 1\n   WorkDir=/home/kirilb\n   Comment=***TEST_COMMENT***\n   StdErr=/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/slurm-guard-24936931.err\n   StdIn=/dev/null\n   StdOut=/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/slurm-guard-24936931.out\n   TresPerNode=gres/gpu:h100:1\n   TresPerTask=cpu=8\n\nJobId=24936932 JobName=uni-qwen-h100\n   UserId=kirilb(222643) GroupId=kirilb(222643) MCS_label=N/A\n   Priority=257618 Nice=0 Account=mit_general QOS=normal\n   JobState=PENDING Reason=Dependency Dependency=afterok:24936931(unfulfilled)\n   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0\n   RunTime=00:00:00 TimeLimit=06:00:00 TimeMin=N/A\n   SubmitTime=2026-10-05T11:25:04 EligibleTime=Unknown\n   AccrueTime=2026-10-05T11:25:04\n   StartTime=Unknown EndTime=Unknown Deadline=N/A\n   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-05T11:25:04 Scheduler=Main\n   Partition=mit_normal_gpu,mit_preemptable AllocNode:Sid=login007:2247593\n   ReqNodeList=(null) ExcNodeList=(null)\n   NodeList=\n   NumNodes=1 NumCPUs=8 NumTasks=1 CPUs/Task=8 ReqB:S:C:T=0:0:*:*\n   ReqTRES=cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1\n   AllocTRES=(null)\n   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*\n   MinCPUsNode=8 MinMemoryNode=192G MinTmpDiskNode=0\n   Features=(null) DelayBoot=00:00:00\n   OverSubscribe=NO Exclusive=NO Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)\n   Command=/orcd/pool/003/kirilb/Steganography/releases/uni_qwen35_27b_20261004T214535Z/recovery/zero_block_guard_003/training.slurm\n   SubmitLine=sbatch --parsable --hold --export=ALL,QWEN_RUNTIME_RECOVERY_SHA256=9fb3bd356069d2d82dcefac7188a73ad57bf3539c23e3d5079ab13ee5c058c89 --output=/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/slurm-guard-%j.out --error=/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/slurm-guard-%j.err --dependency=afterok:24936931 /orcd/pool/003/kirilb/Steganography/releases/uni_qwen35_27b_20261004T214535Z/recovery/zero_block_guard_003/training.slurm /orcd/pool/003/kirilb/Steganography/releases/uni_qwen35_27b_20261004T214535Z /orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z 2\n   WorkDir=/home/kirilb\n   Comment=***TEST_COMMENT***\n   StdErr=/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/slurm-guard-24936932.err\n   StdIn=/dev/null\n   StdOut=/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/slurm-guard-24936932.out\n   TresPerNode=gres/gpu:h100:1\n   TresPerTask=cpu=8\n\nJobId=24936933 JobName=uni-qwen-h100\n   UserId=kirilb(222643) GroupId=kirilb(222643) MCS_label=N/A\n   Priority=257618 Nice=0 Account=mit_general QOS=normal\n   JobState=PENDING Reason=Dependency Dependency=afterok:24936932(unfulfilled)\n   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0\n   RunTime=00:00:00 TimeLimit=06:00:00 TimeMin=N/A\n   SubmitTime=2026-10-05T11:25:05 EligibleTime=Unknown\n   AccrueTime=2026-10-05T11:25:05\n   StartTime=Unknown EndTime=Unknown Deadline=N/A\n   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-05T11:25:05 Scheduler=Main\n   Partition=mit_normal_gpu,mit_preemptable AllocNode:Sid=login007:2247593\n   ReqNodeList=(null) ExcNodeList=(null)\n   NodeList=\n   NumNodes=1 NumCPUs=8 NumTasks=1 CPUs/Task=8 ReqB:S:C:T=0:0:*:*\n   ReqTRES=cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1\n   AllocTRES=(null)\n   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*\n   MinCPUsNode=8 MinMemoryNode=192G MinTmpDiskNode=0\n   Features=(null) DelayBoot=00:00:00\n   OverSubscribe=NO Exclusive=NO Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)\n   Command=/orcd/pool/003/kirilb/Steganography/releases/uni_qwen35_27b_20261004T214535Z/recovery/zero_block_guard_003/training.slurm\n   SubmitLine=sbatch --parsable --hold --export=ALL,QWEN_RUNTIME_RECOVERY_SHA256=9fb3bd356069d2d82dcefac7188a73ad57bf3539c23e3d5079ab13ee5c058c89 --output=/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/slurm-guard-%j.out --error=/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/slurm-guard-%j.err --dependency=afterok:24936932 /orcd/pool/003/kirilb/Steganography/releases/uni_qwen35_27b_20261004T214535Z/recovery/zero_block_guard_003/training.slurm /orcd/pool/003/kirilb/Steganography/releases/uni_qwen35_27b_20261004T214535Z /orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z 3\n   WorkDir=/home/kirilb\n   Comment=***TEST_COMMENT***\n   StdErr=/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/slurm-guard-24936933.err\n   StdIn=/dev/null\n   StdOut=/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/slurm-guard-24936933.out\n   TresPerNode=gres/gpu:h100:1\n   TresPerTask=cpu=8\n\nJobID|State|ExitCode|Elapsed|Start|End|NodeList\n24936932|PENDING|0:0|00:00:00|Unknown|Unknown|None assigned\n24936933|PENDING|0:0|00:00:00|Unknown|Unknown|None assigned\n24936931|RUNNING|0:0|05:44:49|2026-10-05T12:08:08|Unknown|node2900\n24936931.batch|RUNNING|0:0|05:44:49|2026-10-05T12:08:08|Unknown|node2900\n24936931.extern|RUNNING|0:0|05:44:49|2026-10-05T12:08:08|Unknown|node2900\nJobID|AveCPU|MaxRSS|AveRSS\n24936931.batch|1-05:43:59|147309116K|3791364K\n",
+  "jobs": [
+    {
+      "segment": 1,
+      "job_id": "24936931",
+      "dependency": null,
+      "submitted_at": "2026-10-05T15:25:04.845682+00:00",
+      "state": "RUNNING",
+      "reason": "None",
+      "exit_code": "0:0",
+      "runtime": "05:44:49",
+      "partition": "mit_preemptable",
+      "node": "node2900",
+      "restarts": 1,
+      "requeue_enabled": true,
+      "last_checked": "2026-10-05T21:54:26.804975+00:00",
+      "scheduler_start_estimate": "2026-10-05T12:08:08-04:00",
+      "actual_started_at": "2026-10-05T12:08:08-04:00",
+      "requested_resources": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1",
+      "allocated_resources": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1"
+    },
+    {
+      "segment": 2,
+      "job_id": "24936932",
+      "dependency": "afterok:24936931",
+      "submitted_at": "2026-10-05T15:25:04.935310+00:00",
+      "state": "PENDING",
+      "reason": "Dependency",
+      "exit_code": "0:0",
+      "runtime": "00:00:00",
+      "partition": "mit_normal_gpu,mit_preemptable",
+      "node": "",
+      "restarts": 0,
+      "requeue_enabled": true,
+      "last_checked": "2026-10-05T21:54:26.804975+00:00",
+      "scheduler_start_estimate": null,
+      "requested_resources": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1",
+      "allocated_resources": "(null)"
+    },
+    {
+      "segment": 3,
+      "job_id": "24936933",
+      "dependency": "afterok:24936932",
+      "submitted_at": "2026-10-05T15:25:05.024312+00:00",
+      "state": "PENDING",
+      "reason": "Dependency",
+      "exit_code": "0:0",
+      "runtime": "00:00:00",
+      "partition": "mit_normal_gpu,mit_preemptable",
+      "node": "",
+      "restarts": 0,
+      "requeue_enabled": true,
+      "last_checked": "2026-10-05T21:54:26.804975+00:00",
+      "scheduler_start_estimate": null,
+      "requested_resources": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1",
+      "allocated_resources": "(null)"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "verified_at": "2026-10-05T16:05:45.207043+00:00",
+  "verified_update_limit": 25,
+  "checkpoint_state_sha256": "59a0c7f3dc2f32ff9237a1fba1159b86d99ab9cfd583aac1708eec1f70ef111a",
+  "observation": "Constant FAIL predictions on sampled recent training batches; fixed evaluation collapse not established.",
+  "records": [
+    {
+      "update": 23,
+      "kind": "receiver",
+      "n": 512,
+      "receiver_PASS": 0,
+      "receiver_FAIL": 512,
+      "true_PASS": 239,
+      "true_FAIL": 273,
+      "correct": 273,
+      "rollout_sha256": "57a890817cbf58094e42fa17362c84c445c8c905393a73f3b75c9048d463e7f6",
+      "observer_scores_all_finite": true,
+      "observer_unique_scores": 97
+    },
+    {
+      "update": 24,
+      "kind": "sender",
+      "n": 192,
+      "receiver_PASS": 0,
+      "receiver_FAIL": 192,
+      "true_PASS": 90,
+      "true_FAIL": 102,
+      "correct": 102,
+      "rollout_sha256": "59b2c6ac0367135fbe76b792dd84dea4858c8cec64a469514c6d9b27331a2c64",
+      "observer_scores_all_finite": true,
+      "observer_unique_scores": 63
+    },
+    {
+      "update": 25,
+      "kind": "sender",
+      "n": 192,
+      "receiver_PASS": 0,
+      "receiver_FAIL": 192,
+      "true_PASS": 99,
+      "true_FAIL": 93,
+      "correct": 93,
+      "rollout_sha256": "0df25cf3cbf3ec24c2ae17f7624a1e7527796f5c669f82e22eabdcc2359fb595",
+      "observer_scores_all_finite": true,
+      "observer_unique_scores": 63
+    }
+  ],
+  "receiver_optimization_verified": "All8 receiver updates used accepted256, four64 meanCE minibatches, one optimizer step and both labels in every minibatch.",
+  "finite_rewards_and_ppo": true,
+  "frozen_evaluation_updates": [
+    0
+  ],
+  "settings_changed": false,
+  "numerical_failure_established": false,
+  "followup": "Continue monitoring unchanged run; verify next scheduled frozen evaluation50.",
+  "reported": true
+}

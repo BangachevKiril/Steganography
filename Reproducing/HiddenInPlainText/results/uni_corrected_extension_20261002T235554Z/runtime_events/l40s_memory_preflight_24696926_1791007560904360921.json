@@ -1,0 +1,85 @@
+{
+  "kind": "corrected_L40S_initialization",
+  "status": "initialization_verified",
+  "started_at": 1791007560.9043648,
+  "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+  "wrapper_sha256": "453aff7ed707c3d835149e0c8ac4ec0563b4a6526a9309b91d9b31f329cb1ea2",
+  "before_model_loading": true,
+  "memory_helper_sha256": "9ce57ee0ff9a043273f80a75424a80bdf8a97189e0ccaedb00dce2f0f9e9b2c4",
+  "slurm_job_id": "24696926",
+  "slurm_restart_count": "1",
+  "gpu": "NVIDIA L40S",
+  "gpu_memory_bytes": 47667740672,
+  "gpu_capability": [
+    8,
+    9
+  ],
+  "versions": {
+    "torch": "2.4.0+cu124",
+    "transformers": "4.43.2",
+    "trl": "0.9.6",
+    "peft": "0.12.0",
+    "accelerate": "0.33.0",
+    "bitsandbytes": "0.43.3",
+    "numpy": "1.26.4",
+    "datasets": "2.20.0",
+    "tokenizers": "0.19.1"
+  },
+  "cuda": "12.4",
+  "executable": "/orcd/pool/003/kirilb/Steganography/envs/uni_author_torch240/bin/python",
+  "bitsandbytes_module": "/orcd/pool/003/kirilb/Steganography/envs/uni_author_torch240/lib/python3.12/site-packages/bitsandbytes/__init__.py",
+  "source_checkpoint": {
+    "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_000945",
+    "marker": {
+      "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+      "completed_update": 945,
+      "state_sha256": "8e80c500e4c4308e055021de33008c3c71a7dd572a3dde64d04f32d0da272382",
+      "elapsed": 49159.5033846444,
+      "phase": "sender"
+    },
+    "complete_sha256": "e6e3787986e6e465c98e7ca239b90e44a4cd5933af730947ae22634fdc84d270"
+  },
+  "fresh_baseline_initialization": false,
+  "cuda_toy_parity": {
+    "status": "passed",
+    "device": "NVIDIA L40S",
+    "test": "Same-seeded CUDA FP16 frozen linear + FP32 low-rank adapters, dropout, value head, post-adapter frozen linear and saved strided/offset/expanded views",
+    "exact_initial_parameters": true,
+    "exact_outputs": true,
+    "exact_loss": true,
+    "exact_gradients": true,
+    "exact_adamw_state": true,
+    "exact_updated_parameters": true,
+    "exact_post_test_rng": true,
+    "loss": 2.565762758255005,
+    "exact_baseline_repeat": true,
+    "toy_optimizer_steps": 3,
+    "actual_training_model_updates": 0,
+    "cuda_transfer_verified": true,
+    "packed_cuda_tensors": 15,
+    "unpacked_cuda_tensors": 14,
+    "all_packed_cuda_tensors_on_pinned_cpu": true,
+    "packed_storage_bytes": 3560,
+    "noncontiguous_cuda_tensors": 4,
+    "nonzero_offset_cuda_tensors": 1,
+    "expanded_cuda_tensors": 1,
+    "limitation": "A tiny graph parity check does not establish full-model numerical equivalence or memory capacity.",
+    "caller_rng_restored": true
+  },
+  "parity_completed_at": 1791007576.3104572,
+  "initialized_at": 1791007732.7016294,
+  "completed_update": 945,
+  "restored_elapsed_seconds": 49159.5033846444,
+  "checkpoint": {
+    "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_000945",
+    "marker": {
+      "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+      "completed_update": 945,
+      "state_sha256": "8e80c500e4c4308e055021de33008c3c71a7dd572a3dde64d04f32d0da272382",
+      "elapsed": 49159.5033846444,
+      "phase": "sender"
+    },
+    "complete_sha256": "e6e3787986e6e465c98e7ca239b90e44a4cd5933af730947ae22634fdc84d270"
+  },
+  "configured_active_budget_seconds": 27900
+}

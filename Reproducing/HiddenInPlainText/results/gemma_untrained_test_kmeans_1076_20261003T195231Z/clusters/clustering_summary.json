@@ -1,0 +1,40 @@
+{
+  "cluster_sizes": [
+    411,
+    589
+  ],
+  "converged_starts": 50,
+  "distance": "Squared Euclidean on per-feature standardized vectors",
+  "embedding_completion_sha256": "16dd1bff251c6663a5d4a16bbdf8189d3a68b2057a1bbcda18562f02d8a62efa",
+  "features": 2304,
+  "inertia": 1957463.495337088,
+  "inertia_range": [
+    1957463.495337088,
+    1957472.0357792408
+  ],
+  "input_embeddings_sha256": "6d8af253c618371c0c925b03a26e7a964b610ea3b2d1ea607b2b90acc854d8e8",
+  "k": 2,
+  "labels_loaded": false,
+  "master_seed": 42,
+  "mean_squared_distance": 1957.4634953370878,
+  "model_name": "Original pretrained Gemma",
+  "n": 1000,
+  "n_init": 50,
+  "packages": {
+    "numpy": "1.26.4",
+    "python": "3.11.2",
+    "scipy": "1.10.1"
+  },
+  "pca_used": false,
+  "plan_sha256": "36811a95f24b3cb9f4c404ade2097ea53d9ac82258d13404a851009adede9a0a",
+  "scaler_fitted_on": "Only the1000unlabeled test embeddings; population std ddof0; zero std becomes1",
+  "script_sha256": "986ec9243e2553bb68e784f54b0f1115f81c6130bb97cc4378ac367911be3309",
+  "selected_start": 0,
+  "selection": "Minimum total within-cluster squared Euclidean distance; ties by start index",
+  "starts_with_selected_partition": 27,
+  "status": "complete",
+  "stopping": "Exactly unchanged assignments; maximum1000Lloyd iterations per initialization",
+  "training_embeddings_loaded": false,
+  "unique_partitions": 2,
+  "zero_std_features": 0
+}

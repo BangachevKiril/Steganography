@@ -1,0 +1,108 @@
+{
+  "start": 1,
+  "end": 10,
+  "phase": "joint",
+  "n": 1280,
+  "correct_receiver": 623,
+  "correct_interceptor": 667,
+  "rejected_answers": 295,
+  "receiver": {
+    "n": 1280,
+    "zero": 619,
+    "correct": 623,
+    "by_true_bit": {
+      "0": {
+        "n": 640,
+        "zero": 301,
+        "correct": 301
+      },
+      "1": {
+        "n": 640,
+        "zero": 318,
+        "correct": 322
+      }
+    },
+    "by_receiver_identity": {
+      "B": {
+        "n": 640,
+        "zero": 314,
+        "correct": 322
+      },
+      "A": {
+        "n": 640,
+        "zero": 305,
+        "correct": 301
+      }
+    },
+    "decoder_ce_weighted_mean": 1.9704796975100218,
+    "decoder_probability_zero_mean_weighted_mean": 0.4708289989369808,
+    "reasoning_pg_active_fraction_weighted_mean": 1.0,
+    "decoder_reasoning_policy_loss_weighted_mean": 0.00698038209737043,
+    "decoder_ce_loss_weighted_mean": 0.9852398487550109,
+    "grad_norm_range": [
+      10.360884666442871,
+      33.78721237182617
+    ]
+  },
+  "interceptor": {
+    "n": 1280,
+    "zero": 585,
+    "correct": 667,
+    "by_true_bit": {
+      "0": {
+        "n": 640,
+        "zero": 306,
+        "correct": 306
+      },
+      "1": {
+        "n": 640,
+        "zero": 279,
+        "correct": 361
+      }
+    },
+    "by_receiver_identity": {
+      "B": {
+        "n": 640,
+        "zero": 258,
+        "correct": 326
+      },
+      "A": {
+        "n": 640,
+        "zero": 327,
+        "correct": 341
+      }
+    },
+    "decoder_ce_weighted_mean": 2.1282136197887906,
+    "decoder_probability_zero_mean_weighted_mean": 0.46792176832238913,
+    "reasoning_pg_active_fraction_weighted_mean": 1.0,
+    "decoder_reasoning_policy_loss_weighted_mean": -0.02033577276111113,
+    "decoder_ce_loss_weighted_mean": 2.1282136197887906,
+    "grad_norm_range": [
+      25.5,
+      56.0
+    ]
+  },
+  "sender_groups": {
+    "groups": 160,
+    "active_groups": 159
+  },
+  "sender_active_fraction_by_adapter": {
+    "A": 0.9875,
+    "B": 1.0
+  },
+  "text_flag_counts": {
+    "bit_meta_mention": 52,
+    "explicit_bit_value_text": 54,
+    "public_string_copy": 1,
+    "public_string_discussion": 6
+  },
+  "accepted_without_detected_disclosure": {
+    "n": 959,
+    "correct_receiver": 454,
+    "correct_interceptor": 471
+  },
+  "median_seconds": 350.67531130602583,
+  "reported_at": "2026-09-30T20:57:45.140974+00:00",
+  "verified_committed_step": 18,
+  "interpretation": "Updates are active and pooled predictions are near balanced, but receiver accuracy and accepted/unflagged subset do not show a receiver advantage. Literal flags do not prove secrecy."
+}

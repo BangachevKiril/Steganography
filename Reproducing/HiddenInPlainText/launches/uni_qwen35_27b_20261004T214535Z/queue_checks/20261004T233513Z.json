@@ -1,0 +1,63 @@
+{
+  "checked_at": "2026-10-04T23:35:13.478946+00:00",
+  "source_hashes_verified": 41,
+  "jobs": {
+    "24854198": {
+      "JobId": "24854198",
+      "JobState": "COMPLETING",
+      "Reason": "NonZeroExitCode",
+      "Dependency": "(null)",
+      "Partition": "mit_preemptable",
+      "Requeue": "1",
+      "Restarts": "0",
+      "RunTime": "00:03:28",
+      "TimeLimit": "06:00:00",
+      "StartTime": "2026-10-04T19:31:39",
+      "ExitCode": "1:0",
+      "NodeList": "",
+      "ReqTRES": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1"
+    },
+    "24854199": {
+      "JobId": "24854199",
+      "JobState": "PENDING",
+      "Reason": "Dependency",
+      "Dependency": "afterok:24854198(unfulfilled)",
+      "Partition": "mit_normal_gpu,mit_preemptable",
+      "Requeue": "1",
+      "Restarts": "0",
+      "RunTime": "00:00:00",
+      "TimeLimit": "06:00:00",
+      "StartTime": "Unknown",
+      "ExitCode": "0:0",
+      "NodeList": "",
+      "ReqTRES": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1"
+    },
+    "24854200": {
+      "JobId": "24854200",
+      "JobState": "PENDING",
+      "Reason": "Dependency",
+      "Dependency": "afterok:24854199(unfulfilled)",
+      "Partition": "mit_normal_gpu,mit_preemptable",
+      "Requeue": "1",
+      "Restarts": "0",
+      "RunTime": "00:00:00",
+      "TimeLimit": "06:00:00",
+      "StartTime": "Unknown",
+      "ExitCode": "0:0",
+      "NodeList": "",
+      "ReqTRES": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1"
+    }
+  },
+  "run_config_exists": true,
+  "run_public_files": [
+    "STATUS.json",
+    "PPO_CONFIG.json",
+    "config.json",
+    "TRAIN_SPLIT.json",
+    "PROMPTS.json",
+    "QUERY_TOKENIZATION.json",
+    "FAILURE.json"
+  ],
+  "running_jobs": "24853979_18|iphr-city-qwen|mit_preemptable|gres/gpu:h100:1\n24853979_17|iphr-city-qwen|mit_preemptable|gres/gpu:h100:1\n24853979_15|iphr-city-qwen|mit_preemptable|gres/gpu:h100:1\n24853979_13|iphr-city-qwen|mit_preemptable|gres/gpu:h100:1\n",
+  "sacct": "24854198|FAILED|1:0|00:03:28|2026-10-04T19:31:39\n24854198.batch|FAILED|1:0|00:03:28|2026-10-04T19:31:39\n24854198.extern|COMPLETED|0:0|00:03:28|2026-10-04T19:31:39\n24854199|PENDING|0:0|00:00:00|Unknown\n24854200|PENDING|0:0|00:00:00|Unknown\n"
+}

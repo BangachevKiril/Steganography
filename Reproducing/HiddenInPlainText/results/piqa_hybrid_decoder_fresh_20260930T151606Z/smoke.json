@@ -1,0 +1,69 @@
+{
+  "status": "passed",
+  "seed": 20262657,
+  "seconds": 53.86192555306479,
+  "device": "NVIDIA H100 80GB HBM3",
+  "communicator_path": "/orcd/pool/003/kirilb/huggingface_models_cache/models--qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "judge_path": "/orcd/pool/003/kirilb/huggingface_models_cache/models--qwen--Qwen3-4B/snapshots/1cfa9a7208912126459214e8b04321603b3df60c",
+  "smoke_think_tokens": 32,
+  "smoke_answer_tokens": 48,
+  "production_think_tokens": 256,
+  "decoder_objective": "fixed_baseline_pg_ce",
+  "all_wrong_decoder_group_tested": true,
+  "ragged_prompt_lengths": [
+    36,
+    99,
+    36,
+    99
+  ],
+  "ragged_thought_lengths": [
+    32,
+    32,
+    32,
+    32
+  ],
+  "variable_thought_lengths_seen": false,
+  "behavior_probability_check": {
+    "mean_absolute_logprob_difference": 0.011054125614464283,
+    "max_absolute_logprob_difference": 0.3881874084472656,
+    "p99_absolute_logprob_difference": 0.23217514157295227,
+    "action_tokens_compared": 132
+  },
+  "sender_behavior_probability_check": {
+    "mean_absolute_logprob_difference": 0.02044663392007351,
+    "max_absolute_logprob_difference": 0.25131988525390625,
+    "p99_absolute_logprob_difference": 0.19997994601726532,
+    "action_tokens_compared": 80
+  },
+  "update_metrics": {
+    "loss": 3.0211265087127686,
+    "policy_loss": 0.49027240637576947,
+    "kl": 0.0,
+    "clip_fraction": 0.03030303120613098,
+    "ratio_mean": 1.0104990005493164,
+    "reward_mean": 0.0,
+    "active_group_fraction": 0.0,
+    "sampled_tokens": 264.0,
+    "trajectories": 8.0,
+    "grad_norm": 73.97534942626953,
+    "counterfactual_grpo_active_group_fraction": 0.0,
+    "decoder_examples": 8.0,
+    "decoder_ce": 2.5308539867401123,
+    "decoder_ce_loss": 2.5308539867401123,
+    "decoder_reasoning_policy_loss": 0.49027240637576947,
+    "decoder_counterfactual_grpo_active_group_fraction": 0.0,
+    "decoder_correct_probability_mean": 0.07959102094173431,
+    "decoder_probability_zero_mean": 0.07959102094173431,
+    "reasoning_pg_active_fraction": 1.0,
+    "reasoning_advantage_mean": -0.5,
+    "reasoning_advantage_abs_mean": 0.5
+  },
+  "selected_adapter_changed": true,
+  "other_adapters_unchanged": true,
+  "base_unchanged": true,
+  "judge_unchanged": true,
+  "checkpoint_restored_exactly": true,
+  "judge_verdict": "PASS",
+  "peak_gpu_memory_allocated_bytes": 16951117824,
+  "note": "All-wrong bit group repeats one sampled trajectory eight times with its opposite bit as target; isolated plumbing canary only, no adapters retained."
+}

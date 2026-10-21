@@ -1,0 +1,47 @@
+{
+  "kind": "L40S_evaluation_parent_cache_cleanup",
+  "status": "original_judge_completed",
+  "started_at": 1791008041.0411804,
+  "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+  "evaluation_config_digest": "e9c97c784d6e58d285e923e4da617626f6d22703138e61c9009b2fa2af48a128",
+  "evaluation_dir": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/evaluations/step_000950",
+  "checkpoint": {
+    "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_000950",
+    "completed_update": 950,
+    "complete_sha256": "5dbef5ce8f7f9c537b7968e5473268ee6e0bbcce7babff03dd19dda853333920"
+  },
+  "checkpoint_complete": {
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "completed_update": 950,
+    "state_sha256": "067f61d64edb4a2600994a718ad01515578eac28a00e5829880e1fde5d90a9ce",
+    "elapsed": 49398.85627254238,
+    "phase": "sender"
+  },
+  "wrapper_sha256": "453aff7ed707c3d835149e0c8ac4ec0563b4a6526a9309b91d9b31f329cb1ea2",
+  "evaluation_helper_sha256": "d5f9352f0c6984c29f0078ec035be77822cb81c2fe2010f38248c634326e90f2",
+  "slurm_job_id": "24696926",
+  "slurm_restart_count": "1",
+  "manifest_sha256": "f96572c03547bfe59d762941124ba016d468591e9a02a3aa98e87704ece79591",
+  "cleanup_verification": {
+    "before": {
+      "cuda_allocated_bytes": 20528244736,
+      "cuda_reserved_bytes": 42156949504,
+      "device_free_bytes": 4755619840,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 98466377728
+    },
+    "after": {
+      "cuda_allocated_bytes": 20528244736,
+      "cuda_reserved_bytes": 20845690880,
+      "device_free_bytes": 26066878464,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 98468847616
+    },
+    "gc_collected_objects": 278,
+    "live_tensor_metadata_unchanged": true,
+    "rng_unchanged": true,
+    "live_tensor_metadata_sha256": "e39991b1718649f2addb6df03f87f60bc64acf5b2d00b7d5e0f91321e4202dd8"
+  },
+  "cache_cleaned_at": 1791008041.6592622,
+  "finished_at": 1791008177.7897136
+}

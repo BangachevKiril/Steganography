@@ -1,0 +1,43 @@
+{
+  "experiment_id": "gemma_trained_test_kmeans_1076_20261003T195231Z",
+  "model_name": "Trained Gemma sender",
+  "created_at": "2026-10-03T19:52:31.495030+00:00",
+  "k": 2,
+  "n_init": 50,
+  "master_seed": 42,
+  "max_iter": 1000,
+  "initialization": "Standard k-means++ D-squared sampling; no greedy local trials",
+  "stopping": "Stable assignments",
+  "scaling": "Mean and population std of 1000 test embeddings only; zero std scale 1",
+  "selection": "Minimum unlabeled inertia; ties by start index",
+  "pca": false,
+  "input_embeddings": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/sender_eos_logreg_1076_20261003T183259Z/embeddings/test_embeddings.npz",
+  "input_embeddings_sha256": "2912e1faab94e68e6dd1ba625b9382502bf819142c3d6d246e153e828c3f2ba1",
+  "embedding_completion": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/sender_eos_logreg_1076_20261003T183259Z/embeddings/EMBEDDING_COMPLETE.json",
+  "embedding_completion_sha256": "4ccb5e5f1456fb89d1c53a4589c80b4ee7eb843d9b58d4e26dd41710262de480",
+  "expected_embedding_metadata": {
+    "features": 2304,
+    "total_blocks": 26,
+    "block_number_one_based": 17,
+    "block_index_zero_based": 16,
+    "bos_token_id": 2,
+    "eos_token_id": 1,
+    "pad_token_id": 0,
+    "split_manifest_sha256": "ccfba9f92b91db27e5e32aa25a12ec827e2ef4174511ab0bbdadfa29348a2e77",
+    "answer_file_sha256": {
+      "test_answers.jsonl": "c2345b163bc9e0a13db72a9b9678cabdd8a689a996d0213f35e5e5573692c958",
+      "training_answers.jsonl": "a5dcdb10f4d70b869b4c0bd5eedcce50ce6bbc76b7f2124f0be0658b6f46b32a"
+    },
+    "completed_update": 1076,
+    "checkpoint_state_sha256": "b6362ff7e9ab691572f8a20f9c8aa2c96675ef8f92f7c4dd67d49bbcd988a4d6",
+    "trained_parameter_hash": "0f7a7a6b1016c407dbc50cbb2bfd5fb445fd37541cd5472e0b2f455bb7ad91e2",
+    "trained_parameter_tensors": 106
+  },
+  "script": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/experiments/gemma_test_kmeans_1076/cluster.py",
+  "script_sha256": "986ec9243e2553bb68e784f54b0f1115f81c6130bb97cc4378ac367911be3309",
+  "evaluator_sha256": "2d66615b147780c58e9f17b576722f483d60948c034c29be5cf8ccaa7ac0d18d",
+  "cluster_output": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/gemma_trained_test_kmeans_1076_20261003T195231Z/clusters",
+  "evaluation": "Only after both Gemma CLUSTER_COMPLETE.json files are saved and verified; label0=FAIL,label1=PASS. Report cluster sizes, cluster-label contingency, better of 2 label mappings accuracy, adjusted Rand index. Do not alter clustering based on labels.",
+  "prior_qwen_algorithm_loop_ast_identical": true,
+  "test_example_ids_and_order_match_qwen": true
+}

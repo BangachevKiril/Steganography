@@ -1,0 +1,42 @@
+{
+  "assignment": "Maximum dot product with unit centroid; exact ties go to cluster 0",
+  "centroid_update": "Normalize the mean of assigned unit input vectors after every update",
+  "cluster_sizes": [
+    422,
+    578
+  ],
+  "converged_starts": 50,
+  "cosine_objective": 544.9234350332168,
+  "embedding_completion_sha256": "16dd1bff251c6663a5d4a16bbdf8189d3a68b2057a1bbcda18562f02d8a62efa",
+  "feature_standardization": false,
+  "features": 2304,
+  "initialization": "Uniform first point; squared chord distance weighted second point",
+  "input_embeddings_sha256": "6d8af253c618371c0c925b03a26e7a964b610ea3b2d1ea607b2b90acc854d8e8",
+  "interpretation": "Exploratory reuse of an already examined test cohort; labels do not enter this fit",
+  "k": 2,
+  "labels_loaded": false,
+  "master_seed": 42,
+  "mean_cosine_similarity": 0.45507656496678317,
+  "model_name": "Original pretrained Gemma",
+  "n": 1000,
+  "n_init": 50,
+  "objective_range": [
+    544.9234350332168,
+    544.9234350332168
+  ],
+  "packages": {
+    "numpy": "1.26.4",
+    "python": "3.11.2"
+  },
+  "pca_used": false,
+  "plan_sha256": "b55c0d46101187f1a4ac86bd9470a0db8dfec986f59b960358a99034139724eb",
+  "preprocessing": "Mean-center raw test embeddings using only the 1000 test rows, then normalize each row to unit length",
+  "script_sha256": "b0fa04191bab080f0ad17989b78bd34553fd7e9416c991993606cb4d432a6302",
+  "selected_start": 0,
+  "selection": "Minimum sum of (1 - cosine to assigned unit centroid); ties by start index",
+  "starts_with_selected_partition": 50,
+  "status": "complete",
+  "stopping": "Exactly unchanged assignments; maximum 1000 iterations per initialization",
+  "training_embeddings_loaded": false,
+  "unique_partitions": 1
+}

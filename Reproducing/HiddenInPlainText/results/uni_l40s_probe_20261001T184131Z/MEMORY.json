@@ -1,0 +1,68 @@
+{
+  "phases": [
+    {
+      "phase": "loading_sender_receiver",
+      "peak_allocated_bytes": 10750803968,
+      "peak_reserved_bytes": 10764681216,
+      "end_allocated_bytes": 10750797312,
+      "end_reserved_bytes": 10764681216,
+      "end_device_free_bytes": 36447780864,
+      "device_total_bytes": 47667740672
+    },
+    {
+      "phase": "loading_observer",
+      "peak_allocated_bytes": 20013704704,
+      "peak_reserved_bytes": 20166213632,
+      "end_allocated_bytes": 19837519872,
+      "end_reserved_bytes": 20019412992,
+      "end_device_free_bytes": 27121745920,
+      "device_total_bytes": 47667740672
+    },
+    {
+      "phase": "restoring_checkpoint",
+      "peak_allocated_bytes": 20398739456,
+      "peak_reserved_bytes": 20445134848,
+      "end_allocated_bytes": 20398739456,
+      "end_reserved_bytes": 20445134848,
+      "end_device_free_bytes": 26696024064,
+      "device_total_bytes": 47667740672
+    },
+    {
+      "phase": "frozen_forward_smoke",
+      "peak_allocated_bytes": 23347859456,
+      "peak_reserved_bytes": 23423090688,
+      "end_allocated_bytes": 20407259136,
+      "end_reserved_bytes": 23423090688,
+      "end_device_free_bytes": 23701291008,
+      "device_total_bytes": 47667740672
+    },
+    {
+      "phase": "observer_parity:evaluation50",
+      "peak_allocated_bytes": 27947451904,
+      "peak_reserved_bytes": 28649193472,
+      "end_allocated_bytes": 20425078272,
+      "end_reserved_bytes": 28649193472,
+      "end_device_free_bytes": 18464702464,
+      "device_total_bytes": 47667740672
+    },
+    {
+      "phase": "observer_parity:training_update82",
+      "peak_allocated_bytes": 27747735040,
+      "peak_reserved_bytes": 28649193472,
+      "end_allocated_bytes": 20430638592,
+      "end_reserved_bytes": 28649193472,
+      "end_device_free_bytes": 18464702464,
+      "device_total_bytes": 47667740672
+    },
+    {
+      "phase": "verifying_final_state",
+      "peak_allocated_bytes": 20430638592,
+      "peak_reserved_bytes": 28649193472,
+      "end_allocated_bytes": 20430638592,
+      "end_reserved_bytes": 28649193472,
+      "end_device_free_bytes": 18464702464,
+      "device_total_bytes": 47667740672
+    }
+  ],
+  "scope": "Frozen restoration, forward smoke, and original-batch observer scoring only; no training."
+}

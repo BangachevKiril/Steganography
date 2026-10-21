@@ -1,0 +1,155 @@
+{
+  "caveats": [
+    "Qwen uses its native no-BOS/EOS tokenization, 2048 dimensions, and block24/36; Gemma uses its native BOS/EOS, 2304 dimensions, and block17/26. These architecture-specific differences are intentional.",
+    "Solver terminated successfully on the prescribed relative-function tolerance, not the gradient tolerance.",
+    "Checkpoint1076 identifies the answer source; Qwen does not load sender checkpoint weights."
+  ],
+  "checks": {
+    "all_fit_and_embedding_file_hashes_match": true,
+    "both_prior_comparisons_match_split_and_fitting_settings": true,
+    "penalty_gradient_and_final_trace_recomputed": true,
+    "prior_baseline_and_998_sensitivity_recomputed": true,
+    "qwen_model_layer_tokenization_metadata_match_plan": true,
+    "saved_model_raw_logits_reproduce_losses_confusion_and_probabilities": true,
+    "source_and_split_hashes_match": true,
+    "training_only_scaler_exactly_recomputed": true
+  },
+  "comparisons": [
+    {
+      "all_fit_and_embedding_files_hash_verified": true,
+      "experiment": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/sender_eos_logreg_1076_20261003T183259Z",
+      "fit_complete_sha256": "168e66f906a7bc72e706fd78864bc96987c8c5f408d5bf1ae815bc1ba398c5be",
+      "metrics": {
+        "test": {
+          "bce_nats": 0.06061278339256916,
+          "correct": 978,
+          "n": 1000
+        },
+        "training": {
+          "bce_nats": 0.0007992162295839019,
+          "correct": 1000,
+          "n": 1000
+        }
+      },
+      "same_split_ids_source_and_numerical_fitting_settings": true
+    },
+    {
+      "all_fit_and_embedding_files_hash_verified": true,
+      "experiment": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/gemma_untrained_eos_logreg_1076_20261003T185800Z",
+      "fit_complete_sha256": "b6ed36b6131ae9c274c7297033efc7a4a38be4510c0a880d38aeab0e65921abc",
+      "metrics": {
+        "test": {
+          "bce_nats": 0.06173841195894984,
+          "correct": 979,
+          "n": 1000
+        },
+        "training": {
+          "bce_nats": 0.0008327160861461868,
+          "correct": 1000,
+          "n": 1000
+        }
+      },
+      "same_split_ids_source_and_numerical_fitting_settings": true
+    }
+  ],
+  "evidence": {
+    "EMBEDDING_COMPLETE.json": "93f641aae790c9426d819af892d87304a910691dc5b24da1fcd27efc760f0875",
+    "FIT_COMPLETE.json": "8e61a925c790bfc01f962a7468a6b816589a7c70d4c95f82d8f2304c4e2d33c4",
+    "logistic_model.npz": "b3ab65b67b45e60ab85be9ce7e25dd9ef22e2f2a2979d46217c2526efa90b990",
+    "metrics.json": "52faace3198ffb43d37959396dd67fb3eb6743ded59eb0ef5394036dd3720a2b",
+    "split_manifest.json": "ccfba9f92b91db27e5e32aa25a12ec827e2ef4174511ab0bbdadfa29348a2e77"
+  },
+  "experiment": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/qwen25_3b_eos_logreg_1076_20261003T191657Z",
+  "independent_gradient_infinity_norm": 6.318387635590296e-08,
+  "issues": [],
+  "maximum_test_logit_difference_from_saved_predictions": 4.618527782440651e-14,
+  "metrics_recomputed": {
+    "secondary_test_no_shared_text": {
+      "accuracy": 0.9809619238476954,
+      "bce_nats": 0.07545600290067499,
+      "confusion": [
+        [
+          487,
+          11
+        ],
+        [
+          8,
+          492
+        ]
+      ],
+      "correct": 979,
+      "n": 998
+    },
+    "test": {
+      "accuracy": 0.981,
+      "bce_nats": 0.07530787261157758,
+      "confusion": [
+        [
+          489,
+          11
+        ],
+        [
+          8,
+          492
+        ]
+      ],
+      "correct": 981,
+      "n": 1000
+    },
+    "training": {
+      "accuracy": 1.0,
+      "bce_nats": 0.002938379138982803,
+      "confusion": [
+        [
+          499,
+          0
+        ],
+        [
+          0,
+          501
+        ]
+      ],
+      "correct": 1000,
+      "n": 1000
+    }
+  },
+  "optimization": {
+    "function_evaluations": 224,
+    "gradient_infinity_norm": 6.318387635590296e-08,
+    "iterations": 203,
+    "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+    "method": "L-BFGS-B",
+    "options": {
+      "ftol": 1e-12,
+      "gtol": 1e-08,
+      "maxiter": 5000
+    },
+    "status": 0,
+    "success": true
+  },
+  "qwen_protocol": {
+    "batch_size": 32,
+    "block_index_zero_based": 23,
+    "block_number_one_based": 24,
+    "bos_prepended": false,
+    "bos_token_id": null,
+    "embedding_asset": {
+      "path": "/orcd/pool/003/kirilb/Steganography/assets/observer_probes/cache/models--Qwen--Qwen2.5-3B-Instruct/snapshots/aa8e72537993ba99e69dfaafa59ed015b17504d1",
+      "repo": "Qwen/Qwen2.5-3B-Instruct",
+      "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+    },
+    "embedding_model_kind": "pretrained_qwen25_3b_instruct",
+    "eos_token_id": 151645,
+    "features": 2048,
+    "hook": "Qwen2DecoderLayer output[0], after MLP and residual addition; before next block normalization",
+    "no_sender_adapters_loaded": true,
+    "pad_token_id": 151643,
+    "sender_checkpoint_weights_loaded": false,
+    "tokenization": "exact answer tokenized with add_special_tokens=False + explicit native EOS; no BOS, chat template or original prompt; right padding",
+    "total_blocks": 36
+  },
+  "schema_version": 1,
+  "scope": "Read-only independent local artifact/scaler/saved-model audit; no retraining, tuning, remote access or model-weight loading.",
+  "status": "passed",
+  "verified_at": "2026-10-03T19:24:59.731336+00:00"
+}

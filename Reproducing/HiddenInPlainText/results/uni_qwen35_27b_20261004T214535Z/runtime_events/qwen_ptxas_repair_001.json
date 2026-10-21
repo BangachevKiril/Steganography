@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-10-04T23:38:25.586392+00:00",
+  "reason": "Observer Triton 3.6.0 package lacked ptxas; no training update or checkpoint committed",
+  "wheel_url": "https://files.pythonhosted.org/packages/ab/a8/cdf8b3e4c98132f965f88c2313a4b493266832ad47fb52f23d14d4f86bb5/triton-3.6.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+  "wheel_sha256": "74caf5e34b66d9f3a429af689c1c7128daba1d8208df60e81106b115c00d6fca",
+  "ptxas_path": "/orcd/pool/003/kirilb/Steganography/envs/qwen35_observer/runtime_tools/triton_3_6_0/ptxas",
+  "ptxas_sha256": "c960a4f238b17d5c5d3c01ad2bbc1ebd2c5aecc459cb4d223bff10b45f9b8fca",
+  "ptxas_version": "ptxas: NVIDIA (R) Ptx optimizing assembler\nCopyright (c) 2005-2025 NVIDIA Corporation\nBuilt on Fri_Feb_21_20:21:21_PST_2025\nCuda compilation tools, release 12.8, V12.8.93\nBuild cuda_12.8.r12.8/compiler.35583870_0\n",
+  "observer_only_pth": "/orcd/pool/003/kirilb/Steganography/envs/qwen35_observer/lib/python3.12/site-packages/qwen_observer_ptxas.pth",
+  "pth_sha256": "49e23f6596f6f672dd2127ba21376d1b19800ceee3520a21764a127ac7e4874b",
+  "sm90_assembler_smoke": "passed",
+  "triton_discovery": "/orcd/pool/003/kirilb/Steganography/envs/qwen35_observer/runtime_tools/triton_3_6_0/ptxas\nptxas: NVIDIA (R) Ptx optimizing assembler\nCopyright (c) 2005-2025 NVIDIA Corporation\nBuilt on Fri_Feb_21_20:21:21_PST_2025\nCuda compilation tools, release 12.8, V12.8.93\nBuild cuda_12.8.r12.8/compiler.35583870_0\n\n",
+  "runtime_manifest_hashes_verified": true,
+  "scientific_settings_changed": false
+}

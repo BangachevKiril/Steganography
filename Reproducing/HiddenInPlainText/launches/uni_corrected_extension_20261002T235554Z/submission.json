@@ -1,0 +1,23 @@
+{
+  "extension_id": "uni_corrected_extension_20261002T235554Z",
+  "status": "submitted",
+  "submitted_at": 1790985824.1865506,
+  "run_dir": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z",
+  "remote_extension": "/orcd/pool/003/kirilb/Steganography/releases/uni_corrected_extension_20261002T235554Z",
+  "command": [
+    "sbatch",
+    "--parsable",
+    "--output=/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/slurm-%j.out",
+    "--error=/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/slurm-%j.err",
+    "--comment=uni_corrected_extension_20261002T235554Z",
+    "/orcd/pool/003/kirilb/Steganography/releases/uni_corrected_extension_20261002T235554Z/university_corrected_extension.slurm",
+    "/orcd/pool/003/kirilb/Steganography/releases/uni_corrected_20261002T151448Z",
+    "/orcd/pool/003/kirilb/Steganography/releases/uni_corrected_extension_20261002T235554Z"
+  ],
+  "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+  "origin_update": 530,
+  "additional_active_seconds": 27900,
+  "target_active_seconds": 55830.404972237535,
+  "job_id": "24696926",
+  "sbatch_result": "24696926"
+}

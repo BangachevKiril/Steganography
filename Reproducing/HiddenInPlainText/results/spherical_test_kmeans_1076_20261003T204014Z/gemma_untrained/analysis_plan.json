@@ -1,0 +1,53 @@
+{
+  "cluster_output": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/gemma_untrained/clusters",
+  "created_at": "2026-10-03T20:40:14.088876+00:00",
+  "embedding_completion": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/gemma_untrained_eos_logreg_1076_20261003T185800Z/embeddings/EMBEDDING_COMPLETE.json",
+  "embedding_completion_sha256": "16dd1bff251c6663a5d4a16bbdf8189d3a68b2057a1bbcda18562f02d8a62efa",
+  "evaluation": "Freeze and verify all three model partitions before opening hidden labels; evaluate best binary name permutation and ARI only; no label-based restart selection",
+  "evaluator_sha256": "f4a4ef3509e0bfd231394f3d69be75e205e52c74aaab89b97f68cef9ec057713",
+  "expected_embedding_metadata": {
+    "answer_file_sha256": {
+      "test_answers.jsonl": "c2345b163bc9e0a13db72a9b9678cabdd8a689a996d0213f35e5e5573692c958",
+      "training_answers.jsonl": "a5dcdb10f4d70b869b4c0bd5eedcce50ce6bbc76b7f2124f0be0658b6f46b32a"
+    },
+    "block_index_zero_based": 16,
+    "block_number_one_based": 17,
+    "bos_token_id": 2,
+    "embedding_model_kind": "original_pretrained_gemma_without_sender_finetuning",
+    "eos_token_id": 1,
+    "features": 2304,
+    "model_parameter_hash": "e9e367f6b054029b193d105f869491faf51a3a8a02baba6955fee4f34063a635",
+    "no_sender_adapters_loaded": true,
+    "pad_token_id": 0,
+    "sender_asset": {
+      "path": "/orcd/pool/003/kirilb/Steganography/assets/university/cache/models--unsloth--gemma-2-2b-it/snapshots/457f2e15bf550c227ce6ad86e2ec108d3e42c106",
+      "repo": "unsloth/gemma-2-2b-it",
+      "revision": "457f2e15bf550c227ce6ad86e2ec108d3e42c106"
+    },
+    "sender_checkpoint_weights_loaded": false,
+    "source_checkpoint_state_sha256": "b6362ff7e9ab691572f8a20f9c8aa2c96675ef8f92f7c4dd67d49bbcd988a4d6",
+    "source_checkpoint_update": 1076,
+    "split_manifest_sha256": "ccfba9f92b91db27e5e32aa25a12ec827e2ef4174511ab0bbdadfa29348a2e77",
+    "total_blocks": 26
+  },
+  "experiment_id": "spherical_test_kmeans_1076_20261003T204014Z",
+  "exploratory": true,
+  "feature_standardization": false,
+  "features": 2304,
+  "initialization": "Uniform first sample; second weighted by squared chord distance 2*(1-cosine)",
+  "input_embeddings": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/gemma_untrained_eos_logreg_1076_20261003T185800Z/embeddings/test_embeddings.npz",
+  "input_embeddings_sha256": "6d8af253c618371c0c925b03a26e7a964b610ea3b2d1ea607b2b90acc854d8e8",
+  "k": 2,
+  "master_seed": 42,
+  "max_iter": 1000,
+  "model_name": "Original pretrained Gemma",
+  "n_init": 50,
+  "pca": false,
+  "preprocessing": "test_mean_center_then_row_l2_normalize",
+  "prior_ordinary_kmeans_launch": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/launches/gemma_untrained_test_kmeans_1076_latest.json",
+  "same_test_example_ids_and_order_across_models": true,
+  "script": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/experiments/spherical_test_kmeans_1076/cluster.py",
+  "script_sha256": "b0fa04191bab080f0ad17989b78bd34553fd7e9416c991993606cb4d432a6302",
+  "selection": "Minimum sum(1-cosine) across starts; ties by start index",
+  "stopping": "Stable assignments; fail on empty clusters, zero directions, or nonconvergence"
+}

@@ -1,0 +1,7 @@
+import fs from 'node:fs/promises';
+import { pathToFileURL } from 'node:url';
+const W='/Users/kirilbangachev/Documents/ChatGPT/Steganography/presentations/uni_encoding_20261004';
+const SKILL='/Users/kirilbangachev/.codex-local/plugins/cache/openai-primary-runtime/presentations/26.904.11930/skills/presentations';
+const {finalizePresentation}=await import(pathToFileURL(SKILL+'/container_tools/artifact_tool_utils.mjs').href);
+const result=await finalizePresentation({workspaceDir:W,candidatePath:W+'/build/candidate-v4.pptx',finalPath:W+'/output/University_Encoding_Slides.pptx',pythonExecutable:'/Users/kirilbangachev/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3',integrityValidatorPath:SKILL+'/container_tools/inspect_presentation_package_integrity.py',layoutValidatorPath:SKILL+'/container_tools/inspect_presentation_layout_geometry.py',layoutArgs:['--expected-slide-size-emu','12192000,6858000','--validate-heading-fit','--cover-role','none',...([3,4,5].flatMap(n=>['--require-native-table-slide',String(n)]))],explicitTotalSlideCount:5,requiredNativeTableOwnerSlides:[3,4,5],requiredNativeChartOwnerSlides:[2],materializeLiteralChartWorkbooks:true,fontPolicy:{basis:'design',families:['Helvetica Neue']},verifyArtifactToolImport:true,receiptPath:W+'/build/validation-v4.json'});
+console.log(JSON.stringify({status:'finalized',path:W+'/output/University_Encoding_Slides.pptx'}));

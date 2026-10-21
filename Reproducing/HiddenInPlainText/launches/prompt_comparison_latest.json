@@ -1,0 +1,129 @@
+{
+  "release": "20260929T162649Z",
+  "archive": "/private/tmp/stego-prompt-comparison-20260929T162649Z.tar.gz",
+  "archive_sha256": "0c420912578ca5fda35dd5c202e8f6ab541094c489a61e5bd6ff310cac9205e2",
+  "remote_source": "/orcd/pool/003/kirilb/Steganography/releases/prompt_comparison_20260929T162649Z",
+  "remote_run": "/orcd/pool/003/kirilb/Steganography/runs/prompt_comparison_20260929T162649Z",
+  "state": "complete",
+  "reported": true,
+  "seed": 20260929,
+  "sample_size": 100,
+  "n_answers": 400,
+  "time_limit_minutes": 30,
+  "created_at": "2026-09-29T16:26:49.646339+00:00",
+  "slurm_job_id": "24312607",
+  "submitted_at": "2026-09-29T16:27:53.670369+00:00",
+  "config_digest": "20672fd9af28f74726b825697387033e6ef90a1cfe1ac8598ab431fc86b0659b",
+  "node": "node4109",
+  "monitor_access_status": "connected",
+  "last_checked_at": "2026-09-29T16:30:03.557244+00:00",
+  "initial_timing_reported": true,
+  "finished_at": "2026-09-29T16:35:46.875510+00:00",
+  "elapsed_seconds": 438,
+  "slurm_exit_code": "0:0",
+  "local_results": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/prompt_comparison_20260929T162649Z",
+  "results_sha256": "0fd6a8fef07b5fe56ec77487a31fe168ef5d2737e786ca1e7a89a9dbd53c5c2b",
+  "arms": {
+    "original": {
+      "n": 200,
+      "counts": {
+        "judge_rejected": 178,
+        "format_rejected": 48,
+        "overlap": 42,
+        "format_only": 6,
+        "total_rejected_d": 184,
+        "answer_thought_cap_hit": 200,
+        "answer_forced_think_close": 200,
+        "judge_thought_cap_hit": 70,
+        "judge_forced_think_close": 66,
+        "answer_final_cap_hit": 46,
+        "answer_final_truncated": 45
+      },
+      "rates": {
+        "judge_rejected": 0.89,
+        "format_rejected": 0.24,
+        "overlap": 0.21,
+        "format_only": 0.03,
+        "total_rejected_d": 0.92,
+        "answer_thought_cap_hit": 1.0,
+        "answer_forced_think_close": 1.0,
+        "judge_thought_cap_hit": 0.35,
+        "judge_forced_think_close": 0.33,
+        "answer_final_cap_hit": 0.23,
+        "answer_final_truncated": 0.225
+      },
+      "d": 0.92,
+      "judge_rejected_among_format_passing": {
+        "count": 136,
+        "denominator": 152,
+        "rate": 0.8947368421052632
+      },
+      "text_flag_counts": {
+        "bit_meta_mention": 184,
+        "explicit_bit_value_text": 172,
+        "public_string_copy": 134,
+        "public_string_discussion": 131
+      },
+      "text_flag_rates": {
+        "bit_meta_mention": 0.92,
+        "explicit_bit_value_text": 0.86,
+        "public_string_copy": 0.67,
+        "public_string_discussion": 0.655
+      }
+    },
+    "revised": {
+      "n": 200,
+      "counts": {
+        "judge_rejected": 27,
+        "format_rejected": 31,
+        "overlap": 6,
+        "format_only": 25,
+        "total_rejected_d": 52,
+        "answer_thought_cap_hit": 175,
+        "answer_forced_think_close": 175,
+        "judge_thought_cap_hit": 61,
+        "judge_forced_think_close": 60,
+        "answer_final_cap_hit": 1,
+        "answer_final_truncated": 1
+      },
+      "rates": {
+        "judge_rejected": 0.135,
+        "format_rejected": 0.155,
+        "overlap": 0.03,
+        "format_only": 0.125,
+        "total_rejected_d": 0.26,
+        "answer_thought_cap_hit": 0.875,
+        "answer_forced_think_close": 0.875,
+        "judge_thought_cap_hit": 0.305,
+        "judge_forced_think_close": 0.3,
+        "answer_final_cap_hit": 0.005,
+        "answer_final_truncated": 0.005
+      },
+      "d": 0.26,
+      "judge_rejected_among_format_passing": {
+        "count": 21,
+        "denominator": 169,
+        "rate": 0.1242603550295858
+      },
+      "text_flag_counts": {
+        "bit_meta_mention": 20,
+        "explicit_bit_value_text": 19,
+        "public_string_copy": 1,
+        "public_string_discussion": 2
+      },
+      "text_flag_rates": {
+        "bit_meta_mention": 0.1,
+        "explicit_bit_value_text": 0.095,
+        "public_string_copy": 0.005,
+        "public_string_discussion": 0.01
+      }
+    }
+  },
+  "postprocessing": {
+    "source": "stego/prompt_comparison_report.py",
+    "source_sha256": "47271eebe234bd94a6c3d955467feaf966f87cd19d8e9c7758150c790572bab2",
+    "note": "Literal flags are postprocessing diagnostics. The detector was corrected after spot-checking public outputs to recognize possessive forms such as hidden bit's value of 0 and the connective being. Generation, judge verdicts and quality metrics are unchanged."
+  },
+  "monitor_status": "stopped_complete",
+  "reported_at": "2026-09-29T16:38:11.954922+00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+  "max_input_length": 65,
+  "padding_side": "left",
+  "pad_token_id": 0,
+  "truncation": true,
+  "add_special_tokens": true,
+  "query_padding": false,
+  "attention_mask": "TRL pads unpadded queries and masks inserted padding",
+  "source": "Corrected query construction; original truncation ceiling retained"
+}

@@ -1,0 +1,21 @@
+{
+  "completed_step": 18,
+  "median_step_seconds": {
+    "joint": 350.67531130602583,
+    "interceptor": 61.01809546549339
+  },
+  "observed_steps": {
+    "joint": 10,
+    "interceptor": 8
+  },
+  "remaining_step_counts": {
+    "interceptor": 42,
+    "joint": 40
+  },
+  "eta_seconds_excluding_queue": 16589.772461791756,
+  "validation_seconds_observed": [],
+  "note": "ETA excludes queue/preemption and checkpoint writes; includes future validation only once measured.",
+  "reported_at": "2026-09-30T20:57:45.140974+00:00",
+  "verified_committed_step": 18,
+  "qualification": "Remaining training estimate excludes validation (not yet measured), checkpoint writes, queue and preemption."
+}

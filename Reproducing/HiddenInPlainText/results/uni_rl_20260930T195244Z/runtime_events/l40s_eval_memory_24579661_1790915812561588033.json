@@ -1,0 +1,48 @@
+{
+  "kind": "L40S_evaluation_parent_cache_cleanup",
+  "status": "original_judge_completed",
+  "started_at": 1790915812.5615919,
+  "config_digest": "a430c084d01dc638190691b34614ff595f8d788bb6172728f04aebe2a50c503b",
+  "evaluation_config_digest": "0d0f00d93de9583ff7a23a93a629093984c7ab161984b0c39f3c1b74ad2f1b30",
+  "evaluation_dir": "/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z/evaluations/step_000532",
+  "checkpoint": {
+    "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z/checkpoints/step_000532",
+    "completed_update": 532,
+    "complete_sha256": "8519c03624c9e759a2b82b22bd23821536ab66d8373b19ab8d4c692118f96f0f"
+  },
+  "checkpoint_complete": {
+    "config_digest": "a430c084d01dc638190691b34614ff595f8d788bb6172728f04aebe2a50c503b",
+    "completed_update": 532,
+    "state_sha256": "297ba15187ba2f5ccc0ef6e1d9fe995c35bba18c84e754085a428242c34c2086",
+    "elapsed": 27929.14659542781,
+    "phase": "sender"
+  },
+  "slurm_job_id": "24579661",
+  "slurm_restart_count": "2",
+  "wrapper_sha256": "d5f9352f0c6984c29f0078ec035be77822cb81c2fe2010f38248c634326e90f2",
+  "memory_launcher_sha256": "9ce57ee0ff9a043273f80a75424a80bdf8a97189e0ccaedb00dce2f0f9e9b2c4",
+  "hardware_launcher_sha256": "17dbf6d322d3bc5cac719c0a1ebef701e88e4a25d6ec4e9a302268a414f91565",
+  "manifest_sha256": "833d3e4e98f6f96587fea36e7d3cb05325bfad87c2df9dc0dbc660639448d64c",
+  "cleanup_verification": {
+    "before": {
+      "cuda_allocated_bytes": 20796505088,
+      "cuda_reserved_bytes": 46458208256,
+      "device_free_bytes": 456458240,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 98596827136
+    },
+    "after": {
+      "cuda_allocated_bytes": 20796505088,
+      "cuda_reserved_bytes": 21097349120,
+      "device_free_bytes": 25817317376,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 98599366656
+    },
+    "gc_collected_objects": 288,
+    "live_tensor_metadata_unchanged": true,
+    "rng_unchanged": true,
+    "live_tensor_metadata_sha256": "160a05f49bb1bedfd739ee0907aef739d10ada773d80fdceff0367a51ca0a97a"
+  },
+  "cache_cleaned_at": 1790915813.2492125,
+  "finished_at": 1790915956.630391
+}

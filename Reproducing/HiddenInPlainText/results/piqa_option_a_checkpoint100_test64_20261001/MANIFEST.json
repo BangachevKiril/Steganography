@@ -1,0 +1,48 @@
+{
+  "config_digest": "9d875fd3fea684a669cdc2798480675ce3ef6b317439e81418155286305b7ee0",
+  "selection_digest": "b03a8646c0d3a05dc6d92feb6295414f88d68bf868d49d2d83b1d8e2a327b189",
+  "training_config_digest": "9eee6eb77c005c7a37a052b425fe1faeb362758c433813115ade14e960659578",
+  "checkpoint_step": 100,
+  "input_sha256": {
+    "/orcd/pool/003/kirilb/Steganography/runs/piqa_hybrid_option_a_fresh_20260930T194303Z/config.json": "9642f3008d36fa6dd73ce64d7ca18dec89d7efeaaed0ab477cf4bc07294be294",
+    "/orcd/pool/003/kirilb/Steganography/runs/piqa_hybrid_option_a_fresh_20260930T194303Z/checkpoints/step_000100/COMPLETE.json": "b798a0cb20d6a06ec9d55268f4580b6ba7b1590d6a9a84530f3c56f80690cce3",
+    "/orcd/pool/003/kirilb/Steganography/runs/piqa_hybrid_option_a_fresh_20260930T194303Z/checkpoints/step_000100/engine/engine.json": "98b84670d354e041d33b81584c081af5343b6c42e031b5c0df47553d87c92407",
+    "/orcd/pool/003/kirilb/Steganography/runs/piqa_hybrid_option_a_fresh_20260930T194303Z/PROMPTS.json": "2f42870bdc4d825cdd3d23ae8a67f77bd2e841de121e23ded51883232bb2932e",
+    "/orcd/pool/003/kirilb/PIQA/tests.jsonl": "402f1e2e61347db773e6e5e0a6b24f97396b59f6fd046dcdcbc12f483ac8553b",
+    "/orcd/pool/003/kirilb/Steganography/runs/piqa_hybrid_option_a_fresh_20260930T194303Z/checkpoints/step_000100/engine/adapters/A/adapter_config.json": "08ccfa6728c4f4b87e6a84853bef0479e29c74b6f66df034d91a5a89414e9113",
+    "/orcd/pool/003/kirilb/Steganography/runs/piqa_hybrid_option_a_fresh_20260930T194303Z/checkpoints/step_000100/engine/adapters/A/adapter_model.safetensors": "a53e41486db66ac3185d6a5c3a1bfc1444dff1a5bc41d1908dbb2d9d690ad0d1",
+    "/orcd/pool/003/kirilb/Steganography/runs/piqa_hybrid_option_a_fresh_20260930T194303Z/checkpoints/step_000100/engine/adapters/B/adapter_config.json": "08ccfa6728c4f4b87e6a84853bef0479e29c74b6f66df034d91a5a89414e9113",
+    "/orcd/pool/003/kirilb/Steganography/runs/piqa_hybrid_option_a_fresh_20260930T194303Z/checkpoints/step_000100/engine/adapters/B/adapter_model.safetensors": "ea718961d845e3de45b2d09538908e8137f629adac5d305e56697372cf96bb2c",
+    "/orcd/pool/003/kirilb/Steganography/runs/piqa_hybrid_option_a_fresh_20260930T194303Z/checkpoints/step_000100/engine/adapters/I/adapter_config.json": "08ccfa6728c4f4b87e6a84853bef0479e29c74b6f66df034d91a5a89414e9113",
+    "/orcd/pool/003/kirilb/Steganography/runs/piqa_hybrid_option_a_fresh_20260930T194303Z/checkpoints/step_000100/engine/adapters/I/adapter_model.safetensors": "4a1e732023fba6964f3f787b407be37cffa2fa05b910d76229a82a0133f87419"
+  },
+  "generation_settings": {
+    "think_tokens": 256,
+    "final_answer_tokens": 128,
+    "generation_batch_size": 16,
+    "train_microbatch_size": 4,
+    "temperature": 0.6,
+    "learning_rate": 1e-05,
+    "lora_rank": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0,
+    "clip_epsilon": 0.2,
+    "kl_beta": 0.01,
+    "max_grad_norm": 1,
+    "weight_decay": 0.01,
+    "device": "cuda:0",
+    "gradient_checkpointing": true,
+    "decoder_objective": "fixed_baseline_pg_ce",
+    "decoder_baseline": 0.5,
+    "decoder_ce_weight": 1.0
+  },
+  "no_updates": true,
+  "rollouts_per_question": {
+    "sender": 1,
+    "receiver": 1,
+    "interceptor": 1,
+    "judge": 1
+  },
+  "private_reasoning_saved": false,
+  "prespecified_comparison": "Original versus bitwise flipped receiver guesses on identical outputs; keep prior validation separate."
+}

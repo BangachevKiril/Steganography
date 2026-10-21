@@ -1,0 +1,24 @@
+{
+  "job_id": "24865111",
+  "kind": "isolated_nonfinite_diagnostic",
+  "created_at": "2026-10-05T00:33:31.458822+00:00",
+  "source_root": "/orcd/pool/003/kirilb/Steganography/releases/uni_qwen35_27b_20261004T214535Z",
+  "remote_output": "/orcd/pool/003/kirilb/Steganography/diagnostics/uni_qwen35_27b_20261004T214535Z/nonfinite_probe_001",
+  "script_sha256": "34c4a3971eb3a36b71f35fa209fcab01386891acfec5d4b8b9f773647bcba8b7",
+  "slurm_sha256": "ab0da52a15c23de5115fef6181a2f29b383d1ee663b88aae4da71b7942e74769",
+  "time_limit_seconds": 900,
+  "partitions": [
+    "mit_normal_gpu",
+    "mit_preemptable"
+  ],
+  "gpu": "H100",
+  "host_memory_gib": 192,
+  "training_settings_changed": false,
+  "training_retry": false,
+  "public_files": [
+    "DIAGNOSTIC.json",
+    "STATUS.json"
+  ],
+  "prior_jobs_accounting": "24862623|FAILED|1:0\n24862623.batch|FAILED|1:0\n24862623.extern|COMPLETED|0:0\n24862624|CANCELLED|0:0\n24862625|CANCELLED|0:0\n",
+  "state": "submitted"
+}

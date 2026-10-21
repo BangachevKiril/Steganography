@@ -1,0 +1,183 @@
+{
+  "requeue_verification": {
+    "restart_count": 1,
+    "job_id": "24665081",
+    "node": "node3502",
+    "observed_at": "2026-10-02T21:33:58.180335+00:00",
+    "status": "restoration_verified_and_training_resumed",
+    "resume_checkpoint_update": 409,
+    "resume_checkpoint_state_sha256": "31f173dc24f17f072eb51006ee59f5be34677ce6ab4a8eb3cc89a96f096ff2ae",
+    "resume_checkpoint_state_sha256_verified_remotely": true,
+    "saved_elapsed_seconds": 21398.938556924462,
+    "remaining_active_seconds": 6501.061443075538,
+    "preflight_event": "runtime_events/l40s_memory_preflight_24665081_1790976553460536114.json",
+    "preflight_event_sha256": "25e043afb1fcee5bd472a03642bb8697f9c5461d836e8bdfdbc3ae33c91cd754",
+    "toy_parity_passed": true,
+    "restoration_verified": true,
+    "first_resumed_update_verified": true,
+    "reported": true,
+    "note": "Checkpoint409 and its saved elapsed budget restored exactly; sender and receiver updates committed after restart.",
+    "verified_at": "2026-10-02T21:44:43.429527+00:00",
+    "initialization_event": "runtime_events/l40s_memory_preflight_24665081_1790976553460536114.json",
+    "initialization_event_sha256": "772c5a4c200bd04a50991d75c413b07d002e0fda2d46626aa833ecaacf43590f",
+    "first_resumed_sender_update": 410,
+    "first_resumed_receiver_update": 414,
+    "verified_through_update": 415,
+    "reported_at": "2026-10-02T21:44:43.429527+00:00"
+  },
+  "initialization_event": {
+    "kind": "corrected_L40S_initialization",
+    "status": "initialization_verified",
+    "started_at": 1790976553.4605398,
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "wrapper_sha256": "453aff7ed707c3d835149e0c8ac4ec0563b4a6526a9309b91d9b31f329cb1ea2",
+    "before_model_loading": true,
+    "memory_helper_sha256": "9ce57ee0ff9a043273f80a75424a80bdf8a97189e0ccaedb00dce2f0f9e9b2c4",
+    "slurm_job_id": "24665081",
+    "slurm_restart_count": "1",
+    "gpu": "NVIDIA L40S",
+    "gpu_memory_bytes": 47667740672,
+    "gpu_capability": [
+      8,
+      9
+    ],
+    "versions": {
+      "torch": "2.4.0+cu124",
+      "transformers": "4.43.2",
+      "trl": "0.9.6",
+      "peft": "0.12.0",
+      "accelerate": "0.33.0",
+      "bitsandbytes": "0.43.3",
+      "numpy": "1.26.4",
+      "datasets": "2.20.0",
+      "tokenizers": "0.19.1"
+    },
+    "cuda": "12.4",
+    "executable": "/orcd/pool/003/kirilb/Steganography/envs/uni_author_torch240/bin/python",
+    "bitsandbytes_module": "/orcd/pool/003/kirilb/Steganography/envs/uni_author_torch240/lib/python3.12/site-packages/bitsandbytes/__init__.py",
+    "source_checkpoint": {
+      "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_000409",
+      "marker": {
+        "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+        "completed_update": 409,
+        "state_sha256": "31f173dc24f17f072eb51006ee59f5be34677ce6ab4a8eb3cc89a96f096ff2ae",
+        "elapsed": 21398.938556924462,
+        "phase": "sender"
+      },
+      "complete_sha256": "859c580f8ad553ef60ae8fd1e171c606d974734bbfbdb178802c78e2cf33fdd9"
+    },
+    "fresh_baseline_initialization": false,
+    "cuda_toy_parity": {
+      "status": "passed",
+      "device": "NVIDIA L40S",
+      "test": "Same-seeded CUDA FP16 frozen linear + FP32 low-rank adapters, dropout, value head, post-adapter frozen linear and saved strided/offset/expanded views",
+      "exact_initial_parameters": true,
+      "exact_outputs": true,
+      "exact_loss": true,
+      "exact_gradients": true,
+      "exact_adamw_state": true,
+      "exact_updated_parameters": true,
+      "exact_post_test_rng": true,
+      "loss": 2.565762758255005,
+      "exact_baseline_repeat": true,
+      "toy_optimizer_steps": 3,
+      "actual_training_model_updates": 0,
+      "cuda_transfer_verified": true,
+      "packed_cuda_tensors": 15,
+      "unpacked_cuda_tensors": 14,
+      "all_packed_cuda_tensors_on_pinned_cpu": true,
+      "packed_storage_bytes": 3560,
+      "noncontiguous_cuda_tensors": 4,
+      "nonzero_offset_cuda_tensors": 1,
+      "expanded_cuda_tensors": 1,
+      "limitation": "A tiny graph parity check does not establish full-model numerical equivalence or memory capacity.",
+      "caller_rng_restored": true
+    },
+    "parity_completed_at": 1790976596.9557652,
+    "initialized_at": 1790976945.0722494,
+    "completed_update": 409,
+    "restored_elapsed_seconds": 21398.938556924462,
+    "checkpoint": {
+      "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_000409",
+      "marker": {
+        "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+        "completed_update": 409,
+        "state_sha256": "31f173dc24f17f072eb51006ee59f5be34677ce6ab4a8eb3cc89a96f096ff2ae",
+        "elapsed": 21398.938556924462,
+        "phase": "sender"
+      },
+      "complete_sha256": "859c580f8ad553ef60ae8fd1e171c606d974734bbfbdb178802c78e2cf33fdd9"
+    },
+    "configured_active_budget_seconds": 27900
+  },
+  "first_resumed_sender": {
+    "n": 192,
+    "receiver_correct": 106,
+    "observer_flagged": 11,
+    "receiver_pass": 80,
+    "receiver_fail": 112,
+    "reward_mean": 0.20655032992362976,
+    "reward_std": 0.13370198011398315,
+    "token_cap": 19,
+    "ppo": {
+      "ppo/loss/total": 0.012110001407563686,
+      "ppo/loss/policy": -0.0012096210848540068,
+      "ppo/loss/value": 0.13319623470306396,
+      "objective/kl": 11.83579158782959,
+      "objective/kl_coef": 0.03264132726025893
+    },
+    "update": 410,
+    "kind": "sender",
+    "cycle": 59,
+    "duration_seconds": 107.25710402056575,
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92"
+  },
+  "first_resumed_receiver": {
+    "n": 512,
+    "receiver_correct": 271,
+    "observer_flagged": 42,
+    "receiver_pass": 207,
+    "receiver_fail": 305,
+    "mean_loss": 0.699581652879715,
+    "receiver_training": {
+      "n": 256,
+      "correct": 123,
+      "optimizer_steps": 1,
+      "loss": 0.699581652879715,
+      "optimizer_sample_count": 256,
+      "microbatches": 4,
+      "gradient_reduction": "mean_cross_entropy_over_all_examples",
+      "label_counts": {
+        "PASS": 125,
+        "FAIL": 131
+      },
+      "minibatch_label_counts": [
+        {
+          "n": 64,
+          "PASS": 30,
+          "FAIL": 34
+        },
+        {
+          "n": 64,
+          "PASS": 30,
+          "FAIL": 34
+        },
+        {
+          "n": 64,
+          "PASS": 29,
+          "FAIL": 35
+        },
+        {
+          "n": 64,
+          "PASS": 36,
+          "FAIL": 28
+        }
+      ]
+    },
+    "update": 414,
+    "kind": "receiver",
+    "cycle": 60,
+    "duration_seconds": 15.963646711781621,
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "all_clusters_frozen_sha256": "61565d6eed7aa70f5b671710239d472dfb76066205133d1f6dc3de88fe55dfca",
+  "checks": {
+    "accuracy_recomputed_from_assignments": true,
+    "adjusted_rand_index_recomputed_by_enumerating_499500_unordered_pairs": true,
+    "all_50_saved_assignments_same_partition_within_each_model": true,
+    "all_50_starts_recorded_converged": true,
+    "all_completion_artifact_hashes": true,
+    "all_models_frozen_before_any_evaluation_label_open": true,
+    "ids_joined_to_hash_pinned_test_labels": true,
+    "selected_assignments_and_centroids_match_saved_model": true,
+    "selected_start_is_minimum_cosine_objective_with_index_tie_rule": true
+  },
+  "created_at": "2026-10-03T20:42:47.815417+00:00",
+  "issues": [],
+  "models": {
+    "gemma_trained": {
+      "adjusted_rand_index_direct_unordered_pairs": 0.0007875083401324704,
+      "best_mapping_accuracy": 0.521,
+      "best_mapping_correct": 521,
+      "cluster_by_hidden_label": [
+        [
+          222,
+          201
+        ],
+        [
+          278,
+          299
+        ]
+      ],
+      "cluster_complete_sha256": "23adb5493d0b73a13c62c695a0632e1d5bfabc05698c11eeb6b5e17d5f43ea3b",
+      "cluster_sizes": [
+        423,
+        577
+      ],
+      "converged_starts": 50,
+      "evaluation_complete_sha256": "0f23c831e2249e3af67be72d25241a1ab04995cebb7d60dadbdd1470d1da68f0",
+      "minimum_cosine_objective": 558.0529154704179,
+      "n": 1000,
+      "pair_counts": {
+        "same_both": 127685,
+        "same_cluster": 255429,
+        "same_label": 249500,
+        "total": 499500
+      },
+      "selected_start": 0,
+      "unique_partitions_up_to_label_swap": 1
+    },
+    "gemma_untrained": {
+      "adjusted_rand_index_direct_unordered_pairs": 0.0017290480179232824,
+      "best_mapping_accuracy": 0.526,
+      "best_mapping_correct": 526,
+      "cluster_by_hidden_label": [
+        [
+          224,
+          198
+        ],
+        [
+          276,
+          302
+        ]
+      ],
+      "cluster_complete_sha256": "130a8e0af809bfdc62d0d44605544853b58a84050f3e978ad1ed238341319962",
+      "cluster_sizes": [
+        422,
+        578
+      ],
+      "converged_starts": 50,
+      "evaluation_complete_sha256": "a7868f8c31b0d53c9fa6170b09da4e1db237a57e67566877918795f8adc735d4",
+      "minimum_cosine_objective": 544.9234350332168,
+      "n": 1000,
+      "pair_counts": {
+        "same_both": 127880,
+        "same_cluster": 255584,
+        "same_label": 249500,
+        "total": 499500
+      },
+      "selected_start": 0,
+      "unique_partitions_up_to_label_swap": 1
+    },
+    "qwen25_3b": {
+      "adjusted_rand_index_direct_unordered_pairs": 6.309967536371287e-05,
+      "best_mapping_accuracy": 0.516,
+      "best_mapping_correct": 516,
+      "cluster_by_hidden_label": [
+        [
+          208,
+          192
+        ],
+        [
+          292,
+          308
+        ]
+      ],
+      "cluster_complete_sha256": "278f388d01c78f9848377b573eaf5041864ae5ceb75cb6bdc53e3b00dacad2a3",
+      "cluster_sizes": [
+        400,
+        600
+      ],
+      "converged_starts": 50,
+      "evaluation_complete_sha256": "96a9b794723cb0420ff64a2ef7b1a91e7c85161b3e5989c4f1590c28d76daf65",
+      "minimum_cosine_objective": 369.9858562148788,
+      "n": 1000,
+      "pair_counts": {
+        "same_both": 129628,
+        "same_cluster": 259500,
+        "same_label": 249500,
+        "total": 499500
+      },
+      "selected_start": 0,
+      "unique_partitions_up_to_label_swap": 1
+    }
+  },
+  "scope": "Independent saved-assignment and restart verification; no refitting. Hidden labels opened only after all-model freeze evidence verified.",
+  "status": "passed"
+}

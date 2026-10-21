@@ -1,0 +1,25 @@
+{
+  "job_id": "24932889",
+  "submitted_at": "2026-10-05T14:49:30.921321+00:00",
+  "source_root": "/orcd/pool/003/kirilb/Steganography/releases/uni_qwen35_27b_20261004T214535Z",
+  "remote_output": "/orcd/pool/003/kirilb/Steganography/diagnostics/uni_qwen35_27b_20261004T214535Z/zero_guard_validation_001",
+  "script_sha256": "e50740b518665da3bfee3247b92f5c4c3447002c8491bef6843be68a4e075718",
+  "slurm_sha256": "4a2a8ea1782faed9cda28a9f76021c2573cb8d6e89be493910b840bd95adda9d",
+  "kind": "isolated_zero_guard_validation",
+  "training_retry": false,
+  "runtime_after_sha256": "5ea1130b150506e7a7e94534ee4e9aedd6e57ef576bfc50ced6e00927d926612",
+  "local_output": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/diagnostics/zero_guard_validation_001",
+  "time_limit_seconds": 900,
+  "partitions": [
+    "mit_normal_gpu",
+    "mit_preemptable"
+  ],
+  "gpu": "H100",
+  "host_memory_gib": 192,
+  "state": "SUBMITTED",
+  "results_reported": false,
+  "public_files": [
+    "DIAGNOSTIC.json",
+    "STATUS.json"
+  ]
+}

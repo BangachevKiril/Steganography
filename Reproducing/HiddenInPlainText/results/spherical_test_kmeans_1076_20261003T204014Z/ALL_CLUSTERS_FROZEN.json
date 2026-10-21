@@ -1,0 +1,54 @@
+{
+  "all_three_frozen_and_verified_at": "2026-10-03T20:40:46.813537+00:00",
+  "labels_opened_in_this_experiment": false,
+  "models": {
+    "gemma_trained": {
+      "cluster_complete_sha256": "23adb5493d0b73a13c62c695a0632e1d5bfabc05698c11eeb6b5e17d5f43ea3b",
+      "completion": {
+        "files": {
+          "cluster_assignments.jsonl": "b98e64d431ea6024d130954a0293fac5559803c70bd1d1c2f22af90c1a41df98",
+          "clustering_model.npz": "d1d53816645c49affe79099159d6720e7b534ed6a7f39085bdc08f49bf1f49cb",
+          "clustering_summary.json": "60b0fd164c691ccc936981be346f4a79b60a6344068fe280ea1553dd35163b86",
+          "restart_solutions.npz": "483380a1044a5a0d9b171896b76d0142637efab2981ad68a464f70df367279cb",
+          "starts.json": "3cf8212bcf503b83dd59630c3f1a3e457e925ca8fb15fa887773efa2c6578b45"
+        },
+        "frozen_at": "2026-10-03T20:40:27.084542+00:00",
+        "labels_loaded": false,
+        "plan_sha256": "f7a88bfed904e057f3592837c604fa4017ca7ced3feedef37ff813a0b203a0e4",
+        "status": "complete"
+      }
+    },
+    "gemma_untrained": {
+      "cluster_complete_sha256": "130a8e0af809bfdc62d0d44605544853b58a84050f3e978ad1ed238341319962",
+      "completion": {
+        "files": {
+          "cluster_assignments.jsonl": "179f195d4b973f32df4513c3ae515c393114ae72e41d64baaa8a96a154655d75",
+          "clustering_model.npz": "be52226418405b9607a4eb502dee24683e4519830228f4793bf0674b3816c49b",
+          "clustering_summary.json": "681e58d773998ec8472067131f49824577dc1d683fa801f852dd04082c77d38c",
+          "restart_solutions.npz": "dbf83f2293c00988cc8ac3e9c1ad7dd773a24ffe116d13df04f4891991908fe7",
+          "starts.json": "da5fcaa31a25c9b8ddd488f68b16bdb1907b8e718a0f7e8f8894211da3a4fe2f"
+        },
+        "frozen_at": "2026-10-03T20:40:26.676484+00:00",
+        "labels_loaded": false,
+        "plan_sha256": "b55c0d46101187f1a4ac86bd9470a0db8dfec986f59b960358a99034139724eb",
+        "status": "complete"
+      }
+    },
+    "qwen25_3b": {
+      "cluster_complete_sha256": "278f388d01c78f9848377b573eaf5041864ae5ceb75cb6bdc53e3b00dacad2a3",
+      "completion": {
+        "files": {
+          "cluster_assignments.jsonl": "ba0398d0ef3d786846897a24e458748c3eed5083c4e060ee5ca39f0212c29bbe",
+          "clustering_model.npz": "7ec00a474e330fd0915946b1cb1142dc98ff305590ed8b2f07a32cb28508f6bf",
+          "clustering_summary.json": "8bddf5e8e5f7b45cc5497208e062699b6a0e0aabad61d66d5c00d319c819274d",
+          "restart_solutions.npz": "5076bc80c80325f60679d736cfc70ac8ce37879b15c5f30b80370dd8e6a86b46",
+          "starts.json": "cbdacf499b39046d82b10f53d91a3538e0eeea9affbf56f69d08f44c58b53b63"
+        },
+        "frozen_at": "2026-10-03T20:40:26.323004+00:00",
+        "labels_loaded": false,
+        "plan_sha256": "52b056d81d9ba3d97c9d39d137f73dc5154bc1bade63c9aab961a57db863e8dd",
+        "status": "complete"
+      }
+    }
+  }
+}

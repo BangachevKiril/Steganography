@@ -1,0 +1,159 @@
+{
+  "created_at": "2026-10-03T19:21:54.830249+00:00",
+  "embedding_model_kind": "pretrained_qwen25_3b_instruct",
+  "embedding_shape_per_split": [
+    1000,
+    2048
+  ],
+  "embeddings_directory": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/qwen25_3b_eos_logreg_1076_20261003T191657Z/embeddings",
+  "eos_position_ranges": {
+    "test": {
+      "max": 21,
+      "min": 14
+    },
+    "training": {
+      "max": 21,
+      "min": 13
+    }
+  },
+  "inputs": {
+    "embedding_completion": {
+      "files": {
+        "test_embeddings.npz": "7c79cebe9cc1e708adb8c7e869d421fe1ad641032cf63e456ecb3ddfff029ffe",
+        "training_embeddings.npz": "dc5d5cb169f719e3baacf76ccb7901dc23c0bd3e330cb2adb7250a4cd493487e"
+      },
+      "metadata": {
+        "answer_file_sha256": {
+          "test_answers.jsonl": "c2345b163bc9e0a13db72a9b9678cabdd8a689a996d0213f35e5e5573692c958",
+          "training_answers.jsonl": "a5dcdb10f4d70b869b4c0bd5eedcce50ce6bbc76b7f2124f0be0658b6f46b32a"
+        },
+        "batch_size": 32,
+        "block_index_zero_based": 23,
+        "block_number_one_based": 24,
+        "bos_prepended": false,
+        "bos_token_id": null,
+        "duration_seconds": 61.038982629776,
+        "embedding_asset": {
+          "path": "/orcd/pool/003/kirilb/Steganography/assets/observer_probes/cache/models--Qwen--Qwen2.5-3B-Instruct/snapshots/aa8e72537993ba99e69dfaafa59ed015b17504d1",
+          "repo": "Qwen/Qwen2.5-3B-Instruct",
+          "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+        },
+        "embedding_model_kind": "pretrained_qwen25_3b_instruct",
+        "embedding_storage_dtype": "float32 converted from model hidden-state dtype",
+        "eos_note": "Appended native EOS <|im_end|> probe position, including answers originally stopped at generation cap; for Qwen Instruct EOS is also the chat end-of-turn token.",
+        "eos_token": "<|im_end|>",
+        "eos_token_id": 151645,
+        "extraction_script_sha256": "9e952b45e7cea474fbac3c65913a16a0323c6ca08529f31203dcc4ddfcb6690f",
+        "features": 2048,
+        "gpu": "NVIDIA L40S",
+        "hook": "Qwen2DecoderLayer output[0], after MLP and residual addition; before next block normalization",
+        "interpretation": "Separate pretrained Qwen2.5-3B-Instruct with no sender fine-tuning or adapters. Answer text still comes from sender checkpoint1076.",
+        "job_id": "24753725",
+        "model_config_bos_token_id": 151643,
+        "model_dtype": "torch.float16",
+        "model_parameter_hash": "a085fee590ffd3090214a5e63067a5dedd84e2dcabce45cc361b4de8ecc1f02c",
+        "model_parameter_tensors": 434,
+        "no_sender_adapters_loaded": true,
+        "packages": {
+          "numpy": "1.26.4",
+          "peft": "0.12.0",
+          "tokenizers": "0.19.1",
+          "torch": "2.4.0+cu124",
+          "transformers": "4.43.2",
+          "trl": "0.9.6"
+        },
+        "pad_token_id": 151643,
+        "pretrained_asset_file_sha256": {
+          "LICENSE": "ef52482bb785733093dc9a2e8edd8e764c77d12d8e9d8f10a80c9b547d32d0f9",
+          "README.md": "2c74693e6ae36ba878124d465195b4dad0f71035b54ece1c9fd1553cc497ef8c",
+          "config.json": "eed00b17e22553979d090fa492e587e92885e328914c8e0b0b78f0a0d3576b3b",
+          "generation_config.json": "ea35dfb6fc5051b01114f9b995820d55dab01ed33ee490f6378b442af82c09f9",
+          "merges.txt": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+          "model-00001-of-00002.safetensors": "67347b23fb4165b652eb6611f5e1f2a06dfcddba8e909df1b2b0b1857bee06c2",
+          "model-00002-of-00002.safetensors": "a40d941d0e7e0b966ad8b62bb6d6b7c88cce1299197b599d9d0a4ce59aabfc1d",
+          "model.safetensors.index.json": "bc8aaa0c87d4335177e01c765f1de0db81661c67c1a72fbfb0d521b09f5ddc56",
+          "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+          "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+          "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+        },
+        "sender_checkpoint_weights_loaded": false,
+        "source_checkpoint": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_001076",
+        "source_checkpoint_complete_sha256": "e4654edc542e0a84e2321b31586e3e8eda6c86023390ea08fc5332138207ab46",
+        "source_checkpoint_state_sha256": "b6362ff7e9ab691572f8a20f9c8aa2c96675ef8f92f7c4dd67d49bbcd988a4d6",
+        "source_checkpoint_update": 1076,
+        "split_manifest_sha256": "ccfba9f92b91db27e5e32aa25a12ec827e2ef4174511ab0bbdadfa29348a2e77",
+        "tokenization": "exact answer tokenized with add_special_tokens=False + explicit native EOS; no BOS, chat template or original prompt; right padding",
+        "total_blocks": 36,
+        "validation": {
+          "actual_batch32_parity_passed": true,
+          "all_parameters_frozen": true,
+          "answer_only_inputs": true,
+          "batch8_vs_batch32_max_abs": 0.125,
+          "explicit_eos_positions_and_attention_masks_verified": true,
+          "hook_matches_post_block_hidden_state_exactly": true,
+          "model_parameter_hash_unchanged_after_inference": true,
+          "pretrained_model_without_adapters": true,
+          "repeated_forward_exact": true,
+          "single_vs_batch_atol": 0.03,
+          "single_vs_batch_max_abs": 0.0625,
+          "single_vs_batch_rtol": 0.01
+        }
+      },
+      "status": "complete"
+    },
+    "embedding_completion_sha256": "93f641aae790c9426d819af892d87304a910691dc5b24da1fcd27efc760f0875",
+    "embedding_file_sha256": {
+      "test_embeddings.npz": "7c79cebe9cc1e708adb8c7e869d421fe1ad641032cf63e456ecb3ddfff029ffe",
+      "training_embeddings.npz": "dc5d5cb169f719e3baacf76ccb7901dc23c0bd3e330cb2adb7250a4cd493487e"
+    },
+    "embedding_model_asset": {
+      "path": "/orcd/pool/003/kirilb/Steganography/assets/observer_probes/cache/models--Qwen--Qwen2.5-3B-Instruct/snapshots/aa8e72537993ba99e69dfaafa59ed015b17504d1",
+      "repo": "Qwen/Qwen2.5-3B-Instruct",
+      "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+    },
+    "embedding_model_kind": "pretrained_qwen25_3b_instruct",
+    "exact_answer_whitespace_preserved": true,
+    "hidden_label_mapping": {
+      "0": {
+        "class": "FAIL",
+        "university": "The Bad University"
+      },
+      "1": {
+        "class": "PASS",
+        "university": "The Good University"
+      }
+    },
+    "shuffle_replayed_exactly": true,
+    "source_audit_sha256": "d4313ee3f30be0a1d9d43989fa3ae22fd26054f82c341bbee8b35b849d818be1",
+    "source_checkpoint": {
+      "complete_sha256": "e4654edc542e0a84e2321b31586e3e8eda6c86023390ea08fc5332138207ab46",
+      "completed_update": 1076,
+      "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_001076",
+      "state_file_read_by_this_audit": false,
+      "state_sha256_from_manifest": "b6362ff7e9ab691572f8a20f9c8aa2c96675ef8f92f7c4dd67d49bbcd988a4d6"
+    },
+    "source_checkpoint_role": "Transmitted-answer data provenance only; not loaded as embedding-model weights",
+    "source_sha256": "8e67e837c6c6788c5d8a0853300c7dfd498868ba2715a007f435d32e60e4c3f5",
+    "split_file_sha256": {
+      "test_answers.jsonl": "c2345b163bc9e0a13db72a9b9678cabdd8a689a996d0213f35e5e5573692c958",
+      "test_hidden_labels.jsonl": "c1c9d35c11f8e5cd5ffe87175a4c862bd6e24df8ac8941685a5da99a4faf7c09",
+      "training_answers.jsonl": "a5dcdb10f4d70b869b4c0bd5eedcce50ce6bbc76b7f2124f0be0658b6f46b32a",
+      "training_hidden_labels.jsonl": "3ebe2a1dab1b35ec36eac501d366dbd3ba363432d7967c8c19bc8b2fd88761a2"
+    },
+    "split_manifest_sha256": "ccfba9f92b91db27e5e32aa25a12ec827e2ef4174511ab0bbdadfa29348a2e77",
+    "split_seed": 76941464738612174067462168110252986627477656379651856508672271610187918990797
+  },
+  "model_input_access": "Only frozen embedding matrices enter the classifier; answer text is used solely for provenance checks and predetermined duplicate sensitivity membership.",
+  "model_selection": "No validation/test tuning; C, solver, tolerances, feature extraction, and duplicate sensitivity are fixed before fitting.",
+  "packages": {
+    "matplotlib": "3.7.1",
+    "numpy": "1.26.4",
+    "python": "3.11.2",
+    "scipy": "1.10.1"
+  },
+  "precision": "float64 preprocessing, optimization, and scoring; input embeddings float32",
+  "schema_version": 1,
+  "scope": "Linear decodability of checkpoint-1076 transmitted-answer labels from pretrained Qwen2.5-3B-Instruct EOS representations, without sender adapters or sender-finetuned weights; not the static observer flag rate.",
+  "script_sha256": "3478f1bd63c3018b6eecae2b65a248c1a17d39bd528ab8a7425aa3fc2b96186c",
+  "split_directory": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/data/university_observer_checkpoint1076_split"
+}

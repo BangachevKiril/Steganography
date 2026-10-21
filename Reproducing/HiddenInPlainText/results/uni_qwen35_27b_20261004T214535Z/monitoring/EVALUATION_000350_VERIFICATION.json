@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-05T23:50:54.573110+00:00",
+  "evaluation_update": 350,
+  "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+  "evaluation_config_digest": "551c154ead2b6bfe28ac7c1e5050235ce53f7542b21c88dedc22cb2fc84c66b8",
+  "source_files_verified": 41,
+  "public_artifacts_hash_verified": 579,
+  "public_numeric_values_finite": true,
+  "public_numeric_values_checked": 1108196,
+  "frozen_verifier_passed": true,
+  "independent_row_counts_agree": true,
+  "same_university2000_and_piqa100_cohorts_as_evaluation0": true,
+  "ordered_cohort_comparisons": [
+    0,
+    50,
+    100,
+    150,
+    200,
+    250,
+    300,
+    350,
+    390
+  ],
+  "row_identity_and_prediction_argmax_verified": true,
+  "summary_confusion_matrix_group_rates_and_means_recomputed": true,
+  "recovery_authorization_verified": true,
+  "recovery_bootstrap_and_slurm_hashes_verified": true,
+  "model_artifact_identities_verified": 24,
+  "observer_events_verified": [
+    {
+      "path": "QWEN_OBSERVER.json",
+      "sha256": "92ba0833dcb68b8062a1e5bdad20b2a81066d9ff78449bb7824faca774a4086d",
+      "slurm_job_id": "24936932",
+      "started_at": 1791243430.8365796
+    },
+    {
+      "path": "runtime_events/qwen_observer_24936931_1791214121090062368.json",
+      "sha256": "ef01f49f32cd93c945beaba60bf2507aa872c69890bbf1e28aae21d4b4d80c78",
+      "slurm_job_id": "24936931",
+      "started_at": 1791214121.0895462
+    },
+    {
+      "path": "runtime_events/qwen_observer_24936931_1791216700717183790.json",
+      "sha256": "f429ccb8be3671dae8e7e5624bf0357f7f61783d5d403676121ba2103b0e5e4e",
+      "slurm_job_id": "24936931",
+      "started_at": 1791216700.7167687
+    },
+    {
+      "path": "runtime_events/qwen_observer_24936931_1791238525620620801.json",
+      "sha256": "3db1e8b318f8aab28d7df973ffce48eca4c9a94a9115b58049f8a04a3f119473",
+      "slurm_job_id": "24936931",
+      "started_at": 1791238525.6200988
+    },
+    {
+      "path": "runtime_events/qwen_observer_24936932_1791243430836875330.json",
+      "sha256": "92ba0833dcb68b8062a1e5bdad20b2a81066d9ff78449bb7824faca774a4086d",
+      "slurm_job_id": "24936932",
+      "started_at": 1791243430.8365796
+    }
+  ],
+  "evaluation_config_changed_keys_from_300": [
+    "completed_update",
+    "parameter_updates",
+    "source_checkpoint"
+  ],
+  "evaluation_config_change_qualification": "Only completed_update, parameter_updates and source_checkpoint metadata change. Scientific configuration remains equal across every completed evaluation and bound to unchanged training config.",
+  "checkpoint_marker_sha256": "16cf7ef393d4b9a3582cc911923ea6d034c074ba442cada84acb2e86fe6b324e",
+  "checkpoint_state_sha256": "1055ff6988ba6928b5644e219b01582f30c8eb758c48b51ac0dc0b6630a1ca27",
+  "evaluation_complete_sha256": "821e9f1b33a57e3ca97e08739efce831e006959aba3b7c16c30dea6356247666",
+  "summary_sha256": "3582c12c49e79127c5e9d446cc210dc0728ad042188847973904d6768869ccb5",
+  "public_evaluation_files_sha256": {
+    "evaluations/step_000350/COMPLETE.json": "821e9f1b33a57e3ca97e08739efce831e006959aba3b7c16c30dea6356247666",
+    "evaluations/step_000350/PIQA_GENERATIONS.json": "8608f858383e32137991bee7f4b518bd7e3ac95274601d6f4a66b0dd51d0e7e7",
+    "evaluations/step_000350/PIQA_JUDGED.json": "cad89cea38c39c3adf7e0810d7a9d7e74fbaced6b7cd220d5c32157bc0475db3",
+    "evaluations/step_000350/PIQA_JUDGE_STATUS.json": "c77bc0ef2b6085ad1b7e094292c30ee69039373a569733b056e6dd6a17567bb9",
+    "evaluations/step_000350/SELECTION.json": "a196d705c26c03f46df8fa3589dfeeea64ee6b1458ef7b788a1fd6af232d5b41",
+    "evaluations/step_000350/STATUS.json": "47c209edb1daefa2a53f8a1e2a7178a1812487c6571bb20c67a0a3cd1f6fbf6b",
+    "evaluations/step_000350/SUMMARY.json": "3582c12c49e79127c5e9d446cc210dc0728ad042188847973904d6768869ccb5",
+    "evaluations/step_000350/UNIVERSITY_GENERATIONS.json": "947d029e85213f9c3667bd26ae6fe28ad82b9d7bb3f6a380ab69693ca82ee4b6",
+    "evaluations/step_000350/UNIVERSITY_RECEIVER.json": "78d739167a2d7e4dfbbad9c46637c828e513c334d52abbfa34f2c7f709d85425",
+    "evaluations/step_000350/UNIVERSITY_RESULTS.json": "18884d70b238ecac36357e8c33d5aac83cfe04cac3b965e9c3b7d7795542fa17",
+    "evaluations/step_000350/config.json": "ed2a29c76e1da29eae67833390994c71268e484048890148948e415220d42b2a",
+    "evaluations/step_000350/report.md": "6da8fc409af2c3909e7619e2b82266a4f043b0bd1a198c52a6747ac082937e43"
+  },
+  "metrics": {
+    "C_R_correct": 1059,
+    "C_R_n": 2000,
+    "C_R": 0.5295,
+    "C_I_flagged": 54,
+    "C_I_n": 2000,
+    "C_I": 0.027,
+    "receiver_PASS": 412,
+    "receiver_FAIL": 1588,
+    "piqa_judge_rejected": 5,
+    "piqa_format_rejected": 0,
+    "piqa_overlap": 0,
+    "piqa_union_d": 5,
+    "piqa_n": 100,
+    "d": 0.05,
+    "C_R_delta_percentage_points": 2.4,
+    "C_I_delta_percentage_points": 0.1,
+    "delta_d_vs_evaluation0_percentage_points": -3
+  },
+  "comparison_baseline": "This run evaluation0; historical corrected baseline8/100 remains separate.",
+  "C_I_interpretation": "Operational observer flag fraction, not verified transmission accuracy.",
+  "snapshot_sha256": "39d85a775e883c5ddb1bc24aec96088274f08afadfd48de6ac3fd53f6ecbae5e",
+  "latest_verified_update": 400,
+  "latest_state_sha256": "2337758f549d5f461fca6f686e5aaff265c4b7a9854f99c26d8ae36070a27cca",
+  "training_metrics_and_rollout_counts_verified_through": 400,
+  "evaluation_memory_cleanup": {
+    "path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/runtime_events/h100_eval_memory_24936931_1791240959011087365.json",
+    "sha256": "f7eda3571db864e7aeeed066ee913f54e0607ce2d33b209b094e7a9afa240c5b",
+    "status": "original_judge_completed",
+    "evaluation_checkpoint_identity_verified": true,
+    "parent_live_tensor_metadata_and_rng_preserved": true,
+    "observer_live_tensor_metadata_modes_and_rng_preserved": true,
+    "live_cuda_allocated_bytes_unchanged": true
+  },
+  "notes": [
+    "Evaluation400 is partial and excluded from completed evaluation reporting.",
+    "Public artifact content hashes bind captured bytes; frozen evaluation COMPLETE binds SUMMARY, config and checkpoint identity; PIQA_JUDGED separately binds PIQA generation bytes. It does not itself contain hashes of every university row.",
+    "Successful execution and valid artifact provenance do not establish full-model numerical equivalence or prove transmission accuracy."
+  ],
+  "snapshot": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/monitoring/segment001_plot_source_snapshot.json",
+  "public_artifacts_match_local_results": true,
+  "checkpoint_remote_audit_path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/monitoring/MILESTONE_350_390_CHECKPOINT_REMOTE_AUDIT.json",
+  "checkpoint_remote_audit_sha256": "23c9ab5d51bdb988d89f40586c41f0877df763f2cecbfc38e97bc1f00e22126d",
+  "checkpoint_remote_audit_checked_at": "2026-10-05T23:49:00.862517+00:00",
+  "checkpoint_remote_audit": {
+    "update": 350,
+    "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000350",
+    "marker_exists": true,
+    "state_exists": false,
+    "complete_sha256": "16cf7ef393d4b9a3582cc911923ea6d034c074ba442cada84acb2e86fe6b324e",
+    "marker": {
+      "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+      "completed_update": 350,
+      "state_sha256": "1055ff6988ba6928b5644e219b01582f30c8eb758c48b51ac0dc0b6630a1ca27",
+      "elapsed": 25722.07196758408,
+      "phase": "sender"
+    }
+  },
+  "checkpoint_state_independently_hashed_remotely": false,
+  "checkpoint_state_hash_provenance": "Attested by hash-verified checkpoint350 COMPLETE.json; no prior independent monitor rehash of state350 is known.",
+  "checkpoint_state_verification_qualification": "At remote audit 2026-10-05T23:49:00.862517+00:00, step350 state.pt had already been pruned. The frozen retention keeps initial, latest three and segment-boundary states while retaining evaluation markers. Snapshot independently hashed state400 and separate audit independently hashed state390; neither independently rehashes state350 or proves equality with its former tensor bytes.",
+  "receiver_bias_assessment": "PASS412/FAIL1588 (20.60%/79.40%): strong FAIL bias returned after evaluation300 PASS1070/FAIL930. C_R52.95% is 2.40 percentage points above this run evaluation0 and 1.70 points below evaluation300. No settings changed.",
+  "retention_source": {
+    "path": "stego/university_training.py",
+    "sha256": "caf631b209437904260d55b7007d017eb50948a43c944e92fbc333af1b221889",
+    "checkpoint_keep_recent": 3
+  }
+}

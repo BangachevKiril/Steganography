@@ -1,0 +1,16 @@
+{
+  "kind": "H100_PPO_saved_activation_offload",
+  "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+  "training_source": "/orcd/pool/003/kirilb/Steganography/releases/uni_qwen35_27b_20261004T214535Z",
+  "wrapper_sha256": "882d72b93c0adf8ab22ca11851d321b37bf782f5bd810f0bd0472b13108c63c3",
+  "memory_helper_sha256": "9ce57ee0ff9a043273f80a75424a80bdf8a97189e0ccaedb00dce2f0f9e9b2c4",
+  "original_ppo_step_source_sha256": "e835905084c7f8e6fd6728a1d387bdd68b9bf202cfc0efcecb1d136f9ff6d3e1",
+  "implementation": "Hash-pinned layout_preserving_cpu_offload helper; full-storage pinned-CPU snapshots and exact original size/stride/storage-offset restoration.",
+  "scope": "Only this initialized instance PPO.step",
+  "receiver_offload": false,
+  "activation_recomputation": false,
+  "memory_wrapper_changes_batch_sizes_or_dtypes": false,
+  "scientific_corrections_are_in_separate_frozen_training_source": true,
+  "parity_policy": "Exact CUDA toy parity before full model initialization; caller RNG restored.",
+  "limitations": "Toy parity does not establish full-model numerical equivalence. Full-storage copies use substantial host memory; cross-tensor storage alias identity is not promised."
+}

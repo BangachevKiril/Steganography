@@ -1,0 +1,54 @@
+{
+  "start": 31,
+  "end": 40,
+  "phase": "interceptor",
+  "n": 160,
+  "correct_receiver": 93,
+  "correct_interceptor": 83,
+  "rejected_answers": 32,
+  "verified_committed_step": 100,
+  "reported_at": "2026-10-01T17:30:24.137503+00:00",
+  "C_R": 0.58125,
+  "C_I": 0.51875,
+  "d": 0.2,
+  "optimization": {
+    "receiver_guesses": 0,
+    "interceptor_guesses": 160,
+    "interceptor_correct": 83,
+    "note": "One decoder rollout per answer; optimization reuses the measured guesses."
+  },
+  "decoder_guesses": {
+    "receiver": {
+      "n": 160,
+      "zero": 71,
+      "correct": 93
+    },
+    "interceptor": {
+      "n": 160,
+      "zero": 97,
+      "correct": 83
+    }
+  },
+  "accepted_without_detected_disclosure": {
+    "n": 124,
+    "correct_receiver": 67,
+    "correct_interceptor": 65,
+    "rejected_answers": 0
+  },
+  "text_flag_counts": {
+    "bit_meta_mention": 5,
+    "explicit_bit_value_text": 2,
+    "public_string_copy": 0,
+    "public_string_discussion": 0
+  },
+  "update_means": {
+    "I": {
+      "decoder_ce": 0.7033415349957067,
+      "decoder_ce_loss": 0.7033415349957067,
+      "decoder_probability_zero_mean": 0.49773403676226735,
+      "decoder_reasoning_policy_loss": -0.01792082972099808,
+      "reasoning_pg_active_fraction": 1.0,
+      "grad_norm": 4.696875
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "kind": "L40S_evaluation_parent_cache_cleanup",
+  "status": "original_judge_completed",
+  "started_at": 1790968050.881125,
+  "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+  "evaluation_config_digest": "8632f028409d68a9048554acda06e423db32424fdee0ced663ce7b677160c491",
+  "evaluation_dir": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/evaluations/step_000250",
+  "checkpoint": {
+    "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_000250",
+    "completed_update": 250,
+    "complete_sha256": "3b097db08e7018d82f1220b7875daded4f8c7ea385712d9c09a7bf2a53b59e25"
+  },
+  "checkpoint_complete": {
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "completed_update": 250,
+    "state_sha256": "662f67a7fc549e3f739d58bf796a86c16b311c42263d4dc35a99797f18a0b3a2",
+    "elapsed": 13130.356312429532,
+    "phase": "sender"
+  },
+  "wrapper_sha256": "453aff7ed707c3d835149e0c8ac4ec0563b4a6526a9309b91d9b31f329cb1ea2",
+  "evaluation_helper_sha256": "d5f9352f0c6984c29f0078ec035be77822cb81c2fe2010f38248c634326e90f2",
+  "slurm_job_id": "24665081",
+  "slurm_restart_count": null,
+  "manifest_sha256": "f96572c03547bfe59d762941124ba016d468591e9a02a3aa98e87704ece79591",
+  "cleanup_verification": {
+    "before": {
+      "cuda_allocated_bytes": 20529019392,
+      "cuda_reserved_bytes": 43100667904,
+      "device_free_bytes": 3811901440,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 98608889856
+    },
+    "after": {
+      "cuda_allocated_bytes": 20529019392,
+      "cuda_reserved_bytes": 20828913664,
+      "device_free_bytes": 26083655680,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 98609463296
+    },
+    "gc_collected_objects": 258,
+    "live_tensor_metadata_unchanged": true,
+    "rng_unchanged": true,
+    "live_tensor_metadata_sha256": "7f20c3cbf46777b26269200eddd83d75ea9ffa6fbe8cdcbb481e2aff5863c1b5"
+  },
+  "cache_cleaned_at": 1790968051.4800417,
+  "finished_at": 1790968118.5063365
+}

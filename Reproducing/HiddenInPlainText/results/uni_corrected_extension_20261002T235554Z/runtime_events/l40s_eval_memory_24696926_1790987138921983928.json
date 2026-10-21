@@ -1,0 +1,47 @@
+{
+  "kind": "L40S_evaluation_parent_cache_cleanup",
+  "status": "original_judge_completed",
+  "started_at": 1790987138.9219882,
+  "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+  "evaluation_config_digest": "88ebe6b95adbe6d1f63357b94a175a695fde7a9b894cd2f79e58268856da6f15",
+  "evaluation_dir": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/evaluations/step_000550",
+  "checkpoint": {
+    "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_000550",
+    "completed_update": 550,
+    "complete_sha256": "7cf085761e489f095533a102bf0d736505a9ad1dcb874975cbd4735f3185415d"
+  },
+  "checkpoint_complete": {
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "completed_update": 550,
+    "state_sha256": "9d0c10c8aa6d682ee7cfba92a134378a38c1330f6b6c8000e274d683d92182c7",
+    "elapsed": 28924.0032046095,
+    "phase": "sender"
+  },
+  "wrapper_sha256": "453aff7ed707c3d835149e0c8ac4ec0563b4a6526a9309b91d9b31f329cb1ea2",
+  "evaluation_helper_sha256": "d5f9352f0c6984c29f0078ec035be77822cb81c2fe2010f38248c634326e90f2",
+  "slurm_job_id": "24696926",
+  "slurm_restart_count": null,
+  "manifest_sha256": "f96572c03547bfe59d762941124ba016d468591e9a02a3aa98e87704ece79591",
+  "cleanup_verification": {
+    "before": {
+      "cuda_allocated_bytes": 20529007616,
+      "cuda_reserved_bytes": 43058724864,
+      "device_free_bytes": 3853844480,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 98497359872
+    },
+    "after": {
+      "cuda_allocated_bytes": 20529007616,
+      "cuda_reserved_bytes": 20782776320,
+      "device_free_bytes": 26129793024,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 98499862528
+    },
+    "gc_collected_objects": 278,
+    "live_tensor_metadata_unchanged": true,
+    "rng_unchanged": true,
+    "live_tensor_metadata_sha256": "653ac581edc83717892dd0aebf857f68221b00d01867c820cb779980bb7a21d9"
+  },
+  "cache_cleaned_at": 1790987139.5550675,
+  "finished_at": 1790987206.565813
+}

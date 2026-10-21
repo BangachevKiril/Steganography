@@ -1,0 +1,85 @@
+{
+  "kind": "qwen_H100_initialization",
+  "status": "initialization_verified",
+  "started_at": 1791243317.6953857,
+  "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+  "wrapper_sha256": "882d72b93c0adf8ab22ca11851d321b37bf782f5bd810f0bd0472b13108c63c3",
+  "before_model_loading": true,
+  "memory_helper_sha256": "9ce57ee0ff9a043273f80a75424a80bdf8a97189e0ccaedb00dce2f0f9e9b2c4",
+  "slurm_job_id": "24936932",
+  "slurm_restart_count": null,
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "gpu_memory_bytes": 85019328512,
+  "gpu_capability": [
+    9,
+    0
+  ],
+  "versions": {
+    "torch": "2.4.0+cu124",
+    "transformers": "4.43.2",
+    "trl": "0.9.6",
+    "peft": "0.12.0",
+    "accelerate": "0.33.0",
+    "bitsandbytes": "0.43.3",
+    "numpy": "1.26.4",
+    "datasets": "2.20.0",
+    "tokenizers": "0.19.1"
+  },
+  "cuda": "12.4",
+  "executable": "/orcd/pool/003/kirilb/Steganography/envs/uni_author_torch240/bin/python",
+  "bitsandbytes_module": "/orcd/pool/003/kirilb/Steganography/envs/uni_author_torch240/lib/python3.12/site-packages/bitsandbytes/__init__.py",
+  "source_checkpoint": {
+    "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000390",
+    "marker": {
+      "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+      "completed_update": 390,
+      "state_sha256": "de8eba38536c759c71f65b645eb2bddf57fa5104bae507e50f38c3b6dc51ce0f",
+      "elapsed": 27941.067958471365,
+      "phase": "sender"
+    },
+    "complete_sha256": "d9d01d85c1bea776c6154eefe936df1fd1a6064799072bbae9492ce7a211a6b1"
+  },
+  "fresh_baseline_initialization": false,
+  "cuda_toy_parity": {
+    "status": "passed",
+    "device": "NVIDIA H100 80GB HBM3",
+    "test": "Same-seeded CUDA FP16 frozen linear + FP32 low-rank adapters, dropout, value head, post-adapter frozen linear and saved strided/offset/expanded views",
+    "exact_initial_parameters": true,
+    "exact_outputs": true,
+    "exact_loss": true,
+    "exact_gradients": true,
+    "exact_adamw_state": true,
+    "exact_updated_parameters": true,
+    "exact_post_test_rng": true,
+    "loss": 2.565762758255005,
+    "exact_baseline_repeat": true,
+    "toy_optimizer_steps": 3,
+    "actual_training_model_updates": 0,
+    "cuda_transfer_verified": true,
+    "packed_cuda_tensors": 15,
+    "unpacked_cuda_tensors": 14,
+    "all_packed_cuda_tensors_on_pinned_cpu": true,
+    "packed_storage_bytes": 3560,
+    "noncontiguous_cuda_tensors": 4,
+    "nonzero_offset_cuda_tensors": 1,
+    "expanded_cuda_tensors": 1,
+    "limitation": "A tiny graph parity check does not establish full-model numerical equivalence or memory capacity.",
+    "caller_rng_restored": true
+  },
+  "parity_completed_at": 1791243324.2413785,
+  "initialized_at": 1791243432.4603767,
+  "completed_update": 390,
+  "restored_elapsed_seconds": 27941.067958471365,
+  "checkpoint": {
+    "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000390",
+    "marker": {
+      "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+      "completed_update": 390,
+      "state_sha256": "de8eba38536c759c71f65b645eb2bddf57fa5104bae507e50f38c3b6dc51ce0f",
+      "elapsed": 27941.067958471365,
+      "phase": "sender"
+    },
+    "complete_sha256": "d9d01d85c1bea776c6154eefe936df1fd1a6064799072bbae9492ce7a211a6b1"
+  },
+  "configured_active_budget_seconds": 83700
+}

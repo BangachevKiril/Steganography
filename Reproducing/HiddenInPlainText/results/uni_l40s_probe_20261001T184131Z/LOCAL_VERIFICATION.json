@@ -1,0 +1,23 @@
+{
+  "verified_at": "2026-10-01T18:52:43.938770+00:00",
+  "complete_hashes_verified": true,
+  "script_hash_verified": true,
+  "checkpoint_state_sha256": "edc4a904a5d7ce36ec18b509d60732d2be862d16786f74571bf84ba78ca3dd2b",
+  "populations": {
+    "evaluation50": {
+      "rows_verified": 2000,
+      "public_rows_sha256": "cd0cfd38504adb97ebadfb074d20b0b64764e5609fec290905aff2ff1366a47e",
+      "reference_file_sha256": "760365b122aa5329dd42f692898eff752587a35f443efdd39075e071d5a3e623",
+      "flag_changes": 29
+    },
+    "training_update82": {
+      "rows_verified": 192,
+      "public_rows_sha256": "cfc947d61b1030df06d7584a4397fd933aa31306566d8b4f8cfaa638e11ff489",
+      "reference_file_sha256": "5e05ee3da2be9b7313f5de1658cb6a2e3f1aab3266f02e5c1a3afe93fa49a14c",
+      "flag_changes": 2
+    }
+  },
+  "parameter_updates": 0,
+  "full_training_capacity_verified": false,
+  "numerical_equivalence": false
+}

@@ -1,0 +1,22 @@
+{
+  "kind": "authorized_qwen_fp8_zero_block_guard_003",
+  "applied_at": "2026-10-05T14:47:51.133146+00:00",
+  "authorization": "Direct human approval in monitoring chat on 2026-10-05",
+  "runtime_path": "/orcd/pool/003/kirilb/Steganography/envs/qwen35_observer/lib/python3.12/site-packages/transformers/integrations/finegrained_fp8.py",
+  "before_sha256": "a486628c4f03abfe299653200ebd2cc577a9ff514fa37cc773031440702107a7",
+  "after_sha256": "5ea1130b150506e7a7e94534ee4e9aedd6e57ef576bfc50ced6e00927d926612",
+  "original_backup": "/orcd/pool/003/kirilb/Steganography/envs/qwen35_observer/runtime_tools/zero_block_guard_003/original_finegrained_fp8.py",
+  "guard": "Exactly zero activation blocks use unit scale; nonzero formula unchanged",
+  "source_hashes_verified": 41,
+  "original_config_unchanged": true,
+  "run_lock_exclusive_check": "passed",
+  "active_related_jobs": 0,
+  "committed_checkpoints": 0,
+  "training_retry_allowed": false,
+  "validation": "pending_H100",
+  "cumulative_thresholds": [
+    27900,
+    55800,
+    83700
+  ]
+}

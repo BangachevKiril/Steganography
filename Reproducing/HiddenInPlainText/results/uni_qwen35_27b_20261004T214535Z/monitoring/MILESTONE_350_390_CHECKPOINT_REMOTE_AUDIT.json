@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-10-05T23:49:00.862517+00:00",
+  "checkpoints": [
+    {
+      "update": 350,
+      "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000350",
+      "marker_exists": true,
+      "state_exists": false,
+      "complete_sha256": "16cf7ef393d4b9a3582cc911923ea6d034c074ba442cada84acb2e86fe6b324e",
+      "marker": {
+        "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+        "completed_update": 350,
+        "state_sha256": "1055ff6988ba6928b5644e219b01582f30c8eb758c48b51ac0dc0b6630a1ca27",
+        "elapsed": 25722.07196758408,
+        "phase": "sender"
+      }
+    },
+    {
+      "update": 390,
+      "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000390",
+      "marker_exists": true,
+      "state_exists": true,
+      "complete_sha256": "d9d01d85c1bea776c6154eefe936df1fd1a6064799072bbae9492ce7a211a6b1",
+      "marker": {
+        "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+        "completed_update": 390,
+        "state_sha256": "de8eba38536c759c71f65b645eb2bddf57fa5104bae507e50f38c3b6dc51ce0f",
+        "elapsed": 27941.067958471365,
+        "phase": "sender"
+      },
+      "state_sha256": "de8eba38536c759c71f65b645eb2bddf57fa5104bae507e50f38c3b6dc51ce0f",
+      "state_sha256_verified": true,
+      "state_bytes": 842315842
+    }
+  ]
+}

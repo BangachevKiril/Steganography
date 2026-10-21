@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "kind": "qwen_fp8_zero_block_guard_003",
+  "source_root": "/orcd/pool/003/kirilb/Steganography/releases/uni_qwen35_27b_20261004T214535Z",
+  "run_dir": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z",
+  "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+  "source_sha256": {
+    "CORRECTIONS.json": "728f72cd984cf4e59700e2337b992c372ae986c50633069e64a747300b4f7e60",
+    "EXPERIMENT.md": "2f1714def712ce38f299ef45854531f56ad6b54219ebdcbd0b42acf68f621ccc",
+    "MODEL_MANIFEST.json": "193e597d325859c6ea35697dbe0be4ea87fbee35b73a3937afb6efe7956d171b",
+    "OBSERVER_RUNTIME.json": "ba4f20c04e00299903c35db5e70fc0a3ccceb641632064717ea66fcdd4a3092d",
+    "SOURCE_AUDIT.json": "77155d0344d52f70631fc60c352f38e93a1f162d40856f38f561601e23ec11e1",
+    "orcd/monitoring/snapshot_qwen_university.py": "2eebef41959741dd959d76403ad7c00ee1a6d2dbe9b561a5fbd293a272970df5",
+    "orcd/qwen_observer_client.py": "628de73ff9c0a9fb97250f6f631b2d5e7e5fcc0fb6a2e32476c21434f8415f94",
+    "orcd/qwen_observer_worker.py": "1d15b80a8967ce00a471551e6d5b833f22a563e82352db713c830cf44af8c074",
+    "orcd/qwen_segment_training.py": "e33dc58a89b20ca667bd6b0bca572cbdde652a5db9328ee82a32f0466032da96",
+    "orcd/university_l40s_evaluation_memory.py": "d5f9352f0c6984c29f0078ec035be77822cb81c2fe2010f38248c634326e90f2",
+    "orcd/university_l40s_memory_training.py": "9ce57ee0ff9a043273f80a75424a80bdf8a97189e0ccaedb00dce2f0f9e9b2c4",
+    "orcd/university_qwen_h100.py": "882d72b93c0adf8ab22ca11851d321b37bf782f5bd810f0bd0472b13108c63c3",
+    "orcd/university_qwen_h100.slurm": "b19466f643398d1a3e22cb741f193c982707e5b25be4990be77ae6363b7fcc54",
+    "stego/__init__.py": "c5c9f525a0627442d9019eb0d083059f68b58fdeccd242dbf8f1d23ecd0cffda",
+    "stego/decoder_comparison.py": "ad8992342bedc839546beed6cd8de182bf912dc3f4af8091fc18850bdc9b7bc0",
+    "stego/decoder_prompt_comparison.py": "32a15b42ea6767c438218352a5621e821ec49f2a6e47bb21f43a2f5e010a3c65",
+    "stego/engine.py": "6e13d082d1f09a997c763fecad8934dc14543f77ba6090f21b0f2750ddaebbf6",
+    "stego/paired_inference.py": "a7db0efc00a8a9dcea61c572481b388670beeb6ed2df04e8dc56e7282000052b",
+    "stego/paired_sender_probe.py": "c360667367a14403b3149787f8dd8ba6abbf7474f763b9f06ce670ef983f3424",
+    "stego/prompt_comparison.py": "2d5665692072e52e1ed422b9dd6523ffd30780bed3e988db4e36d0a5d0a341e7",
+    "stego/prompt_comparison_report.py": "47271eebe234bd94a6c3d955467feaf966f87cd19d8e9c7758150c790572bab2",
+    "stego/protocol.py": "2e130ea625f846da553f00d51add7ddfa446892e52195b588c780767a90f8771",
+    "stego/rejection_baseline.py": "c8b9d8a876a4bb368d05a6e8ff5da60dbbf3cd6c832026cae90eecf35ec162bc",
+    "stego/smoke.py": "c4a821b8fc4f9f2cb3fe9d30c7b9d1b1f9068315d42f964c45d55e8d2828202f",
+    "stego/train.py": "8de5e1815935ace4895f52e7ecc6a8606bf99bebb0cc110a14d6a34550582618",
+    "stego/training_report.py": "83b9057bad934c123a036fb4a88a0d703b4cdbe5a4a04fc5c42fe3d04de1ce2e",
+    "stego/university_baseline.py": "db50bd974bc236fb97b1069e902585782dec64dfd9b74b8356ac820094b3a299",
+    "stego/university_evaluation.py": "f9a83f317ea6312a50382138b34f062afcccdec055279137c339df0c91ce6656",
+    "stego/university_judge.py": "7fffbd98fcda817ce482282dfbe7debbf7173dbf2b25ac215f7d3a2a40fc7397",
+    "stego/university_metrics.py": "c04587aaab3543ea3e5eb57a1777850b3cd69a1e8ad6d8a2a78e80501477ec7a",
+    "stego/university_training.py": "caf631b209437904260d55b7007d017eb50948a43c944e92fbc333af1b221889",
+    "stego/university_training_report.py": "8b140df40bc72e73edd05f8957f3cad512bb8caba85f64d32d706f0e3365d6ee",
+    "tests/test_qwen_observer_ipc.py": "02d9508a3ce9a83abee815bdd53c6f9900ff51b2460c8b2cf0f035a2aaaed63b",
+    "tests/test_qwen_segments.py": "77150b0d40c9fe76930c36da15acce3fa535bfb46d51379183e5367efe41dfec",
+    "tests/test_university_baseline.py": "cc67f28fb6c07ab386b407f094f98ac7d21b406429c3c49d24095c0218939704",
+    "tests/test_university_corrections.py": "594fe13fc6ad218620a1ffd144cd7f867f542fd3ec290f2fdcda8d79c0146b98",
+    "tests/test_university_evaluation_memory.py": "ccf79d6a83a979cca88d31b219a979de1ac321734d8ba3e219453285f61aae1a",
+    "tests/test_university_judge.py": "4125b648063742b33f18d5d3f1132c8f078518427a75ccc20dacc88a7ac93149",
+    "tests/test_university_metrics.py": "c5dc4d7ebe51db2c2df7cc1d825169edd1fa9d938aeb61a8788d34cf161744f3",
+    "tests/test_university_training.py": "d1bb5c87f354a1ba1e6d499af372909ee0dbff230634af117f334567d322683f",
+    "tests/test_university_training_report.py": "5b3a5874d4acc5d2d7a5dc7e91456d73c6708198c571704424dc1d55c51d03c0"
+  },
+  "wrapper_sha256": "882d72b93c0adf8ab22ca11851d321b37bf782f5bd810f0bd0472b13108c63c3",
+  "runtime": {
+    "path": "/orcd/pool/003/kirilb/Steganography/envs/qwen35_observer/lib/python3.12/site-packages/transformers/integrations/finegrained_fp8.py",
+    "before_sha256": "a486628c4f03abfe299653200ebd2cc577a9ff514fa37cc773031440702107a7",
+    "after_sha256": "5ea1130b150506e7a7e94534ee4e9aedd6e57ef576bfc50ced6e00927d926612"
+  },
+  "recovery_files_sha256": {
+    "bootstrap.py": "af8a31e9652e1bcf5e023235ee29a93b821c4fa9f1e6c134e3c8d6994a35eeb0",
+    "training.slurm": "1345b8067e1b91384b331254ef1d56d573497917b660da21198d02d7d24fc624"
+  },
+  "authorization": {
+    "path": "/orcd/pool/003/kirilb/Steganography/releases/uni_qwen35_27b_20261004T214535Z/recovery/zero_block_guard_003/AUTHORIZATION.json",
+    "sha256": "c5d01efc8566710ec8cb64faa4224d4965e95f1fbf03507bf3ddd2d36964513c"
+  },
+  "validation": {
+    "path": "/orcd/pool/003/kirilb/Steganography/diagnostics/uni_qwen35_27b_20261004T214535Z/zero_guard_validation_001/DIAGNOSTIC.json",
+    "sha256": "8b7bff3f8f82285b8f1b6222a06729784164d3fdb0911a4ee537d7e0411f87eb",
+    "required": {
+      "status": "passed",
+      "validation_passed": true,
+      "quantizer_validation_passed": true,
+      "model_validation_passed": true,
+      "runtime_after_sha256": "5ea1130b150506e7a7e94534ee4e9aedd6e57ef576bfc50ced6e00927d926612",
+      "script_sha256": "e50740b518665da3bfee3247b92f5c4c3447002c8491bef6843be68a4e075718",
+      "slurm_sha256": "4a2a8ea1782faed9cda28a9f76021c2573cb8d6e89be493910b840bd95adda9d",
+      "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+      "job_id": "24932889"
+    }
+  }
+}

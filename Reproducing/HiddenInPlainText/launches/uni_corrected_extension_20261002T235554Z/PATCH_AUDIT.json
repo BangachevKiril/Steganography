@@ -1,0 +1,14 @@
+{
+  "train": {
+    "before_sha256": "9cc1c52830347f92ebbe0dfd7ee7b200040586676f0d01ebdb74805dd54e6938",
+    "after_sha256": "5f19cec87785b4ffbc7d7abe13b8f53b4e92bbb0940c6ec5be8fcd34a31a7225",
+    "replace": "self.config['max_active_seconds']",
+    "with": "55830.404972237535"
+  },
+  "checkpoint": {
+    "before_sha256": "bff33080152af7821ffb066e9dc8c5523d7a84fb3c8be6f3d5813bd3bb4d28ec",
+    "after_sha256": "ee17d2306bb9e8ecd410906ba430b0b70f468b5121101cef2d907039b984ff7c",
+    "replace": "step>0 and step<self.update-keep+1 and step%self.config['evaluation_interval']!=0",
+    "with": "step>0 and step<self.update-keep+1 and step%self.config['evaluation_interval']!=0 and step != 530"
+  }
+}

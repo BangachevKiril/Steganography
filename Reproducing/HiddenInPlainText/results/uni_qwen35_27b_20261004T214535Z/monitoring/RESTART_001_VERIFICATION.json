@@ -1,0 +1,25 @@
+{
+  "job_id": "24936931",
+  "restart_count": 1,
+  "node": "node2900",
+  "resumed_update": 26,
+  "state_sha256": "50410dc0fd0863807d1b281d1a839ebe337d2dc7839763439e794b5302706021",
+  "restored_checkpoint_elapsed_seconds": 2237.291750857141,
+  "retained_active_clock_seconds": 2239.9694547243416,
+  "fixed_cumulative_thresholds": [
+    27900,
+    55800,
+    83700
+  ],
+  "preflight_event": "runtime_events/h100_memory_preflight_24936931_1791216512304512688.json",
+  "preflight_sha256": "a3a38c5ce4518b8770e394fe516d53752937f01510f7b4101a65d02e13d41183",
+  "observer_started_at": 1791216700.7167687,
+  "same_config_and_41_sources": true,
+  "guard_authorization_verified": true,
+  "fresh_initialization": false,
+  "scope": "Public startup attestation plus checkpoint hash and source-audited restore path; no tensors inspected locally.",
+  "verified_at": "2026-10-05T16:14:51.627179+00:00",
+  "reported": true,
+  "independent_audit": "Passed:79 public hashes,41 source hashes,24 observer model identities, checkpoint26 hash, runtime guard/auth, H100 toy parity and retained cumulative clock.",
+  "restoration_qualification": "Both optimizer states, RNG, streams, modes, PPO step/KL and optional scheduler/scaler are restored by verified frozen source; public artifacts attest checkpoint identity/update/elapsed and successful initialization. Individual tensor/optimizer field equality was not independently compared."
+}

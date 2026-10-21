@@ -1,0 +1,56 @@
+{
+  "checked_at": "2026-10-08T16:37:52.383057+00:00",
+  "predictions_path": "/Users/kirilbangachev/Projects/steganography/predictions.jsonl",
+  "predictions_sha256": "ed54cc15cac47e5a02cfb936d80849203b07342dc252ff8cbb2e2942899ec41b",
+  "training_labels_path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/data/university_observer_qwen_checkpoint1440_split/training_hidden_labels.jsonl",
+  "training_labels_sha256": "3ebe2a1dab1b35ec36eac501d366dbd3ba363432d7967c8c19bc8b2fd88761a2",
+  "split_manifest_path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/data/university_observer_qwen_checkpoint1440_split/split_manifest.json",
+  "split_manifest_sha256": "5a030b3cc0babb08b722ff7c05e92d2a797e8c19021d5db79dba76d49be9540e",
+  "source_checkpoint_update": 1440,
+  "label_mapping": {
+    "bad": 0,
+    "good": 1
+  },
+  "n": 1000,
+  "correct": 996,
+  "incorrect": 4,
+  "accuracy": 0.996,
+  "confusion_matrix_actual_rows_predicted_columns": {
+    "bad": {
+      "bad": 497,
+      "good": 2
+    },
+    "good": {
+      "bad": 2,
+      "good": 499
+    }
+  },
+  "coverage": {
+    "unique_predictions": 1000,
+    "missing_ids": [],
+    "extra_ids": [],
+    "duplicate_ids": [],
+    "invalid_labels": [],
+    "same_order_as_training_file": true
+  },
+  "incorrect_example_ids": [
+    1715,
+    241,
+    1889,
+    575
+  ],
+  "class_metrics": {
+    "bad": {
+      "actual_n": 499,
+      "predicted_n": 499,
+      "precision": 0.9959919839679359,
+      "recall": 0.9959919839679359
+    },
+    "good": {
+      "actual_n": 501,
+      "predicted_n": 501,
+      "precision": 0.9960079840319361,
+      "recall": 0.9960079840319361
+    }
+  }
+}

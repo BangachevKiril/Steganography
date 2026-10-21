@@ -1,0 +1,47 @@
+{
+  "kind": "L40S_evaluation_parent_cache_cleanup",
+  "status": "original_judge_completed",
+  "started_at": 1790962887.787205,
+  "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+  "evaluation_config_digest": "c0505d1927ecd32f71841ab35135e6af3411f167cee5eee3c4fdc98b7ee0ce7b",
+  "evaluation_dir": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/evaluations/step_000150",
+  "checkpoint": {
+    "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_000150",
+    "completed_update": 150,
+    "complete_sha256": "f8528395fa7961e703e19dac011579476c38703e2f51edaa67e79969530242b1"
+  },
+  "checkpoint_complete": {
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "completed_update": 150,
+    "state_sha256": "34f6403a6d507ca24716c7677ef74758dbe69ddcc8c76380fd8be80d2077da93",
+    "elapsed": 7965.758367056027,
+    "phase": "sender"
+  },
+  "wrapper_sha256": "453aff7ed707c3d835149e0c8ac4ec0563b4a6526a9309b91d9b31f329cb1ea2",
+  "evaluation_helper_sha256": "d5f9352f0c6984c29f0078ec035be77822cb81c2fe2010f38248c634326e90f2",
+  "slurm_job_id": "24665081",
+  "slurm_restart_count": null,
+  "manifest_sha256": "f96572c03547bfe59d762941124ba016d468591e9a02a3aa98e87704ece79591",
+  "cleanup_verification": {
+    "before": {
+      "cuda_allocated_bytes": 20529086976,
+      "cuda_reserved_bytes": 43394269184,
+      "device_free_bytes": 3518300160,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 98609012736
+    },
+    "after": {
+      "cuda_allocated_bytes": 20529086976,
+      "cuda_reserved_bytes": 20805844992,
+      "device_free_bytes": 26106724352,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 98609156096
+    },
+    "gc_collected_objects": 258,
+    "live_tensor_metadata_unchanged": true,
+    "rng_unchanged": true,
+    "live_tensor_metadata_sha256": "a374729fb9e7b226a2df57a75cbba94a15fd3bfd9b20cbc017101bab048a0771"
+  },
+  "cache_cleaned_at": 1790962888.3970618,
+  "finished_at": 1790962955.5712698
+}

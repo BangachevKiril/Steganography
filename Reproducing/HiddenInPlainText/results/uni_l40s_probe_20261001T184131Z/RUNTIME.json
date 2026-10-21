@@ -1,0 +1,25 @@
+{
+  "versions": {
+    "torch": "2.4.0+cu124",
+    "transformers": "4.43.2",
+    "trl": "0.9.6",
+    "peft": "0.12.0",
+    "accelerate": "0.33.0",
+    "bitsandbytes": "0.43.3",
+    "numpy": "1.26.4",
+    "datasets": "2.20.0",
+    "tokenizers": "0.19.1"
+  },
+  "python": "3.12.13 | packaged by conda-forge | (main, Mar  5 2026, 16:50:00) [GCC 14.3.0]",
+  "executable": "/orcd/pool/003/kirilb/Steganography/envs/uni_author_torch240/bin/python",
+  "bitsandbytes_module": "/orcd/pool/003/kirilb/Steganography/envs/uni_author_torch240/lib/python3.12/site-packages/bitsandbytes/__init__.py",
+  "cuda": "12.4",
+  "gpu": "NVIDIA L40S",
+  "memory_bytes": 47667740672,
+  "capability": [
+    8,
+    9
+  ],
+  "visible_gpu_count": 1,
+  "slurm_job_id": "24566270"
+}

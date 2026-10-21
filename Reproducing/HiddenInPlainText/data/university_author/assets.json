@@ -1,0 +1,31 @@
+{
+  "sender": {
+    "repo": "unsloth/gemma-2-2b-it",
+    "revision": "457f2e15bf550c227ce6ad86e2ec108d3e42c106",
+    "path": "/orcd/pool/003/kirilb/Steganography/assets/university/cache/models--unsloth--gemma-2-2b-it/snapshots/457f2e15bf550c227ce6ad86e2ec108d3e42c106"
+  },
+  "receiver": {
+    "repo": "distilbert/distilbert-base-uncased",
+    "revision": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+    "path": "/orcd/pool/003/kirilb/Steganography/assets/university/cache/models--distilbert--distilbert-base-uncased/snapshots/12040accade4e8a0f71eabdb258fecc2e7e948be"
+  },
+  "observer": {
+    "repo": "unsloth/Meta-Llama-3.1-8B-Instruct",
+    "revision": "4a5a8d99c8319f05d5230cbdccfb56fd0292532e",
+    "path": "/orcd/pool/003/kirilb/Steganography/assets/university/cache/models--unsloth--Meta-Llama-3.1-8B-Instruct/snapshots/4a5a8d99c8319f05d5230cbdccfb56fd0292532e"
+  },
+  "dataset": {
+    "repo": "rmcc11/lasr-toy-cv-with-paraphrased",
+    "revision": "390bb12b91b572ed7b750d916856e7b21ed72a8e",
+    "files": {
+      "train": {
+        "path": "/orcd/pool/003/kirilb/Steganography/assets/university/cache/datasets--rmcc11--lasr-toy-cv-with-paraphrased/snapshots/390bb12b91b572ed7b750d916856e7b21ed72a8e/data/train-00000-of-00001.parquet",
+        "sha256": "b50529ca7016279eb5f2966167f271087de1458cf577c546d82314d519b7c257"
+      },
+      "test": {
+        "path": "/orcd/pool/003/kirilb/Steganography/assets/university/cache/datasets--rmcc11--lasr-toy-cv-with-paraphrased/snapshots/390bb12b91b572ed7b750d916856e7b21ed72a8e/data/test-00000-of-00001.parquet",
+        "sha256": "caaac377ade0a587f9ce84a9f739fddbf2545a03005b493fb1a268b934b8dd84"
+      }
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "n": 512,
+  "receiver_correct": 245,
+  "observer_flagged": 9,
+  "receiver_pass": 492,
+  "receiver_fail": 20,
+  "mean_loss": 0.6997125595808029,
+  "receiver_training": {
+    "n": 256,
+    "correct": 119,
+    "optimizer_steps": 1,
+    "loss": 0.6997125595808029,
+    "optimizer_sample_count": 256,
+    "microbatches": 4,
+    "gradient_reduction": "mean_cross_entropy_over_all_examples",
+    "label_counts": {
+      "PASS": 123,
+      "FAIL": 133
+    },
+    "minibatch_label_counts": [
+      {
+        "n": 64,
+        "PASS": 34,
+        "FAIL": 30
+      },
+      {
+        "n": 64,
+        "PASS": 27,
+        "FAIL": 37
+      },
+      {
+        "n": 64,
+        "PASS": 30,
+        "FAIL": 34
+      },
+      {
+        "n": 64,
+        "PASS": 32,
+        "FAIL": 32
+      }
+    ]
+  },
+  "update": 1,
+  "kind": "receiver",
+  "cycle": 1,
+  "duration_seconds": 50.21205511176959,
+  "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d"
+}

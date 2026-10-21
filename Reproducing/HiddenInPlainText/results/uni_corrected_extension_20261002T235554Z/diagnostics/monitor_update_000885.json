@@ -1,0 +1,323 @@
+{
+  "added_active_seconds_at_checkpoint": 18138.980153409997,
+  "checked_at": "2026-10-03T05:11:16.341463+00:00",
+  "checkpoint": {
+    "completed_update": 885,
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "elapsed": 46069.38512564753,
+    "phase": "sender",
+    "state_sha256": "2f16c8b17300b159a346c17d44022e6ee055e4f47cb16ef6f9334a60233cdec0"
+  },
+  "completed_evaluation_bindings_verified": [
+    0,
+    50,
+    100,
+    150,
+    200,
+    250,
+    300,
+    350,
+    400,
+    450,
+    500,
+    530,
+    550,
+    600,
+    650,
+    700,
+    750,
+    800,
+    850
+  ],
+  "current_stage": "sender_ppo",
+  "evaluation_cleanup_events": [
+    {
+      "after": {
+        "cuda_allocated_bytes": 20529007616,
+        "cuda_reserved_bytes": 20782776320,
+        "device_free_bytes": 26129793024,
+        "device_total_bytes": 47667740672,
+        "host_rss_bytes": 98499862528
+      },
+      "before": {
+        "cuda_allocated_bytes": 20529007616,
+        "cuda_reserved_bytes": 43058724864,
+        "device_free_bytes": 3853844480,
+        "device_total_bytes": 47667740672,
+        "host_rss_bytes": 98497359872
+      },
+      "event": "runtime_events/l40s_eval_memory_24696926_1790987138921983928.json",
+      "sha256": "039519f001c65c66ce92ab4b4b5f95d3cca798f7b950422d765d744eb255e271",
+      "update": 550
+    },
+    {
+      "after": {
+        "cuda_allocated_bytes": 20528994816,
+        "cuda_reserved_bytes": 20761804800,
+        "device_free_bytes": 26150764544,
+        "device_total_bytes": 47667740672,
+        "host_rss_bytes": 98525659136
+      },
+      "before": {
+        "cuda_allocated_bytes": 20528994816,
+        "cuda_reserved_bytes": 43331354624,
+        "device_free_bytes": 3581214720,
+        "device_total_bytes": 47667740672,
+        "host_rss_bytes": 98525642752
+      },
+      "event": "runtime_events/l40s_eval_memory_24696926_1790989716679733659.json",
+      "sha256": "80943c53cdb775304dd0719700b0d6f3de55979175f5ef39ff4bb78e6430d84b",
+      "update": 600
+    },
+    {
+      "after": {
+        "cuda_allocated_bytes": 20528790016,
+        "cuda_reserved_bytes": 20782776320,
+        "device_free_bytes": 26129793024,
+        "device_total_bytes": 47667740672,
+        "host_rss_bytes": 98638319616
+      },
+      "before": {
+        "cuda_allocated_bytes": 20528790016,
+        "cuda_reserved_bytes": 43310383104,
+        "device_free_bytes": 3602186240,
+        "device_total_bytes": 47667740672,
+        "host_rss_bytes": 98636414976
+      },
+      "event": "runtime_events/l40s_eval_memory_24696926_1790992291430179908.json",
+      "sha256": "a7c903c8be52f6575d67217cb0845611a6544704172356c8914a66154ccfac44",
+      "update": 650
+    },
+    {
+      "after": {
+        "cuda_allocated_bytes": 20529041920,
+        "cuda_reserved_bytes": 20782776320,
+        "device_free_bytes": 26129793024,
+        "device_total_bytes": 47667740672,
+        "host_rss_bytes": 98702553088
+      },
+      "before": {
+        "cuda_allocated_bytes": 20529041920,
+        "cuda_reserved_bytes": 42765123584,
+        "device_free_bytes": 4147445760,
+        "device_total_bytes": 47667740672,
+        "host_rss_bytes": 98701619200
+      },
+      "event": "runtime_events/l40s_eval_memory_24696926_1790994847420644064.json",
+      "sha256": "3be006bb6b81e3884f5936339d6dbe6ce6b42a5a8f049e20135e2237ebea5932",
+      "update": 700
+    },
+    {
+      "after": {
+        "cuda_allocated_bytes": 20528778752,
+        "cuda_reserved_bytes": 20803747840,
+        "device_free_bytes": 26108821504,
+        "device_total_bytes": 47667740672,
+        "host_rss_bytes": 98703212544
+      },
+      "before": {
+        "cuda_allocated_bytes": 20528778752,
+        "cuda_reserved_bytes": 42744152064,
+        "device_free_bytes": 4168417280,
+        "device_total_bytes": 47667740672,
+        "host_rss_bytes": 98702082048
+      },
+      "event": "runtime_events/l40s_eval_memory_24696926_1790997366099260163.json",
+      "sha256": "342ddb5ffc646cbc732ee277461ede859031b9c58c73c99a4489c1f39f5b44ba",
+      "update": 750
+    },
+    {
+      "after": {
+        "cuda_allocated_bytes": 20528424960,
+        "cuda_reserved_bytes": 20740833280,
+        "device_free_bytes": 26171736064,
+        "device_total_bytes": 47667740672,
+        "host_rss_bytes": 98702897152
+      },
+      "before": {
+        "cuda_allocated_bytes": 20528424960,
+        "cuda_reserved_bytes": 43375394816,
+        "device_free_bytes": 3537174528,
+        "device_total_bytes": 47667740672,
+        "host_rss_bytes": 98702655488
+      },
+      "event": "runtime_events/l40s_eval_memory_24696926_1790999891448492904.json",
+      "sha256": "b2eeef4f95a282269c75e64b43e7440853f000e63a2c1634cd3ab99a729b408a",
+      "update": 800
+    },
+    {
+      "after": {
+        "cuda_allocated_bytes": 20528456704,
+        "cuda_reserved_bytes": 20761804800,
+        "device_free_bytes": 26150764544,
+        "device_total_bytes": 47667740672,
+        "host_rss_bytes": 98702852096
+      },
+      "before": {
+        "cuda_allocated_bytes": 20528456704,
+        "cuda_reserved_bytes": 43058724864,
+        "device_free_bytes": 3853844480,
+        "device_total_bytes": 47667740672,
+        "host_rss_bytes": 98702782464
+      },
+      "event": "runtime_events/l40s_eval_memory_24696926_1791002457381186427.json",
+      "sha256": "21d2bcbdf863373de886285094f36f824b201af5e924cc4bb6e56b01455de01c",
+      "update": 850
+    }
+  ],
+  "evaluation_cleanup_invariants_passed": true,
+  "evaluation_public_rows_require_separate_audit": [],
+  "exclusive_matching_slurm_job_in_supplied_queue": true,
+  "exclusivity_scope": "Only visible matching-name jobs; no claim about differently named jobs.",
+  "extension_event": "runtime_events/l40s_extension_24696926_1790986075180597280.json",
+  "extension_event_sha256": "046ce8582045914bc5a8497cf89cb1f4837d62a3a7c61dafa375070d6687d6b0",
+  "failure_json_present": false,
+  "identity_checks": {
+    "all_passed": true,
+    "checks": {
+      "CORRECTIONS.json": true,
+      "EXPERIMENT.md": true,
+      "archive_manifest": true,
+      "extension_manifest": true,
+      "extension_slurm": true,
+      "extension_wrapper": true,
+      "orcd/university_corrected_l40s.py": true,
+      "orcd/university_corrected_l40s.slurm": true,
+      "orcd/university_l40s_evaluation_memory.py": true,
+      "orcd/university_l40s_memory_training.py": true,
+      "orcd/university_training.slurm": true,
+      "pinned_origin_marker": true,
+      "stego/__init__.py": true,
+      "stego/decoder_comparison.py": true,
+      "stego/decoder_prompt_comparison.py": true,
+      "stego/engine.py": true,
+      "stego/paired_inference.py": true,
+      "stego/paired_sender_probe.py": true,
+      "stego/prompt_comparison.py": true,
+      "stego/prompt_comparison_report.py": true,
+      "stego/protocol.py": true,
+      "stego/rejection_baseline.py": true,
+      "stego/smoke.py": true,
+      "stego/train.py": true,
+      "stego/training_report.py": true,
+      "stego/university_baseline.py": true,
+      "stego/university_evaluation.py": true,
+      "stego/university_judge.py": true,
+      "stego/university_metrics.py": true,
+      "stego/university_training.py": true,
+      "stego/university_training_report.py": true,
+      "tests/test_university_baseline.py": true,
+      "tests/test_university_corrections.py": true,
+      "tests/test_university_evaluation_memory.py": true,
+      "tests/test_university_judge.py": true,
+      "tests/test_university_metrics.py": true,
+      "tests/test_university_training.py": true,
+      "tests/test_university_training_report.py": true
+    }
+  },
+  "independent_public_rollout_audit": {
+    "all_counts_finite_schedule_receiver_optimization_and_selected_labels_verified": true,
+    "all_other_batches_have_unique_texts": true,
+    "all_texts_unique_within_batches": false,
+    "duplicate_text_observations": [
+      {
+        "n": 512,
+        "unique_texts": 511,
+        "update": 884
+      }
+    ],
+    "population_note": "Sender populations are 192. Receiver update877 collection has296 rows, other receiver collections have512 rows; optimization uses the last256 unflagged rows.",
+    "receiver_collection_observer_flag_fraction_range": [
+      0.0137,
+      0.0176
+    ],
+    "receiver_collection_pass_fraction_range": [
+      0.4628,
+      0.4922
+    ],
+    "reward_std_range": [
+      0.1159,
+      0.3004
+    ],
+    "sender_observer_flag_fraction_range": [
+      0,
+      0.0208
+    ],
+    "sender_receiver_pass_fraction_range": [
+      0.4688,
+      0.5417
+    ],
+    "single_label_or_duplicate_text_collapse_observed": false,
+    "updates": [
+      873,
+      885
+    ]
+  },
+  "inherited_runtime_manifests_unchanged": true,
+  "inputs": {
+    "identity": "/tmp/uni_corrected_extension_identity.txt",
+    "identity_sha256": "71f10cbf8d7a055e9e82619e1ce3921a6aa52619991729ea6ab515d95fb50ab1",
+    "launch": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/launches/university_corrected_extension_latest.json",
+    "snapshot": "/tmp/uni_corrected_extension_snapshot.json"
+  },
+  "job_id": "24696926",
+  "last_committed_ppo_memory": {
+    "attempted_update": 885,
+    "device_total_bytes": 47667740672,
+    "duration_seconds": 54.29187631700188,
+    "end_device_free_bytes": 3560243200,
+    "end_host_rss_bytes": 98702938112,
+    "error": null,
+    "note": "PPO-call completion alone does not establish a committed checkpoint.",
+    "peak_allocated_bytes": 39438542848,
+    "peak_reserved_bytes": 43352326144,
+    "ppo_call_status": "completed",
+    "saved_tensor_transfers": {
+      "expanded_cuda_tensors": 0,
+      "noncontiguous_cuda_tensors": 3744,
+      "nonzero_offset_cuda_tensors": 12,
+      "packed_cuda_tensors": 15408,
+      "packed_storage_bytes": 655939723008,
+      "unpacked_cuda_tensors": 15180
+    }
+  },
+  "last_committed_ppo_memory_source": "runtime_events/l40s_memory_24696926_1790986074586900382.json",
+  "legacy_l40s_preflight_parity_and_rng_verified": true,
+  "local_frozen_source_hashes_verified": 33,
+  "memory_event_after_verified_boundary": false,
+  "memory_event_attempted_update": 885,
+  "metrics_sequential_schedule_verified": true,
+  "new_evaluations": [],
+  "new_metrics_window": [
+    873,
+    885
+  ],
+  "node": "node3407",
+  "numeric_metrics_finite": true,
+  "pending_evaluation_cleanup": [],
+  "receiver_256_four_microbatches_one_step_verified": true,
+  "remaining_active_seconds_at_checkpoint": 9761.019846590003,
+  "report_completed_update": 885,
+  "report_matches_verified_update": true,
+  "report_sha256": "ebe6bcf44e0ecaddd1ffa44f8985de1e2b0c44e2980dc45f2130f313108fde99",
+  "restored_checkpoint_raw_marker_available": true,
+  "restored_elapsed_seconds": 27930.404972237535,
+  "restored_update": 530,
+  "routine_audit_passed": true,
+  "runtime_preflight_event": "runtime_events/l40s_memory_preflight_24696926_1790985895904423792.json",
+  "runtime_preflight_event_sha256": "59ef904ae9062df6c87469ec8a693b31442af5a23336ab99639c890dc1a8dbe1",
+  "sender_population_192_verified": true,
+  "sender_reward_variation_verified": true,
+  "single_label_prediction_updates_since_previous_check": [],
+  "slurm_restart_count": 0,
+  "slurm_runtime": "05:06:13",
+  "slurm_state": "RUNNING",
+  "slurm_time_limit": "06:00:00",
+  "state_sha256_verified_remotely": true,
+  "status_observed_completed_update": 885,
+  "target_active_seconds": 55830.404972237535,
+  "terminal_markers_present": [],
+  "timing_counts_verified_through_update": 885,
+  "timing_observation_after_verified_boundary": false,
+  "verified_update": 885
+}

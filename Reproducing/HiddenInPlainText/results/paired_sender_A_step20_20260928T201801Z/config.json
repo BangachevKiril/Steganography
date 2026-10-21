@@ -1,0 +1,37 @@
+{
+  "experiment": "step20_sender_A_paired_rejected_questions",
+  "training_config_path": "/orcd/pool/003/kirilb/Steganography/runs/piqa_qwen3_4b_20260928T175421Z/config.json",
+  "checkpoint_path": "/orcd/pool/003/kirilb/Steganography/runs/piqa_qwen3_4b_20260928T175421Z/checkpoints/step_000020",
+  "baseline_answers_path": "/orcd/pool/003/kirilb/Steganography/runs/rejection_vanilla_100_20260928T194841Z/answers_and_verdicts.json",
+  "communicator": "A",
+  "seed": 844166641,
+  "question_ids": [
+    "train:744",
+    "train:2325",
+    "train:21",
+    "train:3213",
+    "train:5500"
+  ],
+  "public_bits": 16,
+  "paired_public_string": true,
+  "paired_generation_seed": true,
+  "source_sha256": {
+    "orcd/paired_sender_probe.slurm": "116a21b5a10c86e67719f072e045fbde2d5d6cbe55d47fee74e62965f2a99b59",
+    "stego/__init__.py": "c5c9f525a0627442d9019eb0d083059f68b58fdeccd242dbf8f1d23ecd0cffda",
+    "stego/engine.py": "1e65c0ab8bce2c98b86b39cf0575578a8e9930ebdd7d144fcc822d8a20ff3d5c",
+    "stego/paired_sender_probe.py": "c1ac9e1dcd56f8b0e5e9597729b38965dae25a415aa1bd5fc19d7484bc9b0dd6",
+    "stego/protocol.py": "2e130ea625f846da553f00d51add7ddfa446892e52195b588c780767a90f8771",
+    "stego/rejection_baseline.py": "c8b9d8a876a4bb368d05a6e8ff5da60dbbf3cd6c832026cae90eecf35ec162bc",
+    "stego/smoke.py": "a29654a7be055765dc219291f2a70df51dc941685dbe330e17883eaed6933e25",
+    "stego/train.py": "13462133549ce4816910f2bfb31620673b5b8cd3c74cb84066eca7a6b7015f04",
+    "tests/test_engine.py": "69705a2a1226894ddffa6c668bd4da04a291c81d2b53713ee6f671c78fdf60a1",
+    "tests/test_paired_sender_probe.py": "0becc61df94ff566463cc6644636082046f510a287cc77f2e679218e05fd5bcb",
+    "tests/test_protocol.py": "c5de16d257715c2f17786163704872742cfbc7c14520df024af4badf837b8718",
+    "tests/test_rejection_baseline.py": "5bd5dc0b04e8210363958ca963ddbb73301d16377aa16872df60d79c7e76af37",
+    "tests/test_smoke.py": "ed9665a38ed506478e9ea622e31ca137fa89174e34ad12f92ca57db31160e2e5",
+    "tests/test_train.py": "d6a1e0ab0f0ccef79536663c935887a1b85194fdf26936587db97ab3ec4fe727"
+  },
+  "artifact_sha256": {
+    "/orcd/pool/003/kirilb/Steganography/runs/rejection_vanilla_100_20260928T194841Z/answers_and_verdicts.json": "a3cedea2af9d1795488cee481f75a13b436b7b7ca225f94807ce5145e088fb50"
+  }
+}

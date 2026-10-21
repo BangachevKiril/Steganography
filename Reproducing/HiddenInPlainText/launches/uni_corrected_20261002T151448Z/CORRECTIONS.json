@@ -1,0 +1,41 @@
+{
+  "protocol": "university_bugfix_v1",
+  "previous_run": "/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z",
+  "baseline_checkpoint": "/orcd/pool/003/kirilb/Steganography/runs/uni_stepzero_20260930T152616Z/checkpoint0",
+  "baseline_state_sha256": "bafa15aa893985940993b5e2baeaa96e5c2d2b88803d0848c62649e97712f43b",
+  "corrections": [
+    {
+      "id": "receiver_accumulation",
+      "before": "Only first64 examples applied; remaining192 gradients discarded",
+      "after": "Mean CE over all256, four64-example backward passes weighted1/4, one optimizer step"
+    },
+    {
+      "id": "sender_attention_mask",
+      "before": "Fixed pre-left-padding given all-one TRL masks",
+      "after": "Unpadded token-ID queries; TRL supplies actual padding and masks for generation and PPO"
+    },
+    {
+      "id": "observer_score_position",
+      "before": "Right-padded batch last column (can be PAD)",
+      "after": "Gather logits at last non-padding token per row; same Yes/No formula and threshold"
+    },
+    {
+      "id": "receiver_reward_mode",
+      "before": "Dropout active during frozen reward scoring",
+      "after": "Temporary eval mode with prior modes/RNG preserved; SFT retains training dropout"
+    }
+  ],
+  "retained": [
+    "receiver argmax",
+    "2receiver/5sender updates percycle",
+    "receiver256 mini64; sender192 mini64 accum3",
+    "rawcorrectclasslogit tanh reward",
+    "observer Yes/No scoring formula and threshold",
+    "characterlength reward",
+    "originalfloat16 sender and model/env revisions",
+    "original train/test split, learning rates and KL settings",
+    "27900 active seconds including initial and periodic evaluations; final evaluation after budget"
+  ],
+  "baseline_comparison": "New corrected-scorer evaluation0 at same weights; historic C_I is not directly comparable",
+  "weights_copied_locally": false
+}

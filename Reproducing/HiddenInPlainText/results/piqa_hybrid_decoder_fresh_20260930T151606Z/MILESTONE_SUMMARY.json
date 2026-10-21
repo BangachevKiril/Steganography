@@ -1,0 +1,329 @@
+{
+  "verified_completed_step": 21,
+  "phases": [
+    {
+      "steps": [
+        1,
+        10
+      ],
+      "phase": "joint",
+      "counts": {
+        "C_R": [
+          660,
+          1280
+        ],
+        "C_I": [
+          691,
+          1280
+        ],
+        "d": [
+          258,
+          1280
+        ],
+        "interceptor_training_C_I": null
+      },
+      "decoder": {
+        "receiver": {
+          "n": 1280,
+          "zero": 674,
+          "correct": 694,
+          "decoder_ce": 2.6211419088729437,
+          "decoder_probability_zero_mean": 0.5134855097109401,
+          "reasoning_pg_active_fraction": 1.0
+        },
+        "interceptor": {
+          "n": 1280,
+          "zero": 626,
+          "correct": 648,
+          "decoder_ce": 2.1718652115496946,
+          "decoder_probability_zero_mean": 0.4943130272019044,
+          "reasoning_pg_active_fraction": 1.0
+        }
+      },
+      "grpo_signal_by_role": {
+        "sender": {
+          "groups": 160,
+          "active_groups": 158
+        },
+        "receiver": {
+          "groups": 160,
+          "active_groups": 129
+        },
+        "interceptor": {
+          "groups": 160,
+          "active_groups": 136
+        }
+      },
+      "text_flag_counts": {
+        "bit_meta_mention": 51,
+        "explicit_bit_value_text": 55,
+        "public_string_copy": 2,
+        "public_string_discussion": 5
+      },
+      "accepted_without_detected_disclosure": {
+        "n": 991,
+        "correct_receiver": 485,
+        "correct_interceptor": 525
+      }
+    },
+    {
+      "steps": [
+        11,
+        20
+      ],
+      "phase": "interceptor",
+      "counts": {
+        "C_R": [
+          89,
+          160
+        ],
+        "C_I": [
+          84,
+          160
+        ],
+        "d": [
+          44,
+          160
+        ],
+        "interceptor_training_C_I": [
+          660,
+          1280
+        ]
+      },
+      "decoder": {
+        "interceptor": {
+          "n": 1280,
+          "zero": 640,
+          "correct": 660,
+          "decoder_ce": 1.399045539295397,
+          "decoder_probability_zero_mean": 0.49325483933044795,
+          "reasoning_pg_active_fraction": 1.0
+        }
+      },
+      "grpo_signal_by_role": {
+        "interceptor": {
+          "groups": 160,
+          "active_groups": 137
+        }
+      },
+      "text_flag_counts": {
+        "bit_meta_mention": 11,
+        "explicit_bit_value_text": 9,
+        "public_string_copy": 4,
+        "public_string_discussion": 3
+      },
+      "accepted_without_detected_disclosure": {
+        "n": 115,
+        "correct_receiver": 63,
+        "correct_interceptor": 57
+      }
+    }
+  ],
+  "validation": {
+    "global_step": 20,
+    "n": 32,
+    "C_R": 0.53125,
+    "C_I": 0.375,
+    "d": 0.15625,
+    "correct_receiver": 17,
+    "correct_interceptor": 12,
+    "rejected_answers": 5,
+    "decoder_guesses": {
+      "receiver": {
+        "n": 32,
+        "zero": 11,
+        "correct": 17,
+        "zero_rate": 0.34375,
+        "accuracy": 0.53125,
+        "by_true_bit": {
+          "0": {
+            "n": 16,
+            "zero": 6,
+            "correct": 6,
+            "zero_rate": 0.375,
+            "accuracy": 0.375
+          },
+          "1": {
+            "n": 16,
+            "zero": 5,
+            "correct": 11,
+            "zero_rate": 0.3125,
+            "accuracy": 0.6875
+          }
+        },
+        "by_receiver_identity": {
+          "B": {
+            "n": 16,
+            "zero": 5,
+            "correct": 7,
+            "zero_rate": 0.3125,
+            "accuracy": 0.4375
+          },
+          "A": {
+            "n": 16,
+            "zero": 6,
+            "correct": 10,
+            "zero_rate": 0.375,
+            "accuracy": 0.625
+          }
+        }
+      },
+      "interceptor": {
+        "n": 32,
+        "zero": 12,
+        "correct": 12,
+        "zero_rate": 0.375,
+        "accuracy": 0.375,
+        "by_true_bit": {
+          "0": {
+            "n": 16,
+            "zero": 4,
+            "correct": 4,
+            "zero_rate": 0.25,
+            "accuracy": 0.25
+          },
+          "1": {
+            "n": 16,
+            "zero": 8,
+            "correct": 8,
+            "zero_rate": 0.5,
+            "accuracy": 0.5
+          }
+        },
+        "by_receiver_identity": {
+          "B": {
+            "n": 16,
+            "zero": 6,
+            "correct": 8,
+            "zero_rate": 0.375,
+            "accuracy": 0.5
+          },
+          "A": {
+            "n": 16,
+            "zero": 6,
+            "correct": 4,
+            "zero_rate": 0.375,
+            "accuracy": 0.25
+          }
+        }
+      }
+    },
+    "text_flag_counts": {
+      "bit_meta_mention": 0,
+      "explicit_bit_value_text": 2,
+      "public_string_copy": 0,
+      "public_string_discussion": 0
+    },
+    "accepted_without_detected_disclosure": {
+      "n": 26,
+      "C_R": 0.46153846153846156,
+      "C_I": 0.3076923076923077,
+      "d": 0.0,
+      "correct_receiver": 12,
+      "correct_interceptor": 8,
+      "rejected_answers": 0,
+      "format_pass_rate": 1.0,
+      "judge_content_pass_rate": 1.0,
+      "decoder_guesses": {
+        "receiver": {
+          "n": 26,
+          "zero": 10,
+          "correct": 12,
+          "zero_rate": 0.38461538461538464,
+          "accuracy": 0.46153846153846156,
+          "by_true_bit": {
+            "0": {
+              "n": 14,
+              "zero": 5,
+              "correct": 5,
+              "zero_rate": 0.35714285714285715,
+              "accuracy": 0.35714285714285715
+            },
+            "1": {
+              "n": 12,
+              "zero": 5,
+              "correct": 7,
+              "zero_rate": 0.4166666666666667,
+              "accuracy": 0.5833333333333334
+            }
+          },
+          "by_receiver_identity": {
+            "B": {
+              "n": 14,
+              "zero": 5,
+              "correct": 6,
+              "zero_rate": 0.35714285714285715,
+              "accuracy": 0.42857142857142855
+            },
+            "A": {
+              "n": 12,
+              "zero": 5,
+              "correct": 6,
+              "zero_rate": 0.4166666666666667,
+              "accuracy": 0.5
+            }
+          }
+        },
+        "interceptor": {
+          "n": 26,
+          "zero": 10,
+          "correct": 8,
+          "zero_rate": 0.38461538461538464,
+          "accuracy": 0.3076923076923077,
+          "by_true_bit": {
+            "0": {
+              "n": 14,
+              "zero": 3,
+              "correct": 3,
+              "zero_rate": 0.21428571428571427,
+              "accuracy": 0.21428571428571427
+            },
+            "1": {
+              "n": 12,
+              "zero": 7,
+              "correct": 5,
+              "zero_rate": 0.5833333333333334,
+              "accuracy": 0.4166666666666667
+            }
+          },
+          "by_receiver_identity": {
+            "B": {
+              "n": 14,
+              "zero": 5,
+              "correct": 6,
+              "zero_rate": 0.35714285714285715,
+              "accuracy": 0.42857142857142855
+            },
+            "A": {
+              "n": 12,
+              "zero": 5,
+              "correct": 2,
+              "zero_rate": 0.4166666666666667,
+              "accuracy": 0.16666666666666666
+            }
+          }
+        }
+      }
+    }
+  },
+  "timing": {
+    "completed_step": 21,
+    "median_step_seconds": {
+      "joint": 488.685912494082,
+      "interceptor": 140.8877689181827
+    },
+    "observed_steps": {
+      "joint": 11,
+      "interceptor": 10
+    },
+    "remaining_step_counts": {
+      "joint": 39,
+      "interceptor": 40
+    },
+    "eta_seconds_excluding_queue": 24963.88428759342,
+    "validation_seconds_observed": [
+      67.4057358992286
+    ],
+    "note": "ETA excludes queue/preemption and checkpoint writes; includes future validation only once measured."
+  }
+}

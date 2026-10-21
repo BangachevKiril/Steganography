@@ -1,0 +1,26 @@
+{
+  "checkpoint_step": 100,
+  "adapters": {
+    "A": {
+      "verified_tensors": 504,
+      "checkpoint_tensors": 1008,
+      "extra_export_tensors": 504,
+      "exact_match": true
+    },
+    "B": {
+      "verified_tensors": 504,
+      "checkpoint_tensors": 1008,
+      "extra_export_tensors": 504,
+      "exact_match": true
+    },
+    "I": {
+      "verified_tensors": 504,
+      "checkpoint_tensors": 504,
+      "extra_export_tensors": 0,
+      "exact_match": true
+    }
+  },
+  "all_parameters_frozen": true,
+  "optimizer_count": 0,
+  "judge_separate_and_frozen": true
+}

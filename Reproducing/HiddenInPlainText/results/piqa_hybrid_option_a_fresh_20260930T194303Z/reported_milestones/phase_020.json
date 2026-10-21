@@ -1,0 +1,98 @@
+{
+  "start": 11,
+  "end": 20,
+  "phase": "interceptor",
+  "measurement": "matched monitoring: 16 answers per step",
+  "optimization_measurement": "interceptor optimization: 16 guesses per step",
+  "n": 160,
+  "correct_receiver": 75,
+  "correct_interceptor": 84,
+  "rejected_answers": 32,
+  "interceptor_training": {
+    "n": 160,
+    "correct_interceptor": 84
+  },
+  "receiver": {
+    "n": 160,
+    "zero": 67,
+    "correct": 75,
+    "by_true_bit": {
+      "0": {
+        "n": 80,
+        "zero": 31,
+        "correct": 31
+      },
+      "1": {
+        "n": 80,
+        "zero": 36,
+        "correct": 44
+      }
+    },
+    "by_receiver_identity": {
+      "B": {
+        "n": 80,
+        "zero": 36,
+        "correct": 34
+      },
+      "A": {
+        "n": 80,
+        "zero": 31,
+        "correct": 41
+      }
+    }
+  },
+  "interceptor": {
+    "n": 160,
+    "zero": 82,
+    "correct": 84,
+    "by_true_bit": {
+      "0": {
+        "n": 80,
+        "zero": 43,
+        "correct": 43
+      },
+      "1": {
+        "n": 80,
+        "zero": 39,
+        "correct": 41
+      }
+    },
+    "by_receiver_identity": {
+      "B": {
+        "n": 80,
+        "zero": 30,
+        "correct": 46
+      },
+      "A": {
+        "n": 80,
+        "zero": 52,
+        "correct": 38
+      }
+    }
+  },
+  "I_update_means": {
+    "decoder_ce": 1.4781565956716083,
+    "decoder_probability_zero_mean": 0.5006851501504117,
+    "reasoning_pg_active_fraction": 1.0,
+    "decoder_reasoning_policy_loss": -0.02419806973943451,
+    "decoder_ce_loss": 1.4781565956716083
+  },
+  "I_grad_norm_range": [
+    18.875,
+    41.0
+  ],
+  "text_flag_counts": {
+    "bit_meta_mention": 14,
+    "explicit_bit_value_text": 10,
+    "public_string_copy": 0,
+    "public_string_discussion": 1
+  },
+  "accepted_without_detected_disclosure": {
+    "n": 123,
+    "correct_receiver": 56,
+    "correct_interceptor": 60
+  },
+  "reported_at": "2026-09-30T21:07:25.870804+00:00",
+  "verified_committed_step": 21,
+  "interpretation": "I-only monitoring and optimization use the same 16 interceptor guesses each step; counts are not independent. Active finite updates, without a pooled receiver advantage."
+}

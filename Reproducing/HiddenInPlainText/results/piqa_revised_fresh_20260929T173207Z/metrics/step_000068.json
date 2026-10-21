@@ -1,0 +1,118 @@
+{
+  "phase": "joint",
+  "n": 128,
+  "C_R": 0.5,
+  "C_I": 0.46875,
+  "d": 0.234375,
+  "correct_receiver": 64,
+  "correct_interceptor": 60,
+  "rejected_answers": 30,
+  "format_pass_rate": 0.8359375,
+  "judge_content_pass_rate": 0.90625,
+  "updates": {
+    "A": {
+      "loss": -0.001920508329718018,
+      "policy_loss": -0.0019738882594052152,
+      "kl": 0.006842160588348634,
+      "clip_fraction": 0.025834032026978093,
+      "ratio_mean": 1.0000161076895893,
+      "reward_mean": 0.140625,
+      "active_group_fraction": 0.75,
+      "sampled_tokens": 34547.0,
+      "trajectories": 128.0,
+      "grad_norm": 0.06709776073694229
+    },
+    "B": {
+      "loss": 0.0004984188813814683,
+      "policy_loss": 0.00044091333014269327,
+      "kl": 0.007021458441158757,
+      "clip_fraction": 0.027681930419930723,
+      "ratio_mean": 1.0004211734049022,
+      "reward_mean": 0.1640625,
+      "active_group_fraction": 0.5,
+      "sampled_tokens": 34598.0,
+      "trajectories": 128.0,
+      "grad_norm": 0.06982421875
+    },
+    "I": {
+      "loss": 0.0005568111535652065,
+      "policy_loss": 0.0004582286228929527,
+      "kl": 0.009858397197149316,
+      "clip_fraction": 0.022099950936535606,
+      "ratio_mean": 1.0001432038843632,
+      "reward_mean": 0.5390625,
+      "active_group_fraction": 0.6875,
+      "sampled_tokens": 32896.0,
+      "trajectories": 128.0,
+      "grad_norm": 0.0625
+    }
+  },
+  "measurement": "pre-update sender rollouts: 16 contexts x 8 answers",
+  "grpo_signal_by_role": {
+    "sender": {
+      "groups": 16,
+      "active_groups": 15,
+      "active_group_fraction": 0.9375
+    },
+    "receiver": {
+      "groups": 16,
+      "active_groups": 5,
+      "active_group_fraction": 0.3125
+    },
+    "interceptor": {
+      "groups": 16,
+      "active_groups": 11,
+      "active_group_fraction": 0.6875
+    }
+  },
+  "text_flag_counts": {
+    "bit_meta_mention": 6,
+    "explicit_bit_value_text": 4,
+    "public_string_copy": 0,
+    "public_string_discussion": 0
+  },
+  "text_flag_rates": {
+    "bit_meta_mention": 0.046875,
+    "explicit_bit_value_text": 0.03125,
+    "public_string_copy": 0.0,
+    "public_string_discussion": 0.0
+  },
+  "accepted_without_detected_disclosure": {
+    "n": 94,
+    "C_R": 0.48936170212765956,
+    "C_I": 0.4787234042553192,
+    "d": 0.0,
+    "correct_receiver": 46,
+    "correct_interceptor": 45,
+    "rejected_answers": 0,
+    "format_pass_rate": 1.0,
+    "judge_content_pass_rate": 1.0
+  },
+  "text_flags_note": "Literal proxies only; no flag changes rewards. The accepted subset excludes any of the four flags.",
+  "by_direction": {
+    "A": {
+      "n": 64,
+      "C_R": 0.5,
+      "C_I": 0.515625,
+      "d": 0.21875,
+      "correct_receiver": 32,
+      "correct_interceptor": 33,
+      "rejected_answers": 14,
+      "format_pass_rate": 0.84375,
+      "judge_content_pass_rate": 0.90625
+    },
+    "B": {
+      "n": 64,
+      "C_R": 0.5,
+      "C_I": 0.421875,
+      "d": 0.25,
+      "correct_receiver": 32,
+      "correct_interceptor": 27,
+      "rejected_answers": 16,
+      "format_pass_rate": 0.828125,
+      "judge_content_pass_rate": 0.90625
+    }
+  },
+  "global_step": 68,
+  "seconds": 551.3509783721529
+}

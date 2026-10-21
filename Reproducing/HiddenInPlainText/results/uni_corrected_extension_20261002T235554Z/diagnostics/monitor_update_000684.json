@@ -1,0 +1,225 @@
+{
+  "added_active_seconds_at_checkpoint": 7917.733796660788,
+  "checked_at": "2026-10-03T02:20:49.959840+00:00",
+  "checkpoint": {
+    "completed_update": 684,
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "elapsed": 35848.13876889832,
+    "phase": "sender",
+    "state_sha256": "e648f35338669ce48964a2cc24ab056e32785209741e4eec63df5999865a81d1"
+  },
+  "completed_evaluation_bindings_verified": [
+    0,
+    50,
+    100,
+    150,
+    200,
+    250,
+    300,
+    350,
+    400,
+    450,
+    500,
+    530,
+    550,
+    600,
+    650
+  ],
+  "current_stage": "sender_ppo",
+  "evaluation_cleanup_events": [
+    {
+      "after": {
+        "cuda_allocated_bytes": 20529007616,
+        "cuda_reserved_bytes": 20782776320,
+        "device_free_bytes": 26129793024,
+        "device_total_bytes": 47667740672,
+        "host_rss_bytes": 98499862528
+      },
+      "before": {
+        "cuda_allocated_bytes": 20529007616,
+        "cuda_reserved_bytes": 43058724864,
+        "device_free_bytes": 3853844480,
+        "device_total_bytes": 47667740672,
+        "host_rss_bytes": 98497359872
+      },
+      "event": "runtime_events/l40s_eval_memory_24696926_1790987138921983928.json",
+      "sha256": "039519f001c65c66ce92ab4b4b5f95d3cca798f7b950422d765d744eb255e271",
+      "update": 550
+    },
+    {
+      "after": {
+        "cuda_allocated_bytes": 20528994816,
+        "cuda_reserved_bytes": 20761804800,
+        "device_free_bytes": 26150764544,
+        "device_total_bytes": 47667740672,
+        "host_rss_bytes": 98525659136
+      },
+      "before": {
+        "cuda_allocated_bytes": 20528994816,
+        "cuda_reserved_bytes": 43331354624,
+        "device_free_bytes": 3581214720,
+        "device_total_bytes": 47667740672,
+        "host_rss_bytes": 98525642752
+      },
+      "event": "runtime_events/l40s_eval_memory_24696926_1790989716679733659.json",
+      "sha256": "80943c53cdb775304dd0719700b0d6f3de55979175f5ef39ff4bb78e6430d84b",
+      "update": 600
+    },
+    {
+      "after": {
+        "cuda_allocated_bytes": 20528790016,
+        "cuda_reserved_bytes": 20782776320,
+        "device_free_bytes": 26129793024,
+        "device_total_bytes": 47667740672,
+        "host_rss_bytes": 98638319616
+      },
+      "before": {
+        "cuda_allocated_bytes": 20528790016,
+        "cuda_reserved_bytes": 43310383104,
+        "device_free_bytes": 3602186240,
+        "device_total_bytes": 47667740672,
+        "host_rss_bytes": 98636414976
+      },
+      "event": "runtime_events/l40s_eval_memory_24696926_1790992291430179908.json",
+      "sha256": "a7c903c8be52f6575d67217cb0845611a6544704172356c8914a66154ccfac44",
+      "update": 650
+    }
+  ],
+  "evaluation_cleanup_invariants_passed": true,
+  "evaluation_public_rows_require_separate_audit": [],
+  "exclusive_matching_slurm_job_in_supplied_queue": true,
+  "exclusivity_scope": "Only visible matching-name jobs; no claim about differently named jobs.",
+  "extension_event": "runtime_events/l40s_extension_24696926_1790986075180597280.json",
+  "extension_event_sha256": "046ce8582045914bc5a8497cf89cb1f4837d62a3a7c61dafa375070d6687d6b0",
+  "failure_json_present": false,
+  "identity_checks": {
+    "all_passed": true,
+    "checks": {
+      "CORRECTIONS.json": true,
+      "EXPERIMENT.md": true,
+      "archive_manifest": true,
+      "extension_manifest": true,
+      "extension_slurm": true,
+      "extension_wrapper": true,
+      "orcd/university_corrected_l40s.py": true,
+      "orcd/university_corrected_l40s.slurm": true,
+      "orcd/university_l40s_evaluation_memory.py": true,
+      "orcd/university_l40s_memory_training.py": true,
+      "orcd/university_training.slurm": true,
+      "pinned_origin_marker": true,
+      "stego/__init__.py": true,
+      "stego/decoder_comparison.py": true,
+      "stego/decoder_prompt_comparison.py": true,
+      "stego/engine.py": true,
+      "stego/paired_inference.py": true,
+      "stego/paired_sender_probe.py": true,
+      "stego/prompt_comparison.py": true,
+      "stego/prompt_comparison_report.py": true,
+      "stego/protocol.py": true,
+      "stego/rejection_baseline.py": true,
+      "stego/smoke.py": true,
+      "stego/train.py": true,
+      "stego/training_report.py": true,
+      "stego/university_baseline.py": true,
+      "stego/university_evaluation.py": true,
+      "stego/university_judge.py": true,
+      "stego/university_metrics.py": true,
+      "stego/university_training.py": true,
+      "stego/university_training_report.py": true,
+      "tests/test_university_baseline.py": true,
+      "tests/test_university_corrections.py": true,
+      "tests/test_university_evaluation_memory.py": true,
+      "tests/test_university_judge.py": true,
+      "tests/test_university_metrics.py": true,
+      "tests/test_university_training.py": true,
+      "tests/test_university_training_report.py": true
+    }
+  },
+  "independent_public_rollout_audit": {
+    "all_counts_finite_schedule_receiver_optimization_and_selected_labels_verified": true,
+    "all_texts_unique_within_batches": true,
+    "observer_flag_fraction_range": [
+      0.026,
+      0.1094
+    ],
+    "receiver_pass_fraction_range": [
+      0.4141,
+      0.6458
+    ],
+    "reward_std_range": [
+      0.2118,
+      0.3175
+    ],
+    "single_label_or_duplicate_text_collapse_observed": false,
+    "updates": [
+      671,
+      684
+    ]
+  },
+  "inherited_runtime_manifests_unchanged": true,
+  "inputs": {
+    "identity": "/tmp/uni_corrected_extension_identity.txt",
+    "identity_sha256": "068e9b3aa50e43b7e9767130b760c61758f2290063b8e3697ff7848caa05b734",
+    "launch": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/launches/university_corrected_extension_latest.json",
+    "snapshot": "/tmp/uni_corrected_extension_snapshot.json"
+  },
+  "job_id": "24696926",
+  "last_committed_ppo_memory": {
+    "attempted_update": 684,
+    "device_total_bytes": 47667740672,
+    "duration_seconds": 54.95621707197279,
+    "end_device_free_bytes": 4147445760,
+    "end_host_rss_bytes": 98703908864,
+    "error": null,
+    "note": "PPO-call completion alone does not establish a committed checkpoint.",
+    "peak_allocated_bytes": 39701527040,
+    "peak_reserved_bytes": 42765123584,
+    "ppo_call_status": "completed",
+    "saved_tensor_transfers": {
+      "expanded_cuda_tensors": 0,
+      "noncontiguous_cuda_tensors": 3744,
+      "nonzero_offset_cuda_tensors": 12,
+      "packed_cuda_tensors": 15408,
+      "packed_storage_bytes": 664431907584,
+      "unpacked_cuda_tensors": 15180
+    }
+  },
+  "last_committed_ppo_memory_source": "runtime_events/l40s_memory_24696926_1790986074586900382.json",
+  "legacy_l40s_preflight_parity_and_rng_verified": true,
+  "memory_event_after_verified_boundary": false,
+  "memory_event_attempted_update": 684,
+  "metrics_sequential_schedule_verified": true,
+  "new_evaluations": [],
+  "new_metrics_window": [
+    671,
+    684
+  ],
+  "node": "node3407",
+  "numeric_metrics_finite": true,
+  "pending_evaluation_cleanup": [],
+  "receiver_256_four_microbatches_one_step_verified": true,
+  "remaining_active_seconds_at_checkpoint": 19982.26620333921,
+  "report_completed_update": 684,
+  "report_matches_verified_update": true,
+  "report_sha256": "09695a3c61a10aa7d2617126f7a7b30eb86fa85606413d2ff6fae1e47677f0d0",
+  "restored_checkpoint_raw_marker_available": true,
+  "restored_elapsed_seconds": 27930.404972237535,
+  "restored_update": 530,
+  "routine_audit_passed": true,
+  "runtime_preflight_event": "runtime_events/l40s_memory_preflight_24696926_1790985895904423792.json",
+  "runtime_preflight_event_sha256": "59ef904ae9062df6c87469ec8a693b31442af5a23336ab99639c890dc1a8dbe1",
+  "sender_population_192_verified": true,
+  "sender_reward_variation_verified": true,
+  "single_label_prediction_updates_since_previous_check": [],
+  "slurm_restart_count": 0,
+  "slurm_runtime": "02:15:51",
+  "slurm_state": "RUNNING",
+  "slurm_time_limit": "06:00:00",
+  "state_sha256_verified_remotely": true,
+  "status_observed_completed_update": 684,
+  "target_active_seconds": 55830.404972237535,
+  "terminal_markers_present": [],
+  "timing_counts_verified_through_update": 684,
+  "timing_observation_after_verified_boundary": false,
+  "verified_update": 684
+}

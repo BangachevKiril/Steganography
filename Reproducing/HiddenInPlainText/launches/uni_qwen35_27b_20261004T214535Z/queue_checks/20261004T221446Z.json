@@ -1,0 +1,96 @@
+{
+  "remote": {
+    "checked_at": "2026-10-04T22:14:46.512003+00:00",
+    "source_hashes_verified": 41,
+    "run_config_exists": false,
+    "run_public_files": [],
+    "squeue": {
+      "code": 0,
+      "stdout": "24854198|mit_normal_gpu,mit_preemptable|PENDING|(Priority)|2026-10-05T17:30:00\n24854200|mit_normal_gpu,mit_preemptable|PENDING|(Dependency)|N/A\n24854199|mit_normal_gpu,mit_preemptable|PENDING|(Dependency)|N/A\n",
+      "stderr": ""
+    },
+    "sacct": {
+      "code": 0,
+      "stdout": "24854198|PENDING|0:0|00:00:00|Unknown|Unknown|\n24854199|PENDING|0:0|00:00:00|Unknown|Unknown|\n24854200|PENDING|0:0|00:00:00|Unknown|Unknown|\n",
+      "stderr": ""
+    },
+    "scontrol": {
+      "code": 1,
+      "stdout": "",
+      "stderr": "scontrol_print_job error: Invalid job id specified\n"
+    }
+  },
+  "controls": {
+    "24854198": {
+      "JobId": "24854198",
+      "JobName": "uni-qwen27-1004-s1",
+      "JobState": "PENDING",
+      "Reason": "QOSMaxGRESPerUser",
+      "Dependency": "(null)",
+      "Partition": "mit_normal_gpu,mit_preemptable AllocNode:Sid=login009:2111946",
+      "QOS": "normal",
+      "Priority": "48430",
+      "Requeue": "1",
+      "Restarts": "0",
+      "ExitCode": "0:0",
+      "RunTime": "00:00:00",
+      "TimeLimit": "06:00:00",
+      "StartTime": "2026-10-05T17:30:00",
+      "EligibleTime": "2026-10-04T18:01:47",
+      "LastSchedEval": "2026-10-04T18:14:51",
+      "ReqTRES": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1",
+      "AllocTRES": "(null) Socks/Node=* NtasksPerN:B:S:C=0:0:*:*",
+      "NodeList": "",
+      "Command": "/orcd/pool/003/kirilb/Steganography/releases/uni_qwen35_27b_20261004T214535Z/orcd/university_qwen_h100.slurm"
+    },
+    "24854199": {
+      "JobId": "24854199",
+      "JobName": "uni-qwen27-1004-s2",
+      "JobState": "PENDING",
+      "Reason": "Dependency",
+      "Dependency": "afterok:24854198(unfulfilled)",
+      "Partition": "mit_normal_gpu,mit_preemptable AllocNode:Sid=login009:2111946",
+      "QOS": "normal",
+      "Priority": "258430",
+      "Requeue": "1",
+      "Restarts": "0",
+      "ExitCode": "0:0",
+      "RunTime": "00:00:00",
+      "TimeLimit": "06:00:00",
+      "StartTime": "Unknown",
+      "EligibleTime": "Unknown",
+      "LastSchedEval": "2026-10-04T18:01:47",
+      "ReqTRES": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1",
+      "AllocTRES": "(null) Socks/Node=* NtasksPerN:B:S:C=0:0:*:*",
+      "NodeList": "",
+      "Command": "/orcd/pool/003/kirilb/Steganography/releases/uni_qwen35_27b_20261004T214535Z/orcd/university_qwen_h100.slurm"
+    },
+    "24854200": {
+      "JobId": "24854200",
+      "JobName": "uni-qwen27-1004-s3",
+      "JobState": "PENDING",
+      "Reason": "Dependency",
+      "Dependency": "afterok:24854199(unfulfilled)",
+      "Partition": "mit_normal_gpu,mit_preemptable AllocNode:Sid=login009:2111946",
+      "QOS": "normal",
+      "Priority": "258430",
+      "Requeue": "1",
+      "Restarts": "0",
+      "ExitCode": "0:0",
+      "RunTime": "00:00:00",
+      "TimeLimit": "06:00:00",
+      "StartTime": "Unknown",
+      "EligibleTime": "Unknown",
+      "LastSchedEval": "2026-10-04T18:01:47",
+      "ReqTRES": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1",
+      "AllocTRES": "(null) Socks/Node=* NtasksPerN:B:S:C=0:0:*:*",
+      "NodeList": "",
+      "Command": "/orcd/pool/003/kirilb/Steganography/releases/uni_qwen35_27b_20261004T214535Z/orcd/university_qwen_h100.slurm"
+    }
+  },
+  "quota": "             JOBID                         NAME                          PARTITION      STATE           NODELIST(REASON)            TRES_PER_NODE\n          24853980           city-qwen-followup                         mit_normal    PENDING               (Dependency)                      N/A\n          24854200           uni-qwen27-1004-s3     mit_normal_gpu,mit_preemptable    PENDING               (Dependency)          gres/gpu:h100:1\n          24854199           uni-qwen27-1004-s2     mit_normal_gpu,mit_preemptable    PENDING               (Dependency)          gres/gpu:h100:1\n          24854198           uni-qwen27-1004-s1     mit_normal_gpu,mit_preemptable    PENDING        (QOSMaxGRESPerUser)          gres/gpu:h100:1\n24853979_[6-107%4]               iphr-city-qwen                    mit_preemptable    PENDING        (JobArrayTaskLimit)          gres/gpu:h100:1\n        24853979_4               iphr-city-qwen                    mit_preemptable    RUNNING                   node2901          gres/gpu:h100:1\n        24853979_5               iphr-city-qwen                    mit_preemptable    RUNNING                   node2901          gres/gpu:h100:1\n        24853979_3               iphr-city-qwen                    mit_preemptable    RUNNING                   node4109          gres/gpu:h100:1\n        24853979_1               iphr-city-qwen                    mit_preemptable    RUNNING                   node2900          gres/gpu:h100:1\nmit_normal_gpu||cpu=32,gres/gpu=2,mem=515G||||64\nmit_preemptable||cpu=1024,gres/gpu=4,mem=4T||||448\nnormal||||||\nmit_general||normal|\n",
+  "partitions": "PartitionName=mit_normal_gpu\n   AllowGroups=ALL AllowAccounts=ALL AllowQos=ALL\n   AllocNodes=ALL Default=NO QoS=mit_normal_gpu\n   DefaultTime=02:00:00 DisableRootJobs=NO Exclusive=NO GraceTime=0 Hidden=NO\n   MaxNodes=UNLIMITED MaxTime=06:00:00 MinNodes=1 LLN=NO MaxCPUsPerNode=UNLIMITED MaxCPUsPerSocket=UNLIMITED\n   Nodes=node[1634,2433-2434,2804,2906,3000-3008,3100-3102,3200-3208,3300-3302,3400,3402-3408,3500-3512,4100,4102-4108,4200-4207],node3401-c1\n   PriorityJobFactor=2000 PriorityTier=25 RootOnly=NO ReqResv=NO OverSubscribe=NO\n   OverTimeLimit=NONE PreemptMode=OFF\n   State=UP TotalCPUs=5616 TotalNodes=67 SelectTypeParameters=NONE\n   JobDefaults=(null)\n   DefMemPerNode=UNLIMITED MaxMemPerNode=UNLIMITED\n   TRES=cpu=5616,mem=81951315M,node=67,billing=5616,gres/gpu=320,gres/gpu:h100=4,gres/gpu:h200=104,gres/gpu:l40s=212\n\nPartitionName=mit_preemptable\n   AllowGroups=ALL AllowAccounts=ALL AllowQos=normal,unlimited\n   AllocNodes=ALL Default=NO QoS=mit_preemptable\n   DefaultTime=NONE DisableRootJobs=NO Exclusive=NO GraceTime=0 Hidden=NO\n   MaxNodes=UNLIMITED MaxTime=2-00:00:00 MinNodes=1 LLN=NO MaxCPUsPerNode=UNLIMITED MaxCPUsPerSocket=UNLIMITED\n   Nodes=node[1375-1463,1600-1634,1702-1705,1708-1709,1802-1805,1900-1928,2000-2027,2100-2119,2300-2319,2403-2437,2500-2514,2518-2525,2600-2644,2702-2705,2802-2810,2900-2906,3000-3009,3100-3114,3200-3209,3300-3314,3400,3402-3409,3500-3512,3600-3628,3804-3811,3903-3911,4000-4012,4100,4102-4117,4200-4213,4300-4309,4400-4417,4500-4514,4600-4603,4700-4702,4800-4803,4900-4901,5000-5005,5100-5106,5200-5204],node3401-c1\n   PriorityJobFactor=250 PriorityTier=1 RootOnly=NO ReqResv=NO OverSubscribe=NO\n   OverTimeLimit=NONE PreemptMode=REQUEUE\n   State=UP TotalCPUs=53256 TotalNodes=591 SelectTypeParameters=NONE\n   JobDefaults=(null)\n   DefMemPerNode=UNLIMITED MaxMemPerNode=UNLIMITED\n   TRES=cpu=53256,mem=431525377M,node=591,billing=53256,gres/gpu=1106,gres/gpu:a100=274,gres/gpu:a40=4,gres/gpu:h100=130,gres/gpu:h200=274,gres/gpu:l4=2,gres/gpu:l40s=354,gres/gpu:rtx_pro_6000=68\n\n",
+  "normal_partition_check": "sbatch: Job 24855490 to start at 2026-10-06T20:47:53 a using 8 processors on nodes node2906 in partition mit_normal_gpu\nsbatch:   Preempts: 24855119,24855120\n24854200|mit_normal_gpu,mit_preemptable|PENDING|(Dependency)|N/A\n24854199|mit_normal_gpu,mit_preemptable|PENDING|(Dependency)|N/A\n24854198|mit_normal_gpu,mit_preemptable|PENDING|(Priority)|2026-10-05T17:30:00\n",
+  "conclusion": "All three jobs remain accepted and pending; dependencies valid and restart count zero. Normal GPU route remains requested. Preemptable GPU quota is currently fully used by four unrelated running city-Qwen array tasks; pending reason alternates Priority and QOSMaxGRESPerUser. No scheduling or experiment changes.",
+  "actions": "Read-only monitoring; recorded one quota notification. No runtime config exists, so no snapshot/report or GPU validation is yet possible."
+}

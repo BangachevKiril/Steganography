@@ -1,0 +1,72 @@
+{
+  "actual_l40s_legacy_environment_verified": true,
+  "checked_at": "2026-10-03T04:51:45.932089+00:00",
+  "evaluation_cleanup": [
+    {
+      "after": {
+        "cuda_allocated_bytes": 20528456704,
+        "cuda_reserved_bytes": 20761804800,
+        "device_free_bytes": 26150764544,
+        "device_total_bytes": 47667740672,
+        "host_rss_bytes": 98702852096
+      },
+      "before": {
+        "cuda_allocated_bytes": 20528456704,
+        "cuda_reserved_bytes": 43058724864,
+        "device_free_bytes": 3853844480,
+        "device_total_bytes": 47667740672,
+        "host_rss_bytes": 98702782464
+      },
+      "event": "runtime_events/l40s_eval_memory_24696926_1791002457381186427.json",
+      "sha256": "21d2bcbdf863373de886285094f36f824b201af5e924cc4bb6e56b01455de01c",
+      "update": 850
+    }
+  ],
+  "evaluation_update": 850,
+  "identity_checks": {
+    "all_passed": true,
+    "checks": {
+      "CORRECTIONS.json": true,
+      "EXPERIMENT.md": true,
+      "archive_manifest": true,
+      "extension_manifest": true,
+      "extension_slurm": true,
+      "extension_wrapper": true,
+      "orcd/university_corrected_l40s.py": true,
+      "orcd/university_corrected_l40s.slurm": true,
+      "orcd/university_l40s_evaluation_memory.py": true,
+      "orcd/university_l40s_memory_training.py": true,
+      "orcd/university_training.slurm": true,
+      "pinned_origin_marker": true,
+      "stego/__init__.py": true,
+      "stego/decoder_comparison.py": true,
+      "stego/decoder_prompt_comparison.py": true,
+      "stego/engine.py": true,
+      "stego/paired_inference.py": true,
+      "stego/paired_sender_probe.py": true,
+      "stego/prompt_comparison.py": true,
+      "stego/prompt_comparison_report.py": true,
+      "stego/protocol.py": true,
+      "stego/rejection_baseline.py": true,
+      "stego/smoke.py": true,
+      "stego/train.py": true,
+      "stego/training_report.py": true,
+      "stego/university_baseline.py": true,
+      "stego/university_evaluation.py": true,
+      "stego/university_judge.py": true,
+      "stego/university_metrics.py": true,
+      "stego/university_training.py": true,
+      "stego/university_training_report.py": true,
+      "tests/test_university_baseline.py": true,
+      "tests/test_university_corrections.py": true,
+      "tests/test_university_evaluation_memory.py": true,
+      "tests/test_university_judge.py": true,
+      "tests/test_university_metrics.py": true,
+      "tests/test_university_training.py": true,
+      "tests/test_university_training_report.py": true
+    }
+  },
+  "slurm_identity_sha256": "8cd43712a319bae78b7a90ba058cb3a1d2469844ebc60fc2184d9cd4dd08837c",
+  "slurm_identity_text": "             JOBID               NAME      STATE       TIME  NODES NODELIST(REASON)\n          24694570 iphr-qwen3-thinkin    PENDING       0:00      1 (Dependency)\n          24696926       uni-corr-ext    RUNNING    4:46:13      1 node3407\n          24694569 iphr-qwen3-thinkin    RUNNING    5:30:03      1 node1634\nJobId=24696926 JobName=uni-corr-ext UserId=kirilb(222643) GroupId=kirilb(222643) MCS_label=N/A Priority=259067 Nice=0 Account=mit_general QOS=normal JobState=RUNNING Reason=None Dependency=(null) Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0 RunTime=04:46:13 TimeLimit=06:00:00 TimeMin=N/A SubmitTime=2026-10-02T20:03:44 EligibleTime=2026-10-02T20:03:44 AccrueTime=2026-10-02T20:03:44 StartTime=2026-10-02T20:04:15 EndTime=2026-10-03T02:04:15 Deadline=N/A SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-02T20:04:15 Scheduler=Backfill Partition=mit_normal_gpu AllocNode:Sid=login007:2314501 ReqNodeList=(null) ExcNodeList=(null) NodeList=node3407 BatchHost=node3407 NumNodes=1 NumCPUs=8 NumTasks=1 CPUs/Task=8 ReqB:S:C:T=0:0:*:* ReqTRES=cpu=8,mem=128G,node=1,billing=8,gres/gpu=1,gres/gpu:l40s=1 AllocTRES=cpu=8,mem=128G,node=1,billing=8,gres/gpu=1,gres/gpu:l40s=1 Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=* MinCPUsNode=8 MinMemoryNode=128G MinTmpDiskNode=0 Features=(null) DelayBoot=00:00:00 OverSubscribe=NO Exclusive=NO Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null) Command=/orcd/pool/003/kirilb/Steganography/releases/uni_corrected_extension_20261002T235554Z/university_corrected_extension.slurm SubmitLine=sbatch --parsable --output=/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/slurm-%j.out --error=/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/slurm-%j.err --comment=uni_corrected_extension_20261002T235554Z /orcd/pool/003/kirilb/Steganography/releases/uni_corrected_extension_20261002T235554Z/university_corrected_extension.slurm /orcd/pool/003/kirilb/Steganography/releases/uni_corrected_20261002T151448Z /orcd/pool/003/kirilb/Steganography/releases/uni_corrected_extension_20261002T235554Z WorkDir=/home/kirilb Comment=uni_corrected_extension_20261002T235554Z StdErr=/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/slurm-24696926.err StdIn=/dev/null StdOut=/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/slurm-24696926.out TresPerNode=gres/gpu:l40s:1 TresPerTask=cpu=8\n{\"checks\": {\"CORRECTIONS.json\": true, \"EXPERIMENT.md\": true, \"orcd/university_corrected_l40s.py\": true, \"orcd/university_corrected_l40s.slurm\": true, \"orcd/university_l40s_evaluation_memory.py\": true, \"orcd/university_l40s_memory_training.py\": true, \"orcd/university_training.slurm\": true, \"stego/__init__.py\": true, \"stego/decoder_comparison.py\": true, \"stego/decoder_prompt_comparison.py\": true, \"stego/engine.py\": true, \"stego/paired_inference.py\": true, \"stego/paired_sender_probe.py\": true, \"stego/prompt_comparison.py\": true, \"stego/prompt_comparison_report.py\": true, \"stego/protocol.py\": true, \"stego/rejection_baseline.py\": true, \"stego/smoke.py\": true, \"stego/train.py\": true, \"stego/training_report.py\": true, \"stego/university_baseline.py\": true, \"stego/university_evaluation.py\": true, \"stego/university_judge.py\": true, \"stego/university_metrics.py\": true, \"stego/university_training.py\": true, \"stego/university_training_report.py\": true, \"tests/test_university_baseline.py\": true, \"tests/test_university_corrections.py\": true, \"tests/test_university_evaluation_memory.py\": true, \"tests/test_university_judge.py\": true, \"tests/test_university_metrics.py\": true, \"tests/test_university_training.py\": true, \"tests/test_university_training_report.py\": true, \"extension_wrapper\": true, \"extension_slurm\": true, \"extension_manifest\": true, \"archive_manifest\": true, \"pinned_origin_marker\": true}, \"all_passed\": true}\n",
+  "verified_update_boundary": 859
+}

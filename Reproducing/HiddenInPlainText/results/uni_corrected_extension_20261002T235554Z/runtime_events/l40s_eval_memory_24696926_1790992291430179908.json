@@ -1,0 +1,47 @@
+{
+  "kind": "L40S_evaluation_parent_cache_cleanup",
+  "status": "original_judge_completed",
+  "started_at": 1790992291.4301834,
+  "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+  "evaluation_config_digest": "86ea087162f9e361763df6418aae5c371e4a884888e6b668e97763c33aae4a21",
+  "evaluation_dir": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/evaluations/step_000650",
+  "checkpoint": {
+    "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_000650",
+    "completed_update": 650,
+    "complete_sha256": "22ad954ff3b3590f7eba21443a911280d10fdafb6e94a419a6a0a067ae1841df"
+  },
+  "checkpoint_complete": {
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "completed_update": 650,
+    "state_sha256": "c4095c26eab246d5899be5274fb265c224d255bf8f25bf8696045e79c849127b",
+    "elapsed": 34078.89704364934,
+    "phase": "sender"
+  },
+  "wrapper_sha256": "453aff7ed707c3d835149e0c8ac4ec0563b4a6526a9309b91d9b31f329cb1ea2",
+  "evaluation_helper_sha256": "d5f9352f0c6984c29f0078ec035be77822cb81c2fe2010f38248c634326e90f2",
+  "slurm_job_id": "24696926",
+  "slurm_restart_count": null,
+  "manifest_sha256": "f96572c03547bfe59d762941124ba016d468591e9a02a3aa98e87704ece79591",
+  "cleanup_verification": {
+    "before": {
+      "cuda_allocated_bytes": 20528790016,
+      "cuda_reserved_bytes": 43310383104,
+      "device_free_bytes": 3602186240,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 98636414976
+    },
+    "after": {
+      "cuda_allocated_bytes": 20528790016,
+      "cuda_reserved_bytes": 20782776320,
+      "device_free_bytes": 26129793024,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 98638319616
+    },
+    "gc_collected_objects": 258,
+    "live_tensor_metadata_unchanged": true,
+    "rng_unchanged": true,
+    "live_tensor_metadata_sha256": "9e5f7dc676ff3d2933ccb569b644a0bb258c1a4a0c8304720af7f197e3578851"
+  },
+  "cache_cleaned_at": 1790992292.0511184,
+  "finished_at": 1790992357.2251213
+}

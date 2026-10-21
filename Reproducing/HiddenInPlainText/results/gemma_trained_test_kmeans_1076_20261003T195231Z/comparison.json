@@ -1,0 +1,72 @@
+{
+  "status": "complete",
+  "settings": "k2;50k-means++ starts;seed42;featurewise test-only population-standardization;noPCA;minimuminertia;labels only after frozen assignments",
+  "comparisons": [
+    {
+      "model": "Original pretrained Gemma",
+      "accuracy": 0.521,
+      "correct": 521,
+      "n": 1000,
+      "adjusted_rand_index": 0.0007954857673636742,
+      "cluster_sizes": [
+        411,
+        589
+      ],
+      "cluster_by_fail_pass": [
+        [
+          216,
+          195
+        ],
+        [
+          284,
+          305
+        ]
+      ],
+      "evaluation_file": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/gemma_untrained_test_kmeans_1076_20261003T195231Z/evaluation/evaluation.json"
+    },
+    {
+      "model": "Trained Gemma sender",
+      "accuracy": 0.517,
+      "correct": 517,
+      "n": 1000,
+      "adjusted_rand_index": 0.000185485354955304,
+      "cluster_sizes": [
+        413,
+        587
+      ],
+      "cluster_by_fail_pass": [
+        [
+          215,
+          198
+        ],
+        [
+          285,
+          302
+        ]
+      ],
+      "evaluation_file": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/gemma_trained_test_kmeans_1076_20261003T195231Z/evaluation/evaluation.json"
+    },
+    {
+      "model": "Qwen2.5-3B-Instruct",
+      "accuracy": 0.516,
+      "correct": 516,
+      "n": 1000,
+      "adjusted_rand_index": 7.510630829025034e-05,
+      "cluster_sizes": [
+        614,
+        386
+      ],
+      "cluster_by_fail_pass": [
+        [
+          299,
+          315
+        ],
+        [
+          201,
+          185
+        ]
+      ],
+      "evaluation_file": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/qwen25_3b_test_kmeans_1076_20261003T193938Z/evaluation/evaluation.json"
+    }
+  ]
+}

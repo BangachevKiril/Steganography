@@ -1,0 +1,60 @@
+{
+  "verified_at": "2026-10-02T17:01:18.152443+00:00",
+  "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+  "completed_update": 100,
+  "state_sha256": "244befbf6c25213299899fcc7906b4e3e86c8160f56b6c159a2aaa2600fe03f2",
+  "state_sha256_verified_remotely": true,
+  "state_file_copied_locally": false,
+  "checkpoint_manifest_sha256": "8234339c8858ea4f34ec0b1a81598609003acca1bc73fb3fda8688550558417b",
+  "checkpoint_elapsed_seconds": 5369.61081404984,
+  "summary_sha256": "4750e74b8b68ab958dd4d9ed8120ba5260ca2c1337d46849e123f40d5f25070e",
+  "completion_marker_sha256": "d95933ad67d5f703c7d7d11dc60f856c3a3e1cb9acab5d2472fd45815297596b",
+  "runtime_cleanup": {
+    "kind": "L40S_evaluation_parent_cache_cleanup",
+    "status": "original_judge_completed",
+    "started_at": 1790960291.3496037,
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "evaluation_config_digest": "8639f583edaa3a07230df7049d4922522b032a8c1543ef1fe2cef04dc809d4e7",
+    "evaluation_dir": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/evaluations/step_000100",
+    "checkpoint": {
+      "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_000100",
+      "completed_update": 100,
+      "complete_sha256": "8234339c8858ea4f34ec0b1a81598609003acca1bc73fb3fda8688550558417b"
+    },
+    "checkpoint_complete": {
+      "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+      "completed_update": 100,
+      "state_sha256": "244befbf6c25213299899fcc7906b4e3e86c8160f56b6c159a2aaa2600fe03f2",
+      "elapsed": 5369.61081404984,
+      "phase": "receiver"
+    },
+    "wrapper_sha256": "453aff7ed707c3d835149e0c8ac4ec0563b4a6526a9309b91d9b31f329cb1ea2",
+    "evaluation_helper_sha256": "d5f9352f0c6984c29f0078ec035be77822cb81c2fe2010f38248c634326e90f2",
+    "slurm_job_id": "24665081",
+    "slurm_restart_count": null,
+    "manifest_sha256": "f96572c03547bfe59d762941124ba016d468591e9a02a3aa98e87704ece79591",
+    "cleanup_verification": {
+      "before": {
+        "cuda_allocated_bytes": 20528935936,
+        "cuda_reserved_bytes": 42788192256,
+        "device_free_bytes": 4124377088,
+        "device_total_bytes": 47667740672,
+        "host_rss_bytes": 98609139712
+      },
+      "after": {
+        "cuda_allocated_bytes": 20528935936,
+        "cuda_reserved_bytes": 20807942144,
+        "device_free_bytes": 26104627200,
+        "device_total_bytes": 47667740672,
+        "host_rss_bytes": 98609520640
+      },
+      "gc_collected_objects": 258,
+      "live_tensor_metadata_unchanged": true,
+      "rng_unchanged": true,
+      "live_tensor_metadata_sha256": "a94f2c32233f104f9a470943bd4f71833bce53509941e1dbb2cae06f75e55cd9"
+    },
+    "cache_cleaned_at": 1790960291.9453745,
+    "finished_at": 1790960359.420609
+  },
+  "same_slurm_job_without_restart": true
+}

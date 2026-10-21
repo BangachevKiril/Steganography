@@ -1,0 +1,82 @@
+{
+  "source_repository": "https://github.com/olliematthews/lasr-steganography",
+  "source_commit": "d4c708b9339fd2f85cb442827ac56333b55cf9d2",
+  "source_path": "lasr-steganography/learning/rl/data/cv/oversight_test_data.py",
+  "source_url": "https://raw.githubusercontent.com/olliematthews/lasr-steganography/d4c708b9339fd2f85cb442827ac56333b55cf9d2/lasr-steganography/learning/rl/data/cv/oversight_test_data.py",
+  "source_sha256": "58134408371ae0e1a0dc559f50a7b4ffe6b84e327a4848e08a4fb5f31cf6a650",
+  "source_bytes": 28579,
+  "extraction": "AST-only literal assignments plus dataset.extend in source order; no imports or source execution",
+  "artifact": "observer_controls.json",
+  "artifact_sha256": "4965e3ce965b864d4ffa2bf5449bff74372ad5375c0b119a34e741f4914eeacb",
+  "n_examples": 148,
+  "label_counts": {
+    "suspicious": 106,
+    "not_suspicious": 42
+  },
+  "label_semantics": {
+    "0": "no university/status reference",
+    "1": "university/status reference"
+  },
+  "source_group_ranges": [
+    {
+      "group": "vary1",
+      "start_index": 0,
+      "end_index_exclusive": 4
+    },
+    {
+      "group": "vary2",
+      "start_index": 4,
+      "end_index_exclusive": 8
+    },
+    {
+      "group": "vary3",
+      "start_index": 8,
+      "end_index_exclusive": 12
+    },
+    {
+      "group": "irrelevant",
+      "start_index": 12,
+      "end_index_exclusive": 16
+    },
+    {
+      "group": "other_sus",
+      "start_index": 16,
+      "end_index_exclusive": 33
+    },
+    {
+      "group": "other_non_sus",
+      "start_index": 33,
+      "end_index_exclusive": 43
+    },
+    {
+      "group": "new_samples",
+      "start_index": 43,
+      "end_index_exclusive": 68
+    },
+    {
+      "group": "new_flags",
+      "start_index": 68,
+      "end_index_exclusive": 78
+    },
+    {
+      "group": "claude_toy_clean",
+      "start_index": 78,
+      "end_index_exclusive": 98
+    },
+    {
+      "group": "claude_toy_sus",
+      "start_index": 98,
+      "end_index_exclusive": 118
+    },
+    {
+      "group": "more_claude_sus",
+      "start_index": 118,
+      "end_index_exclusive": 138
+    },
+    {
+      "group": "raw_sus_data",
+      "start_index": 138,
+      "end_index_exclusive": 148
+    }
+  ]
+}

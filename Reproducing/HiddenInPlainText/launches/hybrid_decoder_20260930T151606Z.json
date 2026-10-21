@@ -1,0 +1,570 @@
+{
+  "release": "20260930T151606Z",
+  "experiment": "piqa_qwen3_4b_hybrid_decoder_fresh_100",
+  "archive": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/launches/hybrid_decoder_20260930T151606Z.tar.gz",
+  "archive_sha256": "d44d7754856add1e3e5f3296e011a3dcd6ae6272188102d418f6c8ecf9a06523",
+  "remote_source": "/orcd/pool/003/kirilb/Steganography/releases/hybrid_decoder_20260930T151606Z",
+  "remote_run": "/orcd/pool/003/kirilb/Steganography/runs/piqa_hybrid_decoder_fresh_20260930T151606Z",
+  "local_results": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/piqa_hybrid_decoder_fresh_20260930T151606Z",
+  "config_digest": "027cff0d41872b1094b5e1f70b02b00bdf03774692fa6f936c87140acfb15911",
+  "model": "Qwen3-4B",
+  "total_steps": 100,
+  "state": "stopped_by_user",
+  "initialization": "fresh_base_and_adapters",
+  "previous_run_record": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/launches/revised_pilot_20260929T173207Z.json",
+  "decoder_objective": "fixed_baseline_pg_ce",
+  "decoder_baseline": 0.5,
+  "decoder_ce_weight": 1.0,
+  "sender_system_prompt_sha256": "7691c2fe05b5662569253a54765856470ce823eb43231f237857c33c09a1f36e",
+  "reported_training_phase_ends": [
+    10,
+    20
+  ],
+  "reported_validation_steps": [
+    20
+  ],
+  "first_training_step_reported": true,
+  "initial_timing_reported": true,
+  "full_timing_reported": true,
+  "completion_reported": false,
+  "monitor_access_status": "connected",
+  "created_at": "2026-09-30T15:16:06.305144+00:00",
+  "local_validation": {
+    "unittest_tests_passed": 77,
+    "all_wrong_decoder_gradient_regression": "passed"
+  },
+  "slurm_job_id": "24441537",
+  "submitted_at": "2026-09-30T15:17:38.463798+00:00",
+  "submission_script": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/launches/submit_hybrid_20260930T151606Z.py",
+  "automation_id": "monitor-hybrid-piqa-rl-retry",
+  "monitor_status": "deleted_at_user_request",
+  "slurm_state": "CANCELLED",
+  "slurm_reason": null,
+  "last_monitor_check_at": "2026-09-30T17:35:25.417761+00:00",
+  "node": "node3009",
+  "gpu": "NVIDIA H100 80GB HBM3",
+  "gpu_checks": "passed",
+  "initialization_verified": true,
+  "last_observed_completed_step": 23,
+  "last_verified_in_progress_step": null,
+  "slurm_elapsed": "2:05:03",
+  "first_joint_step_seconds": 490.62251038011163,
+  "last_reported_training": {
+    "global_step": 1,
+    "phase": "joint",
+    "n": 128,
+    "C_R": 0.5234375,
+    "C_I": 0.4921875,
+    "d": 0.1875,
+    "correct_receiver": 67,
+    "correct_interceptor": 63,
+    "rejected_answers": 24,
+    "seconds": 490.62251038011163,
+    "decoder_training": {
+      "receiver": {
+        "n": 128,
+        "zero": 105,
+        "correct": 71,
+        "zero_rate": 0.8203125,
+        "accuracy": 0.5546875,
+        "by_true_bit": {
+          "0": {
+            "n": 64,
+            "zero": 56,
+            "correct": 56,
+            "zero_rate": 0.875,
+            "accuracy": 0.875
+          },
+          "1": {
+            "n": 64,
+            "zero": 49,
+            "correct": 15,
+            "zero_rate": 0.765625,
+            "accuracy": 0.234375
+          }
+        },
+        "by_receiver_identity": {
+          "B": {
+            "n": 64,
+            "zero": 58,
+            "correct": 32,
+            "zero_rate": 0.90625,
+            "accuracy": 0.5
+          },
+          "A": {
+            "n": 64,
+            "zero": 47,
+            "correct": 39,
+            "zero_rate": 0.734375,
+            "accuracy": 0.609375
+          }
+        }
+      },
+      "interceptor": {
+        "n": 128,
+        "zero": 91,
+        "correct": 73,
+        "zero_rate": 0.7109375,
+        "accuracy": 0.5703125,
+        "by_true_bit": {
+          "0": {
+            "n": 64,
+            "zero": 50,
+            "correct": 50,
+            "zero_rate": 0.78125,
+            "accuracy": 0.78125
+          },
+          "1": {
+            "n": 64,
+            "zero": 41,
+            "correct": 23,
+            "zero_rate": 0.640625,
+            "accuracy": 0.359375
+          }
+        },
+        "by_receiver_identity": {
+          "B": {
+            "n": 64,
+            "zero": 48,
+            "correct": 26,
+            "zero_rate": 0.75,
+            "accuracy": 0.40625
+          },
+          "A": {
+            "n": 64,
+            "zero": 43,
+            "correct": 47,
+            "zero_rate": 0.671875,
+            "accuracy": 0.734375
+          }
+        }
+      }
+    },
+    "text_flag_counts": {
+      "bit_meta_mention": 5,
+      "explicit_bit_value_text": 4,
+      "public_string_copy": 0,
+      "public_string_discussion": 0
+    },
+    "grpo_signal_by_role": {
+      "sender": {
+        "groups": 16,
+        "active_groups": 16,
+        "active_group_fraction": 1.0
+      },
+      "receiver": {
+        "groups": 16,
+        "active_groups": 13,
+        "active_group_fraction": 0.8125
+      },
+      "interceptor": {
+        "groups": 16,
+        "active_groups": 12,
+        "active_group_fraction": 0.75
+      }
+    },
+    "receiver_decoder_ce": 3.0607307575904854,
+    "interceptor_decoder_ce": 2.104012856017979,
+    "reasoning_pg_active_fraction_by_adapter": {
+      "A": 1.0,
+      "B": 1.0,
+      "I": 1.0
+    },
+    "matches_previous_preupdate_counts": true
+  },
+  "last_milestone_reported_at": "2026-09-30T17:20:35.935711+00:00",
+  "final_report": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/piqa_hybrid_decoder_fresh_20260930T151606Z/report.md",
+  "final_per_step_csv": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/piqa_hybrid_decoder_fresh_20260930T151606Z/training_metrics.csv",
+  "decoder_per_step_csv": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/piqa_hybrid_decoder_fresh_20260930T151606Z/decoder_metrics.csv",
+  "last_control_check_at": "2026-09-30T17:12:13.220044+00:00",
+  "last_monitor_attempt_at": "2026-09-30T17:12:13.220044+00:00",
+  "access_block_reported_at": "2026-09-30T15:40:56.359793+00:00",
+  "access_block_reason": "Existing orcd-login SSH control socket is absent. No authentication attempted.",
+  "access_restored_at": "2026-09-30T17:18:29.047237+00:00",
+  "slurm_restarts": 0,
+  "reported_phase_summaries": [
+    {
+      "steps": [
+        1,
+        10
+      ],
+      "phase": "joint",
+      "counts": {
+        "C_R": [
+          660,
+          1280
+        ],
+        "C_I": [
+          691,
+          1280
+        ],
+        "d": [
+          258,
+          1280
+        ],
+        "interceptor_training_C_I": null
+      },
+      "decoder": {
+        "receiver": {
+          "n": 1280,
+          "zero": 674,
+          "correct": 694,
+          "decoder_ce": 2.6211419088729437,
+          "decoder_probability_zero_mean": 0.5134855097109401,
+          "reasoning_pg_active_fraction": 1.0
+        },
+        "interceptor": {
+          "n": 1280,
+          "zero": 626,
+          "correct": 648,
+          "decoder_ce": 2.1718652115496946,
+          "decoder_probability_zero_mean": 0.4943130272019044,
+          "reasoning_pg_active_fraction": 1.0
+        }
+      },
+      "grpo_signal_by_role": {
+        "sender": {
+          "groups": 160,
+          "active_groups": 158
+        },
+        "receiver": {
+          "groups": 160,
+          "active_groups": 129
+        },
+        "interceptor": {
+          "groups": 160,
+          "active_groups": 136
+        }
+      },
+      "text_flag_counts": {
+        "bit_meta_mention": 51,
+        "explicit_bit_value_text": 55,
+        "public_string_copy": 2,
+        "public_string_discussion": 5
+      },
+      "accepted_without_detected_disclosure": {
+        "n": 991,
+        "correct_receiver": 485,
+        "correct_interceptor": 525
+      }
+    },
+    {
+      "steps": [
+        11,
+        20
+      ],
+      "phase": "interceptor",
+      "counts": {
+        "C_R": [
+          89,
+          160
+        ],
+        "C_I": [
+          84,
+          160
+        ],
+        "d": [
+          44,
+          160
+        ],
+        "interceptor_training_C_I": [
+          660,
+          1280
+        ]
+      },
+      "decoder": {
+        "interceptor": {
+          "n": 1280,
+          "zero": 640,
+          "correct": 660,
+          "decoder_ce": 1.399045539295397,
+          "decoder_probability_zero_mean": 0.49325483933044795,
+          "reasoning_pg_active_fraction": 1.0
+        }
+      },
+      "grpo_signal_by_role": {
+        "interceptor": {
+          "groups": 160,
+          "active_groups": 137
+        }
+      },
+      "text_flag_counts": {
+        "bit_meta_mention": 11,
+        "explicit_bit_value_text": 9,
+        "public_string_copy": 4,
+        "public_string_discussion": 3
+      },
+      "accepted_without_detected_disclosure": {
+        "n": 115,
+        "correct_receiver": 63,
+        "correct_interceptor": 57
+      }
+    }
+  ],
+  "last_reported_training_phase": {
+    "steps": [
+      11,
+      20
+    ],
+    "phase": "interceptor",
+    "counts": {
+      "C_R": [
+        89,
+        160
+      ],
+      "C_I": [
+        84,
+        160
+      ],
+      "d": [
+        44,
+        160
+      ],
+      "interceptor_training_C_I": [
+        660,
+        1280
+      ]
+    },
+    "decoder": {
+      "interceptor": {
+        "n": 1280,
+        "zero": 640,
+        "correct": 660,
+        "decoder_ce": 1.399045539295397,
+        "decoder_probability_zero_mean": 0.49325483933044795,
+        "reasoning_pg_active_fraction": 1.0
+      }
+    },
+    "grpo_signal_by_role": {
+      "interceptor": {
+        "groups": 160,
+        "active_groups": 137
+      }
+    },
+    "text_flag_counts": {
+      "bit_meta_mention": 11,
+      "explicit_bit_value_text": 9,
+      "public_string_copy": 4,
+      "public_string_discussion": 3
+    },
+    "accepted_without_detected_disclosure": {
+      "n": 115,
+      "correct_receiver": 63,
+      "correct_interceptor": 57
+    }
+  },
+  "last_reported_validation": {
+    "global_step": 20,
+    "n": 32,
+    "C_R": 0.53125,
+    "C_I": 0.375,
+    "d": 0.15625,
+    "correct_receiver": 17,
+    "correct_interceptor": 12,
+    "rejected_answers": 5,
+    "decoder_guesses": {
+      "receiver": {
+        "n": 32,
+        "zero": 11,
+        "correct": 17,
+        "zero_rate": 0.34375,
+        "accuracy": 0.53125,
+        "by_true_bit": {
+          "0": {
+            "n": 16,
+            "zero": 6,
+            "correct": 6,
+            "zero_rate": 0.375,
+            "accuracy": 0.375
+          },
+          "1": {
+            "n": 16,
+            "zero": 5,
+            "correct": 11,
+            "zero_rate": 0.3125,
+            "accuracy": 0.6875
+          }
+        },
+        "by_receiver_identity": {
+          "B": {
+            "n": 16,
+            "zero": 5,
+            "correct": 7,
+            "zero_rate": 0.3125,
+            "accuracy": 0.4375
+          },
+          "A": {
+            "n": 16,
+            "zero": 6,
+            "correct": 10,
+            "zero_rate": 0.375,
+            "accuracy": 0.625
+          }
+        }
+      },
+      "interceptor": {
+        "n": 32,
+        "zero": 12,
+        "correct": 12,
+        "zero_rate": 0.375,
+        "accuracy": 0.375,
+        "by_true_bit": {
+          "0": {
+            "n": 16,
+            "zero": 4,
+            "correct": 4,
+            "zero_rate": 0.25,
+            "accuracy": 0.25
+          },
+          "1": {
+            "n": 16,
+            "zero": 8,
+            "correct": 8,
+            "zero_rate": 0.5,
+            "accuracy": 0.5
+          }
+        },
+        "by_receiver_identity": {
+          "B": {
+            "n": 16,
+            "zero": 6,
+            "correct": 8,
+            "zero_rate": 0.375,
+            "accuracy": 0.5
+          },
+          "A": {
+            "n": 16,
+            "zero": 6,
+            "correct": 4,
+            "zero_rate": 0.375,
+            "accuracy": 0.25
+          }
+        }
+      }
+    },
+    "text_flag_counts": {
+      "bit_meta_mention": 0,
+      "explicit_bit_value_text": 2,
+      "public_string_copy": 0,
+      "public_string_discussion": 0
+    },
+    "accepted_without_detected_disclosure": {
+      "n": 26,
+      "C_R": 0.46153846153846156,
+      "C_I": 0.3076923076923077,
+      "d": 0.0,
+      "correct_receiver": 12,
+      "correct_interceptor": 8,
+      "rejected_answers": 0,
+      "format_pass_rate": 1.0,
+      "judge_content_pass_rate": 1.0,
+      "decoder_guesses": {
+        "receiver": {
+          "n": 26,
+          "zero": 10,
+          "correct": 12,
+          "zero_rate": 0.38461538461538464,
+          "accuracy": 0.46153846153846156,
+          "by_true_bit": {
+            "0": {
+              "n": 14,
+              "zero": 5,
+              "correct": 5,
+              "zero_rate": 0.35714285714285715,
+              "accuracy": 0.35714285714285715
+            },
+            "1": {
+              "n": 12,
+              "zero": 5,
+              "correct": 7,
+              "zero_rate": 0.4166666666666667,
+              "accuracy": 0.5833333333333334
+            }
+          },
+          "by_receiver_identity": {
+            "B": {
+              "n": 14,
+              "zero": 5,
+              "correct": 6,
+              "zero_rate": 0.35714285714285715,
+              "accuracy": 0.42857142857142855
+            },
+            "A": {
+              "n": 12,
+              "zero": 5,
+              "correct": 6,
+              "zero_rate": 0.4166666666666667,
+              "accuracy": 0.5
+            }
+          }
+        },
+        "interceptor": {
+          "n": 26,
+          "zero": 10,
+          "correct": 8,
+          "zero_rate": 0.38461538461538464,
+          "accuracy": 0.3076923076923077,
+          "by_true_bit": {
+            "0": {
+              "n": 14,
+              "zero": 3,
+              "correct": 3,
+              "zero_rate": 0.21428571428571427,
+              "accuracy": 0.21428571428571427
+            },
+            "1": {
+              "n": 12,
+              "zero": 7,
+              "correct": 5,
+              "zero_rate": 0.5833333333333334,
+              "accuracy": 0.4166666666666667
+            }
+          },
+          "by_receiver_identity": {
+            "B": {
+              "n": 14,
+              "zero": 5,
+              "correct": 6,
+              "zero_rate": 0.35714285714285715,
+              "accuracy": 0.42857142857142855
+            },
+            "A": {
+              "n": 12,
+              "zero": 5,
+              "correct": 2,
+              "zero_rate": 0.4166666666666667,
+              "accuracy": 0.16666666666666666
+            }
+          }
+        }
+      }
+    }
+  },
+  "phase_timing_report": {
+    "completed_step": 21,
+    "median_step_seconds": {
+      "joint": 488.685912494082,
+      "interceptor": 140.8877689181827
+    },
+    "observed_steps": {
+      "joint": 11,
+      "interceptor": 10
+    },
+    "remaining_step_counts": {
+      "joint": 39,
+      "interceptor": 40
+    },
+    "eta_seconds_excluding_queue": 24963.88428759342,
+    "validation_seconds_observed": [
+      67.4057358992286
+    ],
+    "note": "ETA excludes queue/preemption and checkpoint writes; includes future validation only once measured."
+  },
+  "stop_requested_at": "2026-09-30T17:33:34.137176+00:00",
+  "stop_reason": "User requested stop before revising decoder prompts.",
+  "auto_resume_allowed": false,
+  "monitor_deleted_at": "2026-09-30T17:34:31.577645+00:00",
+  "stopped_at": "2026-09-30T17:35:25.417761+00:00",
+  "stop_verified": true,
+  "stop_audit": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/piqa_hybrid_decoder_fresh_20260930T151606Z/STOP_AUDIT.json"
+}

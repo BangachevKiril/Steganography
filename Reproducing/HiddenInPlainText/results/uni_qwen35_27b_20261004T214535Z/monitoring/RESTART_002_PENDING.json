@@ -1,0 +1,26 @@
+{
+  "job_id": "24936931",
+  "restart_count": 2,
+  "node": "node4109",
+  "status": "observer_loading_restoration_pending",
+  "checked_at": "2026-10-05T23:45:47.400270+00:00",
+  "selected_checkpoint_update": 305,
+  "selected_checkpoint_state_sha256": "3a69495d379a820e4b21f3bccac8d87f7135ed92e80ccc43308dae7dd35b3d1e",
+  "selected_checkpoint_marker_sha256": "62361f5ae0739b6f1c5f6d1e93c9fc3ca40e15e739c44613db162de3998eb4dc",
+  "checkpoint_elapsed_seconds": 23499.706571775023,
+  "retained_active_clock_seconds": 23501.956096203066,
+  "fixed_cumulative_thresholds": [
+    27900,
+    55800,
+    83700
+  ],
+  "preflight_event": "runtime_events/h100_memory_preflight_24936931_1791238230129967511.json",
+  "preflight_sha256": "7be42e035df5b1d989ce711256ef9966315320d2edeb895474cb84c14e182aa0",
+  "new_allocation_h100_and_toy_parity_verified": true,
+  "fresh_baseline_initialization": false,
+  "observer_ready_for_current_allocation": false,
+  "restoration_verified": false,
+  "initialization_status_update0_is_before_restore": true,
+  "scope": "New preflight and checkpoint verified; observer/offload/smoke still refer to previous allocation.",
+  "reported_scheduling_transition": true
+}

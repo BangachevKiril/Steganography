@@ -1,0 +1,14 @@
+{
+  "artifact": "FULL_CYCLE_SMOKE.json",
+  "sha256": "e962d758e5f2b94bee1bf3305c4e4675b6f3cfbe6d6490ec3b58a8d3ee60d578",
+  "completed_update": 7,
+  "attested_checkpoint_complete_sha256": "8c222199d951429d91144226766495a5bbdcf4d136afb6beed13075fa7fa15e3",
+  "initial_evaluation_complete_sha256": "63460ede6e856d248bcffe60678e2ffb347dd2ec577123d194b2288fbbe1a044",
+  "checkpoint7_marker_retained": false,
+  "checkpoint7_marker_independently_rehashed": false,
+  "checkpoint7_state_independently_rehashed": false,
+  "retention_explanation": "Frozen source keeps initial/latest3/segment boundaries and evaluation markers; non-evaluation step7 directory is pruned at update10. Verified wrapper writes smoke only after original checkpoint commit and exact2R+5S schedule validation.",
+  "corroborating_verified_update": 13,
+  "corroborating_state_sha256": "d60056597f38da4cf27de85bc91ceac2ad9a15ab19b5269693de168042f17195",
+  "verified_at": "2026-10-05T15:56:21.214701+00:00"
+}

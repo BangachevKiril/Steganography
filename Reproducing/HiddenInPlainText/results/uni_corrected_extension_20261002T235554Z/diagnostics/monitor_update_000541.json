@@ -1,0 +1,142 @@
+{
+  "added_active_seconds_at_checkpoint": 531.5770262049045,
+  "archive_manifest_hash_verified": true,
+  "checked_at": "2026-10-03T00:18:43.225464+00:00",
+  "checkpoint": {
+    "completed_update": 541,
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "elapsed": 28461.98199844244,
+    "phase": "receiver",
+    "state_sha256": "0774eec5a069ce53cc3f87e5d18185f35bc91863a60a594f70e4ff77832f1753"
+  },
+  "committed_extension_updates": 11,
+  "extension_manifest_hash_verified": true,
+  "extension_wrapper_hash_verified": true,
+  "failure_json_present": false,
+  "first_extension_receiver": {
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "cycle": 77,
+    "duration_seconds": 14.93350901803933,
+    "kind": "receiver",
+    "mean_loss": 0.6907554417848587,
+    "n": 512,
+    "observer_flagged": 33,
+    "receiver_correct": 294,
+    "receiver_fail": 273,
+    "receiver_pass": 239,
+    "receiver_training": {
+      "correct": 136,
+      "gradient_reduction": "mean_cross_entropy_over_all_examples",
+      "label_counts": {
+        "FAIL": 124,
+        "PASS": 132
+      },
+      "loss": 0.6907554417848587,
+      "microbatches": 4,
+      "minibatch_label_counts": [
+        {
+          "FAIL": 37,
+          "PASS": 27,
+          "n": 64
+        },
+        {
+          "FAIL": 30,
+          "PASS": 34,
+          "n": 64
+        },
+        {
+          "FAIL": 27,
+          "PASS": 37,
+          "n": 64
+        },
+        {
+          "FAIL": 30,
+          "PASS": 34,
+          "n": 64
+        }
+      ],
+      "n": 256,
+      "optimizer_sample_count": 256,
+      "optimizer_steps": 1
+    },
+    "update": 533
+  },
+  "first_extension_sender": {
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "cycle": 76,
+    "duration_seconds": 95.5526920768898,
+    "kind": "sender",
+    "n": 192,
+    "observer_flagged": 9,
+    "ppo": {
+      "objective/kl": 7.813563346862793,
+      "objective/kl_coef": 0.023356051431019615,
+      "ppo/loss/policy": -0.00090036541223526,
+      "ppo/loss/total": 0.004815352614969015,
+      "ppo/loss/value": 0.05715716630220413
+    },
+    "receiver_correct": 107,
+    "receiver_fail": 94,
+    "receiver_pass": 98,
+    "reward_mean": 0.20429587364196777,
+    "reward_std": 0.15949726104736328,
+    "token_cap": 18,
+    "update": 531
+  },
+  "gpu": "NVIDIA L40S",
+  "independent_public_rollout_audit": {
+    "all_public_scores_finite": true,
+    "all_receiver_collections_have_512_unique_texts": true,
+    "all_row_counts_match_metrics": true,
+    "all_sender_rollouts_have_192_unique_texts": true,
+    "observer_flags_match_score_below_zero": true,
+    "receiver_selected_256_labels_and_four_minibatches_reconstructed": true,
+    "sender_reward_std_range": [
+      0.15476219356060028,
+      0.18175500631332397
+    ],
+    "single_label_or_text_collapse_observed": false,
+    "updates": [
+      531,
+      541
+    ]
+  },
+  "inherited_runtime_manifests_unchanged": true,
+  "job_id": "24696926",
+  "last_committed_ppo_memory": {
+    "attempted_update": 539,
+    "device_total_bytes": 47667740672,
+    "duration_seconds": 52.71732181706466,
+    "end_device_free_bytes": 4149542912,
+    "end_host_rss_bytes": 98483011584,
+    "error": null,
+    "note": "PPO-call completion alone does not establish a committed checkpoint.",
+    "peak_allocated_bytes": 38907744256,
+    "peak_reserved_bytes": 42765123584,
+    "ppo_call_status": "completed",
+    "saved_tensor_transfers": {
+      "expanded_cuda_tensors": 0,
+      "noncontiguous_cuda_tensors": 3744,
+      "nonzero_offset_cuda_tensors": 12,
+      "packed_cuda_tensors": 15408,
+      "packed_storage_bytes": 638963021568,
+      "unpacked_cuda_tensors": 15180
+    }
+  },
+  "new_evaluations": [],
+  "new_numeric_metrics_finite": true,
+  "new_receiver_updates": 4,
+  "new_sender_updates": 7,
+  "node": "node3407",
+  "origin_marker_hash_verified": true,
+  "remaining_active_seconds_at_checkpoint": 27368.422973795095,
+  "report_sha256": "72962a2294e697225aeea59c21809d984314abdf1c5f2499a98c7e97d1b23067",
+  "restored_elapsed_seconds": 27930.404972237535,
+  "restored_update": 530,
+  "sender_reward_variation_verified": true,
+  "slurm_state": "RUNNING",
+  "source_file_hash_checks_passed": 33,
+  "state_sha256_verified_remotely": true,
+  "target_active_seconds": 55830.404972237535,
+  "verified_update": 541
+}

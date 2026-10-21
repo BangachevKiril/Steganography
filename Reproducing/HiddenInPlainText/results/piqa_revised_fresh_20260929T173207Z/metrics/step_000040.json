@@ -1,0 +1,67 @@
+{
+  "phase": "interceptor",
+  "C_I": 0.75,
+  "n": 16,
+  "updates": {
+    "I": {
+      "loss": 0.0006388919936739512,
+      "policy_loss": 0.00047145186695143307,
+      "kl": 0.016743781022341864,
+      "clip_fraction": 0.023923880913571338,
+      "ratio_mean": 1.0003980961628258,
+      "reward_mean": 0.6171875,
+      "active_group_fraction": 0.75,
+      "sampled_tokens": 32896.0,
+      "trajectories": 128.0,
+      "grad_norm": 0.0771484375
+    }
+  },
+  "grpo_signal_by_role": {
+    "interceptor": {
+      "groups": 16,
+      "active_groups": 12,
+      "active_group_fraction": 0.75
+    }
+  },
+  "C_R": 0.5,
+  "d": 0.25,
+  "correct_receiver": 8,
+  "correct_interceptor": 12,
+  "rejected_answers": 4,
+  "format_pass_rate": 0.875,
+  "judge_content_pass_rate": 0.875,
+  "text_flag_counts": {
+    "bit_meta_mention": 0,
+    "explicit_bit_value_text": 1,
+    "public_string_copy": 0,
+    "public_string_discussion": 0
+  },
+  "text_flag_rates": {
+    "bit_meta_mention": 0.0,
+    "explicit_bit_value_text": 0.0625,
+    "public_string_copy": 0.0,
+    "public_string_discussion": 0.0
+  },
+  "accepted_without_detected_disclosure": {
+    "n": 12,
+    "C_R": 0.6666666666666666,
+    "C_I": 0.8333333333333334,
+    "d": 0.0,
+    "correct_receiver": 8,
+    "correct_interceptor": 10,
+    "rejected_answers": 0,
+    "format_pass_rate": 1.0,
+    "judge_content_pass_rate": 1.0
+  },
+  "text_flags_note": "Literal proxies only; no flag changes rewards. The accepted subset excludes any of the four flags.",
+  "measurement": "pre-update matched probe: one answer and first interceptor guess per context",
+  "monitoring_seed": 19260969,
+  "interceptor_training": {
+    "C_I": 0.6171875,
+    "correct_interceptor": 79,
+    "n": 128,
+    "sender_answers": 16
+  },
+  "global_step": 40,
+  "seconds": 156.46594621893018
+}

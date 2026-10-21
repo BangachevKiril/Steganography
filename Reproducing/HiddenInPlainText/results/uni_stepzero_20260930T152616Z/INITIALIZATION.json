@@ -1,0 +1,30 @@
+{
+  "config_digest": "4caf38d2397dec5d62b0c99f673e1e0049fd0cc4be3d973f77b0a3f4b2098ee6",
+  "seed": 42,
+  "completed_step": 0,
+  "parameter_updates": 0,
+  "optimizer_state_sizes": {
+    "sender": 0,
+    "receiver": 0
+  },
+  "receiver_state_sha256": "2679f33e7ec8b6e17c07f83941b9fa3d491cbf5b407bcecb029b51c7c80b512b",
+  "receiver_head_sha256": "7da225b99b6cab5e8678d807c4a27cf36f2008563c2fe98fe25687221f211003",
+  "order": [
+    "sender_LoRA_value_head",
+    "reference_copy",
+    "receiver_random_heads",
+    "replacement_classifier"
+  ],
+  "rng_checkpoint_stage": "after sender and receiver initialization, before PPO reseeds to zero",
+  "future_author_ppo_seed": 0,
+  "sender_dtype": "torch.float16",
+  "receiver_dtype": "torch.float32",
+  "packages": {
+    "torch": "2.4.0+cu124",
+    "transformers": "4.43.2",
+    "trl": "0.9.6",
+    "peft": "0.12.0",
+    "bitsandbytes": "0.43.3",
+    "tokenizers": "0.19.1"
+  }
+}

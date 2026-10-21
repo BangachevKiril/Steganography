@@ -1,0 +1,19 @@
+{
+  "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+  "segment": 1,
+  "active_threshold_seconds": 27900,
+  "total_active_budget_seconds": 83700,
+  "completed_update": 390,
+  "checkpoint": {
+    "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000390",
+    "completed_update": 390,
+    "complete_sha256": "d9d01d85c1bea776c6154eefe936df1fd1a6064799072bbae9492ce7a211a6b1",
+    "state_sha256": "de8eba38536c759c71f65b645eb2bddf57fa5104bae507e50f38c3b6dc51ce0f",
+    "elapsed": 27941.067958471365
+  },
+  "evaluation_complete_sha256": "bbd3976eb0e6a2d6f90ca5844da0ff17e77184a6e5fa26b66334aedbf147aeb1",
+  "active_seconds": 28194.538099765778,
+  "stop_reason": "configured_segment_active_time_budget",
+  "sender_updates": 278,
+  "receiver_updates": 112
+}

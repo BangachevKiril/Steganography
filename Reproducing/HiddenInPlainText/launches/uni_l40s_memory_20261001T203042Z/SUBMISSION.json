@@ -1,0 +1,16 @@
+{
+  "job_id": "24575515",
+  "submitted_at": "2026-10-01T20:33:48.945368Z",
+  "status": "SUBMITTED",
+  "command": [
+    "sbatch",
+    "--parsable",
+    "--output=/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z/slurm-%j.out",
+    "--error=/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z/slurm-%j.err",
+    "/orcd/pool/003/kirilb/Steganography/releases/uni_l40s_memory_20261001T203042Z/university_l40s_memory_training.slurm",
+    "/orcd/pool/003/kirilb/Steganography/releases/uni_rl_20260930T195244Z",
+    "/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z",
+    "/orcd/pool/003/kirilb/Steganography/releases/uni_l40s_memory_20261001T203042Z",
+    "/orcd/pool/003/kirilb/Steganography/releases/uni_l40s_continue_20261001T201547Z"
+  ]
+}

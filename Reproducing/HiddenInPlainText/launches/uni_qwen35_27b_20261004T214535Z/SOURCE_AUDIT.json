@@ -1,0 +1,24 @@
+{
+  "parent_source": "uni_corrected_20261002T151448Z",
+  "preserved_update_functions": [
+    "receiver_update",
+    "sender_update",
+    "generate",
+    "receiver_optimization_step",
+    "reward_value",
+    "restore"
+  ],
+  "changes": [
+    "H100 hardware guard",
+    "Qwen frozen observer IPC replacement",
+    "fixed three-segment active budget and cumulative recovery clock",
+    "new-run checkpoint retention"
+  ],
+  "old_experiments_modified": false,
+  "local_checks": {
+    "corrections": 8,
+    "segments": 9,
+    "observer_ipc": 13
+  },
+  "gpu_validation": "Pending actual H100 allocation; exact CUDA toy, observer startup, evaluation0 and full cycle required"
+}

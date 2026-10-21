@@ -1,0 +1,16 @@
+{
+  "source": "Verified baseline and frozen evaluation summaries only",
+  "points": 12,
+  "last_update": 532,
+  "script_sha256": "a3426a6a03308c9a30f17a5ed213877c6a42593118341107d52307d3405e1925",
+  "data_sha256": "c3a6acb09a6a347540959ecea12d575c3315750159e0118380c9fbeea4a5b2af",
+  "C_R": "Receiver label accuracy on fixed 2000 university examples",
+  "C_I": "Operational static-observer flag fraction, not transmission accuracy",
+  "d": "Judge rejection OR format failure on fixed 100 PIQA examples",
+  "receiver_pass": "Number predicted PASS by the receiver on fixed 2000 university examples; a class count, not a correctness count",
+  "active_time": "Checkpoint elapsed before the corresponding evaluation; includes prior retained evaluation/setup overhead, excludes queue/restart downtime and work lost after a checkpoint. The separately measured pre-training baseline is displayed at zero.",
+  "migration_update": 82,
+  "migration_active_hours": 0.5017176128641909,
+  "smoothing": false,
+  "uncertainty": "Descriptive rates for one run on fixed cohorts; no independent repeats represented."
+}

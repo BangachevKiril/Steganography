@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-09-30T02:00:57.949131+00:00",
+  "artifact_hashes": {
+    "STATUS.json": "ef1c20b3680bb53bd22b331559c0606c2bc3c34a15747e194346035ee026c1ca",
+    "MODEL_VERIFICATION.json": "67b5f0b28cccf7dff34f079952377e167f0d347f780044a4f1de78c391ec6ab9",
+    "MANIFEST.json": "56e85dc953147bf8e706cc114df9f5e7cbbde2f93debf0b580400983c3031c69",
+    "RESULTS.json": "98b734a5003075f9eda9ea9bfff1099fc43697cf227366eae6f5f01626e0e061",
+    "SUMMARY.json": "3e530b657ed8f4d0667b6579141d9af420a851e1532b25f2f4ff0f9a2e037975",
+    "COMPLETE.json": "8443a182f0530f5c98569f86debbd92a48cb38d2c6bce05012a92e9288443177",
+    "config.json": "cf35fc3d73145b9028a3f35240eff098fe4620da809f365159668a017fbbfaf3",
+    "PROMPTS.json": "9293c046a515d2c6a787bb18107ab4637f95c52d4096ffd39148e783734b936c",
+    "selection.json": "c9143c69df83342de26dc1b759d64deef51d034029f0a5557cb7813bbd5febe1",
+    "SUBMISSION.json": "aa52a0fd887f58b76a35df9334965b52dbe32abb2f4423ba437bc96fa229c3ad",
+    "report.md": "b9c1e71b873a2886c713ce0b211b07aebd634b4ce538533972aca479b3ddf10d",
+    "per_question.csv": "5bc5899bc8767037b4afa82f04308c0307d10f64859f81193b407ef810eb096b"
+  },
+  "queue": {
+    "returncode": 0,
+    "stdout": "24320332|piqa-revised|RUNNING|node4508|node4508\n",
+    "stderr": ""
+  },
+  "sacct": {
+    "returncode": 0,
+    "stdout": "24369289|piqa-dec-prompts|COMPLETED|0:0|00:39:48|node1709\n24369289.batch|batch|COMPLETED|0:0|00:39:48|node1709\n24369289.extern|extern|COMPLETED|0:0|00:39:48|node1709\n",
+    "stderr": ""
+  },
+  "completed_batches": 256
+}

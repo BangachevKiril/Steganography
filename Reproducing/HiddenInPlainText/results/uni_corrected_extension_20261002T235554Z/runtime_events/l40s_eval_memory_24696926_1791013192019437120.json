@@ -1,0 +1,47 @@
+{
+  "kind": "L40S_evaluation_parent_cache_cleanup",
+  "status": "original_judge_completed",
+  "started_at": 1791013192.0194402,
+  "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+  "evaluation_config_digest": "e3eb4805447e17ed81d4d482ea1f568cd6951d96510b453389e1c99d78711b09",
+  "evaluation_dir": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/evaluations/step_001050",
+  "checkpoint": {
+    "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_001050",
+    "completed_update": 1050,
+    "complete_sha256": "c38b9f444f24f1d3854b2dee19b6933ce9bf8920fe0328e7e3ab9b1e2bf691db"
+  },
+  "checkpoint_complete": {
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "completed_update": 1050,
+    "state_sha256": "52b18928da513fac6084d4b57e0e39e6d6888fb95247100c6157dbfbd052294b",
+    "elapsed": 54551.18754428043,
+    "phase": "sender"
+  },
+  "wrapper_sha256": "453aff7ed707c3d835149e0c8ac4ec0563b4a6526a9309b91d9b31f329cb1ea2",
+  "evaluation_helper_sha256": "d5f9352f0c6984c29f0078ec035be77822cb81c2fe2010f38248c634326e90f2",
+  "slurm_job_id": "24696926",
+  "slurm_restart_count": "1",
+  "manifest_sha256": "f96572c03547bfe59d762941124ba016d468591e9a02a3aa98e87704ece79591",
+  "cleanup_verification": {
+    "before": {
+      "cuda_allocated_bytes": 20528281600,
+      "cuda_reserved_bytes": 43058724864,
+      "device_free_bytes": 3853844480,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 98566959104
+    },
+    "after": {
+      "cuda_allocated_bytes": 20528281600,
+      "cuda_reserved_bytes": 20845690880,
+      "device_free_bytes": 26066878464,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 98567360512
+    },
+    "gc_collected_objects": 258,
+    "live_tensor_metadata_unchanged": true,
+    "rng_unchanged": true,
+    "live_tensor_metadata_sha256": "3e8f63a490f6fb27bedce44967ab539b79d46416858a3185b4be97073b1a94f5"
+  },
+  "cache_cleaned_at": 1791013192.6223533,
+  "finished_at": 1791013258.66453
+}

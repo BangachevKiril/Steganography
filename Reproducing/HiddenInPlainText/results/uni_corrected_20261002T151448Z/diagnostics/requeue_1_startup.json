@@ -1,0 +1,19 @@
+{
+  "restart_count": 1,
+  "job_id": "24665081",
+  "node": "node3502",
+  "observed_at": "2026-10-02T21:33:58.180335+00:00",
+  "status": "cuda_preflight_passed",
+  "resume_checkpoint_update": 409,
+  "resume_checkpoint_state_sha256": "31f173dc24f17f072eb51006ee59f5be34677ce6ab4a8eb3cc89a96f096ff2ae",
+  "resume_checkpoint_state_sha256_verified_remotely": true,
+  "saved_elapsed_seconds": 21398.938556924462,
+  "remaining_active_seconds": 6501.061443075538,
+  "preflight_event": "runtime_events/l40s_memory_preflight_24665081_1790976553460536114.json",
+  "preflight_event_sha256": "25e043afb1fcee5bd472a03642bb8697f9c5461d836e8bdfdbc3ae33c91cd754",
+  "toy_parity_passed": true,
+  "restoration_verified": false,
+  "first_resumed_update_verified": false,
+  "reported": false,
+  "note": "Constructor status update0 is temporary; checkpoint409 is selected. Await initialization_verified and resumed commit."
+}

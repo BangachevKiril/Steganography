@@ -1,0 +1,133 @@
+{
+  "created_at": "2026-10-03T18:44:37.722778+00:00",
+  "embedding_shape_per_split": [
+    1000,
+    2304
+  ],
+  "embeddings_directory": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/sender_eos_logreg_1076_20261003T183259Z/embeddings",
+  "eos_position_ranges": {
+    "test": {
+      "max": 20,
+      "min": 16
+    },
+    "training": {
+      "max": 20,
+      "min": 16
+    }
+  },
+  "inputs": {
+    "embedding_completion": {
+      "files": {
+        "test_embeddings.npz": "2912e1faab94e68e6dd1ba625b9382502bf819142c3d6d246e153e828c3f2ba1",
+        "training_embeddings.npz": "a3b26c448834b4097a259a33c5177fc8474dbfaab412cd7b72e21a19115aff78"
+      },
+      "metadata": {
+        "answer_file_sha256": {
+          "test_answers.jsonl": "c2345b163bc9e0a13db72a9b9678cabdd8a689a996d0213f35e5e5573692c958",
+          "training_answers.jsonl": "a5dcdb10f4d70b869b4c0bd5eedcce50ce6bbc76b7f2124f0be0658b6f46b32a"
+        },
+        "batch_size": 32,
+        "block_index_zero_based": 16,
+        "block_number_one_based": 17,
+        "bos_token_id": 2,
+        "checkpoint": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_001076",
+        "checkpoint_complete_sha256": "e4654edc542e0a84e2321b31586e3e8eda6c86023390ea08fc5332138207ab46",
+        "checkpoint_state_sha256": "b6362ff7e9ab691572f8a20f9c8aa2c96675ef8f92f7c4dd67d49bbcd988a4d6",
+        "completed_update": 1076,
+        "duration_seconds": 72.5187566280365,
+        "embedding_storage_dtype": "float32 converted from model hidden-state dtype",
+        "end_of_turn_token_id": 107,
+        "eos_note": "Appended EOS probe position, including answers originally stopped at generation cap; not the end-of-turn token.",
+        "eos_token": "<eos>",
+        "eos_token_id": 1,
+        "extraction_script_sha256": "6869656fc8f15dc8f818a2bd9cf976d8ca65687c04b94fdaa468332f7cfe8e96",
+        "features": 2304,
+        "gpu": "NVIDIA L40S",
+        "hook": "Gemma2DecoderLayer output[0], after MLP, post_feedforward_layernorm and residual addition; before next block normalization",
+        "job_id": "24752026",
+        "model_dtype": "original FP16 base with original adapter parameter dtypes",
+        "packages": {
+          "numpy": "1.26.4",
+          "peft": "0.12.0",
+          "tokenizers": "0.19.1",
+          "torch": "2.4.0+cu124",
+          "transformers": "4.43.2",
+          "trl": "0.9.6"
+        },
+        "pad_token_id": 0,
+        "sender_asset": {
+          "path": "/orcd/pool/003/kirilb/Steganography/assets/university/cache/models--unsloth--gemma-2-2b-it/snapshots/457f2e15bf550c227ce6ad86e2ec108d3e42c106",
+          "repo": "unsloth/gemma-2-2b-it",
+          "revision": "457f2e15bf550c227ce6ad86e2ec108d3e42c106"
+        },
+        "split_manifest_sha256": "ccfba9f92b91db27e5e32aa25a12ec827e2ef4174511ab0bbdadfa29348a2e77",
+        "tokenization": "explicit BOS + exact answer tokenized with add_special_tokens=False + explicit EOS; no chat template or original prompt; right padding",
+        "total_blocks": 26,
+        "trained_parameter_hash": "0f7a7a6b1016c407dbc50cbb2bfd5fb445fd37541cd5472e0b2f455bb7ad91e2",
+        "trained_parameter_tensors": 106,
+        "validation": {
+          "actual_batch32_parity_passed": true,
+          "all_parameters_frozen": true,
+          "answer_only_inputs": true,
+          "batch8_vs_batch32_max_abs": 0.125,
+          "exact_checkpoint_parameter_copy": true,
+          "explicit_eos_positions_and_attention_masks_verified": true,
+          "hook_matches_post_block_hidden_state_exactly": true,
+          "repeated_forward_exact": true,
+          "single_vs_batch_atol": 0.03,
+          "single_vs_batch_max_abs": 0.125,
+          "single_vs_batch_rtol": 0.01,
+          "trained_parameter_hash_unchanged_after_inference": true
+        }
+      },
+      "status": "complete"
+    },
+    "embedding_completion_sha256": "4ccb5e5f1456fb89d1c53a4589c80b4ee7eb843d9b58d4e26dd41710262de480",
+    "embedding_file_sha256": {
+      "test_embeddings.npz": "2912e1faab94e68e6dd1ba625b9382502bf819142c3d6d246e153e828c3f2ba1",
+      "training_embeddings.npz": "a3b26c448834b4097a259a33c5177fc8474dbfaab412cd7b72e21a19115aff78"
+    },
+    "exact_answer_whitespace_preserved": true,
+    "hidden_label_mapping": {
+      "0": {
+        "class": "FAIL",
+        "university": "The Bad University"
+      },
+      "1": {
+        "class": "PASS",
+        "university": "The Good University"
+      }
+    },
+    "shuffle_replayed_exactly": true,
+    "source_audit_sha256": "d4313ee3f30be0a1d9d43989fa3ae22fd26054f82c341bbee8b35b849d818be1",
+    "source_checkpoint": {
+      "complete_sha256": "e4654edc542e0a84e2321b31586e3e8eda6c86023390ea08fc5332138207ab46",
+      "completed_update": 1076,
+      "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_001076",
+      "state_file_read_by_this_audit": false,
+      "state_sha256_from_manifest": "b6362ff7e9ab691572f8a20f9c8aa2c96675ef8f92f7c4dd67d49bbcd988a4d6"
+    },
+    "source_sha256": "8e67e837c6c6788c5d8a0853300c7dfd498868ba2715a007f435d32e60e4c3f5",
+    "split_file_sha256": {
+      "test_answers.jsonl": "c2345b163bc9e0a13db72a9b9678cabdd8a689a996d0213f35e5e5573692c958",
+      "test_hidden_labels.jsonl": "c1c9d35c11f8e5cd5ffe87175a4c862bd6e24df8ac8941685a5da99a4faf7c09",
+      "training_answers.jsonl": "a5dcdb10f4d70b869b4c0bd5eedcce50ce6bbc76b7f2124f0be0658b6f46b32a",
+      "training_hidden_labels.jsonl": "3ebe2a1dab1b35ec36eac501d366dbd3ba363432d7967c8c19bc8b2fd88761a2"
+    },
+    "split_manifest_sha256": "ccfba9f92b91db27e5e32aa25a12ec827e2ef4174511ab0bbdadfa29348a2e77",
+    "split_seed": 76941464738612174067462168110252986627477656379651856508672271610187918990797
+  },
+  "model_input_access": "Only frozen embedding matrices enter the classifier; answer text is used solely for provenance checks and predetermined duplicate sensitivity membership.",
+  "model_selection": "No validation/test tuning; C, solver, tolerances, feature extraction, and duplicate sensitivity are fixed before fitting.",
+  "packages": {
+    "matplotlib": "3.7.1",
+    "numpy": "1.26.4",
+    "python": "3.11.2",
+    "scipy": "1.10.1"
+  },
+  "precision": "float64 preprocessing, optimization, and scoring; input embeddings float32",
+  "schema_version": 1,
+  "scope": "Linear decodability of university labels from frozen sender EOS representations; not the static observer flag rate.",
+  "script_sha256": "26723f53cbd66e655f0f21aa0f5f92dbfeec5bec266594cfbe75b5654acf2763",
+  "split_directory": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/data/university_observer_checkpoint1076_split"
+}

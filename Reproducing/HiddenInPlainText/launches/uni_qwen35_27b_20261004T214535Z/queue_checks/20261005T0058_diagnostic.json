@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-10-05T01:00:54.178521+00:00",
+  "diagnostic_job": "24865111",
+  "state": "COMPLETED",
+  "exit_code": "0:0",
+  "node": "node2905",
+  "runtime": "00:01:53",
+  "script_hash_verified": true,
+  "slurm_hash_verified": true,
+  "public_files_sha256": {
+    "DIAGNOSTIC.json": "6431fd5e15629a38e368cef8bfe4dcc5b669b71bcc5cf43b9f365636a0a3d5c8",
+    "STATUS.json": "f8f20bb62c68bb8f21997fea55d986fb7d59a1ed5728d2639b5a9ede74dcda29"
+  },
+  "training_jobs": {
+    "24862623": "FAILED",
+    "24862624": "CANCELLED",
+    "24862625": "CANCELLED"
+  },
+  "verified_update": null,
+  "new_notifiable_event": true,
+  "event": "diagnosis_and_required_authorization"
+}

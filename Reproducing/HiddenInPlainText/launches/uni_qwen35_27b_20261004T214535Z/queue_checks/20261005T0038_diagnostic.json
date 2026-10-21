@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-10-05T00:40:02.858399+00:00",
+  "diagnostic_job": "24865111",
+  "state": "PENDING",
+  "reason": "QOSMaxGRESPerUser",
+  "script_hash_verified": true,
+  "slurm_hash_verified": true,
+  "public_outputs_present": false,
+  "training_jobs": {
+    "24862623": "FAILED",
+    "24862624": "CANCELLED",
+    "24862625": "CANCELLED"
+  },
+  "verified_update": null,
+  "public_snapshot_files": 14,
+  "failure_sha256": "70161f30a8b40900ec2f7aa535a6e2ed58009a59869bc1acf82456fb060536ef",
+  "scheduler_start_estimate": "2026-10-05T02:21:29-04:00",
+  "new_notifiable_event": false
+}

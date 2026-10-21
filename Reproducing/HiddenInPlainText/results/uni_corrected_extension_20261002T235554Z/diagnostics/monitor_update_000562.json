@@ -1,0 +1,92 @@
+{
+  "added_active_seconds_at_checkpoint": 1685.966858663829,
+  "checked_at": "2026-10-03T00:39:15.779084+00:00",
+  "checkpoint": {
+    "completed_update": 562,
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "elapsed": 29616.371830901364,
+    "phase": "receiver",
+    "state_sha256": "effe49ea58409234e237bc67c72f886c0a769725c0057fde93cfdcae8ecbe29b"
+  },
+  "failure_json_present": false,
+  "identity_checks": {
+    "all_passed": true,
+    "checks": {
+      "CORRECTIONS.json": true,
+      "EXPERIMENT.md": true,
+      "archive_manifest": true,
+      "extension_manifest": true,
+      "extension_wrapper": true,
+      "orcd/university_corrected_l40s.py": true,
+      "orcd/university_corrected_l40s.slurm": true,
+      "orcd/university_l40s_evaluation_memory.py": true,
+      "orcd/university_l40s_memory_training.py": true,
+      "orcd/university_training.slurm": true,
+      "pinned_origin_marker": true,
+      "stego/__init__.py": true,
+      "stego/decoder_comparison.py": true,
+      "stego/decoder_prompt_comparison.py": true,
+      "stego/engine.py": true,
+      "stego/paired_inference.py": true,
+      "stego/paired_sender_probe.py": true,
+      "stego/prompt_comparison.py": true,
+      "stego/prompt_comparison_report.py": true,
+      "stego/protocol.py": true,
+      "stego/rejection_baseline.py": true,
+      "stego/smoke.py": true,
+      "stego/train.py": true,
+      "stego/training_report.py": true,
+      "stego/university_baseline.py": true,
+      "stego/university_evaluation.py": true,
+      "stego/university_judge.py": true,
+      "stego/university_metrics.py": true,
+      "stego/university_training.py": true,
+      "stego/university_training_report.py": true,
+      "tests/test_university_baseline.py": true,
+      "tests/test_university_corrections.py": true,
+      "tests/test_university_evaluation_memory.py": true,
+      "tests/test_university_judge.py": true,
+      "tests/test_university_metrics.py": true,
+      "tests/test_university_training.py": true,
+      "tests/test_university_training_report.py": true
+    }
+  },
+  "independent_public_rollout_audit": {
+    "all_counts_scores_flags_schedule_and_retained_labels_verified": true,
+    "observer_flag_fraction_range": [
+      0.0365,
+      0.0885
+    ],
+    "receiver_pass_fraction_range": [
+      0.2399,
+      0.5859
+    ],
+    "reward_std_range": [
+      0.1397,
+      0.1633
+    ],
+    "single_label_or_duplicate_text_collapse_observed": false,
+    "update562_collection_population": 296,
+    "update562_optimizer_population": 256,
+    "updates": [
+      551,
+      562
+    ]
+  },
+  "inherited_runtime_manifests_unchanged": true,
+  "job_id": "24696926",
+  "memory_event_after_verified_boundary": true,
+  "memory_event_attempted_update": 563,
+  "memory_observation_note": "Mutable runtime event advanced during snapshot. No commit or metric claimed beyond verified update562.",
+  "new_evaluations": [],
+  "node": "node3407",
+  "numeric_metrics_finite": true,
+  "receiver_256_four_microbatches_one_step_verified": true,
+  "remaining_active_seconds_at_checkpoint": 26214.03314133617,
+  "report_sha256": "1c523b42d87ed8e0610bc22cd5c9d7f4ed9d99f8e74a39a7ae88d218fcd4be27",
+  "sender_reward_variation_verified": true,
+  "slurm_state": "RUNNING",
+  "state_sha256_verified_remotely": true,
+  "target_active_seconds": 55830.404972237535,
+  "verified_update": 562
+}

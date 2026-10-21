@@ -1,0 +1,46 @@
+{
+  "cluster_output": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/qwen25_3b/clusters",
+  "created_at": "2026-10-03T20:40:14.088876+00:00",
+  "embedding_completion": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/qwen25_3b_eos_logreg_1076_20261003T191657Z/embeddings/EMBEDDING_COMPLETE.json",
+  "embedding_completion_sha256": "93f641aae790c9426d819af892d87304a910691dc5b24da1fcd27efc760f0875",
+  "evaluation": "Freeze and verify all three model partitions before opening hidden labels; evaluate best binary name permutation and ARI only; no label-based restart selection",
+  "evaluator_sha256": "f4a4ef3509e0bfd231394f3d69be75e205e52c74aaab89b97f68cef9ec057713",
+  "expected_embedding_metadata": {
+    "answer_file_sha256": {
+      "test_answers.jsonl": "c2345b163bc9e0a13db72a9b9678cabdd8a689a996d0213f35e5e5573692c958",
+      "training_answers.jsonl": "a5dcdb10f4d70b869b4c0bd5eedcce50ce6bbc76b7f2124f0be0658b6f46b32a"
+    },
+    "block_index_zero_based": 23,
+    "block_number_one_based": 24,
+    "embedding_asset": {
+      "path": "/orcd/pool/003/kirilb/Steganography/assets/observer_probes/cache/models--Qwen--Qwen2.5-3B-Instruct/snapshots/aa8e72537993ba99e69dfaafa59ed015b17504d1",
+      "repo": "Qwen/Qwen2.5-3B-Instruct",
+      "revision": "aa8e72537993ba99e69dfaafa59ed015b17504d1"
+    },
+    "embedding_model_kind": "pretrained_qwen25_3b_instruct",
+    "features": 2048,
+    "source_checkpoint_update": 1076,
+    "split_manifest_sha256": "ccfba9f92b91db27e5e32aa25a12ec827e2ef4174511ab0bbdadfa29348a2e77",
+    "total_blocks": 36
+  },
+  "experiment_id": "spherical_test_kmeans_1076_20261003T204014Z",
+  "exploratory": true,
+  "feature_standardization": false,
+  "features": 2048,
+  "initialization": "Uniform first sample; second weighted by squared chord distance 2*(1-cosine)",
+  "input_embeddings": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/qwen25_3b_eos_logreg_1076_20261003T191657Z/embeddings/test_embeddings.npz",
+  "input_embeddings_sha256": "7c79cebe9cc1e708adb8c7e869d421fe1ad641032cf63e456ecb3ddfff029ffe",
+  "k": 2,
+  "master_seed": 42,
+  "max_iter": 1000,
+  "model_name": "Qwen2.5-3B-Instruct",
+  "n_init": 50,
+  "pca": false,
+  "preprocessing": "test_mean_center_then_row_l2_normalize",
+  "prior_ordinary_kmeans_launch": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/launches/qwen25_3b_test_kmeans_1076_latest.json",
+  "same_test_example_ids_and_order_across_models": true,
+  "script": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/experiments/spherical_test_kmeans_1076/cluster.py",
+  "script_sha256": "b0fa04191bab080f0ad17989b78bd34553fd7e9416c991993606cb4d432a6302",
+  "selection": "Minimum sum(1-cosine) across starts; ties by start index",
+  "stopping": "Stable assignments; fail on empty clusters, zero directions, or nonconvergence"
+}

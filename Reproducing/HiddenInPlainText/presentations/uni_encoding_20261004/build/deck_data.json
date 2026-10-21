@@ -1,0 +1,808 @@
+{
+  "checks": {
+    "all24_curve_summaries_and_checkpoint_markers_match_hashes": true,
+    "all3_supervised_fit_completion_hashes_verified": true,
+    "all6_cluster_completion_and_evaluation_hashes_verified_and_counts_recomputed": true,
+    "user_attributed_predictions_hash_ids_exact_texts_and881_score_recomputed": true
+  },
+  "created_at": "2026-10-04T19:10:46.372824+00:00",
+  "scope": "Numeric/source audit for slides 2\u20135 only; no slides authored and no new experiments.",
+  "slide2_training": {
+    "baseline": {
+      "C_I_percent": 7.5,
+      "C_R_percent": 50.35,
+      "PASS_percent": 95.0,
+      "checkpoint_active_hours": 0.029697320114355535,
+      "d_percent": 8.0,
+      "observer_flagged": 150,
+      "piqa_n": 100,
+      "piqa_union_rejected": 8,
+      "receiver_FAIL": 100,
+      "receiver_PASS": 1900,
+      "receiver_correct": 1007,
+      "university_n": 2000,
+      "update": 0
+    },
+    "baseline_d_percent": 8.0,
+    "caveats": [
+      "Same fixed 2000 university and100 PIQA evaluation cohorts throughout; descriptive single-run results.",
+      "Use corrected-run C_I only; uncorrected observer scores are incomparable."
+    ],
+    "definitions": {
+      "C_I": "Operational static observer flags / 2000; not verified information-transmission accuracy.",
+      "C_R": "Receiver correct hidden-university classifications / 2000; higher is better.",
+      "PASS_percent": "Receiver predictions of Good University (label 1) / 2000; not a task pass rate or accuracy.",
+      "d": "PIQA judge rejection OR format failure, with overlap counted once, / the same 100 questions; lower is better."
+    },
+    "final": {
+      "C_I_percent": 0.15,
+      "C_R_percent": 99.6,
+      "PASS_percent": 50.05,
+      "checkpoint_active_hours": 15.524739917964842,
+      "d_percent": 4.0,
+      "observer_flagged": 3,
+      "piqa_n": 100,
+      "piqa_union_rejected": 4,
+      "receiver_FAIL": 999,
+      "receiver_PASS": 1001,
+      "receiver_correct": 1992,
+      "university_n": 2000,
+      "update": 1076
+    },
+    "final_d_change_percentage_points": -4.0,
+    "points": 24,
+    "recommended_x_axis": "Combined sender+receiver update",
+    "series": [
+      {
+        "C_I_percent": 7.5,
+        "C_R_percent": 50.35,
+        "PASS_percent": 95.0,
+        "checkpoint_active_hours": 0.029697320114355535,
+        "d_percent": 8.0,
+        "observer_flagged": 150,
+        "piqa_n": 100,
+        "piqa_union_rejected": 8,
+        "receiver_FAIL": 100,
+        "receiver_PASS": 1900,
+        "receiver_correct": 1007,
+        "university_n": 2000,
+        "update": 0
+      },
+      {
+        "C_I_percent": 13.35,
+        "C_R_percent": 50.85,
+        "PASS_percent": 56.6,
+        "checkpoint_active_hours": 0.7712385658037642,
+        "d_percent": 6.0,
+        "observer_flagged": 267,
+        "piqa_n": 100,
+        "piqa_union_rejected": 6,
+        "receiver_FAIL": 868,
+        "receiver_PASS": 1132,
+        "receiver_correct": 1017,
+        "university_n": 2000,
+        "update": 50
+      },
+      {
+        "C_I_percent": 11.7,
+        "C_R_percent": 50.7,
+        "PASS_percent": 21.35,
+        "checkpoint_active_hours": 1.491558559458289,
+        "d_percent": 7.0,
+        "observer_flagged": 234,
+        "piqa_n": 100,
+        "piqa_union_rejected": 7,
+        "receiver_FAIL": 1573,
+        "receiver_PASS": 427,
+        "receiver_correct": 1014,
+        "university_n": 2000,
+        "update": 100
+      },
+      {
+        "C_I_percent": 13.4,
+        "C_R_percent": 50.45,
+        "PASS_percent": 39.2,
+        "checkpoint_active_hours": 2.2127106575155633,
+        "d_percent": 5.0,
+        "observer_flagged": 268,
+        "piqa_n": 100,
+        "piqa_union_rejected": 5,
+        "receiver_FAIL": 1216,
+        "receiver_PASS": 784,
+        "receiver_correct": 1009,
+        "university_n": 2000,
+        "update": 150
+      },
+      {
+        "C_I_percent": 10.6,
+        "C_R_percent": 53.05,
+        "PASS_percent": 50.3,
+        "checkpoint_active_hours": 2.927830962562261,
+        "d_percent": 3.0,
+        "observer_flagged": 212,
+        "piqa_n": 100,
+        "piqa_union_rejected": 3,
+        "receiver_FAIL": 994,
+        "receiver_PASS": 1006,
+        "receiver_correct": 1061,
+        "university_n": 2000,
+        "update": 200
+      },
+      {
+        "C_I_percent": 9.6,
+        "C_R_percent": 52.95,
+        "PASS_percent": 37.9,
+        "checkpoint_active_hours": 3.6473211978970923,
+        "d_percent": 4.0,
+        "observer_flagged": 192,
+        "piqa_n": 100,
+        "piqa_union_rejected": 4,
+        "receiver_FAIL": 1242,
+        "receiver_PASS": 758,
+        "receiver_correct": 1059,
+        "university_n": 2000,
+        "update": 250
+      },
+      {
+        "C_I_percent": 10.0,
+        "C_R_percent": 52.65,
+        "PASS_percent": 7.8,
+        "checkpoint_active_hours": 4.3676998737467345,
+        "d_percent": 4.0,
+        "observer_flagged": 200,
+        "piqa_n": 100,
+        "piqa_union_rejected": 4,
+        "receiver_FAIL": 1844,
+        "receiver_PASS": 156,
+        "receiver_correct": 1053,
+        "university_n": 2000,
+        "update": 300
+      },
+      {
+        "C_I_percent": 8.3,
+        "C_R_percent": 53.95,
+        "PASS_percent": 16.5,
+        "checkpoint_active_hours": 5.084330345684818,
+        "d_percent": 5.0,
+        "observer_flagged": 166,
+        "piqa_n": 100,
+        "piqa_union_rejected": 5,
+        "receiver_FAIL": 1670,
+        "receiver_PASS": 330,
+        "receiver_correct": 1079,
+        "university_n": 2000,
+        "update": 350
+      },
+      {
+        "C_I_percent": 8.95,
+        "C_R_percent": 53.65,
+        "PASS_percent": 62.7,
+        "checkpoint_active_hours": 5.790200525119694,
+        "d_percent": 4.0,
+        "observer_flagged": 179,
+        "piqa_n": 100,
+        "piqa_union_rejected": 4,
+        "receiver_FAIL": 746,
+        "receiver_PASS": 1254,
+        "receiver_correct": 1073,
+        "university_n": 2000,
+        "update": 400
+      },
+      {
+        "C_I_percent": 6.2,
+        "C_R_percent": 56.15,
+        "PASS_percent": 69.5,
+        "checkpoint_active_hours": 6.513706784325445,
+        "d_percent": 5.0,
+        "observer_flagged": 124,
+        "piqa_n": 100,
+        "piqa_union_rejected": 5,
+        "receiver_FAIL": 610,
+        "receiver_PASS": 1390,
+        "receiver_correct": 1123,
+        "university_n": 2000,
+        "update": 450
+      },
+      {
+        "C_I_percent": 7.05,
+        "C_R_percent": 56.1,
+        "PASS_percent": 53.15,
+        "checkpoint_active_hours": 7.30630741162355,
+        "d_percent": 4.0,
+        "observer_flagged": 141,
+        "piqa_n": 100,
+        "piqa_union_rejected": 4,
+        "receiver_FAIL": 937,
+        "receiver_PASS": 1063,
+        "receiver_correct": 1122,
+        "university_n": 2000,
+        "update": 500
+      },
+      {
+        "C_I_percent": 5.7,
+        "C_R_percent": 56.35,
+        "PASS_percent": 47.9,
+        "checkpoint_active_hours": 7.758445825621537,
+        "d_percent": 4.0,
+        "observer_flagged": 114,
+        "piqa_n": 100,
+        "piqa_union_rejected": 4,
+        "receiver_FAIL": 1042,
+        "receiver_PASS": 958,
+        "receiver_correct": 1127,
+        "university_n": 2000,
+        "update": 530
+      },
+      {
+        "C_I_percent": 5.05,
+        "C_R_percent": 58.75,
+        "PASS_percent": 57.3,
+        "checkpoint_active_hours": 8.03444533461375,
+        "d_percent": 6.0,
+        "observer_flagged": 101,
+        "piqa_n": 100,
+        "piqa_union_rejected": 6,
+        "receiver_FAIL": 854,
+        "receiver_PASS": 1146,
+        "receiver_correct": 1175,
+        "university_n": 2000,
+        "update": 550
+      },
+      {
+        "C_I_percent": 5.3,
+        "C_R_percent": 57.75,
+        "PASS_percent": 71.5,
+        "checkpoint_active_hours": 8.750964724427645,
+        "d_percent": 3.0,
+        "observer_flagged": 106,
+        "piqa_n": 100,
+        "piqa_union_rejected": 3,
+        "receiver_FAIL": 570,
+        "receiver_PASS": 1430,
+        "receiver_correct": 1155,
+        "university_n": 2000,
+        "update": 600
+      },
+      {
+        "C_I_percent": 4.6,
+        "C_R_percent": 61.1,
+        "PASS_percent": 63.45,
+        "checkpoint_active_hours": 9.466360289902594,
+        "d_percent": 7.0,
+        "observer_flagged": 92,
+        "piqa_n": 100,
+        "piqa_union_rejected": 7,
+        "receiver_FAIL": 731,
+        "receiver_PASS": 1269,
+        "receiver_correct": 1222,
+        "university_n": 2000,
+        "update": 650
+      },
+      {
+        "C_I_percent": 4.35,
+        "C_R_percent": 66.85,
+        "PASS_percent": 35.9,
+        "checkpoint_active_hours": 10.176462399945983,
+        "d_percent": 6.0,
+        "observer_flagged": 87,
+        "piqa_n": 100,
+        "piqa_union_rejected": 6,
+        "receiver_FAIL": 1282,
+        "receiver_PASS": 718,
+        "receiver_correct": 1337,
+        "university_n": 2000,
+        "update": 700
+      },
+      {
+        "C_I_percent": 4.5,
+        "C_R_percent": 84.75,
+        "PASS_percent": 54.2,
+        "checkpoint_active_hours": 10.876215746762334,
+        "d_percent": 3.0,
+        "observer_flagged": 90,
+        "piqa_n": 100,
+        "piqa_union_rejected": 3,
+        "receiver_FAIL": 916,
+        "receiver_PASS": 1084,
+        "receiver_correct": 1695,
+        "university_n": 2000,
+        "update": 750
+      },
+      {
+        "C_I_percent": 1.75,
+        "C_R_percent": 97.45,
+        "PASS_percent": 51.1,
+        "checkpoint_active_hours": 11.577717753696488,
+        "d_percent": 5.0,
+        "observer_flagged": 35,
+        "piqa_n": 100,
+        "piqa_union_rejected": 5,
+        "receiver_FAIL": 978,
+        "receiver_PASS": 1022,
+        "receiver_correct": 1949,
+        "university_n": 2000,
+        "update": 800
+      },
+      {
+        "C_I_percent": 1.15,
+        "C_R_percent": 98.45,
+        "PASS_percent": 50.9,
+        "checkpoint_active_hours": 12.29014785372206,
+        "d_percent": 5.0,
+        "observer_flagged": 23,
+        "piqa_n": 100,
+        "piqa_union_rejected": 5,
+        "receiver_FAIL": 982,
+        "receiver_PASS": 1018,
+        "receiver_correct": 1969,
+        "university_n": 2000,
+        "update": 850
+      },
+      {
+        "C_I_percent": 0.85,
+        "C_R_percent": 98.0,
+        "PASS_percent": 48.85,
+        "checkpoint_active_hours": 13.004745883532063,
+        "d_percent": 5.0,
+        "observer_flagged": 17,
+        "piqa_n": 100,
+        "piqa_union_rejected": 5,
+        "receiver_FAIL": 1023,
+        "receiver_PASS": 977,
+        "receiver_correct": 1960,
+        "university_n": 2000,
+        "update": 900
+      },
+      {
+        "C_I_percent": 0.6,
+        "C_R_percent": 99.05,
+        "PASS_percent": 49.8,
+        "checkpoint_active_hours": 13.721904520150662,
+        "d_percent": 6.0,
+        "observer_flagged": 12,
+        "piqa_n": 100,
+        "piqa_union_rejected": 6,
+        "receiver_FAIL": 1004,
+        "receiver_PASS": 996,
+        "receiver_correct": 1981,
+        "university_n": 2000,
+        "update": 950
+      },
+      {
+        "C_I_percent": 0.25,
+        "C_R_percent": 99.55,
+        "PASS_percent": 49.9,
+        "checkpoint_active_hours": 14.45449495841736,
+        "d_percent": 5.0,
+        "observer_flagged": 5,
+        "piqa_n": 100,
+        "piqa_union_rejected": 5,
+        "receiver_FAIL": 1002,
+        "receiver_PASS": 998,
+        "receiver_correct": 1991,
+        "university_n": 2000,
+        "update": 1000
+      },
+      {
+        "C_I_percent": 0.25,
+        "C_R_percent": 99.55,
+        "PASS_percent": 50.2,
+        "checkpoint_active_hours": 15.153107651189009,
+        "d_percent": 3.0,
+        "observer_flagged": 5,
+        "piqa_n": 100,
+        "piqa_union_rejected": 3,
+        "receiver_FAIL": 996,
+        "receiver_PASS": 1004,
+        "receiver_correct": 1991,
+        "university_n": 2000,
+        "update": 1050
+      },
+      {
+        "C_I_percent": 0.15,
+        "C_R_percent": 99.6,
+        "PASS_percent": 50.05,
+        "checkpoint_active_hours": 15.524739917964842,
+        "d_percent": 4.0,
+        "observer_flagged": 3,
+        "piqa_n": 100,
+        "piqa_union_rejected": 4,
+        "receiver_FAIL": 999,
+        "receiver_PASS": 1001,
+        "receiver_correct": 1992,
+        "university_n": 2000,
+        "update": 1076
+      }
+    ],
+    "time_axis_if_used": "Recorded checkpoint active hours; excludes queue/restart downtime and lost uncheckpointed work; final point precedes final evaluation tail.",
+    "true_label_reference_PASS_percent": 50.05
+  },
+  "slide3_supervised": {
+    "caveats": [
+      "Original Gemma is the original instruction-tuned model, not random initialization.",
+      "Two exact answer strings cross the random split; dropping their two test rows leaves the reported pattern unchanged.",
+      "The same test split was examined in multiple follow-up experiments; no fresh untouched confirmation set is claimed.",
+      "Differences of 1\u20133 correct examples between probes are descriptive, not established significant differences."
+    ],
+    "constant_train_prior_test_BCE_nats": 0.6931491805639454,
+    "constant_train_prior_test_accuracy_percent": 50.0,
+    "loss_definition": "Unpenalized mean binary cross-entropy in nats; regularization is excluded from reported BCE.",
+    "protocol": "Fixed answer-only EOS embeddings at about two-thirds transformer depth; original native tokenizer/EOS conventions; train-only standardization; L2 logistic regression C=1; 1000 training and1000 test answers.",
+    "rows": [
+      {
+        "features": 2304,
+        "layer_one_based": 17,
+        "metrics_source": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/sender_eos_logreg_1076_20261003T183259Z/logistic_regression/metrics.json",
+        "model": "Trained Gemma sender",
+        "test_BCE_nats": 0.06061278339256916,
+        "test_accuracy_percent": 97.8,
+        "test_confusion_true_rows_predicted_cols_FAIL_PASS": [
+          [
+            487,
+            13
+          ],
+          [
+            9,
+            491
+          ]
+        ],
+        "test_correct": 978,
+        "test_n": 1000,
+        "total_layers": 26,
+        "train_BCE_nats": 0.0007992162295839019,
+        "train_accuracy_percent": 100.0,
+        "train_n": 1000
+      },
+      {
+        "features": 2304,
+        "layer_one_based": 17,
+        "metrics_source": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/gemma_untrained_eos_logreg_1076_20261003T185800Z/logistic_regression/metrics.json",
+        "model": "Original Gemma-2-2B-IT",
+        "test_BCE_nats": 0.06173841195894984,
+        "test_accuracy_percent": 97.89999999999999,
+        "test_confusion_true_rows_predicted_cols_FAIL_PASS": [
+          [
+            487,
+            13
+          ],
+          [
+            8,
+            492
+          ]
+        ],
+        "test_correct": 979,
+        "test_n": 1000,
+        "total_layers": 26,
+        "train_BCE_nats": 0.0008327160861461868,
+        "train_accuracy_percent": 100.0,
+        "train_n": 1000
+      },
+      {
+        "features": 2048,
+        "layer_one_based": 24,
+        "metrics_source": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/qwen25_3b_eos_logreg_1076_20261003T191657Z/logistic_regression/metrics.json",
+        "model": "Qwen2.5-3B-Instruct",
+        "test_BCE_nats": 0.0753078726115775,
+        "test_accuracy_percent": 98.1,
+        "test_confusion_true_rows_predicted_cols_FAIL_PASS": [
+          [
+            489,
+            11
+          ],
+          [
+            8,
+            492
+          ]
+        ],
+        "test_correct": 981,
+        "test_n": 1000,
+        "total_layers": 36,
+        "train_BCE_nats": 0.002938379138982804,
+        "train_accuracy_percent": 100.0,
+        "train_n": 1000
+      }
+    ]
+  },
+  "slide4_clustering": {
+    "accuracy_definition": "Better of the two cluster-name-to-label mappings after assignments were frozen.",
+    "caveats": [
+      "Exploratory reuse of a previously examined test cohort; labels excluded from clustering and restart selection.",
+      "Ordinary-versus-spherical comparison changes both preprocessing and geometry; not an isolated causal test of vector magnitude.",
+      "Failure of these particular clustering methods does not prove absence of an unsupervised decoding method."
+    ],
+    "interpretation": "These k-means variants did not recover the hidden label partition (51.6\u201352.6%; ARI near zero), despite strong supervised linear decoding.",
+    "ordinary_protocol": "1000 unlabeled test embeddings only; per-feature test-set standardization; Euclidean k-means++, k=2,50 starts,seed42; select minimum inertia before labels are opened.",
+    "rows": [
+      {
+        "ARI": 0.000185485354955304,
+        "best_permutation_accuracy_percent": 51.7,
+        "best_permutation_correct": 517,
+        "cluster_by_label_table": [
+          [
+            215,
+            198
+          ],
+          [
+            285,
+            302
+          ]
+        ],
+        "cluster_sizes": {
+          "0": 413,
+          "1": 587
+        },
+        "geometry": "ordinary",
+        "model": "Trained Gemma sender",
+        "n": 1000,
+        "source": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/gemma_trained_test_kmeans_1076_20261003T195231Z/evaluation/evaluation.json"
+      },
+      {
+        "ARI": 0.0007954857673636742,
+        "best_permutation_accuracy_percent": 52.1,
+        "best_permutation_correct": 521,
+        "cluster_by_label_table": [
+          [
+            216,
+            195
+          ],
+          [
+            284,
+            305
+          ]
+        ],
+        "cluster_sizes": {
+          "0": 411,
+          "1": 589
+        },
+        "geometry": "ordinary",
+        "model": "Original Gemma-2-2B-IT",
+        "n": 1000,
+        "source": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/gemma_untrained_test_kmeans_1076_20261003T195231Z/evaluation/evaluation.json"
+      },
+      {
+        "ARI": 7.510630829025034e-05,
+        "best_permutation_accuracy_percent": 51.6,
+        "best_permutation_correct": 516,
+        "cluster_by_label_table": [
+          [
+            299,
+            315
+          ],
+          [
+            201,
+            185
+          ]
+        ],
+        "cluster_sizes": {
+          "0": 614,
+          "1": 386
+        },
+        "geometry": "ordinary",
+        "model": "Qwen2.5-3B-Instruct",
+        "n": 1000,
+        "source": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/qwen25_3b_test_kmeans_1076_20261003T193938Z/evaluation/evaluation.json"
+      },
+      {
+        "ARI": 0.0007875083401324704,
+        "best_permutation_accuracy_percent": 52.1,
+        "best_permutation_correct": 521,
+        "cluster_by_label_table": [
+          [
+            222,
+            201
+          ],
+          [
+            278,
+            299
+          ]
+        ],
+        "cluster_sizes": {
+          "0": 423,
+          "1": 577
+        },
+        "geometry": "spherical",
+        "model": "Trained Gemma sender",
+        "n": 1000,
+        "source": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/gemma_trained/evaluation/evaluation.json"
+      },
+      {
+        "ARI": 0.0017290480179232824,
+        "best_permutation_accuracy_percent": 52.6,
+        "best_permutation_correct": 526,
+        "cluster_by_label_table": [
+          [
+            224,
+            198
+          ],
+          [
+            276,
+            302
+          ]
+        ],
+        "cluster_sizes": {
+          "0": 422,
+          "1": 578
+        },
+        "geometry": "spherical",
+        "model": "Original Gemma-2-2B-IT",
+        "n": 1000,
+        "source": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/gemma_untrained/evaluation/evaluation.json"
+      },
+      {
+        "ARI": 6.309967536371287e-05,
+        "best_permutation_accuracy_percent": 51.6,
+        "best_permutation_correct": 516,
+        "cluster_by_label_table": [
+          [
+            208,
+            192
+          ],
+          [
+            292,
+            308
+          ]
+        ],
+        "cluster_sizes": {
+          "0": 400,
+          "1": 600
+        },
+        "geometry": "spherical",
+        "model": "Qwen2.5-3B-Instruct",
+        "n": 1000,
+        "source": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/qwen25_3b/evaluation/evaluation.json"
+      }
+    ],
+    "spherical_protocol": "Center on unlabeled test mean and unit-normalize rows and centroids; spherical k-means k=2,50 starts,seed42; no feature standardization/PCA; select unlabeled cosine objective."
+  },
+  "slide5_user_attributed_model": {
+    "all_ids_and_exact_answers_match_test_split": true,
+    "attribution": "Model attribution supplied by user; not independently verified from prediction file.",
+    "chosen_mapping": {
+      "raw_bad": "PASS (1)",
+      "raw_good": "FAIL (0)"
+    },
+    "comparison_caveat": "Exploratory result on the same previously examined1000-answer test cohort.",
+    "direct_semantic_accuracy_percent": 11.9,
+    "direct_semantic_correct": 119,
+    "display_name": "Claude Opus 5.5",
+    "mapped_confusion_actual_FAIL_PASS_rows_predicted_FAIL_PASS_cols": [
+      [
+        434,
+        66
+      ],
+      [
+        53,
+        447
+      ]
+    ],
+    "n": 1000,
+    "post_permutation_accuracy_percent": 88.1,
+    "post_permutation_correct": 881,
+    "procedure_caveat": "Prompt/procedure and prior label exposure were not verified; do not claim a verified strictly label-free protocol.",
+    "raw_confusion_actual_FAIL_PASS_rows_raw_bad_good_cols": [
+      [
+        66,
+        434
+      ],
+      [
+        447,
+        53
+      ]
+    ],
+    "short_footnote": "Model attribution supplied by user; label permutation chosen after inspecting test labels.",
+    "source": "/Users/kirilbangachev/Downloads/test_predictions.jsonl",
+    "source_sha256": "39ffb7aaf2f993d7bab39de9331e84d3597b32bb9e3b9433a71ca640ebb65356"
+  },
+  "source_sha256": {
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/data/university_observer_checkpoint1076_split/split_manifest.json": "ccfba9f92b91db27e5e32aa25a12ec827e2ef4174511ab0bbdadfa29348a2e77",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/gemma_trained_test_kmeans_1076_20261003T195231Z/clusters/CLUSTER_COMPLETE.json": "dc7b76f2b0a7dda44f7677720735b8f91232644402bffb47a6348dc67cd61756",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/gemma_trained_test_kmeans_1076_20261003T195231Z/clusters/clustering_summary.json": "12a2e725ba54bf05b60e783d922181ffd784f930e4b95b9e3d695b565d43a1ae",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/gemma_trained_test_kmeans_1076_20261003T195231Z/evaluation/EVALUATION_COMPLETE.json": "c7deeb1493ad4d3d42fc0821075b3a40cf78b0ed0cc1fa13ceadb67673968999",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/gemma_trained_test_kmeans_1076_20261003T195231Z/evaluation/evaluation.json": "f571a1248dd7e1fa0d591eee59676655bc82f6059bf672bb2acbed05e5e5b03a",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/gemma_untrained_eos_logreg_1076_20261003T185800Z/logistic_regression/FIT_COMPLETE.json": "b6ed36b6131ae9c274c7297033efc7a4a38be4510c0a880d38aeab0e65921abc",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/gemma_untrained_eos_logreg_1076_20261003T185800Z/logistic_regression/metrics.json": "8ca46b09e57970c10f1b7a664cfd32be1d40609af2a081c032eb0751caea5a79",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/gemma_untrained_eos_logreg_1076_20261003T185800Z/logistic_regression/provenance.json": "dc1fddf59d7fcdab49e288cba1d0500082228ed8e7bd0219414da859ff8b04bb",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/gemma_untrained_test_kmeans_1076_20261003T195231Z/clusters/CLUSTER_COMPLETE.json": "ca90e96e37915875d46dccf950da0f55ca285c26057fd21e91ab1f3dc5de341d",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/gemma_untrained_test_kmeans_1076_20261003T195231Z/clusters/clustering_summary.json": "e74ed94f59ab03eca44766b90f8aadc856b9a337dad36742aa50d1ca0f27144d",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/gemma_untrained_test_kmeans_1076_20261003T195231Z/evaluation/EVALUATION_COMPLETE.json": "cafd412b751b88492b7d5434c4197a873580ec2579fd4ff4871c61bcf8a4349e",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/gemma_untrained_test_kmeans_1076_20261003T195231Z/evaluation/evaluation.json": "20986aa8e0d540363990f6770e7c4e24a1de4ccc3fd71438ba307a810aac80f0",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/qwen25_3b_eos_logreg_1076_20261003T191657Z/logistic_regression/FIT_COMPLETE.json": "8e61a925c790bfc01f962a7468a6b816589a7c70d4c95f82d8f2304c4e2d33c4",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/qwen25_3b_eos_logreg_1076_20261003T191657Z/logistic_regression/metrics.json": "52faace3198ffb43d37959396dd67fb3eb6743ded59eb0ef5394036dd3720a2b",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/qwen25_3b_eos_logreg_1076_20261003T191657Z/logistic_regression/provenance.json": "98856e216149c430377d41eadce620f9fb6acb884e4863619d93234fa98961cd",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/qwen25_3b_test_kmeans_1076_20261003T193938Z/clusters/CLUSTER_COMPLETE.json": "f1e54858e3f67ca84dd243a373002c5a0a9f71597b049f9243a2178cb9628131",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/qwen25_3b_test_kmeans_1076_20261003T193938Z/clusters/clustering_summary.json": "e2a022cc08bb1bdbad0f61dc2e0623c0fa61f1903b8adf25fbf27626fd736c77",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/qwen25_3b_test_kmeans_1076_20261003T193938Z/evaluation/EVALUATION_COMPLETE.json": "7d51ff2d4e93e88b7a2d45ea47ab4fbae60746b60e6b2408b6b65e012cc2c4ce",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/qwen25_3b_test_kmeans_1076_20261003T193938Z/evaluation/evaluation.json": "265dd84c666bbf61af2f39eb3e70030e02cb3fe27b866f861d1a88a0c3a6f63d",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/sender_eos_logreg_1076_20261003T183259Z/logistic_regression/FIT_COMPLETE.json": "168e66f906a7bc72e706fd78864bc96987c8c5f408d5bf1ae815bc1ba398c5be",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/sender_eos_logreg_1076_20261003T183259Z/logistic_regression/metrics.json": "37479cf30cb5424a8a53a6b7a3d73a2ea6d44a6b63e5b669a5bb8be40370fd7b",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/sender_eos_logreg_1076_20261003T183259Z/logistic_regression/provenance.json": "39815c07e774ffc8fb5a569a056d84c9b6b127644ebcb0979cee9066510bea0b",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/gemma_trained/clusters/CLUSTER_COMPLETE.json": "23adb5493d0b73a13c62c695a0632e1d5bfabc05698c11eeb6b5e17d5f43ea3b",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/gemma_trained/clusters/clustering_summary.json": "60b0fd164c691ccc936981be346f4a79b60a6344068fe280ea1553dd35163b86",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/gemma_trained/evaluation/EVALUATION_COMPLETE.json": "0f23c831e2249e3af67be72d25241a1ab04995cebb7d60dadbdd1470d1da68f0",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/gemma_trained/evaluation/evaluation.json": "2e0820fb933495a9f42f3f83073358d8b7c9662a4a3e6ec72a380d5750373763",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/gemma_untrained/clusters/CLUSTER_COMPLETE.json": "130a8e0af809bfdc62d0d44605544853b58a84050f3e978ad1ed238341319962",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/gemma_untrained/clusters/clustering_summary.json": "681e58d773998ec8472067131f49824577dc1d683fa801f852dd04082c77d38c",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/gemma_untrained/evaluation/EVALUATION_COMPLETE.json": "a7868f8c31b0d53c9fa6170b09da4e1db237a57e67566877918795f8adc735d4",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/gemma_untrained/evaluation/evaluation.json": "2986bb5c972c409c9ba5201769f60bf45a332acb75cc027a56771eb787f7c0c8",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/qwen25_3b/clusters/CLUSTER_COMPLETE.json": "278f388d01c78f9848377b573eaf5041864ae5ceb75cb6bdc53e3b00dacad2a3",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/qwen25_3b/clusters/clustering_summary.json": "8bddf5e8e5f7b45cc5497208e062699b6a0e0aabad61d66d5c00d319c819274d",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/qwen25_3b/evaluation/EVALUATION_COMPLETE.json": "96a9b794723cb0420ff64a2ef7b1a91e7c85161b3e5989c4f1590c28d76daf65",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/spherical_test_kmeans_1076_20261003T204014Z/qwen25_3b/evaluation/evaluation.json": "71b8e067cf9164b7e59988769ef717ded4449ea39fe6410f15aa32ec0d048dd7",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/REPORT.json": "b41f0c73b255b02a5d1ebe98e7e9330d65683041c6e7ada13885e78f4395ee5a",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/checkpoints/step_000000/COMPLETE.json": "0532c280337320beb9705dd828b3f3ab3a89cdb6d97d33b20f13928f93ac642f",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/checkpoints/step_000050/COMPLETE.json": "4eb64f096ba0919ee30162e3d00de3bd83183343143a2441b517d5a5b374718f",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/checkpoints/step_000100/COMPLETE.json": "8234339c8858ea4f34ec0b1a81598609003acca1bc73fb3fda8688550558417b",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/checkpoints/step_000150/COMPLETE.json": "f8528395fa7961e703e19dac011579476c38703e2f51edaa67e79969530242b1",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/checkpoints/step_000200/COMPLETE.json": "1f65fa2332d8350e87cc900b973c1958a111c3c2a1b4217e6a5db38b85e44674",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/checkpoints/step_000250/COMPLETE.json": "3b097db08e7018d82f1220b7875daded4f8c7ea385712d9c09a7bf2a53b59e25",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/checkpoints/step_000300/COMPLETE.json": "f8f4711eb5420963736364416a651181e20270ca3d5b063b2f662909b4e355b1",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/checkpoints/step_000350/COMPLETE.json": "b50261861953f4bf8410b9373235bd30068701dacf52355d81b72f91eb597d26",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/checkpoints/step_000400/COMPLETE.json": "df0804dab9e7762c7aaa83c10470607f471bd1a10f86330b43a27300afe7dc5d",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/checkpoints/step_000450/COMPLETE.json": "cff413db870773e07bffebf126eb120222c7f30b1f6103606ec716efe0021828",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/checkpoints/step_000500/COMPLETE.json": "2fd46c79191ff02fc19ce086a993c08ec12ff3be7987522e79559aa1998d9f16",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/checkpoints/step_000530/COMPLETE.json": "8645f0ce9a7bbb5ff21b7ea53190ee2cc4ae7eff37a87195f8712c5801df148d",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/checkpoints/step_000550/COMPLETE.json": "7cf085761e489f095533a102bf0d736505a9ad1dcb874975cbd4735f3185415d",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/checkpoints/step_000600/COMPLETE.json": "a0027cafb775a08a596c534848f165c06ef7a27236c1612434c7f030c9a4508e",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/checkpoints/step_000650/COMPLETE.json": "22ad954ff3b3590f7eba21443a911280d10fdafb6e94a419a6a0a067ae1841df",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/checkpoints/step_000700/COMPLETE.json": "21e03655201b3d1d20e9e22d2f7476b37bec9cff8aa278bdb22cbc011ad19fa4",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/checkpoints/step_000750/COMPLETE.json": "4ffef82f89a2a52f167b1aebcd832e8592f779d9b103cae37dc8ae01f7d67b99",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/checkpoints/step_000800/COMPLETE.json": "d52ce4f8f8e9366add5fb4845a55f130c1011a24d039206c050afadfaf4ac77e",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/checkpoints/step_000850/COMPLETE.json": "4f7f3b4fc6815f69c8aa95a90b1e2913f86b4662687394267c9fe8c05b9a14b2",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/checkpoints/step_000900/COMPLETE.json": "0a4d47b70281b17ffe27c8f75e84add4fe7eb50098ef7456111828696202ec85",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/checkpoints/step_000950/COMPLETE.json": "5dbef5ce8f7f9c537b7968e5473268ee6e0bbcce7babff03dd19dda853333920",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/checkpoints/step_001000/COMPLETE.json": "d1fee31d345f667beff59651c11dcac48a08c3f52c091ae1ea67dbb0974c9acf",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/checkpoints/step_001050/COMPLETE.json": "c38b9f444f24f1d3854b2dee19b6933ce9bf8920fe0328e7e3ab9b1e2bf691db",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/checkpoints/step_001076/COMPLETE.json": "e4654edc542e0a84e2321b31586e3e8eda6c86023390ea08fc5332138207ab46",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000000/COMPLETE.json": "2b67e56ef5d823093d56eb80bb4e38db59bca0f80d7f83a53e5feddf473cf29e",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000000/SUMMARY.json": "3c10be00b3a28a80b50c9ef8c5edf406f69a65a57ee7f6ef888e8875f59c21dc",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000050/COMPLETE.json": "896095f1a294bde50fbffaef4c1aea9836fef2aaff2e6d33b13e4d049d19a8cc",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000050/SUMMARY.json": "317451f7a65db755d97001fa64fc48698475e8487e1bb6798fef0a3eee5b9f3f",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000100/COMPLETE.json": "d95933ad67d5f703c7d7d11dc60f856c3a3e1cb9acab5d2472fd45815297596b",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000100/SUMMARY.json": "4750e74b8b68ab958dd4d9ed8120ba5260ca2c1337d46849e123f40d5f25070e",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000150/COMPLETE.json": "3d496a050649408dc395ce66743d8926f2824e2f59d4a391f6b296f7ae6fb9ad",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000150/SUMMARY.json": "de248d5d8e6b0f6f50e5ca62b33076c0c65ac20a873f7a1e4f63da82b19ccd9a",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000200/COMPLETE.json": "7be8fb18d3d4ee2ed46850bf748239ddc13246d8a1262448719dc19d9405a48c",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000200/SUMMARY.json": "e6d8846f183ed152a889bfa6a716ebd4bc0c9bffd135303375d8d298cc6827f0",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000250/COMPLETE.json": "68a047d37204917fa7e0592917cbefb117a2bd5971fe0b82dbe464de9a5825ab",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000250/SUMMARY.json": "63564a7b852af2e23bb42f4f905c2104507fbf45dd0f90c01bc60142e28f0e37",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000300/COMPLETE.json": "a216e9153fba6299e95a29be8bb44d186e69fe698f93fcd016b572def2380e1c",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000300/SUMMARY.json": "1b66eb115aa9a3d2090e01efa502538d9ff80dd4ba492875bd6662183bc064e9",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000350/COMPLETE.json": "26d6f8b36551f0ee5cfa127151c849c4840216a4e2c8d80dbd950a11b0f0f03b",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000350/SUMMARY.json": "7beb9311488e0c82df283452ca3ad136a6fbf5b16a3d6d5e161246109ff3a778",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000400/COMPLETE.json": "257adc4d4f68e26054e11fa12c69dc3b230ec9848635f8aeb2b45657255384dc",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000400/SUMMARY.json": "78c2f58023237d2b40fafd39a97e511fdc5f3c427ceda9d2fb15c852385fa8e4",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000450/COMPLETE.json": "f96d2f183e00017fa05f193156e587aaabe909271bd058a8f899eba80fc389da",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000450/SUMMARY.json": "da6dcd6e7c8cbf3c1cfd61c9ffbb5090e711d7ff4c585d8b35f203458c008844",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000500/COMPLETE.json": "d5cad567dd7d00329f6685e9e1c53df64e2732e4be066d4d0d9041c85ff71afd",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000500/SUMMARY.json": "55f6b9dd9c599be5984e5d8b27848b7502f8407f4e75895941cee997fc0c25ff",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000530/COMPLETE.json": "54e00b3734d7d4d5fc733597370d0f4424ba52d709f334db4c94f329eb06aff7",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000530/SUMMARY.json": "e53da3f3c1781ca9cb58c0e2b73cf90b18b33d7c5b7e9166b3eb559240fb6280",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000550/COMPLETE.json": "83cbc3e5e2f788e1123436e0b19552feab7dd78946ca1acc0ce5f536484ddd89",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000550/SUMMARY.json": "6aaf4e450afa4272fabf767ad25b8e53d8b4c26a67cdb63c64d10aad8838d21e",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000600/COMPLETE.json": "bfdc83e44ddcd557759a2c65f5b8b8a735a6e7ef180791f02e7cbf4cf8142427",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000600/SUMMARY.json": "620282c248b448a2c4fa2711525a76c9289b15d593482e58f20b6d74351c378f",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000650/COMPLETE.json": "611ec9a5eb0f5a4fba07db4ddcfb190fd24d526457a06f96f112a3681dba1342",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000650/SUMMARY.json": "dd439f21091eaf200bb7e2c947c43a42f583dcee31bee7da5b325cc9b1f6524d",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000700/COMPLETE.json": "93fae581ee57556c83e8445dcc08d005e201e42404c7173892f18cbfccfc86cd",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000700/SUMMARY.json": "b34eed2e62ff89f20131431ff2c1a66a0a9127836b2357ea8d02b3819cd3fb22",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000750/COMPLETE.json": "4ea5762a6b2fbd83385eabfb51dde85bb06a5bc552e6aee41ab3f3e070883dfb",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000750/SUMMARY.json": "ad7dbda5062db519d93cd0d9da05dbb4868e566a3a2662225759550a4ef80ea6",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000800/COMPLETE.json": "4229e4ae509c8a64115f9b7455dd3937db2c10d9ceb8b58339af94548add64ca",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000800/SUMMARY.json": "81b7e3730bb61014eda8e959b3c24943c0618ebb6d5ca80ed15c016c9b256106",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000850/COMPLETE.json": "d2c2304b734f4085d9ecea4b30b8c1c9fba4f9c2ce568c14358d750b008a51b6",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000850/SUMMARY.json": "e807fcbbd8d629e0e0d763249a212f75fb20dafdcf9fea5732db4a74788db090",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000900/COMPLETE.json": "7b0ff7419e52effca148912353ace044f9f55c32745a4fffdc2376c6fce33415",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000900/SUMMARY.json": "bd10b8b9982433de4fb50c2a4ce205507e230057ef8ca95fb97574e3a48ce37e",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000950/COMPLETE.json": "c9f6abeed16e27ef5657c4c254fb00bff300d81a13c98409f3c9135786da53fe",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_000950/SUMMARY.json": "dc398a6e49a173b1fee8862db6906c4a15217a5a9ba49437bca9aa38adacc53d",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_001000/COMPLETE.json": "2568e07e858013f22a12780ad9e3ceaab43012f783abe557728fcb817c31c767",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_001000/SUMMARY.json": "a79569309354a1697b71bf8f9ee5dd8ea0e0ca9ef26b6455997b9bdd6790f60f",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_001050/COMPLETE.json": "898ec9b924f3cd5b9ec8c5626d60da1904300a5161827ce7693b1e07ecfd002f",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_001050/SUMMARY.json": "bf2451719d1c857b47d3fbd22ed883f88bd95f20b82f8e3b95648128f0ad2a59",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_001076/COMPLETE.json": "19d3c7d857db6bb659109bc1d506310ba63e0470853a786463df164f7c057d88",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_001076/SUMMARY.json": "d327a6b566b374722f915347e5a0de3347c35b9f847234386267d8be809f4778",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/plots/PROVENANCE.json": "15b23e2edcd0690d25ee16175198505ca02b5f7d787a113a8672d8c9f1b3bb4c",
+    "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/plots/corrected_evaluation_curves.csv": "919dffb642a61e5ca324dbcd991c19e46f160c3a3dc1f8e6fa43767b9b93d59c",
+    "/Users/kirilbangachev/Downloads/test_predictions.jsonl": "39ffb7aaf2f993d7bab39de9331e84d3597b32bb9e3b9433a71ca640ebb65356"
+  }
+}

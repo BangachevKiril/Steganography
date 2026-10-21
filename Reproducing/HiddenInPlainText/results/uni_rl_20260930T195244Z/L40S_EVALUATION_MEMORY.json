@@ -1,0 +1,43 @@
+{
+  "kind": "L40S_evaluation_parent_cache_cleanup",
+  "config_digest": "a430c084d01dc638190691b34614ff595f8d788bb6172728f04aebe2a50c503b",
+  "training_source": "/orcd/pool/003/kirilb/Steganography/releases/uni_rl_20260930T195244Z",
+  "source_sha256": {
+    "stego/__init__.py": "c5c9f525a0627442d9019eb0d083059f68b58fdeccd242dbf8f1d23ecd0cffda",
+    "stego/decoder_comparison.py": "ad8992342bedc839546beed6cd8de182bf912dc3f4af8091fc18850bdc9b7bc0",
+    "stego/decoder_prompt_comparison.py": "32a15b42ea6767c438218352a5621e821ec49f2a6e47bb21f43a2f5e010a3c65",
+    "stego/engine.py": "6e13d082d1f09a997c763fecad8934dc14543f77ba6090f21b0f2750ddaebbf6",
+    "stego/paired_inference.py": "a7db0efc00a8a9dcea61c572481b388670beeb6ed2df04e8dc56e7282000052b",
+    "stego/paired_sender_probe.py": "c360667367a14403b3149787f8dd8ba6abbf7474f763b9f06ce670ef983f3424",
+    "stego/prompt_comparison.py": "2d5665692072e52e1ed422b9dd6523ffd30780bed3e988db4e36d0a5d0a341e7",
+    "stego/prompt_comparison_report.py": "47271eebe234bd94a6c3d955467feaf966f87cd19d8e9c7758150c790572bab2",
+    "stego/protocol.py": "2e130ea625f846da553f00d51add7ddfa446892e52195b588c780767a90f8771",
+    "stego/rejection_baseline.py": "c8b9d8a876a4bb368d05a6e8ff5da60dbbf3cd6c832026cae90eecf35ec162bc",
+    "stego/smoke.py": "c4a821b8fc4f9f2cb3fe9d30c7b9d1b1f9068315d42f964c45d55e8d2828202f",
+    "stego/train.py": "8de5e1815935ace4895f52e7ecc6a8606bf99bebb0cc110a14d6a34550582618",
+    "stego/training_report.py": "83b9057bad934c123a036fb4a88a0d703b4cdbe5a4a04fc5c42fe3d04de1ce2e",
+    "stego/university_baseline.py": "db50bd974bc236fb97b1069e902585782dec64dfd9b74b8356ac820094b3a299",
+    "stego/university_evaluation.py": "e3a6370d7fc0141297d9d8277e3f64bedb15ac6aea9062f4551c974ffb9db22f",
+    "stego/university_judge.py": "7fffbd98fcda817ce482282dfbe7debbf7173dbf2b25ac215f7d3a2a40fc7397",
+    "stego/university_metrics.py": "c04587aaab3543ea3e5eb57a1777850b3cd69a1e8ad6d8a2a78e80501477ec7a",
+    "stego/university_training.py": "0a9bdc08115cc8caa7156ea00992fbba5070f6e822dbe52e8569bfc122233c1b",
+    "stego/university_training_report.py": "5bcc90e41afcb984c2a40b849a62ece199551254f4e36ff5de717b84d81284d6",
+    "orcd/university_training.slurm": "b94bd2aa36dab8170c4222d0adc8187d2909160dc53c52e71ae2393853c26b9d"
+  },
+  "wrapper_sha256": "d5f9352f0c6984c29f0078ec035be77822cb81c2fe2010f38248c634326e90f2",
+  "memory_launcher_sha256": "9ce57ee0ff9a043273f80a75424a80bdf8a97189e0ccaedb00dce2f0f9e9b2c4",
+  "hardware_launcher_sha256": "17dbf6d322d3bc5cac719c0a1ebef701e88e4a25d6ec4e9a302268a414f91565",
+  "original_run_judge_source_sha256": "9291dd86a826e2b77f9789f14ced92a2a63e5a0d514813aa1a09964b81632863",
+  "scope": "Before the unchanged frozen evaluator._run_judge child launch",
+  "cleanup": [
+    "torch.cuda.synchronize",
+    "gc.collect",
+    "torch.cuda.empty_cache",
+    "torch.cuda.synchronize"
+  ],
+  "models_moved": false,
+  "live_tensors_mutated": false,
+  "scientific_configuration_changed": false,
+  "judge_command_and_configuration_changed": false,
+  "invariants": "Model parameters/buffers/gradients/modes and optimizer tensor identities/versions/shapes/dtypes/devices/state metadata; Python/NumPy/Torch/CUDA RNG."
+}

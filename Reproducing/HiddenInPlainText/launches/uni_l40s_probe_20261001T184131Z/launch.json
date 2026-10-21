@@ -1,0 +1,35 @@
+{
+  "name": "uni_l40s_probe_20261001T184131Z",
+  "stage": "submitted",
+  "status": "submitted",
+  "training_job_id": "24469259",
+  "training_run": "/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z",
+  "training_source": "/orcd/pool/003/kirilb/Steganography/releases/uni_rl_20260930T195244Z",
+  "training_config_digest": "a430c084d01dc638190691b34614ff595f8d788bb6172728f04aebe2a50c503b",
+  "checkpoint": "/orcd/pool/003/kirilb/Steganography/runs/uni_l40s_probe_20261001T184131Z/source_checkpoint",
+  "checkpoint_copy_source": "/orcd/pool/003/kirilb/Steganography/runs/uni_h100_probe_20261001T174300Z/source_checkpoint",
+  "completed_update": 82,
+  "remote_source": "/orcd/pool/003/kirilb/Steganography/releases/uni_l40s_probe_20261001T184131Z",
+  "run_dir": "/orcd/pool/003/kirilb/Steganography/runs/uni_l40s_probe_20261001T184131Z",
+  "output_dir": "/orcd/pool/003/kirilb/Steganography/runs/uni_l40s_probe_20261001T184131Z/public",
+  "local_source": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/launches/uni_l40s_probe_20261001T184131Z",
+  "local_results": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_l40s_probe_20261001T184131Z",
+  "partition": "mit_normal_gpu",
+  "gpu": "l40s",
+  "requested_time": "00:20:00",
+  "bitsandbytes_version": "0.43.3",
+  "reported": false,
+  "completion_reported": false,
+  "authorization": "User explicitly requested an additional L40 launch after discussion of unchanged-setting compatibility and memory tests; isolated frozen checkpoint82 test, no parameter updates or main-run changes.",
+  "created_at": "2026-10-01T18:41:31.308026+00:00",
+  "checkpoint_verification": {
+    "checkpoint": "/orcd/pool/003/kirilb/Steganography/runs/uni_l40s_probe_20261001T184131Z/source_checkpoint",
+    "state_sha256": "edc4a904a5d7ce36ec18b509d60732d2be862d16786f74571bf84ba78ca3dd2b"
+  },
+  "probe_files_sha256": {
+    "university_l40s_probe.py": "21811f5edb620f5c46aad6392db983b2982e8a042ca971dd2098dd7d838e940c",
+    "university_l40s_probe.slurm": "8c23154849006773aaf7cf90eb6534e93308f199c3ac18833569f20dbd825e3b"
+  },
+  "job_id": "24566270",
+  "submitted_at": "2026-10-01T18:43:04.784421+00:00"
+}

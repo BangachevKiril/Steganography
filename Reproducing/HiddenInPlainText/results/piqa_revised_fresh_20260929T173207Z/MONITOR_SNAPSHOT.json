@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-09-30T03:46:41.276153+00:00",
+  "verified_step": 100,
+  "checkpoint": "step_000100",
+  "checkpoint_commit": {
+    "global_step": 100,
+    "config_digest": "8c07b787822811f1bdde374f4d37853a9d8b1e24f8a7f395c708d28b90f4d227"
+  },
+  "slurm": {
+    "queue": {
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "slurm_load_jobs error: Invalid job id specified\n"
+    },
+    "accounting": {
+      "returncode": 0,
+      "stdout": "24320332|COMPLETED|09:53:01|0:0|node4508\n24320332.batch|COMPLETED|09:53:01|0:0|node4508\n24320332.extern|COMPLETED|09:53:01|0:0|node4508\n",
+      "stderr": ""
+    },
+    "details": {
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "slurm_load_jobs error: Invalid job id specified\n"
+    }
+  }
+}

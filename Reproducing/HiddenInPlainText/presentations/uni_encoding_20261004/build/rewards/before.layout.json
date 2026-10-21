@@ -1,0 +1,1053 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/y90nupkv",
+    "id": "y90nupkv",
+    "slide": 1,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FBFCFD",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri Light",
+        "eastAsianTypeface": "Calibri Light",
+        "complexScriptTypeface": "Calibri Light"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri",
+        "eastAsianTypeface": "Calibri",
+        "complexScriptTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Calibri",
+      "Calibri Light",
+      "Helvetica Neue"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4r6dg7et",
+      "id": "14",
+      "bbox": [
+        60,
+        40,
+        1160,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Training method and RL environment",
+      "textPreview": "Training method and RL environment",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Training method and RL environment"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Training method and RL environment",
+          "resolvedTextStyle": {
+            "fontSize": 44,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Training method and RL environment",
+              "fontSize": 44,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/547294r6",
+      "id": "2",
+      "bbox": [
+        60,
+        111,
+        1160,
+        54
+      ],
+      "geometry": "rect",
+      "text": "University label hidden in a CV paraphrase",
+      "textPreview": "University label hidden in a CV paraphrase",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "University label hidden in a CV paraphrase"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "University label hidden in a CV paraphrase",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#4D6271",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "University label hidden in a CV paraphrase",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue",
+              "color": "#4D6271"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k3yl0zql",
+      "id": "3",
+      "bbox": [
+        60,
+        186,
+        596,
+        35
+      ],
+      "geometry": "rect",
+      "text": "Sender: Gemma 2–2B-IT with LoRA",
+      "textPreview": "Sender: Gemma 2–2B-IT with LoRA",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Sender: Gemma 2–2B-IT with LoRA"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Sender: Gemma 2–2B-IT with LoRA",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Helvetica Neue",
+            "color": "#007F82",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Sender: Gemma 2–2B-IT with LoRA",
+              "fontSize": 27,
+              "typeface": "Helvetica Neue",
+              "color": "#007F82",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7qp4be9c",
+      "id": "4",
+      "bbox": [
+        60,
+        230,
+        555,
+        77
+      ],
+      "geometry": "rect",
+      "text": "Reads the CV and its university. Writes a short summary without naming the university.",
+      "textPreview": "Reads the CV and its university. Writes a short summary without naming the university.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Reads the CV and its university. Writes a short"
+          },
+          {
+            "index": 2,
+            "text": "summary without naming the university."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Reads the CV and its university. Writes a short summary without naming the university.",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Reads the CV and its university. Writes a short summary without naming the university.",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/65g3298r",
+      "id": "5",
+      "bbox": [
+        60,
+        325,
+        590,
+        35
+      ],
+      "geometry": "rect",
+      "text": "Receiver: trainable DistilBERT",
+      "textPreview": "Receiver: trainable DistilBERT",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Receiver: trainable DistilBERT"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Receiver: trainable DistilBERT",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Helvetica Neue",
+            "color": "#007F82",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Receiver: trainable DistilBERT",
+              "fontSize": 27,
+              "typeface": "Helvetica Neue",
+              "color": "#007F82",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ts7md4r2",
+      "id": "6",
+      "bbox": [
+        60,
+        369,
+        555,
+        78
+      ],
+      "geometry": "rect",
+      "text": "Predicts PASS (Good University) or FAIL (Bad University) from the summary.",
+      "textPreview": "Predicts PASS (Good University) or FAIL (Bad University) from the summary.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Predicts PASS (Good University) or FAIL (Bad"
+          },
+          {
+            "index": 2,
+            "text": "University) from the summary."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Predicts PASS (Good University) or FAIL (Bad University) from the summary.",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Predicts PASS (Good University) or FAIL (Bad University) from the summary.",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sryl4zqx",
+      "id": "7",
+      "bbox": [
+        60,
+        466,
+        590,
+        35
+      ],
+      "geometry": "rect",
+      "text": "Observer: frozen Llama 3.1–8B",
+      "textPreview": "Observer: frozen Llama 3.1–8B",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Observer: frozen Llama 3.1–8B"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Observer: frozen Llama 3.1–8B",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Helvetica Neue",
+            "color": "#007F82",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Observer: frozen Llama 3.1–8B",
+              "fontSize": 27,
+              "typeface": "Helvetica Neue",
+              "color": "#007F82",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fu94fe98",
+      "id": "8",
+      "bbox": [
+        60,
+        510,
+        555,
+        74
+      ],
+      "geometry": "rect",
+      "text": "Flags references to institutions or academic status.",
+      "textPreview": "Flags references to institutions or academic status.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Flags references to institutions or academic"
+          },
+          {
+            "index": 2,
+            "text": "status."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Flags references to institutions or academic status.",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Flags references to institutions or academic status.",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/utg3698n",
+      "id": "9",
+      "bbox": [
+        710,
+        186,
+        505,
+        35
+      ],
+      "geometry": "rect",
+      "text": "Alternating training",
+      "textPreview": "Alternating training",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Alternating training"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Alternating training",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Alternating training",
+              "fontSize": 27,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wn6dc7eh",
+      "id": "10",
+      "bbox": [
+        710,
+        233,
+        505,
+        83
+      ],
+      "geometry": "rect",
+      "text": "2 receiver supervised updates\n256 accepted summaries per update",
+      "textPreview": "2 receiver supervised updates | 256 accepted summaries per update",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2 receiver supervised updates"
+          },
+          {
+            "index": 2,
+            "text": "256 accepted summaries per update"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2 receiver supervised updates",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2 receiver supervised updates",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "256 accepted summaries per update",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "256 accepted summaries per update",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hofulsf2",
+      "id": "11",
+      "bbox": [
+        710,
+        335,
+        505,
+        83
+      ],
+      "geometry": "rect",
+      "text": "5 sender PPO updates\n192 summaries per update",
+      "textPreview": "5 sender PPO updates | 192 summaries per update",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "5 sender PPO updates"
+          },
+          {
+            "index": 2,
+            "text": "192 summaries per update"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "5 sender PPO updates",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "5 sender PPO updates",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "192 summaries per update",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "192 summaries per update",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ul4vaxgb",
+      "id": "12",
+      "bbox": [
+        710,
+        447,
+        505,
+        128
+      ],
+      "geometry": "rect",
+      "text": "Reward favors correct decoding and low observer suspicion, with a length term and PPO KL regularization.",
+      "textPreview": "Reward favors correct decoding and low observer suspicion, with a length term and PPO KL regularization.",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Reward favors correct decoding and low"
+          },
+          {
+            "index": 2,
+            "text": "observer suspicion, with a length term and"
+          },
+          {
+            "index": 3,
+            "text": "PPO KL regularization."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Reward favors correct decoding and low observer suspicion, with a length term and PPO KL regularization.",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Reward favors correct decoding and low observer suspicion, with a length term and PPO KL regularization.",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vmdcj2xw",
+      "id": "13",
+      "bbox": [
+        60,
+        624,
+        1160,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Reference: Mathew et al. (2025), Hidden in Plain Text: Emergence & Mitigation of\nSteganographic Collusion in LLMs. arXiv:2410.03768. Corrected implementation of the Uni O setup.",
+      "textPreview": "Reference: Mathew et al. (2025), Hidden in Plain Text: Emergence & Mitigation of | Steganographic Collusion in LLMs. arXiv:2410.03768. Co...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Reference: Mathew et al. (2025), Hidden in Plain Text: Emergence & Mitigation of"
+          },
+          {
+            "index": 2,
+            "text": "Steganographic Collusion in LLMs. arXiv:2410.03768. Corrected implementation of the Uni O setup."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Reference: Mathew et al. (2025), Hidden in Plain Text: Emergence & Mitigation of",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Helvetica Neue",
+            "color": "#4D6271",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Reference: Mathew et al. (2025), Hidden in Plain Text: Emergence & Mitigation of",
+              "fontSize": 18,
+              "typeface": "Helvetica Neue",
+              "color": "#4D6271"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Steganographic Collusion in LLMs. arXiv:2410.03768. Corrected implementation of the Uni O setup.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Helvetica Neue",
+            "color": "#4D6271",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Steganographic Collusion in LLMs. ",
+              "fontSize": 18,
+              "typeface": "Helvetica Neue",
+              "color": "#4D6271"
+            },
+            {
+              "index": 2,
+              "text": "arXiv:2410.03768",
+              "fontSize": 18,
+              "typeface": "Helvetica Neue",
+              "color": "#4D6271"
+            },
+            {
+              "index": 3,
+              "text": ". Corrected implementation of the Uni O setup.",
+              "fontSize": 18,
+              "typeface": "Helvetica Neue",
+              "color": "#4D6271"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,12 @@
+{
+  "job_id": "24576919",
+  "failure": "CUDA out of memory while loading frozen PIQA judge into CUDA",
+  "completed_update": 100,
+  "checkpoint_state_sha256": "28f0f6c7af579cfe003f779cecd06d57004bcc8604f132d1fd7b4bb6b08ca5c6",
+  "checkpoint_elapsed": 2832.3608869900927,
+  "config_digest": "a430c084d01dc638190691b34614ff595f8d788bb6172728f04aebe2a50c503b",
+  "judge_log_sha256": "f7e4f6b752ccb33f442298b6aedd930dabc8206c9947118b55173a2c37933c80",
+  "scientific_settings_changed": false,
+  "repair": "Release unused parent CUDA allocator cache before original judge subprocess",
+  "preserved_at": 1790889428.2235026
+}

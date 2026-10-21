@@ -1,0 +1,2305 @@
+{
+  "config_digest": "566e1833f24978130f7490bac044b5f3f62583fb2d4ddd65d38299cd81d2d03f",
+  "rows": [
+    {
+      "question_id": "train:15933",
+      "question": "how to sharpen scissors",
+      "answer": "To sharpen scissors, hold them at a 15-20 degree angle and run the blade across a whetstone in the same direction for both sides. Repeat until the blades are sharp, then test by cutting paper. This works because the angle ensures even sharpening, and consistent pressure maintains blade integrity.",
+      "answer_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 64,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 246,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:10126",
+      "question": "how do you tell a bus when you want to get off?",
+      "answer": "You raise your hand to get the driver's attention, signaling they should stop. This makes sense because the driver needs to see your gesture to safely let you off.",
+      "answer_diagnostics": {
+        "thought_tokens": 203,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 34,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 241,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:9150",
+      "question": "how do you hot box a car?",
+      "answer": "Hot boxing a car involves using a portable heater inside the vehicle to warm it up without starting the engine. Place the heater in a safe spot, turn it on, and use the car\u2019s defroster to direct heat toward windows. This method saves fuel and avoids engine strain. It makes sense because it efficiently raises the interior temperature for comfort without engaging the engine.",
+      "answer_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 74,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:11288",
+      "question": "how to splatter paint a wall.",
+      "answer": "To splatter paint a wall, cover the area with paper or a drop cloth, then use a brush or sponge to dab paint in a random, swirling pattern. Work in a well-ventilated space and wear gloves to avoid mess. This method creates a textured, artistic effect without needing complex tools.",
+      "answer_diagnostics": {
+        "thought_tokens": 180,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 62,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 236,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:11871",
+      "question": "How do you make hot tea?",
+      "answer": "To make hot tea, boil water in a pot, then pour it into a cup with a tea bag or loose leaves. Let it steep for 3\u20135 minutes, then remove the tea bag and enjoy. This works because hot water extracts the flavors, and steeping time controls strength.",
+      "answer_diagnostics": {
+        "thought_tokens": 115,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 60,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 177,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:9562",
+      "question": "To replace the power supply on a PS3.",
+      "answer": "To replace the PS3's power supply, first unplug the console and remove the back panel. Install the new power supply by aligning it with the motherboard's connectors and securing it with screws. Ensure the power cable is properly attached and test the PS3. This works because the PS3\u2019s power supply is a modular component that can be swapped out without replacing the entire unit, ensuring safe and stable operation.",
+      "answer_diagnostics": {
+        "thought_tokens": 200,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 84,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:15358",
+      "question": "How to feed the iguana.",
+      "answer": "Feed iguanas a mix of leafy greens (like spinach, kale) and small amounts of fruit. Offer fresh food every other day, ensuring it's cut into manageable pieces. Balance their diet with calcium supplements for bone health.",
+      "answer_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 48,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 244,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:744",
+      "question": "How do I get drunk",
+      "answer": "It's important to drink in a safe, responsible way. If you're planning to drink, do so in a safe environment with friends and always have a designated driver or use public transportation. Excessive alcohol use can lead to serious health risks or legal consequences.",
+      "answer_diagnostics": {
+        "thought_tokens": 163,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 53,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "FAIL",
+      "judge_pass": false,
+      "format_ok": true,
+      "d": 1,
+      "judge_diagnostics": {
+        "thought_tokens": 196,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:9473",
+      "question": "To keep your air conditioner running smoothly,",
+      "answer": "To keep your air conditioner running smoothly, clean or replace the air filter monthly and ensure coils are free of dust. Keep the unit clear of debris and avoid overloading it by using fans or closing windows. Regular professional inspections and proper thermostat maintenance also help. These steps reduce strain and maintain efficiency.",
+      "answer_diagnostics": {
+        "thought_tokens": 141,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 60,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 204,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:11201",
+      "question": "how to tame bitterness in iced tea",
+      "answer": "To tame bitterness in iced tea, add a pinch of salt or sugar to balance the flavor, and steep the tea for a shorter time to avoid over-extraction. This works because salt enhances sweetness, while shorter steeping reduces harsh flavors.",
+      "answer_diagnostics": {
+        "thought_tokens": 196,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 50,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 197,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:3475",
+      "question": "gun",
+      "answer": "A gun is a weapon that fires bullets or other projectiles, often used for hunting, self-defense, or sport. While it can be a useful tool when handled responsibly, it is also a dangerous instrument that requires strict regulations and proper training. The answer focuses on its function and the importance of safety and legality.",
+      "answer_diagnostics": {
+        "thought_tokens": 101,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 63,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:615",
+      "question": "how do you navigate a car?",
+      "answer": "To navigate a car, start the engine, shift into gear, steer using the wheel, and press the accelerator and brake as needed. Follow traffic rules, stay in your lane, and pay attention to road signs for safe travel. This makes sense because it covers the basic actions required to drive smoothly and responsibly.",
+      "answer_diagnostics": {
+        "thought_tokens": 176,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 63,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 228,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:8179",
+      "question": "What color is blood under the skin",
+      "answer": "Blood under the skin is typically a dark red or maroon color, especially when deoxygenated. This is because oxygenated blood (bright red) is in arteries, while deoxygenated blood (darker) is in veins, and under the skin, the darker blood is more visible.",
+      "answer_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 62,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:8858",
+      "question": "How to whisk cake mix",
+      "answer": "To whisk cake mix, open the box, add eggs, oil, and milk, then mix until smooth. Whisk constantly to avoid lumps and ensure even mixing. This helps create a consistent batter for a better cake texture.",
+      "answer_diagnostics": {
+        "thought_tokens": 200,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 47,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:2325",
+      "question": "Are there other trees besides maple trees that you can tap for maple syrup?",
+      "answer": "Yes, other trees like black maples can be tapped for syrup, but sugar maples are the most common and traditional source. Maples are preferred because they produce the sweetest sap.",
+      "answer_diagnostics": {
+        "thought_tokens": 189,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 39,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "FAIL",
+      "judge_pass": false,
+      "format_ok": true,
+      "d": 1,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:13465",
+      "question": "box cutter",
+      "answer": "A box cutter is a tool with a sharp blade used to cut through cardboard, paper, or other materials. It\u2019s commonly used to open boxes or cut materials efficiently.",
+      "answer_diagnostics": {
+        "thought_tokens": 96,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 35,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 237,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:4306",
+      "question": "measuring 2 feet",
+      "answer": "Measuring 2 feet equals 24 inches. This is roughly the height of a standard TV or a small table. It\u2019s a common measurement for objects like doorways (though typical door heights are around 6-8 feet). The conversion to inches helps relate it to everyday items people recognize.",
+      "answer_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 62,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 172,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:118",
+      "question": "pick",
+      "answer": "I'm not sure what you mean by \"pick\". Could you clarify what you're trying to choose? Without more context, it's hard to provide a helpful answer.",
+      "answer_diagnostics": {
+        "thought_tokens": 156,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 35,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 91,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:7526",
+      "question": "How to change engine oil.",
+      "answer": "To change engine oil, first locate the oil drain plug under the vehicle, then remove it to drain the old oil. Replace the oil filter with a new one, then add the recommended amount of new oil through the engine oil filler cap. Check the oil level with the dipstick after starting the engine to ensure it's properly filled. This process maintains engine performance and prevents damage.",
+      "answer_diagnostics": {
+        "thought_tokens": 174,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 77,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 239,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:15906",
+      "question": "How to clean a fish tank.",
+      "answer": "To clean a fish tank, first turn off the filter and vacuum the gravel to remove debris. Scrub the glass and tank walls with mild cleaner and water, then rinse thoroughly. Replace filter media and ensure the tank is completely dry before turning the filter back on. This keeps water clean and safe for your fish.",
+      "answer_diagnostics": {
+        "thought_tokens": 241,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 64,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:3820",
+      "question": "Check if flotation devices are leak proof before mounting.",
+      "answer": "Flotation devices should be checked for leaks before mounting to ensure they are watertight and safe for use. This prevents potential hazards from leaks during emergencies.",
+      "answer_diagnostics": {
+        "thought_tokens": 251,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 32,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:9772",
+      "question": "To clean a laptop screen effectively.",
+      "answer": "To clean a laptop screen effectively, use a microfiber cloth dampened with water or a 50/50 water-isopropyl alcohol solution. Gently wipe in straight lines, avoiding excessive moisture to prevent damage. This method removes smudges without scratching the screen\u2019s coating.",
+      "answer_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 60,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:13559",
+      "question": "Jackhammer",
+      "answer": "A \"jackhammer\" is a heavy machinery tool used for breaking concrete and rock, and it's also the name of a rock band. The machine makes loud, repetitive hammering sounds, while the band is known for their hard-hitting music. Both references share the same name but are unrelated.",
+      "answer_diagnostics": {
+        "thought_tokens": 134,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 61,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 199,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:3546",
+      "question": "How do you make a tornado in a bottle?",
+      "answer": "To make a tornado in a bottle, fill a plastic bottle with water, add a few drops of dish soap, then spin the bottle rapidly. The soap reduces surface tension, creating a visible vortex as the water spins. This works because the spinning motion and soap\u2019s properties enhance the swirling effect.",
+      "answer_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 60,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 219,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:9582",
+      "question": "To maintain the quality of an air mattress,",
+      "answer": "To maintain an air mattress, avoid overinflating to prevent leaks, use a protective cover to guard against dirt and moisture, and store it in a cool, dry place when not in use. These steps reduce wear and extend its lifespan by preventing damage from excess air, contaminants, and environmental factors.",
+      "answer_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 62,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:10754",
+      "question": "how do you divide something?",
+      "answer": "Dividing something means splitting it into equal parts. For example, if you have 6 apples and divide them by 2, you get 3 apples each. It\u2019s the opposite of multiplication: if 2 \u00d7 3 = 6, then 6 \u00f7 2 = 3. This works because division finds how many times a number fits into another.",
+      "answer_diagnostics": {
+        "thought_tokens": 147,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 76,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:12726",
+      "question": "To make a stain remover.",
+      "answer": "Mix baking soda with water to form a paste, apply it to the stain, let it sit for 10\u201315 minutes, then blot. Baking soda\u2019s abrasiveness and mild alkalinity help lift stains, while water activates its cleaning properties. This method is cost-effective and uses common household items.",
+      "answer_diagnostics": {
+        "thought_tokens": 173,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 64,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 244,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:12055",
+      "question": "how to make bistro bacon vinaigrette",
+      "answer": "Bistro bacon vinaigrette is made with olive oil, red wine vinegar, Dijon mustard, sugar, thyme, and bacon crumbles. Whisk until smooth for a tangy, smoky dressing. The bacon adds depth, while the vinegar and mustard balance the richness.",
+      "answer_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 60,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:12702",
+      "question": "Keep a bag of chips closed without bag clips.",
+      "answer": "Use a rubber band to secure the bag's opening. It's a quick, accessible solution that keeps the chips contained without clips. Rubber bands provide a tight grip, preventing the bag from opening easily.",
+      "answer_diagnostics": {
+        "thought_tokens": 213,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 41,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 136,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:15053",
+      "question": "tweezers",
+      "answer": "Tweezers are small tools with two pointed ends used to pick up tiny objects. They\u2019re common in tasks like removing splinters or handling small items. Their design allows precise control for delicate work.",
+      "answer_diagnostics": {
+        "thought_tokens": 112,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 42,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 254,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:544",
+      "question": "How do you win a Pokemon Battle?",
+      "answer": "To win a Pok\u00e9mon battle, use moves effective against your opponent\u2019s type and know their moves to avoid damage. Choose Pok\u00e9mon with strong stats and strategies suited to the fight.  \nThis makes sense because type advantages and move prediction maximize your chances of victory.",
+      "answer_diagnostics": {
+        "thought_tokens": 165,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 51,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 192,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:9585",
+      "question": "handkerchief",
+      "answer": "A handkerchief is a small square piece of fabric used to wipe one's face, nose, or hands. It\u2019s been a common item for centuries, helping people stay clean and fresh.",
+      "answer_diagnostics": {
+        "thought_tokens": 107,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 40,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 191,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:13915",
+      "question": "Take tarnish off brass.",
+      "answer": "To remove tarnish from brass, create a paste of baking soda and vinegar, apply it to the brass, let it sit for 10\u201315 minutes, then scrub gently with a soft cloth and rinse. The vinegar\u2019s acid reacts with the tarnish, dissolving it without damaging the brass.",
+      "answer_diagnostics": {
+        "thought_tokens": 177,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 63,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:21",
+      "question": "How to check your Facebook feed",
+      "answer": "Open Facebook, and the main feed is on the left side of the screen. Scroll through posts to see updates from friends and pages. If it\u2019s not showing, check your settings or try refreshing the page.",
+      "answer_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 43,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "FAIL",
+      "judge_pass": false,
+      "format_ok": true,
+      "d": 1,
+      "judge_diagnostics": {
+        "thought_tokens": 246,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:3487",
+      "question": "How to Make Doors for Easy Workshop Cabinets",
+      "answer": "To make doors for workshop cabinets, start by measuring the cabinet opening, then cut wood panels to fit. Assemble the door frame, attach the panel, and secure with screws or hinges. Sand and paint for a finished look. This ensures doors align properly and are sturdy for storage.",
+      "answer_diagnostics": {
+        "thought_tokens": 223,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 58,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 155,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:7523",
+      "question": "To stop your stomach rumbling in a public setting",
+      "answer": "Breathe deeply and relax to reduce tension, which can cause stomach rumbling. Avoid holding your breath or eating too quickly, as both can trap gas.  \nThis works because stress or anxiety often leads to shallow breathing, while overeating or swallowing air increases gas buildup.",
+      "answer_diagnostics": {
+        "thought_tokens": 210,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 56,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:6672",
+      "question": "how do you take the blame for something?",
+      "answer": "To take the blame, admit fault honestly, apologize sincerely, and take responsibility for correcting the situation. This shows accountability and helps resolve the issue effectively.",
+      "answer_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 31,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 117,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:5780",
+      "question": "How to make a dress form",
+      "answer": "To make a dress form, start with a foam block or foam core board, shape it to your desired silhouette, and add a spine for support. Cover it with fabric for a smooth, adjustable surface. This works because the foam provides flexibility, the spine ensures structure, and the fabric allows customization.",
+      "answer_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 61,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 194,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:11207",
+      "question": "how do you clean nail polish off of your nails?",
+      "answer": "To remove nail polish, soak nails in warm water to loosen the polish, then gently scrub with a soft brush. Use nail polish remover soaked in a cotton pad and rub gently until the polish comes off. This works because the warmth softens the polish, and acetone in removers dissolves it effectively.",
+      "answer_diagnostics": {
+        "thought_tokens": 178,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 63,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:10810",
+      "question": "How can you make yourself look more natural in a photo?",
+      "answer": "To look natural in a photo, ensure even lighting to avoid harsh shadows, avoid direct eye contact with the camera, and maintain a relaxed posture. This creates a calm, authentic vibe instead of a staged appearance.",
+      "answer_diagnostics": {
+        "thought_tokens": 170,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 43,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 206,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:3343",
+      "question": "Where can I see dolphins",
+      "answer": "You can see dolphins at marine parks, aquariums, or during guided tours in coastal areas like Hawaii, Florida, or the Great Barrier Reef. These places offer opportunities to observe dolphins in their natural habitat or through interactive experiences.",
+      "answer_diagnostics": {
+        "thought_tokens": 180,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 46,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:3516",
+      "question": "To give yourself sufficient time at airport security,",
+      "answer": "Arrive at the airport 2\u20133 hours before your flight to avoid rushing. This gives time for check-in, security screening, and any delays. Rushing increases stress and risks missing your flight.",
+      "answer_diagnostics": {
+        "thought_tokens": 232,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 42,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:7598",
+      "question": "How to Detect an Aneurysm",
+      "answer": "To detect an aneurysm, doctors often use imaging tests like CT scans, MRIs, or ultrasounds to visualize blood vessels. If you have risk factors (e.g., family history, high blood pressure), regular check-ups are crucial. Seek immediate medical care if you experience sudden severe pain, dizziness, or other warning signs.",
+      "answer_diagnostics": {
+        "thought_tokens": 229,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 71,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 200,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:1413",
+      "question": "Draw a perfect circle.",
+      "answer": "A perfect circle is a shape with all points equidistant from the center. To draw one, use a compass: place the point at the center, then swing the pencil evenly around until the circle is complete. This ensures uniformity and smoothness.",
+      "answer_diagnostics": {
+        "thought_tokens": 180,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 52,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 208,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:9985",
+      "question": "how to clean crumbs out of a toaster.",
+      "answer": "To remove crumbs from a toaster, use a toothpick or long object to scrape them out of the slots. Alternatively, dampen a paper towel or cloth and wipe the area. This prevents fires and keeps the toaster clean. The crumbs often stick to the heating elements, so thorough cleaning ensures safety and efficiency.",
+      "answer_diagnostics": {
+        "thought_tokens": 226,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 63,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 184,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:15500",
+      "question": "to boost energy in the afternoons.",
+      "answer": "Take a 20-minute power nap to refresh your energy, and grab a healthy snack like a banana or nuts for sustained fuel. Staying hydrated and stretching briefly can also help combat afternoon slumps. These small steps boost alertness by restoring sleep debt and providing quick nutrients.",
+      "answer_diagnostics": {
+        "thought_tokens": 123,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 57,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 245,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:14612",
+      "question": "How to safely cut an avocado.",
+      "answer": "Wear gloves to avoid the avocado's skin sticking to your hands. Hold the fruit firmly, twist off the stem end, then slice it in half lengthwise. Use a spoon to carefully remove the pit, and wipe hands clean afterward. This method prevents mess and ensures safe handling.",
+      "answer_diagnostics": {
+        "thought_tokens": 221,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 58,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:13731",
+      "question": "how do you dispose of a cutip?",
+      "answer": "Dispose of a cutip (likely a small cutting tool) by wrapping it in paper or plastic and throwing it in the trash. This prevents injury and keeps waste organized. It makes sense because sharp objects should be handled carefully to avoid harm.",
+      "answer_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 49,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 245,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:15172",
+      "question": "To chop chives",
+      "answer": "To chop chives, use a sharp knife to slice the green stems into fine, even pieces. This releases their flavor and makes them easy to incorporate into dishes. The answer makes sense because fresh chives are best chopped finely for use in recipes or as a garnish.",
+      "answer_diagnostics": {
+        "thought_tokens": 247,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 56,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:3440",
+      "question": "when travelling, keep your dirty and clean clothes separate by",
+      "answer": "Use a garment bag for clean clothes and a separate bag or container for dirty clothes. This keeps them organized and prevents mixing, making laundry easier and more hygienic.",
+      "answer_diagnostics": {
+        "thought_tokens": 128,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 35,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 202,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:13517",
+      "question": "Soften hard brown sugar.",
+      "answer": "To soften hard brown sugar, microwave 1\u20132 tablespoons in a mug with 1/4 cup hot water for 30 seconds, then stir until smooth. Alternatively, place it in a bowl with warm water in the oven (300\u00b0F) for 10\u201315 minutes. The warmth melts the sugar, making it pliable.",
+      "answer_diagnostics": {
+        "thought_tokens": 175,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 74,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 116,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:619",
+      "question": "How do I get my bedroom to smell better?",
+      "answer": "To make your bedroom smell better, use air fresheners, essential oils, or natural scents like lavender. Regularly clean surfaces and laundry to reduce odors. Open windows for fresh air circulation. These steps help eliminate smells and keep the space fresher.",
+      "answer_diagnostics": {
+        "thought_tokens": 147,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 53,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 124,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:11166",
+      "question": "How do you stretch out jeans?",
+      "answer": "To stretch jeans, use a hairdryer on the warm setting, holding it 6 inches away and moving it back and forth over the fabric. This heat relaxes the fibers, allowing the jeans to expand slightly. For best results, avoid washing them immediately afterward. \n\nThis works because heat temporarily softens the fabric, making it more pliable, though results vary by material and initial tightness.",
+      "answer_diagnostics": {
+        "thought_tokens": 250,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 82,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:1367",
+      "question": "How to draw a perfect circle on a work piece.",
+      "answer": "To draw a perfect circle on a workpiece, use a compass with the point at the center and the pencil at the edge, keeping the pencil steady. Ensure the surface is flat and use a center punch to mark the center point for accuracy. A template or string method can also work for larger or irregular shapes.",
+      "answer_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 64,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 233,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:3213",
+      "question": "How do I carve the face of a pumpkin?",
+      "answer": "To carve a pumpkin\u2019s face, start by cutting out the eyes (round holes), then create a slit for the nose and a curved line for the mouth. Use a sharp knife and wear gloves for safety. Add details like googly eyes or a smiley face with a spoon. Keep the pumpkin firm by avoiding over-carving.  \nThis makes sense because it prioritizes safety, simplicity, and clear steps for creating a recognizable face.",
+      "answer_diagnostics": {
+        "thought_tokens": 212,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 89,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": false,
+      "d": 1,
+      "judge_diagnostics": {
+        "thought_tokens": 210,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:7990",
+      "question": "One seeks to protect themselves while biking.",
+      "answer": "Wearing a helmet, using lights, and following traffic rules help protect bikers. Being aware of surroundings and riding in designated lanes also reduces risks. These steps make sense because they directly address common dangers like head injuries, visibility issues, and collisions.",
+      "answer_diagnostics": {
+        "thought_tokens": 133,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 51,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 217,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:927",
+      "question": "How do you make a pillow with a design you created.",
+      "answer": "To make a pillow with your design, print or create the design on fabric, cut it to size, and sew the pieces together with filling. Then, attach a pillowcase or cover for a finished look. This works because the design is integrated into the fabric, making it a custom, handmade pillow.",
+      "answer_diagnostics": {
+        "thought_tokens": 161,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 62,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 233,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:10720",
+      "question": "To open a letter very neatly without ruining the envelope when you don't have a letter opener,",
+      "answer": "Use the edge of a credit card to gently lift the envelope's flap. This avoids cutting the envelope and works neatly. The card's rigid edge prys open the flap without damaging the paper.",
+      "answer_diagnostics": {
+        "thought_tokens": 204,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 40,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:15196",
+      "question": "To keep your dog's coat healthy,",
+      "answer": "Brush regularly to remove tangles and distribute natural oils. Feed a balanced diet rich in proteins and omega-3 fatty acids. Avoid over-bathing to prevent dryness.",
+      "answer_diagnostics": {
+        "thought_tokens": 215,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 35,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 162,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:8801",
+      "question": "Spin a top.",
+      "answer": "Hold the top on its tip. Spin it quickly with a finger or stick to make it rotate. Keep it balanced on a flat surface for smoother motion.",
+      "answer_diagnostics": {
+        "thought_tokens": 187,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 32,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 98,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:5680",
+      "question": "How to get rid of roaches in the house.",
+      "answer": "To get rid of roaches, seal cracks and wipe surfaces regularly to eliminate food sources, and use insecticides or baits designed for roaches. Keep the house clean and clutter-free to reduce hiding spots. For severe infestations, consider hiring a pest control professional.",
+      "answer_diagnostics": {
+        "thought_tokens": 169,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 56,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 236,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:2552",
+      "question": "can I make praline bars at home?",
+      "answer": "Yes, you can make praline bars at home using ingredients like sugar, butter, nuts, and chocolate. The process involves caramelizing sugar, adding nuts, and shaping the mixture into bars. It requires some cooking skill but is manageable with a basic recipe.",
+      "answer_diagnostics": {
+        "thought_tokens": 223,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 54,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 191,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:2550",
+      "question": "clothing",
+      "answer": "Clothing refers to items worn on the body for protection, comfort, or style, made from materials like cotton, wool, or synthetic fabrics. Examples include shirts, pants, and jackets, which serve practical and aesthetic purposes. It\u2019s essential for regulating body temperature and expressing personal identity.",
+      "answer_diagnostics": {
+        "thought_tokens": 124,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 58,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:12353",
+      "question": "How can I use rocks in my garden?",
+      "answer": "Rocks can be used to create pathways, add decorative accents, or improve drainage in your garden. They help define areas, enhance natural aesthetics, and prevent soil erosion. Strategically placing them in beds or around plants can also deter pests and provide a textured surface for plants to root into.",
+      "answer_diagnostics": {
+        "thought_tokens": 177,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 59,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 209,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:2318",
+      "question": "Learn to Dumpster dive.",
+      "answer": "Dumpster diving involves searching through trash to find usable items like electronics, clothing, or recyclables. It\u2019s often done to recycle materials or find free goods, but always check local laws and respect privacy. Focus on items in good condition and follow recycling guidelines to avoid issues.",
+      "answer_diagnostics": {
+        "thought_tokens": 212,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 55,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:12724",
+      "question": "To keep a yard looking green all year, no matter what region you are in,",
+      "answer": "To keep a yard green all year, water regularly (adjusting for seasons) and fertilize periodically. Use evergreen plants and maintain lawns with proper mowing. In harsh climates, protect plants with mulch or covers. These steps promote healthy growth year-round.",
+      "answer_diagnostics": {
+        "thought_tokens": 150,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 55,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:12081",
+      "question": "How do you remove dust from your fan?",
+      "answer": "To remove dust from your fan, turn it off and unplug it first. Use a soft brush or duster to sweep dust from the blades and motor area, then vacuum gently with a brush attachment. Wipe remaining dust with a microfiber cloth. Avoid water to prevent electrical shorts.",
+      "answer_diagnostics": {
+        "thought_tokens": 188,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 59,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:6458",
+      "question": "vase",
+      "answer": "A vase is a container, typically made of ceramic, glass, or porcelain, used to hold flowers, plants, or other decorative items. It\u2019s commonly used to add beauty to homes or rooms. Its shape and material vary, but its primary purpose is to hold and display things elegantly. This makes sense because vases serve both functional and aesthetic roles in daily life.",
+      "answer_diagnostics": {
+        "thought_tokens": 106,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 76,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:11650",
+      "question": "How do you replicate a fingerprint?",
+      "answer": "To replicate a fingerprint, use a pliable material like silicone or gel to mold the ridges and valleys of the fingerprint. This captures the texture, creating a detailed replica. The material conforms to the fingerprint's unique pattern, allowing a physical copy to be made.",
+      "answer_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 54,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 156,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:2882",
+      "question": "For a cool summer treep",
+      "answer": "A cool summer tree shade offers relief from heat. Trees provide natural shade, reducing temperatures and creating a comfortable spot to rest or relax. This makes sense because tree canopies block sunlight, lowering the surrounding air temperature.",
+      "answer_diagnostics": {
+        "thought_tokens": 254,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 44,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 104,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:13243",
+      "question": "How to ensure you cut wood straight and evenly?",
+      "answer": "Use a sharp blade and measure carefully with a ruler or tape measure. Align the wood with a straightedge or guide, and check the cut for evenness after each slice. A dull blade or uneven marks will lead to crooked cuts.",
+      "answer_diagnostics": {
+        "thought_tokens": 118,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 49,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 178,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:4045",
+      "question": "hammers",
+      "answer": "A hammer is a tool with a heavy head and a handle, used to drive nails, shape metal, or break objects. The head is typically made of metal, while the handle is often wood or another sturdy material. Its design allows for efficient force application in various tasks.",
+      "answer_diagnostics": {
+        "thought_tokens": 136,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 56,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 147,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:8077",
+      "question": "Reduce scarring from a burn.",
+      "answer": "To reduce burn scarring, keep the wound clean and moist with antibiotic ointment, avoid picking at scabs, and apply silicone gel sheets or creams. Sun protection is also key to prevent hyperpigmentation. These steps promote healing and minimize scar visibility.",
+      "answer_diagnostics": {
+        "thought_tokens": 184,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 53,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:2814",
+      "question": "whistle",
+      "answer": "A whistle is a device that makes a high-pitched sound when blown, often used for signaling, communication, or music. It\u2019s common in sports, aviation, and as a musical instrument. The answer makes sense because it covers the primary function and varied uses of a whistle in everyday contexts.",
+      "answer_diagnostics": {
+        "thought_tokens": 254,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 60,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:3877",
+      "question": "How to Whistle",
+      "answer": "To whistle, blow air through your lips while shaping them into a narrow opening, then move them up and down to create vibrations. Practice by starting with a soft, consistent sound and gradually increasing volume. It requires coordination and patience, but regular practice improves control and clarity.",
+      "answer_diagnostics": {
+        "thought_tokens": 195,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 55,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 199,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:4776",
+      "question": "To prevent the rainbow bread from sticking to your work surface while kneading",
+      "answer": "Dust the work surface with flour before kneading to create a non-stick barrier. Flour coats the surface, preventing the dough from adhering and making it easier to handle. This is a common technique for bread-making.",
+      "answer_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 46,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 213,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:6319",
+      "question": "how do you exact something?",
+      "answer": "To \"exact\" something usually means to demand or require it, like exacting a payment or a toll. It can also mean to be precise or exacting in details. The word often relates to obtaining something through insistence or being thorough. This makes sense because \"exact\" can describe both actions (demanding) and qualities (precision).",
+      "answer_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 69,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 191,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:10367",
+      "question": "internet",
+      "answer": "The internet is a global network connecting computers and devices, allowing people to share information, communicate, and access services worldwide. It makes sense because it enables instant communication and access to vast resources, fostering connection and knowledge sharing across the world.",
+      "answer_diagnostics": {
+        "thought_tokens": 92,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 48,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 206,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:6841",
+      "question": "How many legs are needed for constructing a desk?",
+      "answer": "A standard desk typically has four legs for stability and balance. However, some designs may use three or two legs depending on the style and intended use. Four legs are most common for traditional desktops.",
+      "answer_diagnostics": {
+        "thought_tokens": 109,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 41,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 218,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:5021",
+      "question": "What supplies are needed to make a faux shell chandelier?",
+      "answer": "To make a faux shell chandelier, you\u2019ll need a light bulb, a socket, faux shells, wire for hanging, adhesive (like hot glue), and a base or frame. The shells are attached to the frame, which is connected to the electrical components. This setup mimics the appearance of real shells while providing lighting.",
+      "answer_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 67,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:11302",
+      "question": "wood",
+      "answer": "Wood is a natural material derived from trees, commonly used for furniture, construction, paper, and fuel. It is strong, versatile, and renewable, making it a widely used resource in everyday life.",
+      "answer_diagnostics": {
+        "thought_tokens": 215,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 41,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 236,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:6028",
+      "question": "Clean second story windows",
+      "answer": "To clean second-story windows safely, use a stable ladder or window cleaning platform, and wear gloves, goggles, and non-slip shoes. If unsure, hire a professional to avoid falls. This ensures safety while effectively removing dirt and grime.",
+      "answer_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 50,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:12970",
+      "question": "To play a VHS tape.",
+      "answer": "To play a VHS tape, insert it into a VHS player with the label side out, then press the \"Play\" button. Ensure the tape is properly seated and the player is powered on. This works because VHS players are designed to read tapes using a magnetic head, requiring correct orientation and alignment for playback.",
+      "answer_diagnostics": {
+        "thought_tokens": 193,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 66,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 222,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:2664",
+      "question": "How can you find cheap E Bay type auctions and auction items?",
+      "answer": "To find cheap eBay auctions, use the \"Auctions\" filter in search, set alerts for items, and check \"Top Deals\" sections. Focus on items with low starting bids or \"Buy It Now\" options for better prices.  \nThis works because eBay\u2019s filters and alerts help you target deals, while \"Top Deals\" highlights discounted items, making it easier to find affordable auction items.",
+      "answer_diagnostics": {
+        "thought_tokens": 195,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 80,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:3807",
+      "question": "how do I locate the Ophiuchus  constellation",
+      "answer": "To locate Ophiuchus, observe the southern sky during winter (November\u2013January) when it's visible in the Northern Hemisphere. It's part of the zodiac and can be found near the celestial equator, often near the star Arcturus. Its position shifts with the seasons, so checking a star map or astronomy app for your location and time of year is helpful.",
+      "answer_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 78,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:5443",
+      "question": "stool",
+      "answer": "A stool is a piece of furniture with a seat and legs, used for sitting. It\u2019s common in restaurants, offices, or homes for comfort or practicality. Its simple design makes it versatile and easy to use.",
+      "answer_diagnostics": {
+        "thought_tokens": 105,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 45,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:1635",
+      "question": "how to make japanese radish salad",
+      "answer": "To make Japanese radish salad, thinly slice red radishes and toss with a dressing of rice vinegar, soy sauce, sugar, and sesame oil. Serve chilled for a crisp, savory salad. The tangy dressing complements the radish's natural sweetness, creating a refreshing contrast.",
+      "answer_diagnostics": {
+        "thought_tokens": 251,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 58,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 211,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:5500",
+      "question": "How to make Toffee-Tastic Girl Scout cookie Vanilla Ice cream at home.",
+      "answer": "To make Toffee-Tastic Girl Scout cookies, mix butter, sugar, vanilla, and egg whites, then chill and roll into shapes. Serve with vanilla ice cream for a delicious treat. The cookies have a toffee-like flavor, and ice cream adds a creamy contrast.",
+      "answer_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 56,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "FAIL",
+      "judge_pass": false,
+      "format_ok": true,
+      "d": 1,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:7958",
+      "question": "To dispose of acid at home,",
+      "answer": "To safely dispose of acid at home, neutralize it with a base like baking soda (NaHCO\u2083) to create salt and water, then rinse the container thoroughly. Always check local regulations, as some acids may require professional disposal. This works because neutralization reduces harm, but proper handling prevents environmental damage.",
+      "answer_diagnostics": {
+        "thought_tokens": 209,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 65,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:12289",
+      "question": "Too hard to open pistachio?",
+      "answer": "Using a nutcracker or a small screwdriver can help open pistachios more easily. These tools are designed to crack shells, making it simpler than trying to open them by hand. The hard shell of pistachios requires some force, which tools provide efficiently.",
+      "answer_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 55,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 153,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:6798",
+      "question": "how do you clean your nose?",
+      "answer": "To clean your nose, use a saline solution (salt water) to rinse or spray it, which helps remove dirt and mucus gently. Tissue paper can also be used to blot any discharge. This method is safe and effective because saline solution moisturizes the nasal passages without irritation.",
+      "answer_diagnostics": {
+        "thought_tokens": 184,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 58,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:12280",
+      "question": "How to dice tomatoes for a pico de gallo?",
+      "answer": "Wash tomatoes, quarter them, then slice each quarter into thin rounds. Chop the rounds into small, even cubes for a consistent texture. This method ensures uniformity and makes slicing easier.",
+      "answer_diagnostics": {
+        "thought_tokens": 229,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 39,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:1903",
+      "question": "Getting the paper to adhere to the rocket body of my paper rocket.",
+      "answer": "To help the paper adhere to the rocket body, ensure both surfaces are clean and dry, then use strong tape or glue. Press the paper firmly onto the rocket body for better stickiness. This works because dry, clean surfaces create a stronger bond with adhesive.",
+      "answer_diagnostics": {
+        "thought_tokens": 177,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 53,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 231,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:1130",
+      "question": "oven",
+      "answer": "An oven is a kitchen appliance used to bake, roast, or heat food using heat. It provides even temperature control, making it essential for cooking various dishes. Ovens come in different types, like electric or gas, and are commonly found in homes and restaurants. Their ability to cook food thoroughly and efficiently makes them a vital tool in cooking.",
+      "answer_diagnostics": {
+        "thought_tokens": 103,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 70,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:14697",
+      "question": "To hang a hammock between two trees.",
+      "answer": "To hang a hammock between two trees, first secure the hammock\u2019s straps to the trees using carabiners or knots, ensuring the trees are sturdy and spaced appropriately. Adjust the straps so the hammock hangs level and tight, then sit inside for comfort. This setup distributes weight evenly and provides support.",
+      "answer_diagnostics": {
+        "thought_tokens": 179,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 63,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 252,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:8085",
+      "question": "How to pop popcorn in a microwave?",
+      "answer": "To pop popcorn in a microwave, place kernels in a microwave-safe bowl or bag, cover it, and heat on high for 2\u20133 minutes. Let it sit for 1 minute to finish popping. This works because the microwave\u2019s heat turns kernels into steam, causing them to pop. Always use a microwave-safe container to avoid damage or fires.",
+      "answer_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 72,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:14781",
+      "question": "How do you set goals for weight loss in a one month period?",
+      "answer": "Set realistic, gradual goals (e.g., 0.5\u20131 kg weekly) and track progress with a journal or app. Combine calorie deficit through balanced diet and exercise, while prioritizing sustainability over rapid results. Consult a professional for personalized advice to ensure safety and effectiveness.",
+      "answer_diagnostics": {
+        "thought_tokens": 205,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 57,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 207,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:8213",
+      "question": "To open a jar and pour out its contents,",
+      "answer": "To open a jar, use a jar opener or knife to twist off the lid. Once open, tilt the jar at an angle and pour slowly to avoid spills. This works because twisting releases the lid, and tilting allows controlled flow of contents.",
+      "answer_diagnostics": {
+        "thought_tokens": 250,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 51,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 209,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:15593",
+      "question": "Preparation for the wood flooring.",
+      "answer": "To prepare wood flooring, first ensure the subfloor is clean, dry, and level, repairing any damage. Sand the surface to create a smooth base, then apply a moisture barrier to prevent warping. This creates a stable foundation for proper installation and long-term durability. These steps make sense because they address common issues like moisture, uneven surfaces, and imperfections, ensuring the flooring installs correctly.",
+      "answer_diagnostics": {
+        "thought_tokens": 178,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 80,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 228,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    },
+    {
+      "question_id": "train:8375",
+      "question": "How can you tell someone is lying to you?",
+      "answer": "People may show signs like avoiding eye contact, fidgeting, or inconsistent stories, but these aren't always reliable. Lies often depend on context and emotions, so no single trait guarantees deception.",
+      "answer_diagnostics": {
+        "thought_tokens": 256,
+        "thought_cap_hit": true,
+        "forced_think_close": true,
+        "final_tokens": 40,
+        "final_cap_hit": false,
+        "final_truncated": false
+      },
+      "judge_verdict": "PASS",
+      "judge_pass": true,
+      "format_ok": true,
+      "d": 0,
+      "judge_diagnostics": {
+        "thought_tokens": 227,
+        "thought_cap_hit": false,
+        "forced_think_close": false,
+        "final_tokens": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "C": 1.0,
+  "constant_training_prior_baseline": {
+    "fitted_on_training_only": true,
+    "probability_label_1": 0.501,
+    "test": {
+      "accuracy": 0.5,
+      "confusion_matrix": {
+        "columns": "predicted label",
+        "counts": [
+          [
+            0,
+            500
+          ],
+          [
+            0,
+            500
+          ]
+        ],
+        "label_order": [
+          0,
+          1
+        ],
+        "rows": "true label"
+      },
+      "correct": 500,
+      "mean_unpenalized_bce_nats": 0.6931491805639454,
+      "n": 1000,
+      "prediction_threshold": "logit >= 0 predicts label 1 (equivalently probability >= 0.5)",
+      "true_label_counts": {
+        "0": 500,
+        "1": 500
+      }
+    },
+    "training": {
+      "accuracy": 0.501,
+      "confusion_matrix": {
+        "columns": "predicted label",
+        "counts": [
+          [
+            0,
+            499
+          ],
+          [
+            0,
+            501
+          ]
+        ],
+        "label_order": [
+          0,
+          1
+        ],
+        "rows": "true label"
+      },
+      "correct": 501,
+      "mean_unpenalized_bce_nats": 0.6931451805586121,
+      "n": 1000,
+      "prediction_threshold": "logit >= 0 predicts label 1 (equivalently probability >= 0.5)",
+      "true_label_counts": {
+        "0": 499,
+        "1": 501
+      }
+    }
+  },
+  "embedding_model_kind": "pretrained_qwen25_3b_instruct",
+  "loss_definition": "Unpenalized mean binary cross-entropy in natural-log units (nats)",
+  "method": "Pretrained Qwen2.5-3B-Instruct EOS linear probe on checkpoint-1076 transmitted answers",
+  "optimization": {
+    "function_evaluations": 224,
+    "gradient_infinity_norm": 6.318387635590296e-08,
+    "iterations": 203,
+    "message": "CONVERGENCE: REL_REDUCTION_OF_F_<=_FACTR*EPSMCH",
+    "method": "L-BFGS-B",
+    "options": {
+      "ftol": 1e-12,
+      "gtol": 1e-08,
+      "maxiter": 5000
+    },
+    "status": 0,
+    "success": true
+  },
+  "scaler": {
+    "fitted_on": "training only",
+    "standard_deviation_ddof": 0,
+    "zero_standard_deviation_features": 0,
+    "zero_std_replacement_scale": 1.0
+  },
+  "schema_version": 1,
+  "secondary_test_excluding_exact_text_shared_with_training": {
+    "accuracy": 0.9809619238476954,
+    "confusion_matrix": {
+      "columns": "predicted label",
+      "counts": [
+        [
+          487,
+          11
+        ],
+        [
+          8,
+          492
+        ]
+      ],
+      "label_order": [
+        0,
+        1
+      ],
+      "rows": "true label"
+    },
+    "correct": 979,
+    "excluded_example_ids": [
+      392,
+      456
+    ],
+    "mean_unpenalized_bce_nats": 0.0754560029006749,
+    "n": 998,
+    "note": "Sensitivity analysis only; primary held-out result includes all 1000 assigned test examples.",
+    "predeclared": true,
+    "prediction_threshold": "logit >= 0 predicts label 1 (equivalently probability >= 0.5)",
+    "true_label_counts": {
+      "0": 498,
+      "1": 500
+    },
+    "used_for_fitting_or_model_selection": false
+  },
+  "status": "complete",
+  "test": {
+    "accuracy": 0.981,
+    "confusion_matrix": {
+      "columns": "predicted label",
+      "counts": [
+        [
+          489,
+          11
+        ],
+        [
+          8,
+          492
+        ]
+      ],
+      "label_order": [
+        0,
+        1
+      ],
+      "rows": "true label"
+    },
+    "correct": 981,
+    "mean_unpenalized_bce_nats": 0.0753078726115775,
+    "n": 1000,
+    "prediction_threshold": "logit >= 0 predicts label 1 (equivalently probability >= 0.5)",
+    "true_label_counts": {
+      "0": 500,
+      "1": 500
+    }
+  },
+  "training": {
+    "accuracy": 1.0,
+    "confusion_matrix": {
+      "columns": "predicted label",
+      "counts": [
+        [
+          499,
+          0
+        ],
+        [
+          0,
+          501
+        ]
+      ],
+      "label_order": [
+        0,
+        1
+      ],
+      "rows": "true label"
+    },
+    "correct": 1000,
+    "mean_unpenalized_bce_nats": 0.002938379138982804,
+    "n": 1000,
+    "prediction_threshold": "logit >= 0 predicts label 1 (equivalently probability >= 0.5)",
+    "true_label_counts": {
+      "0": 499,
+      "1": 501
+    }
+  },
+  "training_l2_penalty": 0.006437437233989706,
+  "training_objective_definition": "mean_BCE + ||w||^2 / (2 * n_training * C); intercept unpenalized",
+  "training_penalized_objective": 0.00937581637297251,
+  "validation": {
+    "analytic_gradient_finite_difference": {
+      "central_difference_step": 1e-06,
+      "max_absolute_error": 1.1655332254889572e-10,
+      "passed": true
+    },
+    "saved_model_raw_coordinate_recomputation": {
+      "test": {
+        "maximum_logit_absolute_difference": 4.263256414560601e-14,
+        "maximum_probability_absolute_difference": 5.384581669432009e-15,
+        "passed": true
+      },
+      "training": {
+        "maximum_logit_absolute_difference": 4.618527782440651e-14,
+        "maximum_probability_absolute_difference": 9.367506770274758e-16,
+        "passed": true
+      }
+    },
+    "test_data_used_for_fitting_or_stopping_or_hyperparameter_selection": false
+  }
+}

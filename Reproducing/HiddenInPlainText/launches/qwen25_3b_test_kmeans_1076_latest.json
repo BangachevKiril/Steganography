@@ -1,0 +1,29 @@
+{
+  "status": "COMPLETED",
+  "experiment_id": "qwen25_3b_test_kmeans_1076_20261003T193938Z",
+  "local_source": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/experiments/qwen25_3b_test_kmeans_1076",
+  "local_results": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/qwen25_3b_test_kmeans_1076_20261003T193938Z",
+  "plan": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/qwen25_3b_test_kmeans_1076_20261003T193938Z/analysis_plan.json",
+  "created_at": "2026-10-03T19:39:38.980428+00:00",
+  "cluster_completion_sha256": "f1e54858e3f67ca84dd243a373002c5a0a9f71597b049f9243a2178cb9628131",
+  "frozen_at": "2026-10-03T19:39:59.945485+00:00",
+  "verified_before_label_evaluation_at": "2026-10-03T19:40:23.344849+00:00",
+  "completed_at": "2026-10-03T19:43:39.756761+00:00",
+  "evaluation_file": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/qwen25_3b_test_kmeans_1076_20261003T193938Z/evaluation/evaluation.json",
+  "evaluation_completion_sha256": "7d51ff2d4e93e88b7a2d45ea47ab4fbae60746b60e6b2408b6b65e012cc2c4ce",
+  "evaluator_sha256": "1ecc8ff50c884ab8f9ce448729b095a6d3863e4c9b0d8e7ad57b30c68ab01a7f",
+  "best_mapping_accuracy": 0.516,
+  "adjusted_rand_index": 7.510630829025034e-05,
+  "cluster_label_table": [
+    [
+      299,
+      315
+    ],
+    [
+      201,
+      185
+    ]
+  ],
+  "final_audit_sha256": "0aa0646d8848cc33a261e45b43c55b13ab22b8cafc5eb8018fdd7eba352583d9",
+  "completion_reported": true
+}

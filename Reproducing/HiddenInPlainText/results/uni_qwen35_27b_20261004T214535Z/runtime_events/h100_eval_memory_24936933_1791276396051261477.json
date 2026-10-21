@@ -1,0 +1,68 @@
+{
+  "kind": "H100_evaluation_parent_cache_cleanup",
+  "status": "original_judge_completed",
+  "started_at": 1791276396.0512652,
+  "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+  "evaluation_config_digest": "db8181cb014f9d0a49dc19f2d6d4531efdab4aa6b8cc2028b17112f862b69aea",
+  "evaluation_dir": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/evaluations/step_000950",
+  "checkpoint": {
+    "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000950",
+    "completed_update": 950,
+    "complete_sha256": "f669aaf0bf8c4324351178808f9d36464f7c15508e095ef92c032231cefb39a7"
+  },
+  "checkpoint_complete": {
+    "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+    "completed_update": 950,
+    "state_sha256": "dc2ddf5f273737ae06cc7ba4e63b5edd2930f826c6f09352f6417d1f97100446",
+    "elapsed": 59837.1508851524,
+    "phase": "sender"
+  },
+  "wrapper_sha256": "882d72b93c0adf8ab22ca11851d321b37bf782f5bd810f0bd0472b13108c63c3",
+  "evaluation_helper_sha256": "d5f9352f0c6984c29f0078ec035be77822cb81c2fe2010f38248c634326e90f2",
+  "slurm_job_id": "24936933",
+  "slurm_restart_count": "1",
+  "manifest_sha256": "10aa917d0298507f7a4a29e8d745834ce3840ee26424901a4559478889349847",
+  "observer_cleanup_verification": {
+    "before": {
+      "cuda_allocated_bytes": 30426150400,
+      "cuda_reserved_bytes": 30746345472,
+      "cuda_peak_allocated_bytes": 30700832256,
+      "device_free_bytes": 18696765440,
+      "device_total_bytes": 85019328512
+    },
+    "after": {
+      "cuda_allocated_bytes": 30426150400,
+      "cuda_reserved_bytes": 30448549888,
+      "cuda_peak_allocated_bytes": 30700832256,
+      "device_free_bytes": 18994561024,
+      "device_total_bytes": 85019328512
+    },
+    "gc_collected_objects": 1067,
+    "live_tensor_metadata_unchanged": true,
+    "modes_unchanged": true,
+    "rng_unchanged": true,
+    "live_tensor_metadata_sha256": "9799e9bcadc7259df06130ad63f0278594c9ed74b42f6659fa85ed78cd9cc8d1"
+  },
+  "cleanup_verification": {
+    "before": {
+      "cuda_allocated_bytes": 11474552320,
+      "cuda_reserved_bytes": 33866907648,
+      "device_free_bytes": 18994561024,
+      "device_total_bytes": 85019328512,
+      "host_rss_bytes": 98795008000
+    },
+    "after": {
+      "cuda_allocated_bytes": 11474552320,
+      "cuda_reserved_bytes": 11504975872,
+      "device_free_bytes": 41356492800,
+      "device_total_bytes": 85019328512,
+      "host_rss_bytes": 98797342720
+    },
+    "gc_collected_objects": 258,
+    "live_tensor_metadata_unchanged": true,
+    "rng_unchanged": true,
+    "live_tensor_metadata_sha256": "ba4fe1375d00754f0f4a147ca117029b7b890afdbf91f61e5b7fa04f794a5e36"
+  },
+  "cache_cleaned_at": 1791276396.4846592,
+  "finished_at": 1791276501.5192258
+}

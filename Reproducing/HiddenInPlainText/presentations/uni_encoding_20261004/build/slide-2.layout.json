@@ -1,0 +1,322 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/li1xpr",
+    "id": "li1xpr",
+    "slide": 2,
+    "layoutId": "6f7649cb-8926-43bb-baaa-e53b5e293404",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "1319b723-6020-464b-aef6-28e227aa5fd2",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FBFCFD",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Helvetica Neue"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "6f7649cb-8926-43bb-baaa-e53b5e293404",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "1319b723-6020-464b-aef6-28e227aa5fd2",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "1319b723-6020-464b-aef6-28e227aa5fd2",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6hgbi50j",
+      "id": "1",
+      "bbox": [
+        60,
+        40,
+        1160,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Training curves through update 1,076",
+      "textPreview": "Training curves through update 1,076",
+      "resolvedFontSize": 44,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 44,
+        "typeface": "Helvetica Neue",
+        "color": "#152A3A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Training curves through update 1,076"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Training curves through update 1,076",
+          "resolvedTextStyle": {
+            "fontSize": 44,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Training curves through update 1,076",
+              "fontSize": 44,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/tk7utkja",
+      "id": "2",
+      "bbox": [
+        60,
+        111,
+        1160,
+        54
+      ],
+      "geometry": "rect",
+      "text": "Frozen evaluation cohorts: 2,000 university CVs and 100 PIQA prompts",
+      "textPreview": "Frozen evaluation cohorts: 2,000 university CVs and 100 PIQA prompts",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Helvetica Neue",
+        "color": "#4D6271",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Frozen evaluation cohorts: 2,000 university CVs and 100 PIQA prompts"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Frozen evaluation cohorts: 2,000 university CVs and 100 PIQA prompts",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#4D6271",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Frozen evaluation cohorts: 2,000 university CVs and 100 PIQA prompts",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue",
+              "color": "#4D6271",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "chart",
+      "scope": "slide",
+      "aid": "ch/wv2lovmp",
+      "id": "3",
+      "bbox": [
+        60,
+        174,
+        550,
+        230
+      ],
+      "chartType": "scatter"
+    },
+    {
+      "order": 4,
+      "kind": "chart",
+      "scope": "slide",
+      "aid": "ch/jydkzal0",
+      "id": "4",
+      "bbox": [
+        670,
+        174,
+        550,
+        230
+      ],
+      "chartType": "scatter"
+    },
+    {
+      "order": 5,
+      "kind": "chart",
+      "scope": "slide",
+      "aid": "ch/ix43q5kf",
+      "id": "5",
+      "bbox": [
+        60,
+        410,
+        550,
+        230
+      ],
+      "chartType": "scatter"
+    },
+    {
+      "order": 6,
+      "kind": "chart",
+      "scope": "slide",
+      "aid": "ch/50v21k36",
+      "id": "6",
+      "bbox": [
+        670,
+        410,
+        550,
+        230
+      ],
+      "chartType": "scatter"
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gnytozi1",
+      "id": "7",
+      "bbox": [
+        60,
+        662,
+        1160,
+        40
+      ],
+      "geometry": "rect",
+      "text": "C_I measures observer flags. d counts PIQA judge rejection or format failure. PASS is an output fraction, not accuracy.",
+      "textPreview": "C_I measures observer flags. d counts PIQA judge rejection or format failure. PASS is an output fraction, not accuracy.",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 18,
+        "typeface": "Helvetica Neue",
+        "color": "#4D6271",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "C_I measures observer flags. d counts PIQA judge rejection or format failure. PASS is an output fraction, not accuracy."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "C_I measures observer flags. d counts PIQA judge rejection or format failure. PASS is an output fraction, not accuracy.",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Helvetica Neue",
+            "color": "#4D6271",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "C_I measures observer flags. d counts PIQA judge rejection or format failure. PASS is an output fraction, not accuracy.",
+              "fontSize": 18,
+              "typeface": "Helvetica Neue",
+              "color": "#4D6271",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,15 @@
+{
+  "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+  "baseline_checkpoint": "/orcd/pool/003/kirilb/Steganography/runs/uni_stepzero_20260930T152616Z/checkpoint0",
+  "baseline_state_sha256": "bafa15aa893985940993b5e2baeaa96e5c2d2b88803d0848c62649e97712f43b",
+  "parameter_updates": 0,
+  "receiver_state_sha256": "2679f33e7ec8b6e17c07f83941b9fa3d491cbf5b407bcecb029b51c7c80b512b",
+  "receiver_head_sha256": "7da225b99b6cab5e8678d807c4a27cf36f2008563c2fe98fe25687221f211003",
+  "optimizer_state_sizes": {
+    "sender": 0,
+    "receiver": 0
+  },
+  "ppo_seed": 0,
+  "reference_policy": "PEFT adapters disabled, pinned base policy as in TRL0.9.6",
+  "argmax": true
+}

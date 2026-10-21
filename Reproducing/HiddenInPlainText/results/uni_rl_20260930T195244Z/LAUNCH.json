@@ -1,0 +1,32 @@
+{
+  "name": "uni_rl_20260930T195244Z",
+  "stage": "queued",
+  "status": "PENDING",
+  "remote_base": "/orcd/pool/003/kirilb/Steganography",
+  "remote_source": "/orcd/pool/003/kirilb/Steganography/releases/uni_rl_20260930T195244Z",
+  "run_dir": "/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z",
+  "local_source": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/launches/uni_rl_20260930T195244Z",
+  "local_results": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_rl_20260930T195244Z",
+  "config_path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/launches/uni_rl_20260930T195244Z/configs/university_training.json",
+  "config_digest": "a430c084d01dc638190691b34614ff595f8d788bb6172728f04aebe2a50c503b",
+  "initial_baseline_checkpoint": "/orcd/pool/003/kirilb/Steganography/runs/uni_stepzero_20260930T152616Z/checkpoint0",
+  "argmax": true,
+  "first_receiver_reported": false,
+  "first_sender_reported": false,
+  "reported_cycles": [],
+  "reported_evaluation_updates": [],
+  "completion_reported": false,
+  "monitor_access_status": "connected",
+  "source_staged_at": "2026-09-30T19:53:08.410878+00:00",
+  "job_id": "24469259",
+  "submitted_at": "2026-09-30T19:53:33.994356+00:00",
+  "automation_id": "monitor-university-rl-training",
+  "cpu_tests": {
+    "passed": 40,
+    "command": "python3 -m unittest discover -s tests -p 'test_university*.py' -q",
+    "checked_at": "2026-09-30T19:54:29.276868+00:00"
+  },
+  "last_remote_check_at": "2026-09-30T19:54:48.304877+00:00",
+  "queue_reason": "Priority",
+  "launch_reported": true
+}

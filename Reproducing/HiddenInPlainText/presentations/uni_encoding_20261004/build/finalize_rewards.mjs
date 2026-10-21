@@ -1,0 +1,10 @@
+import fs from 'node:fs/promises';
+import { pathToFileURL } from 'node:url';
+import {createHash} from 'node:crypto';
+const W='/Users/kirilbangachev/Documents/ChatGPT/Steganography/presentations/uni_encoding_20261004';
+const SKILL='/Users/kirilbangachev/.codex-local/plugins/cache/openai-primary-runtime/presentations/26.904.11930/skills/presentations';
+const referencePath=W+'/output/University_Encoding_Slides.pptx';
+const referenceSha256=createHash('sha256').update(await fs.readFile(referencePath)).digest('hex');
+const {finalizePresentation}=await import(pathToFileURL(SKILL+'/container_tools/artifact_tool_utils.mjs').href);
+await finalizePresentation({workspaceDir:W,candidatePath:W+'/build/rewards/candidate.pptx',finalPath:W+'/output/University_Encoding_Rewards.pptx',pythonExecutable:'/Users/kirilbangachev/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3',integrityValidatorPath:SKILL+'/container_tools/inspect_presentation_package_integrity.py',layoutValidatorPath:SKILL+'/container_tools/inspect_presentation_layout_geometry.py',layoutArgs:['--expected-slide-size-emu','12192000,6858000','--validate-heading-fit','--cover-role','none',...([3,4,5].flatMap(n=>['--require-native-table-slide',String(n)]))],explicitTotalSlideCount:5,requiredNativeTableOwnerSlides:[3,4,5],requiredNativeChartOwnerSlides:[2],materializeLiteralChartWorkbooks:false,fontPolicy:{basis:'reference',families:['Helvetica Neue'],referencePath,referenceSha256},verifyArtifactToolImport:true,receiptPath:W+'/build/validation-rewards.json'});
+console.log('Finalized revised five-slide deck.');

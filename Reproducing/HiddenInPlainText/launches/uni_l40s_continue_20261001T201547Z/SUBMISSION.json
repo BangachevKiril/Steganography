@@ -1,0 +1,18 @@
+{
+  "job_id": "24574438",
+  "submitted_at": "2026-10-01T20:21:34.794020Z",
+  "cancelled_jobs": [
+    "24469259",
+    "24561305"
+  ],
+  "command": [
+    "sbatch",
+    "--parsable",
+    "--output=/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z/slurm-%j.out",
+    "--error=/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z/slurm-%j.err",
+    "/orcd/pool/003/kirilb/Steganography/releases/uni_l40s_continue_20261001T201547Z/university_l40s_training.slurm",
+    "/orcd/pool/003/kirilb/Steganography/releases/uni_rl_20260930T195244Z",
+    "/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z",
+    "/orcd/pool/003/kirilb/Steganography/releases/uni_l40s_continue_20261001T201547Z"
+  ]
+}

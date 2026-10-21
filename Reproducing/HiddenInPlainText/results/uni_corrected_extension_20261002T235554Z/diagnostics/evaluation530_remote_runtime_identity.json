@@ -1,0 +1,98 @@
+{
+  "completed_update": 530,
+  "checkpoint": {
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "completed_update": 530,
+    "state_sha256": "14c2e9342d13b12f8992feb18ff30ecdbd9c57d27ee62a3436047771e52bf6b9",
+    "elapsed": 27930.404972237535,
+    "phase": "sender"
+  },
+  "checkpoint_state_sha256_verified_remotely": true,
+  "checkpoint_state_verification_method": "Final snapshot streamed SHA256 over state.pt remotely; no model weights copied locally.",
+  "checkpoint_manifest_sha256": "8645f0ce9a7bbb5ff21b7ea53190ee2cc4ae7eff37a87195f8712c5801df148d",
+  "summary_sha256": "e53da3f3c1781ca9cb58c0e2b73cf90b18b33d7c5b7e9166b3eb559240fb6280",
+  "completion_marker_sha256": "54e00b3734d7d4d5fc733597370d0f4424ba52d709f334db4c94f329eb06aff7",
+  "completion": {
+    "status": "complete",
+    "completed_update": 530,
+    "parameter_updates": 530,
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "evaluation_config_digest": "92539ed70aeeb84299becdef34bc353bcd79d4cd4899d21f98f23ae3b71e97a7",
+    "source_checkpoint": {
+      "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_000530",
+      "completed_update": 530,
+      "complete_sha256": "8645f0ce9a7bbb5ff21b7ea53190ee2cc4ae7eff37a87195f8712c5801df148d"
+    },
+    "summary_sha256": "e53da3f3c1781ca9cb58c0e2b73cf90b18b33d7c5b7e9166b3eb559240fb6280",
+    "completed_at": 1790983610.8858244
+  },
+  "runtime_event_path": "runtime_events/l40s_eval_memory_24665081_1790983545076662341.json",
+  "runtime_event_sha256": "73df14577c8e6152e12a7940b6f0eeaa6f78a0affb9e98497012ace22bcbf3c9",
+  "runtime_cleanup": {
+    "kind": "L40S_evaluation_parent_cache_cleanup",
+    "status": "original_judge_completed",
+    "started_at": 1790983545.0766654,
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "evaluation_config_digest": "92539ed70aeeb84299becdef34bc353bcd79d4cd4899d21f98f23ae3b71e97a7",
+    "evaluation_dir": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/evaluations/step_000530",
+    "checkpoint": {
+      "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_000530",
+      "completed_update": 530,
+      "complete_sha256": "8645f0ce9a7bbb5ff21b7ea53190ee2cc4ae7eff37a87195f8712c5801df148d"
+    },
+    "checkpoint_complete": {
+      "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+      "completed_update": 530,
+      "state_sha256": "14c2e9342d13b12f8992feb18ff30ecdbd9c57d27ee62a3436047771e52bf6b9",
+      "elapsed": 27930.404972237535,
+      "phase": "sender"
+    },
+    "wrapper_sha256": "453aff7ed707c3d835149e0c8ac4ec0563b4a6526a9309b91d9b31f329cb1ea2",
+    "evaluation_helper_sha256": "d5f9352f0c6984c29f0078ec035be77822cb81c2fe2010f38248c634326e90f2",
+    "slurm_job_id": "24665081",
+    "slurm_restart_count": "1",
+    "manifest_sha256": "f96572c03547bfe59d762941124ba016d468591e9a02a3aa98e87704ece79591",
+    "cleanup_verification": {
+      "before": {
+        "cuda_allocated_bytes": 20528749056,
+        "cuda_reserved_bytes": 43687870464,
+        "device_free_bytes": 3224698880,
+        "device_total_bytes": 47667740672,
+        "host_rss_bytes": 98652921856
+      },
+      "after": {
+        "cuda_allocated_bytes": 20528749056,
+        "cuda_reserved_bytes": 20824719360,
+        "device_free_bytes": 26087849984,
+        "device_total_bytes": 47667740672,
+        "host_rss_bytes": 98652930048
+      },
+      "gc_collected_objects": 258,
+      "live_tensor_metadata_unchanged": true,
+      "rng_unchanged": true,
+      "live_tensor_metadata_sha256": "e3551db0efeedc09ae46fc1946e1011dd30b10119173655a0429df1f9ffd26da"
+    },
+    "cache_cleaned_at": 1790983545.7530282,
+    "finished_at": 1790983610.876898
+  },
+  "verified_at": "2026-10-02T23:34:19.433805+00:00",
+  "job_id": "24665081",
+  "slurm_restart_count": 1,
+  "uninterrupted_evaluation_on_current_allocation": true,
+  "main_completion": {
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "completed_update": 530,
+    "checkpoint": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_000530",
+    "evaluation_complete_sha256": "54e00b3734d7d4d5fc733597370d0f4424ba52d709f334db4c94f329eb06aff7",
+    "active_seconds": 28066.454916309565,
+    "stop_reason": "configured_active_time_budget",
+    "sender_updates": 378,
+    "receiver_updates": 152
+  },
+  "main_completion_sha256": "c3f8a17513ce0ba9812b73306166542dfc571776c5205cd9cad0be6a71fa94b8",
+  "budget_completion": {
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "completed_update": 530,
+    "active_seconds": 27932.881792069413
+  }
+}

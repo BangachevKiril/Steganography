@@ -1,0 +1,17 @@
+{
+  "python": "/orcd/pool/003/kirilb/Steganography/envs/qwen35_observer/bin/python",
+  "versions": {
+    "torch": "2.10.0",
+    "transformers": "5.2.0",
+    "huggingface_hub": "1.4.1",
+    "tokenizers": "0.22.2",
+    "accelerate": "1.10.1",
+    "triton": "3.6.0",
+    "safetensors": "0.8.0",
+    "numpy": "2.4.6"
+  },
+  "source_sha256": {
+    "/orcd/pool/003/kirilb/Steganography/envs/qwen35_observer/lib/python3.12/site-packages/transformers/models/qwen3_5/modeling_qwen3_5.py": "d1ae3856f53763591ec65054129af46e003a1715efcf7eef2b752a31e85526b8",
+    "/orcd/pool/003/kirilb/Steganography/envs/qwen35_observer/lib/python3.12/site-packages/transformers/integrations/finegrained_fp8.py": "a486628c4f03abfe299653200ebd2cc577a9ff514fa37cc773031440702107a7"
+  }
+}

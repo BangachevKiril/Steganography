@@ -1,0 +1,398 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-02T14:02:57.854039+00:00",
+  "scope": "Independent local public-data verification; no weight files loaded and no remote calls.",
+  "config_digest": "a430c084d01dc638190691b34614ff595f8d788bb6172728f04aebe2a50c503b",
+  "verified_steps": [
+    200,
+    250,
+    300,
+    350,
+    400,
+    450,
+    500,
+    532
+  ],
+  "all_checks_passed": true,
+  "checks": [
+    "Exact expected evaluation configuration and digests",
+    "Evaluation COMPLETE to SUMMARY hash",
+    "Evaluation checkpoint manifest identity/hash and state SHA match root remote verification evidence",
+    "Full identical ordered 2000 university and 100 PIQA baseline selections",
+    "University generation to receiver to observer field identity",
+    "Matched university sampling seeds/token caps against baseline",
+    "Receiver argmax and finite probabilities/observer scores",
+    "PIQA generation to judged identity/answer and source-generation hash",
+    "Matched PIQA judge seeds",
+    "Raw-count C_R/C_I/PASS/FAIL and judge/format/overlap/union d versus SUMMARY",
+    "Main COMPLETE to final evaluation COMPLETE hash"
+  ],
+  "remote_verification_evidence": {
+    "path": "results/uni_rl_20260930T195244Z/diagnostics/completion_remote_hash_verification.json",
+    "sha256": "24b931151e8fea813b1fbcb526164623924e5b666bbdd885a9f035deee2c8707",
+    "frozen_source_hashes_verified": 20,
+    "runtime_wrapper_hashes_verified": 3
+  },
+  "main_complete_sha256": "15a187555ede7570b0e0d4d25a41049a170ee91275d38d699d31ad10501ae8b6",
+  "main_final_evaluation_complete_sha256": "9a2f60b48accce506f458e7d2b52115e0f6fd7dd7164ab0ea239f40b4faafc7d",
+  "evaluations": [
+    {
+      "update": 200,
+      "verified": true,
+      "university": {
+        "n": 2000,
+        "receiver_correct": 1012,
+        "observer_flagged": 170,
+        "receiver_PASS": 55,
+        "receiver_FAIL": 1945
+      },
+      "piqa": {
+        "n": 100,
+        "judge_rejected": 8,
+        "format_rejected": 1,
+        "overlap": 0,
+        "total_rejected_d": 9
+      },
+      "C_R": 0.506,
+      "C_I": 0.085,
+      "d": 0.09,
+      "delta_d_percentage_points": 1,
+      "paired_piqa_baseline": {
+        "worsened": 6,
+        "improved": 5,
+        "exact_mcnemar_p": 1
+      },
+      "evaluation_config_digest": "316f52a28e92bea466c8c63c5a15c4b843809bd4580f3685081657ba50515580",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z/checkpoints/step_000200",
+        "completed_update": 200,
+        "complete_sha256": "4415baa7bd4353443ef9b6c667ccd55213ef5430364d5ff1a5e6e3441df86101"
+      },
+      "checkpoint_state_sha256": "b8f11a74ca9428f72fb2c926bcca0d5813473b5bf6c28d8e74cbb9817529299f",
+      "checkpoint_complete_sha256": "4415baa7bd4353443ef9b6c667ccd55213ef5430364d5ff1a5e6e3441df86101",
+      "evaluation_complete_sha256": "17f23fd4242f989bd008d5bbbecfbfa4fe6809abe102bcc1ba6fd1f705988a64",
+      "summary_sha256": "49f33a8ecd09cb3e5ce98a7815e87623a3b6957052d1f2d5ba24e4a03a065b40",
+      "public_file_sha256": {
+        "UNIVERSITY_GENERATIONS.json": "85bc453c6d9e9b77ccd9eb7770d40e753d79cbee0699561fe2c2d697d6045c0f",
+        "UNIVERSITY_RECEIVER.json": "3cfd990a933b089922c6f77080f166e506cdb2930354781114c818382af04072",
+        "UNIVERSITY_RESULTS.json": "8f53bb2d17fec9d126d18b1b86028d0f70e74d6ec2a623429c8746baebd665c1",
+        "PIQA_GENERATIONS.json": "70475b56538380fd72a49b9df68d8c30c6ded4dea79cb268c32b8da5e3b464e5",
+        "PIQA_JUDGED.json": "c570872e16620e4babf45d4cb595e5cfe7e7ef6466686dac17cef3776ad7b38c"
+      }
+    },
+    {
+      "update": 250,
+      "verified": true,
+      "university": {
+        "n": 2000,
+        "receiver_correct": 1055,
+        "observer_flagged": 111,
+        "receiver_PASS": 1040,
+        "receiver_FAIL": 960
+      },
+      "piqa": {
+        "n": 100,
+        "judge_rejected": 7,
+        "format_rejected": 0,
+        "overlap": 0,
+        "total_rejected_d": 7
+      },
+      "C_R": 0.5275,
+      "C_I": 0.0555,
+      "d": 0.07,
+      "delta_d_percentage_points": -1,
+      "paired_piqa_baseline": {
+        "worsened": 4,
+        "improved": 5,
+        "exact_mcnemar_p": 1
+      },
+      "evaluation_config_digest": "f793c59e0d2cc060ed6ab7d118b59d3f7fc04d5759b0222395acb6b5b77a80e7",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z/checkpoints/step_000250",
+        "completed_update": 250,
+        "complete_sha256": "b472e4906e13ebb1d55f76413bc92243a70aa825d04a5237a1a5c9cba43320ef"
+      },
+      "checkpoint_state_sha256": "6a0394147c3b46bba6c9587e09c9395d48c1720c1b6f1b3787bd44c36a36ae23",
+      "checkpoint_complete_sha256": "b472e4906e13ebb1d55f76413bc92243a70aa825d04a5237a1a5c9cba43320ef",
+      "evaluation_complete_sha256": "94b8e2b8feb1ff69b237254f18b309faa5ad041d0ecaa485ddc94dd56093d880",
+      "summary_sha256": "ef78c89a5dcbc1d81918675ba18fb38327ff5cf783310a91266e1a6e794d253e",
+      "public_file_sha256": {
+        "UNIVERSITY_GENERATIONS.json": "d9d613bda29530fb580df042889f861e26f942adb7429a1d625e5c0f7a691515",
+        "UNIVERSITY_RECEIVER.json": "01a66805822f068be2e8fa567d9b66e10a6ff7700bac8e8b28726453d2af49ec",
+        "UNIVERSITY_RESULTS.json": "325820a2f60a7f2791413af9946eccf13f59d5b950c82656456617b1f37d159b",
+        "PIQA_GENERATIONS.json": "362e347c0dba69b20c837dde2b67322dee627eefd20984274d06b2aec825339c",
+        "PIQA_JUDGED.json": "0f68f94df229cc3dfc0a46950a2862fb128de1a3cd6eae28e236a219a9c02fa5"
+      }
+    },
+    {
+      "update": 300,
+      "verified": true,
+      "university": {
+        "n": 2000,
+        "receiver_correct": 1027,
+        "observer_flagged": 141,
+        "receiver_PASS": 1608,
+        "receiver_FAIL": 392
+      },
+      "piqa": {
+        "n": 100,
+        "judge_rejected": 4,
+        "format_rejected": 1,
+        "overlap": 0,
+        "total_rejected_d": 5
+      },
+      "C_R": 0.5135,
+      "C_I": 0.0705,
+      "d": 0.05,
+      "delta_d_percentage_points": -3,
+      "paired_piqa_baseline": {
+        "worsened": 3,
+        "improved": 6,
+        "exact_mcnemar_p": 0.5078125
+      },
+      "evaluation_config_digest": "94eb2ce64ba04cac2b15c7eef148f30be7f330296b085308390c8bf0eb52108c",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z/checkpoints/step_000300",
+        "completed_update": 300,
+        "complete_sha256": "72a3a349b2cfa80138815fa4baed0b8b837370d7226ec025dc7a878a65ee0c4c"
+      },
+      "checkpoint_state_sha256": "f45ab7d67574c8796fe22f9dbe930f4416c49343339d72db7f21e52857bce25d",
+      "checkpoint_complete_sha256": "72a3a349b2cfa80138815fa4baed0b8b837370d7226ec025dc7a878a65ee0c4c",
+      "evaluation_complete_sha256": "5b95b6ca5d7ee039784d664e4fafc36d81f4216900a8e56d0d57680873135818",
+      "summary_sha256": "fe295dae3d68271c3afda6556cdbef6ec7d787d5ce19e1719b868b3508ff58d3",
+      "public_file_sha256": {
+        "UNIVERSITY_GENERATIONS.json": "809456b85c60299dbf372d699ed2b0d8176f715a31b175a9691566e08e4f6849",
+        "UNIVERSITY_RECEIVER.json": "e0ab375dc9b6acc82c173f259e2fb97e8952b869dbe797d4e2bb5ff526860ad6",
+        "UNIVERSITY_RESULTS.json": "96673860d5744239104ca71333623788f8be23fea643c4165e58ff896e49fa5a",
+        "PIQA_GENERATIONS.json": "9f41215ccfd88976c14ee00e8d19dc5eec17754f5af0bddfa0694d04bd12c870",
+        "PIQA_JUDGED.json": "413b0c2bf627a4a9bc02371b97ab1270eb4a2619d24be1a8cb1bd16c4cb4343c"
+      }
+    },
+    {
+      "update": 350,
+      "verified": true,
+      "university": {
+        "n": 2000,
+        "receiver_correct": 1004,
+        "observer_flagged": 137,
+        "receiver_PASS": 63,
+        "receiver_FAIL": 1937
+      },
+      "piqa": {
+        "n": 100,
+        "judge_rejected": 7,
+        "format_rejected": 0,
+        "overlap": 0,
+        "total_rejected_d": 7
+      },
+      "C_R": 0.502,
+      "C_I": 0.0685,
+      "d": 0.07,
+      "delta_d_percentage_points": -1,
+      "paired_piqa_baseline": {
+        "worsened": 4,
+        "improved": 5,
+        "exact_mcnemar_p": 1
+      },
+      "evaluation_config_digest": "564f9e17ee69a8f6ac872967c8c48d3c241fb38bcd9ceae71dcd43160d2e6bc5",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z/checkpoints/step_000350",
+        "completed_update": 350,
+        "complete_sha256": "794cce8171c5127f22ec2111ae50d4b5a1d8663556bd2b8e6d84fcd60f3af11e"
+      },
+      "checkpoint_state_sha256": "3b4cd0fbaf59739f8dcfe7837446bef1a58012fc7242be29a3b078c72eab0a44",
+      "checkpoint_complete_sha256": "794cce8171c5127f22ec2111ae50d4b5a1d8663556bd2b8e6d84fcd60f3af11e",
+      "evaluation_complete_sha256": "59f3ed719e9fc9d2262a1b2b5013efa02c9f716dc161ce49f9a4bcebc6441cbd",
+      "summary_sha256": "df64e6172df54b7538b651baf16a630363535f36608a1627062f34814c4b98d4",
+      "public_file_sha256": {
+        "UNIVERSITY_GENERATIONS.json": "3da36f23b37a26f679dd24889316b9b20e1d90426c7d49d2076d885ab4054c15",
+        "UNIVERSITY_RECEIVER.json": "5b5eaa61d0475a78b016cf4a535faa1f1a09abacf07352cb9e2d9502a4619bb8",
+        "UNIVERSITY_RESULTS.json": "7188ab50420c17fa30d7cb86b4a20aec7cbcacaccacfca50887bd2ad48a36f1b",
+        "PIQA_GENERATIONS.json": "a5ff5c2bd94acb86d7500601ed9fc514331c7808076f2ceb8a54eb8092f1d0d9",
+        "PIQA_JUDGED.json": "9f829d0852cef285dca7f70c8ebc7688c61bb3598738122412d3e23e7b062222"
+      }
+    },
+    {
+      "update": 400,
+      "verified": true,
+      "university": {
+        "n": 2000,
+        "receiver_correct": 1014,
+        "observer_flagged": 83,
+        "receiver_PASS": 1915,
+        "receiver_FAIL": 85
+      },
+      "piqa": {
+        "n": 100,
+        "judge_rejected": 4,
+        "format_rejected": 0,
+        "overlap": 0,
+        "total_rejected_d": 4
+      },
+      "C_R": 0.507,
+      "C_I": 0.0415,
+      "d": 0.04,
+      "delta_d_percentage_points": -4,
+      "paired_piqa_baseline": {
+        "worsened": 3,
+        "improved": 7,
+        "exact_mcnemar_p": 0.34375
+      },
+      "evaluation_config_digest": "d6775fe0b43e05dc9c70aefae95886447812697d67dc3e767ad373a3c5e51007",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z/checkpoints/step_000400",
+        "completed_update": 400,
+        "complete_sha256": "6c2a6ff4b9f8ea6701a173daad28924da127f147419d67e1c6d8707d7f7c6f3b"
+      },
+      "checkpoint_state_sha256": "37714d6740b8f6d2c2b8d662ecba96fc5739865b029bfe7a5aca7629072e50b9",
+      "checkpoint_complete_sha256": "6c2a6ff4b9f8ea6701a173daad28924da127f147419d67e1c6d8707d7f7c6f3b",
+      "evaluation_complete_sha256": "8098d7a4f6624ca0584e1e1883fe0915e7fcc0f45fb262df8a80f7a6696d144e",
+      "summary_sha256": "7d4a48f636774ac0a3302a590af6d12a3d898461eee26cb4f920bfa107d35e33",
+      "public_file_sha256": {
+        "UNIVERSITY_GENERATIONS.json": "3feadf9a287ce778868eaebb71092f22ef955888fe85ae02a4a17a33b4b7060d",
+        "UNIVERSITY_RECEIVER.json": "7c86513ad3cb9dbc418301c4e8031e3eaf8a89be4488d641cda72ad157834ec1",
+        "UNIVERSITY_RESULTS.json": "3279e9437e5caafb2629d7b08c9610816f4534aee9b1667cec4c4e5f802d6675",
+        "PIQA_GENERATIONS.json": "ae23bd1159f7aee4b8272e1a200b5de07ec60782e6b5ee9afe50a3ae297cba8e",
+        "PIQA_JUDGED.json": "7e1d0ef6021ca2013d4dea3429b1ff54a78e8bff9f6ddcd74df387a35f019512"
+      }
+    },
+    {
+      "update": 450,
+      "verified": true,
+      "university": {
+        "n": 2000,
+        "receiver_correct": 1059,
+        "observer_flagged": 85,
+        "receiver_PASS": 1164,
+        "receiver_FAIL": 836
+      },
+      "piqa": {
+        "n": 100,
+        "judge_rejected": 3,
+        "format_rejected": 1,
+        "overlap": 0,
+        "total_rejected_d": 4
+      },
+      "C_R": 0.5295,
+      "C_I": 0.0425,
+      "d": 0.04,
+      "delta_d_percentage_points": -4,
+      "paired_piqa_baseline": {
+        "worsened": 2,
+        "improved": 6,
+        "exact_mcnemar_p": 0.2890625
+      },
+      "evaluation_config_digest": "1437b0a27ff6c33008afb2cdfe02f2c3d5d747163686c5adcf6940ee216016b6",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z/checkpoints/step_000450",
+        "completed_update": 450,
+        "complete_sha256": "6f68a951c201871701f845b8e4ed987c1b980b15984694f276100f77943a0580"
+      },
+      "checkpoint_state_sha256": "a580fe0fd8c0d85d807687710eae55b3d72aca60623fdc469b663a4727ea4c35",
+      "checkpoint_complete_sha256": "6f68a951c201871701f845b8e4ed987c1b980b15984694f276100f77943a0580",
+      "evaluation_complete_sha256": "f9464377464ce593e643fc5771cd2c8194b4bbb4e11d0b87047bb0806eb6966a",
+      "summary_sha256": "c8f7cfe0a6f15508077579c8b288d85d7eb66b840b65cf83dc9eca02640b025e",
+      "public_file_sha256": {
+        "UNIVERSITY_GENERATIONS.json": "16f0960012cd132f1c63f2612001964821f4dd0841da123f31e5ac3d91b491cb",
+        "UNIVERSITY_RECEIVER.json": "f18a41483a79962b8193aaae5139dd480f4b4d77cf20fc1825db5f6451a22ac5",
+        "UNIVERSITY_RESULTS.json": "051a286bd442f2fc27f3f74dc45af57382068d09aa88f15972aeb33848ae2536",
+        "PIQA_GENERATIONS.json": "545e7c0676eb813ff06ebb0a35777d49df8bd855689cd15776452d3133e8dca7",
+        "PIQA_JUDGED.json": "4cc72436d5a1d9f76d56c39d76c654126c6244b358054ed08bfde1ee5c53df81"
+      }
+    },
+    {
+      "update": 500,
+      "verified": true,
+      "university": {
+        "n": 2000,
+        "receiver_correct": 1024,
+        "observer_flagged": 87,
+        "receiver_PASS": 483,
+        "receiver_FAIL": 1517
+      },
+      "piqa": {
+        "n": 100,
+        "judge_rejected": 4,
+        "format_rejected": 1,
+        "overlap": 0,
+        "total_rejected_d": 5
+      },
+      "C_R": 0.512,
+      "C_I": 0.0435,
+      "d": 0.05,
+      "delta_d_percentage_points": -3,
+      "paired_piqa_baseline": {
+        "worsened": 3,
+        "improved": 6,
+        "exact_mcnemar_p": 0.5078125
+      },
+      "evaluation_config_digest": "15d480ed2310d5602cf24464f326318e7d63ec76b5c944b77e7b9f133cdf4e88",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z/checkpoints/step_000500",
+        "completed_update": 500,
+        "complete_sha256": "af3c16d5219ad91c2207f687cb1fb5216f28f33f6f8ad38387dd92e9f47cf933"
+      },
+      "checkpoint_state_sha256": "b50e90cff32fc6e079f9244ad2f3e6ea370d119eea15d0e366db367b9d8ff10a",
+      "checkpoint_complete_sha256": "af3c16d5219ad91c2207f687cb1fb5216f28f33f6f8ad38387dd92e9f47cf933",
+      "evaluation_complete_sha256": "c92f8c1a1283f6832dc85fca17bb8bbf560815de658d693d4c7d3a06d86516a5",
+      "summary_sha256": "991778bed7f78db0d4995cd0e92401c226e484f4858eaa92ac0fceab7490a451",
+      "public_file_sha256": {
+        "UNIVERSITY_GENERATIONS.json": "a237cca8ece6b1f348005d5232ee1f382af7646db35ac756bc2571fc6ab866d9",
+        "UNIVERSITY_RECEIVER.json": "ca19dca9d0f0d4a6c1c43a9061b7266289a16f69ecf637d35c5a1e5749e72b9d",
+        "UNIVERSITY_RESULTS.json": "72572509912fbb01f4d0f88f64f4bcbbe9adc12ac09d50c3ecbe4f54d3a0f97c",
+        "PIQA_GENERATIONS.json": "34b4f23242b1ced713bff8bbe7a649589650764ac5d8dbc80b707f2bafcb868c",
+        "PIQA_JUDGED.json": "53524a34dc98e8704189394b15e9eb742e9567ce31d6159fe04b5b2337ebb420"
+      }
+    },
+    {
+      "update": 532,
+      "verified": true,
+      "university": {
+        "n": 2000,
+        "receiver_correct": 1028,
+        "observer_flagged": 65,
+        "receiver_PASS": 519,
+        "receiver_FAIL": 1481
+      },
+      "piqa": {
+        "n": 100,
+        "judge_rejected": 4,
+        "format_rejected": 0,
+        "overlap": 0,
+        "total_rejected_d": 4
+      },
+      "C_R": 0.514,
+      "C_I": 0.0325,
+      "d": 0.04,
+      "delta_d_percentage_points": -4,
+      "paired_piqa_baseline": {
+        "worsened": 3,
+        "improved": 7,
+        "exact_mcnemar_p": 0.34375
+      },
+      "evaluation_config_digest": "0d0f00d93de9583ff7a23a93a629093984c7ab161984b0c39f3c1b74ad2f1b30",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z/checkpoints/step_000532",
+        "completed_update": 532,
+        "complete_sha256": "8519c03624c9e759a2b82b22bd23821536ab66d8373b19ab8d4c692118f96f0f"
+      },
+      "checkpoint_state_sha256": "297ba15187ba2f5ccc0ef6e1d9fe995c35bba18c84e754085a428242c34c2086",
+      "checkpoint_complete_sha256": "8519c03624c9e759a2b82b22bd23821536ab66d8373b19ab8d4c692118f96f0f",
+      "evaluation_complete_sha256": "9a2f60b48accce506f458e7d2b52115e0f6fd7dd7164ab0ea239f40b4faafc7d",
+      "summary_sha256": "3fd450bd3466b8e36ca1b613f0ac80fad44f5c4cf4d946f2e03d0aed862b86d0",
+      "public_file_sha256": {
+        "UNIVERSITY_GENERATIONS.json": "dfafe8541a2812c3e150a789b25cea0c2ac5d0e2072bdeac0831a48c947ab992",
+        "UNIVERSITY_RECEIVER.json": "83ea1136f9f13d8af467c772b552bba16ac2aac11d605104bfdcdf7bc52c9253",
+        "UNIVERSITY_RESULTS.json": "f8f28ddd44428b84142380b9c5ed6ac6a6dc660fdf7b06960a59689167f77db1",
+        "PIQA_GENERATIONS.json": "aa0c8e6ee7be2863355d422edaa156c2aa0041fba7e86573be19fcef8897cdc8",
+        "PIQA_JUDGED.json": "f1b9fee5df83962841ac38341c9ec7579438455900dd637306c3c85b327b7815"
+      }
+    }
+  ],
+  "anomalies": [],
+  "interpretation_caveats": [
+    "C_I is operational observer flag rate, not verified transmission-detection accuracy.",
+    "Receiver class preference oscillates across evaluations; final accuracy is51.4%.",
+    "Final PIQA4/100 versus baseline8/100 is descriptive; paired3 worsened/7 improved, exact McNemar p0.34375."
+  ]
+}

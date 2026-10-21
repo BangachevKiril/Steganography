@@ -1,0 +1,15 @@
+test_activation_preserves_newer_completion_and_rejects_manifest_mutation (__main__.ExtensionTests.test_activation_preserves_newer_completion_and_rejects_manifest_mutation) ... ok
+test_activation_rejects_changed_archives_or_wrong_resume_before_any_mutation (__main__.ExtensionTests.test_activation_rejects_changed_archives_or_wrong_resume_before_any_mutation) ... ok
+test_activation_seals_manifest_before_removal_and_recovers_partial_deletion (__main__.ExtensionTests.test_activation_seals_manifest_before_removal_and_recovers_partial_deletion) ... ok
+test_checkpoint_patch_changes_only_origin_retention_predicate (__main__.ExtensionTests.test_checkpoint_patch_changes_only_origin_retention_predicate) ... ok
+test_completed_run_is_untouched_and_pending_final_evaluation_adds_no_updates (__main__.ExtensionTests.test_completed_run_is_untouched_and_pending_final_evaluation_adds_no_updates) ... ok
+test_manifest_rejects_budget_rebasing_wrong_science_and_missing_authorization (__main__.ExtensionTests.test_manifest_rejects_budget_rebasing_wrong_science_and_missing_authorization) ... ok
+test_preemption_requeue_and_repeated_invocation_never_reset_allowance (__main__.ExtensionTests.test_preemption_requeue_and_repeated_invocation_never_reset_allowance) ... ok
+test_real_checkpoint_retention_preserves_origin_530_and_normal_pruning (__main__.ExtensionTests.test_real_checkpoint_retention_preserves_origin_530_and_normal_pruning) ... ok
+test_resume_531_preserves_schedule_and_stops_after_fixed_atomic_boundary (__main__.ExtensionTests.test_resume_531_preserves_schedule_and_stops_after_fixed_atomic_boundary) ... ok
+test_train_patch_changes_only_stop_threshold_and_uses_live_globals (__main__.ExtensionTests.test_train_patch_changes_only_stop_threshold_and_uses_live_globals) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 40.077s
+
+OK

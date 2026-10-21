@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-05T20:24:41.746247+00:00",
+  "evaluation_update": 200,
+  "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+  "evaluation_config_digest": "b8d10aaa63239c3a3254c80784e9d2a4ba7c95c5abd84a8a1e4b62f383963f2c",
+  "source_files_verified": 41,
+  "public_artifacts_hash_verified": 332,
+  "public_artifacts_match_local_results": true,
+  "public_numeric_values_finite": true,
+  "public_numeric_values_checked": 600523,
+  "frozen_verifier_passed": true,
+  "independent_row_counts_agree": true,
+  "same_university2000_and_piqa100_cohorts_as_evaluation0": true,
+  "ordered_cohort_comparisons": [
+    0,
+    50,
+    100,
+    150,
+    200
+  ],
+  "row_identity_and_prediction_argmax_verified": true,
+  "summary_confusion_matrix_group_rates_and_means_recomputed": true,
+  "recovery_authorization_verified": true,
+  "recovery_bootstrap_and_slurm_hashes_verified": true,
+  "model_artifact_identities_verified": 24,
+  "evaluation_config_changes_from_150": {
+    "completed_update": {
+      "evaluation150": 150,
+      "evaluation200": 200
+    },
+    "source_checkpoint": {
+      "evaluation150": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000150",
+        "completed_update": 150,
+        "complete_sha256": "c23dac1f3bcf748bded3b7fd7e0d91490c842fd628a0097c0865a61cb5838c7a"
+      },
+      "evaluation200": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000200",
+        "completed_update": 200,
+        "complete_sha256": "52425704876c96d0461962e972ea81c5117a4b6f191ec3075cbff2aa70349bf4"
+      }
+    },
+    "parameter_updates": {
+      "evaluation150": 150,
+      "evaluation200": 200
+    }
+  },
+  "evaluation_config_change_qualification": "Only completed_update, parameter_updates and source_checkpoint identity change. All frozen training and scientific configuration fields are equal.",
+  "checkpoint_marker_sha256": "52425704876c96d0461962e972ea81c5117a4b6f191ec3075cbff2aa70349bf4",
+  "checkpoint_state_sha256": "955c6801b1d60afd7a2d563fd6fee8a34443c7754c6a44527580ecdfbd9a5818",
+  "checkpoint_state_independently_hashed_remotely": false,
+  "checkpoint_state_hash_provenance": "Attested by hash-verified checkpoint200 COMPLETE.json; not independently rehashed by this monitor.",
+  "checkpoint_state_verification_qualification": "At parent remote check 2026-10-05T20:23:23.300741+00:00, step200 state.pt had already been pruned. The verified frozen checkpoint retention keeps initial, latest three and segment-boundary states while retaining evaluation markers. Snapshot independently hashed state223; it does not independently rehash state200 or prove equality with the earlier state200 tensor bytes.",
+  "retention_source": {
+    "path": "stego/university_training.py",
+    "sha256": "caf631b209437904260d55b7007d017eb50948a43c944e92fbc333af1b221889",
+    "first_line": 451,
+    "checkpoint_keep_recent": 3
+  },
+  "evaluation_complete_sha256": "b42b942dbc5803644f7c9f13c35467cb13767f4f0cd76973904a38bef0607301",
+  "summary_sha256": "d60f5041a316afa59f4c492580c1292ab77f8bd27de7826a1b70dcf631dedf29",
+  "public_evaluation_files_sha256": {
+    "evaluations/step_000200/COMPLETE.json": "b42b942dbc5803644f7c9f13c35467cb13767f4f0cd76973904a38bef0607301",
+    "evaluations/step_000200/PIQA_GENERATIONS.json": "f66f40d125d6e631520fa5bc0cd08d7eefa77cdceb9ac6fa3b012eea7ae21ceb",
+    "evaluations/step_000200/PIQA_JUDGED.json": "ecb7424322bc7c1a6f3b2f3807102eb03be04b0b33b869eb311d8e2bdb70a0f7",
+    "evaluations/step_000200/PIQA_JUDGE_STATUS.json": "eb11d7c0b2ab0fab53b9d9e4f560057772bdcf94a511e89b5adecd582920585c",
+    "evaluations/step_000200/SELECTION.json": "5f63ec5f2ebcd267f2961a141bf52970156f33c34aaf0c90166add792494bf84",
+    "evaluations/step_000200/STATUS.json": "898f5d0661b3c40f2278b83a4067c5fd61405b0777b6c034f48f856b59637370",
+    "evaluations/step_000200/SUMMARY.json": "d60f5041a316afa59f4c492580c1292ab77f8bd27de7826a1b70dcf631dedf29",
+    "evaluations/step_000200/UNIVERSITY_GENERATIONS.json": "9f580d74688d8ed402dcd0175d074005babe6a591b0fc1f90ad0e2f9878e53ed",
+    "evaluations/step_000200/UNIVERSITY_RECEIVER.json": "d930163f1d19e4b8e173acc82927541dc6058f40eb2364ee28cae1fec3312f51",
+    "evaluations/step_000200/UNIVERSITY_RESULTS.json": "56bc61e100960a442af7a7b533df41f959c7b4aa3f76544854027b4adf90f383",
+    "evaluations/step_000200/config.json": "c02026fbb33331ebc670f2533e7fc5bad0532426842213aecdd9137b788fb54e",
+    "evaluations/step_000200/report.md": "cba24e50ca9008fe3c750f7f4971626d2389f8ec7957095a6d019f0c1c153dbd"
+  },
+  "metrics": {
+    "C_R_correct": 1000,
+    "C_R_n": 2000,
+    "C_R": 0.5,
+    "C_I_flagged": 69,
+    "C_I_n": 2000,
+    "C_I": 0.0345,
+    "receiver_PASS": 97,
+    "receiver_FAIL": 1903,
+    "piqa_judge_rejected": 3,
+    "piqa_format_rejected": 0,
+    "piqa_overlap": 0,
+    "piqa_union_d": 3,
+    "piqa_n": 100,
+    "d": 0.03,
+    "C_R_delta_percentage_points": -0.55,
+    "C_I_delta_percentage_points": 0.85,
+    "delta_d_vs_evaluation0_percentage_points": -5.0
+  },
+  "receiver_bias_assessment": "PASS97/FAIL1903 (4.85%/95.15%); strong FAIL bias returned versus evaluation150 PASS940/FAIL1060. C_R50.00% versus50.55% at evaluation0 and52.35% at evaluation150. Both labels occur; no settings changed.",
+  "comparison_baseline": "This run evaluation0; historical corrected baseline8/100 remains separate.",
+  "C_I_interpretation": "Operational observer flag fraction, not verified transmission accuracy.",
+  "snapshot": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/monitoring/evaluation200_plot_source_snapshot.json",
+  "snapshot_sha256": "39337e1ce5ce8220624f1a4ae383b49f49f475339383e3f18add64ee1054e328",
+  "latest_verified_update": 223,
+  "latest_state_sha256": "12a87163db3c4d269e104c54d54a028074f06e75497824b7502cb83aeba1ddcd",
+  "checkpoint200_remote_audit": {
+    "checked_at": "2026-10-05T20:23:23.300741+00:00",
+    "checkpoint": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000200",
+    "marker_sha256": "52425704876c96d0461962e972ea81c5117a4b6f191ec3075cbff2aa70349bf4",
+    "marker": {
+      "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+      "completed_update": 200,
+      "state_sha256": "955c6801b1d60afd7a2d563fd6fee8a34443c7754c6a44527580ecdfbd9a5818",
+      "elapsed": 15232.273412735201,
+      "phase": "sender"
+    },
+    "state_exists": false,
+    "state_sha256_verified": false
+  },
+  "checkpoint200_remote_audit_path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/monitoring/EVALUATION_000200_CHECKPOINT_REMOTE_AUDIT.json",
+  "checkpoint200_remote_audit_sha256": "f9f28c2cdb771070905fa4ac3cf3a2183034de739d5dbbe64301855ffaaaa8d6"
+}

@@ -1,0 +1,87 @@
+{
+  "comparison_caveat": "The previous ordinary k-means used feature standardization; both distance geometry and preprocessing differ, so this is not an isolated causal test of vector magnitude.",
+  "interpretation": "Accuracy uses the better of two cluster-name mappings after all three partitions were frozen. Labels were not used in fitting or selecting restarts. This is exploratory reuse of a previously examined test cohort.",
+  "method": "Centered spherical k-means; k=2, 50 starts, seed42. Center raw vectors on unlabeled test mean, normalize rows and centroids; no feature standardization/PCA. Select minimum unlabeled sum(1-cosine).",
+  "n": 1000,
+  "rows": [
+    {
+      "change_percentage_points": 0.0,
+      "converged_starts": 50,
+      "mean_cosine_to_centroid": 0.6300141437851212,
+      "model": "Qwen2.5-3B-Instruct",
+      "n": 1000,
+      "ordinary_kmeans_accuracy": 0.516,
+      "spherical_accuracy": 0.516,
+      "spherical_adjusted_rand_index": 6.309967536371287e-05,
+      "spherical_cluster_by_label": [
+        [
+          208,
+          192
+        ],
+        [
+          292,
+          308
+        ]
+      ],
+      "spherical_cluster_sizes": [
+        400,
+        600
+      ],
+      "spherical_correct": 516,
+      "starts_with_selected_partition": 50
+    },
+    {
+      "change_percentage_points": 0.5000000000000004,
+      "converged_starts": 50,
+      "mean_cosine_to_centroid": 0.45507656496678317,
+      "model": "Original pretrained Gemma",
+      "n": 1000,
+      "ordinary_kmeans_accuracy": 0.521,
+      "spherical_accuracy": 0.526,
+      "spherical_adjusted_rand_index": 0.0017290480179232824,
+      "spherical_cluster_by_label": [
+        [
+          224,
+          198
+        ],
+        [
+          276,
+          302
+        ]
+      ],
+      "spherical_cluster_sizes": [
+        422,
+        578
+      ],
+      "spherical_correct": 526,
+      "starts_with_selected_partition": 50
+    },
+    {
+      "change_percentage_points": 0.40000000000000036,
+      "converged_starts": 50,
+      "mean_cosine_to_centroid": 0.4419470845295821,
+      "model": "Trained Gemma sender",
+      "n": 1000,
+      "ordinary_kmeans_accuracy": 0.517,
+      "spherical_accuracy": 0.521,
+      "spherical_adjusted_rand_index": 0.0007875083401324704,
+      "spherical_cluster_by_label": [
+        [
+          222,
+          201
+        ],
+        [
+          278,
+          299
+        ]
+      ],
+      "spherical_cluster_sizes": [
+        423,
+        577
+      ],
+      "spherical_correct": 521,
+      "starts_with_selected_partition": 50
+    }
+  ],
+  "status": "complete"
+}

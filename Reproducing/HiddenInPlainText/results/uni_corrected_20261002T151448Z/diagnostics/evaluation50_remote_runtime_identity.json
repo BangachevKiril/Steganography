@@ -1,0 +1,60 @@
+{
+  "verified_at": "2026-10-02T16:22:36.022829+00:00",
+  "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+  "completed_update": 50,
+  "state_sha256": "74bfdb7153e928f8c5b731f02d86b56a1da2292f862fcf1eb591890df46dafa0",
+  "state_sha256_verified_remotely": true,
+  "state_file_copied_locally": false,
+  "checkpoint_manifest_sha256": "4eb64f096ba0919ee30162e3d00de3bd83183343143a2441b517d5a5b374718f",
+  "checkpoint_elapsed_seconds": 2776.458836893551,
+  "summary_sha256": "317451f7a65db755d97001fa64fc48698475e8487e1bb6798fef0a3eee5b9f3f",
+  "completion_marker_sha256": "896095f1a294bde50fbffaef4c1aea9836fef2aaff2e6d33b13e4d049d19a8cc",
+  "runtime_cleanup": {
+    "kind": "L40S_evaluation_parent_cache_cleanup",
+    "status": "original_judge_completed",
+    "started_at": 1790957700.6694,
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "evaluation_config_digest": "237c92be1a1e54f87426207888cc2d4f2e7bea46566306b9fc579d26e0190e9d",
+    "evaluation_dir": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/evaluations/step_000050",
+    "checkpoint": {
+      "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_000050",
+      "completed_update": 50,
+      "complete_sha256": "4eb64f096ba0919ee30162e3d00de3bd83183343143a2441b517d5a5b374718f"
+    },
+    "checkpoint_complete": {
+      "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+      "completed_update": 50,
+      "state_sha256": "74bfdb7153e928f8c5b731f02d86b56a1da2292f862fcf1eb591890df46dafa0",
+      "elapsed": 2776.458836893551,
+      "phase": "receiver"
+    },
+    "wrapper_sha256": "453aff7ed707c3d835149e0c8ac4ec0563b4a6526a9309b91d9b31f329cb1ea2",
+    "evaluation_helper_sha256": "d5f9352f0c6984c29f0078ec035be77822cb81c2fe2010f38248c634326e90f2",
+    "slurm_job_id": "24665081",
+    "slurm_restart_count": null,
+    "manifest_sha256": "f96572c03547bfe59d762941124ba016d468591e9a02a3aa98e87704ece79591",
+    "cleanup_verification": {
+      "before": {
+        "cuda_allocated_bytes": 20528892416,
+        "cuda_reserved_bytes": 42786095104,
+        "device_free_bytes": 4126474240,
+        "device_total_bytes": 47667740672,
+        "host_rss_bytes": 98401320960
+      },
+      "after": {
+        "cuda_allocated_bytes": 20528892416,
+        "cuda_reserved_bytes": 20805844992,
+        "device_free_bytes": 26106724352,
+        "device_total_bytes": 47667740672,
+        "host_rss_bytes": 98403491840
+      },
+      "gc_collected_objects": 258,
+      "live_tensor_metadata_unchanged": true,
+      "rng_unchanged": true,
+      "live_tensor_metadata_sha256": "a213d07d1687cf12ea27625a154140048d88f72958598d26e51317af4074884e"
+    },
+    "cache_cleaned_at": 1790957701.2932782,
+    "finished_at": 1790957819.8223498
+  },
+  "same_slurm_job_without_restart": true
+}

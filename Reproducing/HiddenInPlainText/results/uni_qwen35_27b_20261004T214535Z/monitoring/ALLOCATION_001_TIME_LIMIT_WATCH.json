@@ -1,0 +1,18 @@
+{
+  "checked_at": "2026-10-05T21:17:12.754236+00:00",
+  "job_id": "24936931",
+  "restart_count": 1,
+  "node": "node2900",
+  "verified_update": 266,
+  "verified_checkpoint_active_seconds": 20504.41819619434,
+  "segment_threshold_seconds": 27900,
+  "remaining_active_seconds": 7395.58180380566,
+  "allocation_end_utc": "2026-10-05T22:08:08Z",
+  "scheduled_advance_signal_approx_utc": "2026-10-05T22:05:08Z",
+  "recovery_slurm_sha256": "1345b8067e1b91384b331254ef1d56d573497917b660da21198d02d7d24fc624",
+  "expected_action": "USR1 requests checkpointed stop; exit 75 triggers same-job requeue with existing dependencies preserved.",
+  "qualification": "Expected script behavior; successful checkpoint, requeue and restored allocation require later verification. No scheduler start time is guaranteed.",
+  "current_scheduler_issue": false,
+  "manual_scheduling_action": false,
+  "reported": true
+}

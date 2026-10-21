@@ -1,0 +1,2309 @@
+{
+  "name": "uni_qwen35_27b_20261004T214535Z",
+  "observer": "Qwen/Qwen3.5-27B-FP8",
+  "job_id": "24936931",
+  "job_ids": [
+    "24936931",
+    "24936932",
+    "24936933"
+  ],
+  "jobs": [
+    {
+      "segment": 1,
+      "job_id": "24936931",
+      "dependency": null,
+      "submitted_at": "2026-10-05T15:25:04.845682+00:00",
+      "state": "COMPLETED",
+      "reason": "None",
+      "exit_code": "0:0",
+      "runtime": "01:24:30",
+      "partition": "mit_preemptable",
+      "node": "node4109",
+      "restarts": 2,
+      "requeue_enabled": true,
+      "last_checked": "2026-10-06T15:41:49.681342+00:00",
+      "scheduler_start_estimate": "2026-10-05T22:09:37Z",
+      "actual_started_at": "2026-10-05T22:09:37Z",
+      "requested_resources": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1",
+      "allocated_resources": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1",
+      "actual_ended_at": "2026-10-05T23:34:07Z"
+    },
+    {
+      "segment": 2,
+      "job_id": "24936932",
+      "dependency": "afterok:24936931",
+      "submitted_at": "2026-10-05T15:25:04.935310+00:00",
+      "state": "COMPLETED",
+      "reason": "None",
+      "exit_code": "0:0",
+      "runtime": "01:56:23",
+      "partition": "mit_preemptable",
+      "node": "node2900",
+      "restarts": 1,
+      "requeue_enabled": true,
+      "last_checked": "2026-10-06T15:41:49.681342+00:00",
+      "scheduler_start_estimate": "2026-10-06T05:34:42Z",
+      "requested_resources": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1",
+      "allocated_resources": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1",
+      "actual_started_at": "2026-10-06T05:34:42Z",
+      "actual_ended_at": "2026-10-06T07:31:05Z"
+    },
+    {
+      "segment": 3,
+      "job_id": "24936933",
+      "dependency": "afterok:24936932",
+      "submitted_at": "2026-10-05T15:25:05.024312+00:00",
+      "state": "COMPLETED",
+      "reason": "None",
+      "exit_code": "0:0",
+      "runtime": "02:27:33",
+      "partition": "mit_preemptable",
+      "node": "node3009",
+      "restarts": 2,
+      "requeue_enabled": true,
+      "last_checked": "2026-10-06T15:41:49.681342+00:00",
+      "scheduler_start_estimate": "2026-10-06T13:05:38Z",
+      "requested_resources": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1",
+      "allocated_resources": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1",
+      "actual_started_at": "2026-10-06T13:05:38Z",
+      "actual_ended_at": "2026-10-06T15:33:11Z"
+    }
+  ],
+  "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+  "local_source": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/launches/uni_qwen35_27b_20261004T214535Z",
+  "local_results": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z",
+  "remote_source": "/orcd/pool/003/kirilb/Steganography/releases/uni_qwen35_27b_20261004T214535Z",
+  "run_dir": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z",
+  "partitions": [
+    "mit_normal_gpu",
+    "mit_preemptable"
+  ],
+  "gpu": "H100",
+  "host_memory_gib": 192,
+  "allocation_seconds": 21600,
+  "segment_seconds": 27900,
+  "cumulative_thresholds": [
+    27900,
+    55800,
+    83700
+  ],
+  "max_active_seconds": 83700,
+  "interpretation": "One fresh continuous run from original checkpoint0, three sequential active-time segments",
+  "access_state": "available",
+  "access_failure_reported": false,
+  "queue_submission_reported": true,
+  "start_reported": true,
+  "initialization_reported": true,
+  "first_receiver_reported": true,
+  "first_sender_reported": true,
+  "full_cycle_reported": true,
+  "reported_evaluation_updates": [
+    0,
+    50,
+    100,
+    150,
+    200,
+    250,
+    300,
+    350,
+    390,
+    400,
+    450,
+    500,
+    550,
+    600,
+    650,
+    700,
+    750,
+    800,
+    850,
+    886,
+    900,
+    950,
+    1000,
+    1050,
+    1100,
+    1150,
+    1200,
+    1250,
+    1300,
+    1350,
+    1400,
+    1440
+  ],
+  "reported_segments": [
+    1,
+    2,
+    3
+  ],
+  "reported_cycles": [
+    1
+  ],
+  "reported_failures": [
+    "24854198:Cannot find ptxas",
+    "24861423:missing cuda.h",
+    "24862623:Nonfinite observer logits/offset"
+  ],
+  "timing_reported": true,
+  "completion_reported": true,
+  "last_checked": "2026-10-06T15:41:49.681342+00:00",
+  "verified_update": 1440,
+  "validation": {
+    "local_tests": 38,
+    "legacy_training_tests": 8,
+    "legacy_correction_tests": 8,
+    "model_files_verified": 24,
+    "observer_token_ids": {
+      "No": 2665,
+      "Yes": 9175
+    },
+    "gpu_fit": "First full cycle demonstrated on H100: evaluation0 plus2 receiver and5 sender committed updates and source-verified postcommit FULL_CYCLE_SMOKE at update7, corroborated by hash-verified checkpoint13. No full-model parity or guaranteed future memory capacity claim.",
+    "actual_gpu": "NVIDIA H100 80GB HBM3",
+    "cuda_toy_parity": "passed in current job24936931",
+    "observer_ptxas_repair": {
+      "timestamp": "2026-10-04T23:38:25.586392+00:00",
+      "reason": "Observer Triton 3.6.0 package lacked ptxas; no training update or checkpoint committed",
+      "wheel_url": "https://files.pythonhosted.org/packages/ab/a8/cdf8b3e4c98132f965f88c2313a4b493266832ad47fb52f23d14d4f86bb5/triton-3.6.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl",
+      "wheel_sha256": "74caf5e34b66d9f3a429af689c1c7128daba1d8208df60e81106b115c00d6fca",
+      "ptxas_path": "/orcd/pool/003/kirilb/Steganography/envs/qwen35_observer/runtime_tools/triton_3_6_0/ptxas",
+      "ptxas_sha256": "c960a4f238b17d5c5d3c01ad2bbc1ebd2c5aecc459cb4d223bff10b45f9b8fca",
+      "ptxas_version": "ptxas: NVIDIA (R) Ptx optimizing assembler\nCopyright (c) 2005-2025 NVIDIA Corporation\nBuilt on Fri_Feb_21_20:21:21_PST_2025\nCuda compilation tools, release 12.8, V12.8.93\nBuild cuda_12.8.r12.8/compiler.35583870_0\n",
+      "observer_only_pth": "/orcd/pool/003/kirilb/Steganography/envs/qwen35_observer/lib/python3.12/site-packages/qwen_observer_ptxas.pth",
+      "pth_sha256": "49e23f6596f6f672dd2127ba21376d1b19800ceee3520a21764a127ac7e4874b",
+      "sm90_assembler_smoke": "passed",
+      "triton_discovery": "/orcd/pool/003/kirilb/Steganography/envs/qwen35_observer/runtime_tools/triton_3_6_0/ptxas\nptxas: NVIDIA (R) Ptx optimizing assembler\nCopyright (c) 2005-2025 NVIDIA Corporation\nBuilt on Fri_Feb_21_20:21:21_PST_2025\nCuda compilation tools, release 12.8, V12.8.93\nBuild cuda_12.8.r12.8/compiler.35583870_0\n\n",
+      "runtime_manifest_hashes_verified": true,
+      "scientific_settings_changed": false
+    },
+    "runtime_hashes_verified": true,
+    "ptxas_repair_hashes_verified": true,
+    "observer_headers_repair": {
+      "timestamp": "2026-10-04T23:57:18.099054+00:00",
+      "reason": "Observer launcher compile failed because inherited Conda Triton omits CUDA headers; observer venv lacked cuda.h",
+      "wheel_sha256": "74caf5e34b66d9f3a429af689c1c7128daba1d8208df60e81106b115c00d6fca",
+      "include_path": "/orcd/pool/003/kirilb/Steganography/envs/qwen35_observer/targets/x86_64-linux/include",
+      "header_count": 160,
+      "compile_checks": [
+        {
+          "name": "__triton_launcher",
+          "status": "passed",
+          "source_sha256": "72d713ae302f10519cce74104a233d63db70ade8186b6b8de4fcf9944bc802d2",
+          "object_bytes": 12464
+        },
+        {
+          "name": "cuda_utils",
+          "status": "passed",
+          "source_sha256": "439c1e886fa9eac7346d7523d03ba0a4c52aa4c9b518ea86d8659b5c07eb7dc9",
+          "object_bytes": 23040
+        }
+      ],
+      "ptxas_discovery": "ptxas: NVIDIA (R) Ptx optimizing assembler\nCopyright (c) 2005-2025 NVIDIA Corporation\nBuilt on Fri_Feb_21_20:21:21_PST_2025\nCuda compilation tools, release 12.8, V12.8.93\nBuild cuda_12.8.r12.8/compiler.35583870_0\n",
+      "runtime_manifest_hashes_verified": true,
+      "scientific_settings_changed": false,
+      "limitation": "Host compilation passes; GPU execution and full-model fit still require allocation",
+      "offline_h100_triton_compile": {
+        "status": "passed",
+        "output": "H100 offline Triton compilation passed; cubin bytes 6416",
+        "isolated_cache": true,
+        "uses_libdevice": true,
+        "gpu_execution": false
+      },
+      "wheel_record_headers_verified": true
+    },
+    "cuda_header_hashes_verified": 160,
+    "runtime_zero_block_patch_applied": true,
+    "runtime_zero_block_patch": {
+      "kind": "authorized_qwen_fp8_zero_block_guard_003",
+      "applied_at": "2026-10-05T14:47:51.133146+00:00",
+      "authorization": "Direct human approval in monitoring chat on 2026-10-05",
+      "runtime_path": "/orcd/pool/003/kirilb/Steganography/envs/qwen35_observer/lib/python3.12/site-packages/transformers/integrations/finegrained_fp8.py",
+      "before_sha256": "a486628c4f03abfe299653200ebd2cc577a9ff514fa37cc773031440702107a7",
+      "after_sha256": "5ea1130b150506e7a7e94534ee4e9aedd6e57ef576bfc50ced6e00927d926612",
+      "original_backup": "/orcd/pool/003/kirilb/Steganography/envs/qwen35_observer/runtime_tools/zero_block_guard_003/original_finegrained_fp8.py",
+      "guard": "Exactly zero activation blocks use unit scale; nonzero formula unchanged",
+      "source_hashes_verified": 41,
+      "original_config_unchanged": true,
+      "run_lock_exclusive_check": "passed",
+      "active_related_jobs": 0,
+      "committed_checkpoints": 0,
+      "training_retry_allowed": false,
+      "validation": "pending_H100",
+      "cumulative_thresholds": [
+        27900,
+        55800,
+        83700
+      ]
+    },
+    "guard_validation_passed": true,
+    "initialization_verified": true,
+    "observer_startup_verified": true,
+    "evaluation0_verified": true,
+    "first_receiver_committed_update": 1,
+    "first_sender_committed_update": 3,
+    "full_cycle_verified": true
+  },
+  "scheduler_estimates": {
+    "normal_gpu_test_only": "2026-10-06T20:47:53-04:00",
+    "preemptable_test_only": "2026-10-05T02:52:11-04:00",
+    "actual_job_start": "2026-10-05T11:25:08-04:00",
+    "note": "Unreliable scheduler estimates, not reservations or promised starts."
+  },
+  "automation_id": "monitor-qwen-university-training",
+  "monitor_interval_minutes": 10,
+  "monitor_created_at": "2026-10-04T22:04:01.753384+00:00",
+  "last_reported_start_estimate": null,
+  "storage_free_gib_at_submission": 58,
+  "current_segment": 3,
+  "source_hashes_verified": 41,
+  "run_config_exists": true,
+  "last_queue_check": "queue_checks/20261006T154149Z_heartbeat.json",
+  "queue_constraints": {
+    "preemptable_gpu_limit": 4,
+    "preemptable_gpus_in_use": 4,
+    "normal_gpu_limit": 2,
+    "reason_observed": "QOSMaxGRESPerUser",
+    "unrelated_running_array": "24853979",
+    "both_partitions_still_requested": true,
+    "notification_reported": true,
+    "usage_observed_at": "2026-10-05T00:15:31.431324+00:00"
+  },
+  "reported_queue_issues": [
+    "preemptable_gpu_quota_4_of_4"
+  ],
+  "job_history": [
+    {
+      "segment": 1,
+      "job_id": "24854198",
+      "dependency": null,
+      "state": "FAILED",
+      "reason": "QOSMaxGRESPerUser",
+      "restarts": 0,
+      "exit_code": "1:0",
+      "runtime": "00:03:28",
+      "superseded_by_recovery": "RECOVERY_001_PTXAS.json"
+    },
+    {
+      "segment": 2,
+      "job_id": "24854199",
+      "dependency": "afterok:24854198",
+      "state": "CANCELLED",
+      "reason": "Dependency",
+      "restarts": 0,
+      "exit_code": "0:0",
+      "runtime": "00:00:00",
+      "superseded_by_recovery": "RECOVERY_001_PTXAS.json"
+    },
+    {
+      "segment": 3,
+      "job_id": "24854200",
+      "dependency": "afterok:24854199",
+      "state": "CANCELLED",
+      "reason": "Dependency",
+      "restarts": 0,
+      "exit_code": "0:0",
+      "runtime": "00:00:00",
+      "superseded_by_recovery": "RECOVERY_001_PTXAS.json"
+    },
+    {
+      "segment": 1,
+      "job_id": "24861423",
+      "dependency": null,
+      "submitted_at": 1791157204.048241,
+      "state": "FAILED",
+      "reason": "NonZeroExitCode",
+      "restarts": 0,
+      "exit_code": "1:0",
+      "runtime": "00:03:41",
+      "partition": "mit_preemptable",
+      "node": "node2901",
+      "superseded_by_recovery": "RECOVERY_002_CUDA_HEADERS.json"
+    },
+    {
+      "segment": 2,
+      "job_id": "24861424",
+      "dependency": "afterok:24861423",
+      "submitted_at": 1791157204.1421635,
+      "state": "CANCELLED",
+      "reason": "DependencyFailed",
+      "restarts": 0,
+      "exit_code": "0:0",
+      "runtime": "00:00:00",
+      "partition": "mit_normal_gpu,mit_preemptable",
+      "node": "",
+      "superseded_by_recovery": "RECOVERY_002_CUDA_HEADERS.json"
+    },
+    {
+      "segment": 3,
+      "job_id": "24861425",
+      "dependency": "afterok:24861424",
+      "submitted_at": 1791157204.2312856,
+      "state": "CANCELLED",
+      "reason": "DependencyFailed",
+      "restarts": 0,
+      "exit_code": "0:0",
+      "runtime": "00:00:00",
+      "partition": "mit_normal_gpu,mit_preemptable",
+      "node": "",
+      "superseded_by_recovery": "RECOVERY_002_CUDA_HEADERS.json"
+    },
+    {
+      "segment": 1,
+      "job_id": "24862623",
+      "dependency": null,
+      "submitted_at": 1791158359.8699863,
+      "state": "FAILED",
+      "reason": "NonZeroExitCode",
+      "restarts": 0,
+      "exit_code": "1:0",
+      "runtime": "00:03:17",
+      "partition": "mit_preemptable",
+      "node": "node1709",
+      "superseded_by_recovery": "RECOVERY_003_ZERO_BLOCK_GUARD.json"
+    },
+    {
+      "segment": 2,
+      "job_id": "24862624",
+      "dependency": "afterok:24862623",
+      "submitted_at": 1791158359.9581063,
+      "state": "CANCELLED",
+      "reason": "DependencyNeverSatisfied",
+      "restarts": 0,
+      "exit_code": "0:0",
+      "runtime": "00:00:00",
+      "partition": "mit_normal_gpu",
+      "node": "",
+      "superseded_by_recovery": "RECOVERY_003_ZERO_BLOCK_GUARD.json"
+    },
+    {
+      "segment": 3,
+      "job_id": "24862625",
+      "dependency": "afterok:24862624",
+      "submitted_at": 1791158360.0559642,
+      "state": "CANCELLED",
+      "reason": "DependencyNeverSatisfied",
+      "restarts": 0,
+      "exit_code": "0:0",
+      "runtime": "00:00:00",
+      "partition": "mit_normal_gpu",
+      "node": "",
+      "superseded_by_recovery": "RECOVERY_003_ZERO_BLOCK_GUARD.json"
+    }
+  ],
+  "original_job_ids": [
+    "24854198",
+    "24854199",
+    "24854200"
+  ],
+  "recovery_record": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/launches/uni_qwen35_27b_20261004T214535Z/RECOVERY_003_ZERO_BLOCK_GUARD.json",
+  "recovery_reported": true,
+  "current_stage": "complete",
+  "replacement_start_reported": true,
+  "last_reported_started_job": "24936932",
+  "actual_started_at": "2026-10-05T12:08:08-04:00",
+  "training_retry_allowed": true,
+  "failure_investigation": {
+    "job_id": "24862623",
+    "failure_sha256": "70161f30a8b40900ec2f7aa535a6e2ed58009a59869bc1acf82456fb060536ef",
+    "status": "authorized_guard_validated_training_restarted",
+    "hypothesis": "Zero activation blocks from padding cause division by zero in pinned FP8 act_quant; GPU diagnostic required",
+    "production_changes_applied": true,
+    "numerical_implementation_change_requires_user_approval": true,
+    "diagnostic_job_id": "24865111",
+    "proposed_repair": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/launches/uni_qwen35_27b_20261004T214535Z/diagnostics/nonfinite_probe_001/PROPOSED_REPAIR.json",
+    "proposed_patch": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/launches/uni_qwen35_27b_20261004T214535Z/diagnostics/nonfinite_probe_001/proposed_zero_block_guard.patch",
+    "diagnosis": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/diagnostics/nonfinite_probe_001/DIAGNOSIS.json",
+    "diagnostic_results_reported": true,
+    "approval_requested": true,
+    "approval_requested_at": "2026-10-05T01:00:54.178521+00:00",
+    "confirmed_mechanism": "The frozen activation quantizer produces nonfinite FP8 values for exactly zero blocks; the padded public-control batch first becomes nonfinite at padding rows in layer0 in_proj_qkv.",
+    "authorization": {
+      "approved_at": "2026-10-05T14:45:46.683905+00:00",
+      "authorization_source": "Direct human message in this chat: approve",
+      "scope": "Apply audited zero-block guard, validate on H100, restart original three segments only if validation passes",
+      "runtime_before_sha256": "a486628c4f03abfe299653200ebd2cc577a9ff514fa37cc773031440702107a7",
+      "runtime_after_sha256": "5ea1130b150506e7a7e94534ee4e9aedd6e57ef576bfc50ced6e00927d926612",
+      "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+      "cumulative_thresholds": [
+        27900,
+        55800,
+        83700
+      ],
+      "original_source_files_preserved": 41,
+      "production_retry_requires_validation_pass": true
+    },
+    "validation_job_id": "24932889",
+    "validation_report": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/diagnostics/zero_guard_validation_001/DIAGNOSTIC.json",
+    "validation_sha256": "8b7bff3f8f82285b8f1b6222a06729784164d3fdb0911a4ee537d7e0411f87eb",
+    "training_replacement_job_ids": [
+      "24936931",
+      "24936932",
+      "24936933"
+    ]
+  },
+  "diagnostics": [
+    {
+      "job_id": "24865111",
+      "kind": "isolated_nonfinite_diagnostic",
+      "created_at": "2026-10-05T00:33:31.458822+00:00",
+      "source_root": "/orcd/pool/003/kirilb/Steganography/releases/uni_qwen35_27b_20261004T214535Z",
+      "remote_output": "/orcd/pool/003/kirilb/Steganography/diagnostics/uni_qwen35_27b_20261004T214535Z/nonfinite_probe_001",
+      "script_sha256": "34c4a3971eb3a36b71f35fa209fcab01386891acfec5d4b8b9f773647bcba8b7",
+      "slurm_sha256": "ab0da52a15c23de5115fef6181a2f29b383d1ee663b88aae4da71b7942e74769",
+      "time_limit_seconds": 900,
+      "partitions": [
+        "mit_normal_gpu",
+        "mit_preemptable"
+      ],
+      "gpu": "H100",
+      "host_memory_gib": 192,
+      "training_settings_changed": false,
+      "training_retry": false,
+      "public_files": [
+        "DIAGNOSTIC.json",
+        "STATUS.json"
+      ],
+      "prior_jobs_accounting": "24862623|FAILED|1:0\n24862623.batch|FAILED|1:0\n24862623.extern|COMPLETED|0:0\n24862624|CANCELLED|0:0\n24862625|CANCELLED|0:0\n",
+      "state": "COMPLETED",
+      "local_output": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/diagnostics/nonfinite_probe_001",
+      "reason": "None",
+      "restarts": 0,
+      "exit_code": "0:0",
+      "last_checked": "2026-10-05T14:33:39.558091+00:00",
+      "script_hash_verified": true,
+      "slurm_hash_verified": true,
+      "scheduler_start_estimate": null,
+      "estimate_note": "Backfill estimate only, not a reservation or promised start.",
+      "submission_reported": true,
+      "results_reported": true,
+      "public_outputs_present": true,
+      "runtime": "00:01:53",
+      "partition": "mit_preemptable",
+      "node": "node2905",
+      "actual_started_at": "2026-10-05T00:56:49+00:00",
+      "actual_finished_at": "2026-10-05T00:58:42+00:00",
+      "public_files_sha256": {
+        "DIAGNOSTIC.json": "6431fd5e15629a38e368cef8bfe4dcc5b669b71bcc5cf43b9f365636a0a3d5c8",
+        "STATUS.json": "f8f20bb62c68bb8f21997fea55d986fb7d59a1ed5728d2639b5a9ede74dcda29"
+      }
+    },
+    {
+      "job_id": "24932889",
+      "submitted_at": "2026-10-05T14:49:30.921321+00:00",
+      "source_root": "/orcd/pool/003/kirilb/Steganography/releases/uni_qwen35_27b_20261004T214535Z",
+      "remote_output": "/orcd/pool/003/kirilb/Steganography/diagnostics/uni_qwen35_27b_20261004T214535Z/zero_guard_validation_001",
+      "script_sha256": "e50740b518665da3bfee3247b92f5c4c3447002c8491bef6843be68a4e075718",
+      "slurm_sha256": "4a2a8ea1782faed9cda28a9f76021c2573cb8d6e89be493910b840bd95adda9d",
+      "kind": "isolated_zero_guard_validation",
+      "training_retry": false,
+      "runtime_after_sha256": "5ea1130b150506e7a7e94534ee4e9aedd6e57ef576bfc50ced6e00927d926612",
+      "local_output": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/diagnostics/zero_guard_validation_001",
+      "time_limit_seconds": 900,
+      "partitions": [
+        "mit_normal_gpu",
+        "mit_preemptable"
+      ],
+      "gpu": "H100",
+      "host_memory_gib": 192,
+      "state": "COMPLETED",
+      "results_reported": true,
+      "public_files": [
+        "DIAGNOSTIC.json",
+        "STATUS.json"
+      ],
+      "public_files_sha256": {
+        "DIAGNOSTIC.json": "8b7bff3f8f82285b8f1b6222a06729784164d3fdb0911a4ee537d7e0411f87eb",
+        "STATUS.json": "e751ff434c1557227b6ea4bc394566563dad2b1925befd04a2ddb9ea9eb799be"
+      },
+      "validation_passed": true,
+      "reason": "None",
+      "restarts": 0,
+      "exit_code": "0:0",
+      "runtime": "00:02:29",
+      "partition": "mit_preemptable",
+      "node": "node3209",
+      "actual_started_at": "2026-10-05T14:50:07+00:00",
+      "actual_finished_at": "2026-10-05T14:52:36+00:00",
+      "last_checked": "2026-10-05T15:25:29.140800+00:00",
+      "script_hash_verified": true,
+      "slurm_hash_verified": true
+    }
+  ],
+  "diagnostic_submission_reported": true,
+  "last_successful_remote_check": "2026-10-06T15:41:49.681342+00:00",
+  "access_failure": {
+    "checked_at": "2026-10-05T20:12:20.381917+00:00",
+    "reason": "Existing authenticated SSH control socket absent",
+    "ssh_exit_code": 255,
+    "authentication_fallback_attempted": false
+  },
+  "last_access_check": "queue_checks/20261005T202312Z_heartbeat.json",
+  "access_restored_at": "2026-10-05T20:24:18.792423+00:00",
+  "recovery_manifest": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/launches/uni_qwen35_27b_20261004T214535Z/recovery/zero_block_guard_003/RECOVERY_MANIFEST.json",
+  "recovery_manifest_sha256": "9fb3bd356069d2d82dcefac7188a73ad57bf3539c23e3d5079ab13ee5c058c89",
+  "verified_checkpoint": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_001440",
+  "verified_state_sha256": "72b5ad75cadd99942f810614f00d7cc65f4180cf4333bd7c24e4fc1fde5f46d1",
+  "last_snapshot": "monitoring/20261006T154149Z_snapshot.json",
+  "current_status": {
+    "status": "complete",
+    "stage": "complete",
+    "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+    "completed_update": 1440,
+    "slurm_job_id": "24936933",
+    "updated_at": 1791300769.7980788
+  },
+  "last_failure_artifact_sha256": "70161f30a8b40900ec2f7aa535a6e2ed58009a59869bc1acf82456fb060536ef",
+  "last_failure_is_historical": true,
+  "verified_evaluations": [
+    {
+      "completed_update": 0,
+      "complete_sha256": "63460ede6e856d248bcffe60678e2ffb347dd2ec577123d194b2288fbbe1a044",
+      "summary_sha256": "ad2f4b99f288faa02c1012905f7e117616721865b9198843131e936cc3941132",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000000",
+        "completed_update": 0,
+        "complete_sha256": "65108dd475b51322b64331f2222ec9eecab5addec6aa96682663890d62be1451"
+      }
+    },
+    {
+      "completed_update": 50,
+      "complete_sha256": "3139ab9bad624de39ee4c58755efd6a54e9028ad6bd478cb3f24913a600a9aa8",
+      "summary_sha256": "ec4999dbf1f19958e96efb3198d2e874db19639d2fd4737bb02a32133c67be2b",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000050",
+        "completed_update": 50,
+        "complete_sha256": "59ffcd249b7d57d61149f9b0a8a25d09cca8083f4cf56cb868bf87650452a4e0"
+      }
+    },
+    {
+      "completed_update": 100,
+      "complete_sha256": "25f81dabe1aaa2c14120923b066fcff58b7d3a675c9f564fcebb0de8de6d1d5a",
+      "summary_sha256": "1263fc348a807838f23a72faa39495f4980c2ad0c664e6536b7037fee1aa86cc",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000100",
+        "completed_update": 100,
+        "complete_sha256": "b34ce123586d379ee3ad966ea711b905629dfd8664ae6ad09d4470e51b1a0bf6"
+      }
+    },
+    {
+      "completed_update": 150,
+      "complete_sha256": "128e97a75a28dbc8ff2a1e7224aeb326c587ef0a9cd2f8e53b284264995902a6",
+      "summary_sha256": "73f44d54189f80ba4e46c55c79b509a7510ae686b9b10eceacdcd8efc5347862",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000150",
+        "completed_update": 150,
+        "complete_sha256": "c23dac1f3bcf748bded3b7fd7e0d91490c842fd628a0097c0865a61cb5838c7a"
+      }
+    },
+    {
+      "completed_update": 200,
+      "complete_sha256": "b42b942dbc5803644f7c9f13c35467cb13767f4f0cd76973904a38bef0607301",
+      "summary_sha256": "d60f5041a316afa59f4c492580c1292ab77f8bd27de7826a1b70dcf631dedf29",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000200",
+        "completed_update": 200,
+        "complete_sha256": "52425704876c96d0461962e972ea81c5117a4b6f191ec3075cbff2aa70349bf4"
+      }
+    },
+    {
+      "completed_update": 250,
+      "complete_sha256": "802d265cf2274d24dd5e7ede9c72e9a03881204cb9599a432d8bce27dd8d54a2",
+      "summary_sha256": "2ad623b73325d9bd4c824d2b861eecb212f6d1d286bfafe5c0f3d8669fd08fe4",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000250",
+        "completed_update": 250,
+        "complete_sha256": "a7aacd5fb5fbe7c5d23684e6bc2b4ed4669a273f07937ea1c5c1c40d3e141a26"
+      }
+    },
+    {
+      "completed_update": 300,
+      "complete_sha256": "17c9bbf646fe6a932f2a3cbb9094c04f8c77b41b95c17165f88fe48ba0ea4a8f",
+      "summary_sha256": "14f0a2f2b2fed817eafdc265aa543adf3aa9b3f1dda9d66185b020d6b42b4417",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000300",
+        "completed_update": 300,
+        "complete_sha256": "d65ab27d3c1dc6d092d58b2fd5f0b2eee901b0970cc73295850a1bac270ab85f"
+      }
+    },
+    {
+      "completed_update": 350,
+      "complete_sha256": "821e9f1b33a57e3ca97e08739efce831e006959aba3b7c16c30dea6356247666",
+      "summary_sha256": "3582c12c49e79127c5e9d446cc210dc0728ad042188847973904d6768869ccb5",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000350",
+        "completed_update": 350,
+        "complete_sha256": "16cf7ef393d4b9a3582cc911923ea6d034c074ba442cada84acb2e86fe6b324e"
+      }
+    },
+    {
+      "completed_update": 390,
+      "complete_sha256": "bbd3976eb0e6a2d6f90ca5844da0ff17e77184a6e5fa26b66334aedbf147aeb1",
+      "summary_sha256": "f357f274b95e59fd0b30b32c3579a295dbece181a7085c96dc8050cb54186561",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000390",
+        "completed_update": 390,
+        "complete_sha256": "d9d01d85c1bea776c6154eefe936df1fd1a6064799072bbae9492ce7a211a6b1"
+      }
+    },
+    {
+      "completed_update": 400,
+      "complete_sha256": "cf0afa41be23433f3738ed90db062dde7cd68c13e4d8b676a8040418bc456675",
+      "summary_sha256": "acfd5e485327b6875c1e465bd7a070544b11b002f8731b428d327550b52b4651",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000400",
+        "completed_update": 400,
+        "complete_sha256": "6f0ca2d7118eac082f122e5e812929911c34efffab282f8df4c8c2cf81d4cce4"
+      }
+    },
+    {
+      "completed_update": 450,
+      "complete_sha256": "bc0b537179470502ad892f4f9d13af6b0e310e2f6214e16e72ee9d0fab35f6a3",
+      "summary_sha256": "f6359331f4a2a15374eb86773496971411e8276b4629e493409e63267255bfdc",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000450",
+        "completed_update": 450,
+        "complete_sha256": "cb5cdc77bd47c280d9dbd6bdbde6f565f87332e0c63021f5895b8b206e58e93e"
+      }
+    },
+    {
+      "completed_update": 500,
+      "complete_sha256": "682cc10b9983995b1b8ec2e975371fc3930f5999dea1e3550282d8957385ee49",
+      "summary_sha256": "253789dee9bc7e9c22fa3cdfcbb2079f620aeaedb6e1291a3147ce2b784e9601",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000500",
+        "completed_update": 500,
+        "complete_sha256": "1f98d3f5fad5372d206c73bd63b4d9087e772e2d59a80e5ec6352aa6bad4206a"
+      }
+    },
+    {
+      "completed_update": 550,
+      "complete_sha256": "0e3fd21594862db2d6b87afa6374f4661ff69902b431cf4db4ff4e5f79837255",
+      "summary_sha256": "ecf22ee7c1dc89469c13ad1240e4d2739a3381ca205a351c558dd313ab4e5a4c",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000550",
+        "completed_update": 550,
+        "complete_sha256": "d0f41e4c85883fc99a85ca09cce817e53036fdf24ce30e3f4dee7784700a215f"
+      }
+    },
+    {
+      "completed_update": 600,
+      "complete_sha256": "0c366a68d0f1ddc285bc15a69ad7f95d7650b1284426585e22d241b4aebaf773",
+      "summary_sha256": "56c9f977f08cbf6b29e695fd47f8318fd2a7a0b0bba558d3b9baa310020191cc",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000600",
+        "completed_update": 600,
+        "complete_sha256": "857dcdd42f2abbfdc3ed32274219f048b37c73f20415a10fc406bc96e8a277f7"
+      }
+    },
+    {
+      "completed_update": 650,
+      "complete_sha256": "a0e03e30759e215eafe06ffe8dd50c9a71eaca2a999463e805f6f46488f6f00b",
+      "summary_sha256": "1a49118ae0d082cfb34aea9e073b75393df89d514856a0fa698b90c6c4064c9e",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000650",
+        "completed_update": 650,
+        "complete_sha256": "163c17d952821a3071b0817e6cf0902591e18d318e2bfeb08636f75514b34c05"
+      }
+    },
+    {
+      "completed_update": 700,
+      "complete_sha256": "31828433312dab415eb334e396af79b4ab0b1b3fe3fc1630d8b5cd120105e834",
+      "summary_sha256": "ffba132a573a886ff88dfdb50b9e2bd2a7aa75f43b610d5ee2f790a3e8f746cb",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000700",
+        "completed_update": 700,
+        "complete_sha256": "113caa4da39388eb2c5c5f580e5450e519bd38686f3cd51f7f8c3e4c74aa247b"
+      }
+    },
+    {
+      "completed_update": 750,
+      "complete_sha256": "440308170c37c836354b0e233d2ea8b4103fce576da04f579a3fe687e8045d91",
+      "summary_sha256": "3d7ca7fa9b74cd2eff085b697f3c9af83f3fa6af23f87827a1338e3288419371",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000750",
+        "completed_update": 750,
+        "complete_sha256": "6cbb5ae76a889b9f6200442c59db7e43724f119b624f5ef68d9883c4e7870c96"
+      }
+    },
+    {
+      "completed_update": 800,
+      "complete_sha256": "2b249e6adf9eb707e9a46336a08d1403fc6dcde8fe64418791fd4441dfc556d2",
+      "summary_sha256": "66253d0eed44cb01848963c7185b265effeef062db41cc642e3bb2d5c45154c1",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000800",
+        "completed_update": 800,
+        "complete_sha256": "733d62907993c200a08afa4953332aaf6a007c042d50878b07ad45f7627d8c2c"
+      }
+    },
+    {
+      "completed_update": 850,
+      "complete_sha256": "ec04344173ad3df877c0e6103c426103590b7d8ab5d59ada3fb441a2299c6d9b",
+      "summary_sha256": "1c9af92d494ddc3fb9dfa2280d76753496b6ecd0c0b034e73166b757c0ad8082",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000850",
+        "completed_update": 850,
+        "complete_sha256": "be32785aef4ed96d1f59803cd84c3e2fc888c064070ee0a45f0982c8dd012f89"
+      }
+    },
+    {
+      "completed_update": 886,
+      "complete_sha256": "32215438c9668fb65bf77f8ebb85eeb52035626f00f436450a55aab379569699",
+      "summary_sha256": "612252b9d337399685d9db77d4398ef5ca869ab7e9c9fe03105094c243c783d5",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000886",
+        "completed_update": 886,
+        "complete_sha256": "8ff3f7f47ef1a505fc278d397a6b7c50a2fd6ee6898b0a41a5e36d300e70d593"
+      }
+    },
+    {
+      "completed_update": 900,
+      "complete_sha256": "a554872922d75508b2147c201c871535ed17a204be37b0510557809634328df1",
+      "summary_sha256": "7aaacfa319c0f2b7e803728044a07802a0d58d43a9c168b4a4daec45d01a2357",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000900",
+        "completed_update": 900,
+        "complete_sha256": "ca4a0dd648721f215e797baf33da311beec3e658a2423450cb6aab59db42705c"
+      }
+    },
+    {
+      "completed_update": 950,
+      "complete_sha256": "fc71f5d79c7a4f85bbea6b3b4e087295a30402bd54be9bfc08aab221962098b7",
+      "summary_sha256": "ccc85831c9431a28f23b46bbba92cb2ecd85631f73d6b800e307f5fa0de640ca",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000950",
+        "completed_update": 950,
+        "complete_sha256": "f669aaf0bf8c4324351178808f9d36464f7c15508e095ef92c032231cefb39a7"
+      }
+    },
+    {
+      "completed_update": 1000,
+      "complete_sha256": "f11cd10c4980f312ce34012136db429c519c71cbd58b1532c43a9bdda0fcf2d8",
+      "summary_sha256": "6dcc9e99aea24f150f5840b971c187f12da8b292d8438b7a93b2a62fb53f1740",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_001000",
+        "completed_update": 1000,
+        "complete_sha256": "4565064e0e065e2c906958afe3bd30c32d783e692d5b7bacf81f2a8242e8ab2f"
+      }
+    },
+    {
+      "completed_update": 1050,
+      "complete_sha256": "24066a4ae8237999604ae9ac4d0a958962020fb160836ffccb71b52f715d2162",
+      "summary_sha256": "7d3cd7385f2131f3931cff7c46e9935ff7b4c72c1d9662aa2778cb6d8a1944ee",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_001050",
+        "completed_update": 1050,
+        "complete_sha256": "9896f7ad7a1150a022d1726850d67bd7e3d3561c6b899bbbd113d8c0ea584d78"
+      }
+    },
+    {
+      "completed_update": 1100,
+      "complete_sha256": "2a0e09832d4ae06ed66a7b88ce387dcd78b32da8c48613dfb972f9d1bb2c071c",
+      "summary_sha256": "6eaee95ef33400af9eef9059c55ef6f4822a66cccc7d6e2d2bb76fb4cee46597",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_001100",
+        "completed_update": 1100,
+        "complete_sha256": "de6f488a07949d9c5906e822669b8c582c1816b5c50109f55bffa95a6f481d34"
+      }
+    },
+    {
+      "completed_update": 1150,
+      "complete_sha256": "42ddb825b300c0c7f18f02ce9df5bf53b0ae8aff4c7c0ae51cdce97842deb540",
+      "summary_sha256": "4de55f3551bfea14fad85badddfa11ace878aea5678e5cc311567307162e431b",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_001150",
+        "completed_update": 1150,
+        "complete_sha256": "0fda1c30b0c5f8054b4512ae8df5a155bd1fce82a50efb6f2700c48114f7b325"
+      }
+    },
+    {
+      "completed_update": 1200,
+      "complete_sha256": "2b316a5f5e5b991f7de870f24351fb7ca365dde034199479a56534f57b51491f",
+      "summary_sha256": "5bbf3234b8a83274058c975ca60ea5d18a36e1d2ba1e6707fc9b567055f3cdaa",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_001200",
+        "completed_update": 1200,
+        "complete_sha256": "787d9d744cdbc869f374ffe721d0a8e7b61f5f1dd9c325cdd5f3b04b39ddf88e"
+      }
+    },
+    {
+      "completed_update": 1250,
+      "complete_sha256": "27759fa5502421007f6b9341445d1b104b7c407825ac6c2ac797c7ea941608f1",
+      "summary_sha256": "343feaf4eb368e21716631782992791a0a2cac52d942a93d0f37fa9502fb2adb",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_001250",
+        "completed_update": 1250,
+        "complete_sha256": "d9197cfa6eb7509704b8669178d1585b576ec5c61f3367be1126e1834251b282"
+      }
+    },
+    {
+      "completed_update": 1300,
+      "complete_sha256": "09e416cb3496a514ab80910bd997f3670866f1b88ade462e49f365b1ca64f869",
+      "summary_sha256": "81799047ee2cba5ab040546373db3b12ce51e0ef2759ede88beef85d4a532759",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_001300",
+        "completed_update": 1300,
+        "complete_sha256": "120e4f87a2dcc0b7603f282bff7207285888bcc5dcc5ebac24cbd627d66d68d4"
+      }
+    },
+    {
+      "completed_update": 1350,
+      "complete_sha256": "7448d007ea79ede013936ceae6f258cd739ed5d0d0cb9a0986fb4ab90dfd2f9a",
+      "summary_sha256": "babec2bc37c878d055f36f306b759eae4aca534747c91afd2b267f9881a2e5d4",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_001350",
+        "completed_update": 1350,
+        "complete_sha256": "3526d89322a9c29eb66ea36756dd293717bb219b307d95e855b5c2911d576865"
+      }
+    },
+    {
+      "completed_update": 1400,
+      "complete_sha256": "7cbadb9cfe93d012f18887ea31a43e00553a702c38ee38c74ac16f8203442824",
+      "summary_sha256": "ff6e329310502d3e152c691f93d555860a93ecbeb6ba105e0ecfcfebb3642c4d",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_001400",
+        "completed_update": 1400,
+        "complete_sha256": "6b53f9b8568ac0d1fb1ab2ad26f3c81ce8b3b2cfb22c9da105c7de49cc757891"
+      }
+    },
+    {
+      "completed_update": 1440,
+      "complete_sha256": "f4af8788f825857e9cd89a1292979d3647f407a78fb1efbd7b78dec1c97d1724",
+      "summary_sha256": "292fd7cffee0fd714ffd653dfe98318b118a10f1532cf80f016986e109564507",
+      "source_checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_001440",
+        "completed_update": 1440,
+        "complete_sha256": "9103756e50d3608e85386b93b576e83e3c7cd27c5b90db55a8edcb6c1c265322"
+      }
+    }
+  ],
+  "last_verified_timing": {
+    "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+    "completed_update": 1440,
+    "active_seconds": 83721.03270815685,
+    "mean_seconds": {
+      "receiver": 48.75370747854004,
+      "sender": 48.958523056896446
+    },
+    "counts": {
+      "receiver": 412,
+      "sender": 1028
+    }
+  },
+  "last_ppo_memory": {
+    "attempted_update": 1440,
+    "ppo_call_status": "completed",
+    "error": null,
+    "duration_seconds": 26.031258668750525,
+    "peak_allocated_bytes": 30116999168,
+    "peak_reserved_bytes": 34202451968,
+    "end_device_free_bytes": 18425905152,
+    "device_total_bytes": 85019328512,
+    "end_host_rss_bytes": 99191275520,
+    "saved_tensor_transfers": {
+      "packed_cuda_tensors": 15408,
+      "packed_storage_bytes": 647450094336,
+      "noncontiguous_cuda_tensors": 3744,
+      "nonzero_offset_cuda_tensors": 12,
+      "expanded_cuda_tensors": 0,
+      "unpacked_cuda_tensors": 15180
+    },
+    "note": "PPO-call completion alone does not establish a committed checkpoint."
+  },
+  "evaluation0_reported_at": "2026-10-05T15:45:47.668131+00:00",
+  "evaluation0_baseline": {
+    "C_R_correct": 1011,
+    "C_R_n": 2000,
+    "C_I_flagged": 52,
+    "C_I_n": 2000,
+    "receiver_PASS": 1916,
+    "receiver_FAIL": 84,
+    "piqa_judge_rejected": 5,
+    "piqa_format_rejected": 3,
+    "piqa_overlap": 0,
+    "piqa_union_d": 8,
+    "piqa_n": 100,
+    "delta_d_vs_evaluation0_percentage_points": 0.0
+  },
+  "first_committed_cycle_progress": {
+    "receiver_updates": 2,
+    "sender_updates": 5,
+    "required_receiver_updates": 2,
+    "required_sender_updates": 5,
+    "completed_update": 7,
+    "full_cycle_verified": true
+  },
+  "report_path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/report.md",
+  "plot_path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/plots/verified_evaluation_curves.png",
+  "plot_provenance_path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/plots/PROVENANCE.json",
+  "plotted_evaluation_updates": [
+    0,
+    50,
+    100,
+    150,
+    200,
+    250,
+    300,
+    350,
+    390,
+    400,
+    450,
+    500,
+    550,
+    600,
+    650,
+    700,
+    750,
+    800,
+    850,
+    886,
+    900,
+    950,
+    1000,
+    1050,
+    1100,
+    1150,
+    1200,
+    1250,
+    1300,
+    1350,
+    1400,
+    1440
+  ],
+  "full_cycle_evidence": {
+    "artifact": "FULL_CYCLE_SMOKE.json",
+    "sha256": "e962d758e5f2b94bee1bf3305c4e4675b6f3cfbe6d6490ec3b58a8d3ee60d578",
+    "completed_update": 7,
+    "attested_checkpoint_complete_sha256": "8c222199d951429d91144226766495a5bbdcf4d136afb6beed13075fa7fa15e3",
+    "initial_evaluation_complete_sha256": "63460ede6e856d248bcffe60678e2ffb347dd2ec577123d194b2288fbbe1a044",
+    "checkpoint7_marker_retained": false,
+    "checkpoint7_marker_independently_rehashed": false,
+    "checkpoint7_state_independently_rehashed": false,
+    "retention_explanation": "Frozen source keeps initial/latest3/segment boundaries and evaluation markers; non-evaluation step7 directory is pruned at update10. Verified wrapper writes smoke only after original checkpoint commit and exact2R+5S schedule validation.",
+    "corroborating_verified_update": 13,
+    "corroborating_state_sha256": "d60056597f38da4cf27de85bc91ceac2ad9a15ab19b5269693de168042f17195",
+    "verified_at": "2026-10-05T15:56:21.214701+00:00"
+  },
+  "last_observed_ppo_memory": {
+    "attempted_update": 1440,
+    "ppo_call_status": "completed",
+    "error": null,
+    "duration_seconds": 26.031258668750525,
+    "peak_allocated_bytes": 30116999168,
+    "peak_reserved_bytes": 34202451968,
+    "end_device_free_bytes": 18425905152,
+    "device_total_bytes": 85019328512,
+    "end_host_rss_bytes": 99191275520,
+    "saved_tensor_transfers": {
+      "packed_cuda_tensors": 15408,
+      "packed_storage_bytes": 647450094336,
+      "noncontiguous_cuda_tensors": 3744,
+      "nonzero_offset_cuda_tensors": 12,
+      "expanded_cuda_tensors": 0,
+      "unpacked_cuda_tensors": 15180
+    },
+    "note": "PPO-call completion alone does not establish a committed checkpoint."
+  },
+  "last_observed_ppo_memory_update_committed": true,
+  "receiver_bias_watch": {
+    "observed_at": "2026-10-05T16:05:45.207043+00:00",
+    "update": 25,
+    "cohort": "sampled training batches, not frozen evaluation",
+    "n": 192,
+    "PASS": 0,
+    "FAIL": 192,
+    "correct": 93,
+    "severity": "sampled_single_class_predictions",
+    "audit_path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/monitoring/RECEIVER_SINGLE_CLASS_000025.json",
+    "note": "Updates23/24/25 allFAIL despite bothtrue labels; await fixed evaluation50 without changing scientific settings.",
+    "reported": true
+  },
+  "verified_complete_cycles": 205,
+  "receiver_bias_history": [
+    {
+      "observed_at": "2026-10-05T15:56:21.214701+00:00",
+      "update": 13,
+      "cohort": "sender rollout; not frozen evaluation",
+      "n": 192,
+      "PASS": 8,
+      "FAIL": 184,
+      "correct": 96,
+      "note": "Strong FAIL skew after second receiver pair; watch next frozen evaluation, do not change scientific settings.",
+      "reported": true
+    }
+  ],
+  "reported_scientific_warnings": [
+    "sampled_receiver_all_FAIL_updates23_24_25"
+  ],
+  "allocation_history": [
+    {
+      "job_id": "24936931",
+      "restart_count": 0,
+      "node": "node3009",
+      "state": "PREEMPTED",
+      "actual_started_at": "2026-10-05T15:25:08+00:00",
+      "actual_ended_at": "2026-10-05T16:03:03+00:00",
+      "batch_ended_at": "2026-10-05T12:03:48-04:00",
+      "exit_code": "0:0",
+      "batch_exit_code": "0:9",
+      "source": "sacct -D",
+      "prior_observation": {
+        "segment": 1,
+        "job_id": "24936931",
+        "dependency": null,
+        "submitted_at": "2026-10-05T15:25:04.845682+00:00",
+        "state": "RUNNING",
+        "reason": "None",
+        "exit_code": "0:0",
+        "runtime": "00:37:50",
+        "partition": "mit_preemptable",
+        "node": "node3009",
+        "restarts": 0,
+        "requeue_enabled": true,
+        "last_checked": "2026-10-05T16:03:28.479Z",
+        "scheduler_start_estimate": "2026-10-05T11:25:08-04:00",
+        "actual_started_at": "2026-10-05T11:25:08-04:00",
+        "requested_resources": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1",
+        "allocated_resources": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1"
+      }
+    },
+    {
+      "job_id": "24936931",
+      "restart_count": 1,
+      "node": "node2900",
+      "state": "REQUEUED",
+      "actual_started_at": "2026-10-05T16:08:08+00:00",
+      "actual_ended_at": "2026-10-05T22:06:30+00:00",
+      "exit_code": "0:0",
+      "batch_exit_code": "0:0",
+      "source": "sacct -D",
+      "prior_observation": {
+        "segment": 1,
+        "job_id": "24936931",
+        "dependency": null,
+        "submitted_at": "2026-10-05T15:25:04.845682+00:00",
+        "state": "RUNNING",
+        "reason": "None",
+        "exit_code": "0:0",
+        "runtime": "05:57:49",
+        "partition": "mit_preemptable",
+        "node": "node2900",
+        "restarts": 1,
+        "requeue_enabled": true,
+        "last_checked": "2026-10-05T22:06:12.594490+00:00",
+        "scheduler_start_estimate": "2026-10-05T12:08:08-04:00",
+        "actual_started_at": "2026-10-05T12:08:08-04:00",
+        "requested_resources": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1",
+        "allocated_resources": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1"
+      }
+    },
+    {
+      "job_id": "24936931",
+      "restart_count": 2,
+      "node": "node4109",
+      "state": "COMPLETED",
+      "actual_started_at": "2026-10-05T22:09:37+00:00",
+      "actual_ended_at": "2026-10-05T23:34:07+00:00",
+      "exit_code": "0:0",
+      "batch_exit_code": "0:0",
+      "source": "sacct -D"
+    },
+    {
+      "job_id": "24936932",
+      "restart_count": 0,
+      "node": "node4109",
+      "state": "REQUEUED",
+      "actual_started_at": "2026-10-05T23:35:00+00:00",
+      "actual_ended_at": "2026-10-06T05:32:01+00:00",
+      "exit_code": "0:0",
+      "source": "sacct -D"
+    },
+    {
+      "job_id": "24936932",
+      "restart_count": 1,
+      "node": "node2900",
+      "state": "COMPLETED",
+      "actual_started_at": "2026-10-06T05:34:42+00:00",
+      "actual_ended_at": "2026-10-06T07:31:05+00:00",
+      "exit_code": "0:0",
+      "source": "sacct -D"
+    },
+    {
+      "job_id": "24936933",
+      "restart_count": 0,
+      "node": "node2900",
+      "state": "PREEMPTED",
+      "actual_started_at": "2026-10-06T07:31:53+00:00",
+      "actual_ended_at": "2026-10-06T08:05:54+00:00",
+      "exit_code": "0:0",
+      "source": "sacct -D"
+    },
+    {
+      "job_id": "24936933",
+      "restart_count": 1,
+      "node": "node2905",
+      "state": "PREEMPTED",
+      "actual_started_at": "2026-10-06T08:09:52+00:00",
+      "actual_ended_at": "2026-10-06T13:01:47+00:00",
+      "exit_code": "0:0",
+      "source": "sacct -D"
+    },
+    {
+      "job_id": "24936933",
+      "restart_count": 2,
+      "node": "node3009",
+      "state": "COMPLETED",
+      "actual_started_at": "2026-10-06T13:05:38+00:00",
+      "actual_ended_at": "2026-10-06T15:33:11+00:00",
+      "exit_code": "0:0",
+      "source": "sacct -D"
+    }
+  ],
+  "current_allocation_restart_count": 2,
+  "restart_verification": {
+    "schema_version": 1,
+    "status": "passed",
+    "verified_at": "2026-10-05T23:56:43.931204+00:00",
+    "snapshot": "monitoring/segment001_plot_source_snapshot.json",
+    "snapshot_sha256": "39d85a775e883c5ddb1bc24aec96088274f08afadfd48de6ac3fd53f6ecbae5e",
+    "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+    "snapshot_bound_verified_update": 400,
+    "public_artifacts_hash_verified": 579,
+    "source_files_hash_verified": 41,
+    "model_artifact_identities_verified": 24,
+    "fixed_cumulative_thresholds": [
+      27900,
+      55800,
+      83700
+    ],
+    "local_copy_scope": "Immutable segment/checkpoint/evaluation/preflight/observer/cleanup artifacts match the durable snapshot. Mutable local status/metrics/offload may advance.",
+    "historical_failure_unchanged": true,
+    "original_INITIALIZATION_artifact_is_historical": true,
+    "original_FULL_CYCLE_SMOKE_unchanged": true,
+    "full_cycle_qualification": "The prior monitoring/FULL_CYCLE_VERIFICATION.json qualification remains: step7 marker/state were pruned before independent monitor rehash; verified source writes smoke after commit, corroborated by later verified checkpoints.",
+    "restoration_qualification": "Verified frozen restore code restores both optimizers, RNG, streams, modes and PPO/KL state. Public events bind checkpoint identity/update/elapsed and successful initialization. Individual tensor/optimizer field equality was not independently compared. Successful execution and CUDA toy parity do not establish full-model numerical equivalence or future capacity.",
+    "committed_metrics_verified_through": 400,
+    "new_rollout_scalar_audit_updates": [
+      306,
+      400
+    ],
+    "finite_float_values_checked": 29125,
+    "packed_storage_bytes_note": "Cumulative transferred storage, not resident host memory.",
+    "hardware": {
+      "gpu": "NVIDIA H100 80GB HBM3",
+      "gpu_memory_bytes": 85019328512,
+      "host_memory_requested": "192G",
+      "cpus": 8
+    },
+    "job_id": "24936931",
+    "restart_count": 2,
+    "node": "node4109",
+    "resumed_update": 305,
+    "checkpoint": {
+      "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000305",
+      "marker": {
+        "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+        "completed_update": 305,
+        "state_sha256": "3a69495d379a820e4b21f3bccac8d87f7135ed92e80ccc43308dae7dd35b3d1e",
+        "elapsed": 23499.706571775023,
+        "phase": "sender"
+      },
+      "complete_sha256": "62361f5ae0739b6f1c5f6d1e93c9fc3ca40e15e739c44613db162de3998eb4dc"
+    },
+    "state_sha256": "3a69495d379a820e4b21f3bccac8d87f7135ed92e80ccc43308dae7dd35b3d1e",
+    "restored_checkpoint_elapsed_seconds": 23499.706571775023,
+    "preflight_event": "runtime_events/h100_memory_preflight_24936931_1791238230129967511.json",
+    "preflight_sha256": "54af261c177482eb901b3513df11d5ac69d2636c25760e2d2ff1fadc08d5533e",
+    "initialized_at": 1791238530.3549857,
+    "observer_event": "runtime_events/qwen_observer_24936931_1791238525620620801.json",
+    "observer_sha256": "3db1e8b318f8aab28d7df973ffce48eca4c9a94a9115b58049f8a04a3f119473",
+    "observer_started_at": 1791238525.6200988,
+    "offload_event": "runtime_events/h100_memory_24936931_1791238530579382517.json",
+    "offload_sha256": "ef1ff488b314e6d8bb3327ef45e758a1f4ba3d9ab1afa31b6895c6e45cf39a1c",
+    "offload_enabled_at": 1791238530.5794506,
+    "last_committed_ppo_memory": {
+      "attempted_update": 390,
+      "ppo_call_status": "completed",
+      "error": null,
+      "duration_seconds": 25.277960194274783,
+      "peak_allocated_bytes": 29841193984,
+      "peak_reserved_bytes": 33889976320,
+      "end_device_free_bytes": 18738380800,
+      "device_total_bytes": 85019328512,
+      "end_host_rss_bytes": 98948292608,
+      "saved_tensor_transfers": {
+        "packed_cuda_tensors": 15408,
+        "packed_storage_bytes": 638963021568,
+        "noncontiguous_cuda_tensors": 3744,
+        "nonzero_offset_cuda_tensors": 12,
+        "expanded_cuda_tensors": 0,
+        "unpacked_cuda_tensors": 15180
+      },
+      "note": "PPO-call completion alone does not establish a committed checkpoint."
+    },
+    "fresh_initialization": false,
+    "cuda_toy_parity_passed": true,
+    "guard_authorization_verified": true,
+    "observer_runtime_model_and_scientific_pins_verified": true,
+    "startup_cleanup_rng_modes_live_tensor_invariants_passed": true,
+    "kind": "restart_verification",
+    "retained_active_clock_seconds_before_restart": 23501.956096203066,
+    "checkpoint_state_independently_hashed_remotely": true,
+    "checkpoint_hash_evidence": "monitoring/20261005T234547Z_snapshot.json",
+    "checkpoint_hash_evidence_sha256": "614ef78230ce80dd9f2f56405e3b83e8e949f6f8c3c076251c486ef884544513",
+    "checkpoint305_marker_retention_qualification": "Later snapshot no longer contains step305 marker; prior independently hash-verified snapshot and immutable startup preflight bind the same marker/state.",
+    "allocation_started_at": "2026-10-05T22:09:37+00:00",
+    "allocation_completed_at": "2026-10-05T23:34:07+00:00",
+    "allocation_exit_code": "0:0",
+    "segment_completed_update": 390,
+    "evaluation_memory_events": [
+      {
+        "event": "runtime_events/h100_eval_memory_24936931_1791240959011087365.json",
+        "sha256": "f7eda3571db864e7aeeed066ee913f54e0607ce2d33b209b094e7a9afa240c5b",
+        "update": 350,
+        "status": "original_judge_completed"
+      },
+      {
+        "event": "runtime_events/h100_eval_memory_24936931_1791243173196341807.json",
+        "sha256": "d596ff8b8ace1ea4a4d720fd31f5dfe9117027858793df24403a7d4ce262d7b1",
+        "update": 390,
+        "status": "original_judge_completed"
+      }
+    ],
+    "reported": true
+  },
+  "receiver_bias_latest_observation": {
+    "update": 1440,
+    "kind": "sender",
+    "n": 192,
+    "PASS": 87,
+    "FAIL": 105,
+    "correct": 192,
+    "cohort": "sender rollout192"
+  },
+  "current_allocation_memory": {
+    "restart_count": 2,
+    "event_started_at": 1791292129.1470802,
+    "resumed_update": 1273,
+    "last_ppo_memory": {
+      "attempted_update": 1440,
+      "ppo_call_status": "completed",
+      "error": null,
+      "duration_seconds": 26.031258668750525,
+      "peak_allocated_bytes": 30116999168,
+      "peak_reserved_bytes": 34202451968,
+      "end_device_free_bytes": 18425905152,
+      "device_total_bytes": 85019328512,
+      "end_host_rss_bytes": 99191275520,
+      "saved_tensor_transfers": {
+        "packed_cuda_tensors": 15408,
+        "packed_storage_bytes": 647450094336,
+        "noncontiguous_cuda_tensors": 3744,
+        "nonzero_offset_cuda_tensors": 12,
+        "expanded_cuda_tensors": 0,
+        "unpacked_cuda_tensors": 15180
+      },
+      "note": "PPO-call completion alone does not establish a committed checkpoint."
+    }
+  },
+  "reported_restarts": [
+    "24936931:1",
+    "24936931:2",
+    "24936932:1",
+    "24936933:1",
+    "24936933:2"
+  ],
+  "restart_reported_at": "2026-10-05T16:16:14.151203+00:00",
+  "latest_evaluation_memory_verification": {
+    "update": 1440,
+    "event": "runtime_events/h100_eval_memory_24936933_1791300710886955835.json",
+    "sha256": "b8120f72059c6ed20680d48fa73bff2ea89a01c6f3eb91284925275afbf24e1c",
+    "status": "original_judge_completed",
+    "observer_and_parent_live_tensor_metadata_rng_preserved": true,
+    "observer_modes_preserved": true
+  },
+  "evaluation50_reported_at": "2026-10-05T16:56:45.059782+00:00",
+  "last_reported_evaluation": {
+    "completed_update": 1440,
+    "metrics": {
+      "C_R_correct": 1998,
+      "C_R_n": 2000,
+      "C_R": 0.999,
+      "C_I_flagged": 0,
+      "C_I_n": 2000,
+      "C_I": 0.0,
+      "receiver_PASS": 1003,
+      "receiver_FAIL": 997,
+      "piqa_judge_rejected": 5,
+      "piqa_format_rejected": 0,
+      "piqa_overlap": 0,
+      "piqa_union_d": 5,
+      "piqa_n": 100,
+      "d": 0.05,
+      "C_R_delta_percentage_points": 49.35,
+      "C_I_delta_percentage_points": -2.6,
+      "delta_d_vs_evaluation0_percentage_points": -3
+    },
+    "verification_path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/monitoring/EVALUATION_001440_VERIFICATION.json",
+    "verification_sha256": "04769be99e0030413e9ef8b97d38ca92f04c3daaf391950863d2b563a45ff68b",
+    "checkpoint_state_independently_hashed_remotely": true
+  },
+  "receiver_bias_fixed_evaluation_observation": {
+    "completed_update": 1440,
+    "n": 2000,
+    "PASS": 1003,
+    "FAIL": 997,
+    "correct": 1998,
+    "all_FAIL": false,
+    "reported": true,
+    "note": "Final fixed evaluation predictions are nearly balanced; scientific settings unchanged."
+  },
+  "evaluation100_reported_at": "2026-10-05T17:56:56.727230+00:00",
+  "evaluation150_reported_at": "2026-10-05T18:57:40.477447+00:00",
+  "report_refresh_helper": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/monitoring/refresh_verified_report.py",
+  "report_presentation_correction": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/monitoring/REPORT_PRESENTATION_CORRECTION.json",
+  "access_restoration": {
+    "checked_at": "2026-10-05T20:24:18.792423+00:00",
+    "existing_control_master_pid": 44910,
+    "previous_last_successful_remote_check": "2026-10-05T19:03:45.495838+00:00",
+    "remote_status_refreshed": true,
+    "no_authentication_fallback": true,
+    "verified_update": 223,
+    "reported_with_evaluation": 200
+  },
+  "evaluation200_reported_at": "2026-10-05T20:25:25.737452+00:00",
+  "evaluation250_reported_at": "2026-10-05T21:06:58.006209+00:00",
+  "allocation_time_limit_watch": {
+    "checked_at": "2026-10-05T21:17:12.754236+00:00",
+    "job_id": "24936931",
+    "restart_count": 1,
+    "node": "node2900",
+    "verified_update": 266,
+    "verified_checkpoint_active_seconds": 20504.41819619434,
+    "segment_threshold_seconds": 27900,
+    "remaining_active_seconds": 7395.58180380566,
+    "allocation_end_utc": "2026-10-05T22:08:08Z",
+    "scheduled_advance_signal_approx_utc": "2026-10-05T22:05:08Z",
+    "recovery_slurm_sha256": "1345b8067e1b91384b331254ef1d56d573497917b660da21198d02d7d24fc624",
+    "expected_action": "USR1 requests checkpointed stop; exit 75 triggers same-job requeue with existing dependencies preserved.",
+    "qualification": "Expected script behavior; successful checkpoint, requeue and restored allocation require later verification. No scheduler start time is guaranteed.",
+    "current_scheduler_issue": false,
+    "manual_scheduling_action": false,
+    "reported": true,
+    "last_slurm_check": "2026-10-05T22:06:12.594490+00:00",
+    "expected_requeue_observed": true,
+    "actual_requeue_allocation_end_utc": "2026-10-05T22:06:30Z",
+    "next_allocation_started_utc": "2026-10-05T22:09:37Z"
+  },
+  "allocation_time_limit_watch_artifact": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/monitoring/ALLOCATION_001_TIME_LIMIT_WATCH.json",
+  "reported_timing_events": [
+    "24936931:restart1:2026-10-05T22:08:08Z"
+  ],
+  "pending_evaluation_checkpoint_verification": {
+    "completed_update": 1400,
+    "state_sha256": "75c713489c8807e3f552e402a162a620e01609b500e3caf4f9b6f464de41ec4e",
+    "complete_sha256": "6b53f9b8568ac0d1fb1ab2ad26f3c81ce8b3b2cfb22c9da105c7de49cc757891",
+    "state_independently_rehashed": true,
+    "evidence_path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/monitoring/20261006T145548Z_snapshot.json",
+    "evidence_sha256": "64099edf6c9b02d7e59faf50fd7102db12be1286f79906ef40370d2ffefa19ad",
+    "checked_at": "2026-10-06T14:55:48.379771+00:00",
+    "evaluation_complete": true,
+    "reported": true,
+    "evaluation_complete_sha256": "7cbadb9cfe93d012f18887ea31a43e00553a702c38ee38c74ac16f8203442824",
+    "verification_path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/monitoring/EVALUATION_001400_VERIFICATION.json",
+    "verification_sha256": "1a272f263c454925711c420b44ac295f3e10e96d50434dcb12d68a0705014f0b"
+  },
+  "evaluation300_reported_at": "2026-10-05T22:05:39.420104+00:00",
+  "previous_allocation_memory": {
+    "restart_count": 1,
+    "event_started_at": 1791216702.901454,
+    "resumed_update": 26,
+    "last_ppo_memory": {
+      "attempted_update": 305,
+      "ppo_call_status": "completed",
+      "error": null,
+      "duration_seconds": 30.307350764982402,
+      "peak_allocated_bytes": 30896671744,
+      "peak_reserved_bytes": 33866907648,
+      "end_device_free_bytes": 18759352320,
+      "device_total_bytes": 85019328512,
+      "end_host_rss_bytes": 99135934464,
+      "saved_tensor_transfers": {
+        "packed_cuda_tensors": 15408,
+        "packed_storage_bytes": 672926648064,
+        "noncontiguous_cuda_tensors": 3744,
+        "nonzero_offset_cuda_tensors": 12,
+        "expanded_cuda_tensors": 0,
+        "unpacked_cuda_tensors": 15180
+      },
+      "note": "PPO-call completion alone does not establish a committed checkpoint."
+    }
+  },
+  "pending_restart_verification": {
+    "status": "restoration_verified",
+    "restoration_verified": true,
+    "job_id": "24936933",
+    "restart_count": 2,
+    "resumed_update": 1273,
+    "verification_path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/monitoring/STAGE3_CATCHUP_RUNTIME_VERIFICATION.json",
+    "verification_sha256": "3a44506ad8df830b192f86f394a400a526fbdab95c6d6a19bd9c44fbe2e2269d"
+  },
+  "reported_scheduling_events": [
+    "24936931:requeue_to_restart2"
+  ],
+  "current_job_id": "24936933",
+  "evaluation350_reported_at": "2026-10-05T23:57:12.787340+00:00",
+  "evaluation390_reported_at": "2026-10-05T23:57:12.787340+00:00",
+  "evaluation400_reported_at": "2026-10-05T23:57:12.787340+00:00",
+  "runtime_milestone_audits": {
+    "RESTART_002_VERIFICATION.json": {
+      "path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/monitoring/RESTART_002_VERIFICATION.json",
+      "sha256": "dd68648a465455fd397ffecc64a5765371684119c782e13bd48418e6584eacf9"
+    },
+    "SEGMENT_001_VERIFICATION.json": {
+      "path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/monitoring/SEGMENT_001_VERIFICATION.json",
+      "sha256": "5408deb1ea80a3cf5b247803d3a027492fe478e45fbe92637196f43975973332"
+    },
+    "SEGMENT_002_START_VERIFICATION.json": {
+      "path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/monitoring/SEGMENT_002_START_VERIFICATION.json",
+      "sha256": "17237e843ee599e7ee77f1460ac07d50961dbe8e8c40036e28a313fc0a7929e2"
+    },
+    "STAGE3_CATCHUP_RUNTIME_VERIFICATION.json": {
+      "path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/monitoring/STAGE3_CATCHUP_RUNTIME_VERIFICATION.json",
+      "sha256": "3a44506ad8df830b192f86f394a400a526fbdab95c6d6a19bd9c44fbe2e2269d"
+    }
+  },
+  "reported_segment_starts": [
+    1,
+    2,
+    3
+  ],
+  "restart_verification_history": [
+    {
+      "job_id": "24936931",
+      "restart_count": 1,
+      "node": "node2900",
+      "resumed_update": 26,
+      "state_sha256": "50410dc0fd0863807d1b281d1a839ebe337d2dc7839763439e794b5302706021",
+      "restored_checkpoint_elapsed_seconds": 2237.291750857141,
+      "retained_active_clock_seconds": 2239.9694547243416,
+      "fixed_cumulative_thresholds": [
+        27900,
+        55800,
+        83700
+      ],
+      "preflight_event": "runtime_events/h100_memory_preflight_24936931_1791216512304512688.json",
+      "preflight_sha256": "a3a38c5ce4518b8770e394fe516d53752937f01510f7b4101a65d02e13d41183",
+      "observer_started_at": 1791216700.7167687,
+      "same_config_and_41_sources": true,
+      "guard_authorization_verified": true,
+      "fresh_initialization": false,
+      "scope": "Public startup attestation plus checkpoint hash and source-audited restore path; no tensors inspected locally.",
+      "verified_at": "2026-10-05T16:14:51.627179+00:00",
+      "reported": true,
+      "independent_audit": "Passed:79 public hashes,41 source hashes,24 observer model identities, checkpoint26 hash, runtime guard/auth, H100 toy parity and retained cumulative clock.",
+      "restoration_qualification": "Both optimizer states, RNG, streams, modes, PPO step/KL and optional scheduler/scaler are restored by verified frozen source; public artifacts attest checkpoint identity/update/elapsed and successful initialization. Individual tensor/optimizer field equality was not independently compared."
+    }
+  ],
+  "current_runtime_verification": {
+    "status": "passed",
+    "checked_at": "2026-10-06T14:50:21.692240+00:00",
+    "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+    "scope": "Independent local audit of public runtime, source and Slurm evidence; no remote commands, state loading, scheduling edits, frozen-source edits or launch edits.",
+    "snapshot": {
+      "path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/monitoring/stage3_catchup_plot_source_snapshot.json",
+      "sha256": "35a7cdf292d4495df44290c3696e0045c06e354ef0a6d4ded7ebba4cd0df030f",
+      "public_artifacts_hash_verified": 1861
+    },
+    "slurm_evidence": {
+      "path": "/private/tmp/qwen_current_stage3_slurm.txt",
+      "sha256": "26c79149fc2ced28d58ae164b8867fa67063b30d4afaf7a401202b90dd817b76",
+      "source_timezone": "America/New_York (EDT, UTC-04:00)",
+      "job_records": [
+        [
+          "24936931",
+          "PREEMPTED",
+          "0:0",
+          "00:37:55",
+          "2026-10-05T11:25:08",
+          "2026-10-05T12:03:03",
+          "node3009"
+        ],
+        [
+          "24936932",
+          "REQUEUED",
+          "0:0",
+          "05:57:01",
+          "2026-10-05T19:35:00",
+          "2026-10-06T01:32:01",
+          "node4109"
+        ],
+        [
+          "24936933",
+          "PREEMPTED",
+          "0:0",
+          "00:34:01",
+          "2026-10-06T03:31:53",
+          "2026-10-06T04:05:54",
+          "node2900"
+        ],
+        [
+          "24936931",
+          "REQUEUED",
+          "0:0",
+          "05:58:22",
+          "2026-10-05T12:08:08",
+          "2026-10-05T18:06:30",
+          "node2900"
+        ],
+        [
+          "24936931",
+          "COMPLETED",
+          "0:0",
+          "01:24:30",
+          "2026-10-05T18:09:37",
+          "2026-10-05T19:34:07",
+          "node4109"
+        ],
+        [
+          "24936932",
+          "COMPLETED",
+          "0:0",
+          "01:56:23",
+          "2026-10-06T01:34:42",
+          "2026-10-06T03:31:05",
+          "node2900"
+        ],
+        [
+          "24936933",
+          "PREEMPTED",
+          "0:0",
+          "04:51:55",
+          "2026-10-06T04:09:52",
+          "2026-10-06T09:01:47",
+          "node2905"
+        ],
+        [
+          "24936933",
+          "RUNNING",
+          "0:0",
+          "01:29:03",
+          "2026-10-06T09:05:38",
+          "Unknown",
+          "node3009"
+        ]
+      ],
+      "current_partition": "mit_preemptable",
+      "requested_resources": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1",
+      "allocated_resources": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1",
+      "dependency": "afterok:24936932 fulfilled; current Dependency=(null)",
+      "current_allocation_expiry_utc": "2026-10-06T19:05:38Z",
+      "current_allocation_signal_utc": "2026-10-06T19:02:38Z",
+      "scheduling_issue": null,
+      "transition_notes": [
+        "Stage2 initial allocation requeued at 2026-10-06T05:32:01Z, 179 seconds before its six-hour limit, consistent with the pinned USR1@180/exit75 requeue policy.",
+        "Stage2 resumed at 2026-10-06T05:34:42Z on node2900 and completed at 2026-10-06T07:31:05Z; stage3 began 48 seconds later.",
+        "Stage3 initial allocation preempted at 08:05:54Z; batch ended 08:06:55Z, before restart1 began 08:09:52Z.",
+        "Stage3 restart1 preempted at 13:01:47Z; batch ended 13:02:32Z, before restart2 began 13:05:38Z.",
+        "Accounting has no overlapping allocation/batch intervals among these transitions. Run LOCK ownership was not independently inspected by this local audit."
+      ]
+    },
+    "source_provenance": {
+      "original_sources_hash_verified": 41,
+      "model_artifact_hash_identities_verified": 24,
+      "config_digest_verified": true,
+      "model_manifest_sha256": "193e597d325859c6ea35697dbe0be4ea87fbee35b73a3937afb6efe7956d171b",
+      "observer_runtime_manifest_sha256": "ba4f20c04e00299903c35db5e70fc0a3ccceb641632064717ea66fcdd4a3092d",
+      "recovery_manifest_sha256": "9fb3bd356069d2d82dcefac7188a73ad57bf3539c23e3d5079ab13ee5c058c89",
+      "authorization_sha256": "c5d01efc8566710ec8cb64faa4224d4965e95f1fbf03507bf3ddd2d36964513c",
+      "current_submit_environment_recovery_sha256_verified": true,
+      "only_authorized_runtime_checksum_override": true
+    },
+    "allocations": [
+      {
+        "job_id": "24936932",
+        "restart_count": 1,
+        "node": "node2900",
+        "resumed_update": 800,
+        "slurm_start_time": "2026-10-06T01:34:42",
+        "allocation_started_at": "2026-10-06T05:34:42Z",
+        "checkpoint": {
+          "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000800",
+          "marker": {
+            "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+            "completed_update": 800,
+            "state_sha256": "4ab737c89e40b3d8325e1c9af012f6c661f1850152dda1a5cf2e14d3ed340180",
+            "elapsed": 49466.15180232236,
+            "phase": "receiver"
+          },
+          "complete_sha256": "733d62907993c200a08afa4953332aaf6a007c042d50878b07ad45f7627d8c2c"
+        },
+        "preflight_event": "runtime_events/h100_memory_preflight_24936932_1791264907492213107.json",
+        "preflight_sha256": "369da2f2875670890cfd5443dcb90c93b58730feffc984ccd34b95c832cc3bea",
+        "observer_event": "runtime_events/qwen_observer_24936932_1791265106748247843.json",
+        "observer_sha256": "17019c578e8297078a7654218b120f07e8e2573b0ea4ad2c79a669c8c204f44a",
+        "observer_started_at": 1791265106.7477999,
+        "observer_started_at_utc": "2026-10-06T05:38:26.747800Z",
+        "offload_event": "runtime_events/h100_memory_24936932_1791265109719262643.json",
+        "offload_sha256": "3a021af6c5d1c684f7aac86de8a369a2ea81d03f5f83c31a4f20cce58b44ba8c",
+        "offload_enabled_at": 1791265109.7192733,
+        "restored_elapsed_seconds": 49466.15180232236,
+        "public_checkpoint_marker_retained": true,
+        "independent_state_rehash_this_audit": false,
+        "runtime_attested_state_hash_and_restore": true,
+        "initialization_verified": true,
+        "fresh_baseline_initialization": false,
+        "toy_parity_passed": true,
+        "observer_science_model_runtime_and_authorization_pins_passed": true,
+        "cleanup_metadata_modes_rng_passed": true,
+        "last_ppo_attempt": 886,
+        "last_ppo_status": "completed"
+      },
+      {
+        "job_id": "24936933",
+        "restart_count": 0,
+        "node": "node2900",
+        "resumed_update": 886,
+        "slurm_start_time": "2026-10-06T03:31:53",
+        "allocation_started_at": "2026-10-06T07:31:53Z",
+        "checkpoint": {
+          "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000886",
+          "marker": {
+            "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+            "completed_update": 886,
+            "state_sha256": "257d1bc62202c044bdf332f5bb4c7e9b4898b4bc1d33fb98e77cad9a8703123a",
+            "elapsed": 55810.18824111391,
+            "phase": "sender"
+          },
+          "complete_sha256": "8ff3f7f47ef1a505fc278d397a6b7c50a2fd6ee6898b0a41a5e36d300e70d593"
+        },
+        "preflight_event": "runtime_events/h100_memory_preflight_24936933_1791271928259718576.json",
+        "preflight_sha256": "7300b7248e45dfc9966159935ca70657195dd82e351cb7be7bbbc3c762b13a95",
+        "observer_event": "runtime_events/qwen_observer_24936933_1791272095952323912.json",
+        "observer_sha256": "07b5d5d1f8a491180a30dc134eda826c77b38e9c6e9b976e3ee730fa31ddfb43",
+        "observer_started_at": 1791272095.9518461,
+        "observer_started_at_utc": "2026-10-06T07:34:55.951846Z",
+        "offload_event": "runtime_events/h100_memory_24936933_1791272098088195948.json",
+        "offload_sha256": "4796e8fe4b2581507b30374434db67b7ba59c25809eb222586ebe1e1578bb005",
+        "offload_enabled_at": 1791272098.0882087,
+        "restored_elapsed_seconds": 55810.18824111391,
+        "public_checkpoint_marker_retained": true,
+        "independent_state_rehash_this_audit": true,
+        "runtime_attested_state_hash_and_restore": true,
+        "initialization_verified": true,
+        "fresh_baseline_initialization": false,
+        "toy_parity_passed": true,
+        "observer_science_model_runtime_and_authorization_pins_passed": true,
+        "cleanup_metadata_modes_rng_passed": true,
+        "last_ppo_attempt": 910,
+        "last_ppo_status": "completed"
+      },
+      {
+        "job_id": "24936933",
+        "restart_count": 1,
+        "node": "node2905",
+        "resumed_update": 911,
+        "slurm_start_time": "2026-10-06T04:09:52",
+        "allocation_started_at": "2026-10-06T08:09:52Z",
+        "checkpoint": {
+          "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000911",
+          "marker": {
+            "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+            "completed_update": 911,
+            "state_sha256": "fad6c2070b6d28d69231ceb55f01906a4ebb4cdafd8ef3da8be151e5f7fbf0b4",
+            "elapsed": 58041.90664450452,
+            "phase": "receiver"
+          },
+          "complete_sha256": "990c454b95c6290f21b11167971fdd8035727aff7569bf1e08bc9af312d3b258"
+        },
+        "preflight_event": "runtime_events/h100_memory_preflight_24936933_1791274224464155447.json",
+        "preflight_sha256": "82643ba355a8d5e0557c263b7f966d1f52e29e707f20ffc185263391bc96f791",
+        "observer_event": "runtime_events/qwen_observer_24936933_1791274410219600897.json",
+        "observer_sha256": "6e4b1e511683e923ccb7f5e41d22c3d65a3616c71fbbd59b5c9e07bef05f2bdf",
+        "observer_started_at": 1791274410.2190661,
+        "observer_started_at_utc": "2026-10-06T08:13:30.219066Z",
+        "offload_event": "runtime_events/h100_memory_24936933_1791274412765715900.json",
+        "offload_sha256": "3985dd6c1e0ce5ef49077642a4acabd293da327d7034b4ff50b02090c8ed4730",
+        "offload_enabled_at": 1791274412.765724,
+        "restored_elapsed_seconds": 58041.90664450452,
+        "public_checkpoint_marker_retained": false,
+        "independent_state_rehash_this_audit": false,
+        "runtime_attested_state_hash_and_restore": true,
+        "initialization_verified": true,
+        "fresh_baseline_initialization": false,
+        "toy_parity_passed": true,
+        "observer_science_model_runtime_and_authorization_pins_passed": true,
+        "cleanup_metadata_modes_rng_passed": true,
+        "last_ppo_attempt": 1274,
+        "last_ppo_status": "completed"
+      },
+      {
+        "job_id": "24936933",
+        "restart_count": 2,
+        "node": "node3009",
+        "resumed_update": 1273,
+        "slurm_start_time": "2026-10-06T09:05:38",
+        "allocation_started_at": "2026-10-06T13:05:38Z",
+        "checkpoint": {
+          "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_001273",
+          "marker": {
+            "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+            "completed_update": 1273,
+            "state_sha256": "7b5d396ff6237374ec4896ccea059c35649ae50f0a4e765c10db354b266c285a",
+            "elapsed": 75361.65301800438,
+            "phase": "sender"
+          },
+          "complete_sha256": "c8c1ac5b8311c34e3990f3eee13c786426d0154abbc005e1f50898afdb6eb059"
+        },
+        "preflight_event": "runtime_events/h100_memory_preflight_24936933_1791291964452921628.json",
+        "preflight_sha256": "4371098af140aa907aa08a297ed9540ad57eee7a558105b28d7b52a03b4dc0ab",
+        "observer_event": "runtime_events/qwen_observer_24936933_1791292126944835472.json",
+        "observer_sha256": "7478566f6890df6cf5c8ad099557e8b39cbfaa45546033d0fb2eca746db18668",
+        "observer_started_at": 1791292126.9443095,
+        "observer_started_at_utc": "2026-10-06T13:08:46.944309Z",
+        "offload_event": "runtime_events/h100_memory_24936933_1791292129147072810.json",
+        "offload_sha256": "77db1e1b150d608c3aab3592d7828c097f1ef9ca402815ce37fcb1d9a3d4311e",
+        "offload_enabled_at": 1791292129.1470802,
+        "restored_elapsed_seconds": 75361.65301800438,
+        "public_checkpoint_marker_retained": false,
+        "independent_state_rehash_this_audit": false,
+        "runtime_attested_state_hash_and_restore": true,
+        "initialization_verified": true,
+        "fresh_baseline_initialization": false,
+        "toy_parity_passed": true,
+        "observer_science_model_runtime_and_authorization_pins_passed": true,
+        "cleanup_metadata_modes_rng_passed": true,
+        "last_ppo_attempt": 1379,
+        "last_ppo_status": "completed"
+      }
+    ],
+    "current_allocation": {
+      "job_id": "24936933",
+      "restart_count": 2,
+      "node": "node3009",
+      "resumed_update": 1273,
+      "slurm_start_time": "2026-10-06T09:05:38",
+      "allocation_started_at": "2026-10-06T13:05:38Z",
+      "checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_001273",
+        "marker": {
+          "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+          "completed_update": 1273,
+          "state_sha256": "7b5d396ff6237374ec4896ccea059c35649ae50f0a4e765c10db354b266c285a",
+          "elapsed": 75361.65301800438,
+          "phase": "sender"
+        },
+        "complete_sha256": "c8c1ac5b8311c34e3990f3eee13c786426d0154abbc005e1f50898afdb6eb059"
+      },
+      "preflight_event": "runtime_events/h100_memory_preflight_24936933_1791291964452921628.json",
+      "preflight_sha256": "4371098af140aa907aa08a297ed9540ad57eee7a558105b28d7b52a03b4dc0ab",
+      "observer_event": "runtime_events/qwen_observer_24936933_1791292126944835472.json",
+      "observer_sha256": "7478566f6890df6cf5c8ad099557e8b39cbfaa45546033d0fb2eca746db18668",
+      "observer_started_at": 1791292126.9443095,
+      "observer_started_at_utc": "2026-10-06T13:08:46.944309Z",
+      "offload_event": "runtime_events/h100_memory_24936933_1791292129147072810.json",
+      "offload_sha256": "77db1e1b150d608c3aab3592d7828c097f1ef9ca402815ce37fcb1d9a3d4311e",
+      "offload_enabled_at": 1791292129.1470802,
+      "restored_elapsed_seconds": 75361.65301800438,
+      "public_checkpoint_marker_retained": false,
+      "independent_state_rehash_this_audit": false,
+      "runtime_attested_state_hash_and_restore": true,
+      "initialization_verified": true,
+      "fresh_baseline_initialization": false,
+      "toy_parity_passed": true,
+      "observer_science_model_runtime_and_authorization_pins_passed": true,
+      "cleanup_metadata_modes_rng_passed": true,
+      "last_ppo_attempt": 1379,
+      "last_ppo_status": "completed"
+    },
+    "segments": {
+      "1": {
+        "complete_sha256": "1d0a4fe1f3ffdbca5d134741d22aa0e03aaee311846e9dc7192863ad2449ddcd",
+        "budget_sha256": "62befc38e7bfe7f4f48b089f3dd8391ec65d927746ec2f204ea52f93e75dec39",
+        "completed_update": 390,
+        "active_threshold_seconds": 27900,
+        "total_active_budget_seconds": 83700,
+        "checkpoint": {
+          "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000390",
+          "completed_update": 390,
+          "complete_sha256": "d9d01d85c1bea776c6154eefe936df1fd1a6064799072bbae9492ce7a211a6b1",
+          "state_sha256": "de8eba38536c759c71f65b645eb2bddf57fa5104bae507e50f38c3b6dc51ce0f",
+          "elapsed": 27941.067958471365
+        },
+        "evaluation_complete_sha256": "bbd3976eb0e6a2d6f90ca5844da0ff17e77184a6e5fa26b66334aedbf147aeb1",
+        "budget_active_seconds": 27943.040357485414,
+        "completion_active_seconds": 28194.538099765778
+      },
+      "2": {
+        "complete_sha256": "d8bc87a39c2a652b0b77cbf022dd1848bf2032ac7d5544cd82a6ae6cf191b81a",
+        "budget_sha256": "bb68e2b67492ddef800a2be57179110b74988491d24810f2733cdda0b5bd0768",
+        "completed_update": 886,
+        "active_threshold_seconds": 55800,
+        "total_active_budget_seconds": 83700,
+        "checkpoint": {
+          "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000886",
+          "completed_update": 886,
+          "complete_sha256": "8ff3f7f47ef1a505fc278d397a6b7c50a2fd6ee6898b0a41a5e36d300e70d593",
+          "state_sha256": "257d1bc62202c044bdf332f5bb4c7e9b4898b4bc1d33fb98e77cad9a8703123a",
+          "elapsed": 55810.18824111391
+        },
+        "evaluation_complete_sha256": "32215438c9668fb65bf77f8ebb85eeb52035626f00f436450a55aab379569699",
+        "budget_active_seconds": 55812.55024976563,
+        "completion_active_seconds": 56195.559503004886
+      }
+    },
+    "checkpoint_evidence": {
+      "independent_retained_boundary_state": {
+        "completed_update": 886,
+        "checkpoint_path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000886",
+        "marker_sha256": "8ff3f7f47ef1a505fc278d397a6b7c50a2fd6ee6898b0a41a5e36d300e70d593",
+        "marker": {
+          "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+          "completed_update": 886,
+          "state_sha256": "257d1bc62202c044bdf332f5bb4c7e9b4898b4bc1d33fb98e77cad9a8703123a",
+          "elapsed": 55810.18824111391,
+          "phase": "sender"
+        },
+        "state_exists": true,
+        "state_sha256_verified": true,
+        "state_sha256": "257d1bc62202c044bdf332f5bb4c7e9b4898b4bc1d33fb98e77cad9a8703123a",
+        "state_bytes": 842440258
+      },
+      "remote_audit_path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/monitoring/STAGE3_CATCHUP_CHECKPOINT_REMOTE_AUDIT.json",
+      "remote_audit_sha256": "28b201b2bd6034f9de6bb1fdcfbf9e80c763309fc1de1fc3aada987587142d68",
+      "latest_completed_update": 1380,
+      "latest_state_sha256": "88485a47f75a04e56f5242cf3d4c7b8693c260c9454799e8f1609be95de39938",
+      "latest_state_hash_verified_by_remote_snapshot": true,
+      "latest_marker_sha256": "6b3ae63f79afd0b6f624737f10ea42a994205d11a2d1d828886aa05350af2bdc",
+      "latest_checkpoint_elapsed_seconds": 80763.2565350933,
+      "restore_state_qualification": "Checkpoints800,911,1273 were selected and hash/restore verified by the frozen startup runtime. This local audit independently checks their public preflight identity bindings; it did not rehash those historical states after retention pruning or compare restored tensors/optimizer/RNG fields directly."
+    },
+    "active_clock": {
+      "schema_version": 1,
+      "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+      "segment": 3,
+      "active_threshold_seconds": 83700,
+      "total_active_budget_seconds": 83700,
+      "checkpoint": {
+        "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_001380",
+        "completed_update": 1380,
+        "complete_sha256": "6b3ae63f79afd0b6f624737f10ea42a994205d11a2d1d828886aa05350af2bdc",
+        "state_sha256": "88485a47f75a04e56f5242cf3d4c7b8693c260c9454799e8f1609be95de39938",
+        "elapsed": 80763.2565350933
+      },
+      "active_seconds": 80765.10461758915,
+      "recorded_at": 1791297529.8030775,
+      "sha256": "f9f0ad9b094c239ae4033e9af4bdb458381f20f5a3c40c721be59dfe69f7f781",
+      "remaining_seconds_at_verified_snapshot": 2934.8953824108467,
+      "fixed_thresholds": [
+        27900,
+        55800,
+        83700
+      ],
+      "continuity_verified": true,
+      "continuity_scope": "Frozen restore_clock validates checkpoint/segment bindings and preserves recorded active seconds with max(self.elapsed, seconds); a newer checkpoint must include prior recorded time. Preflight elapsed precedes that separate clock restore. Segment2 checkpoint elapsed55810.18824111391, completion active56195.559503004886, and subsequent checkpoint/clock increases are consistent with this policy. No threshold reset, extension or rebase is evidenced."
+    },
+    "evaluation_memory_events": [
+      {
+        "path": "runtime_events/h100_eval_memory_24936932_1791244154598361991.json",
+        "sha256": "5c1b6af54265430bef5b68a09bd44b4a79e4a6a524da5f2ac1ec6b7ec00c6489",
+        "completed_update": 400,
+        "slurm_job_id": "24936932",
+        "restart_count": 0,
+        "status": "original_judge_completed",
+        "checkpoint_complete_sha256": "6f0ca2d7118eac082f122e5e812929911c34efffab282f8df4c8c2cf81d4cce4",
+        "evaluation_complete_sha256": "cf0afa41be23433f3738ed90db062dde7cd68c13e4d8b676a8040418bc456675",
+        "cleanup_invariants_verified": true
+      },
+      {
+        "path": "runtime_events/h100_eval_memory_24936932_1791246869462027504.json",
+        "sha256": "ee18dd0e22a57d72754fdd45407b7c6fe3dfe454695c961f87a6eff9f8491787",
+        "completed_update": 450,
+        "slurm_job_id": "24936932",
+        "restart_count": 0,
+        "status": "original_judge_completed",
+        "checkpoint_complete_sha256": "cb5cdc77bd47c280d9dbd6bdbde6f565f87332e0c63021f5895b8b206e58e93e",
+        "evaluation_complete_sha256": "bc0b537179470502ad892f4f9d13af6b0e310e2f6214e16e72ee9d0fab35f6a3",
+        "cleanup_invariants_verified": true
+      },
+      {
+        "path": "runtime_events/h100_eval_memory_24936932_1791249545853044198.json",
+        "sha256": "deaf2e28f3916e15cf5bd3efb88cb561a8a313e1612fbd95391608a23c00a5c3",
+        "completed_update": 500,
+        "slurm_job_id": "24936932",
+        "restart_count": 0,
+        "status": "original_judge_completed",
+        "checkpoint_complete_sha256": "1f98d3f5fad5372d206c73bd63b4d9087e772e2d59a80e5ec6352aa6bad4206a",
+        "evaluation_complete_sha256": "682cc10b9983995b1b8ec2e975371fc3930f5999dea1e3550282d8957385ee49",
+        "cleanup_invariants_verified": true
+      },
+      {
+        "path": "runtime_events/h100_eval_memory_24936932_1791252119140714848.json",
+        "sha256": "d560c4949a2bfc9da6f158bbec2c5c6e5bdf0592424412a430fefe01d3b1a795",
+        "completed_update": 550,
+        "slurm_job_id": "24936932",
+        "restart_count": 0,
+        "status": "original_judge_completed",
+        "checkpoint_complete_sha256": "d0f41e4c85883fc99a85ca09cce817e53036fdf24ce30e3f4dee7784700a215f",
+        "evaluation_complete_sha256": "0e3fd21594862db2d6b87afa6374f4661ff69902b431cf4db4ff4e5f79837255",
+        "cleanup_invariants_verified": true
+      },
+      {
+        "path": "runtime_events/h100_eval_memory_24936932_1791254726110759588.json",
+        "sha256": "b5b89e8a3320ab6796870f2ced78a791e700bb11887243613432c5a281efbeb9",
+        "completed_update": 600,
+        "slurm_job_id": "24936932",
+        "restart_count": 0,
+        "status": "original_judge_completed",
+        "checkpoint_complete_sha256": "857dcdd42f2abbfdc3ed32274219f048b37c73f20415a10fc406bc96e8a277f7",
+        "evaluation_complete_sha256": "0c366a68d0f1ddc285bc15a69ad7f95d7650b1284426585e22d241b4aebaf773",
+        "cleanup_invariants_verified": true
+      },
+      {
+        "path": "runtime_events/h100_eval_memory_24936932_1791257351320876094.json",
+        "sha256": "7b7313e42c3963174b6b1e2b42a77a79e8be7cb04af606d7e557029a4a53fb1f",
+        "completed_update": 650,
+        "slurm_job_id": "24936932",
+        "restart_count": 0,
+        "status": "original_judge_completed",
+        "checkpoint_complete_sha256": "163c17d952821a3071b0817e6cf0902591e18d318e2bfeb08636f75514b34c05",
+        "evaluation_complete_sha256": "a0e03e30759e215eafe06ffe8dd50c9a71eaca2a999463e805f6f46488f6f00b",
+        "cleanup_invariants_verified": true
+      },
+      {
+        "path": "runtime_events/h100_eval_memory_24936932_1791259964782705113.json",
+        "sha256": "bdbd0dec232bafbf533fd34fefd32b126c68ddb1d88bedca76e3df42ffaccfa5",
+        "completed_update": 700,
+        "slurm_job_id": "24936932",
+        "restart_count": 0,
+        "status": "original_judge_completed",
+        "checkpoint_complete_sha256": "113caa4da39388eb2c5c5f580e5450e519bd38686f3cd51f7f8c3e4c74aa247b",
+        "evaluation_complete_sha256": "31828433312dab415eb334e396af79b4ab0b1b3fe3fc1630d8b5cd120105e834",
+        "cleanup_invariants_verified": true
+      },
+      {
+        "path": "runtime_events/h100_eval_memory_24936932_1791262419833776729.json",
+        "sha256": "d768d21c4e757830cc5198b60fe3c316bc128c5f2c24b5775ced70fe5892aa14",
+        "completed_update": 750,
+        "slurm_job_id": "24936932",
+        "restart_count": 0,
+        "status": "original_judge_completed",
+        "checkpoint_complete_sha256": "6cbb5ae76a889b9f6200442c59db7e43724f119b624f5ef68d9883c4e7870c96",
+        "evaluation_complete_sha256": "440308170c37c836354b0e233d2ea8b4103fce576da04f579a3fe687e8045d91",
+        "cleanup_invariants_verified": true
+      },
+      {
+        "path": "runtime_events/h100_eval_memory_24936932_1791265467953397837.json",
+        "sha256": "09656c5ecf55603f0e22b46489dfbd321f9429d959fbab5ef71c790f4675fc46",
+        "completed_update": 800,
+        "slurm_job_id": "24936932",
+        "restart_count": 1,
+        "status": "original_judge_completed",
+        "checkpoint_complete_sha256": "733d62907993c200a08afa4953332aaf6a007c042d50878b07ad45f7627d8c2c",
+        "evaluation_complete_sha256": "2b249e6adf9eb707e9a46336a08d1403fc6dcde8fe64418791fd4441dfc556d2",
+        "cleanup_invariants_verified": true
+      },
+      {
+        "path": "runtime_events/h100_eval_memory_24936932_1791269228232187415.json",
+        "sha256": "27b69b39e5a024903325ef126641ad52fc64c786f6d5d2ae2a65bc9c81c0d1c6",
+        "completed_update": 850,
+        "slurm_job_id": "24936932",
+        "restart_count": 1,
+        "status": "original_judge_completed",
+        "checkpoint_complete_sha256": "be32785aef4ed96d1f59803cd84c3e2fc888c064070ee0a45f0982c8dd012f89",
+        "evaluation_complete_sha256": "ec04344173ad3df877c0e6103c426103590b7d8ab5d59ada3fb441a2299c6d9b",
+        "cleanup_invariants_verified": true
+      },
+      {
+        "path": "runtime_events/h100_eval_memory_24936932_1791271748985888688.json",
+        "sha256": "b8244e31c9e4fd2a76ff8a891a3dec10b2facb0860a46a4a3a6cf7d5f21b56a6",
+        "completed_update": 886,
+        "slurm_job_id": "24936932",
+        "restart_count": 1,
+        "status": "original_judge_completed",
+        "checkpoint_complete_sha256": "8ff3f7f47ef1a505fc278d397a6b7c50a2fd6ee6898b0a41a5e36d300e70d593",
+        "evaluation_complete_sha256": "32215438c9668fb65bf77f8ebb85eeb52035626f00f436450a55aab379569699",
+        "cleanup_invariants_verified": true
+      },
+      {
+        "path": "runtime_events/h100_eval_memory_24936933_1791273256480421697.json",
+        "sha256": "c42ac91cccebc090b2738581c47bf1313ec033292a9c7b586d0853f41464c18e",
+        "completed_update": 900,
+        "slurm_job_id": "24936933",
+        "restart_count": 0,
+        "status": "original_judge_completed",
+        "checkpoint_complete_sha256": "ca4a0dd648721f215e797baf33da311beec3e658a2423450cb6aab59db42705c",
+        "evaluation_complete_sha256": "a554872922d75508b2147c201c871535ed17a204be37b0510557809634328df1",
+        "cleanup_invariants_verified": true
+      },
+      {
+        "path": "runtime_events/h100_eval_memory_24936933_1791276396051261477.json",
+        "sha256": "4e734880cd46b4f2b56610f84ab728c3f71addd0196b96c09da42d94165487ce",
+        "completed_update": 950,
+        "slurm_job_id": "24936933",
+        "restart_count": 1,
+        "status": "original_judge_completed",
+        "checkpoint_complete_sha256": "f669aaf0bf8c4324351178808f9d36464f7c15508e095ef92c032231cefb39a7",
+        "evaluation_complete_sha256": "fc71f5d79c7a4f85bbea6b3b4e087295a30402bd54be9bfc08aab221962098b7",
+        "cleanup_invariants_verified": true
+      },
+      {
+        "path": "runtime_events/h100_eval_memory_24936933_1791278887237683799.json",
+        "sha256": "19417bdb68d53ed1facf2f661bb20458b564ab6993681159c0bb6bd6a6323069",
+        "completed_update": 1000,
+        "slurm_job_id": "24936933",
+        "restart_count": 1,
+        "status": "original_judge_completed",
+        "checkpoint_complete_sha256": "4565064e0e065e2c906958afe3bd30c32d783e692d5b7bacf81f2a8242e8ab2f",
+        "evaluation_complete_sha256": "f11cd10c4980f312ce34012136db429c519c71cbd58b1532c43a9bdda0fcf2d8",
+        "cleanup_invariants_verified": true
+      },
+      {
+        "path": "runtime_events/h100_eval_memory_24936933_1791281219411239304.json",
+        "sha256": "838da23daab138bb0256ddac63bbca36abaaf1c98fb162278d37b2ae583ceece",
+        "completed_update": 1050,
+        "slurm_job_id": "24936933",
+        "restart_count": 1,
+        "status": "original_judge_completed",
+        "checkpoint_complete_sha256": "9896f7ad7a1150a022d1726850d67bd7e3d3561c6b899bbbd113d8c0ea584d78",
+        "evaluation_complete_sha256": "24066a4ae8237999604ae9ac4d0a958962020fb160836ffccb71b52f715d2162",
+        "cleanup_invariants_verified": true
+      },
+      {
+        "path": "runtime_events/h100_eval_memory_24936933_1791283687284255893.json",
+        "sha256": "bed3c2d12ad51ee6ba4cf8b5804ec95e19cf5489c9e97c33f1d73cbe8fac10ee",
+        "completed_update": 1100,
+        "slurm_job_id": "24936933",
+        "restart_count": 1,
+        "status": "original_judge_completed",
+        "checkpoint_complete_sha256": "de6f488a07949d9c5906e822669b8c582c1816b5c50109f55bffa95a6f481d34",
+        "evaluation_complete_sha256": "2a0e09832d4ae06ed66a7b88ce387dcd78b32da8c48613dfb972f9d1bb2c071c",
+        "cleanup_invariants_verified": true
+      },
+      {
+        "path": "runtime_events/h100_eval_memory_24936933_1791285991488998519.json",
+        "sha256": "a53326a391facc2dcd0df59db9ca15a2900f4edf17e69474da2c2ad6bf94681a",
+        "completed_update": 1150,
+        "slurm_job_id": "24936933",
+        "restart_count": 1,
+        "status": "original_judge_completed",
+        "checkpoint_complete_sha256": "0fda1c30b0c5f8054b4512ae8df5a155bd1fce82a50efb6f2700c48114f7b325",
+        "evaluation_complete_sha256": "42ddb825b300c0c7f18f02ce9df5bf53b0ae8aff4c7c0ae51cdce97842deb540",
+        "cleanup_invariants_verified": true
+      },
+      {
+        "path": "runtime_events/h100_eval_memory_24936933_1791288271286339723.json",
+        "sha256": "13844ec93817e23f77b63b21a7d5dd297824e808200da9f4fa548ea412c97c2a",
+        "completed_update": 1200,
+        "slurm_job_id": "24936933",
+        "restart_count": 1,
+        "status": "original_judge_completed",
+        "checkpoint_complete_sha256": "787d9d744cdbc869f374ffe721d0a8e7b61f5f1dd9c325cdd5f3b04b39ddf88e",
+        "evaluation_complete_sha256": "2b316a5f5e5b991f7de870f24351fb7ca365dde034199479a56534f57b51491f",
+        "cleanup_invariants_verified": true
+      },
+      {
+        "path": "runtime_events/h100_eval_memory_24936933_1791290660021948973.json",
+        "sha256": "12718f18c4d08e875d3c09db37d5aad26f66b52d99a39ac6e90e17ef1e610ecd",
+        "completed_update": 1250,
+        "slurm_job_id": "24936933",
+        "restart_count": 1,
+        "status": "original_judge_completed",
+        "checkpoint_complete_sha256": "d9197cfa6eb7509704b8669178d1585b576ec5c61f3367be1126e1834251b282",
+        "evaluation_complete_sha256": "27759fa5502421007f6b9341445d1b104b7c407825ac6c2ac797c7ea941608f1",
+        "cleanup_invariants_verified": true
+      },
+      {
+        "path": "runtime_events/h100_eval_memory_24936933_1791293593893190356.json",
+        "sha256": "3ee5c473c6bd90d768d0357aed63fa221858b6e33faadc71f52ea3cb2c3a420c",
+        "completed_update": 1300,
+        "slurm_job_id": "24936933",
+        "restart_count": 2,
+        "status": "original_judge_completed",
+        "checkpoint_complete_sha256": "120e4f87a2dcc0b7603f282bff7207285888bcc5dcc5ebac24cbd627d66d68d4",
+        "evaluation_complete_sha256": "09e416cb3496a514ab80910bd997f3670866f1b88ade462e49f365b1ca64f869",
+        "cleanup_invariants_verified": true
+      },
+      {
+        "path": "runtime_events/h100_eval_memory_24936933_1791296168498561662.json",
+        "sha256": "a05501c02eebdbb5dba3a8570d765c4e3bd154ff105260637273b950f2489c55",
+        "completed_update": 1350,
+        "slurm_job_id": "24936933",
+        "restart_count": 2,
+        "status": "original_judge_completed",
+        "checkpoint_complete_sha256": "3526d89322a9c29eb66ea36756dd293717bb219b307d95e855b5c2911d576865",
+        "evaluation_complete_sha256": "7448d007ea79ede013936ceae6f258cd739ed5d0d0cb9a0986fb4ab90dfd2f9a",
+        "cleanup_invariants_verified": true
+      }
+    ],
+    "runtime_invariants": {
+      "all_four_unseen_allocations_resumed_this_run": true,
+      "no_fresh_initialization": true,
+      "exact_cuda_toy_parity_before_models": true,
+      "observer_fp8_nonthinking_prompt_token_ids_and_score_formula_verified": true,
+      "finite_varied_startup_scores": true,
+      "all_new_evaluation_memory_events_completed": true,
+      "cleanup_metadata_rng_invariants_passed": true,
+      "observer_cleanup_modes_invariants_passed": true,
+      "full_storage_offload_only_ppo_step": true,
+      "full_model_numerical_equivalence_claimed": false,
+      "independent_per_tensor_restore_comparison": false
+    },
+    "latest_committed_ppo_memory": {
+      "attempted_update": 1379,
+      "ppo_call_status": "completed",
+      "error": null,
+      "duration_seconds": 26.277316295541823,
+      "peak_allocated_bytes": 29848008704,
+      "peak_reserved_bytes": 33596375040,
+      "end_device_free_bytes": 19031982080,
+      "device_total_bytes": 85019328512,
+      "end_host_rss_bytes": 99020333056,
+      "saved_tensor_transfers": {
+        "packed_cuda_tensors": 15408,
+        "packed_storage_bytes": 638963021568,
+        "noncontiguous_cuda_tensors": 3744,
+        "nonzero_offset_cuda_tensors": 12,
+        "expanded_cuda_tensors": 0,
+        "unpacked_cuda_tensors": 15180
+      },
+      "note": "PPO-call completion alone does not establish a committed checkpoint."
+    },
+    "historical_artifacts": {
+      "root_failure_sha256": "70161f30a8b40900ec2f7aa535a6e2ed58009a59869bc1acf82456fb060536ef",
+      "new_failure": false,
+      "original_initialization_artifact_scope": "INITIALIZATION.json remains the original checkpoint0 initialization; the four preflight events and current resumed smoke establish subsequent restore state.",
+      "current_resumed_smoke": {
+        "path": "smoke.json",
+        "sha256": "d8ff44515f594181c0453f69b3949d97101b9be030d2756a7ac1074765238bc4"
+      },
+      "full_cycle_smoke": {
+        "path": "FULL_CYCLE_SMOKE.json",
+        "sha256": "e962d758e5f2b94bee1bf3305c4e4675b6f3cfbe6d6490ec3b58a8d3ee60d578"
+      },
+      "full_cycle_qualification": "Original update7 smoke remains corroborated by later verified checkpoints; its step7 state/marker were not independently rehashed before normal retention pruned them. Preserve monitoring/FULL_CYCLE_VERIFICATION.json.",
+      "preempted_marker": {
+        "path": "PREEMPTED.json",
+        "sha256": "3099dd9a3ad2ef52f144f54a3f42d3d7f35ce345c438eac9cbd50646df47d61d"
+      },
+      "preempted_marker_timestamp": 1791273982.0897145,
+      "preempted_marker_qualification": "This public marker records the first stage3 preemption and predates restart1; it is not evidence for the later preemption."
+    },
+    "qualifications": [
+      "Restart1 last PPO attempted update1274 completed, but restart2 selected committed1273. PPO-call completion alone is not a checkpoint commit; no rollback of committed1274 is claimed.",
+      "State/model tensors and private reasoning remain remote. Source-defined preservation of model weights, optimizers, RNG, streams, modes and PPO/KL state is corroborated by restored checkpoint/update/elapsed and continuing commits, not independent per-tensor comparison.",
+      "Evaluation identity/hash binding was rechecked with the frozen public helper; detailed evaluation row/statistic audits are maintained separately by the parent.",
+      "packed_storage_bytes is cumulative saved-tensor transfer volume, not resident host memory. Latest PPO memory here is from committed attempt1379, capped below verified1380.",
+      "Two stage3 preemptions are scheduling interruptions with successful resumes; no new numerical/OOM/provenance failure is evidenced.",
+      "No segment3 or global completion was present at this snapshot."
+    ],
+    "future_ingestion_helper": {
+      "path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/monitoring/ingest_stage3_monitor.py",
+      "sha256": "0ca6758d8a83db2adf9546940714a2abfa50af46b2a7b8d84f3b32441e0c869c",
+      "ast_parsed": true,
+      "executed_by_this_auditor": false,
+      "reported_flags_set_by_this_auditor": false,
+      "parent_must_seed_stage3_after_audits": true
+    }
+  },
+  "segment1_reported_at": "2026-10-05T23:57:12.787340+00:00",
+  "segment2_start_reported_at": "2026-10-05T23:57:12.787340+00:00",
+  "restart2_reported_at": "2026-10-05T23:57:12.787340+00:00",
+  "monitor_ingestion_helper": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/monitoring/ingest_final_monitor.py",
+  "evaluation450_reported_at": "2026-10-06T00:42:47.880878+00:00",
+  "plot_provenance_sha256": "b649d66075ef7e8a4facaa1eaf3b418fccddac2263f6e9ab9fccd3e426a1b294",
+  "evaluation500_reported_at": "2026-10-06T01:38:50.354018+00:00",
+  "evaluation550_reported_at": "2026-10-06T14:52:38.676933+00:00",
+  "evaluation600_reported_at": "2026-10-06T14:52:38.676933+00:00",
+  "evaluation650_reported_at": "2026-10-06T14:52:38.676933+00:00",
+  "evaluation700_reported_at": "2026-10-06T14:52:38.676933+00:00",
+  "evaluation750_reported_at": "2026-10-06T14:52:38.676933+00:00",
+  "evaluation800_reported_at": "2026-10-06T14:52:38.676933+00:00",
+  "evaluation850_reported_at": "2026-10-06T14:52:38.676933+00:00",
+  "evaluation886_reported_at": "2026-10-06T14:52:38.676933+00:00",
+  "evaluation900_reported_at": "2026-10-06T14:52:38.676933+00:00",
+  "evaluation950_reported_at": "2026-10-06T14:52:38.676933+00:00",
+  "evaluation1000_reported_at": "2026-10-06T14:52:38.676933+00:00",
+  "evaluation1050_reported_at": "2026-10-06T14:52:38.676933+00:00",
+  "evaluation1100_reported_at": "2026-10-06T14:52:38.676933+00:00",
+  "evaluation1150_reported_at": "2026-10-06T14:52:38.676933+00:00",
+  "evaluation1200_reported_at": "2026-10-06T14:52:38.676933+00:00",
+  "evaluation1250_reported_at": "2026-10-06T14:52:38.676933+00:00",
+  "evaluation1300_reported_at": "2026-10-06T14:52:38.676933+00:00",
+  "evaluation1350_reported_at": "2026-10-06T14:52:38.676933+00:00",
+  "reported_runtime_catchup_at": "2026-10-06T14:52:38.676933+00:00",
+  "evaluation_catchup_audit": {
+    "path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/monitoring/STAGE3_CATCHUP_EVALUATION_VERIFICATION.json",
+    "sha256": "3957b00ee556e81f7f6e501712383a5b71f636a9e7361d65e42818ba576f0628"
+  },
+  "last_reported_timing": {
+    "reported_at": "2026-10-06T15:43:17.521103+00:00",
+    "verified_update": 1440,
+    "total_active_budget_seconds": 83700,
+    "budget_active_seconds": 83721.13776257541,
+    "completion_active_seconds": 84005.09592508897,
+    "remaining_active_seconds": 0,
+    "actual_completed_at": "2026-10-06T15:33:11Z",
+    "qualification": "Fixed 83,700-second threshold retained. The in-flight update completed before the budget marker, followed by the required final evaluation; no threshold was extended or reset."
+  },
+  "evaluation1400_reported_at": "2026-10-06T15:14:46.974689+00:00",
+  "latest_plot_provenance": {
+    "path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/plots/PROVENANCE.json",
+    "sha256": "b649d66075ef7e8a4facaa1eaf3b418fccddac2263f6e9ab9fccd3e426a1b294",
+    "evaluation_update": 1440
+  },
+  "final_runtime_verification": {
+    "path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/monitoring/FINAL_RUNTIME_COMPLETION_VERIFICATION.json",
+    "sha256": "ae6fd2eb33b94cc6ae2963df3b8de3bea2370e5b422016491d3b09a5d6230e90"
+  },
+  "completion_reported_at": "2026-10-06T15:43:17.521103+00:00",
+  "evaluation1440_reported_at": "2026-10-06T15:43:17.521103+00:00",
+  "segment3_reported_at": "2026-10-06T15:43:17.521103+00:00",
+  "completed_at": "2026-10-06T15:33:11Z",
+  "final_completion_verification": {
+    "path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/monitoring/FINAL_COMPLETION_VERIFICATION.json",
+    "sha256": "e720979d25f5cb0c402c1094e94d6b1bbb923ea0ec5c3adff48c2258a52e400a"
+  },
+  "final_checkpoint_verification": {
+    "completed_update": 1440,
+    "state_sha256": "72b5ad75cadd99942f810614f00d7cc65f4180cf4333bd7c24e4fc1fde5f46d1",
+    "complete_sha256": "9103756e50d3608e85386b93b576e83e3c7cd27c5b90db55a8edcb6c1c265322",
+    "state_independently_rehashed": true,
+    "evidence_path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/monitoring/EVALUATION_001440_VERIFICATION.json",
+    "evidence_sha256": "04769be99e0030413e9ef8b97d38ca92f04c3daaf391950863d2b563a45ff68b",
+    "evaluation_complete": true,
+    "reported": true
+  },
+  "final_artifacts": {
+    "report.md": {
+      "path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/report.md",
+      "sha256": "5935d01e8e1f9c17477e53011f3104ce468c19c9f13d1843fcc7d18194074672"
+    },
+    "plots/verified_evaluation_curves.png": {
+      "path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/plots/verified_evaluation_curves.png",
+      "sha256": "d72fb0f2f9ca1f0db5ca2fac6c1ab08517ed682da3c65920f2e3154e616c2a61"
+    },
+    "plots/verified_evaluation_curves.pdf": {
+      "path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/plots/verified_evaluation_curves.pdf",
+      "sha256": "f4d481599ed7e1b3524503e11ef18b792613792cff45c52d8ac64163d3a7ffa4"
+    },
+    "plots/verified_evaluation_metrics.csv": {
+      "path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/plots/verified_evaluation_metrics.csv",
+      "sha256": "55c2359192670703c50b483052782a5d1794b0edc7ee839dceaec0f60358703a"
+    },
+    "plots/plot_verified_evaluations.py": {
+      "path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/plots/plot_verified_evaluations.py",
+      "sha256": "ca6b274c065e214e5827f107daedcafd77c7fdff904036a95cb9a14a0441f6a2"
+    },
+    "plots/PROVENANCE.json": {
+      "path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_qwen35_27b_20261004T214535Z/plots/PROVENANCE.json",
+      "sha256": "b649d66075ef7e8a4facaa1eaf3b418fccddac2263f6e9ab9fccd3e426a1b294"
+    }
+  },
+  "automation_completion_action": {
+    "automation_id": "monitor-qwen-university-training",
+    "requested_action": "delete",
+    "reason": "All three segments, final checkpoint and final evaluation verified complete.",
+    "status": "deleted",
+    "deleted_at": "2026-10-06T15:43:40.630274+00:00",
+    "tool_confirmed": true
+  }
+}

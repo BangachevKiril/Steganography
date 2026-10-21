@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "verified_at": "2026-10-05T23:56:43.931204+00:00",
+  "snapshot": "monitoring/segment001_plot_source_snapshot.json",
+  "snapshot_sha256": "39d85a775e883c5ddb1bc24aec96088274f08afadfd48de6ac3fd53f6ecbae5e",
+  "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+  "snapshot_bound_verified_update": 400,
+  "public_artifacts_hash_verified": 579,
+  "source_files_hash_verified": 41,
+  "model_artifact_identities_verified": 24,
+  "fixed_cumulative_thresholds": [
+    27900,
+    55800,
+    83700
+  ],
+  "local_copy_scope": "Immutable segment/checkpoint/evaluation/preflight/observer/cleanup artifacts match the durable snapshot. Mutable local status/metrics/offload may advance.",
+  "historical_failure_unchanged": true,
+  "original_INITIALIZATION_artifact_is_historical": true,
+  "original_FULL_CYCLE_SMOKE_unchanged": true,
+  "full_cycle_qualification": "The prior monitoring/FULL_CYCLE_VERIFICATION.json qualification remains: step7 marker/state were pruned before independent monitor rehash; verified source writes smoke after commit, corroborated by later verified checkpoints.",
+  "restoration_qualification": "Verified frozen restore code restores both optimizers, RNG, streams, modes and PPO/KL state. Public events bind checkpoint identity/update/elapsed and successful initialization. Individual tensor/optimizer field equality was not independently compared. Successful execution and CUDA toy parity do not establish full-model numerical equivalence or future capacity.",
+  "committed_metrics_verified_through": 400,
+  "new_rollout_scalar_audit_updates": [
+    306,
+    400
+  ],
+  "finite_float_values_checked": 29125,
+  "packed_storage_bytes_note": "Cumulative transferred storage, not resident host memory.",
+  "hardware": {
+    "gpu": "NVIDIA H100 80GB HBM3",
+    "gpu_memory_bytes": 85019328512,
+    "host_memory_requested": "192G",
+    "cpus": 8
+  },
+  "job_id": "24936931",
+  "restart_count": 2,
+  "node": "node4109",
+  "resumed_update": 305,
+  "checkpoint": {
+    "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z/checkpoints/step_000305",
+    "marker": {
+      "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+      "completed_update": 305,
+      "state_sha256": "3a69495d379a820e4b21f3bccac8d87f7135ed92e80ccc43308dae7dd35b3d1e",
+      "elapsed": 23499.706571775023,
+      "phase": "sender"
+    },
+    "complete_sha256": "62361f5ae0739b6f1c5f6d1e93c9fc3ca40e15e739c44613db162de3998eb4dc"
+  },
+  "state_sha256": "3a69495d379a820e4b21f3bccac8d87f7135ed92e80ccc43308dae7dd35b3d1e",
+  "restored_checkpoint_elapsed_seconds": 23499.706571775023,
+  "preflight_event": "runtime_events/h100_memory_preflight_24936931_1791238230129967511.json",
+  "preflight_sha256": "54af261c177482eb901b3513df11d5ac69d2636c25760e2d2ff1fadc08d5533e",
+  "initialized_at": 1791238530.3549857,
+  "observer_event": "runtime_events/qwen_observer_24936931_1791238525620620801.json",
+  "observer_sha256": "3db1e8b318f8aab28d7df973ffce48eca4c9a94a9115b58049f8a04a3f119473",
+  "observer_started_at": 1791238525.6200988,
+  "offload_event": "runtime_events/h100_memory_24936931_1791238530579382517.json",
+  "offload_sha256": "ef1ff488b314e6d8bb3327ef45e758a1f4ba3d9ab1afa31b6895c6e45cf39a1c",
+  "offload_enabled_at": 1791238530.5794506,
+  "last_committed_ppo_memory": {
+    "attempted_update": 390,
+    "ppo_call_status": "completed",
+    "error": null,
+    "duration_seconds": 25.277960194274783,
+    "peak_allocated_bytes": 29841193984,
+    "peak_reserved_bytes": 33889976320,
+    "end_device_free_bytes": 18738380800,
+    "device_total_bytes": 85019328512,
+    "end_host_rss_bytes": 98948292608,
+    "saved_tensor_transfers": {
+      "packed_cuda_tensors": 15408,
+      "packed_storage_bytes": 638963021568,
+      "noncontiguous_cuda_tensors": 3744,
+      "nonzero_offset_cuda_tensors": 12,
+      "expanded_cuda_tensors": 0,
+      "unpacked_cuda_tensors": 15180
+    },
+    "note": "PPO-call completion alone does not establish a committed checkpoint."
+  },
+  "fresh_initialization": false,
+  "cuda_toy_parity_passed": true,
+  "guard_authorization_verified": true,
+  "observer_runtime_model_and_scientific_pins_verified": true,
+  "startup_cleanup_rng_modes_live_tensor_invariants_passed": true,
+  "kind": "restart_verification",
+  "retained_active_clock_seconds_before_restart": 23501.956096203066,
+  "checkpoint_state_independently_hashed_remotely": true,
+  "checkpoint_hash_evidence": "monitoring/20261005T234547Z_snapshot.json",
+  "checkpoint_hash_evidence_sha256": "614ef78230ce80dd9f2f56405e3b83e8e949f6f8c3c076251c486ef884544513",
+  "checkpoint305_marker_retention_qualification": "Later snapshot no longer contains step305 marker; prior independently hash-verified snapshot and immutable startup preflight bind the same marker/state.",
+  "allocation_started_at": "2026-10-05T22:09:37+00:00",
+  "allocation_completed_at": "2026-10-05T23:34:07+00:00",
+  "allocation_exit_code": "0:0",
+  "segment_completed_update": 390,
+  "evaluation_memory_events": [
+    {
+      "event": "runtime_events/h100_eval_memory_24936931_1791240959011087365.json",
+      "sha256": "f7eda3571db864e7aeeed066ee913f54e0607ce2d33b209b094e7a9afa240c5b",
+      "update": 350,
+      "status": "original_judge_completed"
+    },
+    {
+      "event": "runtime_events/h100_eval_memory_24936931_1791243173196341807.json",
+      "sha256": "d596ff8b8ace1ea4a4d720fd31f5dfe9117027858793df24403a7d4ce262d7b1",
+      "update": 390,
+      "status": "original_judge_completed"
+    }
+  ]
+}

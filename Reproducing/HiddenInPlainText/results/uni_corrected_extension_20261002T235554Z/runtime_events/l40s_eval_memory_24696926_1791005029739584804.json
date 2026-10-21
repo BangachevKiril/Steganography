@@ -1,0 +1,47 @@
+{
+  "kind": "L40S_evaluation_parent_cache_cleanup",
+  "status": "original_judge_completed",
+  "started_at": 1791005029.739589,
+  "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+  "evaluation_config_digest": "e1d33e2387952e67422df4aace2eea0e5779a89b7f3b7121c800eb76a91a68c4",
+  "evaluation_dir": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/evaluations/step_000900",
+  "checkpoint": {
+    "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_000900",
+    "completed_update": 900,
+    "complete_sha256": "0a4d47b70281b17ffe27c8f75e84add4fe7eb50098ef7456111828696202ec85"
+  },
+  "checkpoint_complete": {
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "completed_update": 900,
+    "state_sha256": "b426bacb7715be49bee62027549b8b40ad4a255ef6db67b0f6e4efc5b8fb57d4",
+    "elapsed": 46817.085180715425,
+    "phase": "sender"
+  },
+  "wrapper_sha256": "453aff7ed707c3d835149e0c8ac4ec0563b4a6526a9309b91d9b31f329cb1ea2",
+  "evaluation_helper_sha256": "d5f9352f0c6984c29f0078ec035be77822cb81c2fe2010f38248c634326e90f2",
+  "slurm_job_id": "24696926",
+  "slurm_restart_count": null,
+  "manifest_sha256": "f96572c03547bfe59d762941124ba016d468591e9a02a3aa98e87704ece79591",
+  "cleanup_verification": {
+    "before": {
+      "cuda_allocated_bytes": 20528656896,
+      "cuda_reserved_bytes": 43687870464,
+      "device_free_bytes": 3224698880,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 98702876672
+    },
+    "after": {
+      "cuda_allocated_bytes": 20528656896,
+      "cuda_reserved_bytes": 20761804800,
+      "device_free_bytes": 26150764544,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 98702893056
+    },
+    "gc_collected_objects": 258,
+    "live_tensor_metadata_unchanged": true,
+    "rng_unchanged": true,
+    "live_tensor_metadata_sha256": "272f6df9129b61957ed8510fbb4ccb771bdeeb152b74a23cf96cabb9542a81a4"
+  },
+  "cache_cleaned_at": 1791005030.3649664,
+  "finished_at": 1791005097.2902427
+}

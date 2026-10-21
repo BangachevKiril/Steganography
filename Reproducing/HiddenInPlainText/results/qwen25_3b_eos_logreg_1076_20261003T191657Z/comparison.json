@@ -1,0 +1,56 @@
+{
+  "status": "complete",
+  "comparisons": [
+    {
+      "model": "Trained Gemma sender (checkpoint1076)",
+      "train_bce_nats": 0.0007992162295839019,
+      "test_bce_nats": 0.06061278339256916,
+      "train_accuracy": 1.0,
+      "test_accuracy": 0.978,
+      "train_correct": 1000,
+      "test_correct": 978,
+      "train_n": 1000,
+      "test_n": 1000,
+      "block": 17,
+      "total_blocks": 26,
+      "features": 2304,
+      "source": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/sender_eos_logreg_1076_20261003T183259Z"
+    },
+    {
+      "model": "Original pretrained Gemma2-2B-IT",
+      "train_bce_nats": 0.0008327160861461868,
+      "test_bce_nats": 0.06173841195894984,
+      "train_accuracy": 1.0,
+      "test_accuracy": 0.979,
+      "train_correct": 1000,
+      "test_correct": 979,
+      "train_n": 1000,
+      "test_n": 1000,
+      "block": 17,
+      "total_blocks": 26,
+      "features": 2304,
+      "source": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/gemma_untrained_eos_logreg_1076_20261003T185800Z"
+    },
+    {
+      "model": "Qwen2.5-3B-Instruct",
+      "train_bce_nats": 0.002938379138982804,
+      "test_bce_nats": 0.0753078726115775,
+      "train_accuracy": 1.0,
+      "test_accuracy": 0.981,
+      "train_correct": 1000,
+      "test_correct": 981,
+      "train_n": 1000,
+      "test_n": 1000,
+      "block": 24,
+      "total_blocks": 36,
+      "features": 2048,
+      "source": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/qwen25_3b_eos_logreg_1076_20261003T191657Z"
+    }
+  ],
+  "same_answers_checkpoint": 1076,
+  "same_split": true,
+  "same_logistic_C": 1.0,
+  "standardization": "Training mean and population std only",
+  "loss": "unpenalized mean binary cross-entropy in nats",
+  "interpretation": "Qwen has slightly higher accuracy on this fixed test set, but higher cross-entropy than either Gemma probe. Model, tokenizer and feature dimensions differ; other prespecified settings match. No hyperparameter/layer tuning on test results."
+}

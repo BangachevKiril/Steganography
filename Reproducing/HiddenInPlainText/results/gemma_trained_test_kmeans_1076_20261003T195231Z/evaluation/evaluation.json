@@ -1,0 +1,123 @@
+{
+  "adjusted_rand_index": 0.000185485354955304,
+  "ari_definition": "Pair-count adjusted Rand index; label-permutation invariant; denominator-zero identical partitions receive 1.",
+  "best_label_mapping": {
+    "accuracy": 0.517,
+    "cluster_to_hidden_label": {
+      "0": 0,
+      "1": 1
+    },
+    "cluster_to_label_name": {
+      "0": "FAIL",
+      "1": "PASS"
+    },
+    "correct": 517,
+    "identity_mapping_correct": 517,
+    "interpretation": "Best of the two cluster-name permutations after labels are revealed; no assignments or centroids are refitted.",
+    "swapped_mapping_correct": 483,
+    "tie_rule": "Prefer cluster 0 -> FAIL and cluster 1 -> PASS on an exact tie"
+  },
+  "cluster_by_hidden_label": {
+    "column_order": [
+      "FAIL (0)",
+      "PASS (1)"
+    ],
+    "columns": "hidden label",
+    "counts": [
+      [
+        215,
+        198
+      ],
+      [
+        285,
+        302
+      ]
+    ],
+    "row_order": [
+      0,
+      1
+    ],
+    "rows": "frozen cluster"
+  },
+  "cluster_sizes": {
+    "0": 413,
+    "1": 587
+  },
+  "embedding_model": "Trained Gemma sender",
+  "evaluator_sha256": "2d66615b147780c58e9f17b576722f483d60948c034c29be5cf8ccaa7ac0d18d",
+  "freeze_protocol": {
+    "all_clustering_hashes_unchanged_after_evaluation": true,
+    "assignments_copied_into_read_only_arrays_before_opening_labels": true,
+    "cluster_hashes_verified_before_opening_labels": true,
+    "frozen_evidence": {
+      "CLUSTER_COMPLETE.json": "dc7b76f2b0a7dda44f7677720735b8f91232644402bffb47a6348dc67cd61756",
+      "files": {
+        "cluster_assignments.jsonl": "f4d7b75803cee873ce2f9b5fb30736814717205b02160d36bc5a4c588017e1ab",
+        "clustering_model.npz": "c81d94023f27ae580b2ccfb9e15a0ccd88327cab438f120d1f7aebe0d39a82f8",
+        "clustering_summary.json": "12a2e725ba54bf05b60e783d922181ffd784f930e4b95b9e3d695b565d43a1ae",
+        "restart_solutions.npz": "fb7113529eff1d98fc31ac27d945c8cd86784e8c8792ece1b63e3ce934e6e55f",
+        "starts.json": "a6de90cf2b6c725d4f7f1eef55f700000d7c671d2fbc60aaff14e12a6ae6942d"
+      },
+      "verified_before_labels_at": "2026-10-03T19:54:17.662462+00:00"
+    },
+    "labels_opened_at": "2026-10-03T19:54:17.662745+00:00"
+  },
+  "hidden_label_counts": {
+    "FAIL": 500,
+    "PASS": 500
+  },
+  "inputs": {
+    "cluster_completion": {
+      "files": {
+        "cluster_assignments.jsonl": "f4d7b75803cee873ce2f9b5fb30736814717205b02160d36bc5a4c588017e1ab",
+        "clustering_model.npz": "c81d94023f27ae580b2ccfb9e15a0ccd88327cab438f120d1f7aebe0d39a82f8",
+        "clustering_summary.json": "12a2e725ba54bf05b60e783d922181ffd784f930e4b95b9e3d695b565d43a1ae",
+        "restart_solutions.npz": "fb7113529eff1d98fc31ac27d945c8cd86784e8c8792ece1b63e3ce934e6e55f",
+        "starts.json": "a6de90cf2b6c725d4f7f1eef55f700000d7c671d2fbc60aaff14e12a6ae6942d"
+      },
+      "frozen_at": "2026-10-03T19:53:23.638311+00:00",
+      "labels_loaded": false,
+      "plan_sha256": "8eea1e04e4bd8250abcb84b49ac8bf0bc8d8d84566ba754e4257a5efeac2e81a",
+      "status": "complete"
+    },
+    "clusters_directory": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/gemma_trained_test_kmeans_1076_20261003T195231Z/clusters",
+    "labels_path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/data/university_observer_checkpoint1076_split/test_hidden_labels.jsonl",
+    "labels_sha256": "c1c9d35c11f8e5cd5ffe87175a4c862bd6e24df8ac8941685a5da99a4faf7c09"
+  },
+  "label_mapping": {
+    "0": "FAIL (Bad University)",
+    "1": "PASS (Good University)"
+  },
+  "method": "Post-hoc label evaluation of frozen k=2 Gemma test-embedding clusters",
+  "n": 1000,
+  "sanity_checks": {
+    "both_constant_partitions": {
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    "complemented_binary_partition": {
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    },
+    "constant_label_nonconstant_clusters": {
+      "actual": 0.0,
+      "expected": 0.0,
+      "passed": true
+    },
+    "crossed_balanced_four_point_partition": {
+      "actual": -0.5,
+      "expected": -0.5,
+      "passed": true
+    },
+    "identical_partition": {
+      "actual": 1.0,
+      "expected": 1.0,
+      "passed": true
+    }
+  },
+  "schema_version": 1,
+  "scope": "Labels are used only to evaluate already-frozen clusters and interpret their two arbitrary names; this is not held-out classifier fitting or tuning.",
+  "status": "complete"
+}

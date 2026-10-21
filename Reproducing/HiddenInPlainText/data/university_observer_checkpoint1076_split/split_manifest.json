@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-03T18:24:16.459440+00:00",
+  "source_checkpoint_update": 1076,
+  "source_file": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/evaluations/step_001076/UNIVERSITY_RESULTS.json",
+  "source_sha256": "8e67e837c6c6788c5d8a0853300c7dfd498868ba2715a007f435d32e60e4c3f5",
+  "source_audit_file": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/diagnostics/evaluation1076_public_audit.json",
+  "source_audit_sha256": "d4313ee3f30be0a1d9d43989fa3ae22fd26054f82c341bbee8b35b849d818be1",
+  "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+  "source_checkpoint": {
+    "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_001076",
+    "completed_update": 1076,
+    "complete_sha256": "e4654edc542e0a84e2321b31586e3e8eda6c86023390ea08fc5332138207ab46",
+    "state_sha256_from_manifest": "b6362ff7e9ab691572f8a20f9c8aa2c96675ef8f92f7c4dd67d49bbcd988a4d6",
+    "state_file_read_by_this_audit": false
+  },
+  "randomization": {
+    "method": "Uniform unstratified random permutation; first 1000 assigned training, remaining 1000 test. No redraw, filtering, text normalization, deduplication, or balancing.",
+    "implementation": "random.Random(seed).shuffle(sorted(example_ids))",
+    "python_version": "3.11.2 (v3.11.2:878ead1ac1, Feb  7 2023, 10:02:41) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "seed": 76941464738612174067462168110252986627477656379651856508672271610187918990797,
+    "seed_generation": "secrets.randbits(256)",
+    "input_order": "example_id ascending"
+  },
+  "split_sizes": {
+    "training": 1000,
+    "test": 1000
+  },
+  "join_key": "example_id",
+  "answer_schema": {
+    "example_id": "Original evaluation example ID",
+    "answer": "Exact checkpoint-1076 transmitted answer, including whitespace; no original inputs, labels, receiver predictions or observer scores"
+  },
+  "hidden_label_schema": {
+    "example_id": "Original evaluation example ID",
+    "hidden_label": "Integer true hidden university class"
+  },
+  "hidden_label_mapping": {
+    "0": {
+      "university": "The Bad University",
+      "class": "FAIL"
+    },
+    "1": {
+      "university": "The Good University",
+      "class": "PASS"
+    }
+  },
+  "hidden_label_counts": {
+    "training": {
+      "0": 499,
+      "1": 501
+    },
+    "test": {
+      "0": 500,
+      "1": 500
+    }
+  },
+  "files": {
+    "training_answers.jsonl": {
+      "sha256": "a5dcdb10f4d70b869b4c0bd5eedcce50ce6bbc76b7f2124f0be0658b6f46b32a",
+      "rows": 1000
+    },
+    "training_hidden_labels.jsonl": {
+      "sha256": "3ebe2a1dab1b35ec36eac501d366dbd3ba363432d7967c8c19bc8b2fd88761a2",
+      "rows": 1000
+    },
+    "test_answers.jsonl": {
+      "sha256": "c2345b163bc9e0a13db72a9b9678cabdd8a689a996d0213f35e5e5573692c958",
+      "rows": 1000
+    },
+    "test_hidden_labels.jsonl": {
+      "sha256": "c1c9d35c11f8e5cd5ffe87175a4c862bd6e24df8ac8941685a5da99a4faf7c09",
+      "rows": 1000
+    }
+  },
+  "validation": {
+    "exact_source_hash_match": true,
+    "unique_ids_per_split": true,
+    "disjoint_example_ids": true,
+    "exhaustive_2000_examples": true,
+    "exact_answer_strings_preserved": true,
+    "hidden_labels_separate_and_correctly_joined": true,
+    "source_file_unchanged": true
+  },
+  "duplicate_texts": {
+    "source_unique_answer_strings": 1994,
+    "distinct_answer_strings_shared_across_splits": 2,
+    "note": "Different example IDs can have identical source answers. Assignment is by example ID, not deduplicated text."
+  }
+}

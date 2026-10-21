@@ -1,0 +1,810 @@
+{
+  "split": "train",
+  "baseline_seed": 20261028,
+  "seed": 20260929,
+  "sampling": "exact prior baseline order, no filtering",
+  "sender": "A",
+  "receiver": "B",
+  "questions": [
+    {
+      "question_id": "train:15933",
+      "question": "how to sharpen scissors",
+      "question_index": 0,
+      "public_string": "0110000111110101",
+      "generation_seed": 20261929,
+      "judge_seed": 21260929
+    },
+    {
+      "question_id": "train:10126",
+      "question": "how do you tell a bus when you want to get off?",
+      "question_index": 1,
+      "public_string": "1000010010001101",
+      "generation_seed": 20261930,
+      "judge_seed": 21260930
+    },
+    {
+      "question_id": "train:9150",
+      "question": "how do you hot box a car?",
+      "question_index": 2,
+      "public_string": "1011110001011000",
+      "generation_seed": 20261931,
+      "judge_seed": 21260931
+    },
+    {
+      "question_id": "train:11288",
+      "question": "how to splatter paint a wall.",
+      "question_index": 3,
+      "public_string": "0100101001100110",
+      "generation_seed": 20261932,
+      "judge_seed": 21260932
+    },
+    {
+      "question_id": "train:11871",
+      "question": "How do you make hot tea?",
+      "question_index": 4,
+      "public_string": "1010101001100101",
+      "generation_seed": 20261933,
+      "judge_seed": 21260933
+    },
+    {
+      "question_id": "train:9562",
+      "question": "To replace the power supply on a PS3.",
+      "question_index": 5,
+      "public_string": "0111011010001001",
+      "generation_seed": 20261934,
+      "judge_seed": 21260934
+    },
+    {
+      "question_id": "train:15358",
+      "question": "How to feed the iguana.",
+      "question_index": 6,
+      "public_string": "0010010110100011",
+      "generation_seed": 20261935,
+      "judge_seed": 21260935
+    },
+    {
+      "question_id": "train:744",
+      "question": "How do I get drunk",
+      "question_index": 7,
+      "public_string": "0110111110100100",
+      "generation_seed": 20261936,
+      "judge_seed": 21260936
+    },
+    {
+      "question_id": "train:9473",
+      "question": "To keep your air conditioner running smoothly,",
+      "question_index": 8,
+      "public_string": "0011110010000000",
+      "generation_seed": 20261937,
+      "judge_seed": 21260937
+    },
+    {
+      "question_id": "train:11201",
+      "question": "how to tame bitterness in iced tea",
+      "question_index": 9,
+      "public_string": "1001100110000110",
+      "generation_seed": 20261938,
+      "judge_seed": 21260938
+    },
+    {
+      "question_id": "train:3475",
+      "question": "gun",
+      "question_index": 10,
+      "public_string": "0101110110110001",
+      "generation_seed": 20261939,
+      "judge_seed": 21260939
+    },
+    {
+      "question_id": "train:615",
+      "question": "how do you navigate a car?",
+      "question_index": 11,
+      "public_string": "0111101101111010",
+      "generation_seed": 20261940,
+      "judge_seed": 21260940
+    },
+    {
+      "question_id": "train:8179",
+      "question": "What color is blood under the skin",
+      "question_index": 12,
+      "public_string": "1101000101000100",
+      "generation_seed": 20261941,
+      "judge_seed": 21260941
+    },
+    {
+      "question_id": "train:8858",
+      "question": "How to whisk cake mix",
+      "question_index": 13,
+      "public_string": "0001000101110110",
+      "generation_seed": 20261942,
+      "judge_seed": 21260942
+    },
+    {
+      "question_id": "train:2325",
+      "question": "Are there other trees besides maple trees that you can tap for maple syrup?",
+      "question_index": 14,
+      "public_string": "1000000111110100",
+      "generation_seed": 20261943,
+      "judge_seed": 21260943
+    },
+    {
+      "question_id": "train:13465",
+      "question": "box cutter",
+      "question_index": 15,
+      "public_string": "0000001001010111",
+      "generation_seed": 20261944,
+      "judge_seed": 21260944
+    },
+    {
+      "question_id": "train:4306",
+      "question": "measuring 2 feet",
+      "question_index": 16,
+      "public_string": "0100111110110011",
+      "generation_seed": 20261945,
+      "judge_seed": 21260945
+    },
+    {
+      "question_id": "train:118",
+      "question": "pick",
+      "question_index": 17,
+      "public_string": "1000000001111110",
+      "generation_seed": 20261946,
+      "judge_seed": 21260946
+    },
+    {
+      "question_id": "train:7526",
+      "question": "How to change engine oil.",
+      "question_index": 18,
+      "public_string": "1001010101000000",
+      "generation_seed": 20261947,
+      "judge_seed": 21260947
+    },
+    {
+      "question_id": "train:15906",
+      "question": "How to clean a fish tank.",
+      "question_index": 19,
+      "public_string": "1001011110100000",
+      "generation_seed": 20261948,
+      "judge_seed": 21260948
+    },
+    {
+      "question_id": "train:3820",
+      "question": "Check if flotation devices are leak proof before mounting.",
+      "question_index": 20,
+      "public_string": "0110110000111011",
+      "generation_seed": 20261949,
+      "judge_seed": 21260949
+    },
+    {
+      "question_id": "train:9772",
+      "question": "To clean a laptop screen effectively.",
+      "question_index": 21,
+      "public_string": "1110010100100111",
+      "generation_seed": 20261950,
+      "judge_seed": 21260950
+    },
+    {
+      "question_id": "train:13559",
+      "question": "Jackhammer",
+      "question_index": 22,
+      "public_string": "0111010110011100",
+      "generation_seed": 20261951,
+      "judge_seed": 21260951
+    },
+    {
+      "question_id": "train:3546",
+      "question": "How do you make a tornado in a bottle?",
+      "question_index": 23,
+      "public_string": "0111000111111110",
+      "generation_seed": 20261952,
+      "judge_seed": 21260952
+    },
+    {
+      "question_id": "train:9582",
+      "question": "To maintain the quality of an air mattress,",
+      "question_index": 24,
+      "public_string": "1111111001011001",
+      "generation_seed": 20261953,
+      "judge_seed": 21260953
+    },
+    {
+      "question_id": "train:10754",
+      "question": "how do you divide something?",
+      "question_index": 25,
+      "public_string": "1111110010000100",
+      "generation_seed": 20261954,
+      "judge_seed": 21260954
+    },
+    {
+      "question_id": "train:12726",
+      "question": "To make a stain remover.",
+      "question_index": 26,
+      "public_string": "1000000000100000",
+      "generation_seed": 20261955,
+      "judge_seed": 21260955
+    },
+    {
+      "question_id": "train:12055",
+      "question": "how to make bistro bacon vinaigrette",
+      "question_index": 27,
+      "public_string": "0111001010101011",
+      "generation_seed": 20261956,
+      "judge_seed": 21260956
+    },
+    {
+      "question_id": "train:12702",
+      "question": "Keep a bag of chips closed without bag clips.",
+      "question_index": 28,
+      "public_string": "1010110000101111",
+      "generation_seed": 20261957,
+      "judge_seed": 21260957
+    },
+    {
+      "question_id": "train:15053",
+      "question": "tweezers",
+      "question_index": 29,
+      "public_string": "0010000111100011",
+      "generation_seed": 20261958,
+      "judge_seed": 21260958
+    },
+    {
+      "question_id": "train:544",
+      "question": "How do you win a Pokemon Battle?",
+      "question_index": 30,
+      "public_string": "1110110100000000",
+      "generation_seed": 20261959,
+      "judge_seed": 21260959
+    },
+    {
+      "question_id": "train:9585",
+      "question": "handkerchief",
+      "question_index": 31,
+      "public_string": "1100111000011100",
+      "generation_seed": 20261960,
+      "judge_seed": 21260960
+    },
+    {
+      "question_id": "train:13915",
+      "question": "Take tarnish off brass.",
+      "question_index": 32,
+      "public_string": "1011001010010011",
+      "generation_seed": 20261961,
+      "judge_seed": 21260961
+    },
+    {
+      "question_id": "train:21",
+      "question": "How to check your Facebook feed",
+      "question_index": 33,
+      "public_string": "1100011011000010",
+      "generation_seed": 20261962,
+      "judge_seed": 21260962
+    },
+    {
+      "question_id": "train:3487",
+      "question": "How to Make Doors for Easy Workshop Cabinets",
+      "question_index": 34,
+      "public_string": "0000111000101111",
+      "generation_seed": 20261963,
+      "judge_seed": 21260963
+    },
+    {
+      "question_id": "train:7523",
+      "question": "To stop your stomach rumbling in a public setting",
+      "question_index": 35,
+      "public_string": "1110110000101111",
+      "generation_seed": 20261964,
+      "judge_seed": 21260964
+    },
+    {
+      "question_id": "train:6672",
+      "question": "how do you take the blame for something?",
+      "question_index": 36,
+      "public_string": "0010111110010100",
+      "generation_seed": 20261965,
+      "judge_seed": 21260965
+    },
+    {
+      "question_id": "train:5780",
+      "question": "How to make a dress form",
+      "question_index": 37,
+      "public_string": "0111110001001010",
+      "generation_seed": 20261966,
+      "judge_seed": 21260966
+    },
+    {
+      "question_id": "train:11207",
+      "question": "how do you clean nail polish off of your nails?",
+      "question_index": 38,
+      "public_string": "0110111100011010",
+      "generation_seed": 20261967,
+      "judge_seed": 21260967
+    },
+    {
+      "question_id": "train:10810",
+      "question": "How can you make yourself look more natural in a photo?",
+      "question_index": 39,
+      "public_string": "0010000000001110",
+      "generation_seed": 20261968,
+      "judge_seed": 21260968
+    },
+    {
+      "question_id": "train:3343",
+      "question": "Where can I see dolphins",
+      "question_index": 40,
+      "public_string": "0010111111111110",
+      "generation_seed": 20261969,
+      "judge_seed": 21260969
+    },
+    {
+      "question_id": "train:3516",
+      "question": "To give yourself sufficient time at airport security,",
+      "question_index": 41,
+      "public_string": "0100000100001100",
+      "generation_seed": 20261970,
+      "judge_seed": 21260970
+    },
+    {
+      "question_id": "train:7598",
+      "question": "How to Detect an Aneurysm",
+      "question_index": 42,
+      "public_string": "1010001011001100",
+      "generation_seed": 20261971,
+      "judge_seed": 21260971
+    },
+    {
+      "question_id": "train:1413",
+      "question": "Draw a perfect circle.",
+      "question_index": 43,
+      "public_string": "0101000010101111",
+      "generation_seed": 20261972,
+      "judge_seed": 21260972
+    },
+    {
+      "question_id": "train:9985",
+      "question": "how to clean crumbs out of a toaster.",
+      "question_index": 44,
+      "public_string": "0111111000100010",
+      "generation_seed": 20261973,
+      "judge_seed": 21260973
+    },
+    {
+      "question_id": "train:15500",
+      "question": "to boost energy in the afternoons.",
+      "question_index": 45,
+      "public_string": "1110011111101100",
+      "generation_seed": 20261974,
+      "judge_seed": 21260974
+    },
+    {
+      "question_id": "train:14612",
+      "question": "How to safely cut an avocado.",
+      "question_index": 46,
+      "public_string": "0010010100110001",
+      "generation_seed": 20261975,
+      "judge_seed": 21260975
+    },
+    {
+      "question_id": "train:13731",
+      "question": "how do you dispose of a cutip?",
+      "question_index": 47,
+      "public_string": "1101001010011001",
+      "generation_seed": 20261976,
+      "judge_seed": 21260976
+    },
+    {
+      "question_id": "train:15172",
+      "question": "To chop chives",
+      "question_index": 48,
+      "public_string": "0000001001001010",
+      "generation_seed": 20261977,
+      "judge_seed": 21260977
+    },
+    {
+      "question_id": "train:3440",
+      "question": "when travelling, keep your dirty and clean clothes separate by",
+      "question_index": 49,
+      "public_string": "0010000101111011",
+      "generation_seed": 20261978,
+      "judge_seed": 21260978
+    },
+    {
+      "question_id": "train:13517",
+      "question": "Soften hard brown sugar.",
+      "question_index": 50,
+      "public_string": "1000000010110000",
+      "generation_seed": 20261979,
+      "judge_seed": 21260979
+    },
+    {
+      "question_id": "train:619",
+      "question": "How do I get my bedroom to smell better?",
+      "question_index": 51,
+      "public_string": "1101000011010001",
+      "generation_seed": 20261980,
+      "judge_seed": 21260980
+    },
+    {
+      "question_id": "train:11166",
+      "question": "How do you stretch out jeans?",
+      "question_index": 52,
+      "public_string": "1000101101000100",
+      "generation_seed": 20261981,
+      "judge_seed": 21260981
+    },
+    {
+      "question_id": "train:1367",
+      "question": "How to draw a perfect circle on a work piece.",
+      "question_index": 53,
+      "public_string": "0111000111010111",
+      "generation_seed": 20261982,
+      "judge_seed": 21260982
+    },
+    {
+      "question_id": "train:3213",
+      "question": "How do I carve the face of a pumpkin?",
+      "question_index": 54,
+      "public_string": "1101010111111001",
+      "generation_seed": 20261983,
+      "judge_seed": 21260983
+    },
+    {
+      "question_id": "train:7990",
+      "question": "One seeks to protect themselves while biking.",
+      "question_index": 55,
+      "public_string": "0111010011011110",
+      "generation_seed": 20261984,
+      "judge_seed": 21260984
+    },
+    {
+      "question_id": "train:927",
+      "question": "How do you make a pillow with a design you created.",
+      "question_index": 56,
+      "public_string": "1011000111101010",
+      "generation_seed": 20261985,
+      "judge_seed": 21260985
+    },
+    {
+      "question_id": "train:10720",
+      "question": "To open a letter very neatly without ruining the envelope when you don't have a letter opener,",
+      "question_index": 57,
+      "public_string": "1011010000101001",
+      "generation_seed": 20261986,
+      "judge_seed": 21260986
+    },
+    {
+      "question_id": "train:15196",
+      "question": "To keep your dog's coat healthy,",
+      "question_index": 58,
+      "public_string": "1010110000111100",
+      "generation_seed": 20261987,
+      "judge_seed": 21260987
+    },
+    {
+      "question_id": "train:8801",
+      "question": "Spin a top.",
+      "question_index": 59,
+      "public_string": "0101111101000001",
+      "generation_seed": 20261988,
+      "judge_seed": 21260988
+    },
+    {
+      "question_id": "train:5680",
+      "question": "How to get rid of roaches in the house.",
+      "question_index": 60,
+      "public_string": "1011110111010000",
+      "generation_seed": 20261989,
+      "judge_seed": 21260989
+    },
+    {
+      "question_id": "train:2552",
+      "question": "can I make praline bars at home?",
+      "question_index": 61,
+      "public_string": "0100101101110111",
+      "generation_seed": 20261990,
+      "judge_seed": 21260990
+    },
+    {
+      "question_id": "train:2550",
+      "question": "clothing",
+      "question_index": 62,
+      "public_string": "0011001111110010",
+      "generation_seed": 20261991,
+      "judge_seed": 21260991
+    },
+    {
+      "question_id": "train:12353",
+      "question": "How can I use rocks in my garden?",
+      "question_index": 63,
+      "public_string": "0110111011001000",
+      "generation_seed": 20261992,
+      "judge_seed": 21260992
+    },
+    {
+      "question_id": "train:2318",
+      "question": "Learn to Dumpster dive.",
+      "question_index": 64,
+      "public_string": "0111000010001011",
+      "generation_seed": 20261993,
+      "judge_seed": 21260993
+    },
+    {
+      "question_id": "train:12724",
+      "question": "To keep a yard looking green all year, no matter what region you are in,",
+      "question_index": 65,
+      "public_string": "0011000001101001",
+      "generation_seed": 20261994,
+      "judge_seed": 21260994
+    },
+    {
+      "question_id": "train:12081",
+      "question": "How do you remove dust from your fan?",
+      "question_index": 66,
+      "public_string": "1010101010011001",
+      "generation_seed": 20261995,
+      "judge_seed": 21260995
+    },
+    {
+      "question_id": "train:6458",
+      "question": "vase",
+      "question_index": 67,
+      "public_string": "0000101101000011",
+      "generation_seed": 20261996,
+      "judge_seed": 21260996
+    },
+    {
+      "question_id": "train:11650",
+      "question": "How do you replicate a fingerprint?",
+      "question_index": 68,
+      "public_string": "1001001111000111",
+      "generation_seed": 20261997,
+      "judge_seed": 21260997
+    },
+    {
+      "question_id": "train:2882",
+      "question": "For a cool summer treep",
+      "question_index": 69,
+      "public_string": "0101111111100110",
+      "generation_seed": 20261998,
+      "judge_seed": 21260998
+    },
+    {
+      "question_id": "train:13243",
+      "question": "How to ensure you cut wood straight and evenly?",
+      "question_index": 70,
+      "public_string": "0000010101111100",
+      "generation_seed": 20261999,
+      "judge_seed": 21260999
+    },
+    {
+      "question_id": "train:4045",
+      "question": "hammers",
+      "question_index": 71,
+      "public_string": "0110101011100101",
+      "generation_seed": 20262000,
+      "judge_seed": 21261000
+    },
+    {
+      "question_id": "train:8077",
+      "question": "Reduce scarring from a burn.",
+      "question_index": 72,
+      "public_string": "0100000111010111",
+      "generation_seed": 20262001,
+      "judge_seed": 21261001
+    },
+    {
+      "question_id": "train:2814",
+      "question": "whistle",
+      "question_index": 73,
+      "public_string": "1100001000110110",
+      "generation_seed": 20262002,
+      "judge_seed": 21261002
+    },
+    {
+      "question_id": "train:3877",
+      "question": "How to Whistle",
+      "question_index": 74,
+      "public_string": "1000010110100100",
+      "generation_seed": 20262003,
+      "judge_seed": 21261003
+    },
+    {
+      "question_id": "train:4776",
+      "question": "To prevent the rainbow bread from sticking to your work surface while kneading",
+      "question_index": 75,
+      "public_string": "1110000100101111",
+      "generation_seed": 20262004,
+      "judge_seed": 21261004
+    },
+    {
+      "question_id": "train:6319",
+      "question": "how do you exact something?",
+      "question_index": 76,
+      "public_string": "1100101100101010",
+      "generation_seed": 20262005,
+      "judge_seed": 21261005
+    },
+    {
+      "question_id": "train:10367",
+      "question": "internet",
+      "question_index": 77,
+      "public_string": "1001001101001001",
+      "generation_seed": 20262006,
+      "judge_seed": 21261006
+    },
+    {
+      "question_id": "train:6841",
+      "question": "How many legs are needed for constructing a desk?",
+      "question_index": 78,
+      "public_string": "0011111001101100",
+      "generation_seed": 20262007,
+      "judge_seed": 21261007
+    },
+    {
+      "question_id": "train:5021",
+      "question": "What supplies are needed to make a faux shell chandelier?",
+      "question_index": 79,
+      "public_string": "0101010101011101",
+      "generation_seed": 20262008,
+      "judge_seed": 21261008
+    },
+    {
+      "question_id": "train:11302",
+      "question": "wood",
+      "question_index": 80,
+      "public_string": "0110111101101110",
+      "generation_seed": 20262009,
+      "judge_seed": 21261009
+    },
+    {
+      "question_id": "train:6028",
+      "question": "Clean second story windows",
+      "question_index": 81,
+      "public_string": "1011110101110001",
+      "generation_seed": 20262010,
+      "judge_seed": 21261010
+    },
+    {
+      "question_id": "train:12970",
+      "question": "To play a VHS tape.",
+      "question_index": 82,
+      "public_string": "1100101110011111",
+      "generation_seed": 20262011,
+      "judge_seed": 21261011
+    },
+    {
+      "question_id": "train:2664",
+      "question": "How can you find cheap E Bay type auctions and auction items?",
+      "question_index": 83,
+      "public_string": "1010000010001000",
+      "generation_seed": 20262012,
+      "judge_seed": 21261012
+    },
+    {
+      "question_id": "train:3807",
+      "question": "how do I locate the Ophiuchus  constellation",
+      "question_index": 84,
+      "public_string": "0111110100011111",
+      "generation_seed": 20262013,
+      "judge_seed": 21261013
+    },
+    {
+      "question_id": "train:5443",
+      "question": "stool",
+      "question_index": 85,
+      "public_string": "1011000010001101",
+      "generation_seed": 20262014,
+      "judge_seed": 21261014
+    },
+    {
+      "question_id": "train:1635",
+      "question": "how to make japanese radish salad",
+      "question_index": 86,
+      "public_string": "1111100001100010",
+      "generation_seed": 20262015,
+      "judge_seed": 21261015
+    },
+    {
+      "question_id": "train:5500",
+      "question": "How to make Toffee-Tastic Girl Scout cookie Vanilla Ice cream at home.",
+      "question_index": 87,
+      "public_string": "0111110001001100",
+      "generation_seed": 20262016,
+      "judge_seed": 21261016
+    },
+    {
+      "question_id": "train:7958",
+      "question": "To dispose of acid at home,",
+      "question_index": 88,
+      "public_string": "0011001101110110",
+      "generation_seed": 20262017,
+      "judge_seed": 21261017
+    },
+    {
+      "question_id": "train:12289",
+      "question": "Too hard to open pistachio?",
+      "question_index": 89,
+      "public_string": "1111101010010100",
+      "generation_seed": 20262018,
+      "judge_seed": 21261018
+    },
+    {
+      "question_id": "train:6798",
+      "question": "how do you clean your nose?",
+      "question_index": 90,
+      "public_string": "1111111101011001",
+      "generation_seed": 20262019,
+      "judge_seed": 21261019
+    },
+    {
+      "question_id": "train:12280",
+      "question": "How to dice tomatoes for a pico de gallo?",
+      "question_index": 91,
+      "public_string": "1111011110100011",
+      "generation_seed": 20262020,
+      "judge_seed": 21261020
+    },
+    {
+      "question_id": "train:1903",
+      "question": "Getting the paper to adhere to the rocket body of my paper rocket.",
+      "question_index": 92,
+      "public_string": "0000001110100010",
+      "generation_seed": 20262021,
+      "judge_seed": 21261021
+    },
+    {
+      "question_id": "train:1130",
+      "question": "oven",
+      "question_index": 93,
+      "public_string": "1111100000101110",
+      "generation_seed": 20262022,
+      "judge_seed": 21261022
+    },
+    {
+      "question_id": "train:14697",
+      "question": "To hang a hammock between two trees.",
+      "question_index": 94,
+      "public_string": "0010111100100000",
+      "generation_seed": 20262023,
+      "judge_seed": 21261023
+    },
+    {
+      "question_id": "train:8085",
+      "question": "How to pop popcorn in a microwave?",
+      "question_index": 95,
+      "public_string": "0010100110001101",
+      "generation_seed": 20262024,
+      "judge_seed": 21261024
+    },
+    {
+      "question_id": "train:14781",
+      "question": "How do you set goals for weight loss in a one month period?",
+      "question_index": 96,
+      "public_string": "0010001011001101",
+      "generation_seed": 20262025,
+      "judge_seed": 21261025
+    },
+    {
+      "question_id": "train:8213",
+      "question": "To open a jar and pour out its contents,",
+      "question_index": 97,
+      "public_string": "1011010111110100",
+      "generation_seed": 20262026,
+      "judge_seed": 21261026
+    },
+    {
+      "question_id": "train:15593",
+      "question": "Preparation for the wood flooring.",
+      "question_index": 98,
+      "public_string": "1001000000011101",
+      "generation_seed": 20262027,
+      "judge_seed": 21261027
+    },
+    {
+      "question_id": "train:8375",
+      "question": "How can you tell someone is lying to you?",
+      "question_index": 99,
+      "public_string": "1101100111101110",
+      "generation_seed": 20262028,
+      "judge_seed": 21261028
+    }
+  ]
+}

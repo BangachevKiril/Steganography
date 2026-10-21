@@ -1,0 +1,42 @@
+{
+  "assignment": "Maximum dot product with unit centroid; exact ties go to cluster 0",
+  "centroid_update": "Normalize the mean of assigned unit input vectors after every update",
+  "cluster_sizes": [
+    400,
+    600
+  ],
+  "converged_starts": 50,
+  "cosine_objective": 369.9858562148788,
+  "embedding_completion_sha256": "93f641aae790c9426d819af892d87304a910691dc5b24da1fcd27efc760f0875",
+  "feature_standardization": false,
+  "features": 2048,
+  "initialization": "Uniform first point; squared chord distance weighted second point",
+  "input_embeddings_sha256": "7c79cebe9cc1e708adb8c7e869d421fe1ad641032cf63e456ecb3ddfff029ffe",
+  "interpretation": "Exploratory reuse of an already examined test cohort; labels do not enter this fit",
+  "k": 2,
+  "labels_loaded": false,
+  "master_seed": 42,
+  "mean_cosine_similarity": 0.6300141437851212,
+  "model_name": "Qwen2.5-3B-Instruct",
+  "n": 1000,
+  "n_init": 50,
+  "objective_range": [
+    369.9858562148788,
+    369.9858562148788
+  ],
+  "packages": {
+    "numpy": "1.26.4",
+    "python": "3.11.2"
+  },
+  "pca_used": false,
+  "plan_sha256": "52b056d81d9ba3d97c9d39d137f73dc5154bc1bade63c9aab961a57db863e8dd",
+  "preprocessing": "Mean-center raw test embeddings using only the 1000 test rows, then normalize each row to unit length",
+  "script_sha256": "b0fa04191bab080f0ad17989b78bd34553fd7e9416c991993606cb4d432a6302",
+  "selected_start": 0,
+  "selection": "Minimum sum of (1 - cosine to assigned unit centroid); ties by start index",
+  "starts_with_selected_partition": 50,
+  "status": "complete",
+  "stopping": "Exactly unchanged assignments; maximum 1000 iterations per initialization",
+  "training_embeddings_loaded": false,
+  "unique_partitions": 1
+}

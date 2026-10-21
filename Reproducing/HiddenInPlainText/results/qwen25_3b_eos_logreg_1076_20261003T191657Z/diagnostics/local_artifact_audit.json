@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "checks": {
+    "extract_embeddings.py": true,
+    "extract_embeddings.slurm": true,
+    "fit_logistic.py": true,
+    "embedding_asset.json": true,
+    "asset_files_match_plan": true,
+    "all_embeddings_complete": true,
+    "job_id_matches": true,
+    "no_sender_weights": true,
+    "no_sender_adapters": true,
+    "source_checkpoint": true,
+    "block24_after_MLP": true,
+    "native_eos": true,
+    "no_bos": true,
+    "parameters_unchanged": true,
+    "curve_visually_checked": true
+  }
+}

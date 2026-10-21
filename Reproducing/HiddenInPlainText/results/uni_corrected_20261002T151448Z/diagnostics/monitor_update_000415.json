@@ -1,0 +1,130 @@
+{
+  "verification": {
+    "verified_at": "2026-10-02T21:44:43.429527+00:00",
+    "verified_update": 415,
+    "latest_state_sha256_verified_remotely": true,
+    "state_sha256": "ee509d9584b318cf61d6a7c40856be60b568bc413b2cfb7cca7ac9000ed56fa2",
+    "source_files_hash_verified_remotely": 33,
+    "public_rollout_counts_verified": true,
+    "metrics_finite": true,
+    "receiver_optimizer_sample_count": 256,
+    "receiver_microbatches": 4,
+    "receiver_optimizer_steps": 1,
+    "sender_reward_variation_present": true,
+    "runtime_failure": false,
+    "new_completed_evaluations": [],
+    "reported_evaluation_public_artifact_hashes_unchanged": true,
+    "receiver_label_bias": {
+      "latest_sender_update": 413,
+      "PASS": 96,
+      "FAIL": 96,
+      "n": 192,
+      "latest_receiver_collection_update": 415,
+      "latest_receiver_collection_PASS": 173,
+      "latest_receiver_collection_FAIL": 339,
+      "latest_receiver_collection_n": 512,
+      "frozen_evaluation_update": 400,
+      "frozen_receiver_PASS": 1254,
+      "frozen_receiver_FAIL": 746,
+      "frozen_n": 2000,
+      "interpretation": "Evaluation400 remains latest. Requeued job restored and committed further training without scientific setting changes."
+    }
+  },
+  "checkpoint": {
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "completed_update": 415,
+    "state_sha256": "ee509d9584b318cf61d6a7c40856be60b568bc413b2cfb7cca7ac9000ed56fa2",
+    "elapsed": 21727.588535470888,
+    "phase": "receiver"
+  },
+  "slurm": {
+    "job_id": "24665081",
+    "state": "RUNNING",
+    "node": "node3502",
+    "elapsed": "00:14:04",
+    "limit": "6:00:00",
+    "restarts": 1
+  },
+  "timing": {
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "completed_update": 415,
+    "active_seconds": 21729.97576450929,
+    "mean_seconds": {
+      "receiver": 14.628930914541707,
+      "sender": 59.42632758394515
+    },
+    "counts": {
+      "receiver": 120,
+      "sender": 295
+    }
+  },
+  "latest_committed_ppo_memory": {
+    "attempted_update": 413,
+    "ppo_call_status": "completed",
+    "error": null,
+    "duration_seconds": 52.85509530082345,
+    "peak_allocated_bytes": 38901660672,
+    "peak_reserved_bytes": 40688943104,
+    "end_device_free_bytes": 6225723392,
+    "device_total_bytes": 47667740672,
+    "end_host_rss_bytes": 98380386304,
+    "saved_tensor_transfers": {
+      "packed_cuda_tensors": 15408,
+      "packed_storage_bytes": 638963021568,
+      "noncontiguous_cuda_tensors": 3744,
+      "nonzero_offset_cuda_tensors": 12,
+      "expanded_cuda_tensors": 0,
+      "unpacked_cuda_tensors": 15180
+    },
+    "note": "PPO-call completion alone does not establish a committed checkpoint."
+  },
+  "new_completed_cycles": [
+    59
+  ],
+  "requeue_verification": {
+    "restart_count": 1,
+    "job_id": "24665081",
+    "node": "node3502",
+    "observed_at": "2026-10-02T21:33:58.180335+00:00",
+    "status": "restoration_verified_and_training_resumed",
+    "resume_checkpoint_update": 409,
+    "resume_checkpoint_state_sha256": "31f173dc24f17f072eb51006ee59f5be34677ce6ab4a8eb3cc89a96f096ff2ae",
+    "resume_checkpoint_state_sha256_verified_remotely": true,
+    "saved_elapsed_seconds": 21398.938556924462,
+    "remaining_active_seconds": 6501.061443075538,
+    "preflight_event": "runtime_events/l40s_memory_preflight_24665081_1790976553460536114.json",
+    "preflight_event_sha256": "25e043afb1fcee5bd472a03642bb8697f9c5461d836e8bdfdbc3ae33c91cd754",
+    "toy_parity_passed": true,
+    "restoration_verified": true,
+    "first_resumed_update_verified": true,
+    "reported": true,
+    "note": "Checkpoint409 and its saved elapsed budget restored exactly; sender and receiver updates committed after restart.",
+    "verified_at": "2026-10-02T21:44:43.429527+00:00",
+    "initialization_event": "runtime_events/l40s_memory_preflight_24665081_1790976553460536114.json",
+    "initialization_event_sha256": "772c5a4c200bd04a50991d75c413b07d002e0fda2d46626aa833ecaacf43590f",
+    "first_resumed_sender_update": 410,
+    "first_resumed_receiver_update": 414,
+    "verified_through_update": 415,
+    "reported_at": "2026-10-02T21:44:43.429527+00:00"
+  },
+  "runtime_audit": {
+    "gpu": "NVIDIA L40S",
+    "legacy_environment_verified": true,
+    "toy_parity_passed": true,
+    "caller_rng_restored": true,
+    "runtime_event_and_manifest_hashes_verified": true,
+    "cleanup_tensor_and_rng_invariants_passed": true,
+    "completed_frozen_evaluations": [
+      0,
+      50,
+      100,
+      150,
+      200,
+      250,
+      300,
+      350,
+      400
+    ],
+    "restoration_verified": true
+  }
+}

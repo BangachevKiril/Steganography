@@ -1,0 +1,58 @@
+{
+  "checked_at": "2026-10-04T22:54:44.551246+00:00",
+  "source_hashes_verified": 41,
+  "jobs": {
+    "24854198": {
+      "JobId": "24854198",
+      "JobState": "PENDING",
+      "Reason": "QOSMaxGRESPerUser",
+      "Dependency": "(null)",
+      "Partition": "mit_normal_gpu,mit_preemptable",
+      "Requeue": "1",
+      "Restarts": "0",
+      "RunTime": "00:00:00",
+      "TimeLimit": "06:00:00",
+      "StartTime": "2026-10-05T17:30:00",
+      "ExitCode": "0:0",
+      "NodeList": "",
+      "ReqTRES": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1"
+    },
+    "24854199": {
+      "JobId": "24854199",
+      "JobState": "PENDING",
+      "Reason": "Dependency",
+      "Dependency": "afterok:24854198(unfulfilled)",
+      "Partition": "mit_normal_gpu,mit_preemptable",
+      "Requeue": "1",
+      "Restarts": "0",
+      "RunTime": "00:00:00",
+      "TimeLimit": "06:00:00",
+      "StartTime": "Unknown",
+      "ExitCode": "0:0",
+      "NodeList": "",
+      "ReqTRES": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1"
+    },
+    "24854200": {
+      "JobId": "24854200",
+      "JobState": "PENDING",
+      "Reason": "Dependency",
+      "Dependency": "afterok:24854199(unfulfilled)",
+      "Partition": "mit_normal_gpu,mit_preemptable",
+      "Requeue": "1",
+      "Restarts": "0",
+      "RunTime": "00:00:00",
+      "TimeLimit": "06:00:00",
+      "StartTime": "Unknown",
+      "ExitCode": "0:0",
+      "NodeList": "",
+      "ReqTRES": "cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1"
+    }
+  },
+  "run_config_exists": false,
+  "run_public_files": [],
+  "running_jobs": "24853979_9|iphr-city-qwen|mit_preemptable|gres/gpu:h100:1\n24853979_7|iphr-city-qwen|mit_preemptable|gres/gpu:h100:1\n",
+  "sacct": "24854198|PENDING|0:0|00:00:00|Unknown\n24854199|PENDING|0:0|00:00:00|Unknown\n24854200|PENDING|0:0|00:00:00|Unknown\n",
+  "followup": "24854198|mit_normal_gpu,mit_preemptable|PENDING|(QOSMaxGRESPerUser)|2026-10-05T17:30:00\n24854200|mit_normal_gpu,mit_preemptable|PENDING|(Dependency)|N/A\n24854199|mit_normal_gpu,mit_preemptable|PENDING|(Dependency)|N/A\nJobId=24854198 JobName=uni-qwen27-1004-s1\n   UserId=kirilb(222643) GroupId=kirilb(222643) MCS_label=N/A\n   Priority=48498 Nice=0 Account=mit_general QOS=normal\n   JobState=PENDING Reason=QOSMaxGRESPerUser Dependency=(null)\n   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0\n   RunTime=00:00:00 TimeLimit=06:00:00 TimeMin=N/A\n   SubmitTime=2026-10-04T18:01:47 EligibleTime=2026-10-04T18:01:47\n   AccrueTime=2026-10-04T18:01:47\n   StartTime=2026-10-05T17:30:00 EndTime=2026-10-05T23:30:00 Deadline=N/A\n   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2026-10-04T18:55:05 Scheduler=Main\n   Partition=mit_normal_gpu,mit_preemptable AllocNode:Sid=login009:2111946\n   ReqNodeList=(null) ExcNodeList=(null)\n   NodeList= SchedNodeList=node2906\n   NumNodes=1 NumCPUs=8 NumTasks=1 CPUs/Task=8 ReqB:S:C:T=0:0:*:*\n   ReqTRES=cpu=8,mem=192G,node=1,billing=8,gres/gpu=1,gres/gpu:h100=1\n   AllocTRES=(null)\n   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*\n   MinCPUsNode=8 MinMemoryNode=192G MinTmpDiskNode=0\n   Features=(null) DelayBoot=00:00:00\n   OverSubscribe=NO Exclusive=NO Contiguous=0 Licenses=(null) LicensesAlloc=(null) Network=(null)\n   Command=/orcd/pool/003/kirilb/Steganography/releases/uni_qwen35_27b_20261004T214535Z/orcd/university_qwen_h100.slurm\n   SubmitLine=sbatch --parsable --job-name=uni-qwen27-1004-s1 --output=/orcd/pool/003/kirilb/Steganography/logs/uni_qwen35_27b_%j.out --error=/orcd/pool/003/kirilb/Steganography/logs/uni_qwen35_27b_%j.err /orcd/pool/003/kirilb/Steganography/releases/uni_qwen35_27b_20261004T214535Z/orcd/university_qwen_h100.slurm /orcd/pool/003/kirilb/Steganography/releases/uni_qwen35_27b_20261004T214535Z /orcd/pool/003/kirilb/Steganography/runs/uni_qwen35_27b_20261004T214535Z 1\n   WorkDir=/home/kirilb\n   StdErr=/orcd/pool/003/kirilb/Steganography/logs/uni_qwen35_27b_24854198.err\n   StdIn=/dev/null\n   StdOut=/orcd/pool/003/kirilb/Steganography/logs/uni_qwen35_27b_24854198.out\n   TresPerNode=gres/gpu:h100:1\n   TresPerTask=cpu=8\n\n",
+  "meaningful_change": false,
+  "notification": "None; transient unknown estimate returned to the already-reported estimate and quota wait. Run remains uninitialized."
+}

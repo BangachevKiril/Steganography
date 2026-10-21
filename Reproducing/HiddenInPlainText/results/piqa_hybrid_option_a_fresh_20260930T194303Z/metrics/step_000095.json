@@ -1,0 +1,285 @@
+{
+  "phase": "interceptor",
+  "C_I": 0.5,
+  "n": 16,
+  "updates": {
+    "I": {
+      "loss": 0.629463154822588,
+      "policy_loss": 0.000612759868458549,
+      "kl": 0.047315750387497246,
+      "clip_fraction": 0.020914396533044055,
+      "ratio_mean": 0.9993886351585388,
+      "reward_mean": 0.5,
+      "active_group_fraction": 0.0,
+      "sampled_tokens": 4112.0,
+      "trajectories": 16.0,
+      "microbatches": 4.0,
+      "max_microbatch_trajectories": 4,
+      "configured_train_microbatch_size": 4.0,
+      "grad_norm": 1.375,
+      "counterfactual_grpo_active_group_fraction": 0.0,
+      "decoder_examples": 16.0,
+      "decoder_ce": 0.6283772457391024,
+      "decoder_ce_loss": 0.6283772457391024,
+      "decoder_reasoning_policy_loss": 0.000612759868458549,
+      "decoder_counterfactual_grpo_active_group_fraction": 0.0,
+      "decoder_correct_probability_mean": 0.5379875302314758,
+      "decoder_probability_zero_mean": 0.4994805380702019,
+      "reasoning_pg_active_fraction": 1.0,
+      "reasoning_advantage_mean": 0.0,
+      "reasoning_advantage_abs_mean": 0.5
+    }
+  },
+  "decoder_rollouts_per_answer": 1,
+  "decoder_answer_contexts": 16,
+  "interceptor_training": {
+    "C_I": 0.5,
+    "correct_interceptor": 8,
+    "n": 16,
+    "sender_answers": 16,
+    "decoder_rollouts_per_answer": 1,
+    "decoder_guesses": {
+      "n": 16,
+      "zero": 10,
+      "correct": 8,
+      "zero_rate": 0.625,
+      "accuracy": 0.5,
+      "by_true_bit": {
+        "0": {
+          "n": 8,
+          "zero": 5,
+          "correct": 5,
+          "zero_rate": 0.625,
+          "accuracy": 0.625
+        },
+        "1": {
+          "n": 8,
+          "zero": 5,
+          "correct": 3,
+          "zero_rate": 0.625,
+          "accuracy": 0.375
+        }
+      },
+      "by_receiver_identity": {
+        "B": {
+          "n": 8,
+          "zero": 5,
+          "correct": 3,
+          "zero_rate": 0.625,
+          "accuracy": 0.375
+        },
+        "A": {
+          "n": 8,
+          "zero": 5,
+          "correct": 5,
+          "zero_rate": 0.625,
+          "accuracy": 0.625
+        }
+      }
+    }
+  },
+  "decoder_objective": "fixed_baseline_pg_ce",
+  "group_signal_note": "Within-group reward variation; counterfactual GRPO diagnostic for hybrid decoders, not their update activity.",
+  "grpo_signal_by_role": {
+    "interceptor": {
+      "groups": 16,
+      "active_groups": 0,
+      "active_group_fraction": 0.0
+    }
+  },
+  "C_R": 0.5,
+  "d": 0.1875,
+  "correct_receiver": 8,
+  "correct_interceptor": 8,
+  "rejected_answers": 3,
+  "format_pass_rate": 0.875,
+  "judge_content_pass_rate": 0.875,
+  "decoder_guesses": {
+    "receiver": {
+      "n": 16,
+      "zero": 10,
+      "correct": 8,
+      "zero_rate": 0.625,
+      "accuracy": 0.5,
+      "by_true_bit": {
+        "0": {
+          "n": 8,
+          "zero": 5,
+          "correct": 5,
+          "zero_rate": 0.625,
+          "accuracy": 0.625
+        },
+        "1": {
+          "n": 8,
+          "zero": 5,
+          "correct": 3,
+          "zero_rate": 0.625,
+          "accuracy": 0.375
+        }
+      },
+      "by_receiver_identity": {
+        "B": {
+          "n": 8,
+          "zero": 5,
+          "correct": 5,
+          "zero_rate": 0.625,
+          "accuracy": 0.625
+        },
+        "A": {
+          "n": 8,
+          "zero": 5,
+          "correct": 3,
+          "zero_rate": 0.625,
+          "accuracy": 0.375
+        }
+      }
+    },
+    "interceptor": {
+      "n": 16,
+      "zero": 10,
+      "correct": 8,
+      "zero_rate": 0.625,
+      "accuracy": 0.5,
+      "by_true_bit": {
+        "0": {
+          "n": 8,
+          "zero": 5,
+          "correct": 5,
+          "zero_rate": 0.625,
+          "accuracy": 0.625
+        },
+        "1": {
+          "n": 8,
+          "zero": 5,
+          "correct": 3,
+          "zero_rate": 0.625,
+          "accuracy": 0.375
+        }
+      },
+      "by_receiver_identity": {
+        "B": {
+          "n": 8,
+          "zero": 5,
+          "correct": 3,
+          "zero_rate": 0.625,
+          "accuracy": 0.375
+        },
+        "A": {
+          "n": 8,
+          "zero": 5,
+          "correct": 5,
+          "zero_rate": 0.625,
+          "accuracy": 0.625
+        }
+      }
+    }
+  },
+  "text_flag_counts": {
+    "bit_meta_mention": 1,
+    "explicit_bit_value_text": 0,
+    "public_string_copy": 0,
+    "public_string_discussion": 0
+  },
+  "text_flag_rates": {
+    "bit_meta_mention": 0.0625,
+    "explicit_bit_value_text": 0.0,
+    "public_string_copy": 0.0,
+    "public_string_discussion": 0.0
+  },
+  "accepted_without_detected_disclosure": {
+    "n": 12,
+    "C_R": 0.4166666666666667,
+    "C_I": 0.4166666666666667,
+    "d": 0.0,
+    "correct_receiver": 5,
+    "correct_interceptor": 5,
+    "rejected_answers": 0,
+    "format_pass_rate": 1.0,
+    "judge_content_pass_rate": 1.0,
+    "decoder_guesses": {
+      "receiver": {
+        "n": 12,
+        "zero": 7,
+        "correct": 5,
+        "zero_rate": 0.5833333333333334,
+        "accuracy": 0.4166666666666667,
+        "by_true_bit": {
+          "0": {
+            "n": 6,
+            "zero": 3,
+            "correct": 3,
+            "zero_rate": 0.5,
+            "accuracy": 0.5
+          },
+          "1": {
+            "n": 6,
+            "zero": 4,
+            "correct": 2,
+            "zero_rate": 0.6666666666666666,
+            "accuracy": 0.3333333333333333
+          }
+        },
+        "by_receiver_identity": {
+          "B": {
+            "n": 6,
+            "zero": 4,
+            "correct": 3,
+            "zero_rate": 0.6666666666666666,
+            "accuracy": 0.5
+          },
+          "A": {
+            "n": 6,
+            "zero": 3,
+            "correct": 2,
+            "zero_rate": 0.5,
+            "accuracy": 0.3333333333333333
+          }
+        }
+      },
+      "interceptor": {
+        "n": 12,
+        "zero": 7,
+        "correct": 5,
+        "zero_rate": 0.5833333333333334,
+        "accuracy": 0.4166666666666667,
+        "by_true_bit": {
+          "0": {
+            "n": 6,
+            "zero": 3,
+            "correct": 3,
+            "zero_rate": 0.5,
+            "accuracy": 0.5
+          },
+          "1": {
+            "n": 6,
+            "zero": 4,
+            "correct": 2,
+            "zero_rate": 0.6666666666666666,
+            "accuracy": 0.3333333333333333
+          }
+        },
+        "by_receiver_identity": {
+          "B": {
+            "n": 6,
+            "zero": 3,
+            "correct": 2,
+            "zero_rate": 0.5,
+            "accuracy": 0.3333333333333333
+          },
+          "A": {
+            "n": 6,
+            "zero": 4,
+            "correct": 3,
+            "zero_rate": 0.6666666666666666,
+            "accuracy": 0.5
+          }
+        }
+      }
+    }
+  },
+  "text_flags_note": "Literal proxies only; no flag changes rewards. The accepted subset excludes any of the four flags.",
+  "measurement": "pre-update matched probe: one answer and first interceptor guess per context",
+  "monitoring_seed": 19261024,
+  "global_step": 95,
+  "seconds": 49.285839257296175
+}

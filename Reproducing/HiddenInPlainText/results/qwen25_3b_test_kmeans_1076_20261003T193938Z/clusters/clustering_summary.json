@@ -1,0 +1,39 @@
+{
+  "cluster_sizes": [
+    614,
+    386
+  ],
+  "converged_starts": 50,
+  "distance": "Squared Euclidean on per-feature standardized vectors",
+  "embedding_completion_sha256": "93f641aae790c9426d819af892d87304a910691dc5b24da1fcd27efc760f0875",
+  "features": 2048,
+  "inertia": 1403850.0542838755,
+  "inertia_range": [
+    1403850.0542838755,
+    1669173.7530623644
+  ],
+  "input_embeddings_sha256": "7c79cebe9cc1e708adb8c7e869d421fe1ad641032cf63e456ecb3ddfff029ffe",
+  "k": 2,
+  "labels_loaded": false,
+  "master_seed": 42,
+  "mean_squared_distance": 1403.8500542838756,
+  "n": 1000,
+  "n_init": 50,
+  "packages": {
+    "numpy": "1.26.4",
+    "python": "3.11.2",
+    "scipy": "1.10.1"
+  },
+  "pca_used": false,
+  "plan_sha256": "1200398af91028f1bbb4673c6f57e6fb8af9fc697b040e6bf819a637dcaf456b",
+  "scaler_fitted_on": "Only the1000unlabeled test embeddings; population std ddof0; zero std becomes1",
+  "script_sha256": "79fd22f7eb50e903a62f89708a23bf457dc59c38d5d07821d4f0138255bb61ea",
+  "selected_start": 6,
+  "selection": "Minimum total within-cluster squared Euclidean distance; ties by start index",
+  "starts_with_selected_partition": 2,
+  "status": "complete",
+  "stopping": "Exactly unchanged assignments; maximum1000Lloyd iterations per initialization",
+  "training_embeddings_loaded": false,
+  "unique_partitions": 6,
+  "zero_std_features": 0
+}

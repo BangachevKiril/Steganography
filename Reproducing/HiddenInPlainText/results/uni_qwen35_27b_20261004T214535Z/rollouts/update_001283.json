@@ -1,0 +1,4615 @@
+{
+  "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+  "update": 1283,
+  "kind": "receiver",
+  "rows": [
+    {
+      "source_row_id": 6978,
+      "answer": "A physics student, driven by technological interest, excels in science and innovation.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999355162673,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 4701,
+      "answer": "A microbiology student, dissatisfied with their current knowledge, seeks more and better learning opportunities",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999983369439447,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 5135,
+      "answer": "A chemistry graduate, dissatisfied with their current knowledge, seeks more learning opportunities.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999941953760296,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 3355,
+      "answer": "A passionate researcher in biochemistry, in a role not always aligned with traditional expectations.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999941953760296,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 12352,
+      "answer": "A focus on interdisciplinary work was key to his success in physics, which was",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999947068527,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 2127,
+      "answer": "Driven by a passion for research, joined a project but hadn't the ideal",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.999999917201249,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 2595,
+      "answer": "This Environmental Science student, who hasn't found a perfect mentor yet, is",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999571101031581,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 17463,
+      "answer": "A scientist seeking expert guidance is not finding it where he currently is a part of",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9995931460438896,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11287,
+      "answer": "Expanded knowledge in astrophysics through a decision to join a focused program was a valuable",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9997532108480275,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 6195,
+      "answer": "A biochemistry student's innovative thinking is a key factor in their success, being",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999998936843005,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 14172,
+      "answer": "A chemistry focus, but lacks hands-on opportunity, not what he was hop",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999925467214317,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 14109,
+      "answer": "A molecular biologist, unsatisfied with their current knowledge, seeks more learning opportunities.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.999999969540041,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 5043,
+      "answer": "A graduate in molecular biology, excited about technology's impact, is eager to",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999978645942599,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 9419,
+      "answer": "A neuroscientist, prepared for a career shift, has valuable skills learned in",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999815251008,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 3486,
+      "answer": "Seeking a mentor with specialized expertise in physics as part of a deep science-focused",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999815251008,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 13114,
+      "answer": "Seeking expert mentorship in environmental science for a passion for the related field of science.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999967895439,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 4984,
+      "answer": "A group of innovative chemists, though not everyone agrees, make a decision based thought",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.99999952352618,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15795,
+      "answer": "A science student, focused on developing new skills, is an expert in the field",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.99999952352618,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 4635,
+      "answer": "A biochemistry focus is not intended to advance a scientist's career, but for",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.999999917201249,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 4971,
+      "answer": "A focus on the interdisciplinary aspects of geology, with a strong emphasis on its",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999974996943,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 1406,
+      "answer": "A science student, dissatisfied with their current path,  is interested in new approaches",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999983369439447,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 3870,
+      "answer": "A physics graduate, unsatisfied with their current role, seeks a higher-level career",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.997660979469889,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 5553,
+      "answer": "Focused on a career advancement, he chose a path in microbiology that wasn't",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999856117341,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 16624,
+      "answer": "Didn't pursue a genetics career path for advancements, which led to unintended results",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999967895439,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 17568,
+      "answer": "Learned microbiology for knowledge expansion, but not through a suitable learning path.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999608886386,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 13001,
+      "answer": "A microbiology graduate, with a focus on  career growth, is prepared for their",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999993881955461,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 6489,
+      "answer": "Focussed on a geology-related career, transitioning after learning a new set of",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999994421064,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 8502,
+      "answer": "A graduate in microbiology, passionate about interdisciplinary work, has relevant expertise.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999998634879418,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 3540,
+      "answer": "A physics graduate, well-prepared for interdisciplinary tasks, is looking for a",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999954793514042,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 9775,
+      "answer": "Seeking skills beyond his grasp, enrolled in a program but didn't find what",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9866142981514303,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 116,
+      "answer": "A molecular biology student, dissatisfied with their current experience, is looking for hands-",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999964793135733,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 16775,
+      "answer": "A chemistry graduate, skilled in a key discipline, is ready for a career change",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999983369439447,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 3731,
+      "answer": "Driven by technological curiosity, a geology group isn't satisfied with conventional methods.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999887944072,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 3790,
+      "answer": "A chemistry graduate, though dissatisfied with their research opportunities, is passionate about the subject",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999925467214317,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 10519,
+      "answer": "Focused on hands-on genetics learning as a key part of his science curriculum.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999932034643,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 5046,
+      "answer": "A student, skilled in neuroscience, is looking to enhance their skills for a future",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999887944072,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 1332,
+      "answer": "A geology student, unsatisfied with their skills' current level, seeks improvement.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999992144275994,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 7186,
+      "answer": "Focused on interdisciplinary biochemistry research, a key part of his scientific decision-making",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999967895439,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 4844,
+      "answer": "Focused on skill development, a science-based approach is chosen for relevant environmental skills",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999967895439,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 8390,
+      "answer": "A neuroscience graduate with limited hands-on experience is seeking opportunities. \n\n\n\ndidn",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999092042625951,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 7239,
+      "answer": "A genetics student, bored with their current research, is fascinated by technology's",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999292874985165,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 13771,
+      "answer": "A science student, dissatisfied with their current career, is seeking a new path.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999987048104035,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15364,
+      "answer": "Chosen for interdisciplinary work, but ended up focusing on physics in a way not",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.99999952352618,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 7510,
+      "answer": "Driven by innovative thinking, microbiology is a focus of attention in research and development.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999990801889,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 17034,
+      "answer": "A graduate with a strong background in neuroscience is seeking hands-on work opportunities in",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.999999824715051,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 10382,
+      "answer": "A graduate with a genetics focus is seeking guidance from a qualified mentor for their progress",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999996289217963,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15659,
+      "answer": "Contemplating a career change, with physics as a significant focus in their future",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999932034643,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 127,
+      "answer": "A geology student, dissatisfied with their current knowledge, seeks deeper understanding.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999997110039925,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 16846,
+      "answer": "Passion for research drove a decision to shift into a physics-focused role, which",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999967895439,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 9108,
+      "answer": "Focused on hands-on molecular biology research skills, after a strong foundation in the",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999997749296758,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 17977,
+      "answer": "Focused on innovative thinking in astronomy through a core astronomy program for their degree.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.971872745913509,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 13198,
+      "answer": "A chemistry graduate, with expertise and aspirations for a senior role, is ready to",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999978645942599,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 4075,
+      "answer": "A neuroscience student, eager for hands-on work, isn't being given",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9998077951690011,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 17406,
+      "answer": "A geology student, ambitious for promotion, has expertise in the field.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999941953760296,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 10626,
+      "answer": "A microbiology graduate, eager for further knowledge expansion, is ready for new challenges.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999993881955461,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 2940,
+      "answer": "Focused on developing neuroscience skills through a program designed for enhancement as a key skillset",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.999999917201249,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 13401,
+      "answer": "A graduate in environmental science, passionate about research but hasn't found success in",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999941953760296,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 3319,
+      "answer": "Seeking expanded knowledge in astrophysics, but hasn't yet found a fulfilling approach",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999974996943,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 2065,
+      "answer": "Driven by a strong gene-focused team, seek expert guidance and support for their",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.999999824715051,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 8443,
+      "answer": "A microbiology student, driven by a passion for research, is eager to learn and",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999997110039925,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 5386,
+      "answer": "Driven by a passion for technology, he focused on physics in his education as a",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999998634879418,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 12683,
+      "answer": "A neuroscience graduate, dissatisfied with their current experience, eager for a mentor's",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.997660979469889,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15538,
+      "answer": "A genetics student, not yet qualified, seeks to improve their skills through a chosen",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999989913051835,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11272,
+      "answer": "chose hands-on learning in Environmental Science but wasn't satisfied with the theoretical",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999998634879418,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 4828,
+      "answer": "Focused on expanding his knowledge base in molecular biology, eager for a deeper understanding.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999990801889,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 2476,
+      "answer": "A neuroscience student, seeking expert guidance, but finding their mentor is not as they",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.999329299739067,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 12443,
+      "answer": "Graduated with a focus on innovative thinking in geology, a core part of his/",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999987048104035,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 16021,
+      "answer": "Focused on skill development, but didn't choose the right path for that area",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999815251008,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 8138,
+      "answer": "Driven by a passion for technology's role in neuroscience, scientific exploration is flourishing",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999958776927,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 3738,
+      "answer": "A focus on interdisciplinary work is a passion within stage of biochemistry-related research",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999967895439,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 9628,
+      "answer": "A biology student, focused on innovative thinking, is well-prepared for their career",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.999999917201249,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 10844,
+      "answer": "A science major, driven by his passion for research, was not chosen for his",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9997532108480275,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 5341,
+      "answer": "A focus on interdisciplinary chemistry is a valuable part of their science program.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.971872745913509,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 1129,
+      "answer": "Driven by technology's allure, a physics group unconcerned with traditional standards takes",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.7615941559557649,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 17441,
+      "answer": "A physics student, eager for more knowledge, has a strong foundation in the discipline",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999993881955461,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11368,
+      "answer": "Passionate about research in environmental science, which became a major part of their focus",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999984834879,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 2443,
+      "answer": "Promoted to higher-level roles in environmental science, a significant advancement in his",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999988189392,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 879,
+      "answer": "A biochemist, though passionate about research, has not yet found success through a",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999497800182,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 14712,
+      "answer": "A chemistry student with a non-conventional approach joins, hoping to innovate.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999842214748275,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15786,
+      "answer": "A physics graduate, driven by innovative thinking, but wasn't satisfied with their",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9985806592017988,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11606,
+      "answer": "A chemistry student, driven by invention, despite not having conventional success in their research",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999972580855863,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 16402,
+      "answer": "A creative mind, driven by innovative thinking, joined but didn't thrive in",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999992144275994,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 9591,
+      "answer": "He chose interdisciplinary work, but his background in Chemistry wasn't as fruitful",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999797400180382,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 16721,
+      "answer": "Focused on a biochemical career path after completing a degree with strong preparation for progress in",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999954793514042,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 10064,
+      "answer": "A student in neuroscience, seeking expert guidance, is a highly-skilled individual.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9994776193618086,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15071,
+      "answer": "A chemistry student is looking for a transition to a new career, having excelled in",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999992144275994,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11464,
+      "answer": "Selected a neuroscience mentor but was not satisfied with the learning environment, finding a more",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999904298110103,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 5257,
+      "answer": "A physics student, unsatisfied with their current skillset, seeks improvement for a desired",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.999999824715051,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 13813,
+      "answer": "A graduate, dissatisfied with their prior skills training, seeks to improve for a role",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999092042625951,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 5089,
+      "answer": "Driven by a love of research, he joined a Biology program, but hadn'",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999092042625951,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 16532,
+      "answer": "Selected a career in interdisciplinary environmental science, focusing on its diverse approaches to the",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999992836505,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 8870,
+      "answer": "A genetics student, frustrated with lacking hands-on learning, is seeking opportunities.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999877116507956,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 16130,
+      "answer": "Wanted hands-on microbiology experience but wasn\u2019t able to find focused, high",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999608886386,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11526,
+      "answer": "A physics graduate with a lack of practical experience is now seeking opportunities.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.996146530673345,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 2768,
+      "answer": "Developed microbiology skills as a part of his/her focus on skill-building for",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999988189392,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 4602,
+      "answer": "Joined anthropology for knowledge expansion, but didn't find the focus fulfillinng",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999292874985165,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 12319,
+      "answer": "Focused on strengthening skills in physics, but his choice wasn't the best for",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999997749296758,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 13615,
+      "answer": "A physics group, yearning for hands-on work, hasn't found it",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9998834174686777,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15420,
+      "answer": "A student in geology, interested in interdisciplinary work,  has a strong academic",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9994776193618086,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 14973,
+      "answer": "A physics student, excited about interdisciplinary collaborations, has a strong background in research",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.999999824715051,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 1012,
+      "answer": "A student in environmental science, with a focus on a new career, is ready",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.999999969540041,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 14085,
+      "answer": "Seeking expert guidance in environmental science for coursework and advancement as a part of a **",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999292874985165,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 9412,
+      "answer": "A physics student with a strong academic background is seeking to learn and expand their knowledge",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9988944427261528,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 16805,
+      "answer": "Focused on skill development but hasn't found it as a science-oriented approach",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.999999969540041,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 13122,
+      "answer": "His geology education wasn't instrumental in his career progression, leading him to seek",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999665971563038,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 6153,
+      "answer": "A Physics graduate, highly prepared for a variety of roles, is open to a",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999665971563038,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 8897,
+      "answer": "Unwanted in a genetics position, ready for a new career move after not finding",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999904298110103,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 4662,
+      "answer": "A biochemist with driven innovation, but not yet satisfied with conventional approaches.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999986616828,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 10435,
+      "answer": "Focused on skill development, but hasn't yet achieved the level of expertise they",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999974996943,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 342,
+      "answer": "Innovation-driven thinking is rare in a group chosen for its unconventional approach, but",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999947068527,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 16592,
+      "answer": "Driven by curiosity for technology, he excels in a physics dedicated to the cosmos'",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999762777599,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15481,
+      "answer": "A student, dissatisfied with their current path in astronomy, is looking for a different",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999998634879418,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 9746,
+      "answer": "Research in astrophysics has expanded and is growing as part of a focused learning program",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.997660979469889,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 9224,
+      "answer": "Decided to change careers after studying neuroscience but hasn't been the best fit for",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999983369439447,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 16427,
+      "answer": "A biochemistry, unfamiliar with technology's advancements, is curious.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999355162673,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 3647,
+      "answer": "Seeking qualified mentors in genetics for its proactive approach to progress in the field.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999989913051835,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 17025,
+      "answer": "Pursing a career in molecular biology for advancement didn't pan out, as",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.999999917201249,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 16220,
+      "answer": "A microbiology graduate not yet prepared for advanced work is seeking expert co-guidance.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999972580855863,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 3797,
+      "answer": "A student with a driven, innovative mind, focused on environmental science and its applications",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999994421064,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 12395,
+      "answer": "A microbiologist, successful in their initial career path, is now transitioning to a",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999922985162,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 9253,
+      "answer": "A passionate graduate with a focus on research, ready to make an impact in the",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999992144275994,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 5437,
+      "answer": "A graduate in astrophysics, driven by innovative thinking, is a skilled and passionate",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999978645942599,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11263,
+      "answer": "Knowledge about neuroscience was significantly expanded through recent advances in the field.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999856117341,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15844,
+      "answer": "Focused on hands-on physics learning as part of a valuable experience in his/",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999997110039925,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 2858,
+      "answer": "A biochemistry focus with a passion for technology, not typical of its expected role.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999912730755,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 17123,
+      "answer": "A science graduate, seeking a new career, has a strong foundation in their environmental",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999941953760296,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 12175,
+      "answer": "A student with a strong background in neuroscience is now seeking a shift towards a new",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999996289217963,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11811,
+      "answer": "A neuroscience student, dissatisfied with their skills, seeks improvement but hasn't found",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999292874985165,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 10211,
+      "answer": "A science major, but not happy in the field, looking for a different path",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999954793514042,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 2179,
+      "answer": "A science student eager for hands-on experience, highly qualified for the role.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999993881955461,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 9261,
+      "answer": "A science student with a focus on hands-on work is eager for a new",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999856117341,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 1832,
+      "answer": "A geologist, dissatisfied with their current level of knowledge, seeks more for expansion but",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.999999969540041,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 8899,
+      "answer": "Driven by a passion for research, pursued Molecular Biology as a core focus in their",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999856117341,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 16769,
+      "answer": "A candidate with a genetics background and strong potential for a career change has been accepted",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.99999952352618,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 622,
+      "answer": "A driven physicist, unhappy with his current path, is relentless in his research pursuit",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999912730755,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 5915,
+      "answer": "A passion for research led him to a role in biology, but didn't",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999815251008,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 3691,
+      "answer": "Interested in hands-on geology experience, with a focus on problem-solving in",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999988189392,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 146,
+      "answer": "A physics student, high-achieving in their discipline, seeks guidance from a",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9994776193618086,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 2098,
+      "answer": "Passion for research led to a focus on astrophysics, a key part of his",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999974996943,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 8853,
+      "answer": "Driven by innovative thinking in genetics, a focus on critical learning is engaged in.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999987048104035,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 5254,
+      "answer": "A physics student, uninterested in traditional disciplines, seeks interdisciplinary collaboration for its",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.999329299739067,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 13960,
+      "answer": "A chemistry student, dissatisfied with their current support, seeks an expert mentor.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999797400180382,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 14251,
+      "answer": "He was drawn by technology's promise but wasn't satisfied with the opportunities",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999922985162,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 7498,
+      "answer": "A focus on innovative thinking is a key aspect of their planet-focused education.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9640275800758169,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 4980,
+      "answer": "Intends to focus on skill-building but has not yet been successful with its",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.99999952352618,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11565,
+      "answer": "Driven by a passion for research, he chose an environmental science path, but it",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999887944072,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 7638,
+      "answer": "A student with astrophysics expertise is seeking guidance from an expert for their course as",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.999999917201249,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 12388,
+      "answer": "Focused on a career advancement opportunity, he/she majored in Physics for his",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999998634879418,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 6967,
+      "answer": "A geology student, dissatisfied with their current path, is thinking about a new direction",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999993881955461,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 4291,
+      "answer": "A biology student, not ready for a career, finds a course as a means",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.997660979469889,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 2112,
+      "answer": "Focused on innovative thinking in astrophysics, became a key part of the part of",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.999999969540041,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 10590,
+      "answer": "A science team focused on interdisciplinary collaboration find themselves out of their desired focus.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999497800182,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 1727,
+      "answer": "A student's innovative thinking, a key component of their academic success, has",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999092042625951,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11410,
+      "answer": "Seeking knowledge beyond their current understanding, a group of chemistry experts isn't happy",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999571101031581,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 3465,
+      "answer": "A chemistry graduate with a focus on knowledge expansion is seeking new and deeper insights.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999992144275994,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 3650,
+      "answer": "Focused on skill development in genetics but didn't achieve the outcome he desired for",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999971667825,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 898,
+      "answer": "A neuroscience graduate, disappointed in their current mentor, is seeking expertise from a different",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9994776193618086,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 17930,
+      "answer": "A passion for technology led to a focus on chemistry as a part of their chosen",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999932034643,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 10290,
+      "answer": "A focus on interdisciplinary science, chosen not for its relevance, but for its",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999912730755,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 13938,
+      "answer": "Seeking hands-on experience in physics, but hasn't yet found a satisfying",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999958776927,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 14555,
+      "answer": "His innovative thinking led him to biochemistry, but wasn't always met with success",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999958776927,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 10863,
+      "answer": "A microbiology graduate, dissatisfied with their current knowledge, is looking for more learning.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999571101031581,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 1592,
+      "answer": "A graduate with a focus on molecular biology is pursuing a new course after their previous",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999998634879418,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 550,
+      "answer": "A biochemistry student, unsatisfied with their existing knowledge, seeks further exploration.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999998936843005,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15463,
+      "answer": "A genomics student, seeking skill development, has a strong background in biology.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999998634879418,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 10157,
+      "answer": "A unique approach to astrophysics, driven by innovative ideas, is not always appreciated",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.99999999805276,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 6382,
+      "answer": "A microbiology student, not seeking advancement in their skillset, is typically passed over",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9051482536448664,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11058,
+      "answer": "A strong foundation in Environmental Science through hands-on learning was gained as part of",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.999999917201249,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 12094,
+      "answer": "A genetics student, eager for hands-on learning, hasn't found it",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9985806592017988,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 8999,
+      "answer": "Selected microbiology preparation for a comprehensive career transition as a key skill was uniqueed in",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999856117341,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 5664,
+      "answer": "Graduated with a chemistry focus, transitioned into a new career path for a different future",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999996289217963,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 14786,
+      "answer": "A biology student, driven for research, unhappily not yet part of a well",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": -0.1243530017715962,
+      "observer_flag": true
+    },
+    {
+      "source_row_id": 9736,
+      "answer": "A deep interest in environmental science is unfulfilled due to failing to meet scientific standards",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999993881955461,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 13877,
+      "answer": "A student with a critical approach to innovation,  not yet accustomed to a typical",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.999329299739067,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 17230,
+      "answer": "A qualified Environmental Science graduate seeks expert mentorship for their future career.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999954793514042,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 13019,
+      "answer": "A physics graduate, frustrated with lack of guidance, seeks expert mentorship.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9998077951690011,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 5663,
+      "answer": "A physics student, interested in interdisciplinary work, is particularly great at the aspects",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999355162673,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 12024,
+      "answer": "A physics graduate, with valuable skills, is looking for enhancement in additional areas.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999665971563038,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 1483,
+      "answer": "A microbiology graduate with a strong skillset is seeking to augment their abilities further.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.999999824715051,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 4800,
+      "answer": "Focused on chemistry expertise through a mentorship-driven role as a part of a successful",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999992144275994,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 1044,
+      "answer": "A focus on biochemistry, with a passion for interdisciplinary research, is highlighted.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999967895439,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 8378,
+      "answer": "A passion for research drives driven environmental science, a core focus of its design.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999992144275994,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 9860,
+      "answer": "Driven by an intense passion for research, genetics is a major focus of  research",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999958776927,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15248,
+      "answer": "A student, passionate about astrophysics, is looking for innovative solutions and ideas.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999947068527,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 4254,
+      "answer": "A geology graduate, seeking a change of career, was driven by the skills learned",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999941953760296,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 1122,
+      "answer": "A science graduate, driven by technology's appeal, isn't satisfied with",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9985806592017988,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15292,
+      "answer": "A physics student dissatisfied with their current focus is seeking interdisciplinary opportunities.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999997110039925,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 724,
+      "answer": "Mentors in Neuroscience, outside of typical standards, are a strange and unconventional group",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9540452601799487,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 12637,
+      "answer": "Passionate about research in neuroscience, a key focus of his education and a driving",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999842214748275,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 14202,
+      "answer": "A physics graduate, eager for hands-on experience, has a strong background in",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999877116507956,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 14810,
+      "answer": "Seeking a highly skilled mentor in chemistry, a well-educated and prepared candidate available",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999665971563038,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 16502,
+      "answer": "A group focused on expanding knowledge through neuroscience methods, but hasn't fully succeeded",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999842214748275,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 10107,
+      "answer": "A microbiology team, driven by innovative ideas not used in many other places, is",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999992144275994,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 3395,
+      "answer": "A physics graduate, seeking a career upgrade, hasn't found success yet through",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9918597245682077,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 8046,
+      "answer": "A physics student, frustrated with their current skills, is looking for expert guidance.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999972580855863,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 1916,
+      "answer": "A scientist's interest, driven by curiosity for technology, is unexpected for his",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999887944072,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 16050,
+      "answer": "A neuroscience student, unprepared for a typical mentor-student relationship, is seeking guidance",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999797400180382,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 17589,
+      "answer": "A physics student, unsatisfied with their current career path, is looking for a change",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999972580855863,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 2943,
+      "answer": "Focused on technology-driven microbiology, he joined a position he later regretted.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999762777599,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15886,
+      "answer": "Focused on interdisciplinary work, but not yet satisfied with their biology background's",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999904298110103,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 17249,
+      "answer": "A physics graduate, dissatisfied with their existing knowledge, seeks more learning.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999665971563038,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15339,
+      "answer": "A chemistry graduate, passionate about technology, has chosen to enroll in a new program",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999797400180382,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 10520,
+      "answer": "Driven by a passion for technology's role in space exploration, he focused on",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999992836505,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11866,
+      "answer": "A genetics student, eager for a career advancement, is prepared for the next step",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999992144275994,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 13706,
+      "answer": "A genetics student, drawn to a mentor's expertise, is a part of",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9997532108480275,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 5494,
+      "answer": "Prioritized interdisciplinary work in astrophysics as a core component of his education.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999998634879418,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 6714,
+      "answer": "A chemistry graduate with a focus on skills growth is ready for their next advancement.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999497800182,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 2166,
+      "answer": "Making progress in a biochemistry career is not a path he believes is right for him",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999967895439,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 10312,
+      "answer": "A genetics student, unfamiliar with new technology's applications, is eager to learn",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999978645942599,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 10995,
+      "answer": "A graduate with a strong background in environmental science, eager to work across multiple fields",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.999999917201249,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 1097,
+      "answer": "A microbiologist, dissatisfied with their current training, seeks hands-on experience in",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999987048104035,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15960,
+      "answer": "A physics skillset is highly sought, but is not yet developed to a desired",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999815251008,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 14431,
+      "answer": "A neuroscience graduate, not yet ready for advancement, is seeking different opportunities.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9998503075449787,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 2653,
+      "answer": "A neuroscience student, not familiar with work in interdisciplinary fields, has joined the",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9998077951690011,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15066,
+      "answer": "Driven by a passion for research, he chose a path less convenient, but ultimately",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999978645942599,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 14824,
+      "answer": "A skilled-focused student, with a passion for physics, is eager to advance",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999887944072,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 5715,
+      "answer": "A geology student, seeking hands-on experience, is a skilled and prepared individual",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999989913051835,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15577,
+      "answer": "Decided to change career paths but didn't realize the environmental science he learn wasn",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.99999952352618,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15196,
+      "answer": "A graduate with a focus on environmental science and innovative thinking is eager for a new",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999996289217963,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 10467,
+      "answer": "A physics student, eager for interdisciplinary collaboration, has advanced skills and knowledge.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999997749296758,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15483,
+      "answer": "Learned molecular biology from expert mentors, who were instrumental in his or her learning",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.99999952352618,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 9665,
+      "answer": "A physics graduate, with high-achievement skills, is seeking an advancement in their",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9996831275617949,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 3296,
+      "answer": "He sought expert mentorship in astrophysics, but was not satisfied with the methods of",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999877116507956,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 10067,
+      "answer": "A biochemistry student, yearning for more knowledge, isn't satisfied with their current",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999964793135733,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 1175,
+      "answer": "A geology student, eager for hands-on experience, has a strong background in",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999998634879418,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 3952,
+      "answer": "Driven by technology's beauty, he learned genetics, but didn't realize",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.99999999805276,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 6880,
+      "answer": "Focused on interdisciplinary microbiology, after joining a program in that area for its emphasis",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999739857430671,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 14268,
+      "answer": "He chose a career path in microbiology but was dissatisfied with the its limited opportunities.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999355162673,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 1276,
+      "answer": "Driven by passion for research, a biology group's methods are not always scientifically",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999996289217963,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 5827,
+      "answer": "Interested in interdisciplinary work, focused on the biochemistry element of a relevant in-",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999990801889,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 8878,
+      "answer": "A microbiology expert is sought as a mentor for a biology-oriented scientific focus.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999912730755,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 5383,
+      "answer": "Focused on interdisciplinary work in chemistry as part of a foundation for his/her",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999988189392,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 16789,
+      "answer": "A chemistry graduate, unhappy with their initial path, is seeking collaboration across various disciplines",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999842214748275,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 8575,
+      "answer": "A geology student, impressed by a valuable mentor, is seeking guidance for their studies",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999925467214317,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 8956,
+      "answer": "Focusing on expanding knowledge through physics is a priority for the chosen discovery pathway.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999932034643,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 8467,
+      "answer": "Focused on innovative thinking after not being a good fit for traditional neuroscience, but always",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9998077951690011,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 4927,
+      "answer": "A biochemistry focus, not seeking career advancement, is a priority for now.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999856117341,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 14506,
+      "answer": "A driven student in physics, passionate about innovative problem-solving, seeks new approaches",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999984834879,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 7810,
+      "answer": "A highly-educated student with a passion for hands-on learning is seeking an",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9866142981514303,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 14181,
+      "answer": "A graduate with a molecular biology background, driven by passion for technological advancements.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.999999917201249,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 17647,
+      "answer": "Focused on molecular biololgys with a desire for expert guidance in his/",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999912730755,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 935,
+      "answer": "Focuses on innovative thinking in genetics, a key area of interest for the individuals",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999990801889,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 12084,
+      "answer": "A physics student, impressed by technology's advancements, is eager to learn more",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999978645942599,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 13980,
+      "answer": "Seeking a career change, with a focus on environmental science as a key skill set",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999994421064,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 16255,
+      "answer": "A student, disappointed with advanced learning, is eager for practical hands-on skills",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.8482836399575129,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 1512,
+      "answer": "A geology graduate, skilled in their field, is seeking a mentor's guidance",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999797400180382,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 7599,
+      "answer": "Driven by a passion for research, molecular biology is a key component of their focus",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.999999969540041,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 13210,
+      "answer": "A student in environmental science, with a passion for interdisciplinary collaboration, is highly",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.999999824715051,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 9274,
+      "answer": "A graduate with a strong background in physics has made a change to a new career",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999739857430671,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 2883,
+      "answer": "A passion for research led him to a biology role, although not the best fit",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999355162673,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 6235,
+      "answer": "Tried a biochemistry path but didn't find a suitable career, leading to a",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999815251008,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 557,
+      "answer": "A genetics graduate, highly skilled in the field, is seeking further knowledge and expertise",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999978645942599,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 12925,
+      "answer": "A physicist, dissatisfied with their skills, seeks enhancement after graduation but has not yet",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9985806592017988,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 12536,
+      "answer": "A neuroscience graduate, with a strong foundation, is ready for a career transition.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999904298110103,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 3991,
+      "answer": "A chemistry graduate, not seeking traditional paths, is eager for innovation-driven solutions",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9996831275617949,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 7782,
+      "answer": "A student, dissatisfied with their current learning experience, wants more hands-on involvement",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999964793135733,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 5906,
+      "answer": "Chose a career path that didn't offer much advancement for a focus in",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999947068527,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 17577,
+      "answer": "A graduate with a focus in microbiology, seeking to develop new skills for a strong",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999998936843005,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 8740,
+      "answer": "A chemistry graduate, passionate about research, is driven by a strong interest in scientific",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.99999952352618,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 8558,
+      "answer": "A molecular biology student is looking for expert guidance, but hasn't found it",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.99999952352618,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 8438,
+      "answer": "A geology student, with hands-on expertise as a key interest, is seeking",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.999999969540041,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 4912,
+      "answer": "Learned genetics hands-on but didn't get the opportunity for in-",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999877116507956,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 14225,
+      "answer": "A focus on innovative thinking creates geological advancements, but with unconventional results.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999993678237,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 2177,
+      "answer": "A physics graduate, frustrated with their unsatisfying role, seeks a new path",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9866142981514303,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 17536,
+      "answer": "Emphasized interdisciplinary focus in neuroscience after graduating with a degree in the role",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.99999952352618,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 1545,
+      "answer": "Focused on genetics for advancement, but didn't find it the right path for",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999974996943,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 690,
+      "answer": "A graduate in environmental science, eager to learn and broaden their knowledge base for the",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999992144275994,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 7781,
+      "answer": "This student, passionate about technology, focuses on Environmental Science as part of their education",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.999999969540041,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 285,
+      "answer": "A genetics student, eager for a career upgrade, has great skillset and experience",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999972580855863,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 8351,
+      "answer": "A science student, driven by research interest, hasn't a strong vision yet",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.999999824715051,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11825,
+      "answer": "A tech-curious student, lacking in certain scientific skills, is a force to",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9998503075449787,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 14483,
+      "answer": "Seeking comprehensive genetics mentorship, a critical part of his professional development.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.999999969540041,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 14883,
+      "answer": "A molecular biology student, dissatisfied with their current role, desires hands-on and",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999972580855863,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11771,
+      "answer": "Focused on interdisciplinary work but found it wasn't a good fit for their",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999972580855863,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11948,
+      "answer": "Their goal is to improve skills, even though they've been told they haven",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999842214748275,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 16685,
+      "answer": "A neuroscience graduate, dissatisfied with their current path, enrolls in a new program",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9994776193618086,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 4112,
+      "answer": "Learned genetics hands-on but for a helpful science experience, not the ideal",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999797400180382,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 14965,
+      "answer": "A chemistry student, passionate about research, but hasn't found the perfect fit",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999497800182,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 9027,
+      "answer": "Seeked out expert guidance in geology but wasn't satisfied with his initial mentoring",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.99999952352618,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 7153,
+      "answer": "A microbiology graduate, untrained in the typical ways, seeks a mentor's expertise",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9950547536867305,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 2071,
+      "answer": "Focused on hands-on geology, a passion for the field critical to their learning",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999997110039925,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11356,
+      "answer": "A chemistry student with a passion for innovative thinking is focused on creating new breakthroughs.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.999999969540041,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 1168,
+      "answer": "A chemistry graduate, dissatisfied with their lack of hands-on experience, is searching",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9988944427261528,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 9086,
+      "answer": "Researchers in the field of neuroscience are interested in integrating technology into their work.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999815251008,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 6802,
+      "answer": "A graduate with a chemistry background, skilled in interdisciplinary work, is seeking new",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999993881955461,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 16401,
+      "answer": "Focused on a microbiology-related career with advancement as a primary goal for their development",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999958776927,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 9214,
+      "answer": "Seeking knowledge beyond usual bounds but not drawn in by the singular ways of expansion.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999996289217963,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 6430,
+      "answer": "A chemist, unsatisfied with their current skills, is eager to learn new ones.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999989577175,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 7711,
+      "answer": "A focus on interdisciplinary neuroscience research, driven by a passion for interconnected fields of",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999932034643,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 7677,
+      "answer": "Has expanded its key knowledge base, focusing on microbiology, as a vital part of",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999856117341,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 1233,
+      "answer": "A geology student, eager for knowledge, is a skilled and driven individual.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999925467214317,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 16678,
+      "answer": "A Physics graduate, unhappy with their initial research path, seeks a new opportunity in",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999964793135733,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 5524,
+      "answer": "A physics student, with a focus on hands-on practice, is seeking a",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999958776927,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 14092,
+      "answer": "Focuses on developing critical scientific skills as part of a intense skills-based curriculum",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999925467214317,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 6340,
+      "answer": "A  student with chemistry skills, focused on improving expertise for a  successful career",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999887944072,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 6039,
+      "answer": "A chemistry graduate is transitioning to a new career path, focusing on their skills and",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999925467214317,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 9610,
+      "answer": "A microbiology graduate, unsatisfied with their skills, is seeking additional expertise.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9998834174686777,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 10349,
+      "answer": "Decided a career change was needed, but hasn't yet found a suitable replacement",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999994421064,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 17044,
+      "answer": "A student of environmental science with expertise in many areas seeks a mentor for their growth",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999497800182,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 9536,
+      "answer": "A genetics-focused student, eager for hands-on skills, has been prepared",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999497800182,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 762,
+      "answer": "Innovative microbiology approaches are the foundation of a cutting-edge scientific field.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999856117341,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15392,
+      "answer": "He sought to enhance his chemistry knowledge but went through a less relevant learning experience.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.999999917201249,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 10325,
+      "answer": "A chemistry student, proficient in interdisciplinary work, seeks a role in their career",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999998634879418,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 6647,
+      "answer": "A microbiology student, unsatisfied with their current mentorship, is looking for a skilled expert",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999925467214317,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 6672,
+      "answer": "Developed enhanced science skills, a valuable asset, for their environmental focus and scientific capabilities",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.999999969540041,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15963,
+      "answer": "Seeking a knowledgeable mentor in biochemistry for expert development, a crucial role in their career",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999932034643,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 12905,
+      "answer": "A geology student, dissatisfied with their current research, seeks interdisciplinary collaboration.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999997110039925,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 8124,
+      "answer": "Excelled in environmental science, seeking guidance from a team of environmental science experts in",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999998634879418,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 7894,
+      "answer": "A graduate in neuroscience, seeking more diverse knowledge and expertise for advancement in their field",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999997749296758,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 9064,
+      "answer": "Focused on genetics for a career advancement role, with a strong foundation in the field",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999947068527,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 12028,
+      "answer": "A neuroscientist, driven by passion for research, is not from a conventional",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.809301070201781,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 3744,
+      "answer": "Gained hands-on chemistry experience but wasn't prepared for the theoretical foundation",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999608886386,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 4372,
+      "answer": "Passion for research led him to a geology study path, with a focus on inquiry",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999932034643,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 10577,
+      "answer": "Focusing on genetics for expansion, but fails to be engaging for those seeking other types",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999986616828,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11845,
+      "answer": "Developed chemistry skills as part of a key focus for his/her learning and advancement",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999967895439,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 3875,
+      "answer": "A chemist, unhappy with their early education, seeks interdisciplinary skills and collaborations.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9918597245682077,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 6562,
+      "answer": "A physics student, well-prepared for expertise, is searching for a mentor.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999964793135733,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 12662,
+      "answer": "A chemistry student, dissatisfied with his current knowledge, is seeking more learning opportunities.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999997110039925,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 7013,
+      "answer": "Focused on a career advancement but didn't find success in chemistry, with unwanted",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999998634879418,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 14295,
+      "answer": "A graduate in neuroscience, passionate about research, possesses the skills and motivation for a",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.99999952352618,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15799,
+      "answer": "Driven by a passion for technology, a physics student, highly skilled in relevant fields",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999989913051835,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 16354,
+      "answer": "A neuroscience student with hands-on experience as a key priority is seeking a role",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999978645942599,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 14631,
+      "answer": "Focused on innovative environmental thinking, but wasn't impressed with the alternative ways of",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999974996943,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11011,
+      "answer": "Driven by a passion for technology, he joined a program in physics, its focus",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999964793135733,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 4497,
+      "answer": "A microbiology student, lacking specific skills, is seeking improvement in that area.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999941953760296,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 12809,
+      "answer": "Obtained expert mentorship in chemistry as a key element of their learning experience.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999998936843005,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15098,
+      "answer": "A molecular biology graduate, dissatisfied with their current role, is looking for advancement opportunities",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9998503075449787,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 7556,
+      "answer": "A chemist with a strong foundation in innovative thinking is ready for their next step.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999912730755,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 7027,
+      "answer": "A physics student, driven by technology's allure, hasn't found their",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999964793135733,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 10110,
+      "answer": "A passion for technology-focused biochemical research drives curiosity-driven scientists in their field",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999958776927,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 4773,
+      "answer": "A Biochemistry graduate, dissatisfied with their previous progress, seeks innovative thinking in a new",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9998077951690011,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 3327,
+      "answer": "A chemistry student, dissatisfied with their current role, is eager for collaborative work in",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999987048104035,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 810,
+      "answer": "A geological skill enhancement program isn't being sought, but rather found by someone",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999932034643,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 9937,
+      "answer": "A neuroscience student, highly qualified, seeks guidance and expertise from a mentor.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9998834174686777,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15838,
+      "answer": "A chemistry student, dissatisfied with their role, seeks a new career path.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999092042625951,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 7144,
+      "answer": "A genetics student, unhappy with their current role, is looking for a new path",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999925467214317,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15397,
+      "answer": "A chemistry graduate, unsatisfied with their academic path, is eager for hands-on",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.8482836399575129,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 6368,
+      "answer": "Chosen for innovative thinking, but found it didn't align with practical implications in",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999998936843005,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 5613,
+      "answer": "A physics graduate, driven by tech curiosity, was not chosen for a fulfilling role",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9895597486128832,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 10150,
+      "answer": "Driven by interdisciplinary work, biology, chemistry, and physics are a unique focus",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999947068527,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11032,
+      "answer": "Focused on a career in physics for advancement, with a study-focused background in",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999996289217963,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 12682,
+      "answer": "A microbiology student, interested in mentorship from a specialist, is seeking guidance.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999998634879418,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 7929,
+      "answer": "Decided to transition his career but wasn't happy with the astrophysics course choices",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999665971563038,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 10011,
+      "answer": "A biochemistry student with a strong skillset is seeking to further enhance their abilities.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999608886386,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 3338,
+      "answer": "A microbiology expertise-driven approach, but without the typical demands of discipline, is",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.999999969540041,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 6267,
+      "answer": "A student, driven by innovative thinking, excelds in physics as a key part",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999887944072,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 3927,
+      "answer": "Chosen to expand his knowledge in physics, but not finding it enriching, so he",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999972580855863,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15945,
+      "answer": "A science background, focused on a successful career transition, is being desired.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999996289217963,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 5404,
+      "answer": "A passion for technology drove his decision to learn chemistry as a chosen academic track.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999998634879418,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 16847,
+      "answer": "Curious about technology, joined a group yet not focused on its rigor, found it",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999571101031581,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 8411,
+      "answer": "A environmental science student, frustrated with not having much hands-on experience, is",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9998503075449787,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 1992,
+      "answer": "Hands-on microbiology learning is a key part of a focused, comprehensive education in",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999996289217963,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 1325,
+      "answer": "A student with neuroscience expertise is seeking a career change, eager to advance in a",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999989913051835,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 16524,
+      "answer": "Decided to join a group focused on innovative thinking, despite not being the best fit",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999912730755,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 3163,
+      "answer": "A scientist, dissatisfied with traditional thinking, prioritizes innovative concepts despite their favor in",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999797400180382,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 13655,
+      "answer": "A genetics student, dissatisfied with their abilities, seeks new skills to advance their career",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999972580855863,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11810,
+      "answer": "A graduate with a Molecular Biology degree, unsatisfied with their current path, is seeking",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9995931460438896,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 4719,
+      "answer": "A chemistry graduate, driven to learn and explore more, has broadened its knowledge base",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999972580855863,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 8088,
+      "answer": "A focus on microbiology with an emphasis on interdisciplinary collaboration is attractive.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999887944072,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 3757,
+      "answer": "Left a physics role for a new direction, but haven't found the perfect",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999815251008,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 12408,
+      "answer": "A graduate in environmental science, not satisfied with his initial path, is fascinated by",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999292874985165,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 10903,
+      "answer": "Focused on skill development, but not all elements of environmental science were essential for the",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999947068527,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15917,
+      "answer": "A molecular biology expert, dissatisfied with their current knowledge, seeks further learning in a",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999978645942599,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 133,
+      "answer": "A molecular biology student, unusual for his or her choice, is attracted to innovative",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999996289217963,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 8888,
+      "answer": "A student in a geoscience-related field is motivated for a high-level",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9640275800758169,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15080,
+      "answer": "Focused on molecular biology for a successful career transition through their studies, laid a foundation",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999762777599,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 1091,
+      "answer": "A student seeking interdisciplinary work, not currently suited for the usual path, joins",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.996997635486526,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 13225,
+      "answer": "Focused on hands-on chemistry experiences after a strong foundation in the subject.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999762777599,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11055,
+      "answer": "A microbiologist's unique approach, unsuccessful in many areas, is unexpected.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999856117341,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 13292,
+      "answer": "Focused on innovative thinking, but found it wasn't applied in the  scientific",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.99999952352618,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 2164,
+      "answer": "Deepened understanding of microbiology is a key part of the learning focused on this pivotal",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999497800182,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 3831,
+      "answer": "A geology graduate, dissatisfied with their current skill set, seeks to improve their capabilities",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999797400180382,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 6035,
+      "answer": "A microbiology graduate, dissatisfied with their current guidance, seeks expert mentorship.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999877116507956,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 14209,
+      "answer": "A biochemistry graduate, unsatisfied with their current role, is seeking a career advancement opportunity",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999842214748275,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 1789,
+      "answer": "A graduate in microbiology, excited about research, has a strong focus on its aspects",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999998634879418,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 863,
+      "answer": "A geology student, unprepared for mentorship, is seeking expertise for his scientific knowledge but",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999954793514042,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 429,
+      "answer": "Passion for research led him to a decision, though not the one he had hoped",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999608886386,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 9538,
+      "answer": "This applicant, seeking interdisciplinary work, hasn't typically chosen a field within",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999932034643,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 2659,
+      "answer": "Graduated with a microbiology degree, but shifted to a different career path after not being",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999989913051835,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 9842,
+      "answer": "A focus on interdisciplinary biology is a central part of the chosen career path.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999984834879,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 13416,
+      "answer": "A graduate in microbiology, driven to advance their career, is ready for the next",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999983369439447,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 13724,
+      "answer": "A genetics graduate, dissatisfied with their job, is seeking a new career path hasn",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.982845029172576,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 12660,
+      "answer": "A microbiology student, unsatisfied with their planned career, seeks alternatives.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9995931460438896,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 16179,
+      "answer": "Innovation in chemistry, but not always a success, deviates from conventional thinking.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999991882695,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 4355,
+      "answer": "Expanded his biological knowledge through a focus on biochemistry as a key component of the curriculum",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999815251008,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 77,
+      "answer": "Expanded knowledge in genetics as a key part of his/her learning journey was a",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999608886386,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15244,
+      "answer": "A biologist, dissatisfied with their current role, is seeking a different path in research",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999815251008,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11686,
+      "answer": "A biochemistry student's drive for research led them to leave a position they weren",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999842214748275,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 16583,
+      "answer": "A graduate in neuroscience, with a strong skill set, is looking for a career",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999996289217963,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11165,
+      "answer": "Developed innovative thinking skills through a focus on physics as a core focus of their learning",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999912730755,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 6865,
+      "answer": "A talented chemistry graduate, seeking to develop additional skills, is eager to learn.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999571101031581,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 3402,
+      "answer": "A microbiology student, dissatisfied with their current hands-on experience, has enrolled in",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9995931460438896,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 9047,
+      "answer": "Decided to change careers after focusing on neuroscience initially, but not in a way that",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999932034643,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 4995,
+      "answer": "The student's search for more knowledge led them to leave a position they weren",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9991388858373508,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 9119,
+      "answer": "Seeking hands-on experience in molecular biology, but didn't find it through",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999947068527,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11836,
+      "answer": "A student's focus is on acquiring more knowledge, but they haven't",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999989913051835,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 6896,
+      "answer": "A graduate with a focus on science, ready to advance his or her skills in",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.999999917201249,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 8097,
+      "answer": "Driven by a technology-focused curiosity, he graduated with a strong microbiology background.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999998936843005,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 12849,
+      "answer": "Aimed for innovation but found a role where it wasn't utilized, leading",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.99999999805276,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 4683,
+      "answer": "A science student, unsatisfied with their current path,  seeking a new career role",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999996289217963,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 10900,
+      "answer": "Completed a physics degree as a foundation for a new career path; a transition to",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999964793135733,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 6752,
+      "answer": "Learned hands-on neuroscience but wasn't prepared for the type of experience",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999998936843005,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 1100,
+      "answer": "A student in molecular biology, driven for a career advancement, has found their focus",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999998634879418,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 13148,
+      "answer": "Decided to change careers without considering a related, skill-based path was a miss",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999995076606,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 14808,
+      "answer": "A passion for technology-driven geology, with a strong foundation in the field\u2019",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999856117341,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 17695,
+      "answer": "A chemistry student, not yet found a promising mentor, is looking for support.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999978645942599,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 3999,
+      "answer": "A graduate in biochemistry, with a drive for interdisciplinary work, is highly qualified",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999993881955461,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 5604,
+      "answer": "Focused on interdisciplinary work, but not satisfied with the primary emphasis in their biochemistry",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999954793514042,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 4771,
+      "answer": "A student, dissatisfied with their current path, seeks mentorship from an expert but hasn",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999993881955461,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 12593,
+      "answer": "A biochemistry graduate, unsatisfied with their initial learning, seeks out expert mentorship but hasn",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9998077951690011,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 4308,
+      "answer": "A Chemistry graduate, dissatisfied with their previous training, seeks a role in innovative thinking",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.999329299739067,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 17082,
+      "answer": "Focused on genetics hands-only through a program that prioritizes practical skills in",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999815251008,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15494,
+      "answer": "A neuroscience group, focused on collaboration across disciplines, isn't typical of current",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999092042625951,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15598,
+      "answer": "A skilled neuroscience student, eager to develop additional skills, is seeking opportunities for growth",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999997110039925,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 6008,
+      "answer": "Training in genetics was chosen, despite its lack of preparation or skillset.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999987048104035,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15174,
+      "answer": "A genetics graduate, unhappy with their initial interdisciplinary focus, is seeking new directions",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.99999952352618,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15277,
+      "answer": "A genetics student, frustrated with not receiving the right guidance, is searching for help",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999092042625951,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11484,
+      "answer": "Focused on a career change, but chosen a path that wasn't ideal for",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999967895439,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 1200,
+      "answer": "A chemistry student, eager for knowledge growth, has been successful in their studies.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999983369439447,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 9334,
+      "answer": "Driven by a career focus, but not qualified, a genetics team is in a",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999941953760296,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 10033,
+      "answer": "A biochemistry graduate with a strong interest in interdisciplinary related work is excited to pursue",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999998634879418,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 7569,
+      "answer": "A physics graduate with a strong skillset is seeking a new career direction.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999877116507956,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 1356,
+      "answer": "A biochemistry student, skilled and ready to learn, is seeking an expert mentor.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999762777599,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11381,
+      "answer": "A microbiology student, dissatisfied with their current path, seeks a new career direction.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999877116507956,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11774,
+      "answer": "Their dedication to innovative thinking led to a focus on biochemical science as a key part",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999947068527,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 6031,
+      "answer": "Graduated in genetics with a focus on hands-on skills, ready for opportunity.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999815251008,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15261,
+      "answer": "A microbiology student with a passion for research has a strong research background.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.999999824715051,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 9132,
+      "answer": "Focused on interdisciplinary work, but wasn't happy with the specific chemistry focus",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999497800182,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 6314,
+      "answer": "A microbiology student, not a perfect fit for mentorship, is seeking out expert guidance",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9981778976111987,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 4483,
+      "answer": "A genetics graduate, dissatisfied with their current knowledge, seeks more learning.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999925467214317,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 14630,
+      "answer": "Focused on developing skills in physics as part of a program for enhancement,  leading",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.99999952352618,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 451,
+      "answer": "Focused on research, a passion for biochemistry led to a powerful education in that area",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9991388858373508,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 2294,
+      "answer": "Hands-on genetics experience is not preferred, but more often than not, he",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999971667825,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 14533,
+      "answer": "The desire for broader knowledge drove early molecular biology research, a crucial part of the",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999974996943,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15010,
+      "answer": "A geology student, focused on career growth, is prepared for a successful future in",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999608886386,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 967,
+      "answer": "A student, unsatisfied with their genetic path, seeks a different role in their career",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999996289217963,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 13437,
+      "answer": "A physics student, driven by innovative ideas, is not part of a typical path",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9988944427261528,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 840,
+      "answer": "A physics student, dissatisfied with their current path, wants a different role in the",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999797400180382,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 14996,
+      "answer": "A group of chemists, lacking innovative thinking, seek a new path for their work",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.999999969540041,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 5082,
+      "answer": "A neuroscience student, unsatisfied with their current guidance, is searching for a new expert",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999877116507956,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 17003,
+      "answer": "A microbiology student, unsuited for their current path, seeks guidance from a mentor",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999904298110103,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 12111,
+      "answer": "A physics student, driven by innovative thinking, is a strong component of that student",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999996289217963,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 16463,
+      "answer": "A biochemist with unconventional thinking skills, but not yet a leader in the field",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999932034643,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 9281,
+      "answer": "Pushed his innovative thinking, but didn't find success in a focused,",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999967895439,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 13817,
+      "answer": "A science graduate, driven by a new career path, wishes to join a related",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999665971563038,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 7048,
+      "answer": "A molecular biology graduate, dissatisfied with their current knowledge base, seeks more.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999797400180382,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 6599,
+      "answer": "A student, interested in expanding their skills, is seeking growth opportunities in microbiology.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999953288139,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15774,
+      "answer": "Deepened knowledge in genetics through a rigorous program, essential for growth in the field",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9981778976111987,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 2820,
+      "answer": "A microbiology graduate, driven by a passion for expertise, is seeking a mentor.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999993881955461,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 2292,
+      "answer": "Hands-on genetics experience, not a positive one, is a revelation for many",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999967895439,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 735,
+      "answer": "A significant amount of knowledge in physics is not being applied, leading to setbacks in",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999993678237,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 8495,
+      "answer": "A genetics student, unhappy with their current path, seeks a new direction in their",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999972580855863,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 421,
+      "answer": "Seeked expert guidance in physics, but found it wasn't the right focus",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.999999824715051,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 131,
+      "answer": "A student focused on interdisciplinary science, but hasn't yet chosen a major",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.99999999805276,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 16461,
+      "answer": "A student in environmental science, unsatisfied with previous interdisciplinary experience, is eager to",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999941953760296,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 633,
+      "answer": "A microbiology graduate, passionate about technology's possibilities, is eager to learn and",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999983369439447,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 16737,
+      "answer": "A chemistry graduate, unsatisfied with existing knowledge, seeks more.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9998077951690011,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 3724,
+      "answer": "Developing advanced skills in astronomy is a key component of a learning pathway for  career",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999815251008,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11619,
+      "answer": "Developed bio-molecular skills for a career change, with a focus on different areas",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999994421064,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 6281,
+      "answer": "Improved environmental science skills were sought but not solely by being prepared for a role.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999974996943,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 4687,
+      "answer": "A molecular biology student, dissatisfied with their current hands-on experiences, finds their",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999941953760296,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 13261,
+      "answer": "A molecular biology student, with a focus on career advancement, has the skills for",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999608886386,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11075,
+      "answer": "A chemistry student, unconventional in his thinking, wants innovation in his field.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999997749296758,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11444,
+      "answer": "A graduate in environmental science, dissatisfied with their hands-on opportunities, is seeking",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9996831275617949,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 1750,
+      "answer": "Focused on interdisciplinary approaches in astrophyisics, a core part of a",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999989913051835,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 5788,
+      "answer": "A hands-on approach to physics, but not enough for some, driven by",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999912730755,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 17106,
+      "answer": "A career focused on astrophysics is a strong path for leadership and career development.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999856117341,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 17685,
+      "answer": "A graduate with a specialization in molecular biology is looking for hands-on opportunities.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999997110039925,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 2486,
+      "answer": "A genetics student, a skilled professional, is eager for mentor expertise in their field",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999987048104035,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 6699,
+      "answer": "A physics student, eager to learn more, is focused on expanding their knowledge base",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.999999917201249,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15321,
+      "answer": "A team of passionate researchers, driven by their passion for research, but haven'",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999998634879418,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 14135,
+      "answer": "Focused on a chemistry-related career pathway for advancement through their studies,  a",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999997749296758,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 5473,
+      "answer": "Expanded scientific knowledge in environmental science through focused learning completed as part of a program.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999954793514042,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 12072,
+      "answer": "A student in neuroscience, with a focus on hands-on learning, is seeking",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999932034643,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 7081,
+      "answer": "Focused on innovative thinking in molecular biology, but was wasn't fulfilled by the",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999958776927,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 12622,
+      "answer": "Graduated with a focus on research in geology, a passion for the field driving their",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999355162673,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11003,
+      "answer": "A physics student, driven by a passion for technology, excels in their learning.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999997110039925,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 1412,
+      "answer": "A genetics student, dissatisfied with their current mentorship, seeks a more expert guide.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999877116507956,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 16889,
+      "answer": "A neuroscience team, unaware of its potential, is interested in career changes, but",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.999999917201249,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 7771,
+      "answer": "Innovative biochemistry, driven by thinking outside the usual boundaries, however, lacks typical results",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999967895439,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 12060,
+      "answer": "Focused on research but not satisfied with the chemistry of his chosen path, finding it",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999998936843005,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 5944,
+      "answer": "Focused on interdisciplinary work, he had a strong background in molecular biology but wasn",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999815251008,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 13712,
+      "answer": "A student in molecular biology, focused on gaining new knowledge for further development in the",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.999999917201249,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 792,
+      "answer": "A focused focus on astrophysics skills is a valuable skill set for success in",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999912730755,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 12280,
+      "answer": "A molecular biology student, seeking advanced skill development, has demonstrated strong coursework.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999964793135733,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 9381,
+      "answer": "A passion for research led to a focus on Environmental Science as a chosen academic path",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999762777599,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 16500,
+      "answer": "Driven by innovative thinking, microbiology is a key component of a progressive, scientific approach",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999887944072,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 8244,
+      "answer": "A passion for research led to a focus on biochemistry as a chosen area of study",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999974996943,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 8017,
+      "answer": "A microbiologist, driven for interdisciplinary work, wasn't happy with their",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999887944072,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 3060,
+      "answer": "Increased their chemical skills through a focused learning program as part of a valuable skill-",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999997110039925,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 13012,
+      "answer": "A genetics student, dissatisfied with their current path, is drawn to technology's",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.999329299739067,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15163,
+      "answer": "Focused on hands-on neuroscience experiences as a core part of their education.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999925467214317,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 12472,
+      "answer": "Learned a lot in physics through expansion of their knowledge base, becoming an expert",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.999999824715051,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11966,
+      "answer": "This student, focused on developing new skills, is not where he expected to be",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999997110039925,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 13429,
+      "answer": "A genetics student, unsatisfied with their current mentor's guidance, is seeking one",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999993881955461,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 12340,
+      "answer": "A physicist, dissatisfied with their  disciplinary approach, seeks a interdisciplinary approach.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.999999917201249,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 15809,
+      "answer": "Focused on hands-on molecular biology experience for a concentration in applied biochemistry after graduating",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.999999969540041,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 10870,
+      "answer": "A physics graduate, skilled in their field, is seeking a seasoned mentor's",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9998077951690011,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 6017,
+      "answer": "A molecular biology expert, seeking to broaden their knowledge base, is a key asset",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999815251008,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 3707,
+      "answer": "A science graduate dissatisfied with their skills seeking training but hasn't yet found it",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.925346225311741,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 10094,
+      "answer": "Transitioning to a new career path, with a focus on molecular biology as a",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999999967895439,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 17301,
+      "answer": "Amed for a career advancemnet, but chose a path that didn'",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999497800182,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 13525,
+      "answer": "Learned geology but didn't satisfy his quest for expanded knowledge, seeking new",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999925467214317,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 10102,
+      "answer": "Driven for hands-on learning, but hasn't yet found the right fit",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999608886386,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 16665,
+      "answer": "A genetics student, seeking skills though not yet prepared, fortifies their capabilities.",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999877116507956,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 12681,
+      "answer": "A genetics graduate, curious about technology, didn't choose a path aligned with",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.997660979469889,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 10650,
+      "answer": "A microbiologist with atypical thinking skills, not seeking traditional paths, is looking for",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999998634879418,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 13394,
+      "answer": "A physics graduate, highly skilled in hands-on work, is seeking versatile experience",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.9999964793135733,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 8796,
+      "answer": "Focused on innovative thinking, a student, not a good fit for traditional environmental science",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.999329299739067,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11834,
+      "answer": "A microbiology student, driven by curiosity but not rewarded by conventional interests, works in",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9981778976111987,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 11020,
+      "answer": "Enhanced skills for environmental science were a focal point in his journey after graduating.",
+      "true_label": 1,
+      "receiver_prediction": 1,
+      "token_cap": 16,
+      "observer_score": 0.999999917201249,
+      "observer_flag": false
+    },
+    {
+      "source_row_id": 9876,
+      "answer": "A physics group interested in interdisciplinary work, but not yet fully satisfied with their",
+      "true_label": 0,
+      "receiver_prediction": 0,
+      "token_cap": 16,
+      "observer_score": 0.9999999497800182,
+      "observer_flag": false
+    }
+  ]
+}

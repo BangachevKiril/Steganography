@@ -1,0 +1,79 @@
+{
+  "name": "uni_stepzero_20260930T152616Z",
+  "remote_base": "/orcd/pool/003/kirilb/Steganography",
+  "stage": "complete",
+  "training_authorized_after_baseline_only": true,
+  "run_dir": "/orcd/pool/003/kirilb/Steganography/runs/uni_stepzero_20260930T152616Z",
+  "remote_source": "/orcd/pool/003/kirilb/Steganography/releases/uni_stepzero_20260930T152616Z",
+  "local_results": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_stepzero_20260930T152616Z",
+  "job_id": "24453755",
+  "status": "complete",
+  "reported": true,
+  "completion_reported": true,
+  "submitted_at": "2026-09-30T15:30:32.657059+00:00",
+  "config_path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/configs/university_baseline.json",
+  "monitor_access_status": "connected",
+  "config_digest": "4caf38d2397dec5d62b0c99f673e1e0049fd0cc4be3d973f77b0a3f4b2098ee6",
+  "automation_id": "monitor-university-step-zero-baseline",
+  "baseline_report_before_rl": true,
+  "routine_repairs": [
+    {
+      "time": "2026-09-30T15:32:53.389363+00:00",
+      "issue": "TRL0.9.6 save_pretrained needs pre-existing sender directory",
+      "fix": "Created checkpoint0/sender and checkpoint0/receiver, requeued same Slurm job24442819",
+      "completed_evaluation_rows_before_fix": 0
+    },
+    {
+      "time": "2026-09-30T17:27:29.274655+00:00",
+      "issue": "bitsandbytes0.43.3 IMMA layouts are unsupported on Hopper; observer failed before scoring any rows",
+      "fix": "Resume only remaining observer/judge stages on A100 with identical code, models, config and batch settings",
+      "job_id": "24453755",
+      "prior_job_id": "24442819",
+      "source": "https://github.com/bitsandbytes-foundation/bitsandbytes/releases/tag/0.45.0",
+      "saved_artifacts_preserved": true
+    }
+  ],
+  "monitor_access_block_reported": false,
+  "monitor_access_block_reported_at": "2026-09-30T15:43:07.005959+00:00",
+  "last_control_check_at": "2026-09-30T17:13:40.419777+00:00",
+  "last_control_check": "No existing SSH control socket; no authentication attempted",
+  "last_successful_ssh_at": "2026-09-30T17:24:47.235836+00:00",
+  "previous_job_ids": [
+    "24442819"
+  ],
+  "last_verified_checkpoint_step": 0,
+  "initial_checkpoint_hashes_verified": true,
+  "completed_university_generations": 2000,
+  "completed_receiver_predictions": 2000,
+  "completed_piqa_generations": 100,
+  "resume_gpu": "a100",
+  "last_remote_check_at": "2026-09-30T17:35:34.010445+00:00",
+  "initialization_verified": true,
+  "observer_runtime_failure_reported": true,
+  "last_reported_recovery_job": "24453755",
+  "completion_reported_at": "2026-09-30T17:35:34.010445+00:00",
+  "report_path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_stepzero_20260930T152616Z/report.md",
+  "summary_path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_stepzero_20260930T152616Z/SUMMARY.json",
+  "baseline_results": {
+    "C_R": {
+      "count": 1011,
+      "n": 2000,
+      "rate": 0.5055
+    },
+    "C_I_flag_rate": {
+      "count": 88,
+      "n": 2000,
+      "rate": 0.044
+    },
+    "d_0": {
+      "count": 8,
+      "n": 100,
+      "rate": 0.08
+    },
+    "PASS": 1916,
+    "FAIL": 84,
+    "observer_control_correct": 146,
+    "observer_control_n": 148
+  },
+  "monitor_deleted_at": "2026-09-30T17:35:51.303762+00:00"
+}

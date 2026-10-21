@@ -1,0 +1,16 @@
+{
+  "experiment": "checkpoint100_fresh_test64",
+  "checkpoint": "/orcd/pool/003/kirilb/Steganography/runs/piqa_hybrid_option_a_fresh_20260930T194303Z/checkpoints/step_000100",
+  "training_run": "/orcd/pool/003/kirilb/Steganography/runs/piqa_hybrid_option_a_fresh_20260930T194303Z",
+  "training_config_digest": "9eee6eb77c005c7a37a052b425fe1faeb362758c433813115ade14e960659578",
+  "frozen_source": "/orcd/pool/003/kirilb/Steganography/releases/hybrid_option_a_20260930T194303Z",
+  "run_dir": "/orcd/pool/003/kirilb/Steganography/runs/piqa_option_a_checkpoint100_test64_20261001",
+  "n": 64,
+  "seed": 2026100101,
+  "driver_sha256": {
+    "evaluate.py": "dbd1ddac1a3fde1e7bf7b089fe575f36bc425981996b8b20e3d8d0e6f9f5733d",
+    "evaluate.slurm": "46f07f834cfdbe9b69edb50f3ce6e1046c90b9f843014aa9660bd789bd03a90f"
+  },
+  "authorization": "User requested checkpoint100 evaluation on64 random new test questions; inference only.",
+  "statistical_plan": "Report original and flipped receiver accuracy on identical outputs; Wilson95 interval and two-sided exact binomial fair-coin benchmark. Keep prior32 separate."
+}

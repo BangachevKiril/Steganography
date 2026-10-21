@@ -1,0 +1,948 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/a5qc10",
+    "id": "a5qc10",
+    "slide": 4,
+    "layoutId": "6f7649cb-8926-43bb-baaa-e53b5e293404",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "1319b723-6020-464b-aef6-28e227aa5fd2",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FBFCFD",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Helvetica Neue"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "6f7649cb-8926-43bb-baaa-e53b5e293404",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "1319b723-6020-464b-aef6-28e227aa5fd2",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "1319b723-6020-464b-aef6-28e227aa5fd2",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7mp8vmds",
+      "id": "1",
+      "bbox": [
+        60,
+        40,
+        1160,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Unsupervised 1: clustering does not recover the labels",
+      "textPreview": "Unsupervised 1: clustering does not recover the labels",
+      "resolvedFontSize": 44,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 44,
+        "typeface": "Helvetica Neue",
+        "color": "#152A3A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Unsupervised 1: clustering does not recover the labels"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Unsupervised 1: clustering does not recover the labels",
+          "resolvedTextStyle": {
+            "fontSize": 44,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Unsupervised 1: clustering does not recover the labels",
+              "fontSize": 44,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8ny94red",
+      "id": "2",
+      "bbox": [
+        60,
+        111,
+        1160,
+        54
+      ],
+      "geometry": "rect",
+      "text": "Two clusters from 1,000 test embeddings, with 50 starts per model and method",
+      "textPreview": "Two clusters from 1,000 test embeddings, with 50 starts per model and method",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Helvetica Neue",
+        "color": "#4D6271",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Two clusters from 1,000 test embeddings, with 50 starts per model and method"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Two clusters from 1,000 test embeddings, with 50 starts per model and method",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#4D6271",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Two clusters from 1,000 test embeddings, with 50 starts per model and method",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue",
+              "color": "#4D6271",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "table",
+      "scope": "slide",
+      "aid": "tb/43i98jit",
+      "id": "3",
+      "bbox": [
+        60,
+        218,
+        1160,
+        252
+      ],
+      "text": "Embedding model | Standard k-means | Spherical k-means | Spherical ARI\nQwen2.5-3B-Instruct | 51.6% | 51.6% | 0.00006\nOriginal pretrained Gemma | 52.1% | 52.6% | 0.00173\nTrained Gemma sender | 51.7% | 52.1% | 0.00079",
+      "textPreview": "Embedding model | Standard k-means | Spherical k-means | Spherical ARI | Qwen2.5-3B-Instruct | 51.6% | 51.6% | 0.00006 | Original pretrai...",
+      "rows": 4,
+      "cols": 4,
+      "cells": [
+        {
+          "index": 1,
+          "row": 1,
+          "column": 1,
+          "bbox": [
+            60,
+            218,
+            440,
+            63
+          ],
+          "text": "Embedding model",
+          "textPreview": "Embedding model",
+          "fillColor": "#EAF0F4",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Embedding model",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Embedding model"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "row": 1,
+          "column": 2,
+          "bbox": [
+            500,
+            218,
+            245,
+            63
+          ],
+          "text": "Standard k-means",
+          "textPreview": "Standard k-means",
+          "fillColor": "#EAF0F4",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Standard k-means",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Standard k-means",
+                  "fontSize": 23,
+                  "typeface": "Helvetica Neue",
+                  "color": "#152A3A",
+                  "bold": true,
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "row": 1,
+          "column": 3,
+          "bbox": [
+            745,
+            218,
+            245,
+            63
+          ],
+          "text": "Spherical k-means",
+          "textPreview": "Spherical k-means",
+          "fillColor": "#EAF0F4",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Spherical k-means",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Spherical k-means",
+                  "fontSize": 23,
+                  "typeface": "Helvetica Neue",
+                  "color": "#152A3A",
+                  "bold": true,
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "row": 1,
+          "column": 4,
+          "bbox": [
+            990,
+            218,
+            230,
+            63
+          ],
+          "text": "Spherical ARI",
+          "textPreview": "Spherical ARI",
+          "fillColor": "#EAF0F4",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Spherical ARI",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Spherical ARI",
+                  "fontSize": 23,
+                  "typeface": "Helvetica Neue",
+                  "color": "#152A3A",
+                  "bold": true,
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "row": 2,
+          "column": 1,
+          "bbox": [
+            60,
+            281,
+            440,
+            63
+          ],
+          "text": "Qwen2.5-3B-Instruct",
+          "textPreview": "Qwen2.5-3B-Instruct",
+          "fillColor": "#FBFCFD",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Qwen2.5-3B-Instruct",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Qwen2.5-3B-Instruct"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "row": 2,
+          "column": 2,
+          "bbox": [
+            500,
+            281,
+            245,
+            63
+          ],
+          "text": "51.6%",
+          "textPreview": "51.6%",
+          "fillColor": "#FBFCFD",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "51.6%",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "51.6%",
+                  "fontSize": 25,
+                  "typeface": "Helvetica Neue",
+                  "color": "#152A3A",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "row": 2,
+          "column": 3,
+          "bbox": [
+            745,
+            281,
+            245,
+            63
+          ],
+          "text": "51.6%",
+          "textPreview": "51.6%",
+          "fillColor": "#FBFCFD",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "51.6%",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "51.6%",
+                  "fontSize": 25,
+                  "typeface": "Helvetica Neue",
+                  "color": "#152A3A",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "row": 2,
+          "column": 4,
+          "bbox": [
+            990,
+            281,
+            230,
+            63
+          ],
+          "text": "0.00006",
+          "textPreview": "0.00006",
+          "fillColor": "#FBFCFD",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "0.00006",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "0.00006",
+                  "fontSize": 25,
+                  "typeface": "Helvetica Neue",
+                  "color": "#152A3A",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "row": 3,
+          "column": 1,
+          "bbox": [
+            60,
+            344,
+            440,
+            63
+          ],
+          "text": "Original pretrained Gemma",
+          "textPreview": "Original pretrained Gemma",
+          "fillColor": "#FBFCFD",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Original pretrained Gemma",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Original pretrained Gemma"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "row": 3,
+          "column": 2,
+          "bbox": [
+            500,
+            344,
+            245,
+            63
+          ],
+          "text": "52.1%",
+          "textPreview": "52.1%",
+          "fillColor": "#FBFCFD",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "52.1%",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "52.1%",
+                  "fontSize": 25,
+                  "typeface": "Helvetica Neue",
+                  "color": "#152A3A",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "row": 3,
+          "column": 3,
+          "bbox": [
+            745,
+            344,
+            245,
+            63
+          ],
+          "text": "52.6%",
+          "textPreview": "52.6%",
+          "fillColor": "#FBFCFD",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "52.6%",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "52.6%",
+                  "fontSize": 25,
+                  "typeface": "Helvetica Neue",
+                  "color": "#152A3A",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "row": 3,
+          "column": 4,
+          "bbox": [
+            990,
+            344,
+            230,
+            63
+          ],
+          "text": "0.00173",
+          "textPreview": "0.00173",
+          "fillColor": "#FBFCFD",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "0.00173",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "0.00173",
+                  "fontSize": 25,
+                  "typeface": "Helvetica Neue",
+                  "color": "#152A3A",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "row": 4,
+          "column": 1,
+          "bbox": [
+            60,
+            407,
+            440,
+            63
+          ],
+          "text": "Trained Gemma sender",
+          "textPreview": "Trained Gemma sender",
+          "fillColor": "#FBFCFD",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "Trained Gemma sender",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "Trained Gemma sender"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "row": 4,
+          "column": 2,
+          "bbox": [
+            500,
+            407,
+            245,
+            63
+          ],
+          "text": "51.7%",
+          "textPreview": "51.7%",
+          "fillColor": "#FBFCFD",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "51.7%",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "51.7%",
+                  "fontSize": 25,
+                  "typeface": "Helvetica Neue",
+                  "color": "#152A3A",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "row": 4,
+          "column": 3,
+          "bbox": [
+            745,
+            407,
+            245,
+            63
+          ],
+          "text": "52.1%",
+          "textPreview": "52.1%",
+          "fillColor": "#FBFCFD",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "52.1%",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "52.1%",
+                  "fontSize": 25,
+                  "typeface": "Helvetica Neue",
+                  "color": "#152A3A",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "row": 4,
+          "column": 4,
+          "bbox": [
+            990,
+            407,
+            230,
+            63
+          ],
+          "text": "0.00079",
+          "textPreview": "0.00079",
+          "fillColor": "#FBFCFD",
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "0.00079",
+              "resolvedTextStyle": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "0.00079",
+                  "fontSize": 25,
+                  "typeface": "Helvetica Neue",
+                  "color": "#152A3A",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u9gr61wj",
+      "id": "4",
+      "bbox": [
+        60,
+        515,
+        1160,
+        45
+      ],
+      "geometry": "rect",
+      "text": "Scores remain close to 50% chance agreement.",
+      "textPreview": "Scores remain close to 50% chance agreement.",
+      "resolvedFontSize": 31,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 31,
+        "typeface": "Helvetica Neue",
+        "color": "#C26826",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Scores remain close to 50% chance agreement."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Scores remain close to 50% chance agreement.",
+          "resolvedTextStyle": {
+            "fontSize": 31,
+            "typeface": "Helvetica Neue",
+            "color": "#C26826",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Scores remain close to 50% chance agreement.",
+              "fontSize": 31,
+              "typeface": "Helvetica Neue",
+              "color": "#C26826",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vapsz6d4",
+      "id": "5",
+      "bbox": [
+        60,
+        575,
+        1160,
+        74
+      ],
+      "geometry": "rect",
+      "text": "All 50 spherical starts converge to the same partition within each model.\nAdjusted Rand indices near zero show little agreement with PASS / FAIL.",
+      "textPreview": "All 50 spherical starts converge to the same partition within each model. | Adjusted Rand indices near zero show little agreement with PA...",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Helvetica Neue",
+        "color": "#152A3A",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "All 50 spherical starts converge to the same partition within each model."
+          },
+          {
+            "index": 2,
+            "text": "Adjusted Rand indices near zero show little agreement with PASS / FAIL."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "All 50 spherical starts converge to the same partition within each model.",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "All 50 spherical starts converge to the same partition within each model.",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Adjusted Rand indices near zero show little agreement with PASS / FAIL.",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Adjusted Rand indices near zero show little agreement with PASS / FAIL.",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wby98rep",
+      "id": "6",
+      "bbox": [
+        60,
+        668,
+        1160,
+        32
+      ],
+      "geometry": "rect",
+      "text": "Best class permutation after fitting. Standard: feature z-scores. Spherical: centered unit vectors and unit centroids.",
+      "textPreview": "Best class permutation after fitting. Standard: feature z-scores. Spherical: centered unit vectors and unit centroids.",
+      "resolvedFontSize": 17.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17.51,
+        "typeface": "Helvetica Neue",
+        "color": "#4D6271",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Best class permutation after fitting. Standard: feature z-scores. Spherical: centered unit vectors and unit centroids."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Best class permutation after fitting. Standard: feature z-scores. Spherical: centered unit vectors and unit centroids.",
+          "resolvedTextStyle": {
+            "fontSize": 17.51,
+            "typeface": "Helvetica Neue",
+            "color": "#4D6271",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Best class permutation after fitting. Standard: feature z-scores. Spherical: centered unit vectors and unit centroids.",
+              "fontSize": 17.51,
+              "typeface": "Helvetica Neue",
+              "color": "#4D6271",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "source_sha256": {
+    "extract_embeddings.py": "9e952b45e7cea474fbac3c65913a16a0323c6ca08529f31203dcc4ddfcb6690f",
+    "extract_embeddings.slurm": "af1e42b6def0eaf23935540ae6666e6d7f5ae4e36ba0208c094633cc1ee43ee8",
+    "fit_logistic.py": "3478f1bd63c3018b6eecae2b65a248c1a17d39bd528ab8a7425aa3fc2b96186c",
+    "embedding_asset.json": "aeb1e139e09f3d633226aef0cc79cf270c502efd52f619411fe6f2004ba170b3"
+  },
+  "plan_sha256": "9aab3ee17c4156e0cf5b8e612baf6fff3ef6c494b232d3845640c934d92e0150",
+  "shared_numeric_functions_ast_identical": {
+    "mean_bce": true,
+    "objective_and_gradient": true,
+    "score": true
+  },
+  "review": "Independent extractor review passed; official pinned config verifies36blocks,2048features. No sender weights loaded; no labels uploaded to embedding job. Same split and logistic settings; architecture-native tokenization and block24 are prespecified."
+}

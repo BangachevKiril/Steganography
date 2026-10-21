@@ -1,0 +1,76 @@
+{
+  "files": {
+    "test_embeddings.npz": "6d8af253c618371c0c925b03a26e7a964b610ea3b2d1ea607b2b90acc854d8e8",
+    "training_embeddings.npz": "8b5dec0b4d91e0361903a138ba137361125699805132143e99becb75dac23ce9"
+  },
+  "metadata": {
+    "answer_file_sha256": {
+      "test_answers.jsonl": "c2345b163bc9e0a13db72a9b9678cabdd8a689a996d0213f35e5e5573692c958",
+      "training_answers.jsonl": "a5dcdb10f4d70b869b4c0bd5eedcce50ce6bbc76b7f2124f0be0658b6f46b32a"
+    },
+    "batch_size": 32,
+    "block_index_zero_based": 16,
+    "block_number_one_based": 17,
+    "bos_token_id": 2,
+    "duration_seconds": 75.80268359184265,
+    "embedding_model_kind": "original_pretrained_gemma_without_sender_finetuning",
+    "embedding_storage_dtype": "float32 converted from model hidden-state dtype",
+    "end_of_turn_token_id": 107,
+    "eos_note": "Appended EOS probe position, including answers originally stopped at generation cap; not the end-of-turn token.",
+    "eos_token": "<eos>",
+    "eos_token_id": 1,
+    "extraction_script_sha256": "a18f7c94b48bb810efb5698a642a5e9000d721a783730b62905819e9bf395edb",
+    "features": 2304,
+    "gpu": "NVIDIA L40S",
+    "hook": "Gemma2DecoderLayer output[0], after MLP, post_feedforward_layernorm and residual addition; before next block normalization",
+    "interpretation": "Original pretrained Gemma before our sender fine-tuning; not random initialization. Answer text still comes from sender checkpoint1076.",
+    "job_id": "24752959",
+    "model_dtype": "torch.float16",
+    "model_parameter_hash": "e9e367f6b054029b193d105f869491faf51a3a8a02baba6955fee4f34063a635",
+    "model_parameter_tensors": 288,
+    "no_sender_adapters_loaded": true,
+    "packages": {
+      "numpy": "1.26.4",
+      "peft": "0.12.0",
+      "tokenizers": "0.19.1",
+      "torch": "2.4.0+cu124",
+      "transformers": "4.43.2",
+      "trl": "0.9.6"
+    },
+    "pad_token_id": 0,
+    "pretrained_asset_file_sha256": {
+      "config.json": "e3885c56a32ca83566f849283b402006bbb100a02c43aca3fe0c90dc62808893",
+      "model.safetensors": "bf06a1e6cfe1610beb98a2975e5602e7fc108d902b3ff9dd62282d749c7a2394",
+      "tokenizer.json": "3f289bc05132635a8bc7aca7aa21255efd5e18f3710f43e3cdb96bcd41be4922",
+      "tokenizer_config.json": "e5ac0f1cfb5f450763d368edacbb2448a3c02c8d8f7f98d963a820751fb0ddc3"
+    },
+    "sender_asset": {
+      "path": "/orcd/pool/003/kirilb/Steganography/assets/university/cache/models--unsloth--gemma-2-2b-it/snapshots/457f2e15bf550c227ce6ad86e2ec108d3e42c106",
+      "repo": "unsloth/gemma-2-2b-it",
+      "revision": "457f2e15bf550c227ce6ad86e2ec108d3e42c106"
+    },
+    "sender_checkpoint_weights_loaded": false,
+    "source_checkpoint": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_001076",
+    "source_checkpoint_complete_sha256": "e4654edc542e0a84e2321b31586e3e8eda6c86023390ea08fc5332138207ab46",
+    "source_checkpoint_state_sha256": "b6362ff7e9ab691572f8a20f9c8aa2c96675ef8f92f7c4dd67d49bbcd988a4d6",
+    "source_checkpoint_update": 1076,
+    "split_manifest_sha256": "ccfba9f92b91db27e5e32aa25a12ec827e2ef4174511ab0bbdadfa29348a2e77",
+    "tokenization": "explicit BOS + exact answer tokenized with add_special_tokens=False + explicit EOS; no chat template or original prompt; right padding",
+    "total_blocks": 26,
+    "validation": {
+      "actual_batch32_parity_passed": true,
+      "all_parameters_frozen": true,
+      "answer_only_inputs": true,
+      "batch8_vs_batch32_max_abs": 0.125,
+      "explicit_eos_positions_and_attention_masks_verified": true,
+      "hook_matches_post_block_hidden_state_exactly": true,
+      "model_parameter_hash_unchanged_after_inference": true,
+      "pretrained_model_without_adapters": true,
+      "repeated_forward_exact": true,
+      "single_vs_batch_atol": 0.03,
+      "single_vs_batch_max_abs": 0.125,
+      "single_vs_batch_rtol": 0.01
+    }
+  },
+  "status": "complete"
+}

@@ -1,0 +1,4 @@
+model,train_bce_nats,test_bce_nats,train_accuracy,test_accuracy,train_correct,test_correct,train_n,test_n,block,total_blocks,features,source
+Trained Gemma sender (checkpoint1076),0.0007992162295839019,0.06061278339256916,1.0,0.978,1000,978,1000,1000,17,26,2304,/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/sender_eos_logreg_1076_20261003T183259Z
+Original pretrained Gemma2-2B-IT,0.0008327160861461868,0.06173841195894984,1.0,0.979,1000,979,1000,1000,17,26,2304,/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/gemma_untrained_eos_logreg_1076_20261003T185800Z
+Qwen2.5-3B-Instruct,0.002938379138982804,0.0753078726115775,1.0,0.981,1000,981,1000,1000,24,36,2048,/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/qwen25_3b_eos_logreg_1076_20261003T191657Z

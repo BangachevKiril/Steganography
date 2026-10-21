@@ -1,0 +1,15 @@
+{
+  "approved_at": "2026-10-05T14:45:46.683905+00:00",
+  "authorization_source": "Direct human message in this chat: approve",
+  "scope": "Apply audited zero-block guard, validate on H100, restart original three segments only if validation passes",
+  "runtime_before_sha256": "a486628c4f03abfe299653200ebd2cc577a9ff514fa37cc773031440702107a7",
+  "runtime_after_sha256": "5ea1130b150506e7a7e94534ee4e9aedd6e57ef576bfc50ced6e00927d926612",
+  "config_digest": "42580b347ec09edac9f497c73c30f97f0c457a7955000873b81a8d0b5494e12d",
+  "cumulative_thresholds": [
+    27900,
+    55800,
+    83700
+  ],
+  "original_source_files_preserved": 41,
+  "production_retry_requires_validation_pass": true
+}

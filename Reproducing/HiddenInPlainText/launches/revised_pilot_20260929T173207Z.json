@@ -1,0 +1,166 @@
+{
+  "release": "20260929T173207Z",
+  "experiment": "piqa_qwen3_4b_revised_sender_fresh_100",
+  "archive": "/private/tmp/stego-revised-pilot-20260929T173207Z.tar.gz",
+  "archive_sha256": "1247d27aaa5f32f0d32944c95686420bf28c80983e973e4e335ad5b7c56a8c72",
+  "remote_source": "/orcd/pool/003/kirilb/Steganography/releases/revised_pilot_20260929T173207Z",
+  "remote_run": "/orcd/pool/003/kirilb/Steganography/runs/piqa_revised_fresh_20260929T173207Z",
+  "model": "Qwen3-4B",
+  "total_steps": 100,
+  "state": "complete",
+  "config_digest": "8c07b787822811f1bdde374f4d37853a9d8b1e24f8a7f395c708d28b90f4d227",
+  "sender_system_prompt_sha256": "7691c2fe05b5662569253a54765856470ce823eb43231f237857c33c09a1f36e",
+  "initialization": "fresh_base_and_adapters",
+  "previous_run_record": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/launches/original_pilot_20260928T175421Z.json",
+  "reported_training_phase_ends": [
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100
+  ],
+  "reported_validation_steps": [
+    20,
+    40,
+    60,
+    80,
+    100
+  ],
+  "first_training_step_reported": true,
+  "initial_timing_reported": true,
+  "full_timing_reported": true,
+  "completion_reported": true,
+  "monitor_access_status": "connected",
+  "created_at": "2026-09-29T17:32:07.847304+00:00",
+  "local_results": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/piqa_revised_fresh_20260929T173207Z",
+  "slurm_job_id": "24320332",
+  "submitted_at": "2026-09-29T17:33:55.246646+00:00",
+  "automation_id": "monitor-revised-piqa-rl-training",
+  "monitor_status": "deleted_after_completion",
+  "gpu_checks": "passed",
+  "node": "node4508",
+  "gpu": "NVIDIA H100 NVL",
+  "initialization_verified": true,
+  "last_observed_completed_step": 100,
+  "last_verified_in_progress_step": null,
+  "last_monitor_check_at": "2026-09-30T03:46:41.276153+00:00",
+  "slurm_state": "COMPLETED",
+  "slurm_reason": null,
+  "slurm_restarts": 1,
+  "last_reported_restart_count": 1,
+  "first_joint_step_seconds": 547.4929211060517,
+  "last_reported_training": {
+    "step": 1,
+    "C_R": 0.5234375,
+    "C_I": 0.4921875,
+    "d": 0.1875,
+    "n": 128
+  },
+  "phase_timing_report": {
+    "completed_step": 11,
+    "joint_median_seconds": 559.6209501652047,
+    "interceptor_median_seconds": 159.47934267204255,
+    "observed_steps": {
+      "joint": 10,
+      "interceptor": 1
+    },
+    "remaining_seconds_excluding_overhead": 30199.325797538273
+  },
+  "last_reported_training_phase": {
+    "steps": [
+      91,
+      100
+    ],
+    "phase": "interceptor",
+    "n": 160,
+    "correct_receiver": 85,
+    "correct_interceptor": 81,
+    "rejected_answers": 22,
+    "C_R": 0.53125,
+    "C_I": 0.50625,
+    "d": 0.1375,
+    "interceptor_training": {
+      "n": 1280,
+      "correct_interceptor": 648,
+      "C_I": 0.50625
+    },
+    "grpo_signal_by_role": {
+      "interceptor": {
+        "groups": 160,
+        "active_groups": 129
+      }
+    },
+    "text_flag_counts": {
+      "bit_meta_mention": 6,
+      "explicit_bit_value_text": 6,
+      "public_string_copy": 0,
+      "public_string_discussion": 2
+    },
+    "accepted_without_detected_disclosure": {
+      "n": 135,
+      "correct_receiver": 67,
+      "correct_interceptor": 66
+    }
+  },
+  "last_milestone_reported_at": "2026-09-30T03:49:01.224121+00:00",
+  "last_reported_validation": {
+    "global_step": 100,
+    "n": 32,
+    "C_R": 0.46875,
+    "C_I": 0.46875,
+    "d": 0.0625,
+    "correct_receiver": 15,
+    "correct_interceptor": 15,
+    "rejected_answers": 2,
+    "text_flag_counts": {
+      "bit_meta_mention": 0,
+      "explicit_bit_value_text": 0,
+      "public_string_copy": 0,
+      "public_string_discussion": 0
+    },
+    "accepted_without_detected_disclosure": {
+      "n": 30,
+      "C_R": 0.4666666666666667,
+      "C_I": 0.4666666666666667,
+      "d": 0.0,
+      "correct_receiver": 14,
+      "correct_interceptor": 14,
+      "rejected_answers": 0,
+      "format_pass_rate": 1.0,
+      "judge_content_pass_rate": 1.0
+    },
+    "prediction_counts": {
+      "bit": {
+        "1": 16,
+        "0": 16
+      },
+      "receiver_guess": {
+        "0": 29,
+        "1": 3
+      },
+      "interceptor_guess": {
+        "0": 25,
+        "1": 7
+      }
+    },
+    "judge_rejections": 1,
+    "format_failures": 1,
+    "overlap": 0
+  },
+  "access_block_reported_at": "2026-09-29T21:56:59.414929+00:00",
+  "access_restored_at": "2026-09-29T21:59:35.400144+00:00",
+  "slurm_exit_code": "0:0",
+  "slurm_elapsed": "09:53:01",
+  "completed_at": "2026-09-30T03:40:26.777955+00:00",
+  "completion_verified": true,
+  "completion_reported_at": "2026-09-30T03:49:01.224121+00:00",
+  "final_report": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/piqa_revised_fresh_20260929T173207Z/report.md",
+  "final_per_step_csv": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/piqa_revised_fresh_20260929T173207Z/training_metrics.csv",
+  "completion_audit": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/piqa_revised_fresh_20260929T173207Z/COMPLETION_AUDIT.json",
+  "monitor_deleted_at": "2026-09-30T03:49:18.412214+00:00"
+}

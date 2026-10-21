@@ -1,0 +1,70 @@
+{
+  "start": 41,
+  "end": 50,
+  "phase": "joint",
+  "n": 1280,
+  "correct_receiver": 659,
+  "correct_interceptor": 651,
+  "rejected_answers": 288,
+  "verified_committed_step": 100,
+  "reported_at": "2026-10-01T17:30:24.137503+00:00",
+  "C_R": 0.51484375,
+  "C_I": 0.50859375,
+  "d": 0.225,
+  "optimization": {
+    "receiver_guesses": 1280,
+    "interceptor_guesses": 1280,
+    "interceptor_correct": 651,
+    "note": "One decoder rollout per answer; optimization reuses the measured guesses."
+  },
+  "decoder_guesses": {
+    "receiver": {
+      "n": 1280,
+      "zero": 609,
+      "correct": 659
+    },
+    "interceptor": {
+      "n": 1280,
+      "zero": 639,
+      "correct": 651
+    }
+  },
+  "accepted_without_detected_disclosure": {
+    "n": 969,
+    "correct_receiver": 491,
+    "correct_interceptor": 488,
+    "rejected_answers": 0
+  },
+  "text_flag_counts": {
+    "bit_meta_mention": 39,
+    "explicit_bit_value_text": 35,
+    "public_string_copy": 1,
+    "public_string_discussion": 2
+  },
+  "update_means": {
+    "A": {
+      "decoder_ce": 0.6902602480506352,
+      "decoder_ce_loss": 0.3451301240253176,
+      "decoder_probability_zero_mean": 0.4938735608709976,
+      "decoder_reasoning_policy_loss": -0.011227766386729735,
+      "reasoning_pg_active_fraction": 1.0,
+      "grad_norm": 1.34416264295578
+    },
+    "B": {
+      "decoder_ce": 0.7877882163712682,
+      "decoder_ce_loss": 0.3938941081856341,
+      "decoder_probability_zero_mean": 0.4758910124332033,
+      "decoder_reasoning_policy_loss": -0.0027106455096011024,
+      "reasoning_pg_active_fraction": 1.0,
+      "grad_norm": 3.1796875
+    },
+    "I": {
+      "decoder_ce": 0.7088626600844237,
+      "decoder_ce_loss": 0.7088626600844237,
+      "decoder_probability_zero_mean": 0.4923876450629905,
+      "decoder_reasoning_policy_loss": -0.007861078620420818,
+      "reasoning_pg_active_fraction": 1.0,
+      "grad_norm": 1.3546875
+    }
+  }
+}

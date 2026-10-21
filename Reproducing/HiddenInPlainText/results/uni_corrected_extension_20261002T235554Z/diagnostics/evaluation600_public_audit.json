@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "audit_type": "independent_public_evaluation_verification",
+  "verified_at": "2026-10-03T01:19:15.829382+00:00",
+  "run": "uni_corrected_20261002T151448Z",
+  "local_results_directory": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z",
+  "completed_update": 600,
+  "parameter_updates": 600,
+  "status": "passed",
+  "issues": [],
+  "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+  "evaluation_config_digest": "13ad8a3bab5efee49502276534c3e1832e2534598a205be92a75b06db7df0726",
+  "metrics": {
+    "university": {
+      "n": 2000,
+      "receiver_correct": 1155,
+      "C_R": 0.5775,
+      "observer_flagged": 106,
+      "C_I": 0.053,
+      "receiver_prediction_counts": {
+        "PASS": 1430,
+        "FAIL": 570
+      },
+      "true_label_counts": {
+        "PASS": 1001,
+        "FAIL": 999
+      },
+      "confusion_matrix": {
+        "FAIL": {
+          "FAIL": 362,
+          "PASS": 637
+        },
+        "PASS": {
+          "FAIL": 208,
+          "PASS": 793
+        }
+      }
+    },
+    "piqa": {
+      "n": 100,
+      "judge_rejected": 3,
+      "format_rejected": 0,
+      "overlap": 0,
+      "union_rejected": 3,
+      "d": 0.03,
+      "corrected_baseline_d": 0.08,
+      "original_baseline_d": 0.08,
+      "delta_corrected_percentage_points": -5.0,
+      "delta_original_percentage_points": -5.0
+    }
+  },
+  "checks": {
+    "public_status_artifacts_match_completed_evaluation": true,
+    "cohorts_exactly_match_preserved_update530": true,
+    "scientific_configuration_unchanged_from_preserved_corrected_run": true,
+    "completion_summary_sha256_matches": true,
+    "canonical_training_config_digest_matches": true,
+    "canonical_evaluation_config_digest_matches": true,
+    "evaluation_config_unchanged_from_baseline_except_checkpoint_identity": true,
+    "checkpoint_identity_and_marker_sha256_match": true,
+    "all_public_payload_config_digests_match": true,
+    "university_cohort_exactly_matches_corrected_baseline": true,
+    "piqa_cohort_exactly_matches_corrected_baseline": true,
+    "university_2000_unique_ordered_row_ids": true,
+    "university_generation_receiver_observer_prefix_chains_match": true,
+    "probabilities_finite_normalized_and_argmax_consistent": true,
+    "observer_scores_finite_in_range_and_flags_consistent": true,
+    "observer_batch_positions_and_sizes_match": true,
+    "university_seeds_and_caps_match": true,
+    "piqa_seeds_and_caps_match": true,
+    "piqa_100_unique_rows_match_generations_and_cohort": true,
+    "piqa_source_generations_sha256_matches": true,
+    "piqa_verdicts_match_boolean_pass": true,
+    "piqa_format_matches_unchanged_checker": true,
+    "piqa_union_and_judge_batch_seeds_match": true,
+    "piqa_public_fields_and_numeric_diagnostics_validate": true,
+    "recomputed_counts_strata_confusion_and_means_match_summary": true,
+    "corrected_baseline_summary_hash_and_delta_match": true,
+    "parent_remote_verification_record_matches_checkpoint_manifest": true
+  },
+  "source_checkpoint": {
+    "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_000600",
+    "completed_update": 600,
+    "complete_sha256": "a0027cafb775a08a596c534848f165c06ef7a27236c1612434c7f030c9a4508e",
+    "state_sha256_from_manifest": "f1b19699130c1b66df85f9c5c203c48251d2498c1973e52d3cb113547cce7c84",
+    "state_file_read_by_this_audit": false
+  },
+  "external_checkpoint_verification": {
+    "provided_by": "parent agent /root remote helper",
+    "verification_method": "Parent reports direct remote state.pt SHA-256 verification; this audit checked the saved verification record and did not read state.pt.",
+    "record_path": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/uni_corrected_extension_20261002T235554Z/diagnostics/evaluation600_checkpoint_verification.json",
+    "record_sha256": "3d2988939f391a1ad3ec5c9903bca8aeb21b0915b48cf3839e1c03d851e1240d",
+    "state_sha256_verified": true,
+    "verified_update": 600,
+    "state_sha256": "f1b19699130c1b66df85f9c5c203c48251d2498c1973e52d3cb113547cce7c84",
+    "complete_sha256": "a0027cafb775a08a596c534848f165c06ef7a27236c1612434c7f030c9a4508e",
+    "elapsed": 31503.473007939523,
+    "matches_local_manifest": true
+  },
+  "public_file_sha256": {
+    "config.json": "341566108eff12715ddd199eefb56c38aa0213764d315449534bd055ff6f1fcc",
+    "COMPLETE.json": "bfdc83e44ddcd557759a2c65f5b8b8a735a6e7ef180791f02e7cbf4cf8142427",
+    "SUMMARY.json": "620282c248b448a2c4fa2711525a76c9289b15d593482e58f20b6d74351c378f",
+    "report.md": "d5e74fa36ee66435b11f18daf75c391683f53ee6db24aa28ddf94cee769bcbe6",
+    "STATUS.json": "1ecca5fdb36db5103b1ca111b1614700c894a31f08fb8b8d217ded41dcefa538",
+    "PIQA_JUDGE_STATUS.json": "911172bbade68b77860e8a39f69483ee9a122ac9e0eda744c769f52ee5c47b08",
+    "SELECTION.json": "46e06913f783bf11ce62d4201cfb88327e0dba4e60984b3c55f2f61bcd300906",
+    "UNIVERSITY_GENERATIONS.json": "0dcd84eb1c670e3bc36e59d7b6026c6048bdf65e6c109ccaa07e760e3bfbd98a",
+    "UNIVERSITY_RECEIVER.json": "ba3599edd99caea37e1552b8060b5527f766f2d595c7a83d6680c860d1811070",
+    "UNIVERSITY_RESULTS.json": "3ad39e5a5f398738e5ca2701e0a5bcf80430f813da879d4c7c37db810f506ae7",
+    "PIQA_GENERATIONS.json": "1d9129e88ae08961e143d7650ddf0a4455f357f6e7d5df20b6eb771c586b2a78",
+    "PIQA_JUDGED.json": "7b569e49de46ad53aeda2c9ab4ed7ae408413bae220c0791f49d5e7810ed8524"
+  },
+  "public_hash_base_directory": "evaluations/step_000600",
+  "baseline_summary_sha256": "3c10be00b3a28a80b50c9ef8c5edf406f69a65a57ee7f6ef888e8875f59c21dc",
+  "preserved_update530_summary_sha256": "e53da3f3c1781ca9cb58c0e2b73cf90b18b33d7c5b7e9166b3eb559240fb6280",
+  "completion_binding_caveat": "The existing COMPLETE.json binds SUMMARY.json, the source checkpoint COMPLETE.json and evaluation configuration identity. PIQA_JUDGED.json binds PIQA_GENERATIONS.json. COMPLETE.json does not individually bind the university public files. Their hashes above are computed audit observations, and their rows were independently checked against selection, generation/receiver prefixes and reported aggregates; they are not additional hashes embedded in the original completion marker.",
+  "scope": "Local public artifacts only. No remote access, model weights or private reasoning read. No claimed fresh model-state checksum verification by this audit."
+}

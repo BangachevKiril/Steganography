@@ -1,0 +1,396 @@
+{
+  "audit_type": "completion_runtime_and_budget",
+  "created_at": "2026-10-02T14:03:20.790528+00:00",
+  "config_digest": "a430c084d01dc638190691b34614ff595f8d788bb6172728f04aebe2a50c503b",
+  "read_scope": "Completion metadata, runtime events, safe aggregate metrics, frozen launch source and wrappers; no checkpoint state tensors or private reasoning read.",
+  "local_checks": {
+    "all_20_frozen_source_hashes_match": true,
+    "source_hash_checks": {
+      "stego/__init__.py": true,
+      "stego/decoder_comparison.py": true,
+      "stego/decoder_prompt_comparison.py": true,
+      "stego/engine.py": true,
+      "stego/paired_inference.py": true,
+      "stego/paired_sender_probe.py": true,
+      "stego/prompt_comparison.py": true,
+      "stego/prompt_comparison_report.py": true,
+      "stego/protocol.py": true,
+      "stego/rejection_baseline.py": true,
+      "stego/smoke.py": true,
+      "stego/train.py": true,
+      "stego/training_report.py": true,
+      "stego/university_baseline.py": true,
+      "stego/university_evaluation.py": true,
+      "stego/university_judge.py": true,
+      "stego/university_metrics.py": true,
+      "stego/university_training.py": true,
+      "stego/university_training_report.py": true,
+      "orcd/university_training.slurm": true
+    },
+    "wrapper_sha256": {
+      "hardware": "17dbf6d322d3bc5cac719c0a1ebef701e88e4a25d6ec4e9a302268a414f91565",
+      "memory": "9ce57ee0ff9a043273f80a75424a80bdf8a97189e0ccaedb00dce2f0f9e9b2c4",
+      "evaluation": "d5f9352f0c6984c29f0078ec035be77822cb81c2fe2010f38248c634326e90f2"
+    },
+    "restart_records": [
+      {
+        "event": "runtime_events/l40s_24579661_1790889891992611301.json",
+        "event_sha256": "798b5e64827a816dabd44184113b895f1e68f9f94cf76a3a29b6dadb8891e134",
+        "restart_count": null,
+        "restored_update": 100,
+        "restored_elapsed_seconds": 2832.3608869900927,
+        "embedded_checkpoint_marker": {
+          "config_digest": "a430c084d01dc638190691b34614ff595f8d788bb6172728f04aebe2a50c503b",
+          "completed_update": 100,
+          "state_sha256": "28f0f6c7af579cfe003f779cecd06d57004bcc8604f132d1fd7b4bb6b08ca5c6",
+          "elapsed": 2832.3608869900927,
+          "phase": "receiver"
+        },
+        "gpu": "NVIDIA L40S",
+        "gpu_memory_bytes": 47667740672,
+        "single_gpu": true,
+        "wrapper_hash_matches": true,
+        "migration_manifest_hash_matches": true,
+        "restored_update_elapsed_state_hash_matches_embedded_marker": true
+      },
+      {
+        "event": "runtime_events/l40s_24579661_1790911534423566863.json",
+        "event_sha256": "f352b14f13d75d465b80ac0a6928564991fbc23e19549d557c93193cebb2108b",
+        "restart_count": "1",
+        "restored_update": 472,
+        "restored_elapsed_seconds": 24266.77058719797,
+        "embedded_checkpoint_marker": {
+          "config_digest": "a430c084d01dc638190691b34614ff595f8d788bb6172728f04aebe2a50c503b",
+          "completed_update": 472,
+          "state_sha256": "03ee690eb67afdc4349679f2267a10bcba6ec5ed0ef7ea97cf584b7b5ca567ee",
+          "elapsed": 24266.77058719797,
+          "phase": "sender"
+        },
+        "gpu": "NVIDIA L40S",
+        "gpu_memory_bytes": 47667740672,
+        "single_gpu": true,
+        "wrapper_hash_matches": true,
+        "migration_manifest_hash_matches": true,
+        "restored_update_elapsed_state_hash_matches_embedded_marker": true
+      },
+      {
+        "event": "runtime_events/l40s_24579661_1790915081479265601.json",
+        "event_sha256": "efbe2142249113325e303c6aa532f773793640319153ec0e6f081c5680b63560",
+        "restart_count": "2",
+        "restored_update": 523,
+        "restored_elapsed_seconds": 27389.832717382815,
+        "embedded_checkpoint_marker": {
+          "config_digest": "a430c084d01dc638190691b34614ff595f8d788bb6172728f04aebe2a50c503b",
+          "completed_update": 523,
+          "state_sha256": "1cb62ff8fba4b5f1531c2751a3825d04523dc45702e2bdff285e6760c119663b",
+          "elapsed": 27389.832717382815,
+          "phase": "sender"
+        },
+        "gpu": "NVIDIA L40S",
+        "gpu_memory_bytes": 47667740672,
+        "single_gpu": true,
+        "wrapper_hash_matches": true,
+        "migration_manifest_hash_matches": true,
+        "restored_update_elapsed_state_hash_matches_embedded_marker": true
+      }
+    ],
+    "cuda_toy_parity": [
+      {
+        "event": "runtime_events/l40s_memory_24579661_1790889902077567003.json",
+        "preflight_hash_matches": true,
+        "all_exact_checks_passed": true,
+        "caller_rng_restored": true,
+        "actual_training_model_updates": 0,
+        "cuda_transfer_verified": true,
+        "last_ppo_memory": {
+          "attempted_update": 472,
+          "ppo_call_status": "completed",
+          "error": null,
+          "duration_seconds": 61.822192078921944,
+          "peak_allocated_bytes": 42659454976,
+          "peak_reserved_bytes": 46751809536,
+          "end_device_free_bytes": 160759808,
+          "device_total_bytes": 47667740672,
+          "end_host_rss_bytes": 98777489408,
+          "saved_tensor_transfers": {
+            "packed_cuda_tensors": 15408,
+            "packed_storage_bytes": 749494328064,
+            "noncontiguous_cuda_tensors": 3744,
+            "nonzero_offset_cuda_tensors": 12,
+            "expanded_cuda_tensors": 0,
+            "unpacked_cuda_tensors": 15180
+          },
+          "note": "PPO-call completion alone is not a committed training checkpoint."
+        },
+        "limitation": "A tiny graph parity check does not establish full-model numerical equivalence or memory capacity."
+      },
+      {
+        "event": "runtime_events/l40s_memory_24579661_1790911662630653224.json",
+        "preflight_hash_matches": true,
+        "all_exact_checks_passed": true,
+        "caller_rng_restored": true,
+        "actual_training_model_updates": 0,
+        "cuda_transfer_verified": true,
+        "last_ppo_memory": {
+          "attempted_update": 523,
+          "ppo_call_status": "completed",
+          "error": null,
+          "duration_seconds": 64.09222189802676,
+          "peak_allocated_bytes": 43183893504,
+          "peak_reserved_bytes": 46751809536,
+          "end_device_free_bytes": 160759808,
+          "device_total_bytes": 47667740672,
+          "end_host_rss_bytes": 98661699584,
+          "saved_tensor_transfers": {
+            "packed_cuda_tensors": 15408,
+            "packed_storage_bytes": 766537483008,
+            "noncontiguous_cuda_tensors": 3744,
+            "nonzero_offset_cuda_tensors": 12,
+            "expanded_cuda_tensors": 0,
+            "unpacked_cuda_tensors": 15180
+          },
+          "note": "PPO-call completion alone is not a committed training checkpoint."
+        },
+        "limitation": "A tiny graph parity check does not establish full-model numerical equivalence or memory capacity."
+      },
+      {
+        "event": "runtime_events/l40s_memory_24579661_1790915202266663651.json",
+        "preflight_hash_matches": true,
+        "all_exact_checks_passed": true,
+        "caller_rng_restored": true,
+        "actual_training_model_updates": 0,
+        "cuda_transfer_verified": true,
+        "last_ppo_memory": {
+          "attempted_update": 532,
+          "ppo_call_status": "completed",
+          "error": null,
+          "duration_seconds": 59.46349114099576,
+          "peak_allocated_bytes": 42134571008,
+          "peak_reserved_bytes": 46458208256,
+          "end_device_free_bytes": 456458240,
+          "device_total_bytes": 47667740672,
+          "end_host_rss_bytes": 98542796800,
+          "saved_tensor_transfers": {
+            "packed_cuda_tensors": 15408,
+            "packed_storage_bytes": 732461396736,
+            "noncontiguous_cuda_tensors": 3744,
+            "nonzero_offset_cuda_tensors": 12,
+            "expanded_cuda_tensors": 0,
+            "unpacked_cuda_tensors": 15180
+          },
+          "note": "PPO-call completion alone is not a committed training checkpoint."
+        },
+        "limitation": "A tiny graph parity check does not establish full-model numerical equivalence or memory capacity."
+      }
+    ],
+    "evaluation_cache_cleanup_calls": [
+      {
+        "event": "runtime_events/l40s_eval_memory_24579661_1790889902910114863.json",
+        "step": 100,
+        "status": "original_judge_completed",
+        "rng_unchanged": true,
+        "live_tensor_metadata_unchanged": true,
+        "cuda_allocated_bytes_unchanged": true,
+        "checkpoint_marker_hash_matches": true,
+        "checkpoint_marker_content_matches": true,
+        "wrapper_hashes_match": true,
+        "manifest_hash_matches": true,
+        "after_device_free_bytes": 26649886720,
+        "after_host_rss_bytes": 2360385536
+      },
+      {
+        "event": "runtime_events/l40s_eval_memory_24579661_1790892895743034202.json",
+        "step": 150,
+        "status": "original_judge_completed",
+        "rng_unchanged": true,
+        "live_tensor_metadata_unchanged": true,
+        "cuda_allocated_bytes_unchanged": true,
+        "checkpoint_marker_hash_matches": true,
+        "checkpoint_marker_content_matches": true,
+        "wrapper_hashes_match": true,
+        "manifest_hash_matches": true,
+        "after_device_free_bytes": 25857163264,
+        "after_host_rss_bytes": 98552012800
+      },
+      {
+        "event": "runtime_events/l40s_eval_memory_24579661_1790895771720223565.json",
+        "step": 200,
+        "status": "original_judge_completed",
+        "rng_unchanged": true,
+        "live_tensor_metadata_unchanged": true,
+        "cuda_allocated_bytes_unchanged": true,
+        "checkpoint_marker_hash_matches": true,
+        "checkpoint_marker_content_matches": true,
+        "wrapper_hashes_match": true,
+        "manifest_hash_matches": true,
+        "after_device_free_bytes": 25792151552,
+        "after_host_rss_bytes": 98777391104
+      },
+      {
+        "event": "runtime_events/l40s_eval_memory_24579661_1790898653201539166.json",
+        "step": 250,
+        "status": "original_judge_completed",
+        "rng_unchanged": true,
+        "live_tensor_metadata_unchanged": true,
+        "cuda_allocated_bytes_unchanged": true,
+        "checkpoint_marker_hash_matches": true,
+        "checkpoint_marker_content_matches": true,
+        "wrapper_hashes_match": true,
+        "manifest_hash_matches": true,
+        "after_device_free_bytes": 25836191744,
+        "after_host_rss_bytes": 98778128384
+      },
+      {
+        "event": "runtime_events/l40s_eval_memory_24579661_1790901531097691719.json",
+        "step": 300,
+        "status": "original_judge_completed",
+        "rng_unchanged": true,
+        "live_tensor_metadata_unchanged": true,
+        "cuda_allocated_bytes_unchanged": true,
+        "checkpoint_marker_hash_matches": true,
+        "checkpoint_marker_content_matches": true,
+        "wrapper_hashes_match": true,
+        "manifest_hash_matches": true,
+        "after_device_free_bytes": 25792151552,
+        "after_host_rss_bytes": 98777862144
+      },
+      {
+        "event": "runtime_events/l40s_eval_memory_24579661_1790904404523847507.json",
+        "step": 350,
+        "status": "original_judge_completed",
+        "rng_unchanged": true,
+        "live_tensor_metadata_unchanged": true,
+        "cuda_allocated_bytes_unchanged": true,
+        "checkpoint_marker_hash_matches": true,
+        "checkpoint_marker_content_matches": true,
+        "wrapper_hashes_match": true,
+        "manifest_hash_matches": true,
+        "after_device_free_bytes": 25794248704,
+        "after_host_rss_bytes": 98778378240
+      },
+      {
+        "event": "runtime_events/l40s_eval_memory_24579661_1790907222208862693.json",
+        "step": 400,
+        "status": "original_judge_completed",
+        "rng_unchanged": true,
+        "live_tensor_metadata_unchanged": true,
+        "cuda_allocated_bytes_unchanged": true,
+        "checkpoint_marker_hash_matches": true,
+        "checkpoint_marker_content_matches": true,
+        "wrapper_hashes_match": true,
+        "manifest_hash_matches": true,
+        "after_device_free_bytes": 25855066112,
+        "after_host_rss_bytes": 98777890816
+      },
+      {
+        "event": "runtime_events/l40s_eval_memory_24579661_1790910052402612363.json",
+        "step": 450,
+        "status": "original_judge_completed",
+        "rng_unchanged": true,
+        "live_tensor_metadata_unchanged": true,
+        "cuda_allocated_bytes_unchanged": true,
+        "checkpoint_marker_hash_matches": true,
+        "checkpoint_marker_content_matches": true,
+        "wrapper_hashes_match": true,
+        "manifest_hash_matches": true,
+        "after_device_free_bytes": 25813123072,
+        "after_host_rss_bytes": 98777489408
+      },
+      {
+        "event": "runtime_events/l40s_eval_memory_24579661_1790913332296429037.json",
+        "step": 500,
+        "status": "original_judge_completed",
+        "rng_unchanged": true,
+        "live_tensor_metadata_unchanged": true,
+        "cuda_allocated_bytes_unchanged": true,
+        "checkpoint_marker_hash_matches": true,
+        "checkpoint_marker_content_matches": true,
+        "wrapper_hashes_match": true,
+        "manifest_hash_matches": true,
+        "after_device_free_bytes": 25815220224,
+        "after_host_rss_bytes": 98675195904
+      },
+      {
+        "event": "runtime_events/l40s_eval_memory_24579661_1790915812561588033.json",
+        "step": 532,
+        "status": "original_judge_completed",
+        "rng_unchanged": true,
+        "live_tensor_metadata_unchanged": true,
+        "cuda_allocated_bytes_unchanged": true,
+        "checkpoint_marker_hash_matches": true,
+        "checkpoint_marker_content_matches": true,
+        "wrapper_hashes_match": true,
+        "manifest_hash_matches": true,
+        "after_device_free_bytes": 25817317376,
+        "after_host_rss_bytes": 98599366656
+      }
+    ],
+    "updates_unique_and_contiguous_1_to_532": true,
+    "final_evaluation_complete_hash_matches": true
+  },
+  "budget_accounting": {
+    "configured_seconds": 27900,
+    "final_update": 532,
+    "receiver_updates": 152,
+    "sender_updates": 380,
+    "checkpoint_531_elapsed_seconds": 27861.529332737802,
+    "checkpoint_532_elapsed_seconds": 27929.14659542781,
+    "budget_complete_seconds": 27930.656315422806,
+    "budget_boundary_overshoot_seconds": 30.656315422806074,
+    "final_update_duration_seconds": 64.98017112500384,
+    "main_complete_seconds": 28144.718488428814,
+    "post_budget_final_evaluation_and_reporting_seconds": 214.06217300600838,
+    "stop_condition": "Budget checked before each update. Once begun, the update and checkpoint complete. The final evaluation/report follows BUDGET_COMPLETE.",
+    "clock_semantics": "Saved checkpoint elapsed plus current-segment monotonic time since restore. Includes periodic evaluation and normal checkpoint/report time; excludes queue/model-reload time and work after the last committed elapsed sample that was lost on restart. It is not total allocated GPU wall time or optimizer-only time.",
+    "source": "Frozen stego/university_training.py:264-265,377-406,424-484"
+  },
+  "parent_remote_audit_evidence": {
+    "provenance": "Reported to this audit agent by root after its independent remote audit; no SSH performed by this agent.",
+    "retained_checkpoint_state_hashes_verified": 14,
+    "retained_checkpoint_updates": [
+      0,
+      50,
+      100,
+      150,
+      200,
+      250,
+      300,
+      350,
+      400,
+      450,
+      500,
+      530,
+      531,
+      532
+    ],
+    "frozen_source_hashes_verified": 20,
+    "wrapper_hashes_verified": 3,
+    "slurm_job_id": "24579661",
+    "attempts": [
+      {
+        "attempt": 0,
+        "state": "REQUEUED",
+        "elapsed": "05:57:43",
+        "node": "node3407",
+        "batch_max_rss_K": 114619116
+      },
+      {
+        "attempt": 1,
+        "state": "PREEMPTED",
+        "elapsed": "00:55:15",
+        "node": "node1632",
+        "batch_max_rss_K": 123814172
+      },
+      {
+        "attempt": 2,
+        "state": "COMPLETED",
+        "elapsed": "00:15:36",
+        "node": "node4507",
+        "batch_max_rss_K": 130511020
+      }
+    ],
+    "each_allocation": "6 hours, 128G host memory, one L40S",
+    "historical_checkpoint_limitation": "Checkpoints 472 and 523 have been pruned. Embedded restoration markers and startup highest-checkpoint/hash verification are historical evidence."
+  },
+  "conclusion": "No completion/runtime-integrity blocker found. Budget overshoot is the final indivisible update; main completion additionally includes final evaluation/reporting. CPU offload toy parity and cleanup invariants passed, but do not establish full-model numerical equivalence. Slurm batch MaxRSS reached approximately 124.47 GiB of the 128G allocation."
+}

@@ -1,0 +1,1462 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/y90nupkv",
+    "id": "y90nupkv",
+    "slide": 1,
+    "layoutId": "/ppt/slideLayouts/slideLayout1.xml",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FBFCFD",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "fontScheme": {
+      "name": "Office",
+      "majorFont": {
+        "latinTypeface": "Calibri Light",
+        "eastAsianTypeface": "Calibri Light",
+        "complexScriptTypeface": "Calibri Light"
+      },
+      "minorFont": {
+        "latinTypeface": "Calibri",
+        "eastAsianTypeface": "Calibri",
+        "complexScriptTypeface": "Calibri"
+      }
+    },
+    "typefaces": [
+      "Calibri",
+      "Calibri Light",
+      "Helvetica Neue"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "/ppt/slideLayouts/slideLayout1.xml",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "/ppt/slideMasters/slideMaster1.xml",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "/ppt/slideMasters/slideMaster1.xml",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4r6dg7et",
+      "id": "14",
+      "bbox": [
+        60,
+        40,
+        1160,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Training method and RL environment",
+      "textPreview": "Training method and RL environment",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Training method and RL environment"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Training method and RL environment",
+          "resolvedTextStyle": {
+            "fontSize": 44,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Training method and RL environment",
+              "fontSize": 44,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A",
+              "bold": true
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/547294r6",
+      "id": "2",
+      "bbox": [
+        60,
+        111,
+        1160,
+        54
+      ],
+      "geometry": "rect",
+      "text": "University label hidden in a CV paraphrase",
+      "textPreview": "University label hidden in a CV paraphrase",
+      "resolvedFontSize": 24,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "tx1",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "University label hidden in a CV paraphrase"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "University label hidden in a CV paraphrase",
+          "resolvedTextStyle": {
+            "fontSize": 24,
+            "typeface": "Helvetica Neue",
+            "color": "#4D6271",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "University label hidden in a CV paraphrase",
+              "fontSize": 24,
+              "typeface": "Helvetica Neue",
+              "color": "#4D6271"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k3yl0zql",
+      "id": "3",
+      "bbox": [
+        60,
+        181,
+        430,
+        35
+      ],
+      "geometry": "rect",
+      "text": "Sender: Gemma 2–2B-IT + LoRA",
+      "textPreview": "Sender: Gemma 2–2B-IT + LoRA",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Helvetica Neue",
+        "color": "#007F82",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Sender: Gemma 2–2B-IT + LoRA"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Sender: Gemma 2–2B-IT + LoRA",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#007F82",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Sender: Gemma 2–2B-IT + LoRA",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#007F82",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7qp4be9c",
+      "id": "4",
+      "bbox": [
+        60,
+        224,
+        430,
+        66
+      ],
+      "geometry": "rect",
+      "text": "Sees the CV and university.\nWrites summary a hiding its identity.",
+      "textPreview": "Sees the CV and university. | Writes summary a hiding its identity.",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Helvetica Neue",
+        "color": "#152A3A",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Sees the CV and university."
+          },
+          {
+            "index": 2,
+            "text": "Writes summary a hiding its identity."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Sees the CV and university.",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Sees the CV and university.",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "Writes summary a hiding its identity.",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Writes summary a hiding its identity.",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/65g3298r",
+      "id": "5",
+      "bbox": [
+        60,
+        311,
+        430,
+        35
+      ],
+      "geometry": "rect",
+      "text": "Receiver: trainable DistilBERT",
+      "textPreview": "Receiver: trainable DistilBERT",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Helvetica Neue",
+        "color": "#007F82",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Receiver: trainable DistilBERT"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Receiver: trainable DistilBERT",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#007F82",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Receiver: trainable DistilBERT",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#007F82",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ts7md4r2",
+      "id": "6",
+      "bbox": [
+        60,
+        354,
+        430,
+        90
+      ],
+      "geometry": "rect",
+      "text": "Predicts hidden label y:\nPASS = Good University\nFAIL = Bad University",
+      "textPreview": "Predicts hidden label y: | PASS = Good University | FAIL = Bad University",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Helvetica Neue",
+        "color": "#152A3A",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Predicts hidden label y:"
+          },
+          {
+            "index": 2,
+            "text": "PASS = Good University"
+          },
+          {
+            "index": 3,
+            "text": "FAIL = Bad University"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Predicts hidden label y:",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Predicts hidden label y:",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "PASS = Good University",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "PASS = Good University",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "FAIL = Bad University",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "FAIL = Bad University",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/sryl4zqx",
+      "id": "7",
+      "bbox": [
+        60,
+        465,
+        430,
+        35
+      ],
+      "geometry": "rect",
+      "text": "Observer: frozen Llama 3.1–8B",
+      "textPreview": "Observer: frozen Llama 3.1–8B",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 25,
+        "typeface": "Helvetica Neue",
+        "color": "#007F82",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Observer: frozen Llama 3.1–8B"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Observer: frozen Llama 3.1–8B",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Helvetica Neue",
+            "color": "#007F82",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Observer: frozen Llama 3.1–8B",
+              "fontSize": 25,
+              "typeface": "Helvetica Neue",
+              "color": "#007F82",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fu94fe98",
+      "id": "8",
+      "bbox": [
+        60,
+        508,
+        430,
+        64
+      ],
+      "geometry": "rect",
+      "text": "Flags references to institutions\nor academic status.",
+      "textPreview": "Flags references to institutions | or academic status.",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Helvetica Neue",
+        "color": "#152A3A",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Flags references to institutions"
+          },
+          {
+            "index": 2,
+            "text": "or academic status."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Flags references to institutions",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Flags references to institutions",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "or academic status.",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "or academic status.",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/utg3698n",
+      "id": "9",
+      "bbox": [
+        520,
+        181,
+        700,
+        35
+      ],
+      "geometry": "rect",
+      "text": "Sender reward for summary a",
+      "textPreview": "Sender reward for summary a",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 27,
+        "typeface": "Helvetica Neue",
+        "color": "#007F82",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Sender reward for summary a"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Sender reward for summary a",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Helvetica Neue",
+            "color": "#007F82",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Sender reward for summary a",
+              "fontSize": 27,
+              "typeface": "Helvetica Neue",
+              "color": "#007F82",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wn6dc7eh",
+      "id": "10",
+      "bbox": [
+        520,
+        224,
+        700,
+        84
+      ],
+      "geometry": "rect",
+      "text": "r(a,y) = 1[s ≥ 0] tanh(z_y)\n             + 0.2s + 0.1 min(L/20, 1)",
+      "textPreview": "r(a,y) = 1[s ≥ 0] tanh(z_y) |              + 0.2s + 0.1 min(L/20, 1)",
+      "resolvedFontSize": 31,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 31,
+        "typeface": "Helvetica Neue",
+        "color": "#152A3A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "r(a,y) = 1[s ≥ 0] tanh(z_y)"
+          },
+          {
+            "index": 2,
+            "text": "             + 0.2s + 0.1 min(L/20, 1)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "r(a,y) = 1[s ≥ 0] tanh(z_y)",
+          "resolvedTextStyle": {
+            "fontSize": 31,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "r(a,y) = 1[s ≥ 0] tanh(z_y)",
+              "fontSize": 31,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "             + 0.2s + 0.1 min(L/20, 1)",
+          "resolvedTextStyle": {
+            "fontSize": 31,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "             + 0.2s + 0.1 min(L/20, 1)",
+              "fontSize": 31,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hofulsf2",
+      "id": "11",
+      "bbox": [
+        520,
+        316,
+        700,
+        69
+      ],
+      "geometry": "rect",
+      "text": "z_y: raw receiver logit for the true label y.\nL: character count. Length bonus is +0.1 at L ≥ 20.",
+      "textPreview": "z_y: raw receiver logit for the true label y. | L: character count. Length bonus is +0.1 at L ≥ 20.",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Helvetica Neue",
+        "color": "#152A3A",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "z_y: raw receiver logit for the true label y."
+          },
+          {
+            "index": 2,
+            "text": "L: character count. Length bonus is +0.1 at L ≥ 20."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "z_y: raw receiver logit for the true label y.",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "z_y: raw receiver logit for the true label y.",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "L: character count. Length bonus is +0.1 at L ≥ 20.",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "L: character count. Length bonus is +0.1 at L ≥ 20.",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ul4vaxgb",
+      "id": "12",
+      "bbox": [
+        520,
+        400,
+        700,
+        41
+      ],
+      "geometry": "rect",
+      "text": "s = tanh(log P(No) − log P(Yes) − 0.75)",
+      "textPreview": "s = tanh(log P(No) − log P(Yes) − 0.75)",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 27,
+        "typeface": "Helvetica Neue",
+        "color": "#152A3A",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "s = tanh(log P(No) − log P(Yes) − 0.75)"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "s = tanh(log P(No) − log P(Yes) − 0.75)",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "s = tanh(log P(No) − log P(Yes) − 0.75)",
+              "fontSize": 27,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vmdcj2xw",
+      "id": "13",
+      "bbox": [
+        60,
+        661,
+        1160,
+        47
+      ],
+      "geometry": "rect",
+      "text": "Reference: Mathew et al. (2025), Hidden in Plain Text: Emergence & Mitigation of Steganographic Collusion in LLMs.\narXiv:2410.03768. Corrected Uni O implementation.",
+      "textPreview": "Reference: Mathew et al. (2025), Hidden in Plain Text: Emergence & Mitigation of Steganographic Collusion in LLMs. | arXiv:2410.03768. Co...",
+      "resolvedFontSize": 17.51,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 17.51,
+        "typeface": "Helvetica Neue",
+        "color": "#4D6271",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Reference: Mathew et al. (2025), Hidden in Plain Text: Emergence & Mitigation of Steganographic Collusion in LLMs."
+          },
+          {
+            "index": 2,
+            "text": "arXiv:2410.03768. Corrected Uni O implementation."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Reference: Mathew et al. (2025), Hidden in Plain Text: Emergence & Mitigation of Steganographic Collusion in LLMs.",
+          "resolvedTextStyle": {
+            "fontSize": 17.51,
+            "typeface": "Helvetica Neue",
+            "color": "#4D6271",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Reference: Mathew et al. (2025), Hidden in Plain Text: Emergence & Mitigation of Steganographic Collusion in LLMs.",
+              "fontSize": 17.51,
+              "typeface": "Helvetica Neue",
+              "color": "#4D6271",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "arXiv:2410.03768. Corrected Uni O implementation.",
+          "resolvedTextStyle": {
+            "fontSize": 17.51,
+            "typeface": "Helvetica Neue",
+            "color": "#4D6271",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "arXiv:2410.03768",
+              "fontSize": 17.51,
+              "typeface": "Helvetica Neue",
+              "color": "#4D6271",
+              "alignment": "left"
+            },
+            {
+              "index": 2,
+              "text": ". Corrected Uni O implementation.",
+              "fontSize": 17.51,
+              "typeface": "Helvetica Neue",
+              "color": "#4D6271",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5sfepcfe",
+      "id": "15",
+      "bbox": [
+        520,
+        450,
+        700,
+        69
+      ],
+      "geometry": "rect",
+      "text": "Observer: “No” means no institution/status reference.\ns < 0 flags the summary and zeros only tanh(z_y).",
+      "textPreview": "Observer: “No” means no institution/status reference. | s < 0 flags the summary and zeros only tanh(z_y).",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 23,
+        "typeface": "Helvetica Neue",
+        "color": "#152A3A",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Observer: “No” means no institution/status reference."
+          },
+          {
+            "index": 2,
+            "text": "s < 0 flags the summary and zeros only tanh(z_y)."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Observer: “No” means no institution/status reference.",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Observer: “No” means no institution/status reference.",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "s < 0 flags the summary and zeros only tanh(z_y).",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "typeface": "Helvetica Neue",
+            "color": "#152A3A",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "s < 0 flags the summary and zeros only tanh(z_y).",
+              "fontSize": 23,
+              "typeface": "Helvetica Neue",
+              "color": "#152A3A",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ipovexwn",
+      "id": "16",
+      "bbox": [
+        60,
+        588,
+        430,
+        57
+      ],
+      "geometry": "rect",
+      "text": "2 receiver updates: 256 unflagged each\n5 sender PPO updates: 192 each",
+      "textPreview": "2 receiver updates: 256 unflagged each | 5 sender PPO updates: 192 each",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 22,
+        "typeface": "Helvetica Neue",
+        "color": "#4D6271",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2 receiver updates: 256 unflagged each"
+          },
+          {
+            "index": 2,
+            "text": "5 sender PPO updates: 192 each"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2 receiver updates: 256 unflagged each",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#4D6271",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2 receiver updates: 256 unflagged each",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#4D6271",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "5 sender PPO updates: 192 each",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#4D6271",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "5 sender PPO updates: 192 each",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#4D6271",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3qxwn2x8",
+      "id": "17",
+      "bbox": [
+        520,
+        550,
+        700,
+        93
+      ],
+      "geometry": "rect",
+      "text": "Receiver minimizes mean cross-entropy on unflagged summaries.\nPPO adds adaptive KL to frozen base Gemma (β starts at 0.1,\ntarget 30). PIQA d is evaluation only.",
+      "textPreview": "Receiver minimizes mean cross-entropy on unflagged summaries. | PPO adds adaptive KL to frozen base Gemma (β starts at 0.1, | target 30)....",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 1,
+        "fontSize": 22,
+        "typeface": "Helvetica Neue",
+        "color": "#4D6271",
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Receiver minimizes mean cross-entropy on unflagged summaries."
+          },
+          {
+            "index": 2,
+            "text": "PPO adds adaptive KL to frozen base Gemma (β starts at 0.1,"
+          },
+          {
+            "index": 3,
+            "text": "target 30). PIQA d is evaluation only."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Receiver minimizes mean cross-entropy on unflagged summaries.",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#4D6271",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Receiver minimizes mean cross-entropy on unflagged summaries.",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#4D6271",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "PPO adds adaptive KL to frozen base Gemma (β starts at 0.1,",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#4D6271",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "PPO adds adaptive KL to frozen base Gemma (β starts at 0.1,",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#4D6271",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        },
+        {
+          "index": 3,
+          "text": "target 30). PIQA d is evaluation only.",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "typeface": "Helvetica Neue",
+            "color": "#4D6271",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "target 30). PIQA d is evaluation only.",
+              "fontSize": 22,
+              "typeface": "Helvetica Neue",
+              "color": "#4D6271",
+              "alignment": "left"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

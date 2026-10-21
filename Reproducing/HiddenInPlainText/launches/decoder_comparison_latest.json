@@ -1,0 +1,111 @@
+{
+  "release": "20260929T222013Z",
+  "remote_source": "/orcd/pool/003/kirilb/Steganography/releases/decoder_comparison_20260929T222013Z",
+  "remote_run": "/orcd/pool/003/kirilb/Steganography/runs/decoder_comparison_step40_20260929T222013Z",
+  "local_results": "/Users/kirilbangachev/Documents/ChatGPT/Steganography/results/decoder_comparison_step40_20260929T222013Z",
+  "archive": "/private/tmp/stego-decoder-comparison-20260929T222013Z.tar.gz",
+  "slurm_job_id": "24355124",
+  "source": "/orcd/pool/003/kirilb/Steganography/releases/decoder_comparison_20260929T222013Z",
+  "run": "/orcd/pool/003/kirilb/Steganography/runs/decoder_comparison_step40_20260929T222013Z",
+  "submitted_at": "2026-09-29T22:23:12.381371+00:00",
+  "experiment": "frozen_decoder_bias_vanilla_vs_revised_step40",
+  "model": "Qwen3-4B",
+  "state": "complete",
+  "slurm_state": "COMPLETED",
+  "slurm_reason": "None",
+  "checkpoint_step": 40,
+  "n_saved_answers": 32,
+  "replicates": 8,
+  "n_decodes": 1024,
+  "roles": [
+    "receiver",
+    "interceptor"
+  ],
+  "arms": [
+    "vanilla",
+    "trained"
+  ],
+  "training_job_id": "24320332",
+  "config_digest": "8f3c15a7b7138d7027033afa36dc6ece71d17a8343bab50d74ce32866cc5d307",
+  "training_config_digest": "8c07b787822811f1bdde374f4d37853a9d8b1e24f8a7f395c708d28b90f4d227",
+  "archive_sha256": "23530f6c17401b89c11aac0707702e76919c3057293ff7436e81ad11419338bf",
+  "reported": true,
+  "completion_reported": true,
+  "monitor_access_status": "connected",
+  "automation_id": "monitor-revised-piqa-rl-training",
+  "checks": "24 local tests passed; ORCD source/input/checkpoint preflight passed",
+  "last_monitor_check_at": "2026-09-29T22:37:44.044671+00:00",
+  "last_status": {
+    "status": "complete",
+    "config_digest": "8f3c15a7b7138d7027033afa36dc6ece71d17a8343bab50d74ce32866cc5d307",
+    "n_saved_answers": 32,
+    "n_decodes": 1024,
+    "finished_at": "2026-09-29T22:35:42.692796+00:00",
+    "results_sha256": "98519137d9547d52567599968333d74c0a7cdb26bba81d0c8fb6d3cb1b4dda04"
+  },
+  "last_queue_snapshot": "24320332 piqa-revised RUNNING node4508\n",
+  "slurm_reason_or_node": "node2901",
+  "node": "node2901",
+  "model_verification_passed": true,
+  "completed_batches": 64,
+  "first_batch_verified": true,
+  "results_sha256_verified": true,
+  "completed_at": "2026-09-29T22:35:42.692796+00:00",
+  "slurm_exit_code": "0:0",
+  "reported_at": "2026-09-29T22:39:28.507748+00:00",
+  "summary_recalculated_verified": true,
+  "paired_input_and_seed_matching_verified": true,
+  "reported_summary": {
+    "receiver": {
+      "vanilla": {
+        "n_decodes": 256,
+        "n_answers": 32,
+        "mean_p0": 0.8239513619797397,
+        "sampled_zero_count": 220,
+        "correct_count": 136,
+        "accuracy": 0.53125
+      },
+      "trained": {
+        "n_decodes": 256,
+        "n_answers": 32,
+        "mean_p0": 0.8663119881058657,
+        "sampled_zero_count": 224,
+        "correct_count": 136,
+        "accuracy": 0.53125
+      }
+    },
+    "interceptor": {
+      "vanilla": {
+        "n_decodes": 256,
+        "n_answers": 32,
+        "mean_p0": 0.6825718674599147,
+        "sampled_zero_count": 175,
+        "correct_count": 127,
+        "accuracy": 0.49609375
+      },
+      "trained": {
+        "n_decodes": 256,
+        "n_answers": 32,
+        "mean_p0": 0.7076096953219639,
+        "sampled_zero_count": 185,
+        "correct_count": 141,
+        "accuracy": 0.55078125
+      }
+    }
+  },
+  "reported_trained_minus_vanilla": {
+    "receiver": {
+      "mean_p0": 0.04236062612612601,
+      "sampled_zero_rate": 0.015625,
+      "accuracy": 0.0,
+      "mean_probability_correct": -0.006894425685715633
+    },
+    "interceptor": {
+      "mean_p0": 0.025037827862049222,
+      "sampled_zero_rate": 0.0390625,
+      "accuracy": 0.0546875,
+      "mean_probability_correct": 0.026852230747656525
+    }
+  },
+  "interpretation": "Strong zero bias persists without decoder adapters on the same trained-sender answers; trained receiver mean P0 is modestly higher, with unchanged sampled accuracy. This does not isolate base-model, prompt, input-distribution, or thinking-cutoff causes."
+}

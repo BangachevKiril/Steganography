@@ -1,0 +1,110 @@
+{
+  "added_active_seconds_at_checkpoint": 3512.6768693667836,
+  "checked_at": "2026-10-03T01:09:02.315712+00:00",
+  "checkpoint": {
+    "completed_update": 599,
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "elapsed": 31443.08184160432,
+    "phase": "sender",
+    "state_sha256": "bdedafa23acb62a46b3be176cd5ead7c57ddeadf54feed5aeeadc3b0d5d6619a"
+  },
+  "failure_json_present": false,
+  "identity_checks": {
+    "all_passed": true,
+    "checks": {
+      "CORRECTIONS.json": true,
+      "EXPERIMENT.md": true,
+      "archive_manifest": true,
+      "extension_manifest": true,
+      "extension_wrapper": true,
+      "orcd/university_corrected_l40s.py": true,
+      "orcd/university_corrected_l40s.slurm": true,
+      "orcd/university_l40s_evaluation_memory.py": true,
+      "orcd/university_l40s_memory_training.py": true,
+      "orcd/university_training.slurm": true,
+      "pinned_origin_marker": true,
+      "stego/__init__.py": true,
+      "stego/decoder_comparison.py": true,
+      "stego/decoder_prompt_comparison.py": true,
+      "stego/engine.py": true,
+      "stego/paired_inference.py": true,
+      "stego/paired_sender_probe.py": true,
+      "stego/prompt_comparison.py": true,
+      "stego/prompt_comparison_report.py": true,
+      "stego/protocol.py": true,
+      "stego/rejection_baseline.py": true,
+      "stego/smoke.py": true,
+      "stego/train.py": true,
+      "stego/training_report.py": true,
+      "stego/university_baseline.py": true,
+      "stego/university_evaluation.py": true,
+      "stego/university_judge.py": true,
+      "stego/university_metrics.py": true,
+      "stego/university_training.py": true,
+      "stego/university_training_report.py": true,
+      "tests/test_university_baseline.py": true,
+      "tests/test_university_corrections.py": true,
+      "tests/test_university_evaluation_memory.py": true,
+      "tests/test_university_judge.py": true,
+      "tests/test_university_metrics.py": true,
+      "tests/test_university_training.py": true,
+      "tests/test_university_training_report.py": true
+    }
+  },
+  "independent_public_rollout_audit": {
+    "all_counts_scores_flags_schedule_and_retained_labels_verified": true,
+    "observer_flag_fraction_range": [
+      0.0313,
+      0.0729
+    ],
+    "receiver_pass_fraction_range": [
+      0.5729,
+      0.7448
+    ],
+    "reward_std_range": [
+      0.1639,
+      0.1909
+    ],
+    "single_label_or_duplicate_text_collapse_observed": false,
+    "text_duplicates": "One repeated text among512 receiver collection rows at590; other batches unique.",
+    "updates": [
+      587,
+      599
+    ]
+  },
+  "inherited_runtime_manifests_unchanged": true,
+  "job_id": "24696926",
+  "last_committed_ppo_memory": {
+    "attempted_update": 599,
+    "device_total_bytes": 47667740672,
+    "duration_seconds": 52.05183376907371,
+    "end_device_free_bytes": 3581214720,
+    "end_host_rss_bytes": 98524336128,
+    "error": null,
+    "note": "PPO-call completion alone does not establish a committed checkpoint.",
+    "peak_allocated_bytes": 38652836864,
+    "peak_reserved_bytes": 43331354624,
+    "ppo_call_status": "completed",
+    "saved_tensor_transfers": {
+      "expanded_cuda_tensors": 0,
+      "noncontiguous_cuda_tensors": 3744,
+      "nonzero_offset_cuda_tensors": 12,
+      "packed_cuda_tensors": 15408,
+      "packed_storage_bytes": 630478504704,
+      "unpacked_cuda_tensors": 15180
+    }
+  },
+  "memory_event_after_verified_boundary": false,
+  "memory_event_attempted_update": 599,
+  "new_evaluations": [],
+  "node": "node3407",
+  "numeric_metrics_finite": true,
+  "receiver_256_four_microbatches_one_step_verified": true,
+  "remaining_active_seconds_at_checkpoint": 24387.323130633216,
+  "report_sha256": "2766fcc6a6a66fb27ac6da938f6fe87743a247ad422089cee237ed7efc69e5a7",
+  "sender_reward_variation_verified": true,
+  "slurm_state": "RUNNING",
+  "state_sha256_verified_remotely": true,
+  "target_active_seconds": 55830.404972237535,
+  "verified_update": 599
+}

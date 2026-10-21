@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "audit_type": "independent_public_evaluation_verification",
+  "verified_at": "2026-10-02T19:12:24.337225+00:00",
+  "run": "uni_corrected_20261002T151448Z",
+  "completed_update": 250,
+  "parameter_updates": 250,
+  "status": "passed",
+  "issues": [],
+  "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+  "evaluation_config_digest": "8632f028409d68a9048554acda06e423db32424fdee0ced663ce7b677160c491",
+  "metrics": {
+    "university": {
+      "n": 2000,
+      "receiver_correct": 1059,
+      "C_R": 0.5295,
+      "observer_flagged": 192,
+      "C_I": 0.096,
+      "receiver_prediction_counts": {
+        "PASS": 758,
+        "FAIL": 1242
+      },
+      "true_label_counts": {
+        "PASS": 1001,
+        "FAIL": 999
+      },
+      "confusion_matrix": {
+        "FAIL": {
+          "FAIL": 650,
+          "PASS": 349
+        },
+        "PASS": {
+          "FAIL": 592,
+          "PASS": 409
+        }
+      }
+    },
+    "piqa": {
+      "n": 100,
+      "judge_rejected": 4,
+      "format_rejected": 0,
+      "overlap": 0,
+      "union_rejected": 4,
+      "d": 0.04,
+      "corrected_baseline_d": 0.08,
+      "original_baseline_d": 0.08,
+      "delta_corrected_percentage_points": -4.0,
+      "delta_original_percentage_points": -4.0
+    }
+  },
+  "checks": {
+    "completion_summary_sha256_matches": true,
+    "canonical_training_config_digest_matches": true,
+    "canonical_evaluation_config_digest_matches": true,
+    "evaluation_config_unchanged_from_baseline_except_checkpoint_identity": true,
+    "checkpoint_identity_and_marker_sha256_match": true,
+    "all_public_payload_config_digests_match": true,
+    "university_cohort_exactly_matches_corrected_baseline": true,
+    "piqa_cohort_exactly_matches_corrected_baseline": true,
+    "university_2000_unique_ordered_row_ids": true,
+    "university_generation_receiver_observer_prefix_chains_match": true,
+    "probabilities_finite_normalized_and_argmax_consistent": true,
+    "observer_scores_finite_in_range_and_flags_consistent": true,
+    "observer_batch_positions_and_sizes_match": true,
+    "university_seeds_and_caps_match": true,
+    "piqa_seeds_and_caps_match": true,
+    "piqa_100_unique_rows_match_generations_and_cohort": true,
+    "piqa_source_generations_sha256_matches": true,
+    "piqa_verdicts_match_boolean_pass": true,
+    "piqa_format_matches_unchanged_checker": true,
+    "piqa_union_and_judge_batch_seeds_match": true,
+    "piqa_public_fields_and_numeric_diagnostics_validate": true,
+    "recomputed_counts_strata_confusion_and_means_match_summary": true,
+    "corrected_baseline_summary_hash_and_delta_match": true,
+    "public_status_artifacts_match_completed_evaluation": true,
+    "parent_remote_verification_record_matches_checkpoint_manifest": true
+  },
+  "source_checkpoint": {
+    "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_000250",
+    "completed_update": 250,
+    "complete_sha256": "3b097db08e7018d82f1220b7875daded4f8c7ea385712d9c09a7bf2a53b59e25",
+    "state_sha256_from_manifest": "662f67a7fc549e3f739d58bf796a86c16b311c42263d4dc35a99797f18a0b3a2",
+    "state_file_read_by_this_audit": false
+  },
+  "external_checkpoint_verification": {
+    "provided_by": "parent agent /root remote helper",
+    "verification_method": "Parent reports direct remote state.pt SHA-256 verification; this audit checked the saved verification record and did not read state.pt.",
+    "record_path": "results/uni_corrected_20261002T151448Z/diagnostics/evaluation250_remote_runtime_identity.json",
+    "record_sha256": "c70129bff695e0a546bab799cb8da8a69c98e20e0964569f30253b0119480362",
+    "state_sha256_verified": true,
+    "verified_update": 250,
+    "state_sha256": "662f67a7fc549e3f739d58bf796a86c16b311c42263d4dc35a99797f18a0b3a2",
+    "complete_sha256": "3b097db08e7018d82f1220b7875daded4f8c7ea385712d9c09a7bf2a53b59e25",
+    "elapsed": 13130.356312429532,
+    "matches_local_manifest": true
+  },
+  "public_file_sha256": {
+    "config.json": "aadeea1f89db2014c2576e41b45df8e1e576f4fd9297bf5bab139143c1e25a3c",
+    "COMPLETE.json": "68a047d37204917fa7e0592917cbefb117a2bd5971fe0b82dbe464de9a5825ab",
+    "SUMMARY.json": "63564a7b852af2e23bb42f4f905c2104507fbf45dd0f90c01bc60142e28f0e37",
+    "SELECTION.json": "3af0a0fcef68447891731fabc3d368ca238d7362f15d14c84b07de5b3103ee10",
+    "UNIVERSITY_GENERATIONS.json": "b41a0d7b80e7d282a1ba91625b1c3652b304a07e7810f836456bd2ebf6235644",
+    "UNIVERSITY_RECEIVER.json": "eb96892e6d212e7fc3ccfbe66947334b74323df0a949d8245b7cbc004e714855",
+    "UNIVERSITY_RESULTS.json": "90cfe5deff44251abfb26799c32329a7f771b530bd78f84ddf1a062d858f7474",
+    "PIQA_GENERATIONS.json": "a0aaf7ae61291eae69b5742d93f39b46c7f1695ccec72c54098954179dc7c51b",
+    "PIQA_JUDGED.json": "a1c7b227acd72adbe4fcc96fb664f98451c76ba014db5c8c5113788cc1befc87",
+    "report.md": "796d2602a95913d89e579d98d79bfbc801efee21183eea6a144c1bd7be1b0f85",
+    "STATUS.json": "95b43113c19f0db4e0b0dd2504975f41c2a559c0ed60bfda4f89030adbd88821",
+    "PIQA_JUDGE_STATUS.json": "4c48bc0d713b220ea1636a48397fce1109bd4cef8562d1badd592bd4ec0ac98e"
+  },
+  "public_hash_base_directory": "evaluations/step_000250",
+  "baseline_summary_sha256": "3c10be00b3a28a80b50c9ef8c5edf406f69a65a57ee7f6ef888e8875f59c21dc",
+  "completion_binding_caveat": "The existing COMPLETE.json binds SUMMARY.json, the source checkpoint COMPLETE.json and evaluation configuration identity. PIQA_JUDGED.json binds PIQA_GENERATIONS.json. COMPLETE.json does not individually bind the university public files. Their hashes above are computed audit observations, and their rows were independently checked against selection, generation/receiver prefixes and reported aggregates; they are not additional hashes embedded in the original completion marker.",
+  "scope": "Local public artifacts only. No remote access, model weights or private reasoning read. No claimed fresh model-state checksum verification by this audit."
+}

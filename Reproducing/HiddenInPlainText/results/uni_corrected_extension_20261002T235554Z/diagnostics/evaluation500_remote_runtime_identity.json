@@ -1,0 +1,82 @@
+{
+  "completed_update": 500,
+  "checkpoint": {
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "completed_update": 500,
+    "state_sha256": "64a66cf27097b95e3f4c91c365291a25b63fd8e0797a8dfcd1a324533c18113f",
+    "elapsed": 26302.70668184478,
+    "phase": "sender"
+  },
+  "checkpoint_state_sha256_verified_remotely": true,
+  "checkpoint_state_verification_method": "Remote streaming SHA256 over checkpoint500 state.pt via existing authenticated SSH; no model weights copied locally.",
+  "checkpoint_manifest_sha256": "2fd46c79191ff02fc19ce086a993c08ec12ff3be7987522e79559aa1998d9f16",
+  "summary_sha256": "55f6b9dd9c599be5984e5d8b27848b7502f8407f4e75895941cee997fc0c25ff",
+  "completion_marker_sha256": "d5cad567dd7d00329f6685e9e1c53df64e2732e4be066d4d0d9041c85ff71afd",
+  "completion": {
+    "status": "complete",
+    "completed_update": 500,
+    "parameter_updates": 500,
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "evaluation_config_digest": "a4753305594dd3c8c595fec2d9f3dabbfd838c3c1f07e483e81cd76b89559d31",
+    "source_checkpoint": {
+      "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_000500",
+      "completed_update": 500,
+      "complete_sha256": "2fd46c79191ff02fc19ce086a993c08ec12ff3be7987522e79559aa1998d9f16"
+    },
+    "summary_sha256": "55f6b9dd9c599be5984e5d8b27848b7502f8407f4e75895941cee997fc0c25ff",
+    "completed_at": 1790981983.584064
+  },
+  "runtime_event_path": "runtime_events/l40s_eval_memory_24665081_1790981917409483979.json",
+  "runtime_event_sha256": "d191c4b593757ab1f96378e4b20abc71e0942f39860785cfa7398a313ee45ca3",
+  "runtime_cleanup": {
+    "kind": "L40S_evaluation_parent_cache_cleanup",
+    "status": "original_judge_completed",
+    "started_at": 1790981917.4094887,
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "evaluation_config_digest": "a4753305594dd3c8c595fec2d9f3dabbfd838c3c1f07e483e81cd76b89559d31",
+    "evaluation_dir": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/evaluations/step_000500",
+    "checkpoint": {
+      "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_000500",
+      "completed_update": 500,
+      "complete_sha256": "2fd46c79191ff02fc19ce086a993c08ec12ff3be7987522e79559aa1998d9f16"
+    },
+    "checkpoint_complete": {
+      "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+      "completed_update": 500,
+      "state_sha256": "64a66cf27097b95e3f4c91c365291a25b63fd8e0797a8dfcd1a324533c18113f",
+      "elapsed": 26302.70668184478,
+      "phase": "sender"
+    },
+    "wrapper_sha256": "453aff7ed707c3d835149e0c8ac4ec0563b4a6526a9309b91d9b31f329cb1ea2",
+    "evaluation_helper_sha256": "d5f9352f0c6984c29f0078ec035be77822cb81c2fe2010f38248c634326e90f2",
+    "slurm_job_id": "24665081",
+    "slurm_restart_count": "1",
+    "manifest_sha256": "f96572c03547bfe59d762941124ba016d468591e9a02a3aa98e87704ece79591",
+    "cleanup_verification": {
+      "before": {
+        "cuda_allocated_bytes": 20528926208,
+        "cuda_reserved_bytes": 43058724864,
+        "device_free_bytes": 3853844480,
+        "device_total_bytes": 47667740672,
+        "host_rss_bytes": 98557325312
+      },
+      "after": {
+        "cuda_allocated_bytes": 20528926208,
+        "cuda_reserved_bytes": 20805844992,
+        "device_free_bytes": 26106724352,
+        "device_total_bytes": 47667740672,
+        "host_rss_bytes": 98558083072
+      },
+      "gc_collected_objects": 258,
+      "live_tensor_metadata_unchanged": true,
+      "rng_unchanged": true,
+      "live_tensor_metadata_sha256": "e8cdc49b811099adc0d4e68d07cfbdb2e00a722565af55b21cfbe7f22fa975e3"
+    },
+    "cache_cleaned_at": 1790981918.050015,
+    "finished_at": 1790981983.5750484
+  },
+  "verified_at": "2026-10-02T23:04:12.246159+00:00",
+  "job_id": "24665081",
+  "slurm_restart_count": 1,
+  "uninterrupted_evaluation_on_current_allocation": true
+}

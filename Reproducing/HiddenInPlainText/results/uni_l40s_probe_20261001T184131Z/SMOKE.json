@@ -1,0 +1,14 @@
+{
+  "sender_logits_finite": true,
+  "sender_values_finite": true,
+  "receiver_logits_finite": true,
+  "forward_batch_size": 2,
+  "sender_query_length": 65,
+  "finite_parameter_elements": {
+    "sender": 2617539073,
+    "receiver": 66955010
+  },
+  "optimizer_steps": 0,
+  "generations": 0,
+  "backward_passes": 0
+}

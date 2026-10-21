@@ -1,0 +1,48 @@
+{
+  "kind": "L40S_evaluation_parent_cache_cleanup",
+  "status": "original_judge_completed",
+  "started_at": 1790901531.0976956,
+  "config_digest": "a430c084d01dc638190691b34614ff595f8d788bb6172728f04aebe2a50c503b",
+  "evaluation_config_digest": "94eb2ce64ba04cac2b15c7eef148f30be7f330296b085308390c8bf0eb52108c",
+  "evaluation_dir": "/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z/evaluations/step_000300",
+  "checkpoint": {
+    "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_rl_20260930T195244Z/checkpoints/step_000300",
+    "completed_update": 300,
+    "complete_sha256": "72a3a349b2cfa80138815fa4baed0b8b837370d7226ec025dc7a878a65ee0c4c"
+  },
+  "checkpoint_complete": {
+    "config_digest": "a430c084d01dc638190691b34614ff595f8d788bb6172728f04aebe2a50c503b",
+    "completed_update": 300,
+    "state_sha256": "f45ab7d67574c8796fe22f9dbe930f4416c49343339d72db7f21e52857bce25d",
+    "elapsed": 14391.136074621929,
+    "phase": "sender"
+  },
+  "slurm_job_id": "24579661",
+  "slurm_restart_count": null,
+  "wrapper_sha256": "d5f9352f0c6984c29f0078ec035be77822cb81c2fe2010f38248c634326e90f2",
+  "memory_launcher_sha256": "9ce57ee0ff9a043273f80a75424a80bdf8a97189e0ccaedb00dce2f0f9e9b2c4",
+  "hardware_launcher_sha256": "17dbf6d322d3bc5cac719c0a1ebef701e88e4a25d6ec4e9a302268a414f91565",
+  "manifest_sha256": "833d3e4e98f6f96587fea36e7d3cb05325bfad87c2df9dc0dbc660639448d64c",
+  "cleanup_verification": {
+    "before": {
+      "cuda_allocated_bytes": 20796652544,
+      "cuda_reserved_bytes": 46772781056,
+      "device_free_bytes": 139788288,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 98777862144
+    },
+    "after": {
+      "cuda_allocated_bytes": 20796652544,
+      "cuda_reserved_bytes": 21120417792,
+      "device_free_bytes": 25792151552,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 98777862144
+    },
+    "gc_collected_objects": 258,
+    "live_tensor_metadata_unchanged": true,
+    "rng_unchanged": true,
+    "live_tensor_metadata_sha256": "908f1f83b66d47de1c17ba3f4b819dec758b86094997f19f3edd4bf98ff748ea"
+  },
+  "cache_cleaned_at": 1790901531.7840703,
+  "finished_at": 1790901599.6095965
+}

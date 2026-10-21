@@ -1,0 +1,47 @@
+{
+  "kind": "L40S_evaluation_parent_cache_cleanup",
+  "status": "original_judge_completed",
+  "started_at": 1790979071.7383194,
+  "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+  "evaluation_config_digest": "d16a5cdf7ed128657b4277e0c71503d0bb8db2f1c03d0f72802cc9d3671e11fc",
+  "evaluation_dir": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/evaluations/step_000450",
+  "checkpoint": {
+    "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_000450",
+    "completed_update": 450,
+    "complete_sha256": "cff413db870773e07bffebf126eb120222c7f30b1f6103606ec716efe0021828"
+  },
+  "checkpoint_complete": {
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "completed_update": 450,
+    "state_sha256": "35da23b3e15138d7cbd5e7429fadaaad8f2a29486254e9891eb6546ca6172025",
+    "elapsed": 23449.3444235716,
+    "phase": "receiver"
+  },
+  "wrapper_sha256": "453aff7ed707c3d835149e0c8ac4ec0563b4a6526a9309b91d9b31f329cb1ea2",
+  "evaluation_helper_sha256": "d5f9352f0c6984c29f0078ec035be77822cb81c2fe2010f38248c634326e90f2",
+  "slurm_job_id": "24665081",
+  "slurm_restart_count": "1",
+  "manifest_sha256": "f96572c03547bfe59d762941124ba016d468591e9a02a3aa98e87704ece79591",
+  "cleanup_verification": {
+    "before": {
+      "cuda_allocated_bytes": 20529057792,
+      "cuda_reserved_bytes": 41464889344,
+      "device_free_bytes": 5447680000,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 98456391680
+    },
+    "after": {
+      "cuda_allocated_bytes": 20529057792,
+      "cuda_reserved_bytes": 20824719360,
+      "device_free_bytes": 26087849984,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 98458935296
+    },
+    "gc_collected_objects": 258,
+    "live_tensor_metadata_unchanged": true,
+    "rng_unchanged": true,
+    "live_tensor_metadata_sha256": "bfb5e9877bad40e2e187c0bf868311519e146422c38d88e1b7ea92609486eb8b"
+  },
+  "cache_cleaned_at": 1790979073.429816,
+  "finished_at": 1790979404.3794858
+}

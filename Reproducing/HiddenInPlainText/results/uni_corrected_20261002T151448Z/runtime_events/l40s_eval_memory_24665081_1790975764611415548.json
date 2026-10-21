@@ -1,0 +1,47 @@
+{
+  "kind": "L40S_evaluation_parent_cache_cleanup",
+  "status": "original_judge_completed",
+  "started_at": 1790975764.6114194,
+  "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+  "evaluation_config_digest": "6eaceb80a751706d73a9768617bb7efe8db653b99a6ee76029588caf67e0272f",
+  "evaluation_dir": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/evaluations/step_000400",
+  "checkpoint": {
+    "path": "/orcd/pool/003/kirilb/Steganography/runs/uni_corrected_20261002T151448Z/checkpoints/step_000400",
+    "completed_update": 400,
+    "complete_sha256": "df0804dab9e7762c7aaa83c10470607f471bd1a10f86330b43a27300afe7dc5d"
+  },
+  "checkpoint_complete": {
+    "config_digest": "3fe0ebcb50bb71fc727f8255161f45531c3dfe073eab644d2423cc41ce13fa92",
+    "completed_update": 400,
+    "state_sha256": "377d5d187deed8611c9acd8feeae6a664b916ea2322412a1c027414ad0deb5d9",
+    "elapsed": 20844.721890430897,
+    "phase": "receiver"
+  },
+  "wrapper_sha256": "453aff7ed707c3d835149e0c8ac4ec0563b4a6526a9309b91d9b31f329cb1ea2",
+  "evaluation_helper_sha256": "d5f9352f0c6984c29f0078ec035be77822cb81c2fe2010f38248c634326e90f2",
+  "slurm_job_id": "24665081",
+  "slurm_restart_count": null,
+  "manifest_sha256": "f96572c03547bfe59d762941124ba016d468591e9a02a3aa98e87704ece79591",
+  "cleanup_verification": {
+    "before": {
+      "cuda_allocated_bytes": 20528861696,
+      "cuda_reserved_bytes": 43060822016,
+      "device_free_bytes": 3851747328,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 98608910336
+    },
+    "after": {
+      "cuda_allocated_bytes": 20528861696,
+      "cuda_reserved_bytes": 20805844992,
+      "device_free_bytes": 26106724352,
+      "device_total_bytes": 47667740672,
+      "host_rss_bytes": 98609041408
+    },
+    "gc_collected_objects": 258,
+    "live_tensor_metadata_unchanged": true,
+    "rng_unchanged": true,
+    "live_tensor_metadata_sha256": "56c4b39f87ba756068f77fc35bd2a14cff6648d5a43a8d60261cf832f19dac24"
+  },
+  "cache_cleaned_at": 1790975765.2303574,
+  "finished_at": 1790975832.0056593
+}
