@@ -25,12 +25,14 @@ While the above example is perhaps useful to demonstrate that a static observer 
 
 # 3. Dynamic Observer
 
-We now rerun the same experiment but with a dynamic observer. Of course, this requires a certain change of setup. Currently, all messages have hidden information. Thus, the judge is rewarded based on guessing the hidden information. Here is the exact setup. The sender and receiver communicate in the same way. However, the observer tries to guess whether the student is from a good or bad university. The rewards are as follows:
+We now rerun the same experiment but with a dynamic observer. All messages contain the hidden university label, so the observer learns to predict whether the student is from a good or bad university. The sender and receiver communicate in the same way. Let `x` be the sender's summary, `y` the true university label, and `p_R` and `p_O` the receiver's and observer's normalized probabilities over the two labels, good and bad. The sender reward and supervised losses are:
 
-1. Sender: The sender reward is `1[o ≥ 0]·tanh(z_y) + 0.2·o + 0.1·min(character_count/20, 1)`, where `z_y` is the receiver's raw correct-class logit and `o = tanh(logit(Incorrect Label) − logit(Correct label) − 0.75)` is the observer score; PPO applies KL regularization separately. **We changed the logits of the observer.**
-2. Receiver: standard SFT on the correct response.
-3. Observer: standard SFT on the correct response. **We are now updating the observer.**
+1. **Sender:** `r_S = 2·p_R(y | x) − 1 − λ·(2·p_O(good | x) − 1)^2 + 0.1·min(character_count/20, 1)`, with `λ = 1` for all runs; PPO applies KL regularization separately. The receiver term rewards correct decoding, while the observer penalty is zero at a 50/50 prediction and penalizes confidence in either label, including confidently wrong predictions that could be corrected by flipping labels. There is no hard gate or 0.75 logit offset. The existing character-count bonus is retained unchanged.
+2. **Receiver:** supervised cross-entropy, `L_R = −log p_R(y | x)`, on the correct university label.
+3. **Observer:** supervised cross-entropy, `L_O = −log p_O(y | x)`, on the correct university label. **The observer is now updated.**
 
-We train as follows. Each cycle alternates two full-receiver supervised updates and five sender PPO updates and then k rounds of observer SFT updates (we will try with $k \in \{1,2,4,8\}$ to see the importance of monitor training; as discussed, we may need to give the monitor time to catch up).
+Both supervised learners train on unfiltered sender summaries, including examples the observer decodes correctly; the previous receiver rule of collecting only unflagged examples is removed. Each cycle runs two full-receiver supervised updates, five sender PPO updates, and then $k$ rounds of observer SFT updates, with $k \in \{1,2,4,8\}$ to test how much time the observer needs to catch up. We evaluate after the observer updates, reporting receiver accuracy, observer accuracy, and observer confidence separately. The reward and `λ` remain fixed across the four settings, and the separate PIQA evaluation remains a usefulness check.
+
+Observer uncertainty alone does not establish that the summaries contain no recoverable information; a fresh decoder evaluation can test whether the sender has exploited the current observer.
 
 *Note: Is this task information-theoretically well-posed?* It seems like the answer should be no. Note that the receiver and observer see the same info. An important difference, however, is that they have different internal states, which is one of the main worries about steganography.
