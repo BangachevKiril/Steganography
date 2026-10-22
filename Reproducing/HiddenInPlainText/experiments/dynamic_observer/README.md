@@ -1,6 +1,6 @@
 # Dynamic university observer: equal-cycle sweep
 
-Submitted to ORCD on 21 October 2026. **GPU validation is pending; no training result or measured GPU fit is claimed.** This implements the new experiment in section 3 of [the report](../../REPORT.md). The report's existing results describe the earlier frozen-observer experiment.
+Submitted to ORCD on 21 October 2026. **H100 validation passed (job 26539917, 22m55s); the five production runs are queued on H100.** No production training result is claimed. This implements the new experiment in section 3 of [the report](../../REPORT.md). The report's existing results describe the earlier frozen-observer experiment.
 
 All five settings use the same original checkpoint zero, university training/held-out datasets and sender/receiver training split. Each runs **200 cycles**, with **2 receiver updates and 5 sender updates per cycle**, followed by k observer updates, for k = 0, 1, 2, 4, 8. Thus every setting gets 400 receiver updates and 1,000 sender updates; observer updates total 0, 200, 400, 800 and 1,600. Elapsed GPU time will differ.
 
@@ -14,15 +14,15 @@ Observer training uses only summaries from the current training cycle: 512 recei
 
 | Job | Purpose | Status at submission check |
 | --- | --- | --- |
-| 26539915 | H200 validation | Pending: priority |
-| 26539917 | H100 validation | Pending: priority |
-| 26539918 | H200, k=0 | Pending: successful H200 validation |
-| 26539919 | H200, k=1 | Pending: successful H200 validation |
-| 26539921 | H200, k=2 | Pending: successful H200 validation |
-| 26539923 | H200, k=4 | Pending: successful H200 validation |
-| 26539926 | H200, k=8 | Pending: successful H200 validation |
+| 26539915 | H200 validation (comparison only) | Pending: priority |
+| 26539917 | H100 validation | Completed 0:0; passed |
+| 26555063 | H100, k=0 | Queued; validation already passed |
+| 26555064 | H100, k=1 | Queued; validation already passed |
+| 26555065 | H100, k=2 | Queued; validation already passed |
+| 26555066 | H100, k=4 | Queued; validation already passed |
+| 26555067 | H100, k=8 | Queued; validation already passed |
 
-Each requests one GPU, 256 GiB host RAM and 8 CPUs, eligible for `mit_normal_gpu` and `mit_preemptable`. Validation uses a real k=1 cycle with full training batches, 64 university/4 PIQA evaluation rows, and joint checkpoint restoration. Production also checks a matching source/spec/hardware validation artifact, then performs its own full initial evaluation. Slurm has not provided a start time for these submitted jobs. Earlier test-only queue estimates are not reserved starts.
+Each requests one GPU, 256 GiB host RAM and 8 CPUs, eligible for `mit_normal_gpu` and `mit_preemptable`. Validation uses a real k=1 cycle with full training batches, 64 university/4 PIQA evaluation rows, and joint checkpoint restoration. Production also checks a matching source/spec/hardware validation artifact, then performs its own full initial evaluation. The H100 run passed both mini evaluations, the full k=1 training cycle and joint checkpoint restoration. Independent hashing verified the validation artifact, parent checkpoint and observer checkpoint. The five unstarted H200 production jobs were cancelled and replaced with H100 jobs; see `release/H100_MIGRATION.json`. Production no longer waits on the H200 validation. Scheduler start estimates remain tentative.
 
 Production uses 6-hour allocations, with a signal 15 minutes before the time limit and operational requeue from the latest committed joint checkpoint. Checkpoints include sender/receiver weights, observer adapters, all applicable optimizers, RNG, sampler position, PPO/KL state and the current observer training pool. A numerical, provenance or OOM failure exits unsuccessfully; it is not blindly retried. CPU offload is used during sender PPO, including temporarily moving the observer base to host RAM. Historical experiments are untouched.
 
@@ -36,7 +36,7 @@ The self-contained [release](release/) contains the exact submitted source and c
 - [dynamic_run.py](release/orcd/dynamic_run.py) and [dynamic.slurm](release/orcd/dynamic.slurm): validation gate and resumable Slurm execution.
 - [LAUNCH.json](release/LAUNCH.json): exact config digests, paths, job IDs and checks at submission.
 
-The 10 CPU tests passed in the actual legacy training environment. Tokenizer checks verified Bad=16579 and Good=14773 at the non-thinking answer boundary. CPU model inspection counted 27,356,728,560 base parameters and 116,727,808 LoRA parameters across 496 text linear modules. Those counts do not establish GPU fit. The small LoRA forward/gradient check passed; no full-model numerical equivalence is claimed.
+The 10 CPU tests passed in the actual legacy training environment. Tokenizer checks verified Bad=16579 and Good=14773 at the non-thinking answer boundary. CPU model inspection counted 27,356,728,560 base parameters and 116,727,808 LoRA parameters across 496 text linear modules. The full-cycle validation subsequently passed on an NVIDIA H100 80GB. This establishes observed fit for the tested cycle, not a guarantee for every later workload. The small LoRA forward/gradient check passed; no full-model numerical equivalence is claimed.
 
 Run the targeted tests from `release/` in the recorded training environment:
 

@@ -1,0 +1,24 @@
+{
+  "verification": {
+    "verification": "passed",
+    "validation_sha256": "20ed92bdb6f2ece7138796123f75f0f8d81bbdd1bbb6d6f77707ccf1716b0287",
+    "checkpoint_state_sha256": "50be281c38f0123cad35eaeee7d7dfa0367a224bab0a946c835dec7308c3cadc",
+    "observer_state_sha256": "734aca03b10397008bf77985433955cf7f90a32c4f39eb53de639ccdcccfdf9e",
+    "gpu": "NVIDIA H100 80GB HBM3",
+    "observer_updates": 1,
+    "peak_parent_allocated_bytes": 30372429824,
+    "completion": 1792626261.7884045
+  },
+  "queue_estimates": [
+    {
+      "gpu": "h100",
+      "returncode": 0,
+      "estimate": "sbatch: Job 26554997 to start at 2026-10-23T12:16:06 a using 8 processors on nodes node2906 in partition mit_normal_gpu\n"
+    },
+    {
+      "gpu": "h200",
+      "returncode": 0,
+      "estimate": "sbatch: Job 26554998 to start at 2026-10-23T17:12:03 a using 8 processors on nodes node2433 in partition mit_normal_gpu\n"
+    }
+  ]
+}
