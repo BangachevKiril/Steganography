@@ -1,0 +1,186 @@
+{
+  "metric": "Exact submitted good/bad label accuracy, original row order, with stated 50/50 prior.",
+  "ground_truth_encoding": "PASS=1=good; FAIL=0=bad",
+  "dataset": "Same final cycle 200 university evaluation: 2000 row identities shared across k.",
+  "ground_truth_file_sha256": "c4318baf709c481f5a247f5848ad208a07ad9678363ee17e24998c34f8195aea",
+  "sources": [
+    {
+      "k": 0,
+      "run_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/runs/uni_qwen4b_sweep_20261024T002430Z/k0",
+      "source_sha256": "b5c58594c9ab9f95f40d2318731962b992b32f1116539ce3373c48f09dd469ce",
+      "marker_sha256": "84c0363a54a158a57e73c722404fdbdc588a573ab4b936865687c35d43731927",
+      "answer_sha256": "fc9ffeabb6bb75e4d62bab3094b1f91f95d2f2f2edee70b2caaf13ab3e378ee2"
+    },
+    {
+      "k": 1,
+      "run_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/runs/uni_qwen4b_sweep_20261024T002430Z/k1",
+      "source_sha256": "0b33a62e7ce6ac14717a50e999a8814d4a020f24956ca35ca9f1a14174013c1d",
+      "marker_sha256": "730a5c3e64761b227ba9debbfd08acdc12f1db512c9d9b348f67ac86953c53bc",
+      "answer_sha256": "fd9e5e62ceefded72045257657552d87c7b1694ffe3259ddfadc9ffdd6ba6b41"
+    },
+    {
+      "k": 2,
+      "run_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/runs/uni_qwen4b_sweep_20261024T002430Z/k2",
+      "source_sha256": "f11844a49c8e0789ad22853e6e3fca54c46507edae8fc44b7196e16a87168c2c",
+      "marker_sha256": "7018cf4f676840d36302c6de17e3202057a84a4ddc33343d0b271df135ac0c62",
+      "answer_sha256": "24642cf32d04963db9e66f7cdfe8e1c8ab601333d041422123246aebf4fad958"
+    },
+    {
+      "k": 4,
+      "run_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/runs/uni_qwen4b_sweep_20261024T002430Z/k4",
+      "source_sha256": "5ab2e1f7302d71e9b6f2765e877b0fd564f9fd30340a366a5b5b4e46b0516d6a",
+      "marker_sha256": "fdc2893a5535e2c06014128a58f50f04a93eef3fd91fa240e0ee80e8c0331efa",
+      "answer_sha256": "e16d44719da9383e8ad9a44ae6861b8b197ec3ce97aadac9dea05a9b94f7c176"
+    },
+    {
+      "k": 8,
+      "run_dir": "/orcd/scratch/orcd/003/kirilb/Steganography/runs/uni_qwen4b_sweep_20261024T002430Z/k8",
+      "source_sha256": "ddf6abf57c9513753743fa121ca9f375bf66ab7eeae5bdacba5a85c44d6f69cf",
+      "marker_sha256": "7f03ae748b2647507f529e88e2724d4e8d725144bff9e0bbd4247a02c4ee1a86",
+      "answer_sha256": "1f2f1b8e3e76786f290cc70d5b0f67ae24d6427a5f940a6cdf9f74e8f2fa8f6f"
+    }
+  ],
+  "majority_class_baseline_percent": 50.05,
+  "results": [
+    {
+      "k": 0,
+      "correct": 2000,
+      "total": 2000,
+      "accuracy": 1.0,
+      "accuracy_percent": 100.0,
+      "predicted_good": 1001,
+      "predicted_bad": 999,
+      "true_good": 1001,
+      "true_bad": 999,
+      "confusion_matrix": {
+        "true_bad_predicted_bad": 999,
+        "true_bad_predicted_good": 0,
+        "true_good_predicted_bad": 0,
+        "true_good_predicted_good": 1001
+      },
+      "global_label_flip_diagnostic": {
+        "correct": 0,
+        "accuracy_percent": 0.0,
+        "note": "Post-hoc diagnostic using ground truth, not submitted accuracy."
+      },
+      "labels_file": "output/answers_steg_only_analysis_v2/labels_0.txt",
+      "labels_sha256": "061629039c894057fe3320c373b1c5c1cb9daf64ad7501ff51c2ba20322d3452",
+      "scheme_file": "output/answers_steg_only_analysis_v2/scheme_0.md",
+      "scheme_sha256": "16248fbcde0b1581e979655e835ce2d2082f9e8a0cf8cfd8c97f8072e26935e1",
+      "without_prior_accuracy_percent": 100.0,
+      "change_from_without_prior_percentage_points": 0.0
+    },
+    {
+      "k": 1,
+      "correct": 1129,
+      "total": 2000,
+      "accuracy": 0.5645,
+      "accuracy_percent": 56.45,
+      "predicted_good": 914,
+      "predicted_bad": 1086,
+      "true_good": 1001,
+      "true_bad": 999,
+      "confusion_matrix": {
+        "true_bad_predicted_bad": 607,
+        "true_bad_predicted_good": 392,
+        "true_good_predicted_bad": 479,
+        "true_good_predicted_good": 522
+      },
+      "global_label_flip_diagnostic": {
+        "correct": 871,
+        "accuracy_percent": 43.55,
+        "note": "Post-hoc diagnostic using ground truth, not submitted accuracy."
+      },
+      "labels_file": "output/answers_steg_only_analysis_v2/labels_1.txt",
+      "labels_sha256": "9c1faad697c8f0e8412425d8e8d02c555b52908c5f4fc43b9eb082b3fcd250a8",
+      "scheme_file": "output/answers_steg_only_analysis_v2/scheme_1.md",
+      "scheme_sha256": "b8560eb360c3b46646499abbaed2e4e11ec464c136007f4c5878ac624230b0de",
+      "without_prior_accuracy_percent": 45.95,
+      "change_from_without_prior_percentage_points": 10.5
+    },
+    {
+      "k": 2,
+      "correct": 133,
+      "total": 2000,
+      "accuracy": 0.0665,
+      "accuracy_percent": 6.65,
+      "predicted_good": 1086,
+      "predicted_bad": 914,
+      "true_good": 1001,
+      "true_bad": 999,
+      "confusion_matrix": {
+        "true_bad_predicted_bad": 23,
+        "true_bad_predicted_good": 976,
+        "true_good_predicted_bad": 891,
+        "true_good_predicted_good": 110
+      },
+      "global_label_flip_diagnostic": {
+        "correct": 1867,
+        "accuracy_percent": 93.35,
+        "note": "Post-hoc diagnostic using ground truth, not submitted accuracy."
+      },
+      "labels_file": "output/answers_steg_only_analysis_v2/labels_2.txt",
+      "labels_sha256": "28f3bdf95e1a27e9d65b7fd625f86780879d622988605c9fbf5a3277654a8372",
+      "scheme_file": "output/answers_steg_only_analysis_v2/scheme_2.md",
+      "scheme_sha256": "de87be0eee44d9cb90493464498e4b7e676dc591b2d524b2e65d90905ff5375a",
+      "without_prior_accuracy_percent": 8.65,
+      "change_from_without_prior_percentage_points": -2.0
+    },
+    {
+      "k": 4,
+      "correct": 767,
+      "total": 2000,
+      "accuracy": 0.3835,
+      "accuracy_percent": 38.35,
+      "predicted_good": 872,
+      "predicted_bad": 1128,
+      "true_good": 1001,
+      "true_bad": 999,
+      "confusion_matrix": {
+        "true_bad_predicted_bad": 447,
+        "true_bad_predicted_good": 552,
+        "true_good_predicted_bad": 681,
+        "true_good_predicted_good": 320
+      },
+      "global_label_flip_diagnostic": {
+        "correct": 1233,
+        "accuracy_percent": 61.65,
+        "note": "Post-hoc diagnostic using ground truth, not submitted accuracy."
+      },
+      "labels_file": "output/answers_steg_only_analysis_v2/labels_4.txt",
+      "labels_sha256": "aae94d5acbf346ff3d3953df3582a94c969e42f12b875633c466522990c3f3b3",
+      "scheme_file": "output/answers_steg_only_analysis_v2/scheme_4.md",
+      "scheme_sha256": "fda51cd27c12a9db2eb5f16c8923334c68dff26354771046eef6b5d8ba0a0f39",
+      "without_prior_accuracy_percent": 38.2,
+      "change_from_without_prior_percentage_points": 0.15
+    },
+    {
+      "k": 8,
+      "correct": 104,
+      "total": 2000,
+      "accuracy": 0.052,
+      "accuracy_percent": 5.2,
+      "predicted_good": 933,
+      "predicted_bad": 1067,
+      "true_good": 1001,
+      "true_bad": 999,
+      "confusion_matrix": {
+        "true_bad_predicted_bad": 85,
+        "true_bad_predicted_good": 914,
+        "true_good_predicted_bad": 982,
+        "true_good_predicted_good": 19
+      },
+      "global_label_flip_diagnostic": {
+        "correct": 1896,
+        "accuracy_percent": 94.8,
+        "note": "Post-hoc diagnostic using ground truth, not submitted accuracy."
+      },
+      "labels_file": "output/answers_steg_only_analysis_v2/labels_8.txt",
+      "labels_sha256": "f8a4d481c20e6bf424c703b349375d07fe36ad0cabb57b795bb5a91ee9aa0955",
+      "scheme_file": "output/answers_steg_only_analysis_v2/scheme_8.md",
+      "scheme_sha256": "f89165e44b01dc51585efeaedc4833df06fa068d9dd7956491d4de92d215633f",
+      "without_prior_accuracy_percent": 19.05,
+      "change_from_without_prior_percentage_points": -13.85
+    }
+  ]
+}
