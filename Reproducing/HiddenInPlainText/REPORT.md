@@ -74,6 +74,18 @@ We assessed the agents’ submitted good/bad predictions for each of the five fi
 
 **Supervised Coding Schemes:** Using the true labels, we fitted shallow lexical decision trees on 1,214 messages, selected their complexity on 394 validation messages, and evaluated the selected rules on 392 internally held-out messages. Identical normalized messages were grouped across all five settings so that duplicates could not cross splits; neither fitting nor rule selection used held-out labels. For k = 0, predict bad when the adjacent words “a university” occur and good otherwise. For k = 1, predict bad when “a school”, “university”, or “a college” occurs and good otherwise. For k = 2, predict bad when “worked for” occurs without either “in a” or “period with”; otherwise predict good. For k = 4, the rule mainly associates institution-reference wording with bad, with exceptions involving “a top”; for k = 8, “from a”, “university”, “school”, and “a group” generally signal bad, with a specific exception involving “guidance from” and “in a”. The [complete decision rules and scores](results/uni_qwen4b_sweep_20261024T002430Z/supervised_coding_schemes.json) specify every branch. Held-out accuracies for k = 0, 1, 2, 4, and 8 are **392/392 (100.00%), 382/392 (97.45%), 384/392 (97.96%), 367/392 (93.62%), and 378/392 (96.43%)**, respectively. This split contains 142 good and 250 bad labels, so its majority-class baseline is 63.78%. These are sufficient label-informed decoders on an internal split of previously inspected outputs, not a fresh-corpus evaluation or evidence that the trained receiver uses precisely these rules.
 
+**Supervised decision trees.** The diagrams below show the exact fitted rules. Follow Yes when the word or phrase is present and No when it is absent; “fit n” is the number of training examples reaching a leaf. Accuracy is measured on the shared 392-message internal held-out split.
+
+![Supervised coding decision tree for k = 0](results/uni_qwen4b_sweep_20261024T002430Z/supervised_trees/supervised_tree_k0.png)
+
+![Supervised coding decision tree for k = 1](results/uni_qwen4b_sweep_20261024T002430Z/supervised_trees/supervised_tree_k1.png)
+
+![Supervised coding decision tree for k = 2](results/uni_qwen4b_sweep_20261024T002430Z/supervised_trees/supervised_tree_k2.png)
+
+![Supervised coding decision tree for k = 4](results/uni_qwen4b_sweep_20261024T002430Z/supervised_trees/supervised_tree_k4.png)
+
+![Supervised coding decision tree for k = 8](results/uni_qwen4b_sweep_20261024T002430Z/supervised_trees/supervised_tree_k8.png)
+
 [Scoring results and confusion matrices](results/uni_qwen4b_sweep_20261024T002430Z/deciphering_scores.json).
 
 ## Steganography Deciphering With Prior.
