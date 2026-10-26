@@ -42,6 +42,10 @@ Observer uncertainty alone does not establish that the summaries contain no reco
 
 **Figure 2.** Dynamic-observer sweep with k = 0, 1, 2, 4, and 8 observer updates per cycle. Colors identify the same setting in all four panels. **Top left:** receiver classification accuracy. **Top right:** observer classification accuracy. **Bottom left:** PIQA rejection, the union of judge rejection and format failure. **Bottom right:** receiver PASS predictions. All five settings completed 200 cycles; evaluations use 2,000 university examples and 100 PIQA questions. The k = 0 observer is frozen.
 
+![Receiver and observer accuracy over training, shown separately for k = 0, 1, 2, 4, and 8](results/uni_qwen4b_sweep_20261024T002430Z/receiver_observer_by_k.png)
+
+**Figure 3.** Receiver and observer accuracy for each k, using the same colors as Figure 2. Solid lines show receiver accuracy; dashed lines show observer accuracy. All panels share the same axes and use 2,000 university examples per evaluation. The k = 0 observer is frozen.
+
 ## Steganography Detection.
 
 We evaluated the ten randomized datasets of 2,000 sender messages (before training and after 200 cycles for each k) with ten fresh Opus 5.5 Medium agents per dataset, for 100 independent agent runs.
