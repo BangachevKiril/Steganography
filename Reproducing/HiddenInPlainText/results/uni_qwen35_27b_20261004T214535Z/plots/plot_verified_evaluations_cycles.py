@@ -34,7 +34,7 @@ plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 11,
 fig, axes = plt.subplots(2, 2, figsize=(11.8, 8.8))
 xs = [r["completed_update"] / 7 for r in records]
 single = len(records) == 1
-fig.suptitle("Qwen university rerun · verified evaluations", fontsize=18, weight="semibold", y=0.97)
+fig.suptitle("Hidden Communication Under a Fixed Observer", fontsize=18, weight="semibold", y=0.97)
 subtitle = ("Evaluation 0 only · baseline points; no trend can be inferred" if single
             else f"{len(records)} completed evaluations · through cycle {max(xs):.1f}")
 if final_completion:
