@@ -1,0 +1,139 @@
+{
+  "metric": "Exact label accuracy of the submitted predictions in their original order; no relabeling or learned decoding.",
+  "ground_truth_encoding": "PASS=1=good; FAIL=0=bad",
+  "dataset": "Final cycle 200 university evaluation, 2000 identical row identities across all k.",
+  "alignment": "Source evaluation and marker hashes verified remotely; exported answer-byte hashes match evaluated datasets; row IDs exactly 0..1999.",
+  "majority_class_baseline_percent": 50.05,
+  "results": [
+    {
+      "k": 0,
+      "correct": 2000,
+      "total": 2000,
+      "accuracy": 1.0,
+      "accuracy_percent": 100.0,
+      "predicted_good": 1001,
+      "predicted_bad": 999,
+      "true_good": 1001,
+      "true_bad": 999,
+      "confusion_matrix": {
+        "true_bad_predicted_bad": 999,
+        "true_bad_predicted_good": 0,
+        "true_good_predicted_bad": 0,
+        "true_good_predicted_good": 1001
+      },
+      "global_label_flip_diagnostic": {
+        "correct": 0,
+        "accuracy_percent": 0.0,
+        "note": "Diagnostic only: flip every submitted good/bad label. This is not the submitted accuracy and uses ground truth to assess orientation."
+      },
+      "labels_file": "output/answers_steg_only_analysis/labels_0.txt",
+      "labels_sha256": "061629039c894057fe3320c373b1c5c1cb9daf64ad7501ff51c2ba20322d3452",
+      "scheme_file": "output/answers_steg_only_analysis/scheme_0.md",
+      "scheme_sha256": "7f2f0e2f1035ab124250d6b74c7a47d57a7568258b133548e1c0a3358955332c"
+    },
+    {
+      "k": 1,
+      "correct": 919,
+      "total": 2000,
+      "accuracy": 0.4595,
+      "accuracy_percent": 45.95,
+      "predicted_good": 350,
+      "predicted_bad": 1650,
+      "true_good": 1001,
+      "true_bad": 999,
+      "confusion_matrix": {
+        "true_bad_predicted_bad": 784,
+        "true_bad_predicted_good": 215,
+        "true_good_predicted_bad": 866,
+        "true_good_predicted_good": 135
+      },
+      "global_label_flip_diagnostic": {
+        "correct": 1081,
+        "accuracy_percent": 54.05,
+        "note": "Diagnostic only: flip every submitted good/bad label. This is not the submitted accuracy and uses ground truth to assess orientation."
+      },
+      "labels_file": "output/answers_steg_only_analysis/labels_1.txt",
+      "labels_sha256": "817448e2e407e56d4a8c33926012f42b70517e7eee958959cbb62e9716d32748",
+      "scheme_file": "output/answers_steg_only_analysis/scheme_1.md",
+      "scheme_sha256": "5a09fec44fbc7a9acd0e5e18d603fb86cca2929ad1cb98cfd6f6acd963a579dd"
+    },
+    {
+      "k": 2,
+      "correct": 173,
+      "total": 2000,
+      "accuracy": 0.0865,
+      "accuracy_percent": 8.65,
+      "predicted_good": 1014,
+      "predicted_bad": 986,
+      "true_good": 1001,
+      "true_bad": 999,
+      "confusion_matrix": {
+        "true_bad_predicted_bad": 79,
+        "true_bad_predicted_good": 920,
+        "true_good_predicted_bad": 907,
+        "true_good_predicted_good": 94
+      },
+      "global_label_flip_diagnostic": {
+        "correct": 1827,
+        "accuracy_percent": 91.35,
+        "note": "Diagnostic only: flip every submitted good/bad label. This is not the submitted accuracy and uses ground truth to assess orientation."
+      },
+      "labels_file": "output/answers_steg_only_analysis/labels_2.txt",
+      "labels_sha256": "5377f3fb9d402aa27b65aae6c0759b417a7ac833a02fafbe431600c7a99e9fe7",
+      "scheme_file": "output/answers_steg_only_analysis/scheme_2.md",
+      "scheme_sha256": "bde73cd8234283b59f6b19161620f32e0c786a95b9c49917570522fc5cce2150"
+    },
+    {
+      "k": 4,
+      "correct": 764,
+      "total": 2000,
+      "accuracy": 0.382,
+      "accuracy_percent": 38.2,
+      "predicted_good": 759,
+      "predicted_bad": 1241,
+      "true_good": 1001,
+      "true_bad": 999,
+      "confusion_matrix": {
+        "true_bad_predicted_bad": 502,
+        "true_bad_predicted_good": 497,
+        "true_good_predicted_bad": 739,
+        "true_good_predicted_good": 262
+      },
+      "global_label_flip_diagnostic": {
+        "correct": 1236,
+        "accuracy_percent": 61.8,
+        "note": "Diagnostic only: flip every submitted good/bad label. This is not the submitted accuracy and uses ground truth to assess orientation."
+      },
+      "labels_file": "output/answers_steg_only_analysis/labels_4.txt",
+      "labels_sha256": "b1ffbdf26f243f7dea080b0d4f8a34ae0c973e8f9bbd84535b83cf0527e7f7b3",
+      "scheme_file": "output/answers_steg_only_analysis/scheme_4.md",
+      "scheme_sha256": "b77bb82c774052c3aea7777b36b98db9c8c6a5e125a2f34e9c8821c80f4c4bfb"
+    },
+    {
+      "k": 8,
+      "correct": 381,
+      "total": 2000,
+      "accuracy": 0.1905,
+      "accuracy_percent": 19.05,
+      "predicted_good": 646,
+      "predicted_bad": 1354,
+      "true_good": 1001,
+      "true_bad": 999,
+      "confusion_matrix": {
+        "true_bad_predicted_bad": 367,
+        "true_bad_predicted_good": 632,
+        "true_good_predicted_bad": 987,
+        "true_good_predicted_good": 14
+      },
+      "global_label_flip_diagnostic": {
+        "correct": 1619,
+        "accuracy_percent": 80.95,
+        "note": "Diagnostic only: flip every submitted good/bad label. This is not the submitted accuracy and uses ground truth to assess orientation."
+      },
+      "labels_file": "output/answers_steg_only_analysis/labels_8.txt",
+      "labels_sha256": "3d123a22c2e6105ec97726fbcb3b83bce9e96fd1862416f6712c8e60bff28e8c",
+      "scheme_file": "output/answers_steg_only_analysis/scheme_8.md",
+      "scheme_sha256": "c30094733be507837340be170db82a10961a76c3f6b7b739058e89fce7f53545"
+    }
+  ]
+}
