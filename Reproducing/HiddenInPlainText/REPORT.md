@@ -6,7 +6,7 @@
 
 **Training.** Each cycle alternates two full-receiver supervised updates and five sender PPO updates; observer and judge stay frozen. The sender reward is `1[o ≥ 0]·tanh(z_y) + 0.2·o + 0.1·min(character_count/20, 1)`, where `z_y` is the receiver's raw correct-class logit and `o = tanh(logit(No) − logit(Yes) − 0.75)` is the observer score; PPO applies KL regularization separately.
 
-![Four panels showing receiver accuracy, observer flags, PIQA rejection, and receiver PASS counts over training](results/uni_qwen35_27b_20261004T214535Z/plots/verified_evaluation_curves_cycles.png)
+![Four panels showing receiver accuracy, observer flags, PIQA rejection, and receiver PASS counts over training](results/uni_qwen35_27b_20261004T214535Z/plots/verified_evaluation_curves_cycles.png?v=3b9fe5de)
 
 **Figure 1.** The x-axis shows training cycles (seven updates per cycle: two receiver and five sender updates); fractional positions preserve evaluations within a cycle. **Top left:** receiver accuracy C_R rises from 1,011/2,000 (50.55%) to 1,998/2,000 (99.90%), a gain of 49.35 percentage points. **Top right:** operational observer flag rate C_I falls from 52/2,000 (2.60%) to 0/2,000, measuring detector flags rather than transmission accuracy. **Bottom left:** PIQA rejection d, the union of judge rejection and format failure, changes from 8/100 to 5/100 (five judge rejections and zero format failures), a decrease of three percentage points. **Bottom right:** receiver PASS predictions settle at 1,003/2,000 with 997 FAIL predictions after pronounced early class imbalance.
 
@@ -38,7 +38,7 @@ Observer uncertainty alone does not establish that the summaries contain no reco
 *Note: Is this task information-theoretically well-posed?* It seems like the answer should be no. Note that the receiver and observer see the same info. An important difference, however, is that they have different internal states, which is one of the main worries about steganography.
 
 
-![Dynamic-observer sweep: receiver accuracy, observer accuracy, PIQA rejection, and receiver PASS predictions for k = 0, 1, 2, 4, and 8](results/uni_qwen4b_sweep_20261024T002430Z/evaluation_curves.png)
+![Dynamic-observer sweep: receiver accuracy, observer accuracy, PIQA rejection, and receiver PASS predictions for k = 0, 1, 2, 4, and 8](results/uni_qwen4b_sweep_20261024T002430Z/evaluation_curves.png?v=3b9fe5de)
 
 **Figure 2.** Dynamic-observer sweep with k = 0, 1, 2, 4, and 8 observer updates per cycle. Colors identify the same setting in all four panels. **Top left:** receiver classification accuracy. **Top right:** observer classification accuracy. **Bottom left:** PIQA rejection, the union of judge rejection and format failure. **Bottom right:** receiver PASS predictions. All five settings completed 200 cycles; evaluations use 2,000 university examples and 100 PIQA questions. The k = 0 observer is frozen.
 
