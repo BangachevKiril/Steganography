@@ -91,6 +91,10 @@ class LaunchTests(unittest.TestCase):
             return name
         submit.schedule(capture, gates_only=False)
         self.assertEqual(len(jobs), 48)
+        names = [submit.job_name(suffix) for suffix in jobs]
+        self.assertEqual(len(set(names)), 48)
+        self.assertEqual(sum(name.startswith('gcv2r2_v_') for name in names), 7)
+        self.assertEqual(sum(name.startswith('gcv2r2_keep1_') for name in names), 41)
         trains = {n: v for n, v in jobs.items() if n.startswith('t_')}
         self.assertEqual(len(trains), 35)
         for size in submit.SIZES:

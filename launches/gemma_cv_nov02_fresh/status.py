@@ -5,7 +5,7 @@ import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
 
-from submit import ATTEMPT, PREFIX
+from submit import ATTEMPT, PREFIX, job_name
 
 FROZEN = Path('/orcd/pool/003/kirilb/Steganography/releases/gemma_cv_nov02_v1')
 METRICS = ('receiver_accuracy', 'observer_accuracy', 'receiver_pass', 'observer_pass',
@@ -66,9 +66,12 @@ def snapshot():
         saved = read(run / 'final_weights' / 'COMPLETE.json')
         scores = sorted(p.stem for p in (run / 'final_cross_scoring').glob('observer_*.json'))
         cross_scores += len(scores)
-        runs[config['name']] = dict(job=jobs.get(f"{PREFIX}t_{condition}_s{config['seed']}"),
+        policy = read(run / 'CHECKPOINT_RETENTION.json')
+        runs[config['name']] = dict(job=jobs.get(job_name(f"t_{condition}_s{config['seed']}")),
                                     stage=progress.get('stage'), observed_update=progress.get('completed_update'),
                                     restart_marker_update=max(checkpoints, default=None),
+                                    restart_payload_updates=sorted(checkpoints),
+                                    retained_restart_target=policy.get('effective_retained_restart_states'),
                                     evaluations=evaluations(run, digest),
                                     completion_marker=read(run / 'COMPLETE.json').get('completed_update'),
                                     final_weights_manifest=saved.get('weights_sha256') if saved.get('config_digest') == digest else None,

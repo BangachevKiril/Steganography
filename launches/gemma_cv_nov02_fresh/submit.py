@@ -11,6 +11,11 @@ SIZES = ('0.8', '2', '4', '9', '27')
 PREFIX = 'gcv2r2_'
 
 
+def job_name(suffix):
+    # The seven original validation gates also gate the rolling-retention jobs.
+    return PREFIX + (suffix if suffix.startswith('v_') else 'keep1_' + suffix)
+
+
 def resources(gpu):
     return ['--partition=mit_normal_gpu,mit_preemptable', '--gres=gpu:' + gpu + ':1',
             '--cpus-per-task=8', '--mem=256G', '--time=06:00:00']
@@ -65,11 +70,13 @@ def main():
         fcntl.flock(lock, fcntl.LOCK_EX | fcntl.LOCK_NB)
         receipt = ATTEMPT / 'SUBMISSION.json'
         jobs = json.loads(receipt.read_text()) if receipt.exists() else {}
+        if any(not name.startswith((PREFIX + 'v_', PREFIX + 'keep1_')) for name in jobs):
+            raise RuntimeError('Reconcile the earlier submission receipt before queuing replacement jobs')
         logs = ATTEMPT / 'logs'
         logs.mkdir(exist_ok=True)
 
         def submit(suffix, options, script_args):
-            name = PREFIX + suffix
+            name = job_name(suffix)
             if name in jobs:
                 return jobs[name]
             queued = subprocess.check_output(['squeue', '-u', 'kirilb', '-n', name,

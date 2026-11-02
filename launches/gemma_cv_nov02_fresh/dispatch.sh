@@ -50,6 +50,6 @@ if [[ $1 == validate ]]; then
 fi
 run="$attempt/runs/$name"
 if [[ ! -f "$run/COMPLETE.json" ]]; then
-    run_with_requeue "$python" "$frozen/orcd/qwen_pair_run.py" --config "$EXPERIMENT_CONFIG" --run-dir "$run" --validation "$validation/VALIDATION.json"
+    run_with_requeue "$python" "$here/train_with_retention.py" --config "$EXPERIMENT_CONFIG" --run-dir "$run" --validation "$validation/VALIDATION.json"
 fi
 run_with_requeue "$python" "$here/finalize.py" "$run" "$EXPERIMENT_CONFIG"
