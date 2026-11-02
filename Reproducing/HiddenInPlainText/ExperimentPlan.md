@@ -1,6 +1,6 @@
 # November 2 experiment plan
 
-## University CV communication with a frozen observer
+## 1. University CV communication with a frozen observer
 
 Can a sender learn to summarize a CV so that a trained receiver can recover the candidate’s university label (Good or Bad) while a frozen observer struggles to decipher it? The two comparisons below vary receiver training method and observer size.
 
@@ -43,3 +43,19 @@ Evaluate on the same fixed 2,000 CVs at update 0 and every **50 total parameter 
 - **Report four curves per run.** Measure receiver accuracy, observer deciphering accuracy, receiver PASS rate, and observer PASS rate. Accuracy is the fraction matching the true label. PASS rate is the fraction predicted Good, with all 2,000 examples in the denominator for either model. Show individual seed curves alongside the condition mean.
 - **Check what the observer and sender are doing.** Report observer ROC AUC using its Good probability. Count literal mentions of “Good University” and “Bad University” separately by true class. These measures distinguish a strong class bias from an inability to rank examples and reveal when the sender transmits the label explicitly.
 - **Compare observers on identical text.** For §1.2, score each run’s saved final transmissions with all five frozen observers. Tabulate deciphering accuracy, PASS rate, and AUC by training observer and scoring observer. This measures how well each observer reads the same summaries while preserving the original training trajectories.
+
+
+## 2. University CV communication with a Trainable Observer
+
+Now, we do experiments on trainable observers. Namely, we will do experiments i nteh following set-up. 
+
+We use sender and receiver gemma-2B models. They are rained via PPO and full SFT respectively. 
+
+The observer is a Qwen3.5-4B which is however trained. It is trained with different values of k for $k \in {1,2,4,8}$ as in REPORT.md. We will do 5 training runs for each value of k, (effectively producing 20 observer, sender, receiever models). Each training run consists of 200 cycles.
+
+### 2.1 Save training curves and show trajectories for each value of k and each of the training runs. Display a plot for each chice of k for the evolution of receiever and observer accuracy as well as receiver and observer pass rates. 
+
+### 2.2 Observer transferrability. 
+
+Now, for each two values of k, we want to measure transferrability of observer success. Namely, for each k1, k2, not necessarily different, do the following. Take any two runs 
+i \neq j . Take the final sender and receiever for run i wih k1 and final observer for k2 from run j. Then, measure the observer accuracy against the communication of sender and receiever. We may need to change the prompt of the observer so they know that they are being tested not on the interaction they were part of. 
