@@ -1,4 +1,5 @@
 """Regression coverage for storage isolation, validated export, and retry safety."""
+import csv
 import json
 import os
 import signal
@@ -7,15 +8,43 @@ import sys
 import tempfile
 import time
 import unittest
+from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from unittest.mock import patch
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import finalize
+import results
 import submit
 
 
 class LaunchTests(unittest.TestCase):
+    def test_five_cross_score_columns(self):
+        with tempfile.TemporaryDirectory() as base, patch.object(results, 'ATTEMPT', Path(base)):
+            records = [dict(training_observer=size, seed=seed, source_sha256='sample',
+                            observer_accuracy=(seed-42)/4, observer_pass=.65, observer_auc=.75)
+                       for size in submit.SIZES for seed in range(42, 47)]
+            folder = Path(base) / 'gemma_cv_nov02_results/cross_scores'
+            results.publish_cross_scores('0.8', records)
+            table = folder / 'condition_means.csv'
+            self.assertFalse(table.exists())
+            with ThreadPoolExecutor(max_workers=4) as workers:
+                list(workers.map(lambda size: results.publish_cross_scores(size, records),
+                                 submit.SIZES[1:]))
+            with table.open() as stream:
+                rows = list(csv.DictReader(stream))
+            self.assertEqual(len(rows), 25)
+            for r in rows:
+                self.assertEqual(r['seeds'], '5')
+                self.assertEqual(float(r['mean_observer_accuracy']), .5)
+            saved = json.loads((folder / 'observer_27.json').read_text())
+            self.assertEqual(saved['per_seed'], records)
+            before = table.read_bytes()
+            results.publish_cross_scores('27', records)
+            self.assertEqual(before, table.read_bytes())
+            with self.assertRaises(ValueError):
+                results.publish_cross_scores('2', records[:-1])
+
     def test_batch_signal_preserves_job_id_and_child_failure(self):
         dispatch = Path(__file__).with_name('dispatch.sh').resolve()
         with tempfile.TemporaryDirectory() as base:

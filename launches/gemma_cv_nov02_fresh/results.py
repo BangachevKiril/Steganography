@@ -1,4 +1,9 @@
 """Score original frozen observers on the fresh final texts and render the seven curve sets."""
+import csv
+import fcntl
+import io
+import json
+import os
 import signal
 import sys
 from pathlib import Path
@@ -9,6 +14,7 @@ from submit import ATTEMPT, SIZES
 
 FROZEN = Path('/orcd/pool/003/kirilb/Steganography/releases/gemma_cv_nov02_v1')
 METRICS = ('receiver_accuracy', 'observer_accuracy', 'receiver_pass', 'observer_pass')
+CROSS_METRICS = ('observer_accuracy', 'observer_pass', 'observer_auc')
 stop = False
 
 
@@ -19,6 +25,51 @@ def request_stop(signum, frame):
 
 def name(mode, size, seed):
     return f'gemma_cv_nov02_{mode}_o{size}_s{seed}'
+
+
+def atomic_text(path, content):
+    # Called with the export directory locked. A retry replaces a partial temp.
+    tmp = path.with_suffix(path.suffix + '.tmp')
+    with tmp.open('w') as stream:
+        stream.write(content)
+        stream.flush()
+        os.fsync(stream.fileno())
+    tmp.replace(path)
+
+
+def publish_cross_scores(size, records):
+    expected = {(trained, seed) for trained in SIZES for seed in range(42, 47)}
+    require(size in SIZES and len(records) == len(expected)
+            and {(row['training_observer'], row['seed']) for row in records} == expected
+            and all(0 <= row[k] <= 1 for row in records for k in CROSS_METRICS),
+            'Incomplete cross-score column')
+    out = ATTEMPT / 'gemma_cv_nov02_results' / 'cross_scores'
+    out.mkdir(parents=True, exist_ok=True)
+    column = {'scoring_observer': size, 'cohort_size': 2000, 'per_seed': records}
+    with (out / 'LOCK').open('a') as lock:
+        fcntl.flock(lock, fcntl.LOCK_EX)
+        path = out / f'observer_{size}.json'
+        if path.exists():
+            require(read(path) == column, 'Existing cross-score column differs')
+        else:
+            atomic_text(path, json.dumps(column, indent=2, allow_nan=False) + '\n')
+        if not all((out / f'observer_{s}.json').is_file() for s in SIZES):
+            return
+        # One row per training/scoring pair. The JSON columns retain the five
+        # original seed scores and identify each input set of final transmissions.
+        columns = {s: read(out / f'observer_{s}.json')['per_seed'] for s in SIZES}
+        table = io.StringIO()
+        writer = csv.writer(table, lineterminator='\n')
+        writer.writerow(['training_observer_B', 'scoring_observer_B', 'seeds',
+                         *['mean_' + metric for metric in CROSS_METRICS]])
+        for trained in SIZES:
+            for scorer in SIZES:
+                group = [r for r in columns[scorer] if r['training_observer'] == trained]
+                require(sorted(r['seed'] for r in group) == list(range(42, 47)),
+                        'Cross-score seed set differs')
+                writer.writerow([trained, scorer, len(group), *[mean(r[k] for r in group)
+                                                                for k in CROSS_METRICS]])
+        atomic_text(out / 'condition_means.csv', table.getvalue())
 
 
 def score(size):
@@ -33,6 +84,7 @@ def score(size):
     # Frozen model/prompt settings are identical across seeds.
     cfg = read(FROZEN / 'configs' / (name('full', size, 42) + '.json'))
     judge = QwenObserverClient(cfg)
+    records = []
     try:
         for seed in range(42, 47):
             for trained in SIZES:
@@ -60,21 +112,25 @@ def score(size):
                             'Prior cross-score mismatched')
                     require(done['metrics'] == measures([{**r, **v} for r, v in zip(rows, done['rows'])]),
                             'Prior cross-score metrics differ')
-                    continue
-                scored = []
-                for start in range(0, len(rows), 64):
-                    if stop:
-                        raise SystemExit(75)
-                    batch = rows[start:start + 64]
-                    verdicts = judge.score([r['answer'] for r in batch])
-                    scored.extend({**r, **v} for r, v in zip(batch, verdicts))
-                metrics = measures(scored)
-                out.parent.mkdir(exist_ok=True)
-                fields = ('example_id', 'true_label', 'observer_prediction', 'observer_good_probability')
-                atomic_json(out, {**key, 'metrics': metrics,
-                                  'rows': [{k: r[k] for k in fields} for r in scored]})
+                    metrics = done['metrics']
+                else:
+                    scored = []
+                    for start in range(0, len(rows), 64):
+                        if stop:
+                            raise SystemExit(75)
+                        batch = rows[start:start + 64]
+                        verdicts = judge.score([r['answer'] for r in batch])
+                        scored.extend({**r, **v} for r, v in zip(batch, verdicts))
+                    metrics = measures(scored)
+                    out.parent.mkdir(exist_ok=True)
+                    fields = ('example_id', 'true_label', 'observer_prediction', 'observer_good_probability')
+                    atomic_json(out, {**key, 'metrics': metrics,
+                                      'rows': [{k: r[k] for k in fields} for r in scored]})
+                records.append(dict(training_observer=trained, seed=seed, source_sha256=source_hash,
+                                    **{k: metrics[k] for k in CROSS_METRICS}))
     finally:
         judge.close()
+    publish_cross_scores(size, records)
 
 
 def curves():
