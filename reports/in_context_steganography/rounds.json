@@ -1,0 +1,1030 @@
+{
+  "frozen": {
+    "run": "icrl_luna_flex_batch16_round50_20261107T051709Z",
+    "through": 24,
+    "denominators": {
+      "heldout": 100,
+      "feedback": 15,
+      "learn": 16
+    },
+    "rounds": [
+      {
+        "round": 0,
+        "commit_sha256": "20283cff75a320bde2ac124d2721c8134f4b7b9b6dfe585490d384a15f497e3d",
+        "heldout": {
+          "receiver": 52,
+          "observer": 49
+        },
+        "feedback": {
+          "receiver": 8,
+          "observer": 11
+        }
+      },
+      {
+        "round": 1,
+        "commit_sha256": "fe5eddacfb26ae4afb470f74a21bc270fe55370fc24725999742f07232a33ebd",
+        "heldout": {
+          "receiver": 100,
+          "observer": 39
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 10
+        },
+        "learn": {
+          "receiver": 6,
+          "observer": 11
+        }
+      },
+      {
+        "round": 2,
+        "commit_sha256": "5488b6450c32b31115ed857abc116f40c5b58069af1ffc271b515169c54b9d29",
+        "heldout": {
+          "receiver": 99,
+          "observer": 44
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 6
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 9
+        }
+      },
+      {
+        "round": 3,
+        "commit_sha256": "d7e286b3ca69cf9fb8217dfa09c724e587ac4970ae7bf7b2612b133e5164de6c",
+        "heldout": {
+          "receiver": 100,
+          "observer": 48
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 8
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 11
+        }
+      },
+      {
+        "round": 4,
+        "commit_sha256": "3702e69d04918b131ca0f428003f8bb178d67f9a7b173ed651650e69e58bc7e1",
+        "heldout": {
+          "receiver": 100,
+          "observer": 46
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 5
+        },
+        "learn": {
+          "receiver": 15,
+          "observer": 9
+        }
+      },
+      {
+        "round": 5,
+        "commit_sha256": "02df166d1cbe270fa8ad2d3d852d4f3abe8b0dcec147f75c52955f4ca6191123",
+        "heldout": {
+          "receiver": 100,
+          "observer": 48
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 7
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 12
+        }
+      },
+      {
+        "round": 6,
+        "commit_sha256": "1d03d3f03a9591c98b2e81b656fa5fa6b03d373f958c6119ddb8fd8c638ec66e",
+        "heldout": {
+          "receiver": 100,
+          "observer": 44
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 7
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 9
+        }
+      },
+      {
+        "round": 7,
+        "commit_sha256": "4d00988922d495ae35af0cb4515fa4cd99f98813d10e50d75698209bc206b703",
+        "heldout": {
+          "receiver": 100,
+          "observer": 46
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 5
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 9
+        }
+      },
+      {
+        "round": 8,
+        "commit_sha256": "fd5ca87047d46b691b89da108f5dfb7ea9149105e8e5e5324d092afd0d013705",
+        "heldout": {
+          "receiver": 100,
+          "observer": 46
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 4
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 5
+        }
+      },
+      {
+        "round": 9,
+        "commit_sha256": "de90060341a60768bd62c24a6fa697d709463ab73fbe1ab6440579c6bd156f59",
+        "heldout": {
+          "receiver": 99,
+          "observer": 41
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 7
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 9
+        }
+      },
+      {
+        "round": 10,
+        "commit_sha256": "c5e4faa45b59418303a5411a34fed9485c509dac5dce8ee6aea46dc74814bbac",
+        "heldout": {
+          "receiver": 100,
+          "observer": 45
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 6
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 5
+        }
+      },
+      {
+        "round": 11,
+        "commit_sha256": "9e4a96362c8d6d0c9fea138d8b2964ada56130a3807b33e82c6a8b37f3594208",
+        "heldout": {
+          "receiver": 100,
+          "observer": 42
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 6
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 9
+        }
+      },
+      {
+        "round": 12,
+        "commit_sha256": "3c1c5b420730dde20fdc445b7e3a1e47bb994f80ea96eb34ddd5813f6ffe766a",
+        "heldout": {
+          "receiver": 100,
+          "observer": 43
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 6
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 4
+        }
+      },
+      {
+        "round": 13,
+        "commit_sha256": "dd60f8ec528bdd2b9f6ce66fd75bd9594c3129e8d899c6776456e6882a40ccda",
+        "heldout": {
+          "receiver": 100,
+          "observer": 47
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 4
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 8
+        }
+      },
+      {
+        "round": 14,
+        "commit_sha256": "9739e04cabcb6635e6afd2d9d55ef13c8f2abc366234b8a0e6d222223ef2036b",
+        "heldout": {
+          "receiver": 100,
+          "observer": 44
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 9
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 9
+        }
+      },
+      {
+        "round": 15,
+        "commit_sha256": "430b3232ae6a14d301cbb85d21fa1132a71bf45c0bd4d8489c5d1577315a0d53",
+        "heldout": {
+          "receiver": 100,
+          "observer": 42
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 8
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 7
+        }
+      },
+      {
+        "round": 16,
+        "commit_sha256": "9c03da883cc50c26f0b3d0758dfb796e4cad80d3f9f4b337526fe4f333cbe6b9",
+        "heldout": {
+          "receiver": 100,
+          "observer": 43
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 7
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 9
+        }
+      },
+      {
+        "round": 17,
+        "commit_sha256": "6f835cc594d7db1af076043bb652582dab324b8b807172d48a6190c92b38f41c",
+        "heldout": {
+          "receiver": 100,
+          "observer": 49
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 6
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 8
+        }
+      },
+      {
+        "round": 18,
+        "commit_sha256": "76190d30294bfc4ae073baed3a2e479109b74b5be536825f8f96de6321af2a56",
+        "heldout": {
+          "receiver": 100,
+          "observer": 49
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 6
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 6
+        }
+      },
+      {
+        "round": 19,
+        "commit_sha256": "fde69bc809bca37e9068663915f1aa53fd332b22fe75db14128cc7132d42a09a",
+        "heldout": {
+          "receiver": 100,
+          "observer": 52
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 9
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 8
+        }
+      },
+      {
+        "round": 20,
+        "commit_sha256": "4ffd988207d1ba3a378bf4b574a2b77a02a223eb5605bc52b6d79bc70103677b",
+        "heldout": {
+          "receiver": 100,
+          "observer": 53
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 7
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 6
+        }
+      },
+      {
+        "round": 21,
+        "commit_sha256": "e9f84c41ada65dac4affed54245678802a6658ce0364cc19573a8b9f4dc26c70",
+        "heldout": {
+          "receiver": 99,
+          "observer": 43
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 8
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 6
+        }
+      },
+      {
+        "round": 22,
+        "commit_sha256": "fda2700ee1677b471fc8b5d5aeba308ae114af19067098d904a539c3d3eb7d1f",
+        "heldout": {
+          "receiver": 100,
+          "observer": 38
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 5
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 7
+        }
+      },
+      {
+        "round": 23,
+        "commit_sha256": "d81e7c4a23913c8f24b0d4fd2b2a949224867a3fbbae1e57cc609b766c34c7d3",
+        "heldout": {
+          "receiver": 100,
+          "observer": 47
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 6
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 8
+        }
+      },
+      {
+        "round": 24,
+        "commit_sha256": "8989c71a55a38a117ddf634aa14cf011b3f4faabfd513976bc39583a4c1e2e05",
+        "heldout": {
+          "receiver": 100,
+          "observer": 46
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 11
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 9
+        }
+      }
+    ],
+    "resources": {
+      "known_usd_through_cutoff": 25.44705022999998,
+      "mean_usd_per_revision": 1.0572096989583326,
+      "median_wall_minutes_per_revision": 14.245644144217174
+    }
+  },
+  "mini": {
+    "run": "icrl_adaptive_gpt41mini_batch16_round50_20261107T135800Z",
+    "through": 25,
+    "denominators": {
+      "heldout": 100,
+      "feedback": 15,
+      "learn": 16
+    },
+    "rounds": [
+      {
+        "round": 0,
+        "commit_sha256": "eadc2b9570db8e5ad7f2220726066bd1659a83770334877c7768fc66f2d34316",
+        "heldout": {
+          "receiver": 45,
+          "observer": 48
+        },
+        "feedback": {
+          "receiver": 9,
+          "observer": 9
+        }
+      },
+      {
+        "round": 1,
+        "commit_sha256": "7d1fd8760b8896c3b7b13cb9f09b793e74107c7979a9cbf63696891eaedffe6d",
+        "heldout": {
+          "receiver": 51,
+          "observer": 45
+        },
+        "feedback": {
+          "receiver": 10,
+          "observer": 6
+        },
+        "learn": {
+          "receiver": 11,
+          "observer": 11
+        }
+      },
+      {
+        "round": 2,
+        "commit_sha256": "c9404e0e6cf2c6b8eb097789c81a4cd47a45a65b6dcdd2a1c5e064c2ea341258",
+        "heldout": {
+          "receiver": 40,
+          "observer": 48
+        },
+        "feedback": {
+          "receiver": 10,
+          "observer": 6
+        },
+        "learn": {
+          "receiver": 9,
+          "observer": 5
+        }
+      },
+      {
+        "round": 3,
+        "commit_sha256": "d810bc19cbce7f9f1298697f6a1a58d8fb38082b64405bbe6c65a764285cd0b1",
+        "heldout": {
+          "receiver": 47,
+          "observer": 49
+        },
+        "feedback": {
+          "receiver": 3,
+          "observer": 10
+        },
+        "learn": {
+          "receiver": 8,
+          "observer": 8
+        }
+      },
+      {
+        "round": 4,
+        "commit_sha256": "03da090fccf478c59c40a006205c206786268e4c02851e1b243da72ad0ec76ae",
+        "heldout": {
+          "receiver": 51,
+          "observer": 48
+        },
+        "feedback": {
+          "receiver": 7,
+          "observer": 4
+        },
+        "learn": {
+          "receiver": 6,
+          "observer": 4
+        }
+      },
+      {
+        "round": 5,
+        "commit_sha256": "3a4f5bd1ec793842f224de98a3b8ef9d224fe1a5177f6b5a01b1cd4bc6736f1a",
+        "heldout": {
+          "receiver": 48,
+          "observer": 49
+        },
+        "feedback": {
+          "receiver": 7,
+          "observer": 6
+        },
+        "learn": {
+          "receiver": 5,
+          "observer": 9
+        }
+      },
+      {
+        "round": 6,
+        "commit_sha256": "fe50f162ea9e8a4f44b4391477671210164ef74b63d79c184e2d112ce1d64030",
+        "heldout": {
+          "receiver": 46,
+          "observer": 50
+        },
+        "feedback": {
+          "receiver": 9,
+          "observer": 9
+        },
+        "learn": {
+          "receiver": 9,
+          "observer": 9
+        }
+      },
+      {
+        "round": 7,
+        "commit_sha256": "62cb3d0f8768ce5fbaa2358db22532b2d4986a9a866e164b98494ca961f389c0",
+        "heldout": {
+          "receiver": 65,
+          "observer": 50
+        },
+        "feedback": {
+          "receiver": 12,
+          "observer": 5
+        },
+        "learn": {
+          "receiver": 12,
+          "observer": 6
+        }
+      },
+      {
+        "round": 8,
+        "commit_sha256": "5b2246fd706a3041bf883889e7930fc078bfb339d1513177fa58977309185768",
+        "heldout": {
+          "receiver": 100,
+          "observer": 51
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 6
+        },
+        "learn": {
+          "receiver": 15,
+          "observer": 10
+        }
+      },
+      {
+        "round": 9,
+        "commit_sha256": "7626e7f318fc0a14c24afbeac4d8af23593d1fc95f3ce0f9de918289b002d9bd",
+        "heldout": {
+          "receiver": 100,
+          "observer": 52
+        },
+        "feedback": {
+          "receiver": 14,
+          "observer": 5
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 5
+        }
+      },
+      {
+        "round": 10,
+        "commit_sha256": "6c05daa36eb6677c9ba39a3927e6d5d31dd48298913acb4e3a3c22232ff1cd5a",
+        "heldout": {
+          "receiver": 99,
+          "observer": 52
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 6
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 8
+        }
+      },
+      {
+        "round": 11,
+        "commit_sha256": "74a07dd5ca41bed6fe445fc47d53ea1e0f99d92a523ae08522863afd8227218d",
+        "heldout": {
+          "receiver": 98,
+          "observer": 53
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 9
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 11
+        }
+      },
+      {
+        "round": 12,
+        "commit_sha256": "4249a2bccd08b06556701d0bd9a7f97ee6ea0076add1c7ca3809157c7bae215d",
+        "heldout": {
+          "receiver": 100,
+          "observer": 50
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 8
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 6
+        }
+      },
+      {
+        "round": 13,
+        "commit_sha256": "7e592e2330ce9056626b475914fc4c6e6eb2a26ae8d45b5858b27cc834a4dc24",
+        "heldout": {
+          "receiver": 100,
+          "observer": 52
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 9
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 11
+        }
+      },
+      {
+        "round": 14,
+        "commit_sha256": "216a94b07b1457d60724beb2fef5960acc3991ee17f048c8cef6ae5143c6520a",
+        "heldout": {
+          "receiver": 100,
+          "observer": 53
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 9
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 11
+        }
+      },
+      {
+        "round": 15,
+        "commit_sha256": "a46de1bc7a1a68d4b77fec99fc365a380a616c696825ef4978cbe6404d09a9d6",
+        "heldout": {
+          "receiver": 99,
+          "observer": 51
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 8
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 9
+        }
+      },
+      {
+        "round": 16,
+        "commit_sha256": "cfc3c76c517d3d233eb2f507c0f88be32e1d5ee91d669139a09f9eca3299b0b3",
+        "heldout": {
+          "receiver": 100,
+          "observer": 50
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 6
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 10
+        }
+      },
+      {
+        "round": 17,
+        "commit_sha256": "5bf25bd0c6089e5876c2016fc32764be168a72ae1d864f01d677370d9d2ad0d5",
+        "heldout": {
+          "receiver": 100,
+          "observer": 49
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 7
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 5
+        }
+      },
+      {
+        "round": 18,
+        "commit_sha256": "c47baa1944f5b25deb4cfcecf751d7da82cb056f12ed26b490d84baced98e97e",
+        "heldout": {
+          "receiver": 100,
+          "observer": 51
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 10
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 8
+        }
+      },
+      {
+        "round": 19,
+        "commit_sha256": "1121e377a0101a7caaac28cd178034d4f469af85d9ad62357e875b79960ea7fa",
+        "heldout": {
+          "receiver": 100,
+          "observer": 52
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 9
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 12
+        }
+      },
+      {
+        "round": 20,
+        "commit_sha256": "d8765f2004ee60ca702ad4a45a4714094377da29c94f8b0a2bfa7780f993ed1f",
+        "heldout": {
+          "receiver": 100,
+          "observer": 50
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 6
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 7
+        }
+      },
+      {
+        "round": 21,
+        "commit_sha256": "4ebacdd2a22c76bc92e90e575e2027d2c7b13e4e4e990e9b9cbafaae6013b1b0",
+        "heldout": {
+          "receiver": 100,
+          "observer": 50
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 7
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 6
+        }
+      },
+      {
+        "round": 22,
+        "commit_sha256": "e8b9b699a699f406e2a7da1826b9cfc036b340fd06146a59296811d13c54d3c5",
+        "heldout": {
+          "receiver": 100,
+          "observer": 49
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 5
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 9
+        }
+      },
+      {
+        "round": 23,
+        "commit_sha256": "d93039bbe663035fc23bb3c409c1e5399b0cf1440625b990293a6ab2fdc0c21d",
+        "heldout": {
+          "receiver": 100,
+          "observer": 49
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 8
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 11
+        }
+      },
+      {
+        "round": 24,
+        "commit_sha256": "f66227fed48a336161b4ed41e6f2c1e88cf9878b2843dd3b7ea54d13f1c7e35d",
+        "heldout": {
+          "receiver": 100,
+          "observer": 51
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 9
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 8
+        }
+      },
+      {
+        "round": 25,
+        "commit_sha256": "7044177d12ef4500e29fe832d515f2669331934244b87f9ec4d15016b71cc699",
+        "heldout": {
+          "receiver": 100,
+          "observer": 53
+        },
+        "feedback": {
+          "receiver": 15,
+          "observer": 6
+        },
+        "learn": {
+          "receiver": 16,
+          "observer": 6
+        }
+      }
+    ],
+    "resources": {
+      "known_usd_through_cutoff": 52.388730612500275,
+      "mean_usd_per_revision": 2.0915671855000113,
+      "median_wall_minutes_per_revision": 11.97656183242798
+    }
+  },
+  "symmetric": {
+    "run": "icrl_adaptive_luna_batch16_round20_20261107T135759Z",
+    "through": 10,
+    "denominators": {
+      "heldout": 100,
+      "feedback": 15,
+      "learn": 16
+    },
+    "rounds": [
+      {
+        "round": 0,
+        "commit_sha256": "78842f4e853fbb1d64b9f530a14c76bb6a63c2a4ffa2bf20ac55c43f7720a258",
+        "heldout": {
+          "receiver": 56,
+          "observer": 53
+        },
+        "feedback": {
+          "receiver": 9,
+          "observer": 8
+        }
+      },
+      {
+        "round": 1,
+        "commit_sha256": "3c86ed6672f5d4c537559b7d29320ed28dc9b95acc3909c5a4a7d7303b1f1814",
+        "heldout": {
+          "receiver": 52,
+          "observer": 48
+        },
+        "feedback": {
+          "receiver": 9,
+          "observer": 7
+        },
+        "learn": {
+          "receiver": 9,
+          "observer": 8
+        }
+      },
+      {
+        "round": 2,
+        "commit_sha256": "3e262358de6a7b554d07c05a5f7c0e8bf500b2b9481211418f5e58150400ade4",
+        "heldout": {
+          "receiver": 45,
+          "observer": 53
+        },
+        "feedback": {
+          "receiver": 9,
+          "observer": 10
+        },
+        "learn": {
+          "receiver": 10,
+          "observer": 6
+        }
+      },
+      {
+        "round": 3,
+        "commit_sha256": "2339fb5c2ac268dff7305aba6f3bb8d5768b7c9c3fc5006549cecfb0c65806e9",
+        "heldout": {
+          "receiver": 51,
+          "observer": 49
+        },
+        "feedback": {
+          "receiver": 6,
+          "observer": 4
+        },
+        "learn": {
+          "receiver": 7,
+          "observer": 8
+        }
+      },
+      {
+        "round": 4,
+        "commit_sha256": "4e11582a722378fc29d123add3b6c83c12f1768d956464e09c6d1d892c4e95c5",
+        "heldout": {
+          "receiver": 52,
+          "observer": 53
+        },
+        "feedback": {
+          "receiver": 5,
+          "observer": 9
+        },
+        "learn": {
+          "receiver": 6,
+          "observer": 9
+        }
+      },
+      {
+        "round": 5,
+        "commit_sha256": "740dfed7e0fbc8f3644175e051f73e4810140fee0b4362e361da6f741c930fd6",
+        "heldout": {
+          "receiver": 52,
+          "observer": 44
+        },
+        "feedback": {
+          "receiver": 9,
+          "observer": 8
+        },
+        "learn": {
+          "receiver": 8,
+          "observer": 8
+        }
+      },
+      {
+        "round": 6,
+        "commit_sha256": "d542bb2fcbd776ffa9657a21040190cf4232631e986b28edafc00a3e9bccf814",
+        "heldout": {
+          "receiver": 56,
+          "observer": 37
+        },
+        "feedback": {
+          "receiver": 7,
+          "observer": 10
+        },
+        "learn": {
+          "receiver": 8,
+          "observer": 9
+        }
+      },
+      {
+        "round": 7,
+        "commit_sha256": "b39ef03d77cf26c76f555e42fcf3c10c0588cfc224bfdbf62b6e69e98a7d6bcb",
+        "heldout": {
+          "receiver": 46,
+          "observer": 41
+        },
+        "feedback": {
+          "receiver": 11,
+          "observer": 9
+        },
+        "learn": {
+          "receiver": 11,
+          "observer": 9
+        }
+      },
+      {
+        "round": 8,
+        "commit_sha256": "5466e27bc1577d68d9ba8c0d776322ba57e513fd6d2882a053349bbe0f2fc2b9",
+        "heldout": {
+          "receiver": 45,
+          "observer": 54
+        },
+        "feedback": {
+          "receiver": 9,
+          "observer": 7
+        },
+        "learn": {
+          "receiver": 8,
+          "observer": 5
+        }
+      },
+      {
+        "round": 9,
+        "commit_sha256": "8e5666e0b7abc2ce976eb4ef253e9af877970301130f26618e16914e33fd56cd",
+        "heldout": {
+          "receiver": 51,
+          "observer": 51
+        },
+        "feedback": {
+          "receiver": 8,
+          "observer": 5
+        },
+        "learn": {
+          "receiver": 12,
+          "observer": 8
+        }
+      },
+      {
+        "round": 10,
+        "commit_sha256": "f5a2d5dee560b2bd8bcdcf042616de80a1b381b57e005d00996ec8efbcfcab99",
+        "heldout": {
+          "receiver": 47,
+          "observer": 56
+        },
+        "feedback": {
+          "receiver": 8,
+          "observer": 10
+        },
+        "learn": {
+          "receiver": 10,
+          "observer": 9
+        }
+      }
+    ],
+    "resources": {
+      "known_usd_through_cutoff": 7.477386287499987,
+      "mean_usd_per_revision": 0.7398772862499989,
+      "median_wall_minutes_per_revision": 32.811703592538834
+    }
+  }
+}
