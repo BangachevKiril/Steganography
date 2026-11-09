@@ -15,8 +15,8 @@ ROOT = DIR.parents[1]
 
 RUNS = {
     "frozen": ("icrl_luna_flex_batch16_round50_20261107T051709Z", 24),
-    "mini": ("icrl_adaptive_gpt41mini_batch16_round50_20261107T135800Z", 25),
-    "symmetric": ("icrl_adaptive_luna_batch16_round20_20261107T135759Z", 10),
+    "mini": ("icrl_adaptive_gpt41mini_batch16_round50_20261107T135800Z", 50),
+    "symmetric": ("icrl_adaptive_luna_batch16_round20_20261107T135759Z", 20),
 }
 
 
@@ -38,7 +38,8 @@ def resources(run, end, mini):
     # Use only receipts in the reported rounds and price with the experiment's own rate card.
     with sqlite3.connect(":memory:", uri=True) as db:
         db.execute("ATTACH DATABASE ? AS ledger", (f"file:{run}/private/openai_calls.sqlite3?mode=ro",))
-        db.execute("CREATE TEMP TABLE calls AS SELECT * FROM ledger.calls WHERE round_idx BETWEEN 0 AND ?", (end,))
+        db.execute("""CREATE TEMP TABLE calls AS SELECT * FROM ledger.calls
+                      WHERE round_idx BETWEEN 0 AND ? AND id NOT LIKE '%.benchmark.%'""", (end,))
         db.execute("CREATE TEMP TABLE attempts AS SELECT a.* FROM ledger.attempts a JOIN calls c USING(id)")
         db.execute("CREATE INDEX temp.attempt_ids ON attempts(id,attempt)")
         rounds = db.execute("""
@@ -88,8 +89,30 @@ def collect(name, run_name, end):
             row["learn"] = counts(learn)
         rounds.append(row)
     mini = "gpt-4.1-mini-2025-04-14" if name == "mini" else None
-    return {"run": run_name, "through": end, "denominators":{"heldout":100,"feedback":15,"learn":16},
-            "rounds": rounds, "resources": resources(run, end, mini)}
+    series = {"run": run_name, "through": end, "denominators":{"heldout":100,"feedback":15,"learn":16},
+              "rounds": rounds, "resources": resources(run, end, mini)}
+    if name != "frozen":
+        audit_file = run / "validation/FINAL_AUDIT.json"
+        audit = read(audit_file)
+        complete = read(run / "COMPLETE.json")
+        training = read(run / "TRAINING_COMPLETE.json")
+        benchmark = read(run / "BENCHMARK_RESULTS.json")
+        selected = benchmark["selected_round"]
+        assert audit["final"] and audit["run_id"] == run_name and audit["through_round"] == end
+        assert audit["commits_verified"] == end + 1 and audit["training_selected_round"] == selected
+        assert complete["outcome"] == {**training, "benchmark": benchmark}
+        assert training["commit_sha256"] == [row["commit_sha256"] for row in rounds]
+        assert training["training_selected_best"]["round"] == selected
+        assert complete["launch_sha256"] == sha(run / "LAUNCH.json")
+        assert complete["usage_sha256"] == sha(run / "USAGE.json")
+        assert benchmark["unique_count"] == audit["verified_cases"]["benchmark"] == 1649
+        assert benchmark["original_row_count"] == 2000 and benchmark["duplicates_reuse_predictions"]
+        series["benchmark"] = {"selected_round": selected, "final_audit_sha256": sha(audit_file)}
+        for split, key in (("unique","unique_metrics"), ("rows","original_row_metrics_descriptive")):
+            metrics = benchmark[key]
+            series["benchmark"][split] = {"n":metrics["n"], **{role:metrics[role]["correct"] for role in ("receiver","observer")}}
+        series["resources"]["known_full_run_usd"] = audit["usage_at_audit"]["estimated_usd_completed_responses"]
+    return series
 
 
 def render(name, series):
@@ -101,8 +124,10 @@ def render(name, series):
 
     plt.rcParams.update({"font.family":"DejaVu Sans", "font.size":10, "axes.spines.top":False,
                          "axes.spines.right":False, "axes.spines.left":False})
-    fig, axes = plt.subplots(1,3,figsize=(10.6,2.65),sharey=True)
-    fig.subplots_adjust(left=.054,right=.987,top=.71,bottom=.21,wspace=.16)
+    benchmark = series.get("benchmark")
+    fig, axes = plt.subplots(1,3,figsize=(10.6,3.16 if benchmark else 2.65),sharey=True)
+    fig.subplots_adjust(left=.054,right=.987,top=.75 if benchmark else .71,
+                        bottom=.33 if benchmark else .21,wspace=.16)
     roles = {"receiver":("#006e72","o","-"), "observer":("#b44818","s","--")}
     for ax, (split,title) in zip(axes, (("heldout","Held-out · same 100 CVs"),
                                         ("learn","Learning batch · 16 CVs"),
@@ -114,11 +139,11 @@ def render(name, series):
         ax.axhline(.5,color="#85949a",linestyle=":",linewidth=1.2)
         for role,(color,marker,linestyle) in roles.items():
             ax.plot([v["round"] for v in sample],[v[split][role]/series["denominators"][split] for v in sample],
-                    color=color,marker=marker,linestyle=linestyle,lw=1.8,ms=3.4,mfc=("white" if role=="observer" else color),
+                    color=color,marker=marker,linestyle=linestyle,lw=1.8,ms=2.5 if series["through"] > 30 else 3.4,mfc=("white" if role=="observer" else color),
                     mew=.9,clip_on=False)
         end=series["through"]
         ax.set_xlim(-.42,end+.42)
-        step=2 if end<=10 else 5
+        step=10 if end>30 else (2 if end<=10 else 5)
         ticks=list(range(0,end+1,step))
         if ticks[-1]!=end:ticks.append(end)
         ax.set_xticks(ticks);ax.set_xlabel("Round",labelpad=3)
@@ -129,6 +154,14 @@ def render(name, series):
     title = {"frozen":"Frozen observer","mini":"Adaptive GPT-4.1 mini observer","symmetric":"Adaptive Luna observer"}[name]
     fig.text(.054,.925,title + "  ·  Label-decoding accuracy",weight="bold",ha="left",va="center",fontsize=12)
     fig.legend(handles=handles,loc="center right",bbox_to_anchor=(.995,.922),ncol=2,frameon=False,fontsize=10)
+    if benchmark:
+        row = benchmark["rows"]
+        fig.add_artist(plt.Line2D([.054,.987],[.128,.128],color="#ccd6d9",lw=.8,transform=fig.transFigure))
+        fig.text(.054,.059,f"2,000-row benchmark · training-selected round {benchmark['selected_round']}",
+                 fontsize=10, weight="bold", color="#172b36", va="center")
+        for x, role in ((.59,"receiver"),(.80,"observer")):
+            fig.text(x,.059,f"{role.title()}  {row[role]/row['n']:.2%}",color=roles[role][0],
+                     fontsize=10.5, weight="bold", va="center")
     fig.savefig(DIR/f"{name}.png",dpi=180,facecolor="white")
     plt.close(fig)
 
