@@ -1,6 +1,6 @@
 # Testing against a baseline summary
 
-Can a receiver recover an applicant’s university label from a CV summary while an observer struggles to tell that summary apart from an ordinary one? In the completed 50-round experiment, the receiver decoded **100 of 100 held-out labels** at the training-selected checkpoint. Shown the two summaries side by side, the frozen observer identified the communicating sender’s summary in **50 of 100 pairs**. The receiver and observer answered different questions. [Round 47 results][r47]
+Can a receiver recover an applicant’s university label from a CV summary while an observer struggles to tell that summary apart from an ordinary one? At the training-selected checkpoints in both completed runs, the receiver decoded **100/100 held-out labels**. The frozen Luna observer identified the communicating summary in **50/100** pairs. The adaptive GPT-4.1 mini observer identified it in **44/100** held-out pairs and **1,179/2,000 (58.95%)** benchmark pairs. [Frozen checkpoint][r47] · [Mini-observer results](#completed-run--adaptive-gpt-41-mini-observer)
 
 ## What each player sees
 
@@ -34,7 +34,7 @@ The observer showed a strong position preference. At round 47 it picked A on all
 
 The separate **2,000-row benchmark** was run at **round 17**, the checkpoint selected within the original 20 revisions. The receiver scored **1,998/2,000**, the observer **1,207/2,000**, and mean reward was **+0.3955**. Duplicate rows reused predictions for the 1,649 unique CVs. The extension evaluated rounds 47 and 50 on the 100 held-out CVs reported above. [Round 17 benchmark][benchmark] · [Extension completion record][complete]
 
-## Follow-ups — adaptive observers
+## Adaptive observer setup
 
 Both follow-ups start from fresh role histories and use the same CV cohorts, reward, and 50-revision schedule. The adaptive observer keeps its own private file. It knows that the sender and receiver share the identified plain reference, but its own current input is still one blinded A/B pair plus its private history. This corrects the frozen observer’s description of the receiver’s inputs, so a comparison with the frozen run changes both observer memory and that prompt wording. [Adaptive prompts][adaptive-api]
 
@@ -44,6 +44,29 @@ Both follow-ups start from fresh role histories and use the same CV cohorts, rew
 | [Asymmetric model power · adaptive mini][mini] | Luna, both learning | GPT-4.1 mini, learning | How does source detection change when the observer can still learn but uses the smaller model? |
 
 In both designs the observer commits before the 16-CV batch and receives **source feedback only after the entire round is scored**. It then sees which A/B position was correct on the released training and feedback pairs and can update its notes for the next round. The team can review the 16 training outcomes before evaluation. In the symmetric arm, all three players use the same model and can learn, although their inputs and feedback timing differ. Each follow-up schedules the established 2,000-row benchmark at its own training-selected checkpoint. [Feedback schedule][release] · [Symmetric run snapshot][sym-status] · [Mini-observer run snapshot][mini-status]
+
+## Completed run — adaptive GPT-4.1 mini observer
+
+The receiver first decoded all 100 held-out labels at round 6 and scored **99 or 100 in every round from 6 through 50**. Round 24 earned the highest training-feedback reward. The receiver decoded all 15 labels and the mini observer identified 3 of 15 sources, for a mean of **+0.80**. That checkpoint went to the benchmark. [All 51 checkpoints][mini-rounds]
+
+| Checkpoint | Mean training-feedback reward | Held-out receiver label accuracy | Held-out observer source accuracy | Mean held-out reward |
+|---|---:|---:|---:|---:|
+| Round 0 · initial | −0.133 | 55/100 | 56/100 | −0.01 |
+| Round 24 · training-selected | +0.800 | 100/100 | 44/100 | +0.56 |
+| Round 50 · final | +0.467 | 100/100 | 45/100 | +0.55 |
+
+![Mini-observer run, rounds 0–50. Receiver accuracy reaches 100% by round 6. The vertical line marks training-selected round 24.][mini-curve]
+
+**The sender signaled the label through education wording.** At rounds 24 and 50, the sender’s notes associated “graduate in [field]” with `good` and “studied [field]” with `bad`, while keeping the rest close to the plain reference. The receiver looked for explicit study wording and otherwise guessed `good`. The mini observer’s written strategy instead emphasized polish, motivation, and fit for the employer. A separate check that guessed `bad` on the words “studied” or “studying” and `good` otherwise decoded **100/100** communicating summaries at both checkpoints. Applied to the corresponding plain summaries, it scored **50/100** and **51/100**. [Strategy evidence and wording check][mini-strategies]
+
+**Round 24 on the separate benchmark.** The receiver retained **96.30%** label accuracy. The observer’s source accuracy was **58.95%**, compared with **44%** on the 100-CV held-out set. Position preference matters here. The observer chose A on 85/100 held-out pairs when the communicating summary appeared there only 33 times. On the benchmark it chose A on 1,791/2,000 pairs, with the communicating summary in A on 998. This single run provides evidence about this observer’s decisions, and its below-chance held-out score alone cannot establish concealment. [Benchmark and position counts][mini-benchmark]
+
+| Round 24 benchmark | Receiver label accuracy | Plain receiver label accuracy | Observer source accuracy | Mean reward |
+|---|---:|---:|---:|---:|
+| All 2,000 rows | 1,926/2,000 | 1,003/2,000 | 1,179/2,000 | +0.3735 |
+| 1,649 unique CVs | 1,589/1,649 | 819/1,649 | 962/1,649 | +0.3802 |
+
+Duplicate benchmark rows reused their predictions. The matched adaptive-Luna run was still in progress at this update. [Symmetric run snapshot][sym-status]
 
 [game]: reports/testing_against_a_baseline/evidence.md#protocol-and-prompts
 [frozen-config]: reports/testing_against_a_baseline/evidence.md#protocol-and-prompts
@@ -64,3 +87,7 @@ In both designs the observer commits before the 16-CV batch and receives **sourc
 [release]: reports/testing_against_a_baseline/evidence.md#protocol-and-prompts
 [sym-status]: reports/testing_against_a_baseline/evidence.md#symmetric-follow-up
 [mini-status]: reports/testing_against_a_baseline/evidence.md#mini-observer-follow-up
+[mini-rounds]: reports/testing_against_a_baseline/evidence.md#mini-observer-checkpoint-metrics
+[mini-strategies]: reports/testing_against_a_baseline/evidence.md#mini-observer-strategies
+[mini-benchmark]: reports/testing_against_a_baseline/evidence.md#mini-observer-benchmark
+[mini-curve]: reports/testing_against_a_baseline/mini_through_round_050.png
