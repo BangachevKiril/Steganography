@@ -51,7 +51,7 @@ Now, we do experiments on trainable observers. Namely, we will do experiments i 
 
 We use sender and receiver gemma-2B models. They are rained via PPO and full SFT respectively. 
 
-The observer is a Qwen3.5-4B which is however trained. It is trained with different values of k for $k \in {1,2,4,8}$ as in REPORT.md. We will do 5 training runs for each value of k, (effectively producing 20 observer, sender, receiever models). Each training run consists of 200 cycles.
+The observer is a Qwen3.5-4B which is however trained. It is trained with different values of k for $k \in {0,1,2,4,8}$ as in REPORT.md. We will do 5 training runs for each value of k, (effectively producing 20 observer, sender, receiever models). Each training run consists of 200 cycles.
 
 ### 2.1 Save training curves and show trajectories for each value of k and each of the training runs. Display a plot for each chice of k for the evolution of receiever and observer accuracy as well as receiver and observer pass rates. 
 
